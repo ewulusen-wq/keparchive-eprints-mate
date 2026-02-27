@@ -1,0 +1,38 @@
+######################################################################
+#
+# User Roles
+#
+#  Here you can configure which different types of user are 
+#  parts of the system they are allowed to use.
+#
+######################################################################
+$c->{user_roles}->{user} = [qw/
+       general
+       edit-own-record
+       saved-searches
+       deposit
+/],
+$c->{user_roles}->{editor} = [qw/
+       general
+       edit-own-record
+       saved-searches
+       deposit
+       editor
+       view-status
+       staff-view
+/],
+$c->{user_roles}->{admin} = [qw/
+       general
+       edit-own-record
+       saved-searches
+       deposit
+       editor
+       view-status
+       staff-view
+       admin
+/],
+$c->{user_roles}->{minuser} = [qw/
+       saved-searches
+       no_edit_own_record
+       lock-username-to-email
+/];

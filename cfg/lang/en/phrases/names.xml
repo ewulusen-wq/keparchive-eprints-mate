@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+<!--
+Phrases supplied by Names plugin to alter label for Creator, Contributor and Editor identifier fields
+Mimas, University of Manchester 2011
+-->
+    <epp:phrase id="eprint_fieldname_contributors_id">Identifier</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators_id">Identifier</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_creators">
+        Type three letters of the Family Name to begin searching the Names identity service. You can narrow the search further by typing an initial into the Given Name / Initials box. Move the cursor down the drop down list to show information about the person to help in identification.
+        Otherwise, enter the name in the format given on the first page or title page. If there are more than four authors, click on the [More&nbsp;input&nbsp;rows] button.
+        To have your own details added to the Names identity service, visit <a href="http://names.mimas.ac.uk/submit" target="_new">http://names.mimas.ac.uk/submit</a>.
+<br/>    
+<br/>Example: [<span class="ep_form_example">Chance-Collins</span>] [<span class="ep_form_example">Chris</span>] [<span class="ep_form_example">http://names.mimas.ac.uk/individual/42131</span>]
+<br/>Example: [<span class="ep_form_example">Smith</span>] [<span class="ep_form_example">J.P.</span>] [<span class="ep_form_example">j.smith@soton.ac.uk</span>]
+<br/>Example: [<span class="ep_form_example">Fu</span>] [<span class="ep_form_example">Yan-Li</span>] []
+<br/>Example: [<span class="ep_form_example">von Höpfner</span>] [<span class="ep_form_example">Ludwig G.</span>] []
+    </epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_editors_id">Identifier</epp:phrase>
+    <epp:phrase id="eprint_fieldhelp_editors">
+        Type three letters of the Family Name to begin searching the Names identity service. You can narrow the search further by typing an initial into the Given Name / Initials box. Move the cursor down the drop down list to show information about the person to help in identification.
+        Otherwise, enter the name in the format given on the first page or title page. If there are more than four editors, click on the [More&nbsp;input&nbsp;rows] button.
+        To have your own details added to the Names identity service, visit <a href="http://names.mimas.ac.uk/submit" target="_new">http://names.mimas.ac.uk/submit</a>.
+<br/>    
+<br/>Example: [<span class="ep_form_example">Chance-Collins</span>] [<span class="ep_form_example">Chris</span>] [<span class="ep_form_example">http://names.mimas.ac.uk/individual/42131</span>]
+<br/>Example: [<span class="ep_form_example">Smith</span>] [<span class="ep_form_example">J.P.</span>] [<span class="ep_form_example">j.smith@soton.ac.uk</span>]
+<br/>Example: [<span class="ep_form_example">Fu</span>] [<span class="ep_form_example">Yan-Li</span>] []
+<br/>Example: [<span class="ep_form_example">von Höpfner</span>] [<span class="ep_form_example">Ludwig G.</span>] []
+    </epp:phrase>
+</epp:phrases>

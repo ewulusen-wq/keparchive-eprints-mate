@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+	<epp:phrase id="cookies_title">Cookies</epp:phrase>
+	<epp:phrase id="cookies_action_accept">Accept</epp:phrase>
+	<epp:phrase id="cookies_help"><epc:phrase ref="archive_name" /> uses cookies to store user data when you log in. It also uses Google Analytics to help improve the service offered.<br /><br />
+To find out more please visit our <a href="{$config{base_url}}/cookies.html">cookies</a> information page.</epp:phrase>
+	<epp:phrase id="cookies_post_button_message">By clicking accept and continuing to use this site, you agree to allow the use of cookies.</epp:phrase>
+	<epp:phrase id="cookies_main_institute_site">http://www.gla.ac.uk</epp:phrase>
+
+
+</epp:phrases>

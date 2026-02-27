@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+    <epp:phrase id="Plugin/Screen/EPrint/RequestRemoval:description">Törlési kérelem benyújtása. Indoklás szükséges! Nem hibajavításra szolgál! Hibajavításhoz küldjön inkább levelet a diszterhoft.zoltan@uni-mate.hu címre!</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/NewVersion:action:new_version:description">Ezt használja a tétel új verziójának beküldésére. Ez egy pontos másolatot készít, amit azután szerkeszthet. Ez a régi verzióval össze lesz majd kapcsolva. Nem hibajavításra szolgál! Hibajavításhoz küldjön inkább levelet a diszterhoft.zoltan@uni-mate.hu címre!</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Staff/ChangeOwner:action:changeowner:description">Tétel tulajdonosának megváltoztatása</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Staff/ChangeOwner:action:changeowner:title">Tulajdonosváltás</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Staff/Reindex:action:reindex:title">Tétel újraindexelése</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Staff/Reindex:action:reindex:description">Besorolja a tételt újraindexelésre.</epp:phrase>
+
+    <epp:phrase id="lib/session:edit_phrases">A lap szövegeinek szerkesztése</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config:description">A repozitórium konfigurációjának megtekintése.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config:title">Konfiguráció megnézés</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Phrases:description">A rendszerben használatos szövegek módosítása.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Phrases:title">Felirat szerkesztő</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/RegenAbstracts:action:regen_abstracts:description">Újra elkészíti a tartalmi kivonatok lapjait a következő
+letöltés előtt.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/RegenAbstracts:action:regen_abstracts:title">Kivonat frissítés</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/RegenViews:action:regen_views:description">A nézeteket újra legyártja a következő letöltésre.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/RegenViews:action:regen_views:title">Nézetek újragyártása</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Reload:action:reload_config:description">Újraolvastatja e repozitóriummal a konfigurációját. Óvatosan használandó!</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Reload:action:reload_config:title">Konfiguráció beolvasás</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/TestEmail:description">Az e-mail beállítások ellenőrzése próba levél küldésével.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/TestEmail:title">Teszt levél küldése</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/View:description">Metaadat mezők hozzáadása vagy törlése</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/View:title">Metadatatmezők kezelése</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Subject/Check:description">Szakterület-besorolás fa épségének ellenőrzése</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Listing:description">Metaadat mezők hozzáadása v. törlése</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/MetaField/Listing:title">Metaadat mező kezelés</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Documents:show_options">Opciók - láthatóság beállítása</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Documents:hide_options">Opciók elrejtése</epp:phrase>
+
+    <epp:phrase id="Plugin/InputForm/Component/Upload:help"><p style="margin-top: 0px">Ha fel akar tölteni egy dokumentumot a repozitóriumba, kattintson a Böngészés (Browse) gombra a fájl kiválasztásához, majd a Feltöltés (Upload) gombra az archívumba való feltöltéshez. Ezután lehetősége lesz további állományok hozzáadására (mint például képek), vagy további dokumentumok feltöltésére.</p><p style="margin-bottom: 0px">Alkalmasint használhatja a <a href="http://www.sherpa.ac.uk/romeo.php" target="_blank">SHERPA RoMEO</a> eszközt , hogy megbizonyosodjon az egyes kiadók politikáiról még a feltöltés előtt.</p>
+<p style="margin-bottom: 0px">
+A dokumentum láthatóságának a korlátozását az opcióknál a +-ra kattintva teheti meg.</p></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:admin_actions_editorial">Szerkesztői eszközök</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:admin_actions_system">Rendszer eszközök</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin:admin_actions_config">Konfigurációs eszközök</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/IssueSearch:title">Felvetések keresése</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/IssueSearch:description">A kurrens tételekkel kaopcsolatban felmerült kérdések, felvetések keresése.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/IndexerControl:action:force_start_indexer:title">Indexelő újraindítás</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/IndexerControl:action:force_start_indexer:description">Határozottan leállítja és kitisztogatja az indexelőt, majd erőltetetten újraindítja.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/UpdateDatabase:action:update:description">Az adatbázis frissítése a pillanatnyi konfigurációnak megfelelően.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/UpdateDatabase:action:update:title">Adatbázis frissítés</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/StorageManager:title">Tárhely kezelő</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/StorageManager:description">A repozitórium hibrid tárhely beállításainak kezelése, állományok migrálását beleértve.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_patent_applicant">Szabadalom igénylő</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_conference_item">Poszter vagy előadás cikk változata (absztrakt vagy teljes terjedelmű közlemény), ami egy Kaposvári Egyetem által szervezett konferencia vagy workshop ISBN-szám nélküli kiadványában jelent meg.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Public/RequestCopy:title">Másolat kérés a szerzőtől</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_refereed">Lektorált</epp:phrase>
+
+    <epp:phrase id="request_fieldname_reason">Név, munkahely, a kérés indoklása</epp:phrase>
+
+	<epp:phrase id="eprint_fieldname_fp7">FP7 projektre vonatkozó adatok</epp:phrase>
+	
+    <epp:phrase id="eprint_fieldname_fp7_project">FP7 projekt eredményét tartalmazza a közlemény</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_fp7_project_id">FP7 projekt azonosító száma</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_access_rights">A szerződésben előírt hozzáférés</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_fp7_project_no">Nem</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_fp7_project_yes">Igen</epp:phrase>
+	
+	<epp:phrase id="eprint_fieldopt_access_rights_">Kérjük, válasszon...</epp:phrase>
+	
+	<epp:phrase id="eprint_fieldopt_related_url_type_">Kérjük, válasszon...</epp:phrase>
+	
+	
+	
+    <epp:phrase id="eprint_fieldopt_access_rights_info:eu-repo/semantics/closedAccess">Zártkörű hozzáférés</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_access_rights_info:eu-repo/semantics/openAccess">Nyílt hozzáférés (open access)</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_access_rights_info:eu-repo/semantics/restrictedAccess">Korlátozott hozzáférés</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_access_rights_info:eu-repo/semantics/embargoedAccess">Nyílt hozzáférés embargó időszak után</epp:phrase>
+	
+
+
+    <epp:phrase id="eprint_typename_article">Cikk</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_article">A Kaposvári Egyetem saját kiadású folyóirataiban vagy más periodikáiban megjelent cikk. Nem feltétlenül referált. Megjelenhet csak elektronikus formában is</epp:phrase>
+
+    <epp:phrase id="eprint_typename_book_section">Könyvrészlet</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_book_section">Egységes tematikájú szakkkönyv vagy tanulmánykötet részeként megjelenő, szerzővel, címmel, meghatározott terjedelemmel rendelkező, illetve önálló, kisebb egységként leírható (fejezet, szaktanulmány, szócikk stb.) publikációs forma. Megjelenhet csak elektronikus formában is</epp:phrase>
+
+    <epp:phrase id="eprint_typename_book">Könyv</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_book">Ide tartoznak a Kaposvári Egyetem által kiadott szakkönnyvek, monográfiák, tanulmánykötetek, az ISBN-számmal ellátott konferenciakötetek, a tankönyvek és lektorált jegyzetek, illetve az önálló kiadványként megjelenő műhelytanulmányok.  Továbbá a forráskiadások, kritikai kiadások, bibliográfiák/ repertóriumok, ISBN-számmal ellátott katalógusok, kézikönyvek (enciklopédia, lexikon, szótár stb.)., illetve a szépirodalmi alkotások is. Az 1972 után megjelent könyvek többnyire ISBN-számmal rendelkeznek. Megjelenhetnek csak elektronikus formában is.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_conference_item">Egyéb konferenciaközlemény</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_patent">Közzétett szabadalom.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_patent">Oltalmi forma</epp:phrase>
+
+    <epp:phrase id="eprint_typename_experiment">Kisérlet / Tudományos adat</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_experiment">Kísérleti adatok közbenső elemzésekkel és összefoglaló eredményekkel. / Közzétett tudományos, kutatási adatok. Olyan mérési, felmérésekből származó vagy számított tudományos adatok, melyek nyilvánosan hozzáférhetőek, hivatkozhatóak és nem képezik részét egy publikációnak (pl. nem egy folyóiratcikk függeléke stb.). </epp:phrase>
+
+    <epp:phrase id="eprint_typename_monograph">Dokumentáció</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_monograph">Kutatási jelentés, projektbeszámoló, munkabeszámoló stb.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_teaching_resource">Oktatási erőforrás</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_teaching_resource">Előadások, gyakorlatok, vizsgairatok vagy tanfolyamok anyaga (ppt-k, tematikák stb.).</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_video">Digitális videó. Szerzői, szerkesztői névvel jegyzett műsor, film.</epp:phrase>
+
+    <epp:phrase id="eprint_typename_video">Video</epp:phrase>
+
+    <epp:phrase id="eprint_typename_audio">Audio</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_audio">Szerzői, szerkesztői névvel jegyzett hangfelvétel</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_dataset">Tartós informatikai adathordozón közreadott vagy hálózati szolgáltatáson keresztül elérhető digitalizált, kereshető adatállomány, amelyet adatmezőkből álló rekordok rendezett halmaza alkot. </epp:phrase>
+
+    <epp:phrase id="eprint_typename_dataset">Adatbázis</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_other">Minden olyan közlemény, ami az előzőekben felsorolt altípusokba nem sorolható be, pl. kézirat, amelyre hivatkoztak</epp:phrase>
+
+    <epp:phrase id="eprint_typename_thesis">Értekezés</epp:phrase>
+
+    <epp:phrase id="eprint_optdetails_type_thesis">Tudományos fokozat, illetve cím elnyerése céljából készített, elfogadott, archivált tudományos értekezés és annak tézisei.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_eprint_status">Tétel állapota</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_creators">Szerző (folyóiratszám szerkesztője)</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_corp_creators">Olyan cégek, amelyek a mű szerzőinek tekintendők.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_divisions">Az az intézményi egység, amely a közlemény affiliációjában szerepel.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_creators">Szerzők, készítők, de nem közreműködők. </epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_date_type">Dátum milyen eseményt jelez.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_publication">Folyóirat vagy publikáció címe</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_publication">A folyóirat, újság vagy egyéb periodika címe. </epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_title">A mű címe. A cím végén a pontot nem kell kitenni, kérdőjelet lehet. Nincs mód dőlt betűs szöveg alkalmazására. Ha van alcím, azt egy kettősponttal kell a címtől elválasztani. <p>
+Példa:<span class="ep_form_example"> A brief history of time </span></p>
+<p>Példa: <span class="ep_form_example">Life: an unauthorised biography </span></p>
+<p>Példa: <span class="ep_form_example">Mathematics for engineers and scientists. 5th edition </span></p>
+<p>Példa: <span class="ep_form_example">Ecosystems of the world. Vol. 26. Estuaries of the world</span></p></epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ADP">Átdolgozó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/AFT">Utószó, kolofon stb. szerzője</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ANM">Animátor</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ANN">Jegyzetelő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ANT">Bibliográfiai előzmény</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/APP">Pályázó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/AQT">Idézet, kivonat eredetijének szerzője</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ARR">Zenei átíró</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ASG">Licencbirtokos
+</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ASN">Kapcsolódó név</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ATT">Tulajdonított név</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/AUC">Árverésvezető
+</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/AUD">Dialógus szerzője</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/AUI">Bevezető stb. szerzője</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/AUS">Forgatókönyvíró</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/BDD">Könyvkötéstervező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/BJD">Könyvborító-tervező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/BKD">Könyvtervező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/BKP">Könyvelőállító</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/BND">Könyvkötő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/BPD">Könyvjegytervező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/BSL">Könyvkereskedő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CCP">Ötletgazda</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CLB">Munkatárs</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CLI">Kliens</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CLL">Kalligráfus</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CLT">Fénynyomáskészítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CMM">Kommentátor</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CMP">Zeneszerző</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CMT">Szedő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CNS">Cenzor</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/COE">Pert indító fél-fellebbezés alperese</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/COM">Összeállító</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/COS">Pert indító fél</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/COT">Pert indító fél-fellebbező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/COV">Könyvfedéltervező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CPC">Szerzői jogi igényt érvényesítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CPE">Panaszos-fellebbezés alperese</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CPL">Panaszos
+</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CPT">Panaszos-fellebbező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CRE">Alkotó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CRP">Levelező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CRR">Korrektor</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CSP">Projekttanácsadó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CTE">Beperelt fél-fellebbezés alperese</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CTR">Vállalkozó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CTS">Beperelt fél</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CTT">Beperelt fél-fellebbező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/CWT">Írott szöveg kommentárírója</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DFD">Vádlott</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DFE">Vádlott-fellebbezés alperese</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DFT">Vádlott-fellebbező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DGG">Diplomaadományozó intézmény</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DIS">Disszertáció-készítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DLN">Előrajzoló</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DPC">Ábrázolás tárgya</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DRM">Műszaki rajzoló</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DRT">Rendező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DSR">Tervező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DST">Terjesztő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DTE">Ajánlás címzettje</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DTO">Ajánló</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/DUB">Feltételezett szerző</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/EGR">Metsző</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ELT">Galvánklisé-készítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ENG">Mérnök</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ETR">Rézmetsző</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/EXP">Szakértő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/FAC">Fakszimile-készítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/FLM">Fimszerkesztő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/FMO">Korábbi tulajdonos</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/FND">Hitelező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/FPY">Első fél</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/FRG">Hamisító</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/HNR">Díjazott</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/HST">Műsorvezető</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ILU">Illuminátor</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/INS">Ajánlás/dedikálás írója</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/INV">Feltaláló</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ITR">Hangszeres zenész</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LBT">Szövegkönyvíró</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LEE">Sértett rágalmazási perben - fellebbezés alperese</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LEL">Sértett rágalmazási perben</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LEN">Kölcsönző</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LET">Sértett rágalmazási perben - fellebbező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LGD">Világítástervező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LIE">Panaszt tevő rágalmazási ügyben - fellebbezés alperese
+</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LIL">panaszt tevő rágalmazási ügyben</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LIT">panaszt tevő rágalmazási ügyben - fellebbező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LSA">Tájépítész</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LSE">Engedély jogosultja</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LSO">Engedélyező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LTG">Litográfus</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/LYR">(dal)szövegíró</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/MDC">Metaadat-felelős</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/MFR">Gyártó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/MOD">Moderátor</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/MON">Monitorozó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/MRK">Jelölő-szerkesztő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/MTE">Fém-vésnök</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/OPN">Opponens</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ORG">Értelmi szerző</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/ORM">Szervező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/OWN">Tulajdonos</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PAT">Pártfogó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PBD">Kiadásvezető</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PBL">Szolgáltató</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PFR">(nyomdai) korrektor</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PLT">Lemezkészítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/POP">Nyomólemez-készítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PPM">Papírgyártó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PPT">Bábművész</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PRC">Folyamat-összekötő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PRD">Produkciós személyzet</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PRG">Programozó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PRM">Nyomatkészítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PRO">Producer</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PRT">Nyomdás</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PTA">Szabadalom-bejelentő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PTE">Perbehívó-fellebbezés alperese</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PTF">Perbehívó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PTH">Szabadalom-birtokos</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/PTT">Perbehívó-fellebbező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/RBR">Rubricator</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/RCE">Felvételmérnök</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/RCP">Címzett</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/RED">Műszaki szerkesztő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/REN">Renderelő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/REV">Recenzens</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/RPY">Felelős fél</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/RSE">Válaszadó-fellebbezés alperese</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/RSG">[darabot] újra színpadra vivő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/RST">Válaszadó-fellebbező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/RTM">Kutatócsoport tag</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/SCE">(némafilm) forgatókönyvíró</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/SCR">Könyvmásoló</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/SEC">Titkár</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/SGN">Szignáló</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/SPK">Szónok</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/SPN">Szponzor</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/SPY">Második fél</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/SRV">Földmérő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/STD">Díszletépítész</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/STL">Mesemondó</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/STN">Szabványosító testület</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/STR">Klisékészítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/TCH">Tanár</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/TRC">Átíró</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/TYD">Típustervező</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/TYG">Tipográfus</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/VDG">Videókészítő</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/VOC">Vokalista</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/WAM">Kísérő anyag írója</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/WDC">Fametsző</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/WDE">Favéső</epp:phrase>
+
+    <epp:phrase id="contributor_type_typename_http://www.loc.gov/loc.terms/relators/WIT">Tanú</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/Perl:title">Konfigurációs fájl: <epc:pin name="file"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/View/Perl:page_title">Konfigurációs fájl: <epc:pin name="file"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/Config:inline_edit_title">Konfigurációs fájl szerkesztése</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/NamedSet:page_title"> </epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/NamedSet:intro"/>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:external_edit_description">Here you can download the entire page to edit offline using editors such as frontpage and re-upload it back into EPrints. Image manipulation is not supported.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:change_image">	
+Change:</epp:phrase>
+
+    <epp:phrase id="lib/searchexpressionaction_search"> </epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:external_edit_title">Edit using external Editor</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:image_editor">Change/Upload Images</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:page_title">Edit XPage config file: <epc:pin name="file"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:intro"> </epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:really_next">Next?</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:upload">Upload</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:upload_html">Upload HTML (encapsulated)</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit:documentation"><p xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="link">Dokumentáció</epc:pin>.</p></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit:download_full_file">Download as HTML (encapsulated)</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Reload:title">Konfiguráció Újratöltése</epp:phrase>
+
+    <epp:phrase id="XML/EPC:script_error">[error in script]</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_book_title">A könyv címe.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_editors">Írja be a Családnév három betűjét, hogy elkezdje keresni a Neveket azonosító szolgáltatásban. A keresést tovább szűkítheti, ha beírja a Család nevet / Keresztnevet mezőbe. Mozgassa a kurzort a legördülő listára, hogy megjelenítse a személy azonosításához szükséges információkat.
+Ellenkező esetben adja meg a nevet az első oldalon vagy a címoldalon megadott formátumban. Ha több mint négy szerkesztő van, kattintson a[További bemeneti sorok] gombra.
+ Ahhoz, hogy saját adatait hozzáadja a Névazonosító szolgáltatáshoz, látogasson el a <a href="http://names.mimas.ac.uk/submit" target="_new">http://names.mimas.ac.uk/submit</a>-ra.
+<br/>    
+<br/>Példa [<span class="ep_form_example">Chance-Collins</span>] [<span class="ep_form_example">Chris</span>] [<span class="ep_form_example">http://names.mimas.ac.uk/individual/42131</span>]
+<br/>Example: [<span class="ep_form_example">Smith</span>] [<span class="ep_form_example">J.P.</span>] [<span class="ep_form_example">j.smith@soton.ac.uk</span>]
+<br/>Example: [<span class="ep_form_example">Fu</span>] [<span class="ep_form_example">Yan-Li</span>] []
+<br/>Example: [<span class="ep_form_example">von Höpfner</span>] [<span class="ep_form_example">Ludwig G.</span>] []</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_editors_orcid">ORCID</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_series">Annak a sorozatnak a címe, amelyben a mű megjelent. 
+Példa:Annak a sorozatnak a címe, amelyben a mű megjelent.  <br/> 
+Példa:<span class="ep_form_example">
+ Elsevier Oceanography Series</span>
+</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_pages">A teljes oldalszám. <br/>  
+Példa: <span class="ep_form_example">123</span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_isbn">	
+A könyv egyedi szabványos azonosítója. <br/>
+Példa:<span class="ep_form_example"> 1 871438 57 8 </span> <br/> 
+Példa: <span class="ep_form_example">067157826X</span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_paper">Cikk</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_lecture">Előadás</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_speech">Beszéd</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_poster">Poszter</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_other">Egyéb</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pres_type_keynote">Nyitóelőadás</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_pres_type">A konferencián vagy workshop-on előadott anyag típusa.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_event_type">Az adott rendezvény típusa.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_event_type_conference">Konferencia</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_event_type_other">Egyéb</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_event_type_workshop">Workshop</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_event_title">A konferencia v. workshop címe. <br/>
+Példa: <span class="ep_form_example">11th Conference of Pan-Hellenic Librarians </span><br/>
+Példa:  <span class="ep_form_example">SIGIR 2001</span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_event_location">Az a város és ország, ahol a konferencia stb. volt. Ha a város nem ismert, adja meg csak az országot. <br/>
+Példa: <span class="ep_form_example">Rome, Italy </span><br/>
+Példa: <span class="ep_form_example">Greece</span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_event_dates">A konferencia v. rendezvény kezdete és vége. <br/>
+Példa:<span class="ep_form_example"> 13-15 Dec 2003 </span><br/>
+Példa: <span class="ep_form_example">31 Oct - 02 Nov 1999</span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_monograph_type">Válaszza ki a dokumentáció típusát!</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_technical_report">Technikai beszámoló</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_project_report">Munkabeszámoló</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_documentation"> Dokumentáció</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_manual">Használati útmutató</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_working_paper">Helyzetjelentés</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_discussion_paper">Vitaanyag</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_monograph_type_other">Egyéb</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_institution">Adja meg azt az intézményt, ahol a mű keletkezett. <br/>
+Példa: <span class="ep_form_example">University of Southampton</span><br/>
+Példa:<span class="ep_form_example">MTA Konkoly-Thege Miklós Csillagászati Kutatóintézet</span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_institution">Intézmény</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_department">Szervezeti egység</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_divisions">Intézet</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_department">Adja meg azt a szervezeti egységet (tanszéket, osztályt) ahol a mű született. <br/>
+Példa: <span class="ep_form_example">School of Electronics and Computer Science</span><br/>
+Példa: <span class="ep_form_example">Szervetlen Kémiai Tanszék</span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_patent_applicant">A kérelmező neve, akinek a szabadalmat megadták. Lehet személy vagy szervezet.<br/>
+Példa: <span class="ep_form_example"> Purdue Kutatóintézet </span><br/>
+Példa: <span class="ep_form_example"> John K. Ducklingson </span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_completion_time">A befejezéshez szükséges hozzávetőleges tanulási idő.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_copyright_holders">Olyan személy, cég vagy testület, amely az adott tárgy szerzői jogát birtokolja.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_learning_level">A tanulási szint. Ez egy nemzeti / nemzetközi keretrendszerhez kapcsolódik, amely lehetővé teszi az erőforrások egyszerű összehasonlítását.<br/>
+Példa: <span class="ep_form_example"> 1-3 áttörés </span><br/>
+Példa: <span class="ep_form_example"> GCSE </span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_pedagogic_type">Az erőforrást meghatározó pedagógiai típus.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_skill_areas">A képzettségi területek.<br/>
+Példa: <span class="ep_form_example"> Nyelvtanulás </span></epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_task_purpose">A feladatok fő céljának vázlata.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_task_purpose">Feladat Cél</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pedagogic_type_activity">Tevékenység</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pedagogic_type_case">Ügy</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pedagogic_type_collaboration">Együttműködés</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pedagogic_type_communication">Kommunikáció</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pedagogic_type_enquiry">Vizsgálat</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pedagogic_type_presentation">Bemutató</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_pedagogic_type_problem">Probléma</epp:phrase>
+
+    <epp:phrase id="Plugin/Import/PDF:action_bibliography">Bibliography</epp:phrase>
+
+    <epp:phrase id="Plugin/Import/PDF:action_metadata">Metaadat</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Document/Extract:action_merge">Meglévő adatokkal összekapcsolása.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Document/Extract:action_replace">A meglévő adatok cseréje</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Document/Extract:help">Próbálja meg az alábbi információkat kinyerni a dokumentumból:</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Document/Convert:title">Dokumentumformátum konvertálása</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config:add_directory">Könyvtár létrehozása</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config:add_file">Fájl hozzáadása</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/View/Template:page_title">Konfig fájl megtekintése: <epc:pin name="file"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/Template:title">Dokumentum szerkesztése</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_separat_type">Kérem válasszon egyet az alábbi mezőkből mely a legjobban meghatározza az ön által feltöltött elemet.</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_separat_type">Elem besorolása</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_separat_type_art">Művészeti</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_separat_type_educational">Oktatási</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_separat_type_non-classified">Nem besorolt</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_separat_type_public">Közérdekű</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_separat_type_scientific">Tudományos</epp:phrase>
+
+    <epp:phrase id="template/navigation:about">A repozitóriumról</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/NewEPrint:action:create:title">Új közlemény</epp:phrase>
+
+    <epp:phrase id="archive_name">MATE Repozitórium</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_name">Az Ön neve</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_country">Ország</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_address">Cím</epp:phrase>
+
+    <epp:phrase id="metapage_title_orcid">ORCID</epp:phrase>
+
+    <epp:phrase id="lib/metafield/boolean:default_radio_list"/>
+
+    <epp:phrase id="user_fieldhelp_dept">Intézet</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_org">Szervezet</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_url">Honlap címe</epp:phrase>
+
+    <epp:phrase id="user_fieldname_orcid">ORCID</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_roles">Ez a mező lehetővé teszi, hogy a rendszergazda szerepeket rendelhessen a felhasználóhoz. Használhatja az egyéni jogosultságok hozzárendelését is (és eltávolíthatja) a priv-karakterlánc plusz (+) vagy mínusz (-) előtagjával.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Developer:action_download">Letöltés</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM:description">View configuration files for this repository.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/IssueSearch2:title">Dupmlum kereső</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Staff/IssueSearch2:description">Search for duplicate records.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM:title">EPrints Bazaar</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_dates">Dátum</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues2">Duplum</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues2_count">Számolás</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_sword_depositor">SWORD Depositor</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_sword_slug">SWORD Slug</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_thesis_name">Tézis neve</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_thesis_type">Tézis típusa</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/EPrint/Issues2:title">Duplum</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_username">Felhasználóneve</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_usertype">Felhasználó típusa</epp:phrase>
+
+    <epp:phrase id="user_fieldhelp_joined">Csatlakozva</epp:phrase>
+  <epp:phrase id="Plugin/Screen/Admin/Config/Edit/Perl:intro">Intro</epp:phrase>
+   <epp:phrase id="Plugin/Screen/Admin/Config/Edit/Perl:page_title">page title</epp:phrase>
+   <epp:phrase id="Plugin/Screen/Admin/Config/Edit:file_saved">File Saved</epp:phrase>
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/Phrase:intro">Intro</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/Phrase:page_title">Page Title</epp:phrase>
+
+    <epp:phrase id="licenses_description_cc_by_nc_nd_4"><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution Non-commercial No Derivatives</a></epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_subjects">Szakterület(ek)</epp:phrase>
+
+    <epp:phrase id="subject_fieldname_name">Szakterület(ek)</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_separat_type_dissemination">Ismeretterjesztő</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:/activities/update_select_description">
+Allows <epc:phrase ref="archive_name"/> to add details of your publications to your ORCID record and update the details of publications which have already been added to your ORCID record by <epc:phrase ref="archive_name"/>.<br/><br/>
+Upon allowing this permission, <epc:phrase ref="archive_name"/> will also attempt to update your employment or education acitivities. Please see <a href="/orcid_support_advance.html#updating-affiliation" target="_blank">Updating Employment/Education Activities</a> for more information.
+</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:/activities/update_select_text">Create and update activities on your ORCID record</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:/authenticate_select_description">Allows <epc:phrase ref="archive_name"/> to link your ORCID id with your <epc:phrase ref="archive_name"/> record. This is the minimum permission required and is therefore uneditable</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:/authenticate_select_text">Connect to ORCID</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:/read-limited_select_description">Allows <epc:phrase ref="archive_name"/> to retrieve details from your ORCID profile that are restricted to your trusted parties only</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:/read-limited_select_text">Retrieve restricted details from your ORCID profile</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:admin_disconnect_button">Disconnect from ORCID</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:confirm_erase_dialog">Are you sure?\nOnce removed we will not be able to maintain the user's ORCID record until they reauthenticate with ORCID</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:local_user_connect_orcid_button">Create or Connect your ORCID iD</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:orcid/connect"><img class="orcid-icon" src="/images/orcid_16x16.png"/>Connect to ORCID</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:orcid_info"><p>For more information about connecting to ORCID, <a href="/orcid_support_advance.html" target="_blank">click here</a>.</p></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:orcid_initial_connect">Before you can use your ORCID you must first either connect your <epc:phrase ref="archive_name"/> account to your ORCID record, or create an ORCID if you do not already have one.</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/ManageOrcid:user_header">ORCID details for <epc:pin name="user_name"/></epp:phrase>
+
+    <epp:phrase id="irstats2/view/export_section">
+<form xmlns:epc="http://eprints.org/ep3/control" action="/cgi/stats/get" method="get">
+<epc:pin name="params"/>
+Export as <epc:pin name="options"/>
+<input type="submit" value="Export"/> 
+</form>
+</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/datepicker">
+<div xmlns:epc="http://eprints.org/ep3/control" class="irstats2_datepicker_inner">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" style="border-collapse: collapse;">
+<tr>
+<td style="font-weight: bold;padding: 5px;border:1px solid #CCC" valign="middle" align="center">Select dates:</td>
+<td style="padding: 5px;border:1px solid #CCC">
+	<form id="irstats2_datepicker">
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+	<td><label for="sd" style="width: 30px;">Start Date : </label></td>
+	<td><input type="text" class="w8em format-y-m-d highlight-days-67 range-high-today" name="from" id="sd" value="" maxlength="10"/></td>
+	</tr>
+	<tr>
+	<td><label for="ed" style="width: 30px;">End Date : </label></td>
+	<td><input type="text" class="w8em format-y-m-d highlight-days-67 range-high-today" name="to" id="ed" value="" maxlength="10"/></td>
+	<td align="center" rowspan="2"><input type="submit" value="View" style="margin-left:25px;" class="ep_form_action_button"/></td>
+	</tr>
+	</table>
+	</form>
+</td>
+</tr>
+<tr>
+<td style="font-weight: bold; padding: 5px;border:1px solid #CCC" valign="middle" align="center">-OR- select a range:</td>
+<td style="padding: 5px;border:1px solid #CCC">
+	<form>
+	<epc:pin name="ranges"/>
+	<input type="submit" name="view_range" value="View" class="ep_form_action_button"/>
+	</form>
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+     document.observe( "dom:loaded", function() {
+		new EPJS_Stats_Placeholder( 'sd', 'YYYY/MM/DD' );
+		new EPJS_Stats_Placeholder( 'ed', 'YYYY/MM/DD' );
+     } );
+</script>
+</div>
+</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/dates:forever"><span class="irstats2_date_label">All</span></epp:phrase>
+
+    <epp:phrase id="lib/irstats2/dates:granularity:m">Hónap</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/dates:granularity:plural:m">Hónapok</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/dates:granularity:y">Év</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/dates:range"><span xmlns:epc="http://eprints.org/ep3/control" class="irstats2_date_label">Past <epc:pin name="value"/> <epc:pin name="granularity"/></span></epp:phrase>
+
+    <epp:phrase id="lib/irstats2/header:available_reports">Available Reports</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/header:dates">Dates</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/header:filter_items">Filter Items</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:authors">Authors</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:divisions">University structure</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:eprintid">EPrint ID</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:repository">All items</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:subjects">Subjects</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/sets:type">Item type</epp:phrase>
+
+    <epp:phrase id="lib/irstats2/type:downloads">Downloads</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:category:advanced">Advanced</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:category:general">General</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:category:most_popular">Most popular</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:advanced:deposits">Deposits</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:advanced:requests">Requests</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:general:compare_years">Comparison per year</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:general:main">Summary</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:main">Statistics</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:most_popular:most_popular_authors">Authors</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:report:most_popular:most_popular_eprints">Authors</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:view:top_authors">Top Authors</epp:phrase>
+
+    <epp:phrase id="lib/irstats2:view:top_downloads">Most downloaded items</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/IRStats2/Report:title">Repository Statistics</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:deposits">Number of deposits</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:downloads">Number of downloads</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:metric:plural:deposits">Items</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:metric:plural:downloads">Downloads</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:metric:ratio_fulltext">Full text</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:metric:ratio_openaccess">Open access</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:ratio_fulltext">Percentage of items containing a fulltext document</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:ratio_openaccess">Percentage of items containing a fulltext document and is open access</epp:phrase>
+
+    <epp:phrase id="Plugin/Stats/View/KeyFigures:title">Activity Overview</epp:phrase>
+
+    <epp:phrase id="lib/searchfield:help_counter">Enter a single ID (e.g. 93), or a range of IDs, e.g. `17-23' or `17-'. </epp:phrase>
+
+    <epp:phrase id="ordername_user_byjoin">Regisztráció dátuma szerint (régebbit előre)
+</epp:phrase>
+
+    <epp:phrase id="ordername_user_byname">Név szerint</epp:phrase>
+
+    <epp:phrase id="ordername_user_byrevjoin">Regisztráció dátuma szerint (újabbat előre)</epp:phrase>
+
+    <epp:phrase id="ordername_user_bytype">Szerep szerint</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/IRStats2/Report:invalid_report">Hibás report</epp:phrase>
+
+    <epp:phrase id="user:workflow:stage:orcid:title">ORCID</epp:phrase>
+
+    <epp:phrase id="search/issues:title">Cím</epp:phrase>
+
+    <epp:phrase id="search/issues:preamble"><p>Search for items by issue. The issues are updated periodically.</p></epp:phrase>
+
+    <epp:phrase id="ordername_eprint_bynissues">by number of issues</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_byfirstseen">by date of most recent issue</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_bydatestampoldest">by date deposited (oldest first)</epp:phrase>
+
+    <epp:phrase id="ordername_eprint_bydatestamp">by date deposited</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_item_issues2_type">Duplication type</epp:phrase>
+
+    <epp:phrase id="issues2_typename_duplicate_doi">Duplicate DOIs</epp:phrase>
+
+    <epp:phrase id="issues2_typename_duplicate_isbn">Duplicate ISBNs</epp:phrase>
+
+    <epp:phrase id="issues2_typename_duplicate_title">Duplicate Titles</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Available:title">Elérhető</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Developer:action_create">Létrehoz</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Developer:action_edit">Szerkeszt</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Developer:action_publish">Publikál</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Developer:create_form"><h2>Create a new EPM</h2>
+To create a blank EPM entire a new id in the input and click <epc:phrase ref="Plugin/Screen/Admin/EPM/Developer:action_create"/>. EPM ids may only contain the characters A-Za-z0-9_.<br/><epc:pin name="form"/></epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Developer:title">Fejlesztői eszközök</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Installed:action_configure">Konfigurálás</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Installed:action_disable">Letilt</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Installed:action_enable">Engedélyez</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Installed:action_uninstall">Eltávolít</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/EPM/Installed:title">Telepítve</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/Edit/XPage:title">Edit config file</epp:phrase>
+
+    <epp:phrase id="Plugin/Screen/Admin/Config/View/XPage:page_title">View config file: <epc:pin name="file"/></epp:phrase>
+
+    <epp:phrase id="request/request_email:body"><p xmlns:epc="http://eprints.org/ep3/control">Ezt a tételt kérte a következő felhasználó: <epc:phrase ref="archive_name"/> by <epc:pin name="requester"/>. Kérjük, válaszoljon! Küldje el az igénylőnek a tételt, vagy küldje tovább ezt az üzenetet a diszterhoft.zoltan@uni-mate.hu cimre.</p>
+
+<p xmlns:epc="http://eprints.org/ep3/control"><epc:pin name="eprint"/><br/><epc:pin name="document"/></p>
+
+<p>A következő indoklással:</p>
+
+<epc:pin name="reason"/>
+
+<p>Kérjük, fontolja meg a korlátozás feloldásának lehetőségét, hogy az elkövetkezőkben rögtön az igénylők rendelkezésére álljon a mű.</p>
+</epp:phrase>
+
+    <epp:phrase id="eprint:workflow:stage:core:title">Adatok</epp:phrase>
+
+    <epp:phrase id="eprint:workflow:stage:files:title">Fájl</epp:phrase>
+
+    <epp:phrase id="eprint:workflow:stage:subjects:title">Témakör</epp:phrase>
+
+    <epp:phrase id="eprint:workflow:stage:type:title">Típus</epp:phrase>
+
+    <epp:phrase id="archive:workflow:stage:core:publication_details:title">Cím</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_collection">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_event_name">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_location">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldhelp_photographer">-</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_collection_epulet">Épületfotók</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_collection_hallgatoi">Hallgatói élet</epp:phrase>
+
+    <epp:phrase id="eprint_fieldopt_collection_rektori">Rektori fotógyűjtemény</epp:phrase>
+
+    <epp:phrase id="lib/metafield:unspecified">Nem Meghatározott</epp:phrase>
+
+    <epp:phrase id="eprint_fieldname_title">Cím</epp:phrase>
+
+</epp:phrases>

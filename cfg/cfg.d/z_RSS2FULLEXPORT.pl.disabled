@@ -1,0 +1,1 @@
+$c->{plugins}->{"Export::RSS2FULLEXPORT"}->{params}->{disable}=0;
