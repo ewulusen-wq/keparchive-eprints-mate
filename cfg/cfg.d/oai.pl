@@ -74,6 +74,27 @@ $oai->{filters} = [
 # same.
 $oai->{mime_types} = {};
 
+$c->{oai}->{v2}->{formats}->{oai_dc}->{map} = [
+    'title',
+    'creators',
+    'editors',
+    'subjects',
+    'description',
+    'publisher',
+    'contributors',
+    'date',
+    'type',
+    'format',
+    'ispublished',
+    'pres_type',
+    'identifier',
+    'source',
+    'language',
+    'relation',
+    'coverage',
+    'rights',
+    'references',
+];
 
 
 ########################################################################
@@ -141,9 +162,9 @@ $oai->{submission_policy}->{"url"} = undef;
 # An array of comments to be returned. May be empty.
 
 $oai->{comments} = [ 
-	"This system is running eprints server software (".
-		EPrints::Config::get( "version" ).") developed at the ".
-		"University of Southampton. For more information see ".
+	"This system is running eprints server software (." .
+		EPrints::Config::get( "version" ) . ") developed at the " .
+		"University of Southampton. For more information see " .
 		"http://www.eprints.org/"
 ];
 
