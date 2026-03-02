@@ -16,7 +16,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#007548;" aria-label="Main Navigation">
         <div class="container-fluid">
           <a class="navbar-brand d-flex align-items-center text-white" href="{$config{https_url}}/">
-            <img src="https://uni-mate.hu/image/layout_set_logo?img_id=11624394&t=1771872753003" alt="MATE" height="44" class="me-2" />
+            <img src="https://uni-mate.hu/image/layout_set_logo?img_id=11624394&amp;t=1771872753003" alt="MATE" height="44" class="me-2" />
             <span class="fw-semibold">Magyar Agrár- és Élettudományi Egyetem<br/><small class="fw-normal">Média Archívuma</small></span>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarSecure" aria-controls="mainNavbarSecure" aria-expanded="false" aria-label="Toggle navigation">
