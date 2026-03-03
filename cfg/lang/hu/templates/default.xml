@@ -33,17 +33,6 @@
               <li class="nav-item"><a class="nav-link text-white" href="{$config{rel_path}}/" title="{phrase('template/navigation:home:title')}"><epc:phrase ref="template/navigation:home"/></a></li>
               <li class="nav-item"><a class="nav-link text-white" href="{$config{rel_path}}/information.html" title="{phrase('template/navigation:about:title')}"><epc:phrase ref="template/navigation:about"/></a></li>
             </ul>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="browseDropdownCfgHu" role="button" data-bs-toggle="dropdown" aria-expanded="false"><epc:phrase ref="template/navigation:browse"/></a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="browseDropdownCfgHu">
-                  <li><a class="dropdown-item" href="{$config{rel_path}}/view/year/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_year"/></a></li>
-                  <li><a class="dropdown-item" href="{$config{rel_path}}/view/subjects/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_subjects"/></a></li>
-                  <li><a class="dropdown-item" href="{$config{rel_path}}/view/creators/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_creators"/></a></li>
-                  <li><a class="dropdown-item" href="{$config{rel_path}}/view/divisions/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_divisions"/></a></li>
-                </ul>
-              </li>
-            </ul>
           </div>
         </div>
       </nav>
@@ -65,12 +54,27 @@
       </div>
     </div>
   </header>
-    <div id="main_content">
-      <div class="ep_tm_page_content">
-        <h1 class="ep_tm_pagetitle">
-          <epc:pin ref="title"/>
-        </h1>
-        <epc:pin ref="page"/>
+    <div id="main_content" class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="ep_tm_sidebar">
+            <h3><epc:phrase ref="template/navigation:browse"/></h3>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="{$config{rel_path}}/view/year/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_year"/></a></li>
+              <li class="nav-item"><a class="nav-link" href="{$config{rel_path}}/view/subjects/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_subjects"/></a></li>
+              <li class="nav-item"><a class="nav-link" href="{$config{rel_path}}/view/creators/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_creators"/></a></li>
+              <li class="nav-item"><a class="nav-link" href="{$config{rel_path}}/view/divisions/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_divisions"/></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="ep_tm_page_content">
+            <h1 class="ep_tm_pagetitle">
+              <epc:pin ref="title"/>
+            </h1>
+            <epc:pin ref="page"/>
+          </div>
+        </div>
       </div>
     </div>
   	<div class="ep_tm_eprints_logo" >
@@ -79,10 +83,7 @@
            </a>
       </div>
     <div class="ep_tm_footer ep_noprint" >
-       
-      
       <div class="ep_tm_eprints_logo" >
-       
         <a href="http://eprints.org/software/">  
           <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/eprintslogo.png"/>
           <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
