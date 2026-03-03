@@ -37,7 +37,10 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" id="browseDropdownCfgHu" role="button" data-bs-toggle="dropdown" aria-expanded="false"><epc:phrase ref="template/navigation:browse"/></a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="browseDropdownCfgHu">
+                  <li><a class="dropdown-item" href="{$config{rel_path}}/view/year/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_year"/></a></li>
                   <li><a class="dropdown-item" href="{$config{rel_path}}/view/subjects/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_subjects"/></a></li>
+                  <li><a class="dropdown-item" href="{$config{rel_path}}/view/creators/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_creators"/></a></li>
+                  <li><a class="dropdown-item" href="{$config{rel_path}}/view/divisions/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_divisions"/></a></li>
                 </ul>
               </li>
             </ul>
