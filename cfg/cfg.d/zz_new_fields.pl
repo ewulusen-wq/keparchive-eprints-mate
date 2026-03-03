@@ -5,11 +5,6 @@ $c->add_dataset_field('eprint', {
 });
 
 $c->add_dataset_field('eprint', {
-    name => 'collection',
-    type => 'text',
-});
-
-$c->add_dataset_field('eprint', {
     name => 'event_location',
     type => 'text',
 });
