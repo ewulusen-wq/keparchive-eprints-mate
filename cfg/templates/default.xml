@@ -121,8 +121,18 @@
           </a>
 
           <a class="list-group-item list-group-item-action"
-             href="{$config{rel_path}}/view/type/photo.html">
-             Fotók
+             href="{$config{rel_path}}/view/photographers/">
+             Fotósok
+          </a>
+
+          <a class="list-group-item list-group-item-action"
+             href="{$config{rel_path}}/view/collection/">
+             Gyűjtemény
+          </a>
+
+          <a class="list-group-item list-group-item-action"
+             href="{$config{rel_path}}/view/event_location/">
+             Helyszín
           </a>
 
         </div>
