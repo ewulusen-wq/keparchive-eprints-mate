@@ -6,23 +6,81 @@
 
 <cite:citation xmlns="http://www.w3.org/1999/xhtml" xmlns:cite="http://eprints.org/ep3/citation" xmlns:epc="http://eprints.org/ep3/control">
   <div class="ep_search_result">
-    <div><epc:print expr="$n" />.</div>
-    <div>
-      <epc:print expr="$item.citation('default')" />
-    </div>
-    <div>
-      <epc:set name='docs' expr='$item.documents()'>
-        <epc:if test="length($docs) gt 0">
-          <div class="ep_search_result_docs">
-          <epc:foreach expr="$docs" iterator="doc" limit='2'>
-             <epc:print expr="$doc.icon( 'HoverPreview', 'noNewWindow', 'previewLeft' )" />
-          </epc:foreach>
-          </div>
+    <hr/>
+    <p>
+        <epc:print expr="$n" />.
+        <epc:print expr="$item.citation('default')" />
+    </p>
+    <div style="margin-left: 2em;">
+        <epc:if test="is_set($item.key_value('creators'))">
+            <p><strong>Creators:</strong> <epc:print expr="$item.render_value('creators')" /></p>
         </epc:if>
-        <epc:if test="length($docs) gt 2">
-          <div><a href='{$item.uri()}'>+<epc:print expr="length($docs)-2" /> <epc:phrase ref="page:more"/></a></div>
+        <epc:if test="is_set($item.key_value('contributors'))">
+            <p><strong>Contributors:</strong> <epc:print expr="$item.render_value('contributors')" /></p>
         </epc:if>
-      </epc:set>
+        <epc:if test="is_set($item.key_value('corp_creators'))">
+            <p><strong>Corporate Creators:</strong> <epc:print expr="$item.render_value('corp_creators')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('ispublished'))">
+            <p><strong>Publication Status:</strong> <epc:print expr="$item.render_value('ispublished')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('subjects'))">
+            <p><strong>Subjects:</strong> <epc:print expr="$item.render_value('subjects')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('divisions'))">
+            <p><strong>Divisions:</strong> <epc:print expr="$item.render_value('divisions')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('keywords'))">
+            <p><strong>Keywords:</strong> <epc:print expr="$item.render_value('keywords')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('note'))">
+            <p><strong>Note:</strong> <epc:print expr="$item.render_value('note')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('abstract'))">
+            <p><strong>Abstract:</strong> <epc:print expr="$item.render_value('abstract')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('date'))">
+            <p><strong>Date:</strong> <epc:print expr="$item.render_value('date')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('date_type'))">
+            <p><strong>Date Type:</strong> <epc:print expr="$item.render_value('date_type')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('publisher'))">
+            <p><strong>Publisher:</strong> <epc:print expr="$item.render_value('publisher')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('official_url'))">
+            <p><strong>Official URL:</strong> <epc:print expr="$item.render_value('official_url')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('id_number'))">
+            <p><strong>ID Number:</strong> <epc:print expr="$item.render_value('id_number')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('data_type'))">
+            <p><strong>Data Type:</strong> <epc:print expr="$item.render_value('data_type')" /></p>
+        </epc:if>
+         <epc:if test="is_set($item.key_value('copyright_holders'))">
+            <p><strong>Copyright Holders:</strong> <epc:print expr="$item.render_value('copyright_holders')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('event_name'))">
+            <p><strong>Event Name:</strong> <epc:print expr="$item.render_value('event_name')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('location'))">
+            <p><strong>Location:</strong> <epc:print expr="$item.render_value('location')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('photographer'))">
+            <p><strong>Photographer:</strong> <epc:print expr="$item.render_value('photographer')" /></p>
+        </epc:if>
+        <epc:if test="is_set($item.key_value('collection'))">
+            <p><strong>Collection:</strong> <epc:print expr="$item.render_value('collection')" /></p>
+        </epc:if>
+        <epc:set name='docs' expr='$item.documents()'>
+          <epc:if test="length($docs) gt 0">
+            <div class="ep_search_result_docs">
+            <epc:foreach expr="$docs" iterator="doc">
+               <epc:print expr="$doc.icon( 'HoverPreview', 'noNewWindow', 'previewLeft' )" />
+            </epc:foreach>
+            </div>
+          </epc:if>
+        </epc:set>
     </div>
   </div>
 </cite:citation>
