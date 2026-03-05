@@ -28,5 +28,6 @@ $c->{search}->{eprint} = {
         satisfy_all => 1,
         order_by => 'byrelevance',
         render_style => 'collapsed',
+        citation => 'result'
     },
 };
