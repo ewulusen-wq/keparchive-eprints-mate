@@ -1,331 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:epc="http://eprints.org/ep3/control">
     <head>
-    <meta charset="utf-8" />
-    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
-    <!-- Google Tag Manager -->
-    <!--
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MDLDXCK7');</script>
--->
-    <!-- End Google Tag Manager -->
-  
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="icon" href="/img/basic/favicon.ico" type="image/x-icon" />
-    <style>
-      .loader {
-          position: fixed;
-          left: 0;
-          top: 0;
-          width: 100%;
-          height: 100%;
-          background-color: #F5F8FA;
-          z-index: 9998;
-          text-align: center;
-      }
-
-      .plane-container {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-      }
-    </style>
-  
-    
-  <link rel="alternate" type="application/rss+xml" title="Items in MATE EPrints" href="{$config{rel_cgipath}}/latest_tool?output=RSS2" />
-  <link rel="alternate" type="application/atom+xml" title="Items in MATE EPrints" href="{$config{rel_cgipath}}/latest_tool?output=Atom" />
-  <link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="{$config{rel_cgipath}}/export/repository/RDFXML/devel.rdf" />
-  <link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="{$config{rel_cgipath}}/export/repository/RDFN3/devel.n3" />
-<link rel="Top" href="{$config{rel_path}}/" />
-    <link rel="Sword" href="{$config{rel_path}}/sword-app/servicedocument" />
-    <link rel="SwordDeposit" href="{$config{rel_path}}/id/contents" />
-    <link rel="Search" type="text/html" href="{$config{rel_cgipath}}/search" />
-    <link rel="Search" title="MATE EPrints" type="application/opensearchdescription+xml" href="{$config{rel_cgipath}}/opensearchdescription" />
-    <script type="text/javascript" src="https://www.google.com/jsapi">
-</script>
-    <script type="text/javascript">
-// <![CDATA[
-google.load("visualization", "1", {packages:["corechart", "geochart"]});
-// ]]>
-</script>
-    <script type="text/javascript">
-// <![CDATA[
-var eprints_http_root = "{$config{http_root}}";
-var eprints_http_cgiroot = "{$config{http_cgiroot}}";
-var eprints_oai_archive_id = "{$config{oai_archive_id}}";
-var eprints_logged_in = <epc:print expr="$session.is_set('user')"/>;
-var eprints_logged_in_userid = <epc:print expr="$session.user.get_value('userid')"/>;
-var eprints_logged_in_username = "<epc:print expr="$session.user.get_value('username')"/>";
-var eprints_logged_in_usertype = "<epc:print expr="$session.user.get_value('usertype')"/>";
-// ]]>
-</script>
-    <style type="text/css">.ep_logged_in { display: none }</style>
-    <link rel="stylesheet" type="text/css" href="/style/auto-3.4.5.css" />
-    <script type="text/javascript" src="/javascript/auto-3.4.5.js">
-</script>
-    <style>.ep_no_js { display: none}
-.ep_no_js_inline { display: none}
-.ep_no_js_table_cell { display: none}
-.ep_only_js { display: block}
-.ep_only_js_inline { display: inline}
-.ep_only_js_table_cell { display: block}
-</style>
-    <link rel="stylesheet" type="text/css" href="/style/app.css" />
-    <!--[if lte IE 6]>
-        <link rel="stylesheet" type="text/css" href="/style/ie6.css" />
-   <![endif]-->
-    <meta name="Generator" content="EPrints 3.4.5" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="Content-Language" content="en" />
-    
-    
-    <script src="/js/app.js">// <!-- No script --></script>
-  
-  </head>
-  <body class="loaded">
-    
-      
-    <!-- Google Tag Manager (noscript) -->
-<!--
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDLDXCK7"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
--->
-    <!-- End Google Tag Manager (noscript) -->
-  
-      <!-- Pre loader -->
+        <meta charset="utf-8" />
+        <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="icon" href="/img/basic/favicon.ico" type="image/x-icon" />
+        <style>
+          .loader {
+              position: fixed;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              background-color: #F5F8FA;
+              z-index: 9998;
+              text-align: center;
+          }
+          .plane-container {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+          }
+        </style>
+        <epc:pin ref="head"/>
+        <link rel="stylesheet" type="text/css" href="{$config{rel_path}}/style/app.css" />
+        <script src="{$config{rel_path}}/js/app.js">// <!-- No script --></script>
+    </head>
+    <body class="loaded">
       <div id="loader" class="loader loader-fade" role="region" aria-label="Page loading">
           <div class="plane-container">
               <div class="l-s-2 blink">LOADING</div>
           </div>
-      </div>     
-  
-    <div id="app" class="paper-loading">
-
-      
-
-      
-  <!--    <epc:pin ref="pagetop"/> -->
-      
-      <div class="invisible-links" role="navigation">
-          <a href="#main_content">Skip to main content</a>
       </div>
-  
-      <nav class="mainnav navbar navbar-default justify-content-between">
-          <div class="container relative">
-              <a class="offcanvas dl-trigger paper-nav-toggle" data-toggle="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
-                  <i></i>
-              </a>
-              <a class="navbar-brand" href="https://www.uni-mate.hu">
-                  <div class="logo"><div class="logo-wrapper">
-                      <img class="d-inline-block align-top" style="height: 60px;" alt="MATE homepage" src="https://www.uni-mate.hu/themes/custom/snowfox/logo.svg"/>
-                  </div></div>
-              </a>
-              <div class="paper_menu">
-                  <div id="dl-menu" class="responsive-menu dl-menuwrapper">
-                      <ul class="dl-menu align-items-center">
-                        <li><a href="{$config{rel_path}}/">Home</a></li>
-                        <li class="parent"><a href="#">Browse</a>
-                            <ul class="lg-submenu dl-submenu"><li class="dl-back"><a href="#">back</a></li>
-                                <li><a href="{$config{rel_path}}/view/year/">Év szerint</a></li>
-                                <li><a href="{$config{rel_path}}/view/creators/">Szerzők</a></li>
-                                <li><a href="{$config{rel_path}}/view/subjects/">Témák</a></li>
-                                <li><a href="{$config{rel_path}}/view/photographers/">Fotósok</a></li>
-                                <li><a href="{$config{rel_path}}/view/collection/">Gyűjtemény</a></li>
-                                <li><a href="{$config{rel_path}}/view/event_location/">Helyszín</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="{$config{rel_cgipath}}/search/advanced">Keresés</a></li>
-                        <li><a href="{$config{rel_path}}/help">Segítség</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </nav>
-  
-
-      <main id="main_content">
-        
-
-<!-- <main> -->
-
-  <!-- Search Section -->
-  <section class="search-section home-search" role="search">
-    <div class="masthead text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-md-auto">
-                    <h1>MATE EPrints</h1>
-                    <p class="lead text-muted">Capturing and preserving the intellectual output of MATE University, making it available on the Web.</p>
-                    <form method="get" accept-charset="utf-8" action="{$config{rel_cgipath}}/search">
-                        <input type="text" class="search-field" placeholder="Search our outputs ... " name="q" aria-label="Search terms" />
-                        <input type="hidden" name="_action_search" value="Search" />
-                        <input type="hidden" name="_order" value="bytitle" />
-                        <input type="hidden" name="basic_srchtype" value="ALL" />
-                        <input type="hidden" name="_satisfyall" value="ALL" />
-                        <button type="submit" aria-label="Perform search"><span class="icon icon-search"></span></button>
-                    </form>
-                </div>
-            </div>
+      <div id="app" class="paper-loading">
+        <div class="invisible-links" role="navigation">
+            <a href="#main_content">Skip to main content</a>
         </div>
-    </div>
-  </section>
-
-  <section id="genre" class="genre" role="navigation">
-    <div class="container">
-        <header class="text-center">
-            <h2 class="section-title">Browse Our Outputs</h2>
-            <div class="section-subtitle">You can explore MATE University outputs in many ways</div>
-        </header>
-        <div class="row p-t-b-80">
-            <div class="text-center col-xl-2">
-                <div class="media-body">
-                    <a href="{$config{rel_path}}/view/year/">
-                        <span class="icon icon-calendar" style="font-size: 64px; color: #ccd4dc;"></span>
-                        <h3 class="p-t-b-20">Év szerint</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="text-center col-xl-2">
-                <div class="media-body">
-                    <a href="{$config{rel_path}}/view/creators/">
-                        <span class="icon icon-user" style="font-size: 64px; color: #ccd4dc;"></span>
-                        <h3 class="p-t-b-20">Szerzők</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="text-center col-xl-2">
-                <div class="media-body">
-                    <a href="{$config{rel_path}}/view/subjects/">
-                        <span class="icon icon-library_books" style="font-size: 64px; color: #ccd4dc;"></span>
-                        <h3 class="p-t-b-20">Témák</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="text-center col-xl-2">
-                <div class="media-body">
-                    <a href="{$config{rel_path}}/view/photographers/">
-                        <span class="icon icon-camera" style="font-size: 64px; color: #ccd4dc;"></span>
-                        <h3 class="p-t-b-20">Fotósok</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="text-center col-xl-2">
-                <div class="media-body">
-                    <a href="{$config{rel_path}}/view/collection/">
-                        <span class="icon icon-folder" style="font-size: 64px; color: #ccd4dc;"></span>
-                        <h3 class="p-t-b-20">Gyűjtemény</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="text-center col-xl-2">
-                <div class="media-body">
-                    <a href="{$config{rel_path}}/view/event_location/">
-                        <span class="icon icon-map-marker" style="font-size: 64px; color: #ccd4dc;"></span>
-                        <h3 class="p-t-b-20">Helyszín</h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="container" id="latest-additions">
-        <header class="text-center">
-            <h2 class="section-title">Latest Additions</h2>
-            <div class="section-subtitle">New outputs added to the repository</div>
-        </header>
-
-        <script>// <![CDATA[
-
-    var latest_additions;
-
-    $(function(){
-
-        latest_additions = $("#latest-additions");
-
-        $.get('{$config{rel_cgipath}}/latest_tool', {n: 8, output: "RSS"}, function(data) {
-            $(data).find("item").each(function() {
-                $this = $(this);
-
-                var description = $this.find("description").text();
-                var link = $this.find("link").text();
-                var linkParts = link.split("/");
-                var id = linkParts[linkParts.length - 2] || "";
-                var labelledBy = "";
-
-                if ( id ) {
-                    id = ` id="${id}"`;
-                    labelledBy = ` aria-labelledby="${labelledBy}"`;
-                }
-
-                latest_additions.append(
-                `<div class="row call-to-action  paper-block">
-                    <div class="col-xl-1"><span class="icon icon-file-text-o" style="font-size: 64px; color: #ccd4dc;"></span>
+        <nav class="mainnav navbar navbar-default justify-content-between">
+            <div class="container relative">
+                <a class="offcanvas dl-trigger paper-nav-toggle" data-toggle="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
+                    <i></i>
+                </a>
+                <a class="navbar-brand" href="https://www.uni-mate.hu">
+                    <div class="logo"><div class="logo-wrapper">
+                        <img class="d-inline-block align-top" style="height: 60px;" alt="MATE homepage" src="https://www.uni-mate.hu/themes/custom/snowfox/logo.svg"/>
+                    </div></div>
+                </a>
+                <div class="paper_menu">
+                    <div id="dl-menu" class="responsive-menu dl-menuwrapper">
+                        <ul class="dl-menu align-items-center">
+                            <li><a href="{$config{rel_path}}/">Home</a></li>
+                            <li class="parent"><a href="#">Browse</a>
+                                <ul class="lg-submenu dl-submenu"><li class="dl-back"><a href="#">back</a></li>
+                                    <li><a href="{$config{rel_path}}/view/year/">By Year</a></li>
+                                    <li><a href="{$config{rel_path}}/view/subjects/">By Subject</a></li>
+                                    <li><a href="{$config{rel_path}}/view/divisions/">By Department</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="{$config{rel_cgipath}}/search/advanced">Search</a></li>
+                            <li><a href="{$config{rel_path}}/help.html">Help</a></li>
+                        </ul>
                     </div>
-                    <div class="col-xl-9">
-                        <div ${id}>${description}</div>
+                </div>
+            </div>
+        </nav>
+        <main id="main_content">
+            <!-- This part is only displayed on the front page -->
+            <epc:if test="processor.is_a( 'EPrints::Plugin::Screen::FrontPage' )">
+              <!-- Search Section -->
+              <section class="search-section home-search" role="search">
+                <div class="masthead text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-md-auto">
+                                <h1><epc:phrase ref="archive_name" /></h1>
+                                <p class="lead text-muted">Capturing and preserving the intellectual output of MATE University, making it available on the Web.</p>
+                                <form method="get" accept-charset="utf-8" action="{$config{rel_cgipath}}/search">
+                                    <input type="text" class="search-field" placeholder="Search our outputs ... " name="q" aria-label="Search terms" />
+                                    <input type="hidden" name="_action_search" value="Search" />
+                                    <input type="hidden" name="_order" value="bytitle" />
+                                    <input type="hidden" name="basic_srchtype" value="ALL" />
+                                    <input type="hidden" name="_satisfyall" value="ALL" />
+                                    <button type="submit" aria-label="Perform search"><span class="icon icon-search"></span></button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xl-2"><a href="${link}" class="btn btn-primary btn-action mt-3" ${labelledBy}> Read More</a>
+                </div>
+              </section>
+              <section id="genre" class="genre" role="navigation">
+                <div class="container">
+                    <header class="text-center">
+                        <h2 class="section-title">Browse Our Outputs</h2>
+                        <div class="section-subtitle">You can explore MATE University outputs in many ways</div>
+                    </header>
+                    <div class="row p-t-b-80">
+                        <div class="text-center col-xl-4">
+                            <div class="media-body">
+                                <a href="{$config{rel_path}}/view/year/">
+                                    <span class="icon icon-calendar" style="font-size: 64px; color: #ccd4dc;"></span>
+                                    <h3 class="p-t-b-20">By Year</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-4">
+                            <div class="media-body">
+                                <a href="{$config{rel_path}}/view/subjects/">
+                                    <span class="icon icon-library_books" style="font-size: 64px; color: #ccd4dc;"></span>
+                                    <h3 class="p-t-b-20">By Subject</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-4">
+                            <div class="media-body">
+                                <a href="{$config{rel_path}}/view/divisions/">
+                                    <span class="icon icon-bank" style="font-size: 64px; color: #ccd4dc;"></span>
+                                    <h3 class="p-t-b-20">By Department</h3>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>`
-                );
-            });
-        });
-    });
-
-  // ]]>
-</script>
-
-    </div>
-  </section>
-
-
-      </main>
-
-      
-      <footer>
-          <div class="container">
-              <div class="row" style="justify-content: space-between;">
-                  <div class=" col-lg-4 col-xl-6 col-12 responsive-phone footer-library"><a href="https://www.uni-mate.hu" class="">
-                      <div class="logo"><div class="logo-wrapper">
-                          <img src="https://www.uni-mate.hu/themes/custom/snowfox/logo.svg" style="height: 60px" alt="MATE homepage"/>
-                          <span class="circle"></span>
-                      </div></div>
-                  </a>
-                  </div>
-                  <div class="col-xl-3 responsive-phone">
-                      <div class="h6">Links</div>
-                      <ul class="footer-links">
-                          <li><a href="https://www.eprints.org/uk/index.php/eprints-software/">EPrints</a></li>
-                          <li><a href="{$config{rel_path}}/help">FAQ</a></li>
-                          <li><a href="https://www.uni-mate.hu/privacy">Privacy Policy</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-6 col-md-12 col-12 col-xl-3 responsive-phone">
-                      <div class="h6">Connect via Social Media</div>
-                      <ul class="social">
-                          <li class="facebook"><a href="https://en-gb.facebook.com/unimate/" aria-label="Facebook"><span class="icon icon-facebook"></span></a>
-                          </li>
-                          <li class="twitter"><a href="https://twitter.com/unimate" aria-label="Twitter"><span class="icon icon-twitter"></span></a>
-                          </li>
-                      </ul>
-                      <div class="copyrights">
-                          <p>© 2024 MATE</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </footer>
-  
-
-    </div>
-  
-<div id="overlay" style="display: none;"></div><div id="lightbox" style="display: none;"><div id="outerImageContainer" style="width: 250px; height: 250px;"><div id="imageContainer"><img id="lightboxImage" alt="Lightbox" /><div id="lightboxMovie" alt="Lightbox"></div><div id="loading"><a id="loadingLink" href="#"><img src="{$config{rel_path}}/style/images/lightbox/loading.gif" alt="Loading" /></a></div></div></div><div id="imageDataContainer"><div id="imageData"><div id="hoverNav"><a id="prevLink"></a><a id="nextLink"></a></div><div id="imageDetails"><span id="caption"></span><span id="numberDisplay"></span></div><div id="bottomNav"><a id="bottomNavClose" href="#"><img src="{$config{rel_path}}/style/images/lightbox/closelabel.gif" alt="Close" /></a></div></div></div></div></body>
+                </div>
+              </section>
+              <section>
+                <div class="container" id="latest-additions">
+                    <header class="text-center">
+                        <h2 class="section-title">Latest Additions</h2>
+                        <div class="section-subtitle">New outputs added to the repository</div>
+                    </header>
+                    <script>
+                        // <![CDATA[
+                        var latest_additions;
+                        // use jquery to wait for document ready
+                        jQuery(document).ready(function() {
+                            latest_additions = jQuery("#latest-additions");
+                            jQuery.get('{$config{rel_cgipath}}/latest_tool', {n: 8, output: "RSS"}, function(data) {
+                                jQuery(data).find("item").each(function() {
+                                    var $this = jQuery(this);
+                                    var description = $this.find("description").text();
+                                    var link = $this.find("link").text();
+                                    var linkParts = link.split("/");
+                                    var id = linkParts[linkParts.length - 2] || "";
+                                    var labelledBy = "";
+                                    if ( id ) {
+                                        id = "id=\"" + id + "\"";
+                                        labelledBy = "aria-labelledby=\"" + id + "\"";
+                                    }
+                                    latest_additions.append(
+                                    '<div class="row call-to-action  paper-block">' +
+                                        '<div class="col-xl-1"><span class="icon icon-file-text-o" style="font-size: 64px; color: #ccd4dc;"></span>' +
+                                        "</div>" +
+                                        '<div class="col-xl-9">' +
+                                            "<div " + id + ">" + description + "</div>" +
+                                        "</div>" +
+                                        "<div class=\"col-xl-2\"><a href=\"" + link + "\" class=\"btn btn-primary btn-action mt-3\" " + labelledBy + "> Read More</a>" +
+                                        "</div>" +
+                                    "</div>"
+                                    );
+                                });
+                            });
+                        });
+                        // ]]>
+                    </script>
+                </div>
+              </section>
+            </epc:if>
+            <!-- This part is displayed on all other pages -->
+            <epc:unless test="processor.is_a( 'EPrints::Plugin::Screen::FrontPage' )">
+                <div class="container" style="padding-top: 2em; padding-bottom: 2em;">
+                    <epc:pin ref="page"/>
+                </div>
+            </epc:unless>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row" style="justify-content: space-between;">
+                    <div class=" col-lg-4 col-xl-6 col-12 responsive-phone footer-library"><a href="https://www.uni-mate.hu" class="">
+                        <div class="logo"><div class="logo-wrapper">
+                            <img src="https://www.uni-mate.hu/themes/custom/snowfox/logo.svg" style="height: 60px" alt="MATE homepage"/>
+                            <span class="circle"></span>
+                        </div></div>
+                    </a>
+                    </div>
+                    <div class="col-xl-3 responsive-phone">
+                        <div class="h6">Links</div>
+                        <ul class="footer-links">
+                            <li><a href="https://www.eprints.org/uk/index.php/eprints-software/">EPrints</a></li>
+                            <li><a href="{$config{rel_path}}/help.html">FAQ</a></li>
+                            <li><a href="https://www.uni-mate.hu/privacy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-12 col-12 col-xl-3 responsive-phone">
+                        <div class="h6">Connect via Social Media</div>
+                        <ul class="social">
+                            <li class="facebook"><a href="https://en-gb.facebook.com/unimate/" aria-label="Facebook"><span class="icon icon-facebook"></span></a>
+                            </li>
+                            <li class="twitter"><a href="https://twitter.com/unimate" aria-label="Twitter"><span class="icon icon-twitter"></span></a>
+                            </li>
+                        </ul>
+                        <div class="copyrights">
+                            <p>© 2024 MATE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      </div>
+    </body>
 </html>
