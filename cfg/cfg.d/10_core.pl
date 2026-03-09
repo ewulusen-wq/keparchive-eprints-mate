@@ -6,4 +6,4 @@ $c->{aliases} = [];
 $c->{securehost} = '';
 $c->{secureport} = 443;
 $c->{http_root} = undef;
-$c->{repositoryid} = 'keparchive';
+$c->{repositoryid} = 'press';

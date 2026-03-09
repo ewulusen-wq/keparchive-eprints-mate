@@ -1,4 +1,4 @@
-$c->{dbname} = 'keparchive';
+$c->{dbname} = 'press';
 $c->{dbhost} = 'localhost';
 $c->{dbport} = undef;
 $c->{dbsock} = undef;

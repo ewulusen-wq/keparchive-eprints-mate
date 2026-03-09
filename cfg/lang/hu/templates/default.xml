@@ -79,14 +79,14 @@
     </div>
   	<div class="ep_tm_eprints_logo" >
       <a href="http://www.uni-mate.hu/" target="_blank">  
-         <img alt="MATE" width="200px" src="http://keparchive.fater.uni-mate.hu/images/sitelogo.gif"/>
+         <img alt="MATE" width="200px" src="http://press.fater.uni-mate.hu/images/sitelogo.gif"/>
            </a>
       </div>
     <div class="ep_tm_footer ep_noprint" >
       <div class="ep_tm_eprints_logo" >
         <a href="http://eprints.org/software/">  
-          <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/eprintslogo.png"/>
-          <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
+          <img alt="EPrints Logo" src="http://press.fater.uni-mate.hu/images/eprintslogo.png"/>
+          <img alt="EPrints Logo" src="http://press.fater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
         </a>
       </div>
       <epc:phrase ref="template:about_eprints"/>
