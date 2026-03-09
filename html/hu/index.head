@@ -1,0 +1,5 @@
+
+  <link rel="alternate" type="application/rss+xml" title="Items in MATE Repozitórium" href="http://keparchive.fater.uni-mate.hu/cgi/latest_tool?output=RSS2" />
+  <link rel="alternate" type="application/atom+xml" title="Items in MATE Repozitórium" href="http://keparchive.fater.uni-mate.hu/cgi/latest_tool?output=Atom" />
+  <link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="http://keparchive.fater.uni-mate.hu/cgi/export/repository/RDFXML/devel.rdf" />
+  <link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="http://keparchive.fater.uni-mate.hu/cgi/export/repository/RDFN3/devel.n3" />

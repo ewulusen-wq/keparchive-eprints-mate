@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:title>Welcome to <epc:phrase ref="archive_name" /> Cookies</xpage:title>
+<xpage:body>
+<br /><br />
+<br /><br />
+<p>Changes to EU laws in 2011 mean that all UK websites which make use of cookies, must let users know that they are storing this data on their PC.</p>
+
+<p>This website makes use of basic cookies to allow storing of login details and some Google Analytics to improve the service we offer.</p>
+
+<p>For more information visit the <a href="http://www.ico.org.uk/for_organisations/privacy_and_electronic_communications/the_guide/cookies">Information Commissioner's Office</a>.</p>
+
+<!--
+
+Add some information here about what is being tested e.g. a list of installed bazaar extensions.
+
+-->
+</xpage:body>
+</xpage:page>

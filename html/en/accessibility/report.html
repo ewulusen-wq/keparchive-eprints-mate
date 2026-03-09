@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>
+			Accessibility report for keparchive
+			-
+			keparchive
+		</title>
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+                
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">// <!-- No script --></script>
+	
+ 
+		<script type="text/javascript">
+// <![CDATA[
+var eprints_http_root = "https://keparchive.fater.uni-mate.hu";
+var eprints_http_cgiroot = "https://keparchive.fater.uni-mate.hu/cgi";
+var eprints_oai_archive_id = "keparchive.fater.uni-mate.hu";
+var eprints_logged_in = false;
+var eprints_logged_in_userid = 0; 
+var eprints_logged_in_username = ""; 
+var eprints_logged_in_usertype = ""; 
+// ]]></script>
+    <style type="text/css">.ep_logged_in { display: none }</style>
+    <link rel="stylesheet" href="/style/auto-3.4.5.css" type="text/css" />
+    <script src="/javascript/auto-3.4.5.js" type="text/javascript">
+//padder
+</script>
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" type="text/css" href="/style/ie6.css" />
+   <![endif]-->
+    <meta content="EPrints 3.4.5" name="Generator" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <link rel="Top" href="http://keparchive.fater.uni-mate.hu/" />
+    <link rel="Sword" href="http://keparchive.fater.uni-mate.hu/sword-app/servicedocument" />
+    <link rel="SwordDeposit" href="http://keparchive.fater.uni-mate.hu/id/contents" />
+    <link rel="Search" href="http://keparchive.fater.uni-mate.hu/cgi/search" type="text/html" />
+    <link type="application/opensearchdescription+xml" href="http://keparchive.fater.uni-mate.hu/cgi/opensearchdescription" rel="Search" title="keparchive" />
+    
+	
+		<meta name="theme-color" content="#fff" />
+			
+		
+		<!-- Boostrap -->
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no" />
+		<!-- bootstrap_import -->
+		
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+                <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">// <!-- No script --></script>
+	
+		<!-- /bootstrap_import -->
+
+		<!-- Addition CSS to make bootstrap fit eprints -->
+		<link rel="stylesheet" href="/bootstrap_assets/Styles/main.css" />
+		<link rel="stylesheet" href="/bootstrap_assets/Styles/bs_overrides.css" />
+		<link rel="stylesheet" href="/bootstrap_assets/Styles/ep_overrides.css" />
+
+		<!-- jQuery-observe (https://github.com/kapetan/jquery-observe). Solution for DOM changes that create buttons -->
+		<script src="https://cdn.rawgit.com/kapetan/jquery-observe/master/jquery-observe.js">// <!-- No script --></script>
+		
+		 <!-- Expander -->
+		<script src="/bootstrap_assets/Scripts/jquery.expander.min.js">// <!-- No script --></script>
+	
+                
+	
+                
+        
+		<!--  This is where the bootstrap theme for customisation goes -->
+		<!--link rel="stylesheet" href="{$config{rel_path}}/bootstrap_assets/Styles/BS_theme/default-bootstrap-theme.css" /-->
+		<style type="text/css">
+			
+/* some CSS for branding header could go here, though the main CSS files would make more sense */
+	
+		</style>
+	
+	</head>
+	<body>
+		<script>
+                        jQuery('body').append('<div id="blocker"></div>');
+                </script>
+		
+
+<!-- -->
+		<header>
+			<div id="branding_header">
+	 		 
+<!-- bootstrap/branding_header -->
+	
+			</div>
+			<div class="clearfix"></div>
+			<div id="eprints_header">
+	 		 
+<nav class="navbar navbar-default" role="navigation">
+                                <div class="container-fluid">
+                                        <!-- Brand and toggle get grouped for better mobile display -->
+                                        <div class="navbar-header">
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnav">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                </button>
+                                                <a class="navbar-brand" href="#">
+                                                <img alt="keparchive" src="/images/sitelogo.png" style="height: 30px" />
+                                                </a>
+                                                <a href="http://keparchive.fater.uni-mate.hu/" title="keparchive" class="navbar-brand">
+                                                        Home
+                                                        <!-- Include this if you want to display you repo name in the menu at the top <epc:phrase ref="archive_name"/> -->
+                                                </a>
+                                                <h1 class="sr-only"><!-- "sr-only" screen reader only -->
+                                                        keparchive
+                                                </h1>
+                                        </div>
+                                        <!-- Collect the nav links, forms, and other content for toggling -->
+                                        <div class="collapse navbar-collapse" id="mainnav">
+                                                <ul class="nav navbar-nav">
+                                                        <li>
+                                                                <a href="http://keparchive.fater.uni-mate.hu/information.html">
+                                                                        About
+                                                                </a>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                                                        Browse
+                                                                        <span class="caret"></span>
+                                                                </a>
+                                                                <ul class="dropdown-menu" role="menu">
+                                                                        <li>
+                                                                                <a href="http://keparchive.fater.uni-mate.hu/view/year/">
+                                                                                        Browse by 
+                                                                                        Year
+                                                                                </a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a href="http://keparchive.fater.uni-mate.hu/view/subject/">
+                                                                                        Browse by 
+                                                                                        Subject
+                                                                                </a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a href="http://keparchive.fater.uni-mate.hu/view/divisions/">
+                                                                                        Browse by 
+                                                                                        Division
+                                                                                </a>
+                                                                        </li>
+                                                                        <li>
+                                                                                <a href="http://keparchive.fater.uni-mate.hu/view/creators/">
+                                                                                        Browse by 
+                                                                                        Author
+                                                                                </a>
+                                                                        </li>
+                                                                </ul>
+                                                        </li>
+                                                </ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+							 <form class="navbar-form" role="search" method="get" accept-charset="utf-8" action="http://keparchive.fater.uni-mate.hu/cgi/search">
+                                                          <div class="form-group">
+                                                                <input type="search" placeholder="Search the repository" class="form-control" name="q" />
+                                                                <input type="hidden" name="_action_search" value="Search" />
+                                                                <input type="hidden" name="_order" value="bytitle" />
+                                                                <input type="hidden" name="basic_srchtype" value="ALL" />
+                                                                <input type="hidden" name="_satisfyall" value="ALL" />
+                                                          </div>
+                                                          <button class="btn btn-default" value="Search" type="submit" name="_action_search">Search</button>
+                                                	 </form>
+							</li>
+							<li>
+							 <form class="navbar-form" action="http://keparchive.fater.uni-mate.hu/cgi/search/advanced">
+                                                          <input class="btn btn-default" value="Advanced Search" type="submit" />
+							 </form>
+							</li>
+                                                </ul>
+
+						<div class="visible-xs"><!-- this is only visable in the mobile view. It displays the menu (Manage Deposits, Admin, Review buffer, etc) as part of the main menu when in mobile view. try zooming in to see it. -->
+                                                        <!--epc:pin ref="login_status" /-->
+							<div id="login_status"></div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </nav>
+
+	
+			</div>
+		</header>
+
+<!-- -->
+		<div id="main_page" class="container-fluid">
+			<nav class="col-md-2">
+				<ul id="ep_tm_menu_tools" role="toolbar" class="ep_tm_key_tools"><li class="ep_tm_key_tools_item"><a class="ep_tm_key_tools_item_link" href="/cgi/users/home">Login</a></li></ul>
+			</nav>
+			<main id="page" class="col-md-offset-1 col-md-8 col-sm-12 col-xs-12">
+				<div class="">
+					<h1 class="">
+						Accessibility report for keparchive
+					</h1>
+					
+
+<div class="ep_msg_message">
+  <div class="ep_msg_message_content">
+    <div class="ep_msg_message_icon" style="width: 32px;">
+      <img alt="Message" src="/style/images/message.png" />
+    </div>
+    <div class="ep_msg_message_text">This report is based on a default publication flavour installation of <a href="https://www.eprints.org/uk/index.php/eprints-3-4/" rel="external">EPrints 3.4</a> using the data imported by the testdata/bin/import_test_data script.  Any rebranding to EPrints or significant customisation is liable to significantly alter the results show below.</div>
+  </div>
+</div>
+
+<h2>Table of Contents</h2>
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#test-results">Test Results</a>
+    <ul>
+      <li><a href="#public-facing-pages">Public-facing Pages</a></li>
+      <li><a href="#non-public-administration-pages">Non-public Administration Pages</a></li>
+      <li><a href="#miscellaneous-pages">Miscellaneous Page</a></li>
+    </ul>
+  </li>
+  <li><a href="#summary">Summary</a></li>
+</ul>
+
+<h2 id="introduction">Introduction</h2>
+<p>This report is intended to present the results of the testing of keparchive to assess its accessibility compliance.  This has been undertaken with the use of the <a href="https://wave.webaim.org/extension/" rel="external">Chrome Extension</a> of the <a href="https://wave.webaim.org/" rel="external">WAVE web accessibility evaluation tool</a>.  To emulate user-generated content EPrints' testdata/bin/import_test_data script has been used to import 100 publications to populate various pages under test.  In addition to this one empty (unedited) publication was added and a Saved Search for "Habits" was created. Also, due to a permissions change "+eprint/remove_once_archived" and "+eprint/remove_with_email" has been added to the admin user who is logged in to test the non-public administration pages.</p>
+<p>Where there are known issues, the comments section should describe the reasons and where appropriate how these issues are likely be addressed.  For more details on planned future accessibility improvements, please see <a href="roadmap.html">our accessibility roadmap</a>.</p>
+
+<h2 id="test-results">Test Results</h2>
+<p><em>Test last run on <b>19 May 2023</b></em></p>
+<h3 id="public-facing-pages">Public-facing Pages</h3>
+<table class="ep_accessibility_results">
+  <tr>
+    <th>Page</th>
+    <th>Result</th>
+    <th>Comments</th>
+  </tr>
+  <tr> 
+    <td><a href="/">/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 10 | Structural Elements: 9 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/information.html">/information.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 9 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/view/">/view/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 9 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/view/year/">/view/year/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 9 | ARIA: 13</div></td>
+    <td>Index based on user-generated content.</td>
+  </tr>
+  <tr>
+    <td><a href="/view/year/2004.html">/view/year/2004.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 11 | Structural Elements: 21 | ARIA: 14</div></td>
+    <td>Contains user-generated content.  Only testing one listing per browse view type.</td>
+  </tr>
+  <tr>
+    <td><a href="/view/subjects/">/view/subjects/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 220 | ARIA: 13</div></td>
+    <td>Index based on user-generated content.</td>
+  </tr>
+  <tr>
+    <td><a href="/view/subjects/D.html">/view/subjects/D.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 11 | Structural Elements: 24 | ARIA: 14</div></td>
+    <td>Index based on user-generated content. Only testing one sub-menu per browse view type.</td>
+  </tr>
+  <tr>
+    <td><a href="/view/subjects/D051.html">/view/subjects/D051.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 11 | Structural Elements: 15 | ARIA: 14</div></td>
+    <td>Contains user-generated content. Only testing one listing per browse view type.</td>
+  </tr>
+  <tr>
+    <td><a href="/view/divisions/">/view/divisions/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 11 | ARIA: 13</div></td>
+    <td>Index based on user-generated content.</td>
+  </tr>
+  <tr>
+    <td><a href="/view/divisions/sch=5Fmat/">/view/divisions/sch=5fmat/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 12 | ARIA: 13</div></td>
+    <td>Index based on user-generated content. Only testing one sub-menu per browse view type.</td>
+  </tr>
+  <tr>
+    <td><a href="/view/divisions/sch=5Fmat/1998.html">/view/divisions/sch=5Fmat/1998.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 11 | Structural Elements: 9 | ARIA: 14</div></td>
+    <td>Contains user-generated content. Only testing one listing per browse view type.</td>
+  </tr>
+  <tr>
+    <td><a href="/view/creators/">/view/creators/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 12 | ARIA: 13</div></td>
+    <td>Index based on user-generated content.</td>
+  </tr>
+  <tr>
+    <td><a href="/view/creators/Bonardi=3AN=2E=3A=3A.html">/view/creators/Bonardi=3AN=2E=3A=3A.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 11 | Structural Elements: 9 | ARIA: 14</div></td>
+    <td>Contains user-generated content. Only testing one listing per browse view type.</td>
+  </tr>
+  <tr>
+    <td><a href="/id/eprint/4/">/id/eprint/4/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 3</div><div class="ep_accessibility_good">Features: 9 | Structural Elements: 19 | ARIA: 14</div></td>
+    <td>Contains user-generated content. Only testing one eprint summary page per eprint type, in this case "Conference of Workshop Item". 3 alerts are caused by linking to PDFs, which is cannot be fixed as is essential to the purpose of an Open Access repository. However, one of the links is actually for front page JPEG image preview but is identified as a PDF due to the file extension used in the URL.</td>
+  </tr>
+  <tr>
+    <td><a href="/id/eprint/54/">/id/eprint/54/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 3</div><div class="ep_accessibility_good">Features: 9 | Structural Elements: 19 | ARIA: 14</div></td>
+    <td>Contains user-generated content. Only testing one eprint summary page per eprint type, in this case "Article". 2 alerts are caused by linking to PDFs, which is cannot be fixed as is essential to the purpose of an Open Access repository. However, one of the links is actually for front page JPEG image preview but is identified as a PDF due to the file extension used in the URL.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/login">/cgi/users/login</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 8 | Structural Elements: 8 | ARIA: 14</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/logout">/cgi/logout</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 8 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/latest">/cgi/latest</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 9 | ARIA: 13</div></td>
+    <td>Contains user-generated content.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/search/advanced">/cgi/search/advanced</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 67 | Structural Elements: 8 | ARIA: 100</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/search/archive/advanced?screen=Search&amp;dataset=archive&amp;_action_search=Search&amp;documents_merge=ALL&amp;documents=&amp;title_merge=ALL&amp;title=Habits&amp;subjects_merge=ANY&amp;satisfyall=ALL&amp;order=title%2Ftype">/cgi/search/archive/advanced?screen=Search...</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 21</div><div class="ep_accessibility_good">Features: 32 | Structural Elements: 8 | ARIA: 20</div></td>
+    <td>10 (of 21) alerts are caused by thumbnail image previews of PDFs having the same alternative text, due to the original PDF filenames are the same, due to the wat the import_test_data script works. The other 11 (of 21) alerts are caused by linking to PDFs, which is cannot be fixed as is essential to the purpose of an Open Access repository. (Based on a search of "Habits" in title field. Contains user-generated content.)</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/search/simple">/cgi/search/simple</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 8 | ARIA: 16</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/search/archive/simple?screen=Search&amp;dataset=archive&amp;_action_search=Search&amp;dataset=archive&amp;order=&amp;q=Habits&amp;_action_search=Search">/cgi/search/archive/simple?screen=Search...</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 21</div><div class="ep_accessibility_good">Features: 32 | Structural Elements: 8 | ARIA: 20</div></td>
+    <td>Same alerts as for /cgi/search/archive/advanced?screen=Search... (Based on a search of "Habits" in title field. Contains user-generated content.)</td>
+  </tr>
+  <tr>
+    <td><a href="/policies.html">/policies.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 8 | ARIA: 14</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/eprints/">/eprints/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 24 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/error401.html">/error401.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 1</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 8 | ARIA: 13</div></td>
+    <td>One alert is due to registration link appearing in both the menu and main content of the page.  This is appropriate, to make it as straightforward as possible for a user to gain legitimate access.</td>
+  </tr>
+  <tr>
+    <td><a href="/accessibility/">/accessibility/</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 32 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/accessibility/report.html">/accessibility/report.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 30 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/accessibility/roadmap.html">/accessibility/roadmap.html</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 11 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+</table>
+
+
+<h3 id="non-public-administration-pages">Non-public Administration Pages</h3>
+<table class="ep_accessibility_results">
+  <tr>
+    <th>Page</th>
+    <th>Result</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home">/cgi/users/home</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 2</div><div class="ep_accessibility_good">Features: 64 | Structural Elements: 25 | ARIA: 57</div></td>
+    <td>Alerts due to two redundant links as "Show All" links are same as links to show 100 items, as there is exactly 100 items from test data.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Items">/cgi/users/home?screen=Items</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 2</div><div class="ep_accessibility_good">Features: 64 | Structural Elements: 25 | ARIA: 57</div></td>
+    <td>Alerts the same as /cgi/users/home as this is effectively the same page.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=EPrint%3A%3AView&amp;eprintid=4">/cgi/users/home?screen=EPrint%3A%3AView&amp;eprintid=4</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 6</div><div class="ep_accessibility_good">Features: 11 | Structural Elements: 64 | ARIA: 73</div></td>
+    <td>Alerts due to five links to PDF documents (essential to the purpose of an Open Access repository) and one suspicious link text "Details" which within the context of the page is appropriate.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=EPrint%3A%3AEdit&amp;eprintid=4&amp;stage=type">/cgi/users/home?screen=EPrint%3A%3AEdit&amp;eprintid=4&amp;stage=type</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 9 | Structural Elements: 9 | ARIA: 59</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=EPrint%3A%3AEdit&amp;eprintid=4&amp;stage=files">/cgi/users/home?screen=EPrint%3A%3AEdit&amp;eprintid=4&amp;stage=files</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 1</div><div class="ep_accessibility_good">Features: 42 | Structural Elements: 9 | ARIA: 63</div></td>
+    <td>Alert due to one link to a PDF document (essential to the purpose of an Open Access repository).</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=EPrint%3A%3AEdit&amp;eprintid=4&amp;stage=core">/cgi/users/home?screen=EPrint%3A%3AEdit&amp;eprintid=4&amp;stage=core</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 99 | Structural Elements: 13 | ARIA: 157</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=EPrint%3A%3AEdit&amp;eprintid=4&amp;stage=subjects">/cgi/users/home?screen=EPrint%3A%3AEdit&amp;eprintid=4&amp;stage=subjects</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 10 | Structural Elements: 52 | ARIA: 266</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=EPrint%3A%3ADeposit&amp;eprintid=4">/cgi/users/home?screen=EPrint%3A%3ADeposit&amp;eprintid=4</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 9 | ARIA: 20</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?format=XML&amp;_action_import_from=Import&amp;screen=Import">/cgi/users/home?format=XML&amp;_action_import_from=Import&amp;screen=Import</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 11 | ARIA: 27</div></td>
+    <td>None. (Only one EPrint import form is tested as forms for different formats are almost identical).</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=DataSets">/cgi/users/home?screen=DataSets</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 16 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Listing&amp;dataset=eprint">/cgi/users/home?screen=Listing&amp;dataset=eprint</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 12</div><div class="ep_accessibility_good">Features: 60 | Structural Elements: 25 | ARIA: 71</div></td>
+    <td>&gt;2 (of 12) alerts due to redundant links as "Show All" links are same as links to show 100 items, as there is exactly 100 items from test data. 10 (of 12) alerts due to links to PDF documents (essential for an Open Access repository).</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=eprint&amp;dataobj=4">/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=eprint&amp;dataobj=4</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 3</div><div class="ep_accessibility_good">Features: 8 | Structural Elements: 48 | ARIA: 24</div></td>
+    <td>Alerts due to two links to PDF documents (essential for an Open Access repository) and a suspicious link text "Details" which within the context of the page is appropriate.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Listing&amp;dataset=event_queue">/cgi/users/home?screen=Listing&amp;dataset=event_queue</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 1</div><div class="ep_accessibility_good">Features: 39 | Structural Elements: 16 | ARIA: 36</div></td>
+    <td>Alert due to possible table caption due to deliberate feature to indicate a table has "No items" rather than displaying as empty that might imply something is broken.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Listing&amp;dataset=file">/cgi/users/home?screen=Listing&amp;dataset=file</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 60 | Structural Elements: 25 | ARIA: 69</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=file&amp;dataobj=3">/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=file&amp;dataobj=3</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 1</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 23 | ARIA: 20</div></td>
+    <td>Alert due to suspicious link text "Details" which within the context of the page is appropriate.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Listing&amp;dataset=import">/cgi/users/home?screen=Listing&amp;dataset=import</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 1</div><div class="ep_accessibility_good">Features: 30 | Structural Elements: 15 | ARIA: 30</div></td>
+    <td>Alert due to possible table caption due to deliberate feature to indicate a table has "No items" rather than displaying as empty that might imply something is broken.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Listing&amp;dataset=saved_search">/cgi/users/home?screen=Listing&amp;dataset=saved_search</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 23 | Structural Elements: 14 | ARIA: 28</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=saved_search&amp;dataobj=1">/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=saved_search&amp;dataobj=1</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 1</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 23 | ARIA: 21</div></td>
+    <td>Alert due to suspicious link text "Details" which within the context of the page is appropriate.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Workflow%3A%3AEdit&amp;dataset=saved_search&amp;dataobj=1">/cgi/users/home?screen=Workflow%3A%3AEdit&amp;dataset=saved_search&amp;dataobj=1</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 17 | Structural Elements: 10 | ARIA: 31</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Listing&amp;dataset=subject">/cgi/users/home?screen=Listing&amp;dataset=subject</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 40 | Structural Elements: 25 | ARIA: 51</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=subject&amp;dataobj=A">/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=subject&amp;dataobj=A</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 11 | ARIA: 17</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Listing&amp;dataset=user">/cgi/users/home?screen=Listing&amp;dataset=user</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 33 | Structural Elements: 16 | ARIA: 34</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=user&amp;dataobj=1">/cgi/users/home?screen=Workflow%3A%3AView&amp;dataset=user&amp;dataobj=1</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 1</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 31 | ARIA: 22</div></td>
+    <td>Alert due to suspicious link text "Details" which within the context of the page is appropriate.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Workflow%3A%3AEdit&amp;dataset=user&amp;dataobj=1&amp;stage=usertype">/cgi/users/home?screen=Workflow%3A%3AEdit&amp;dataset=user&amp;dataobj=1&amp;stage=usertype</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 17 | Structural Elements: 9 | ARIA: 36</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Workflow%3A%3AEdit&amp;dataset=user&amp;dataobj=1&amp;stage=default">/cgi/users/home?screen=Workflow%3A%3AEdit&amp;dataset=user&amp;dataobj=1&amp;stage=default</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 44 | Structural Elements: 11 | ARIA: 80</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Review">/cgi/users/home?screen=Review</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 1</div><div class="ep_accessibility_good">Features: 59 | Structural Elements: 14 | ARIA: 46</div></td>
+    <td>Alert due to possible table caption due to deliberate feature to indicate a table has "No items" rather than displaying as empty that might imply something is broken.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=EPrint%3A%3ARemoveWithEmail&amp;eprintid=4">/cgi/users/home?screen=EPrint%3A%3ARemoveWithEmail&amp;eprintid=4</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 1</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 8 | ARIA: 16</div></td>
+    <td>Alert is due to email address for the one and only admin being linked for the To and From address, which is just a result of the testing regime.</td> 
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?edit_phrases=yes">/cgi/users/home?edit_phrases=yes</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 12 | ARIA: 149</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Admin">/cgi/users/home?screen=Admin</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 12 | ARIA: 101</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/search/eprint/staff">/cgi/search/eprint/staff</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 84 | Structural Elements: 8 | ARIA: 125</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/search/eprint/staff?screen=Search&amp;eprintid=&amp;userid.username=&amp;userid.name_merge=ALL&amp;serid.name=&amp;eprint_status=archive&amp;dir_merge=ALL&amp;dir=&amp;documents_merge=ALL&amp;documents=&amp;title_merge=ALL&amp;title=Habits&amp;creators_name_merge=ALL&amp;creators_name=&amp;abstract_merge=ALL&amp;abstract=&amp;date=&amp;keywords_merge=ALL&amp;keywords=&amp;subjects_merge=ANY&amp;department_merge=ALL&amp;department=&amp;editors_name_merge=ALL&amp;editors_name=&amp;refereed=EITHER&amp;publication_merge=ALL&amp;publication=&amp;satisfyall=ALL&amp;order=-date%2Fcreators_name%2Ftitle&amp;_action_search=Search">/cgi/search/eprint/staff?screen=Search&amp;...</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 39</div><div class="ep_accessibility_good">Features: 51 | Structural Elements: 8 | ARIA: 20</div></td>
+    <td>19 (of 39) alerts are caused by thumbnail image previews of PDFs having the same alternative text, as a result of the original PDF filenames are the same, due to the way the import_test_data script works. The other 20 (of 39) alerts are caused by linking to PDFs, which is cannot be fixed as is essential to the purpose of an Open Access repository. (Based on a search where "Item Status" is "Live Archive".)</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=BatchEdit&amp;cache=1">/cgi/users/home?screen=BatchEdit&amp;...</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 11 | ARIA: 21</div></td>
+    <td>None. (Based on using results from earlier admin item search.)</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Staff%3A%3AIssueSearch">/cgi/users/home?screen=Staff%3A%3AIssueSearch</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 46 | Structural Elements: 8 | ARIA: 66</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Staff%3A%3AUserSearch">/cgi/users/home?screen=Staff%3A%3AUserSearch</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 24 | Structural Elements: 8 | ARIA: 46</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Staff%3A%3AUserSearch&amp;name_merge=ALL&amp;name=&amp;username=&amp;userid=1&amp;dept%2Forg_merge=ALL&amp;dept%2Forg=&amp;address%2Fcountry_merge=ALL&amp;address%2Fcountry=&amp;email=&amp;satisfyall=ALL&amp;order=name%2Fjoined&amp;_action_search=Search">/cgi/users/home?screen=Staff%3A%3AUserSearch...</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 8 | ARIA: 20</div></td>
+    <td>None. (Search for user with ID 1.)</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Staff%3A%3AHistorySearch">/cgi/users/home?screen=Staff%3A%3AHistorySearch</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 30 | Structural Elements: 8 | ARIA: 46</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Staff%3A%3AHistorySearch&amp;userid.username=&amp;action=create&amp;timestamp=&amp;objectid=&amp;satisfyall=ALL&amp;order=-timestamp&amp;_action_search=Search">/cgi/users/home?screen=Staff%3A%3AHistorySearch...</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 2</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 8 | ARIA: 20</div></td>
+    <td>Search for Action: Created.  Two alerts are due the there being exactly 100 results so show 100 results and show all results links are the same.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Status">/cgi/users/home?screen=Status</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 38 | ARIA: 13</div></td>
+    <td>EPrints Indexer is running.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=NewUser">/cgi/users/home?screen=NewUser</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 8 | ARIA: 15</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Admin%3A%3AEPM">/cgi/users/home?screen=Admin%3A%3AEPM</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 2</div><div class="ep_accessibility_good">Features: 170 | Structural Elements: 11 | ARIA: 122</div></td>
+    <td>Two alerts are due to two nearby images with the same alt text due two identically named plugins in the Bazaar, which cannot be controlled.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Admin%3A%3ATestEmail">/cgi/users/home?screen=Admin%3A%3ATestEmail</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 8 | ARIA: 17</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=DatabaseSchema">/cgi/users/home?screen=DatabaseSchema</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 177 | ARIA: 13</div></td>
+    <td>Number of structured elements liable to vary based on number of cache tables in the database.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Admin%3A%3AStorageManager">/cgi/users/home?screen=Admin%3A%3AStorageManager</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 16 | ARIA: 19</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Admin%3A%3AConfig">/cgi/users/home?screen=Admin%3A%3AConfig</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 17 | Structural Elements: 20 | ARIA: 35</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Admin%3A%3APhrases">/cgi/users/home?screen=Admin%3A%3APhrases</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 12 | ARIA: 3145</div></td>
+    <td>Number ARIA elements likely to vary dependent on total number of phrases defined.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=Subject%3A%3AEdit">/cgi/users/home?screen=Subject%3A%3AEdit</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 7 | Structural Elements: 13 | ARIA: 18</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=MetaField%3A%3AListing">/cgi/users/home?screen=MetaField%3A%3AListing</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 28 | ARIA: 13</div></td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/users/home?screen=MetaField%3A%3AListing&amp;dataset=access">/cgi/users/home?screen=MetaField%3A%3AListing&amp;dataset=access</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 0</div><div class="ep_accessibility_good">Features: 6 | Structural Elements: 21 | ARIA: 14</div></td>
+    <td>None (Only testing one object type for its MetaField listing.)</td>
+  </tr>
+</table>
+
+
+<h3 id="miscellaneous-pages">Miscellaneous Pages</h3>
+<table class="ep_accessibility_results">
+  <tr>
+    <th>Page</th>
+    <th>Result</th>
+    <th>Comments</th>
+  </tr>
+  <tr>
+    <td><a href="/cgi/oai2">/cgi/oai2</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 2</div><div class="ep_accessibility_good">Features: 1 | Structural Elements: 9 | ARIA: 0</div></td>
+    <td>Two alerts are due to suspicion of tables being used for layout but are actually being used as tables.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/oai2?verb=Identity">/cgi/oai2?verb=Identity</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 3</div><div class="ep_accessibility_good">Features: 1 | Structural Elements: 15 | ARIA: 0</div></td>
+    <td>Three alerts are due to suspicion of tables being used for layout but are actually being used as tables.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/oai2?verb=ListRecords&amp;metadataPrefix=oai_dc">/cgi/oai2?verb=ListRecords&amp;metadataPrefix=oai_dc</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 201</div><div class="ep_accessibility_good">Features: 1 | Structural Elements: 308 | ARIA: 0</div></td>
+    <td>201 alerts are due to suspicion of tables being used for layout but are actually being used as tables.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/oai2?verb=ListSets">/cgi/oai2?verb=ListSets</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 283</div><div class="ep_accessibility_good">Features: 1 | Structural Elements: 290 | ARIA: 0</div></td>
+    <td>283 alerts are due to suspicion of tables being used for layout but are actually being used as tables.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/oai2?verb=ListMetadataFormats">/cgi/oai2?verb=ListMetadataFormats</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 7</div><div class="ep_accessibility_good">Features: 1 | Structural Elements: 14 | ARIA: 0</div></td>
+    <td>Seven alerts are due to suspicion of tables being used for layout but are actually being used as tables.</td>
+  </tr>
+  <tr>
+    <td><a href="/cgi/oai2?verb=ListIdentifiers&amp;metadataPrefix=oai_dc">/cgi/oai2?verb=ListIdentifiers&amp;metadataPrefix=oai_dc</a></td>
+    <td><div class="ep_accessibility_bad">Errors: 0 | Contrast Errors: 0 | Alerts: 101</div><div class="ep_accessibility_good">Features: 1 | Structural Elements: 108 | ARIA: 0</div></td>
+    <td>101 alerts are due to suspicion of tables being used for layout but are actually being used as tables.</td>
+  </tr>
+</table>
+
+<h2 id="summary">Summary</h2>
+
+<p>Based on testing a default publication flavour installation of EPrints using standard test data, all tested public-facing and back-end administration pages currently report no errors or contrast errors. These pages may have one or more alerts. If so, these alerts are considered acceptable and/or essential for the functioning of EPrints as an Open Access repository and will fall into one of the following categories:</p>
+<ol>
+  <li>Links to PDF documents.</li>
+  <li>Duplications in the test or third-party data leading to alerts about shared alternative texts for nearby images.</li>
+  <li>Reports of suspicious link texts that are not considered suspicious within the context of where they appear.</li>
+  <li>Apparent missing table captions due to a feature in EPrints to make clear a table has no items rather than leaving the table empty.</li>
+</ol>
+<p>It should be noted that whilst Chromium's WAVE extension that was used for testing.  It did not report any contrast errors for any of the tested public-facing and back-end administration pages.  However, Firefox's WAVE extension has been seen to report some contrast errors.  Firefox's contrast errors are due to its default setting for the background colour of select form elements.</p>
+<p>Miscellaneous pages like those for OAI metadata harvesting have been tested and found to have issues with tables being reported as being used for layout when they are genuinely being used as tables. However, as these pages are not intended for general human use, there is no intention to further address these issues.</p>
+
+
+
+				</div>
+			</main>
+		</div>
+
+<!-- -->
+		<footer class="bs-footer">
+			<div class="container">
+				<div class="ep_tm_eprints_logo">
+					<a href="http://eprints.org/software/">
+					<img alt="EPrints Logo" src="/images/eprintslogo.gif" />
+					</a>
+				</div>
+				<span>keparchive is powered by <em><a href="http://eprints.org/software/">EPrints 3.4</a></em> which is developed by the <a href="https://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a> at the University of Southampton. <a href="/eprints/">About EPrints</a> | <a href="/accessibility/">Accessibility</a></span>
+			</div>
+			<div id="branding_footer">
+	 	 	 
+<!-- Space for corporate footer -->
+	
+			</div>
+		</footer>
+
+                
+        
+
+	
+		<!-- Scripts to override some eprints defaults and allow the default bootstrap to style everything -->
+		<script src="/bootstrap_assets/Scripts/buttons.js">// <!-- No script --></script>
+		<script src="/bootstrap_assets/Scripts/menu.js">// <!-- No script --></script>
+		<script src="/bootstrap_assets/Scripts/forms.js">// <!-- No script --></script>
+		
+		<!--script src="https://rawgit.com/UEL-LLS/eprints-jquery-scripts/master/ep_toolbox.js" /-->
+		<script src="/bootstrap_assets/Scripts/workflow.js">// <!-- No script --></script>
+		<script src="/bootstrap_assets/Scripts/workflow_icons.js">// <!-- No script --></script>
+		
+		<!-- script to make more things panels -->
+		<script src="/bootstrap_assets/Scripts/ep_toolbox.js">// <!-- No script --></script>
+		
+		<!-- script to make the admin settings look better -->
+		<script src="/bootstrap_assets/Scripts/admin_menus.js">// <!-- No script --></script>
+		
+		<!-- script to make the tabs above stuff look better -->
+		<script src="/bootstrap_assets/Scripts/tabs.js">// <!-- No script --></script>
+
+
+		<script src="/bootstrap_assets/Scripts/table-destroyer.js">// <!-- No script --></script>
+		<script src="/bootstrap_assets/Scripts/ep_search_control.js">// <!-- No script --></script>
+		<script src="/bootstrap_assets/Scripts/bazaar-styler.js">// <!-- No script --></script>
+		<script src="/bootstrap_assets/Scripts/ep_warnings.js">// <!-- No script --></script>
+		<script src="/bootstrap_assets/Scripts/adv_search.js">// <!-- No script --></script>
+
+
+		<!-- important script to allow bootstrap.js to hide things, without Prototype getting upset and throwing a hissy fit. -->
+		<!-- from https://gist.github.com/andyhausmann/56ae58af55b14ecd56df --> 
+		<script>
+		jQuery(document).ready( function() {
+			var isBootstrapEvent = false;
+			if (window.jQuery) {
+				var all = jQuery('*');
+				jQuery.each(['hide.bs.dropdown',
+					'hide.bs.collapse',
+					'hide.bs.modal',
+					'hide.bs.tooltip',
+					'hide.bs.popover'], function(index, eventName) {
+					all.on(eventName, function( event ) {
+						isBootstrapEvent = true;
+					});
+				});
+			}
+			var originalHide = Element.hide;
+			Element.addMethods({
+				hide: function(element) {
+					if(isBootstrapEvent) {
+						isBootstrapEvent = false;
+						return element;
+					}
+					return originalHide(element);
+				}
+			});
+		}); 
+		</script>	
+		<script>
+			jQuery(document).ready(function() {
+				jQuery('#blocker').remove();
+			});
+                </script>
+	</body>
+</html>

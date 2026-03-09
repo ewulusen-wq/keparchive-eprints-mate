@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+
+<!-- 
+	Citation for a commentary thread.	
+-->
+
+<cite:citation xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control" xmlns:cite="http://eprints.org/ep3/citation" >
+
+<cite:linkhere>
+<span class="citation">
+<epc:choose>
+
+  <epc:when test="type = 'book' and is_set( creators )">
+    <epc:print expr="creators_name"/>
+  </epc:when>
+
+  <epc:when test="type = 'book' and !is_set( creators )">
+    <epc:print expr="editors_name"/>, <epc:choose><epc:when test="length(editors_name) gt 1"><epc:phrase ref="eprint_fieldname_editors_names_cite" /></epc:when><epc:otherwise><epc:phrase ref="eprint_fieldname_editors_name_cite" /></epc:otherwise></epc:choose>.
+  </epc:when>
+
+  <epc:when test="type = 'patent'">
+    <epc:print expr="patent_applicant"/>
+  </epc:when>
+
+  <epc:otherwise>
+    <epc:print expr="creators_name"/>
+  </epc:otherwise>
+
+</epc:choose>
+<epc:print expr="title" opts="magicstop"/> (<epc:phrase ref="lib/citation:deposited" /> <epc:print expr="datestamp" />)</span>
+</cite:linkhere>
+</cite:citation>

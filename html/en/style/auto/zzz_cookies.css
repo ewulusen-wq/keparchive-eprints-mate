@@ -1,0 +1,80 @@
+#ep_cookies_overlay
+{
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  right:0!important;
+  background:transparent;
+  z-index:9000;
+  margin:0
+}
+
+#ep_cookies_box
+{
+  font-sddize: 13px;
+  font: 1.2em Arial, Helvetica, sans-serif;	
+  position:absolute;
+  float:left;
+  top:10em;
+  right:50%;
+  margin-right:-200px;
+  background-color:#fff;
+  width:400px;
+  height:auto;
+  z-index:9001;
+  border-color:#000;
+  border-style:solid;
+  border-width:2px;
+  padding-bottom: 8px;
+}
+
+h3#ep_cookie_head
+{
+  color:#000;
+  padding-left:25px;
+  font-size:22px;
+  margin-bottom:8px
+}
+
+.ep_cookies_messages
+{
+  padding-left:50px;
+  padding-top:0;
+  width:300px
+}
+
+#ep_cookies_post_button
+{
+  text-align: center
+}
+
+.cookies_button
+{
+  background-color:#fff;
+  border:2px solid #000;
+  display:inline-block;
+  color:#000;
+  font-family:arial;
+  font-size:15px;
+  font-weight:700;
+  text-decoration:none;
+  margin:20px 140px;
+  padding:6px 24px
+}
+
+.cookies_button:hover
+{
+  cursor:pointer
+}
+
+#ep_cookies_accept:hover
+{
+  background-color:#9CC
+}
+
+.cookies_button:active
+{
+  position:relative;
+  top:1px
+}

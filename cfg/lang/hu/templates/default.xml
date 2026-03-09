@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE html SYSTEM "entities.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
+    <link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <epc:pin ref="head"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;family=Open+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{$config{rel_path}}/static/css/mae_custom.css" />
+  </head>
+  <body>
+    <epc:pin ref="pagetop"/>
+<div id="wrapper">
+    <header>
+    <div class="ep_tm_header ep_noprint">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#005f92;" aria-label="Main Navigation">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center text-white" href="{$config{rel_path}}/">
+            <img src="https://uni-mate.hu/image/layout_set_logo?img_id=11624394&amp;t=1771872753003" alt="MATE" height="44" class="me-2" />
+            <span class="fw-semibold">Magyar Agrár- és Élettudományi Egyetem<br/><small class="fw-normal">Média Archívuma</small></span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarCfgHu" aria-controls="mainNavbarCfgHu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavbarCfgHu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link text-white" href="{$config{rel_path}}/" title="{phrase('template/navigation:home:title')}"><epc:phrase ref="template/navigation:home"/></a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="{$config{rel_path}}/information.html" title="{phrase('template/navigation:about:title')}"><epc:phrase ref="template/navigation:about"/></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="ep_tm_searchbar py-2 container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+          <div><epc:pin ref="login_status"/></div>
+          <div class="d-flex align-items-center gap-2">
+            <epc:pin ref="languages"/>
+            <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" class="d-flex">
+              <input class="form-control me-2" size="20" type="text" name="q" />
+              <button class="btn btn-light" type="submit">Keresés</button>
+              <a href="{$config{http_cgiurl}}/search/advanced" class="btn btn-outline-light ms-2">Részletes</a>
+              <input type="hidden" name="_order" value="bytitle"/>
+              <input type="hidden" name="basic_srchtype" value="ALL"/>
+              <input type="hidden" name="_satisfyall" value="ALL"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <div id="main_content" class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="ep_tm_sidebar">
+            <h3><epc:phrase ref="template/navigation:browse"/></h3>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="{$config{rel_path}}/view/year/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_year"/></a></li>
+              <li class="nav-item"><a class="nav-link" href="{$config{rel_path}}/view/subjects/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_subjects"/></a></li>
+              <li class="nav-item"><a class="nav-link" href="{$config{rel_path}}/view/creators/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_creators"/></a></li>
+              <li class="nav-item"><a class="nav-link" href="{$config{rel_path}}/view/divisions/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_divisions"/></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="ep_tm_page_content">
+            <h1 class="ep_tm_pagetitle">
+              <epc:pin ref="title"/>
+            </h1>
+            <epc:pin ref="page"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  	<div class="ep_tm_eprints_logo" >
+      <a href="http://www.uni-mate.hu/" target="_blank">  
+         <img alt="MATE" width="200px" src="http://keparchive.fater.uni-mate.hu/images/sitelogo.gif"/>
+           </a>
+      </div>
+    <div class="ep_tm_footer ep_noprint" >
+      <div class="ep_tm_eprints_logo" >
+        <a href="http://eprints.org/software/">  
+          <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/eprintslogo.png"/>
+          <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
+        </a>
+      </div>
+      <epc:phrase ref="template:about_eprints"/>
+    </div>
+</div> <!-- wrapper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

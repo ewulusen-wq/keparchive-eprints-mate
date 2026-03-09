@@ -1,0 +1,4 @@
+timestamp,username,password_length,ip,user_agent,target,status,userid,securecode
+"2026-02-23T08:32:40Z","admin","","10.34.1.232","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0","http://keparchive.fater.uni-mate.hu/cgi/users/home","success","1","39c92390e258731dc434e2500239fd33"
+"2026-02-23T08:32:54Z","admin","","10.34.1.232","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0","http://keparchive.fater.uni-mate.hu/cgi/users/home","success","1","c38528a4834e1fe195c604eab2b381c9"
+"2026-02-23T08:39:43Z","admin","","10.34.1.232","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0","http://keparchive.fater.uni-mate.hu/cgi/users/home","success","1","cd41cc0c0f76104699a783ba38e47272"

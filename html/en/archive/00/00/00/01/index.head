@@ -1,0 +1,53 @@
+<meta name="eprints.eprintid" content="1" />
+<meta content="3" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta name="eprints.userid" content="1" />
+<meta name="eprints.dir" content="disk0/00/00/00/01" />
+<meta name="eprints.datestamp" content="2014" />
+<meta name="eprints.lastmod" content="2025-04-11 09:03:46" />
+<meta content="2025-04-11 09:03:46" name="eprints.status_changed" />
+<meta name="eprints.type" content="thesis" />
+<meta name="eprints.metadata_visibility" content="show" />
+<meta content="Magyar, Krisztián" name="eprints.creators_name" />
+<meta name="eprints.contributors_type" content="http://www.loc.gov/loc.terms/relators/CSL" />
+<meta content="Barta, József" name="eprints.contributors_name" />
+<meta name="eprints.ispublished" content="pub" />
+<meta content="ENTZ371507; Budapest; Élelmiszermérnök Bsc szak, Tartósítóipari technológia és minőségügy szakirány; Bibliogr.: p. 50-52.;" name="eprints.keywords" />
+<meta content="2014" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="none" name="eprints.full_text_status" />
+<meta content="54" name="eprints.pages" />
+<meta content="Budapesti Corvinus Egyetem" name="eprints.institution" />
+<meta name="eprints.department" content="BCE Élelmiszertudományi Kar, Konzervtechnológiai Tanszék;" />
+<meta content="diploma" name="eprints.thesis_type" />
+<meta name="eprints.thesis_name" content="other" />
+<meta content="true" name="eprints.refereed" />
+<meta name="eprints.citation" content="  Magyar, Krisztián  (2014) UNSPECIFIED  Diploma thesis, Budapesti Corvinus Egyetem.   " />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://phd.fater.uni-mate.hu/1/" name="DC.relation" />
+<meta content="Magyar, Krisztián" name="DC.creator" />
+<meta name="DC.date" content="2014" />
+<meta content="Thesis" name="DC.type" />
+<meta name="DC.type" content="NonPeerReviewed" />
+<meta content="  Magyar, Krisztián  (2014) UNSPECIFIED  Diploma thesis, Budapesti Corvinus Egyetem.   " name="DC.identifier" />
+<link href="https://phd.fater.uni-mate.hu/1/" rel="canonical" />
+<link type="text/plain; charset=utf-8" title="ASCII Citation" rel="alternate" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/Text/phd-eprint-1.txt" />
+<link type="text/xml; charset=utf-8" rel="alternate" title="MODS" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/MODS/phd-eprint-1.xml" />
+<link type="text/plain; charset=utf-8" rel="alternate" title="Simple Metadata" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/Simple/phd-eprint-1.txt" />
+<link href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/Atom/phd-eprint-1.xml" rel="alternate" title="Atom" type="application/atom+xml;charset=utf-8" />
+<link title="MPEG-21 DIDL" rel="alternate" type="text/xml; charset=utf-8" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/DIDL/phd-eprint-1.xml" />
+<link href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/RDFNT/phd-eprint-1.nt" title="RDF+N-Triples" rel="alternate" type="text/plain" />
+<link type="text/plain; charset=utf-8" rel="alternate" title="BibTeX" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/BibTeX/phd-eprint-1.bib" />
+<link type="text/csv; charset=utf-8" title="Multiline CSV" rel="alternate" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/CSV/phd-eprint-1.csv" />
+<link href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/EndNote/phd-eprint-1.enw" title="EndNote" rel="alternate" type="text/plain; charset=utf-8" />
+<link rel="alternate" title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/XML/phd-eprint-1.xml" />
+<link rel="alternate" title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/ContextObject/phd-eprint-1.xml" />
+<link href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/Refer/phd-eprint-1.refer" type="text/plain" title="Refer" rel="alternate" />
+<link href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/RIS/phd-eprint-1.ris" type="text/plain" rel="alternate" title="Reference Manager" />
+<link href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/JSON/phd-eprint-1.js" rel="alternate" title="JSON" type="application/json; charset=utf-8" />
+<link type="text/plain; charset=utf-8" rel="alternate" title="Dublin Core" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/DC/phd-eprint-1.txt" />
+<link title="HTML Citation" rel="alternate" type="text/html; charset=utf-8" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/HTML/phd-eprint-1.html" />
+<link type="text/n3" title="RDF+N3" rel="alternate" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/RDFN3/phd-eprint-1.n3" />
+<link href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/RDFXML/phd-eprint-1.rdf" title="RDF+XML" rel="alternate" type="application/rdf+xml" />
+<link href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/COinS/phd-eprint-1.txt" rel="alternate" title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" />
+<link type="text/xml; charset=utf-8" rel="alternate" title="METS" href="https://phd.fater.uni-mate.hu/cgi/export/eprint/1/METS/phd-eprint-1.xml" />

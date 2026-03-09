@@ -1,0 +1,27 @@
+.btn-primary { 
+    background-color: #214f76;
+    border-color: #214f76;
+}
+
+.bg-eprints {
+    background-color: #214f77!important;
+}
+
+.table-bordered>:not(caption)>*>* {
+    border-width: 1px 1px;
+}
+
+.ep_subjectinput_tree dl dt.ep_subjectinput_tree {
+    cursor: pointer;
+    background: url(/images/plus-square.svg) no-repeat !important;
+}
+
+.ep_subjectinput_tree dl dt.ep_subjectinput_tree_open {
+    background: url(/images/dash-square.svg) no-repeat !important;
+}
+
+#bootstrap_ep_homepage_img {
+    object-fit: cover;
+    height: 150px;
+    object-position: 50% 100%;
+}

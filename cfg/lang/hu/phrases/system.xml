@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+  <!-- Alapvető felületi elemek -->
+  <epp:phrase id="template/navigation:home">Kezdőlap</epp:phrase>
+  <epp:phrase id="template/navigation:about">Névjegy</epp:phrase>
+  <epp:phrase id="template/navigation:browse">Böngészés</epp:phrase>
+  <epp:phrase id="cgi/login:title">Bejelentkezés</epp:phrase>
+  <epp:phrase id="cgi/register:title">Regisztráció</epp:phrase>
+  <epp:phrase id="cgi/logout:title">Kijelentkezés</epp:phrase>
+  <epp:phrase id="cgi/search:simple_search">Egyszerű keresés</epp:phrase>
+  <epp:phrase id="cgi/advsearch:adv_search">Részletes keresés</epp:phrase>
+  <epp:phrase id="lib/searchexpression:action_search">Keresés</epp:phrase>
+
+  <!-- Feltöltési folyamat -->
+  <epp:phrase id="lib/submissionform:action_next">Következő &gt;</epp:phrase>
+  <epp:phrase id="lib/submissionform:action_prev">&lt; Előző</epp:phrase>
+  <epp:phrase id="lib/submissionform:action_cancel">Mégse</epp:phrase>
+  <epp:phrase id="lib/submissionform:action_save">Mentés és visszatérés</epp:phrase>
+  <epp:phrase id="priv:action/eprint/deposit">Dokumentum feltöltése</epp:phrase>
+  <epp:phrase id="Plugin/Screen/NewEPrint:action:create:title">Új tétel</epp:phrase>
+
+  <!-- Mezőnevek és súgók -->
+  <epp:phrase id="eprint_fieldname_title">Cím</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_title">A tétel címe.</epp:phrase>
+  <epp:phrase id="eprint_fieldname_abstract">Absztrakt</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_abstract">A tétel tartalmának összefoglalása.</epp:phrase>
+  <epp:phrase id="eprint_fieldname_creators">Szerzők</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_creators">Adja meg a szerzők nevét.</epp:phrase>
+  <epp:phrase id="eprint_fieldname_editors">Szerkesztők</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_editors">Adja meg a szerkesztők nevét.</epp:phrase>
+  <epp:phrase id="eprint_fieldname_publication">Folyóirat vagy kiadvány címe</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_publication">A folyóirat, kiadvány vagy magazin címe.</epp:phrase>
+  <epp:phrase id="eprint_fieldname_publisher">Kiadó</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_publisher">A kiadó neve.</epp:phrase>
+  <epp:phrase id="eprint_fieldname_date">Dátum</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_date">A publikálás vagy a benyújtás dátuma.</epp:phrase>
+  <epp:phrase id="eprint_fieldname_keywords">Kulcsszavak</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_keywords">A tétel tartalmát leíró kulcsszavak.</epp:phrase>
+  <epp:phrase id="eprint_fieldname_subjects">Tárgykörök</epp:phrase>
+  <epp:phrase id="eprint_fieldhelp_subjects">Válasszon egy vagy több tárgykört.</epp:phrase>
+
+  <!-- Egyéb -->
+  <epp:phrase id="cgi/users/user_search:simple_search">Felhasználók keresése</epp:phrase>
+  <epp:phrase id="dynamic:logged_in">Bejelentkezve mint <epc:pin name="user"/>. <a href="{$config{rel_cgipath}}/logout">Kijelentkezés</a></epp:phrase>
+  <epp:phrase id="dynamic:not_logged_in"><a href="{$config{userhome}}">Bejelentkezés</a> | <a href="{$config{rel_cgipath}}/register">Fiók létrehozása</a></epp:phrase>
+  <epp:phrase id="lib/eprint:eprint_gone_title">Tétel eltávolítva</epp:phrase>
+  <epp:phrase id="lib/eprint:eprint_gone"><p>Úgy tűnik, egy eltávolított tételt próbál elérni.</p></epp:phrase>
+  <epp:phrase id="lib/user:missed_field">Nem töltötte ki a kötelező <epc:pin name="field"/> mezőt.</epp:phrase>
+  <epp:phrase id="lib/session:no_priv">Nincs jogosultsága ennek a funkciónak a használatához.</epp:phrase>
+  <epp:phrase id="cgi/handle_http_error:404_title">404 A fájl nem található</epp:phrase>
+
+  <!-- A fájl többi része az angol eredetiből származik, de a legfontosabb részeket lefordítottuk. -->
+  <epp:phrase id="Plugin/Screen/BatchEdit:title">Tömeges szerkesztő eszköz</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:action:edit">Változtatások alkalmazása</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:action:add">Változtatás hozzáadása</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:edit_title">Rekordok módosítása</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:remove_title">Összes rekord eltávolítása</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:remove_help">Az összes egyező tétel megsemmisítése. A megsemmisített tételek örökre elvesznek - ez a művelet <b>nem vonható vissza</b>!</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:confirm_remove">Biztosan meg akarja semmisíteni ezeket a tételeket (ez a művelet nem vonható vissza)?</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:removed">Tételek megsemmisítve.</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:actionopt:">Ne változtass</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:actionopt:clear">Összes érték törlése</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:actionopt:delete">Érték törlése, ami egyezik</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:actionopt:insert">Új érték előre fűzése</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:actionopt:append">Új érték hozzáfűzése</epp:phrase>
+  <epp:phrase id="Plugin/Screen/BatchEdit:actionopt:replace">Érték cseréje erre:</epp:phrase>
+  <epp:phrase id="lib/utils:month_01">Január</epp:phrase>
+  <epp:phrase id="lib/utils:month_02">Február</epp:phrase>
+  <epp:phrase id="lib/utils:month_03">Március</epp:phrase>
+  <epp:phrase id="lib/utils:month_04">Április</epp:phrase>
+  <epp:phrase id="lib/utils:month_05">Május</epp:phrase>
+  <epp:phrase id="lib/utils:month_06">Június</epp:phrase>
+  <epp:phrase id="lib/utils:month_07">Július</epp:phrase>
+  <epp:phrase id="lib/utils:month_08">Augusztus</epp:phrase>
+  <epp:phrase id="lib/utils:month_09">Szeptember</epp:phrase>
+  <epp:phrase id="lib/utils:month_10">Október</epp:phrase>
+  <epp:phrase id="lib/utils:month_11">November</epp:phrase>
+  <epp:phrase id="lib/utils:month_12">December</epp:phrase>
+
+</epp:phrases>
