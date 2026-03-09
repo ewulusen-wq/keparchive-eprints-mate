@@ -1,3 +1,11 @@
 <?xml version="1.0" ?>
-<cite:citation xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control" xmlns:cite="http://eprints.org/ep3/citation" >
+<cite:citation xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control" xmlns:cite="http://eprints.org/ep3/citation">
+  <epc:choose>
+    <epc:when test="is_set(title)">
+      <cite:linkhere><epc:print expr="title"/></cite:linkhere>
+    </epc:when>
+    <epc:otherwise>
+      <cite:linkhere><epc:print expr="type"/> #<epc:print expr="eprintid"/></cite:linkhere>
+    </epc:otherwise>
+  </epc:choose>
 </cite:citation>
