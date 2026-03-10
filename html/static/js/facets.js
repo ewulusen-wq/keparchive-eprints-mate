@@ -224,6 +224,10 @@
         bsModal.show();
       });
     });
+
+    // Show the modal immediately on page load
+    const bsModal = new bootstrap.Modal(modal);
+    bsModal.show();
   }
 
   document.addEventListener('DOMContentLoaded', function(){
