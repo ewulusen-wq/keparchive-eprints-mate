@@ -37,8 +37,7 @@
 }
     </style>
 
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="{$config{rel_path}}/static/css/mae_custom.css" />
+
   </head>
   <body>
     <epc:pin ref="pagetop"/>
