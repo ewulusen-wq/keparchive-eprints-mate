@@ -216,7 +216,8 @@
     // Make images clickable to open carousel at specific slide
     images.forEach((img, index) => {
       img.style.cursor = 'pointer';
-      img.addEventListener('click', function(){
+      img.addEventListener('click', function(e){
+        e.preventDefault(); // Prevent navigating to the file
         const carousel = new bootstrap.Carousel(document.getElementById('lightboxCarousel'));
         carousel.to(index);
         const bsModal = new bootstrap.Modal(modal);
