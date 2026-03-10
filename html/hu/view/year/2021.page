@@ -1,0 +1,780 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="Exportálás" /><input type="hidden" name="view" id="view" value="year" /><input type="hidden" name="values" id="values" value="2021" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/year/2021/Atom/2021.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/year/2021/RSS/2021.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/year/2021/RSS2/2021.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_view_page ep_view_page_view_year"><div class="ep_view_group_by">Csoportosítás: <span class="ep_view_group_by_current">Tétel típusa</span>['Update/Views:group_separator' not defined]<a href="2021.creators_name.html">Létrehozók</a>['Update/Views:group_separator' not defined]<a href="2021.default.html">Nincs</a></div><div class="ep_view_jump ep_view_year_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_article">Cikk</a>['Update/Views:jump_separator' not defined]<a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">Tételek száma: <strong>32</strong>.</div><a name="group_article"></a><h2>Cikk</h2><p>
+
+
+    <span class="person_name">Druzsin, Ferenc</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/58/"><em>Folklorizmus : A bolgár népköltészet hatása Nagy László verseiben = Folklorism : The effect of Bulgarian folk poetry in the poems of László Nagy.</em></a>
+
+
+    Anyanyelvi Kultúraközvetítés, 4 (2).
+    pp. 14-20.
+     ISSN 2063-2991
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Fehér, Péter Árpád</span> és <span class="person_name">Frank, Krisztián</span> és <span class="person_name">Katona, Krisztián</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/702/"><em>Hazai nagyragadozóktól való félelem lehetséges hatásai a zsákmányaik viselkedésére: Szakirodalmi elemzés.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (1).
+    pp. 1-12.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Fűrész, Attila</span> és <span class="person_name">Pápay, Gergely</span> és <span class="person_name">Penksza, Károly</span> és <span class="person_name">Molnár, Zsolt</span> és <span class="person_name">Bakó, Gábor</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/698/"><em>Kaszpi haragossikló (Dolichopis caspius) élőhelyének térképezése Vörös-kővár területén.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (1).
+    pp. 47-57.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">G. Szabó, Sára</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/61/"><em>Álgyerekregény a diktatúráról : Dragomán György: A fehér király.</em></a>
+
+
+    Anyanyelvi Kultúraközvetítés, 4 (2).
+    pp. 21-27.
+     ISSN 2063-2991
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Ilyés, Kinga</span> és <span class="person_name">Csányi, Sándor</span> és <span class="person_name">Márton, Mihály</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/697/"><em>A gímszarvas terjeszkedésének elemzése Bács-Kiskun megye középső területein.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (1).
+    pp. 59-68.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Jantek, Renáta</span> és <span class="person_name">Kiefer, Adam</span> és <span class="person_name">Katona, Krisztián</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/700/"><em>A hegyi gorillák területhasználatának szerepe az ebola terjedésében a Virunga Nemzeti Parkban.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (1).
+    pp. 23-31.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kopházi-Molnár, Erzsébet</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/57/"><em>Az örök túlélők: a didaktikus mesék : Gondolatok a Lamb testvérek Shakespeare-meséi kapcsán = The Eternal Survivors: the Didactic Tales or Some Thoughts on Tales from Shakespeare by the Lambs.</em></a>
+
+
+    Anyanyelvi Kultúraközvetítés, 4 (2).
+    pp. 3-13.
+     ISSN 2063-2991
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Masoudi, Malihe</span> és <span class="person_name">Vona, Viktória</span> és <span class="person_name">Vona, Márton</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/707/"><em>Assessment of the relationship between soil properties in an old tree line and its relation to tree density and tree trunk circumference.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (2).
+    pp. 81-89.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Mészáros, Fanni Andrea</span> és <span class="person_name">Szilágyi, Alfréd János</span> és <span class="person_name">Kun, Róbert</span> és <span class="person_name">Sárospataki, Miklós György</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/705/"><em>Megporzóközösségek vizsgálata permakultúrás, ökológiai és konvencionális gazdaságokban a Szentendrei-szigeten.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (2).
+    pp. 133-149.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Nel, Lyndre</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/704/"><em>29th PECSRL 2021 virtual conference.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (2).
+    p. 125.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Plank, Patrik</span> és <span class="person_name">Biró, Zsolt</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/701/"><em>Lakott területeken megjelenő nyestek (Martes foina) problémáinak felmérése és összehasonlítása két településen.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (1).
+    pp. 13-22.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Rapala, Miklós</span> és <span class="person_name">Bodnár, Márk</span> és <span class="person_name">Dobozi, Aliz</span> és <span class="person_name">Kovács, Réka</span> és <span class="person_name">Nagy, Zsolt</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/706/"><em>A természetvédelem története: Tájvédelemmel kapcsolatos területek bemutatása.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (2).
+    pp. 107-123.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szilágyi, Alfréd János</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/703/"><em>29th Session of the Permanent European Conference for the Study of Rural Landscapes (PECSRL) 2021.09.27-10.01., online konferencia.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (2).
+    pp. 127-129.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóth, Gergely</span> és <span class="person_name">Katona, Krisztián</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/699/"><em>Őzek állománysűrűség-becslési módszereinek összehasonlítása.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (1).
+    pp. 33-45.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Géczi, Gábor</span> és <span class="person_name">Kicsiny, Richárd</span> és <span class="person_name">Székely, László</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/34/"><em>Efficiency, solar and thermal energy for the human comfort : Book of Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Science, Gödöllő.
+     47 p.
+    
+    ISBN 978-963-269-958-5
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Barna, Róbert</span> és <span class="person_name">Szabó-Szentgróti, Gábor</span> és <span class="person_name">Tóth, Katalin</span> és <span class="person_name">Varga, József</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/48/"><em>Esszencia. Közgazdasági tanulmányok.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Kaposvári Campus, Kaposvár.
+     80 p.
+    
+    ISBN 978-615-5599-87-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Podráczky, Judit</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/46/"><em>14. Képzés és Gyakorlat Nemzetközi Neveléstudományi Konferencia, 2021. szeptember 2–4. : Program és absztraktok = 14th Training and Practice International Conference on Educational Science, September 2–4, 2021 : Program and Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Neveléstudományi Intézet, Kaposvár.
+     169 p.
+    
+    ISBN 978-963-269-962-2
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Martinkienė, Jurgita</span> és <span class="person_name">Vinogradov, Sergey</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/148/"><em>14th International Scientific-Methodical Practical Conference on Sustainable Regional Development : Economics, Management, Law and Technology Opportunities 2021, Klaipeda, Lithuania, 1-2nd October 2021 : Abstract Book.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     51 p.
+    
+    ISBN 978-963-269-965-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Farkas, István</span> és <span class="person_name">Víg, Piroska</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/139/"><em>27th Workshop on Energy and Environment, December 9-10, 2021, Gödöllő, Hungary Book of Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     38 p.
+    
+    ISBN 978-963-269-972-1
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Gerencsér, Zsolt</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/149/"><em>32. Nyúltenyésztési Tudományos Nap = 32nd Hungarian Conference on Rabbit Production, Kaposvár, 2021. szeptember 30.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Kaposvári Campus, Gödöllő.
+     71 p.
+    
+    ISBN 978-615-5599-88-0 (nyomtatott) 978-615-5599-89-7 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Horváthné Kovács, Bernadett</span> és <span class="person_name">Barna, Róbert</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/31/"><em>Agrárerdészet a vidékfejlesztés gyakorlatában.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Kaposvári Campus, Kaposvár.
+     146 p.
+    
+    ISBN 978-615-5599-84-2
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, József</span> és <span class="person_name">Balogh, Gábor</span> és <span class="person_name">Dajnoki, Krisztina</span> és <span class="person_name">Karoliny, Mártonné</span> és <span class="person_name">Kőműves, Zsolt</span> és <span class="person_name">Pató Gáborné Szűcs, Beáta</span> és <span class="person_name">Szabó, Szilvia</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/32/"><em>COVID-19 – koronavírus-válság: Harmadik fázis : Kihívások és HR-válaszok.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     66 p.
+    
+    ISBN 978-963-269-957-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Magda, Róbert</span> és <span class="person_name">Farheen, Naz</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/150/"><em>Challenges of Nowadays in the Light of Sustainability :&#13;
+8th VUA YOUTH Scientific Session, 26 November 2021, Gödöllő, Hungary : Conference Proceedings.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     291 p.
+    
+    ISBN 978-963-269-968-4
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Babos, Tibor</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/151/"><em>Digital Security Policy in the Cyber Space : Collection of Studies.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     158 p.
+    
+    ISBN 978-963-269-976-9 (Print) 978-963-269-977-6 (PDF)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Babos, Tibor</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/152/"><em>Digitális biztonságpolitika a kibertérben : Tanulmánykötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     157 p.
+    
+    ISBN 978-963-269-974-5 (nyomtatott) 978-963-269-975-2 (PDF)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bencéné Fekete, Andrea</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/154/"><em>Dunántúli Mandulafa 2020 : Kutatói életpályák kezdő lépései.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Neveléstudományi Intézet, Kaposvár.
+     247 p.
+    
+    ISBN 978-615-5599-90-3 (nyomtatott) 978-615-5599-91-0 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, József</span> és <span class="person_name">Dajnoki, Krisztina</span> és <span class="person_name">Pató Gáborné Szűcs, Beáta</span> és <span class="person_name">Szabó, Szilvia</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/22/"><em>Koronavírus-válság : Kihívások és HR válaszok : Első és második fázis összehasonlítása.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     88 p.
+    
+    ISBN 978-963-269-940-0
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Fodor, Marietta</span> és <span class="person_name">Bodor-Pesti, Péter</span> és <span class="person_name">Deák, Tamás</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/456/"><em>Lippay János – Ormos Imre – Vas Károly (LOV) Tudományos Ülésszak, 2021. november 29. : Összefoglalók.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE, Budai Campus, Budapest.
+     138 p.
+    
+    ISBN 978-615-01-3738-4
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Nyitrainé Sárdy, Diána</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/53/"><em>Tanulmányok a Duna-menti borászatok együttműködésének fejlesztésére a szlovák–magyar határmenti régióban.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     99 p.
+    
+    ISBN 978-963-269-980-6
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Holló, Gabriella</span> és <span class="person_name">Pekár, Anita</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/24/"><em>Éghajlatváltozás az agráriumban : Kihívások és megoldások.</em></a>
+
+
+    
+     
+    
+    
+    
+    MTA Pécsi Területi Bizottsága – MATE Kaposvári Campus, Pécs–Kaposvár.
+     128 p.
+    
+    ISBN 978-615-01-0856-8 (nyomtatott) 978-615-01-0853-7 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Gyenge, Balázs</span> és <span class="person_name">Mészáros, Kornélia</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/23/"><em>Magyarországi vállalatok és intézmények ellátásilánc- és logisztikai gyakrolata – különös tekintettel a fuvarozási és szállítmányozási igényekre és teljesítményekre.</em></a>
+
+
+    
+     
+    
+    
+    
+    Szent István Egyetem Tevékenység-menedzsment és Logisztika Tanszék, Gödöllő.
+     81 p.
+    
+    ISBN 978-963-269-946-2
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kocsis, Mihály</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/457/"><em>Térinformatikai alapok a digitális talajtérképezéshez: Felsőoktatási jegyzet és feladatsor.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Georgikon Campus, Keszthely.
+     56 p.
+    
+    ISBN 978-615-01-3738-4 (pdf)
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Mon Mar  9 10:49:15 2026 CET</strong>.</div></div>

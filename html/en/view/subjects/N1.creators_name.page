@@ -1,0 +1,294 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input class="ep_form_action_button" role="button" type="submit" name="_action_export_redir" value="Export" /><input id="view" type="hidden" name="view" value="subjects" /><input id="values" type="hidden" name="values" value="N1" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/N1/Atom/N1.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/N1/RSS/N1.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/N1/RSS2/N1.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (16)<ul><li><a href="N.html">N Fine Arts</a> (16)<ul><li><strong>N Visual arts (General) For photography, see TR</strong> (16)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <a href="N1.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_F">F</a> | <a href="#group_G">G</a> | <a href="#group_H">H</a> | <a href="#group_J">J</a> | <a href="#group_P">P</a> | <a href="#group_S">S</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>14</strong>.</div><a name="group_F"></a><h2>F</h2><p>
+
+
+    <span class="person_name">Ficzek, Ferenc</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/577/"><em>Színről színre... : A Rippl Galéria ON/OFF COLOR című oktatói kiállításáról.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 4 (1).
+    pp. 32-46.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><a name="group_G"></a><h2>G</h2><p>
+
+
+    <span class="person_name">Gyenes, Zsolt</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/580/"><em>Az utókép és a mozgás.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 4 (1).
+    pp. 94-99.
+     ISSN 3004-1910
+  
+
+
+  
+
+
+</p><a name="group_H"></a><h2>H</h2><p>
+
+
+    <span class="person_name">Hatos, Pál</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/582/"><em>Színelméletek színe és visszája : Goethével színezett előszó egy színelméleti kavalkádhoz.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 4 (1).
+    pp. 3-4.
+     ISSN 3004-1910
+  
+
+
+  
+
+
+</p><a name="group_J"></a><h2>J</h2><p>
+
+
+    <span class="person_name">Jancsikityné Lieber, Erzsébet</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/550/"><em>Isabella d’Este: Fekete, Vörös, Igen, Nem… Maszk vagy eszménykép?</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 3 (2).
+    pp. 6-22.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Jancsikityné Lieber, Erzsébet</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/578/"><em>Kérdések a van/nincs színről : A kozmikus fényvalóságtól a személyes érzetminőségen át az esztétikai színélményig.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 4 (1).
+    pp. 5-31.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Jancsikityné Lieber, Erzsébet</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/446/"><em>A fénymetszet-variációktól a műalkotások sokféleségéig.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 2 (1).
+    pp. 5-23.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><a name="group_P"></a><h2>P</h2><p>
+
+
+    <span class="person_name">Pál, Gyöngyi</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/403/"><em>Sophie Calle „Te jössz, babám!” és a fény-képaktus rítusa.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, 3 (1).
+    pp. 17-28.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Pál, Gyöngyi</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/584/"><em>A fény, a test és a szörnyek : Interjú Mátis Ritával.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 4 (1).
+    pp. 110-120.
+     ISSN 3004-1910
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Pál, Gyöngyi</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/445/"><em>A maszk a lélek tükre.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 3 (2).
+    pp. 47-54.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><a name="group_S"></a><h2>S</h2><p>
+
+
+    <span class="person_name">Szabó, Zsófia</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/447/"><em>Párduc vagy virág.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 2 (1).
+    pp. 24-37.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szabó, Zsófia</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/552/"><em>Álarcosok.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 3 (2).
+    pp. 37-46.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szabó, Zsófia</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/583/"><em>Üvegbe zárt színek.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 4 (1).
+    pp. 100-109.
+     ISSN 3004-1910
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szlama, Norbert</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/551/"><em>Alkotói attitűd Picasso és Basquiat munkájában az afrikai maszkok tükrében.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 3 (2).
+    pp. 23-36.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szlama, Norbert</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/449/"><em>A tipográfia a művészet horizontján.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 2 (2).
+    pp. 50-67.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Wed Feb 25 21:09:58 2026 CET</strong>.</div></div>

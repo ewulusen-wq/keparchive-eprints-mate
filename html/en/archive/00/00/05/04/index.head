@@ -1,0 +1,82 @@
+<meta content="504" name="eprints.eprintid" />
+<meta content="6" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="34" name="eprints.userid" />
+<meta content="disk0/00/00/05/04" name="eprints.dir" />
+<meta content="2025-11-19 11:12:01" name="eprints.datestamp" />
+<meta content="2025-11-19 11:12:01" name="eprints.lastmod" />
+<meta content="2025-11-19 11:12:01" name="eprints.status_changed" />
+<meta content="article" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="34" name="eprints.sword_depositor" />
+<meta content="Hernádi, Ildikó" name="eprints.creators_name" />
+<meta content="Magurno, Franco" name="eprints.creators_name" />
+<meta content="Lakiné Sasvári, Zita" name="eprints.creators_name" />
+<meta content="Posta, Katalin" name="eprints.creators_name" />
+<meta content="0000-0003-2790-1741" name="eprints.creators_orcid" />
+<meta content="Tájökológiai Lapok szerkesztősége Kiadók / MTA KFB [2014-]" name="eprints.corp_creators" />
+<meta content="Növényvédelmi Intézet SZIE / MKK NVI [2007-2019]" name="eprints.corp_creators" />
+<meta content="Mikorrhiza oltóanyag hatása két fűszerpaprika termesztésére és a helyi arbuszkuláris mikorrhiza gombaközösségre" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="S1" name="eprints.subjects" />
+<meta content="SB" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="paprika, arbuszkuláris mikorrhiza, diverzitás, PCR-RFLP" name="eprints.keywords" />
+<meta content="Magyarországon engedélyezett mikorrhiza oltóanyag paprika terméshozamára gyakorolt hatásának tesztelésekor az oltás szignifikáns növekedést idézett elő két fűszerpaprika (Szegedi, Kalocsai) nedves hajtástömegében, de száraz hajtástömegre vonatkoztatva csak a Szegedi paprikánál mutatkozott szignifikáns hatás. Nedves gyökértömegben, csak a Kalocsai típusnál jelentkezett pozitív hatása a mikorrhiza oltásnak, mely a száraz gyökérre vonatkoztatva már nem volt kimutatható. Az összterméshozam mennyiségének mérésekor szignifikáns termésnövekedést tapasztaltunk a Symbivit oltóanyag használatával, de annak mértékében jelentős eltérés volt, a Szegedi típus több mint 60%-os termésnövekedést produkált a Kalocsai paprika 10%-os hozamnövekedéséhez képest.
+A mikorrhiza oltóanyagok használatának gazdasági előnyei mellett molekuláris módszerekkel vizsgáltuk meg annak hatásait a helyi AM gomba közösségre. A kimagasló termés mennyiséget mutató Szegedi paprikánál az első és a legmagasabb mikorrhiza aktivitást mutató augusztusi mintavételi időpontokat választottuk ki, hogy megvizsgáljuk az oltás hatását a helyi AM gomba közösségre PCR-RFLP módszer segítségével. Megállapítottuk, hogy a nem honos AM gombafajokat tartalmazó oltóanyag mix úgy növelte a Szegedi fűszerpaprika termésmennyiségét, hogy közben az oltóanyag mikorrhiza tagjai nem idézték elő a helyi AM gombaközösség erőteljes redukcióját. A vegetációs időszak folyamán vizsgálataink eredményei alapján nem jelentkezett agresszív, többit elnyomó mikorrhiza gomba izolátum, de a mikorrhiza oltás hosszú-távú hatása még további megerősítést igényel." name="eprints.abstract" />
+<meta content="2012" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="https://doi.org/10.56617/tl.3791" name="eprints.official_url" />
+<meta content="MTMT:2139037 DOI:10.56617/tl.3791" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY" name="eprints.publication" />
+<meta content="10" name="eprints.volume" />
+<meta content="2" name="eprints.number" />
+<meta content="305-313" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="1589-4673" name="eprints.issn" />
+<meta content="  Hernádi, Ildikó and Magurno, Franco and Lakiné Sasvári, Zita and Posta, Katalin  (2012) Mikorrhiza oltóanyag hatása két fűszerpaprika termesztésére és a helyi arbuszkuláris mikorrhiza gombaközösségre.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (2). pp. 305-313.  ISSN 1589-4673     " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/504/1/08_Hernadi.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/504/" name="DC.relation" />
+<meta content="Mikorrhiza oltóanyag hatása két fűszerpaprika termesztésére és a helyi arbuszkuláris mikorrhiza gombaközösségre" name="DC.title" />
+<meta content="Hernádi, Ildikó" name="DC.creator" />
+<meta content="Magurno, Franco" name="DC.creator" />
+<meta content="Lakiné Sasvári, Zita" name="DC.creator" />
+<meta content="Posta, Katalin" name="DC.creator" />
+<meta content="S Agriculture (General)" name="DC.subject" />
+<meta content="SB Plant culture" name="DC.subject" />
+<meta content="Magyarországon engedélyezett mikorrhiza oltóanyag paprika terméshozamára gyakorolt hatásának tesztelésekor az oltás szignifikáns növekedést idézett elő két fűszerpaprika (Szegedi, Kalocsai) nedves hajtástömegében, de száraz hajtástömegre vonatkoztatva csak a Szegedi paprikánál mutatkozott szignifikáns hatás. Nedves gyökértömegben, csak a Kalocsai típusnál jelentkezett pozitív hatása a mikorrhiza oltásnak, mely a száraz gyökérre vonatkoztatva már nem volt kimutatható. Az összterméshozam mennyiségének mérésekor szignifikáns termésnövekedést tapasztaltunk a Symbivit oltóanyag használatával, de annak mértékében jelentős eltérés volt, a Szegedi típus több mint 60%-os termésnövekedést produkált a Kalocsai paprika 10%-os hozamnövekedéséhez képest.
+A mikorrhiza oltóanyagok használatának gazdasági előnyei mellett molekuláris módszerekkel vizsgáltuk meg annak hatásait a helyi AM gomba közösségre. A kimagasló termés mennyiséget mutató Szegedi paprikánál az első és a legmagasabb mikorrhiza aktivitást mutató augusztusi mintavételi időpontokat választottuk ki, hogy megvizsgáljuk az oltás hatását a helyi AM gomba közösségre PCR-RFLP módszer segítségével. Megállapítottuk, hogy a nem honos AM gombafajokat tartalmazó oltóanyag mix úgy növelte a Szegedi fűszerpaprika termésmennyiségét, hogy közben az oltóanyag mikorrhiza tagjai nem idézték elő a helyi AM gombaközösség erőteljes redukcióját. A vegetációs időszak folyamán vizsgálataink eredményei alapján nem jelentkezett agresszív, többit elnyomó mikorrhiza gomba izolátum, de a mikorrhiza oltás hosszú-távú hatása még további megerősítést igényel." name="DC.description" />
+<meta content="2012" name="DC.date" />
+<meta content="Article" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/504/1/08_Hernadi.pdf" name="DC.identifier" />
+<meta content="  Hernádi, Ildikó and Magurno, Franco and Lakiné Sasvári, Zita and Posta, Katalin  (2012) Mikorrhiza oltóanyag hatása két fűszerpaprika termesztésére és a helyi arbuszkuláris mikorrhiza gombaközösségre.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (2). pp. 305-313.  ISSN 1589-4673     " name="DC.identifier" />
+<meta content="https://doi.org/10.56617/tl.3791" name="DC.relation" />
+<meta content="MTMT:2139037 DOI:10.56617/tl.3791" name="DC.relation" />
+<meta content="MTMT:2139037 DOI:10.56617/tl.3791" name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/504/" rel="canonical" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/CSV/press-eprint-504.csv" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/JSON/press-eprint-504.js" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/DIDL/press-eprint-504.xml" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/EndNote/press-eprint-504.enw" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/RIS/press-eprint-504.ris" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/RDFN3/press-eprint-504.n3" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/ContextObject/press-eprint-504.xml" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/BibTeX/press-eprint-504.bib" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/METS/press-eprint-504.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/DC/press-eprint-504.txt" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/MODS/press-eprint-504.xml" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/RDFNT/press-eprint-504.nt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/COinS/press-eprint-504.txt" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/Text/press-eprint-504.txt" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/Simple/press-eprint-504.txt" rel="alternate" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/Atom/press-eprint-504.xml" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/Refer/press-eprint-504.refer" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/HTML/press-eprint-504.html" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/XML/press-eprint-504.xml" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/504/RDFXML/press-eprint-504.rdf" rel="alternate" />

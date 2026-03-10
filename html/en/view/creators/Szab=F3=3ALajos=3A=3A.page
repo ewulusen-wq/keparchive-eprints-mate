@@ -1,0 +1,50 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Export" name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" /><input value="creators" id="view" name="view" type="hidden" /><input value="Szab=F3=3ALajos=3A=3A" id="values" name="values" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szab=F3=3ALajos=3A=3A/Atom/Szab=F3=3ALajos=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szab=F3=3ALajos=3A=3A/RSS/Szab=F3=3ALajos=3A=3A.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szab=F3=3ALajos=3A=3A/RSS2/Szab=F3=3ALajos=3A=3A.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Szab=F3=3ALajos=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_book=5Fsection">Book Section</a></div></div><div class="ep_view_blurb">Number of items: <strong>1</strong>.</div><a name="group_book=5Fsection"></a><h2>Book Section</h2><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span> and <span class="person_name">Gura, J. Tamás</span> and <span class="person_name">Szeli, Nóra</span> and <span class="person_name">Hatala, Mihály</span> and <span class="person_name">Héja, Endre</span> and <span class="person_name">Vas, Zoltán</span> and <span class="person_name">Szabó, Lajos</span> and <span class="person_name">Áprily, Szilvia</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/400/"><em>Őszi vetésű gabona- és gabona-pillangós keverékszenázsok táplálóanyag-tartalmának bendőbeli lebonthatósága.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> and <span class="person_name">Tóthi, Róbert</span> 
+        
+          (eds.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium És Egy Egészség Nap, 2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 87-94.
+    ISBN 978-963-623-120-0
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Tue Mar 10 06:28:26 2026 CET</strong>.</div></div>

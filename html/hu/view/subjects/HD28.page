@@ -1,0 +1,208 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Exportálás" name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" /><input value="subjects" id="view" name="view" type="hidden" /><input value="HD28" id="values" name="values" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/HD28/Atom/HD28.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/HD28/RSS/HD28.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/HD28/RSS2/HD28.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (8)<ul><li><a href="H.html">H Társadalomtudományok</a> (8)<ul><li><a href="HD.html">HD Ipar, földhasználat, munkaügy</a> (8)<ul><li><strong>HD28 Menedzsment. Ipari menedzsment</strong> (8)</li></ul></li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <span class="ep_view_group_by_current">Tétel típusa</span>['Update/Views:group_separator' not defined]<a href="HD28.creators_name.html">Létrehozók</a></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_article">Cikk</a>['Update/Views:jump_separator' not defined]<a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>8</strong>.</div><a name="group_article"></a><h2>Cikk</h2><p>
+
+
+    <span class="person_name">Lőrinc, Balázs</span> és <span class="person_name">Káposzta, József</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/307/"><em>Foglalkoztatás és mobilitás a budapesti munkaerő-piaci vonzáskörzetben.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 11 (1).
+    pp. 68-78.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Vafnóczki, Attila József</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/421/"><em>Egyetemi hallgatók motivációs tényezőinek és preferenciáinak vizsgálata a munkahely választás tekintetében.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 12 (2).
+    pp. 58-71.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Wirth, Gábor</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/308/"><em>Magyarország makettparkjai mint újszerű attrakciók a kulturális turizmusban.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 11 (2).
+    pp. 3-16.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Rudnák, Ildikó</span> (Szerk.).
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/441/"><em>Classical Scholars of Leadership Theory.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     170 p.
+    
+    ISBN 978-963-623-124-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Farkas, Attila</span> (Szerk.).
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/302/"><em>Diversity in Business Education.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     134 p.
+    
+    ISBN 9789636231095
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Rudnák, Ildikó</span> (Szerk.).
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/443/"><em>Leadership Theories and Models in Today’s Perspectives.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     190 p.
+    
+    ISBN 978-963-623-129-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Rudnák, Ildikó</span> (Szerk.).
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/442/"><em>Theoretical Approaches to Diverse Leadership.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     190 p.
+    
+    ISBN 978-963-623-128-6
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Gyenge, Balázs</span> és <span class="person_name">Mészáros, Kornélia</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/23/"><em>Magyarországi vállalatok és intézmények ellátásilánc- és logisztikai gyakrolata – különös tekintettel a fuvarozási és szállítmányozási igényekre és teljesítményekre.</em></a>
+
+
+    
+     
+    
+    
+    
+    Szent István Egyetem Tevékenység-menedzsment és Logisztika Tanszék, Gödöllő.
+     81 p.
+    
+    ISBN 978-963-269-946-2
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Tue Mar 10 04:02:44 2026 CET</strong>.</div></div>

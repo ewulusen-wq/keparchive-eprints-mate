@@ -1,0 +1,21 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]">['Update/Views:up_a_level' not defined]</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">['Update/Views:export_section' not defined<dl class="ep_undefined_phrase"><dt>menu</dt><dd><select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select></dd><dt>tools</dt><dd></dd><dt>feeds</dt><dd> <span class="ep_search_feed"><a href="/cgi/exportview/creators/F==0171r=E9sz=3A=C1gnes=3A=3A/Atom/F==0171r=E9sz=3A=C1gnes=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/F==0171r=E9sz=3A=C1gnes=3A=3A/RSS/F==0171r=E9sz=3A=C1gnes=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/F==0171r=E9sz=3A=C1gnes=3A=3A/RSS2/F==0171r=E9sz=3A=C1gnes=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></dd><dt>button</dt><dd><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="['lib/searchexpression:export_button' not defined]" /><input type="hidden" name="view" id="view" value="creators" /><input type="hidden" name="values" id="values" value="F==0171r=E9sz=3A=C1gnes=3A=3A" /></dd></dl>]</form><div class="ep_view_page ep_view_page_view_creators">['Update/Views:group_by' not defined<dl class="ep_undefined_phrase"><dt>groups</dt><dd>['Update/Views:current_group' not defined<dl class="ep_undefined_phrase"><dt>group</dt><dd>['eprint_fieldname_type' not defined]</dd></dl>]['Update/Views:group_separator' not defined]<a href="F==0171r=E9sz=3A=C1gnes=3A=3A.default.html">['Update/Views:no_grouping' not defined]</a></dd></dl>]<div class="ep_view_jump ep_view_creators_type_jump">['Update/Views:jump_to' not defined<dl class="ep_undefined_phrase"><dt>jumps</dt><dd><a href="#group_article">Cikk</a></dd></dl>]</div>['bin/generate_views:blurb' not defined<dl class="ep_undefined_phrase"><dt>n</dt><dd>1</dd></dl>]<a name="group_article"></a><h2>Cikk</h2><p>
+
+
+    <span class="person_name">Fűrész, Ágnes</span>['lib/metafield:join_name' not defined]<span class="person_name">Szeberényi, András</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/310/"><em>A megújuló energiaforrások és az online kommunikáció lehetséges kapcsolatainak vizsgálata primer kutatási módszerrel.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 11 (2).
+    pp. 29-42.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p>['bin/generate_views:timestamp' not defined<dl class="ep_undefined_phrase"><dt>time</dt><dd>Mon Mar  9 12:52:12 2026 CET</dd></dl>]</div>

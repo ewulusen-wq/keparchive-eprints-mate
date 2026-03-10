@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<!-- 
+	Document citation style.
+-->
+
+<cite:citation xmlns="http://www.w3.org/1999/xhtml" xmlns:cite="http://eprints.org/ep3/citation" xmlns:epc="http://eprints.org/ep3/control">
+
+<!-- document citation -->
+
+<img src="{$item.icon_url()}" alt="{main}" title="{main}" /><br />
+<span title="{main}"><epc:print expr="main"/></span> <br />
+<epc:print expr='format'/><br />
+<a href="{$item.url()}">Download</a>
+</cite:citation>

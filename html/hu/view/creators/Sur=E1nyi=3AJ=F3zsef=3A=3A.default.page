@@ -1,0 +1,49 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="Exportálás" /><input type="hidden" name="view" id="view" value="creators" /><input type="hidden" name="values" id="values" value="Sur=E1nyi=3AJ=F3zsef=3A=3A" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Sur=E1nyi=3AJ=F3zsef=3A=3A/Atom/Sur=E1nyi=3AJ=F3zsef=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Sur=E1nyi=3AJ=F3zsef=3A=3A/RSS/Sur=E1nyi=3AJ=F3zsef=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Sur=E1nyi=3AJ=F3zsef=3A=3A/RSS2/Sur=E1nyi=3AJ=F3zsef=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Csoportosítás: <a href="Sur=E1nyi=3AJ=F3zsef=3A=3A.html">Tétel típusa</a>['Update/Views:group_separator' not defined]<span class="ep_view_group_by_current">Nincs</span></div><div class="ep_view_blurb">Tételek száma: <strong>1</strong>.</div><p>
+
+
+    <span class="person_name">Friedrich, László</span> és <span class="person_name">Baranyai, László</span> és <span class="person_name">Jónás, Gábor</span> és <span class="person_name">Kenesei, György</span> és <span class="person_name">Surányi, József</span> és <span class="person_name">Quang, Nguyen Duc</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/110/"><em>Innovációk az élelmiszer-feldolgozásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> és <span class="person_name">Tóthi, Róbert</span> 
+        
+          (Szerk.)
+          
+      
+      Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     127 p.
+    pp. 68-79.
+    ISBN 978-963-623-031-9
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Mon Mar  9 19:29:44 2026 CET</strong>.</div></div>

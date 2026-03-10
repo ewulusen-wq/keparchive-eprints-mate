@@ -1,0 +1,34 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Export" role="button" /><input type="hidden" name="view" value="creators" id="view" /><input type="hidden" name="values" value="Katits=3AEtelka=3A=3A" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Katits=3AEtelka=3A=3A/Atom/Katits=3AEtelka=3A=3A.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Katits=3AEtelka=3A=3A/RSS/Katits=3AEtelka=3A=3A.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Katits=3AEtelka=3A=3A/RSS2/Katits=3AEtelka=3A=3A.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Katits=3AEtelka=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>1</strong>.</div><p>
+
+
+    <span class="person_name">Fejes, Judit Katalin</span> and <span class="person_name">Katits, Etelka</span> and <span class="person_name">Szabó, Zoltán</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/342/"><em>Az okos technológiák és a mesterséges intelligencia alkalmazásának nemzetközi áttekintése a turizmus iparágban és a fürdővárosokban.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 11 (4).
+    pp. 39-54.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Mar  8 20:53:19 2026 CET</strong>.</div></div>

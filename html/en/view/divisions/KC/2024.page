@@ -1,0 +1,95 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="Export" /><input type="hidden" name="view" id="view" value="divisions" /><input type="hidden" name="values" id="values" value="KC/2024" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/KC/2024/Atom/KC_2024.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/KC/2024/RSS/KC_2024.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/KC/2024/RSS2/KC_2024.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_divisions"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="2024.creators_name.html">Creators</a> | <a href="2024.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_divisions_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_book">Book</a></div></div><div class="ep_view_blurb">Number of items: <strong>3</strong>.</div><a name="group_book"></a><h2>Book</h2><p>
+
+
+    <span class="person_name">Gerencsér, Zsolt</span> (ed.).
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/283/"><em>35. Nyúltenyésztési Tudományos Nap [35th Hungarian Conference on Rabbit Production] Kaposvár, 2024. Szeptember 26.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Kaposvári Campus, Kaposvár.
+     65Number of Pages.
+    
+    ISBN 9786156639035; 9786156639042
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bencéné Fekete, Andrea</span> (ed.).
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/291/"><em>DUNÁNTÚLI MANDULAFA 2024 : Ifjú kutatók IX. tudományos konferenciája.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Neveléstudományi Intézet, Kaposvár.
+     263Number of Pages.
+    
+    ISBN 978-963-623-103-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Petőné Csima, Melinda</span> (ed.).
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/284/"><em>Tehetség – nevelés – tudomány : Válogatás a MATE Csokonai Vitéz Mihály Szakkollégiumának 2024. évi tanulmányaiból.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE, Gödöllő.
+     178Number of Pages.
+    
+    ISBN 9789636231040
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Mar  9 06:39:04 2026 CET</strong>.</div></div>

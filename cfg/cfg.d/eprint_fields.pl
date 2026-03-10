@@ -11,8 +11,7 @@ push @{$c->{fields}->{eprint}},
 			hide_honourific => 1,
 			hide_lineage => 1,
 			family_first => 1,
-		}, 
-
+		},  
 		{
 			sub_name => 'id',
 			type => 'text',
@@ -40,7 +39,6 @@ push @{$c->{fields}->{eprint}},
 			hide_lineage => 1,
 			family_first => 1,
 		},
-    
 		{
 			sub_name => 'id',
 			type => 'text',
@@ -137,12 +135,12 @@ push @{$c->{fields}->{eprint}},
 	name => 'publisher',
 	type => 'text',
 },
+
 {
         name => 'official_url',
         type => 'url',
         render_value => 'EPrints::Extras::render_url_truncate_end',
 },
-
 {
 	name => 'id_number',
 	type => 'text',
@@ -161,35 +159,6 @@ push @{$c->{fields}->{eprint}},
 	multiple => 1,
 	input_boxes => 1,
 },
-
-{
-	name => 'event_name',
-	type => 'text',
-},
-
-
-{
-  name => "location",
-  type => "text",
-  multiple => 0,
-},
-
-{
-  name => "photographer",
-  type => "name",
-  multiple => 0,
-},
-
-{
-  name => "collection",
-  type => "set",
- options => [
-    "rektori",
-    "hallgatoi",
-    "epulet",
-],
-},
-
 
 
 ;

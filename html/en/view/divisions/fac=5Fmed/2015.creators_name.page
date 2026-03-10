@@ -1,0 +1,95 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" class="ep_form_action_button" role="button" name="_action_export_redir" value="Export" /><input value="divisions" name="view" id="view" type="hidden" /><input type="hidden" id="values" value="fac=5Fmed/2015" name="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Fmed/2015/Atom/fac=5Fmed_2015.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Fmed/2015/RSS/fac=5Fmed_2015.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Fmed/2015/RSS2/fac=5Fmed_2015.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_divisions"><div class="ep_view_group_by">Group by: <a href="2015.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span> | <a href="2015.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_divisions_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_A">A</a> | <a href="#group_N">N</a> | <a href="#group_S">S</a></div></div><div class="ep_view_blurb">Number of items: <strong>3</strong>.</div><a name="group_A"></a><h2>A</h2><p>
+
+
+    <span class="person_name">Antalics, Fanni</span> and <span class="person_name">Bosnyák-Varga, Tímea</span> and <span class="person_name">Gelencsérné Bakó, Márta</span> and <span class="person_name">Gugora, Réka</span> and <span class="person_name">Győr-Varga, Nóra</span> and <span class="person_name">Hodosi, Zsófia</span> and <span class="person_name">Horváth, Lilla</span> and <span class="person_name">Kátainé Lusztig, Ilona</span> and <span class="person_name">Kovács, Atila</span> and <span class="person_name">Kovácsné Nagy, Ibolya</span> and <span class="person_name">Kozics, Nikolett</span> and <span class="person_name">Laczkó, Mária</span> and <span class="person_name">Divina, Roa</span> and <span class="person_name">Somogyi, Bianka</span> and <span class="person_name">Szalai, Katalin</span> and <span class="person_name">Szili, Katalin</span> and <span class="person_name">Szűcs, Rebeka</span> and <span class="person_name">Takács, István</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/327/"><em>Gyógypedagógiai Glosszárium.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Pedagógiai Kar, Kaposvár.
+     134Number of Pages.
+    
+    ISBN 978-615-5599-11-8
+  
+  
+
+
+  
+
+
+</p><a name="group_N"></a><h2>N</h2><p>
+
+
+    <span class="person_name">Nagyné Árgány, Brigitta</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/325/"><em>Játékos mesterkedések : Gyermekhangszerek készítése&#13;
+és felhasználásuk a komplex művészeti nevelésben.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+     43Number of Pages.
+    
+   
+  
+
+
+  
+
+
+</p><a name="group_S"></a><h2>S</h2><p>
+
+
+    <span class="person_name">Szalai, Katalin</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/332/"><em>Módszertani megfontolások a gyógypedagógus-képzéssel kapcsolatban.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Pedagógiai Kar, Kaposvár.
+     108Number of Pages.
+    
+    ISBN 978-615-5599-03-3
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Thu Feb 12 13:53:11 2026 CET</strong>.</div></div>

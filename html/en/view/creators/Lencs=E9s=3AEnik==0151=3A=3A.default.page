@@ -1,0 +1,50 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Export" role="button" /><input type="hidden" name="view" value="creators" id="view" /><input type="hidden" name="values" value="Lencs=E9s=3AEnik==0151=3A=3A" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Lencs=E9s=3AEnik==0151=3A=3A/Atom/Lencs=E9s=3AEnik==0151=3A=3A.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Lencs=E9s=3AEnik==0151=3A=3A/RSS/Lencs=E9s=3AEnik==0151=3A=3A.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Lencs=E9s=3AEnik==0151=3A=3A/RSS2/Lencs=E9s=3AEnik==0151=3A=3A.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Lencs=E9s=3AEnik==0151=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>1</strong>.</div><p>
+
+
+    <span class="person_name">Hassan, Mohammad</span> and <span class="person_name">Lencsés, Enikő</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/381/"><em>Impact of E-commerce Logistics Service Quality on Customer Satisfaction and Loyalty in India : A case study of Flipkart.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Mészáros, Kornélia</span> and <span class="person_name">Szerb, Boglárka</span> and <span class="person_name">Lehota, Zsuzsanna</span> 
+        
+          (eds.)
+          
+      
+      Fenntarthatóság és hatékonyság a logisztikában : Logisztika napja a Magyar Agrár- és Élettudományi Egyetemen, Gödöllő, 2023. április 20. és 2024. április 23. = Sustainability and efficiency in logistics : Day of Logistics at Hungarian University of Agricu.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 31-45.
+    ISBN 978-963-623-110-1
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Mar  8 20:55:44 2026 CET</strong>.</div></div>

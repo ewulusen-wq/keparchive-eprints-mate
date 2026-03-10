@@ -1,0 +1,247 @@
+<div class="no_link_decor"><a href="./" alt="['Update/Views:up_a_level_alt' not defined]"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Exportálás" role="button" /><input type="hidden" name="view" value="subjects" id="view" /><input type="hidden" name="values" value="LC5201" id="values" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LC5201/Atom/LC5201.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LC5201/RSS/LC5201.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LC5201/RSS2/LC5201.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (10)<ul><li><a href="L.html">L Oktatás</a> (10)<ul><li><a href="LC.html">LC Speciális oktatási formák</a> (10)<ul><li><strong>LC5201 Felnőttoktatás, folyamatos képzés</strong> (10)</li></ul></li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <a href="LC5201.html">Tétel típusa</a>['Update/Views:group_separator' not defined]<span class="ep_view_group_by_current">Létrehozók</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_A">A</a>['Update/Views:jump_separator' not defined]<a href="#group_B">B</a>['Update/Views:jump_separator' not defined]<a href="#group_C">C</a>['Update/Views:jump_separator' not defined]<a href="#group_N">N</a>['Update/Views:jump_separator' not defined]<a href="#group_R">R</a>['Update/Views:jump_separator' not defined]<a href="#group_S">S</a>['Update/Views:jump_separator' not defined]<a href="#group_T">T</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>7</strong>.</div><a name="group_A"></a><h2>A</h2><p>
+
+
+    <span class="person_name">Antalics, Fanni</span> és <span class="person_name">Bosnyák-Varga, Tímea</span> és <span class="person_name">Gelencsérné Bakó, Márta</span> és <span class="person_name">Gugora, Réka</span> és <span class="person_name">Győr-Varga, Nóra</span> és <span class="person_name">Hodosi, Zsófia</span> és <span class="person_name">Horváth, Lilla</span> és <span class="person_name">Kátainé Lusztig, Ilona</span> és <span class="person_name">Kovács, Atila</span> és <span class="person_name">Kovácsné Nagy, Ibolya</span> és <span class="person_name">Kozics, Nikolett</span> és <span class="person_name">Laczkó, Mária</span> és <span class="person_name">Divina, Roa</span> és <span class="person_name">Somogyi, Bianka</span> és <span class="person_name">Szalai, Katalin</span> és <span class="person_name">Szili, Katalin</span> és <span class="person_name">Szűcs, Rebeka</span> és <span class="person_name">Takács, István</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/327/"><em>Gyógypedagógiai Glosszárium.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Pedagógiai Kar, Kaposvár.
+     134 p.
+    
+    ISBN 978-615-5599-11-8
+  
+  
+
+
+  
+
+
+</p><a name="group_B"></a><h2>B</h2><p>
+
+
+    <span class="person_name">Bencéné Fekete, Anikó Andrea</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/235/"><em>Kutatásalapú tanulás.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 9-22.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><a name="group_C"></a><h2>C</h2><p>
+
+
+    <span class="person_name">Csajka, Edina</span> és <span class="person_name">Bencéné Fekete, Anikó Andrea</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/238/"><em>Élményalapú oktatási módszerek.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 55-71.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><a name="group_N"></a><h2>N</h2><p>
+
+
+    <span class="person_name">Nagyné Árgány, Brigitta</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/325/"><em>Játékos mesterkedések : Gyermekhangszerek készítése&#13;
+és felhasználásuk a komplex művészeti nevelésben.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+     43 p.
+    
+   
+  
+
+
+  
+
+
+</p><a name="group_R"></a><h2>R</h2><p>
+
+
+    <span class="person_name">Rumbus, Anikó</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/239/"><em>Interaktív tanulási-tanítási stratégiák a felsőoktatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 73-90.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><a name="group_S"></a><h2>S</h2><p>
+
+
+    <span class="person_name">Szabó, Norbert</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/82/"><em>Az állandósult változás – kihívások és lehetőségek a felsőoktatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár  a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Kaposvár.
+     279 p.
+    pp. 13-20.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><a name="group_T"></a><h2>T</h2><p>
+
+
+    <span class="person_name">Tóth-Szerecz, Ágnes</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/240/"><em>Tükrözött osztályterem.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 91-100.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Sun Mar  8 23:57:55 2026 CET</strong>.</div></div>

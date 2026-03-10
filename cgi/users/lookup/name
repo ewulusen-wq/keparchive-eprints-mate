@@ -1,0 +1,340 @@
+use strict;
+use HTTP::Request;
+use LWP::UserAgent;
+use JSON;
+
+use Data::Dumper;
+use EPrints;
+
+my $maximumResults = 20;
+my $maxPublications = 3;
+
+my $session = EPrints::Session->new();
+
+my $family = $session->param( "_name_family" );
+my $given = $session->param( "_name_given" );
+my $id = $session->param( "_id" );
+
+# Names API search set up
+my $query = 'http://names.mimas.ac.uk/individual/search.json?outputFields=nameComponents%20and%20assigned%20and%20fieldsOfInterest%20and%20affiliations%20and%20resultPublications%20and%20collaborativeRelationships&orderBy=names&maximumRecords=' . $maximumResults;
+
+# EPrints db search set up
+my $database = $session->get_database;
+my $dataset = $session->get_repository->get_dataset( "eprint" );
+my $name_field = $dataset->get_field( "creators_name" );
+my $id_field = $dataset->get_field( "creators_id" );
+
+my @fields = ($name_field->get_sql_names, $id_field->get_sql_names);
+
+my $Q_table = $database->quote_identifier($dataset->get_sql_table_name);
+my $Q_name_table = $database->quote_identifier($dataset->get_sql_sub_table_name($name_field));
+my $Q_id_table = $database->quote_identifier($dataset->get_sql_sub_table_name($id_field));
+my $Q_eprintid = $database->quote_identifier( "eprintid" );
+my $Q_pos = $database->quote_identifier( "pos" );
+my $Q_num_matches = $database->quote_identifier( "num_matches" );
+my $Q_eprint_status = $database->quote_identifier( "eprint_status" );
+
+my $sql = "SELECT COUNT($Q_table.$Q_eprintid) ".$database->sql_AS." $Q_num_matches," .
+	join(",", map { $database->quote_identifier($_) } @fields) .
+	" FROM $Q_table" .
+	" LEFT JOIN $Q_name_table" .
+	" ON $Q_table.$Q_eprintid=$Q_name_table.$Q_eprintid" .
+	" LEFT JOIN $Q_id_table" .
+	" ON $Q_name_table.$Q_eprintid=$Q_id_table.$Q_eprintid " .
+	" AND $Q_name_table.$Q_pos=$Q_id_table.$Q_pos " .
+	" WHERE " .
+	" $Q_table.$Q_eprint_status=".$database->quote_value( "archive" );
+
+
+if ( EPrints::Utils::is_set( $family ) ) 
+{
+	# Just work with this for now
+	if (length($family) < 3) {
+		print ("<ul><li>keep typing....</li></ul>");
+		return;
+	}
+
+	# Add to Names API query
+	$query .= "&familyName=$family";	
+	
+	# Add to EPrints query
+	$sql .= " AND ".$database->quote_identifier("creators_name_family").$database->sql_LIKE().$database->quote_value(EPrints::Database::prep_like_value($family).'%');
+} 
+if( EPrints::Utils::is_set( $given ) )
+{
+	# Add to Names API query
+	$query .= '&givenName=';	
+	foreach my $component ( split /\s+/, $given ) {
+		$query .= $component . '%20AND%20';	
+	}
+	$query =~ s/%20AND%20$//;
+	
+	# Add to EPrints query
+	$sql .= " AND ".$database->quote_identifier("creators_name_given").$database->sql_LIKE().$database->quote_value(EPrints::Database::prep_like_value($given).'%');
+	
+}
+#if( EPrints::Utils::is_set( $id ) )
+#{
+	# Do nothing for now
+#}
+
+# EPrints query wrap-up
+$sql .= " GROUP BY ".join(",",map { $database->quote_identifier($_) } @fields) .
+	" ORDER BY $Q_num_matches DESC," .
+	$database->quote_identifier("creators_name_family").",".
+	$database->quote_identifier("creators_name_given");
+
+
+# Search across both Names API and internal EPrints db
+# Consecutively to start with
+
+# Search for names via local EPrints db search
+my @eprints_rows = searchEPrints( $sql );
+
+# Search for names via Names API
+my @names_rows = searchNamesAPI( $query) ;
+
+# Combine results
+push @eprints_rows, @names_rows;
+
+# Order two sets of data by family name, given name
+my @ordered_rows = sort by_name @eprints_rows;
+
+
+# Output lookup dropdown list
+my $ul = render_lookup_list( $session, \@ordered_rows );
+
+$session->send_http_header( content_type => "text/xml; charset=UTF-8" );
+
+binmode(STDOUT,":utf8");
+print <<END;
+<?xml version="1.0" encoding="UTF-8" ?>
+
+END
+print EPrints::XML::to_string( $ul, "utf-8", 1 );
+
+EPrints::XML::dispose( $ul );
+
+$session->terminate;
+
+1;
+
+
+sub searchNamesAPI {
+	
+	my $q = shift;
+	my @rows;
+	
+	my $request = HTTP::Request->new( GET => "$q" );		
+	my $ua = LWP::UserAgent->new();
+	my $response = $ua->request($request);
+	my $content = $response->content();
+	
+	my $names_hash = decode_json $content; # assumes utf8 input
+	
+	# Get results from query
+	foreach my $result_hash ( @{ $names_hash->{results} } ) 
+	{
+				
+		my $item = {};
+	
+		my $names_uri = $result_hash->{namesID};
+		$names_uri =~ /\/([^\/]*)$/;
+		$item->{names_id} = $1;
+		my $name_chars = $result_hash->{names}->[0]->{characters};
+		
+		my ($family_name, $given_name) = split /,/, $name_chars;
+		
+		# Get Fields of Interest
+		foreach my $foi_hash ( @{$result_hash->{fieldsOfInterest}} ) {
+			push @{ $item->{foi} }, $foi_hash->{fieldOfInterest};
+		}
+		
+		# Get authored articles
+		foreach my $publication_hash ( @{$result_hash->{resultPublications}} ) {
+			push @{ $item->{publications} }, $publication_hash->{title};	
+		}
+		
+		# Get affiliations
+		foreach my $affiliation_hash ( @{$result_hash->{affiliations}} ) {
+			push @{ $item->{affiliations} }, $affiliation_hash->{name};	
+		}
+		
+	
+		my $frag = $session->make_doc_fragment;
+	
+		$frag->appendChild( $session->make_text("$family_name, $given_name") );
+		$frag->appendChild( $session->make_text( " " ) );
+		$frag->appendChild( $session->make_text("[$names_uri]") );
+			
+		my $small = $session->make_element("span", style=>"font-size:small;color:red" );
+		$frag->appendChild( $small );
+		$small->appendChild( $session->make_text( " (from the Names authority service)" ) );
+	
+		$item->{xhtml} = $frag;
+		$item->{values} = [
+			"for:value:relative:_name_family" => $family_name,
+			"for:value:relative:_name_given" => $given_name,
+			"for:value:relative:_id" => $names_uri,
+		];	
+		
+		push @rows, $item;
+	}
+	
+	return @rows;
+	
+}
+
+sub searchEPrints {
+	
+	my $q = shift;
+	my @rows;	
+
+	my $sth = $session->get_database->prepare_select( $q, 'limit' => $maximumResults );
+	$session->get_database->execute( $sth , $q );
+	while( my @row = $sth->fetchrow_array )
+	{
+		my $cnt = shift @row;
+		my $name = $name_field->value_from_sql_row( $session, \@row );
+		my $id = $id_field->value_from_sql_row( $session, \@row );
+	
+		my $item = {};
+	
+		my $frag = $session->make_doc_fragment;
+	
+		$frag->appendChild( $name_field->render_single_value( $session, $name ) );
+		if( EPrints::Utils::is_set( $id ) )
+		{
+			$frag->appendChild( $session->make_text( " " ) );
+			$frag->appendChild( $id_field->render_single_value( $session, $id ) );
+		}
+		my $small = $session->make_element("span", style=>"font-size:small;color:red" );
+		$frag->appendChild( $small );
+		$small->appendChild( $session->make_text( " (author of ".$cnt." item".($cnt>1?"s":"")." in the repository)" ) );
+	
+		$item->{xhtml} = $frag;
+		$item->{values} = [
+			"for:value:relative:_name_family" => $name->{family},
+			"for:value:relative:_name_given" => $name->{given},
+			"for:value:relative:_name_honourific" => $name->{honourific},
+			"for:value:relative:_name_lineage" => $name->{lineage},
+			"for:value:relative:_id" => $id,
+		];
+		
+		push @rows, $item;
+	}
+	
+	$sth->finish();
+	return @rows;
+	
+}
+
+sub by_name {
+	lc $a->{values}->[1] cmp lc $b->{values}->[1]
+	||
+	lc $a->{values}->[3] cmp lc $b->{values}->[3]	
+}
+
+sub render_lookup_list
+{
+	my( $session, $rows ) = @_;
+
+	my $ul = $session->make_element( "ul" );
+
+	my $first = 1;
+	foreach my $row (@$rows)
+	{
+		# Need to generate a random id for the div otherwise the element
+		# postion gets cached at the client - a scriptaculous issue?
+		my $time = time;
+		$time =~ /(.{4})$/;
+		my $item_id = $1 . '_' . $row->{names_id};
+		my $li = $session->make_element( 
+			'li', 
+			id => "names_item_$item_id",
+		);		
+		if ( $row->{foi} ) {
+			# This is a Names record
+			$li->setAttribute( "onMouseOver", "names_show_disambiguation_info('names_item_$item_id')" );
+			$li->setAttribute( "onMouseOut", "names_hide_disambiguation_info('names_item_$item_id')" );
+		}
+		$ul->appendChild( $li );
+		if( $first )
+		{
+			$li->setAttribute( "class", "ep_first" );
+			$first = 0;
+		}
+		if( defined($row->{xhtml}) )
+		{
+			$li->appendChild( $row->{xhtml} );
+		}
+		elsif( defined($row->{desc}) )
+		{
+			$li->appendChild( $session->make_text( $row->{desc} ) );
+		}
+		my @values = @{$row->{values}};
+		my $ul = $session->make_element( "ul" );
+		$li->appendChild( $ul );
+		for(my $i = 0; $i < @values; $i+=2)
+		{
+			my( $name, $value ) = @values[$i,$i+1];
+			my $li = $session->make_element( "li", id => $name );
+			$ul->appendChild( $li );
+			$li->appendChild( $session->make_text( $value ) );
+		}
+		
+		# Add disambiguation information for Names data
+		if ( $row->{foi} || $row->{publications} ) {
+			my $div = $session->make_element( "div" );
+			$li->appendChild( $div );
+			
+			# Fields of interest
+			if ( $row->{foi} )
+			{
+				my $ul = $session->make_element( "ul");
+				$div->appendChild( $ul );
+				
+				foreach my $foi ( @{$row->{foi}} )
+				{
+					my $li = $session->make_element( "li", name => "names_foi"  );
+					$ul->appendChild( $li );
+					$li->appendChild( $session->make_text( $foi ) );
+				}
+			}
+			
+			# Publications
+			if ( $row->{publications} )
+			{
+				my $ul = $session->make_element( "ul");
+				$div->appendChild( $ul );
+				
+				my $pub_count = 0;
+				foreach my $publication ( @{$row->{publications}} )
+				{
+					$pub_count++;
+					my $li = $session->make_element( "li", name => "names_publication"  );
+					$ul->appendChild( $li );
+					$li->appendChild( $session->make_text( $publication ) );
+					last if ( $pub_count >= $maxPublications );
+				}
+			}
+			
+			# Affiliations
+			if ( $row->{affiliations} )
+			{
+				my $ul = $session->make_element( "ul");
+				$div->appendChild( $ul );
+				
+				foreach my $affiliation ( @{$row->{affiliations}} )
+				{
+					my $li = $session->make_element( "li", name => "names_affiliation"  );
+					$ul->appendChild( $li );
+					$li->appendChild( $session->make_text( $affiliation ) );
+				}
+			}
+		}
+	}
+
+	return $ul;
+}
+

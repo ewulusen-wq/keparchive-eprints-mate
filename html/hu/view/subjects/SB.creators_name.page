@@ -1,0 +1,538 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="Exportálás" /><input type="hidden" name="view" id="view" value="subjects" /><input type="hidden" name="values" id="values" value="SB" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/SB/Atom/SB.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/SB/RSS/SB.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/SB/RSS2/SB.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (39)<ul><li><a href="S.html">S Mezőgazdaság</a> (39)<ul><li><strong>SB Növénytermesztés</strong> (39)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <a href="SB.html">Tétel típusa</a>['Update/Views:group_separator' not defined]<span class="ep_view_group_by_current">Létrehozók</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_B">B</a>['Update/Views:jump_separator' not defined]<a href="#group_D">D</a>['Update/Views:jump_separator' not defined]<a href="#group_G">G</a>['Update/Views:jump_separator' not defined]<a href="#group_H">H</a>['Update/Views:jump_separator' not defined]<a href="#group_K">K</a>['Update/Views:jump_separator' not defined]<a href="#group_L">L</a>['Update/Views:jump_separator' not defined]<a href="#group_M">M</a>['Update/Views:jump_separator' not defined]<a href="#group_S">S</a>['Update/Views:jump_separator' not defined]<a href="#group_T">T</a>['Update/Views:jump_separator' not defined]<a href="#group_V">V</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>24</strong>.</div><a name="group_B"></a><h2>B</h2><p>
+
+
+    <span class="person_name">Baranyai, László</span> és <span class="person_name">Bodor-Pesti, Péter</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/248/"><em>GRA.LE.D. : GRApevine Leaf Digitalization.</em></a>
+
+
+    Használati útmutató.
+    Hungarian University of Agriculture and Life Sciences, Budapest.
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Berzsenyi, Zoltán</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/264/"><em>Fenntartható növénytermesztés : Környezeti és termésreakciók, precíziós alkalmazások.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     533 p.
+    
+    ISBN 978-963-623-095-1
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bihaly, Áron Domonkos</span> és <span class="person_name">Vaskor, Dóra</span> és <span class="person_name">Lajos, Károly Attila</span> és <span class="person_name">Sárospataki, Miklós György</span>
+  
+
+(2018)
+  
+<a href="https://press.mater.uni-mate.hu/662/"><em>Agrártájba ékelődött természetközeli élőhelyfoltok hatása a napraforgót megporzó rovaregyüttesekre.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 16 (1).
+    pp. 45-52.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_D"></a><h2>D</h2><p>
+
+
+    <span class="person_name">Dezső, Dániel</span> és <span class="person_name">Szabó, Rita</span> és <span class="person_name">Pásztor, György</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/564/"><em>Investigation on mulching weed control technologies of sweet potato (Ipomoea batatas).</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1).
+    pp. 17-24.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Doma-Tarcsányi, Judit</span> és <span class="person_name">Dragán, Petra</span> és <span class="person_name">Szabó, Krisztina</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/358/"><em>Városi zöldfelületek ökoszisztéma-szolgáltatásainak fejlesztési lehetőségei lágyszárú növények alkalmazásával.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Centeri, Csaba</span> és <span class="person_name">Grónás, Viktor</span> 
+        
+          (Szerk.)
+          
+      
+      Az Európai Zöld Megállapodás stratégiai  céljainak megvalósítását szolgáló tájléptékű megoldások.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 45-50.
+    ISBN 978-963-623-117-0 (pdf)
+  
+  
+
+
+  
+
+
+</p><a name="group_G"></a><h2>G</h2><p>
+
+
+    <span class="person_name">Gierczik, Krisztián</span> és <span class="person_name">Lakiné Sasvári, Zita</span> és <span class="person_name">Posta, Katalin</span>
+  
+
+(2012)
+  
+<a href="https://press.mater.uni-mate.hu/506/"><em>Különböző időpontban történő mikorrhizaoltás és szárazság stressz hatása fűszerpaprika terméshozamára.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (2).
+    pp. 385-391.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_H"></a><h2>H</h2><p>
+
+
+    <span class="person_name">Halász, András</span> és <span class="person_name">Csízi, István</span> és <span class="person_name">Varga, Krisztina</span> és <span class="person_name">Bojté, Csilla Erzsébet</span> és <span class="person_name">Bodnár, Ákos</span> és <span class="person_name">Egerszegi, István</span> és <span class="person_name">Kern, László</span> és <span class="person_name">Máthé, László</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/298/"><em>Gyapotmag mint potenciális új fehérjeforrás : Magyarországi tapasztalatok.</em></a>
+
+
+    ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 20 (2).
+    pp. 101-106.
+     ISSN 1786-8440
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Hernádi, Ildikó</span> és <span class="person_name">Magurno, Franco</span> és <span class="person_name">Lakiné Sasvári, Zita</span> és <span class="person_name">Posta, Katalin</span>
+  
+
+(2012)
+  
+<a href="https://press.mater.uni-mate.hu/504/"><em>Mikorrhiza oltóanyag hatása két fűszerpaprika termesztésére és a helyi arbuszkuláris mikorrhiza gombaközösségre.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (2).
+    pp. 305-313.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Hoffmann, Flóra Adél</span> és <span class="person_name">Orosz, Szilvia</span> és <span class="person_name">Balogh, Krisztián Milán</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/299/"><em>Olasznád mint alternatív tömegtakarmány.</em></a>
+
+
+    ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 20 (2).
+    pp. 85-100.
+     ISSN 1786-8440
+  
+
+
+  
+
+
+</p><a name="group_K"></a><h2>K</h2><p>
+
+
+    <span class="person_name">Kassai, Mária Katalin</span> és <span class="person_name">Kende, Zoltán</span> és <span class="person_name">Tarnawa, Ákos</span> és <span class="person_name">Jolánkai, Márton</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/565/"><em>Impact of crop site geographic altitude on drought indices of field crops in Hungary.</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1).
+    pp. 25-31.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Koósné, Szathmáry Erzsébet</span> és <span class="person_name">Szendrei, Lilla</span> és <span class="person_name">Fehér, Dorina</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/569/"><em>Virological survey of walk-in plastic tunnel grown pepper seedlings and forced pepper varieties in Western Hungary in 2023-2024.</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1).
+    pp. 55-61.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><a name="group_L"></a><h2>L</h2><p>
+
+
+    <span class="person_name">Lakatos, Márk</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/265/"><em>Gyógy- és fűszernövények : Történeti, gyűjtési, feldolgozási és minőségbiztosítási ismeretek.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Kertészettudományi Intézet, Gödöllő.
+     213 p.
+    
+    ISBN 978-615-02-0775-9
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Lakiné Sasvári, Zita</span> és <span class="person_name">Magurno, Franco</span> és <span class="person_name">Posta, Katalin</span>
+  
+
+(2012)
+  
+<a href="https://press.mater.uni-mate.hu/505/"><em>Hosszú időtartamú monokultúrás termesztésből és különböző vetésforgó rendszerekből származó növények arbuszkuláris mikorrhiza (am) gomba-közösségeinek vizsgálata.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (2).
+    pp. 351-360.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Lábadi, Vivien</span> és <span class="person_name">Pacsai, Bálint</span> és <span class="person_name">Bódis, Judit</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/601/"><em>Differences between ex-situ and in situ germination and seedling establishment in the case of the marsh gladiolus (Gladiolus palustris).</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 28 (1).
+    pp. 29-40.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><a name="group_M"></a><h2>M</h2><p>
+
+
+    <span class="person_name">Malatinszky, Ákos</span> és <span class="person_name">Novák, Eszter</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/711/"><em>A Karancs-völgy felhagyott szőlőinek tájhasználat-története és növényzete.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 20 (1).
+    pp. 57-71.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_S"></a><h2>S</h2><p>
+
+
+    <span class="person_name">SAIDON, NADHIRAH BINTI</span> és <span class="person_name">Major, László</span> és <span class="person_name">Szabó, Rita</span> és <span class="person_name">Lehel, József</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/566/"><em>Utilizing birds as a bioindicator species to monitor potentially toxic elements (PTEs) contamination in an ecosystem.</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1).
+    pp. 33-40.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Scherman, Jakab Máté</span> és <span class="person_name">Horváthné Petróczy, Marietta</span> és <span class="person_name">Koósné, Szathmáry Erzsébet</span> és <span class="person_name">Markó, Gábor</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/567/"><em>An AI-driven image processing technique to simplify the pollen measurement in common ragweed (Ambrosia artemisiifolia L.).</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1).
+    pp. 41-48.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Schöphen, Eszter</span> és <span class="person_name">Tóth, Zoltán</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/568/"><em>Results of weed surveys for different land uses.</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1).
+    pp. 49-54.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Simon-Gáspár, Brigitta</span> és <span class="person_name">Simon, Szabina</span> és <span class="person_name">Gellért, Gergely Tóth</span> és <span class="person_name">Péter, Szabó</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/558/"><em>Investigation of Leaf Surface Development in Strawberry (Fragaria × ananassa) under Differential Water Supply Conditions.</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (1).
+    pp. 26-31.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Simon-Gáspár, Brigitta</span> és <span class="person_name">Simon, Szabina</span> és <span class="person_name">Hajnalka, Nemes</span> és <span class="person_name">Péter, Szabó</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/559/"><em>Effects of Biostimulants on Leaf Surface Area in Strawberry (Fragaria × ananassa Duch.).</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (1).
+    pp. 32-38.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szendrei, Lilla</span> és <span class="person_name">Borsos, Dóra Piroska</span> és <span class="person_name">Horváthné Petróczy, Marietta</span> és <span class="person_name">Markó, Gábor</span> és <span class="person_name">Tóth, Annamária</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/570/"><em>Efficacy of biological control against soil-borne pathogens in Catharanthus roseus.</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1).
+    pp. 63-67.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><a name="group_T"></a><h2>T</h2><p>
+
+
+    <span class="person_name">Tirczka, Imre</span> és <span class="person_name">Matthew, Hayes</span>
+  
+
+(2012)
+  
+<a href="https://press.mater.uni-mate.hu/507/"><em>Különböző érettségű és dózisú diólevél és vegyes gyümölcslomb komposzt hatása mustár (Sinapis alba) tesztnövény csírázására.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (2).
+    pp. 419-426.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/30/"><em>Takarmánykonzerválás.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+     87 p.
+    
+   
+  
+
+
+   (Nem publikált)
+
+
+</p><a name="group_V"></a><h2>V</h2><p>
+
+
+    <span class="person_name">Vértesy, László</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/94/"><em>Szemléletváltás a növénytermesztésben: körforgásosság és fenntarthatóság : Műhelytanulmány.</em></a>
+
+
+    
+     
+    
+    
+      Körforgásos gazdaság
+      .
+    
+    
+    MATE Press, Gödöllő.
+     29 p.
+    
+    ISBN 978-963-623-030-2
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Mon Mar  9 21:58:58 2026 CET</strong>.</div></div>

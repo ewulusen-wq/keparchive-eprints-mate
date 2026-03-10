@@ -25,14 +25,21 @@ $c->{user_roles}->{admin} = [qw/
        general
        edit-own-record
        saved-searches
+       set-password
        deposit
+       change-email
        editor
        view-status
        staff-view
        admin
+       
 /],
-$c->{user_roles}->{minuser} = [qw/
-       saved-searches
-       no_edit_own_record
-       lock-username-to-email
-/];
+
+#$c->{user_roles}->{minuser} = [qw/
+#       saved-searches
+#       set-password
+#       change-email
+#       change-user
+#       no_edit_own_record
+#       lock-username-to-email
+#/];

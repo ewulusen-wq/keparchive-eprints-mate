@@ -168,38 +168,6 @@ div.ep_action_list .ep_action_row div{
 
 
 
-/* From: /usr/share/eprints/archives/keparchive/cfg/static/style/auto/bootstrap5_EP.css */
-
-.btn-primary { 
-    background-color: #214f76;
-    border-color: #214f76;
-}
-
-.bg-eprints {
-    background-color: #214f77!important;
-}
-
-.table-bordered>:not(caption)>*>* {
-    border-width: 1px 1px;
-}
-
-.ep_subjectinput_tree dl dt.ep_subjectinput_tree {
-    cursor: pointer;
-    background: url(/images/plus-square.svg) no-repeat !important;
-}
-
-.ep_subjectinput_tree dl dt.ep_subjectinput_tree_open {
-    background: url(/images/dash-square.svg) no-repeat !important;
-}
-
-#bootstrap_ep_homepage_img {
-    object-fit: cover;
-    height: 150px;
-    object-position: 50% 100%;
-}
-
-
-
 /* From: /usr/share/eprints/lib/static/style/auto/citations.css */
 
 span.document_filename
@@ -1187,6 +1155,806 @@ table.ep_icontable td {
 
 
 
+/* From: /usr/share/eprints/lib/static/style/auto/irstats2.css */
+
+/* IRStats2 CSS */
+
+div.irstats2_view
+{
+	width: 100%;
+	text-align:left;
+	font-family: Verdana, Arial, sans-serif;
+	margin: 10px;
+	border: 1px solid #D7D9E5;
+	border-radius: 3px;
+}
+
+div.irstats2_view_title
+{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #D7D9E5;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px;
+	color: #000;
+	background: url("images/toolbox.png") repeat-x scroll 0 0 #E7E9F5;
+}
+
+div.irstats2_view_content
+{
+	line-height: 20px;
+	margin: auto;
+}
+
+div.irstats2_piechart
+{
+	width: 400px;
+	height: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.irstats2_googlepiechart
+{
+	width: 400px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.irstats2_googlegeochart
+{
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.irstats2_googlegraph
+{
+	width: 750px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.irstats2_googlespark
+{
+	width: 150px;
+	height: 50px;
+	margin: 0px;
+	display: inline;
+	float:left;
+	border: 0px;
+	padding: 0px;
+}
+
+div.irstats2_counter
+{
+	display: inline;
+}
+
+div.irstats2_view_KeyFigures div.irstats2_view_content
+{
+	padding-top: 10px;
+}
+
+span.irstats2_keyfigures_metric_figure
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+span.irstats2_keyfigures_metric_text
+{
+	padding-left: 5px;
+}
+
+div.irstats2_ruler {
+	clear:both;
+	margin-bottom: 10px;
+}
+
+div.irstats2_keyfigures_section {
+	float:left;
+	width: 50%
+}
+
+div.irstats2_keyfigures_deposits {
+	float:left;
+	width: 50%
+}
+
+div.irstats2_keyfigures_downloads {
+	float:right;
+	width: 50%
+}
+
+div.irstats2_keyfigures_fulltext {
+	float:left;
+	width: 50%;
+}
+
+div.irstats2_keyfigures_openaccess {
+	float:right;
+	width: 50%
+}
+
+table.irstats2_keyfigures_progress {
+	margin-left:12px;
+}
+
+table.irstats2_keyfigures_progress div.irstats2_progress_wrapper {
+	height: 25px;
+}
+
+
+table.irstats2_keyfigures_progress div.irstats2_progress {
+	height: 25px;
+}
+
+table.irstats2_keyfigures_progress td {
+	padding: 5px;
+}
+
+div.irstats2_deposit_details {
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+span.irstats2_counter_label
+{
+	color: #333333;
+	font-size: 14px;
+	margin: auto 2px;	
+	vertical-align: middle;
+}
+
+span.irstats2_counter_value
+{
+	color: #000000;
+	font-size: 20px;
+	font-weight:bold;
+	margin: auto 2px;
+	vertical-align: bottom;
+	padding-bottom:4px;
+}
+
+img.irstats2_spin
+{
+	vertical-align:middle;
+}
+
+span.irstats2_loading
+{
+	margin-left: 5px;
+	vertical-align:middle;
+	color: #666666;
+}
+
+table.irstats2_table
+{
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10px;
+	width: 100%;
+}
+
+div.irstats2_table_options
+{
+	text-align: center;
+}
+
+div.irstats2_table_options > a
+{
+	padding-left: 5px;
+}
+
+tr.irstats2_table_headings > td
+{
+	font-weight: bold;	
+	background-color: #666;
+	color: #FFF;
+	text-align: left;
+	padding: 2px;
+}
+
+td.irstats2_table_cell_order
+{
+	text-align:center;
+	width: 20px;
+}
+
+td.irstats2_table_cell_object
+{
+	padding-left: 5px;
+}
+
+td.irstats2_table_cell_count
+{
+	text-align:center;
+	width: 100px;
+}
+
+tr.irstats2_table_row_even > td
+{
+	padding: 2px;
+	background-color: #FFFFFF;
+}
+
+tr.irstats2_table_row_odd > td
+{
+	padding: 2px;
+	background-color: #EEE;
+}
+
+div.irstats2_reportmenu_row
+{
+	padding: 5px;
+	vertical-align:bottom;
+}
+span.irstats2_date_separator
+{
+	padding-left:5px;
+	padding-right:5px;
+}
+span.irstats2_date_label
+{
+	font-size:14px;
+	font-weight:bold;
+}
+div.irstats2_progress
+{
+        background-color: #c1d0ef;
+        color: #000;
+	text-align:left;
+	padding: 0px;
+	margin: 0px;
+}
+div.irstats2_progress_wrapper
+{
+	border: 1px solid #3366cc;
+	margin: 0px;
+	padding: 0px;
+	text-align:left;
+}
+div.irstats2_progress > span
+{
+	padding-left: 5px;
+	display: block;
+	width: 100px;
+}
+
+span.irstats2_keyfigures_metric {
+	font-size: 14px;
+	line-height: 50px;
+}
+
+h3.irstats2_keyfigures_heading, h3.irstats2_linkstoreports_heading
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+div.irstats2_keyfigures_column
+{
+	width: 25%;
+	float: left;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.irstats2_reportheader_column
+{
+	float: left;
+	text-align:left;
+	margin-left:15px;
+}
+
+table.irstats2_reports 
+{
+	border-collapse:collapse;	
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+td.irstats2_reports_heading
+{
+	border: 1px solid #CCC;
+	padding: 2px 10px;
+	text-align:right;
+	width: 20%;
+	background-color: #EEE;
+}
+
+td.irstats2_reports_heading > span
+{
+	color: #222;
+}
+
+td.irstats2_reports_content
+{
+	border: 1px solid #CCC;
+	padding: 2px 10px;
+	text-align: left;
+	width: 80%;
+}
+
+td.irstats2_reports_content > span
+{
+	padding-right: 10px;
+	font-family: Verdana;
+}
+
+
+a.irstats2_export_bar_toggle
+{
+	float: right;
+}
+
+div.irstats2_export_bar
+{
+	text-align: left;
+}
+
+div.irstats2_export_content
+{
+	margin: 0px auto;
+	border-bottom: 1px solid #D7D9E5;
+	padding: 5px;
+	text-align: center;
+	background-color: #F9F9F9;
+}
+
+.irstats2_setdesc_link
+{
+	margin-left: 5px;
+	width: 45px;
+}
+
+input.irstats2_setdesc_q
+{
+	margin-top: 5px;
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+	font-size: 14px;	
+}
+
+input.irstats2_placeholder
+{
+	color: #AAA;
+	font-style: italic;
+}
+
+div.irstats2_setdesc_values
+{
+	max-height:150px;
+	overflow-y:scroll; 
+	margin: 5px; 
+	padding: 5px; 
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+
+ul.irstats2_setfinder_values
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.irstats2_setfinder_values > li
+{
+}
+
+div.irstats2_setfinder_row > a
+{
+	display: block
+}
+
+div.irstats2_setfinder_row > a:hover
+{
+	background-color: #F5F5F5;
+}
+
+div.irstats2_datepicker_inner
+{
+	font-size:11px;
+	padding: 4px;
+	color:#000;
+}
+
+p.irstats2_error_login {
+	width: 100%;
+	text-align: center;
+}
+
+h3.irstats2_summary_page_header {
+	margin-top:20px;
+}
+
+div.irstats2_summary_page_container {
+	border:1px solid #CCC;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.irstats2_summary_page_container > p {
+	text-align:center;
+	width:100%;
+	margin:5px 0px 0px 0px;
+	color:#666;
+}
+
+#irstats2_summary_page_downloads {
+	height:250px;
+	width:100%
+}
+
+#irstats2_summary_page_countries {
+	height:250px;
+	width:100%
+}
+
+td.irstats2_reportheader_breadcrumbs {
+	width: 60%;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+td.irstats2_reportheader_breadcrumbs > a, td.irstats2_reportheader_breadcrumbs > a:visited {
+	color: #0645AD;
+}
+
+div.irstats2_reportheader_timeline {
+	width: 30%;
+	float: right;
+	text-align: right;
+	vertical-align: middle;
+}
+
+div.irstats2_reportheader_timeline_frame {
+	font-size: 14px;
+	padding: 5px;
+	text-align: right;
+	float: right;
+}
+
+div.irstats2_reportheader_options {
+	width:100%;
+	text-align: left;
+	vertical-align: middle;
+}
+
+div.irstats2_reportheader_clear {
+	clear:both;
+}
+
+div.irstats2_reportheader {
+	width: 100%;
+	padding: 0px;
+}
+
+table.irstats2_reportheader {
+	width: 100%;
+}
+
+div.irstats2_view_ReportHeader {
+	border: 0px;
+}
+
+input.irstats2_form_action_button {
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+	padding: 2px 20px;
+	cursor: pointer;
+	background-color: #F9F9F9;
+	color: #111;
+}
+
+input.irstats2_form_action_button:active, input.irstats2_form_action_button:hover, input.irstats2_form_action_button_selected {
+	background-color: #EEE;
+	color: #222;
+}
+
+div.irstats2_options_dates, div.irstats2_options_filters, div.irstats2_options_reports {
+	background-color: #EEE;
+	text-align: left;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 3px;
+	border-color: #DDD;
+}
+
+table.irstats2_view_Grid div.irstats2_view {
+	width: 97%;
+}
+.report_title {
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+
+/* From: /usr/share/eprints/lib/static/style/auto/irstats2_datepicker.css */
+
+/* This is a very basic stylesheet for the date-picker. Feel free to create your own. */
+
+/* The wrapper div */
+div.datePicker
+        {
+        position:absolute;
+        min-width:24em;
+        width:24em;
+        z-index:9999;
+        text-align:center;
+
+        /* Change the font-size to suit your design's CSS. The following line is for the demo that has a 12px font-size defined on the body tag */
+        font:900 0.8em/0.8em Verdana, Sans-Serif;
+        
+        /* For Example: If using the YUI font CSS, uncomment the following line to get a 10px font-size within the datePicker */
+        /* font:900 77%/77% Verdana; */
+
+        background:transparent;
+
+        /* Mozilla & Webkit extensions to stop text-selection. Remove if you wish to validate the CSS */
+        -moz-user-select:none;
+        -khtml-user-select:none;
+        }
+/* Styles for the static datePickers */
+div.staticDP
+        {
+        position:relative;
+        top:5px;
+        left:0;
+        }
+/* The iframe hack to cover selectlists in Internet Explorer <= v6 */
+iframe.iehack
+        {
+        position:absolute;
+        background:#fff;
+        z-index:9998;
+        padding:0;
+        border:0;
+        display:none;
+        margin:0;
+        }
+/* The "button" created beside each input for non-static datePickers */
+a.date-picker-control:link,
+a.date-picker-control:visited,
+a.date-picker-control:hover,
+a.date-picker-control:active,
+a.date-picker-control:focus
+        {
+        /*position:relative;*/
+        /* Moz & FF */
+        display: -moz-inline-stack;
+        border:0 none;
+        padding:0;
+        margin:0 0 0 4px;
+        background:transparent url(../images/irstats2/datepicker/cal.gif) no-repeat 50% 50%;
+        min-width:16px;
+        line-height:1;
+        cursor:pointer;
+        visibility:visible;
+        text-decoration:none;
+        vertical-align:middle;
+        }
+/* Feed IE6 the following rule, IE7 should handle the min-width declared above */
+* html a.date-picker-control
+        {
+        width:16px;
+        }
+a.date-picker-control
+        {
+        /* IE, Safari & Opera. Seperate CSS rule seems to be required. */
+        display:inline-block;
+        }
+a.date-picker-control span
+        {
+        display:block;
+        width:16px;
+        height:16px;
+        margin:auto 0;
+        }
+/* The next & previous buttons */
+div.datePicker th span
+        {
+        display:inline;
+        padding:0;
+        margin:0;
+        color:#000;
+        text-align:center;
+        line-height:1em;
+        border-width:0;
+        font-family: georgia, times new roman, palatino, times, bookman, serif;
+        background:transparent;
+        font-weight:bold;
+        cursor:pointer;
+        }
+div.datePicker th span.month-display,
+div.datePicker th span.year-display
+        {
+        text-transform:uppercase;
+        letter-spacing:1px;
+        font:normal 1.2em Verdana, Sans-Serif;
+        cursor:default;
+        }
+div.datePicker th span.prev-but,
+div.datePicker th span.next-but
+        {
+        font-size:1.8em;
+        cursor:pointer !important;
+        }
+
+div.datePicker th span.today-but
+        {
+        text-align:center;
+        margin:0 auto;
+        font:normal 1em Verdana, Sans-Serif;
+        width:100%;
+        text-decoration:none;
+        line-height:1.6em;
+        text-transform:uppercase;
+        cursor:pointer !important
+        }
+div.datePicker thead th span.fd-disabled
+        {
+        color:#aaa;
+        cursor:default !important;
+        }
+/* The mon, tue, wed etc day buttons */
+div.datePicker th span.fd-day-header
+        {
+        text-align:center;
+        margin:0 auto;
+        font:900 1em Verdana, Sans-Serif;
+        height:1.4em;
+        width:2em;
+        text-decoration:none;
+        text-transform:lowercase;
+        line-height:1.4em;
+        }
+/* The table */
+div.datePicker table
+        {
+        position:relative;
+        margin:0;
+        padding:0;
+        border:1px solid #ccc;
+        background:#fff url(../images/irstats2/datepicker/gradient-e5e5e5-ffffff.gif) repeat-x 0 -20px;
+        text-align:center;
+        width:100%;
+        border-spacing:2px;
+        table-layout:fixed;
+        border-collapse:separate;
+        }
+/* Common TD & TH styling */
+div.datePicker table td
+        {
+        border:1px solid #ccc;
+        padding:0;
+        text-align:center;
+        vertical-align:middle;
+        /* Opera requires a line-height bigger than 1em in order to redraw properly */
+        line-height:1.2em;
+        cursor:pointer;
+        background:#fff url(../images/irstats2/datepicker/gradient-e5e5e5-ffffff.gif) repeat-x 0 -40px;
+        width:3em;
+        height:3em !important;
+        height:2.8em;
+        outline:none;
+        }
+div.datePicker table th
+        {
+        border:0 none;
+        padding:0;
+        line-height:1em;
+        font-weight:bold;
+        color:#222;
+        text-align:center;
+        vertical-align:middle;
+        }
+div.datePicker table td.date-picker-unused
+        {
+        background:#fff url(../images/irstats2/datepicker/backstripes.gif);
+        border-color:#dcdcdc;
+        padding:0;
+        cursor:default !important;
+        }
+div.datePicker table thead th.date-picker-title
+        {
+        width:auto;
+        height:auto;
+        padding:0.4em 0;
+        }
+/* The "mon tue wed etc" day header button styles */
+div.datePicker table th.date-picker-day-header
+        {
+        text-transform:lowercase;
+        width:3em;
+        }
+div.datePicker table th.date-picker-day-header span
+        {
+        display:block;
+        }
+/* The "todays date" style */
+div.datePicker table td.date-picker-today
+        {
+        background:#fff url(../images/irstats2/datepicker/bullet2.gif) no-repeat 0 0;
+        color:rgb(100,100,100) !important;
+        }
+/* The "selected date" style */
+div.datePicker table td.date-picker-selected-date
+        {
+        color:#333 !important;
+        border-color:#333 !important;
+        }
+/* the "highlight days" style */
+td.date-picker-highlight
+        {
+        color:#a86666;
+        }
+/* The date "out of range" style */
+div.datePicker table td.out-of-range
+        {
+        color:#ccc !important;
+        font-style:oblique;
+        background:#fcfcfc !important;
+        cursor:default !important;
+        }
+/* The "disabled days" style */
+div.datePicker table td.day-disabled
+        {
+        color:#aaa !important;
+        background:transparent !important;
+        cursor:default !important;
+        }
+/* The "active cursor" style */
+div.datePicker table tbody td.date-picker-hover
+        {
+        background:#fff url(../images/irstats2/datepicker/bg_header.jpg) no-repeat 0 0;
+        cursor:pointer;
+        border-color:rgb(100,130,170);
+        color:rgb(100,130,170);
+        }
+/*
+   Quirksmode necessity?
+   ---------------------
+
+   If your HTML document renders in quirksmode (i.e. has no doctype declaration)
+   then uncomment the following CSS rule to set a less drastic font-size in IE
+
+div.datePicker table th,
+div.datePicker table td
+        {
+        font-size:100%;
+        }
+*/
+
+/* Remove the images for Internet Explorer <= v6 using the "* html" hack */
+* html div.datePicker table td
+        {
+        background-image:none;
+        }
+* html div.datePicker table td.date-picker-unused
+        {
+        background:#f2f2f2;
+        }
+
+
+
 /* From: /usr/share/eprints/lib/static/style/auto/items.css */
 
 
@@ -1445,13 +2213,71 @@ td.ep_multi_help
 
 
 
-/* From: /usr/share/eprints/lib/static/style/auto/plumx.css */
+/* From: /usr/share/eprints/lib/static/style/auto/orcid_support.css */
 
-#plumx_summary_page {
-	padding: 10px;
+.orcid-person:hover{
+	border-bottom: 1px dashed #a6ce39;
 }
-#plumx_summary_page .PlumX-Details .ppd-box {
-	width: 258px;
+	
+.orcid a:hover{
+        color: #a6ce39;
+}
+
+.orcid-icon{
+	vertical-align: bottom;
+	padding-right: 5px;
+}
+
+.orcid-icon img{
+	vertical-align: text-bottom; margin: 0 4px 0 2px; 
+}
+
+.orcid{
+	position: relative;
+}
+
+.orcid:hover .orcid-tooltip{
+	visibility: visible;
+	opacity: 1;
+}
+
+.orcid img{
+	vertical-align: bottom;
+}
+
+.orcid-tooltip{
+	visibility: hidden;
+	position: absolute;
+	left: -85px;
+	bottom: -35px;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.3s;
+	background-color: #A6CE39;
+	border: 1px solid #000000;
+	white-space: pre;
+	max-width: none;
+	text-align: center;
+	padding: 5px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.orcid-tooltip::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 18px;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #000000 transparent;
+}
+
+.ep_eprint_creators_orcid[readonly="true"], .ep_eprint_editors_orcid[readonly="true"], input.ep_user_orcid[readonly="true"]{
+    background-color: #e0e0e0;
+    cursor: not-allowed;
 }
 
 
@@ -1489,6 +2315,94 @@ td.ep_multi_help
 	padding-top: 3px;
 	text-align: center;
 	background-color: white;
+}
+
+
+
+/* From: /usr/share/eprints/archives/press/cfg/static/style/auto/preview_plus.css */
+
+#ep_preview_plus_area{
+	background-color: #E0E0D5;
+	border:1px solid #B3B7BA;
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	overflow:auto;
+	padding: 5px 5px 0 5px;
+}
+
+.ep_preview_plus_tile{
+	text-align: center;
+	overflow: hidden;
+	padding: 2px;
+	margin: 2px;
+	font-size: 80%;
+	width:110px;
+	height:110px;
+	border:1px solid #E0E0D5;
+	cursor: pointer;
+}
+.ep_inplace_tile_container{
+	width:110px;
+	height:110px;
+}
+
+#ep_preview_plus_controls{
+	margin:auto;
+}
+
+#ep_inplace_controls_container{
+	overflow:auto;
+	width:100%;
+}
+
+#ep_inplace_ajaxload{
+	padding:50px;
+	margin:auto;
+	display:none;	
+}
+.ep_preview_plus_container{
+	width:610px;
+}
+
+#ep_inplace_previous_button{
+	width:60px;
+}
+.ep_inplace_previous_button_enabled{
+	background-image:url(/style/images/left_enabled.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.ep_inplace_previous_button_disabled{
+	background-image:url(/style/images/left_disabled.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#ep_inplace_next_button{
+	width:60px;
+}
+.ep_inplace_next_button_enabled{
+	background-image:url(/style/images/right_enabled.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.ep_inplace_next_button_disabled{
+	background-image:url(/style/images/right_disabled.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.ep_inplace_no_preview{
+	width: 300px;
+	padding: 50px;
+	margin: 40px auto;
+	overflow:hidden;
+	background-color:white;
+}
+
+.ep_inplace_page{
+	padding-bottom: 5px;
 }
 
 
@@ -1564,6 +2478,193 @@ div#progress {
 .UploadMethod_file_progress_table {
 	width: 550px;
 	margin: 0 auto;
+}
+
+
+
+/* From: /usr/share/eprints/lib/static/style/auto/reports.css */
+
+div.ep_report_row {
+	padding: 5px 5px;
+	margin-bottom: 5px;
+}
+
+div.ep_report_row_problems {
+	border-left: solid 7px #C41F1F;
+}
+
+div.ep_report_row_ok {
+        border-left: solid 7px #1F7E02;
+	opacity: 0.8;
+}
+
+div.ep_report_row_ok.ep_report_row_no_compliance {
+        border-left: solid 7px #1b4b73;
+	opacity: 0.8;
+}
+
+
+div.ep_report_grouping {
+	margin: 20px 0px 10px 0px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+div.ep_report_progress_bar {
+	clear: both;
+	width: 200px;
+	height: 15px;
+	background-image: url(/style/images/progress_bar_orange.png);
+	background-repeat: no-repeat;
+	background-position: -200px 0px;
+	border: 1px solid #888;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 15px;
+	margin: 10px auto;
+}
+
+div.ep_report_progress_bar:after {
+	content: "Loading...";
+}
+
+div.ep_report_compliance_container {
+	margin: 10px auto;
+	text-align:center;
+}
+
+div.ep_report_compliance_wrapper {
+	margin: 10px auto;
+	border: 1px solid #3366cc;
+	padding: 0px;
+	text-align: left;
+	height: 25px;
+}
+
+div.ep_report_compliance {
+	background-color: #c1d0ef;
+	color: #000;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	height:25px;
+}
+
+div.ep_report_compliance_text {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+div#ep_report_export_content_inner form > input, div#ep_report_export_content_inner form > select{
+	margin: 5px 0px;
+}
+
+div#ep_report_export_content_inner .ep_tab_panel input
+{
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+div#ep_report_export_content_inner .report_export_options
+{
+	display: inline-block;
+	vertical-align: top;
+	min-width: 150px;
+}
+
+div#ep_report_export_content_inner .report_export_options h4
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 0;
+}
+
+div#ep_report_export_content_inner .report_export_options ul
+{
+	padding: 0 10px 0 0;
+}
+
+#ep_report_export_content_inner .select_button
+{
+        float: right;
+}
+
+#custom_report .ep_search_buttons > div
+{
+        display: inline-block;
+}
+
+#custom_report .ep_search_buttons .clear_button
+{
+        margin-left: 2px;
+}
+
+/* HTML Reports */
+a.html_report_print{
+	text-decoration: none;	
+}
+
+a.html_report_print:hover{
+	color: white;	
+}
+
+
+
+/* From: /usr/share/eprints/lib/static/style/auto/rioxx2.css */
+
+
+ul.rioxx2_problems
+{
+	list-style-image: url(/style/images/warning-icon.png);
+}
+
+ul.rioxx2_problems li
+{
+	margin-bottom: 0.5em;
+}
+
+div.rioxx2_help
+{
+	padding-left: 1em;
+	padding-right: 1em;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 2px;
+}
+
+.rioxx2_hidden
+{
+	display: none;
+	visibility: hidden;
+}
+
+.rioxx2_title
+{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+#rioxx2_tab_title
+{
+	padding-left: 18px;
+}
+
+.rioxx2_compliant
+{
+	background: url('/style/images/rioxx2_message-icon.png') no-repeat;
+}
+.rioxx2_non_compliant
+{
+	background: url('/style/images/warning-icon.png') no-repeat;
+}
+
+#rioxx2_intro_document
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	background: url(images/bar_solid_12px.png) repeat-x;
 }
 
 
@@ -2722,51 +3823,7 @@ table.ep_metafield_compound td
 
 
 
-/* From: /usr/share/eprints/archives/keparchive/cfg/static/style/auto/zzz_bootstrap5_EP_undo.css */
-
-/* This is for overwriting eprints css declarations which work against the bootstrap styling */
-
-#wrapper {
-    background-color: #fff;
-    box-shadow: none;
-    padding: 0;
-    max-width: unset;
-    margin: unset;
-}
-
-.ep_tm_menu {
-    border-bottom: unset;
-}
-
-.ep_tm_menu li:hover {
-    background-color: unset;
-}
-
-.ep_tm_menu a, .ep_tm_menu a:visited {
-    font-weight: unset;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.ep_tab_bar li a {
-    background-color: unset;
-    background-image: unset;
-    background-repeat: unset;
-}
-
-.ep_form_action_button, .ep_form_internal_button, .ep_tm_searchbarbutton, .ep_blister_node_selected {
-    border-color: unset;
-}
-
-button, input, optgroup, select, textarea {
-    margin: 5px;
-}
-
-
-
-/* From: /usr/share/eprints/archives/keparchive/cfg/static/style/auto/zzz_cookies.css */
+/* From: /usr/share/eprints/archives/press/cfg/static/style/auto/zzz_cookies.css */
 
 #ep_cookies_overlay
 {
@@ -2851,7 +3908,44 @@ h3#ep_cookie_head
 
 
 
-/* From: /usr/share/eprints/archives/keparchive/cfg/static/style/auto/zzz_local.css */
+/* From: /usr/share/eprints/lib/static/style/auto/zzz_issues2.css */
+
+input[name="userid.username"]
+{
+  width: 100px;
+}
+div[id="userid.username_help_show"]
+{
+  display: none;
+}
+.ep_issue_list li
+{
+  margin-bottom: 15px;
+}
+.ep_issue_list li h3
+{
+  font-size: 100%;
+  margin-bottom: 5px;
+}
+.ep_issue_list_timestamp
+{
+  font-size: 80%;
+}
+
+.ep_issues2_summary
+{
+  display: inline-flex;
+  width: 45%;
+}
+.ep_issues2_summary_inner
+{
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+
+
+/* From: /usr/share/eprints/archives/press/cfg/static/style/auto/zzz_local.css */
 
 
 /* 

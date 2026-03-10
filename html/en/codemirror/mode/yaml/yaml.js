@@ -45,12 +45,12 @@ CodeMirror.defineMode("yaml", function() {
 				return 'meta';
 			}
 			
-			/* list separator */
+			/* list seperator */
 			if (state.inlineList > 0 && !esc && ch == ',') {
 				stream.next();
 				return 'meta';
 			}
-			/* pairs separator */
+			/* pairs seperator */
 			if (state.inlinePairs > 0 && !esc && ch == ',') {
 				state.keyCol = 0;
 				state.pair = false;

@@ -1,0 +1,76 @@
+<meta content="440" name="eprints.eprintid" />
+<meta content="21" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="1" name="eprints.userid" />
+<meta content="disk0/00/00/04/40" name="eprints.dir" />
+<meta content="2025-09-24 13:00:31" name="eprints.datestamp" />
+<meta content="2025-09-24 13:55:37" name="eprints.lastmod" />
+<meta content="2025-09-24 13:00:31" name="eprints.status_changed" />
+<meta content="book" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="MATE KÖTI ÖVKI" name="eprints.corp_creators" />
+<meta content="MATE KÖTI ÖMT" name="eprints.corp_creators" />
+<meta content="MATE KÖTI ÖVKI" name="eprints.corp_creators" />
+<meta content="MATE KÖTI ÖMT" name="eprints.corp_creators" />
+<meta content="Abstract Book of the 8th International Scientific Conference on Water, 20-21 March 2025 Szarvas, Hungary" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="AC" name="eprints.subjects" />
+<meta content="SH" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="2025" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="Hungarian University of Agriculture and Life Sciences Institute of Environmental Sciences" name="eprints.publisher" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="Gödöllő" name="eprints.place_of_pub" />
+<meta content="FALSE" name="eprints.refereed" />
+<meta content="978-963-623-115-6 (pdf) 978-963-623-114-9 (printed)" name="eprints.isbn" />
+<meta content="Bozán, Csaba" name="eprints.editors_name" />
+<meta content="Bodnár, Károly" name="eprints.editors_name" />
+<meta content="Jancsó, Mihály" name="eprints.editors_name" />
+<meta content="Csengeri, Erzsébet" name="eprints.editors_name" />
+<meta content="  Bozán, Csaba and Bodnár, Károly and Jancsó, Mihály and Csengeri, Erzsébet (eds.).  (2025) Abstract Book of the 8th International Scientific Conference on Water, 20-21 March 2025 Szarvas, Hungary.     Hungarian University of Agriculture and Life Sciences Institute of Environmental Sciences, Gödöllő.    ISBN 978-963-623-115-6 (pdf) 978-963-623-114-9 (printed)      " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/440/3/8thISCW_Abstract%20book_ebook.pdf" name="eprints.document_url" />
+<meta content="https://press.mater.uni-mate.hu/440/1/8th-ISCW-A5-NYOMDA.pdf" name="eprints.document_url" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta content="https://press.mater.uni-mate.hu/440/" name="DC.relation" />
+<meta content="Abstract Book of the 8th International Scientific Conference on Water, 20-21 March 2025 Szarvas, Hungary" name="DC.title" />
+<meta content="AC Collections. Series. Collected works" name="DC.subject" />
+<meta content="SH Aquaculture. Fisheries. Angling" name="DC.subject" />
+<meta content="Hungarian University of Agriculture and Life Sciences Institute of Environmental Sciences" name="DC.publisher" />
+<meta content="Bozán, Csaba" name="DC.contributor" />
+<meta content="Bodnár, Károly" name="DC.contributor" />
+<meta content="Jancsó, Mihály" name="DC.contributor" />
+<meta content="Csengeri, Erzsébet" name="DC.contributor" />
+<meta content="2025" name="DC.date" />
+<meta content="Book" name="DC.type" />
+<meta content="NonPeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="en" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/440/3/8thISCW_Abstract%20book_ebook.pdf" name="DC.identifier" />
+<meta content="image" name="DC.format" />
+<meta content="en" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/440/1/8th-ISCW-A5-NYOMDA.pdf" name="DC.identifier" />
+<meta content="  Bozán, Csaba and Bodnár, Károly and Jancsó, Mihály and Csengeri, Erzsébet (eds.).  (2025) Abstract Book of the 8th International Scientific Conference on Water, 20-21 March 2025 Szarvas, Hungary.     Hungarian University of Agriculture and Life Sciences Institute of Environmental Sciences, Gödöllő.    ISBN 978-963-623-115-6 (pdf) 978-963-623-114-9 (printed)      " name="DC.identifier" />
+<link rel="canonical" href="https://press.mater.uni-mate.hu/440/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/EndNote/press-eprint-440.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/METS/press-eprint-440.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/ContextObject/press-eprint-440.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/RIS/press-eprint-440.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/RDFXML/press-eprint-440.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/JSON/press-eprint-440.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/BibTeX/press-eprint-440.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/XML/press-eprint-440.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/RDFNT/press-eprint-440.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/DC/press-eprint-440.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/RDFN3/press-eprint-440.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/Text/press-eprint-440.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/HTML/press-eprint-440.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/DIDL/press-eprint-440.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/COinS/press-eprint-440.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/MODS/press-eprint-440.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/Refer/press-eprint-440.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/Atom/press-eprint-440.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/CSV/press-eprint-440.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/Simple/press-eprint-440.txt" title="Simple Metadata" />

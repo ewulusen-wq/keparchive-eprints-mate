@@ -1,0 +1,74 @@
+<meta content="416" name="eprints.eprintid" />
+<meta content="5" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="34" name="eprints.userid" />
+<meta content="disk0/00/00/04/16" name="eprints.dir" />
+<meta content="2025-07-29 13:43:47" name="eprints.datestamp" />
+<meta content="2025-07-29 13:43:47" name="eprints.lastmod" />
+<meta content="2025-07-29 13:43:47" name="eprints.status_changed" />
+<meta content="article" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="34" name="eprints.sword_depositor" />
+<meta content="Török, Henrietta Kinga" name="eprints.creators_name" />
+<meta content="Bárdos, Boróka" name="eprints.creators_name" />
+<meta content="Hoffmann, Orsolya Ivett" name="eprints.creators_name" />
+<meta content="Állattenyésztési Tudományok Doktori Iskola MATE / MATE DI ÁTTDI [2013-]" name="eprints.corp_creators" />
+<meta content="Comparison of the behaviour of three strains of laboratory mice in the climbing test" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="SF" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="BALB/c; C57BL/6; C3H; Behavioural test; inbred mice strain;" name="eprints.keywords" />
+<meta content="In our study, we tested three commonly used strains of laboratory mice in a simple behavioural test. In the climbing test, we looked at the time of the first climb and the number of climbs of the different strains during the 5-minute test time, depending on sex and age. Based on our results, neither tribe nor sex affected climbing time and the number of climbs, but different ages did. The younger animals completed the test much sooner and climbed much more often than the adult animals. Based on our results, we can say that in a more straightforward behavioural test, different mouse strains do not have as much effect as age." name="eprints.abstract" />
+<meta content="2025" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="https://doi.org/10.17205/aweth.7062" name="eprints.official_url" />
+<meta content="MTMT:36227166 DOI:10.17205/aweth.7062" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS" name="eprints.publication" />
+<meta content="21" name="eprints.volume" />
+<meta content="1" name="eprints.number" />
+<meta content="100-109" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="1786-8440" name="eprints.issn" />
+<meta content="  Török, Henrietta Kinga és Bárdos, Boróka és Hoffmann, Orsolya Ivett  (2025) Comparison of the behaviour of three strains of laboratory mice in the climbing test.  ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 21 (1). pp. 100-109.  ISSN 1786-8440     " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/416/1/AWETH_2025_21_1_100-109.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/416/" name="DC.relation" />
+<meta content="Comparison of the behaviour of three strains of laboratory mice in the climbing test" name="DC.title" />
+<meta content="Török, Henrietta Kinga" name="DC.creator" />
+<meta content="Bárdos, Boróka" name="DC.creator" />
+<meta content="Hoffmann, Orsolya Ivett" name="DC.creator" />
+<meta content="SF Állattenyésztés" name="DC.subject" />
+<meta content="In our study, we tested three commonly used strains of laboratory mice in a simple behavioural test. In the climbing test, we looked at the time of the first climb and the number of climbs of the different strains during the 5-minute test time, depending on sex and age. Based on our results, neither tribe nor sex affected climbing time and the number of climbs, but different ages did. The younger animals completed the test much sooner and climbed much more often than the adult animals. Based on our results, we can say that in a more straightforward behavioural test, different mouse strains do not have as much effect as age." name="DC.description" />
+<meta content="2025" name="DC.date" />
+<meta content="Cikk" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="en" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/416/1/AWETH_2025_21_1_100-109.pdf" name="DC.identifier" />
+<meta content="  Török, Henrietta Kinga és Bárdos, Boróka és Hoffmann, Orsolya Ivett  (2025) Comparison of the behaviour of three strains of laboratory mice in the climbing test.  ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 21 (1). pp. 100-109.  ISSN 1786-8440     " name="DC.identifier" />
+<meta content="https://doi.org/10.17205/aweth.7062" name="DC.relation" />
+<meta content="MTMT:36227166 DOI:10.17205/aweth.7062" name="DC.relation" />
+<meta content="MTMT:36227166 DOI:10.17205/aweth.7062" name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/416/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/Atom/press-eprint-416.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/MODS/press-eprint-416.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/DC/press-eprint-416.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/COinS/press-eprint-416.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/ContextObject/press-eprint-416.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/METS/press-eprint-416.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/RDFN3/press-eprint-416.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/Refer/press-eprint-416.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/BibTeX/press-eprint-416.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/RIS/press-eprint-416.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/XML/press-eprint-416.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/Text/press-eprint-416.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/RDFXML/press-eprint-416.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/Simple/press-eprint-416.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/DIDL/press-eprint-416.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/JSON/press-eprint-416.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/HTML/press-eprint-416.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/RDFNT/press-eprint-416.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/EndNote/press-eprint-416.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/416/CSV/press-eprint-416.csv" rel="alternate" />

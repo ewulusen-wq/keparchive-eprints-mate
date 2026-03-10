@@ -1,0 +1,230 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" value="Export" role="button" name="_action_export_redir" class="ep_form_action_button" /><input id="view" type="hidden" value="year" name="view" /><input id="values" type="hidden" value="NULL" name="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/year/NULL/Atom/NULL.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/year/NULL/RSS/NULL.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/year/NULL/RSS2/NULL.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_year"><div class="ep_view_group_by">Group by: <a href="NULL.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span> | <a href="NULL.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_year_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_C">C</a> | <a href="#group_G">G</a> | <a href="#group_K">K</a> | <a href="#group_S">S</a></div></div><div class="ep_view_blurb">Number of items: <strong>6</strong>.</div><a name="group_C"></a><h2>C</h2><p>
+
+
+    <span class="person_name">Csimáné Pozsegovics, Beáta</span> and <span class="person_name">Schlichter-Takács, Anett</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/124/"><em>Együttműködésen alapuló módszerek.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> and <span class="person_name">Schlichter Takács, Anett</span> 
+        
+          (eds.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 45-57.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Csizmadia, Gábor</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/244/"><em>Olvasás és szövegfeldolgozás a felsőoktatási képzésekben.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> and <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (eds.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 139-156.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><a name="group_G"></a><h2>G</h2><p>
+
+
+    <span class="person_name">Gajdić, Dušanka</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/190/"><em>Dizajn i upravljanje poljoprivredno-prehrambenim lancima opskrbe.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">SREČEC, Siniša</span> and <span class="person_name">CSONKA, Arnold</span> and <span class="person_name">KOPONICSNÉ GYÖRKE, Diána</span> and <span class="person_name">NAGY, Mónika Zita</span> 
+        
+          (eds.)
+          
+      
+      Upravljanje poljoprivredno-prehrambenim lancima.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    
+    ISBN 978-963-623-027-2
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Gróf, Anita</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/247/"><em>IKT-eszközökkel támogatott értékelés.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> and <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (eds.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 197-213.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><a name="group_K"></a><h2>K</h2><p>
+
+
+    <span class="person_name">Kontra, József</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/246/"><em>Fejlesztő értékelés.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> and <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (eds.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 173-196.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><a name="group_S"></a><h2>S</h2><p>
+
+
+    <span class="person_name">Szántóné Tóth, Hajnalka</span> and <span class="person_name">Üst, Norbert</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/245/"><em>A gamifikáció alkalmazása felsőoktatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> and <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (eds.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 157-172.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Mar  2 19:06:49 2026 CET</strong>.</div></div>

@@ -1,0 +1,289 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="Exportálás" /><input type="hidden" name="view" id="view" value="subjects" /><input type="hidden" name="values" id="values" value="QK" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QK/Atom/QK.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QK/RSS/QK.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QK/RSS2/QK.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (12)<ul><li><a href="Q.html">Q Természettudomány</a> (12)<ul><li><strong>QK Növénytan</strong> (12)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <span class="ep_view_group_by_current">Tétel típusa</span>['Update/Views:group_separator' not defined]<a href="QK.creators_name.html">Létrehozók</a></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_article">Cikk</a>['Update/Views:jump_separator' not defined]<a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>12</strong>.</div><a name="group_article"></a><h2>Cikk</h2><p>
+
+
+    <span class="person_name">Erdélyi, Arnold</span> és <span class="person_name">Hartdégen, Judit</span> és <span class="person_name">Molnár, Ábel Péter</span> és <span class="person_name">Hajagos, Gabriella</span> és <span class="person_name">Vadász, Csaba</span>
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/672/"><em>A mirigyes bálványfa (Ailanthus altissima (Mill.) Swingle) finomléptékű elterjedésének vizsgálata archív és recens adatok alapján a Peszéri-erdőben.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 17 (1).
+    pp. 75-84.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Házi, Judit</span> és <span class="person_name">Nagy, A</span> és <span class="person_name">Szentes, Szilárd</span> és <span class="person_name">Tamás, Júlia</span> és <span class="person_name">Penksza, Károly</span>
+  
+
+(2009)
+  
+<a href="https://press.mater.uni-mate.hu/465/"><em>Adatok a siska nádtippan (Calamagrostis epigeios) (L.) Roth. cönológiai viszonyaihoz Dél-tiszántúli gyepekben.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 7 (2).
+    pp. 375-386.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Malatinszky, Ákos</span>
+  
+
+(2004)
+  
+<a href="https://press.mater.uni-mate.hu/525/"><em>Botanikai értékek és tájgazdálkodási formák kapcsolata a Putnoki-dombságban.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 2 (1).
+    pp. 65-76.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Meinhardt, Sarolta</span> és <span class="person_name">Czóbel, Szilárd</span> és <span class="person_name">Kovács-Hostyánszki, Anikó</span> és <span class="person_name">Szigeti, Viktor</span> és <span class="person_name">Tormáné Kovács, Eszter</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/721/"><em>Egyes mézelő idegenhonos özönfajok értékelése ágazati interjúk alapján.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 20 (2).
+    pp. 23-39.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Németh, Zoltán</span> és <span class="person_name">Falvai, Dominika</span> és <span class="person_name">Szirmai, Orsolya</span> és <span class="person_name">Czóbel, Szilárd</span>
+  
+
+(2017)
+  
+<a href="https://press.mater.uni-mate.hu/652/"><em>Archeofiton és neofiton gyomfajok fitomassza vizsgálata.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 15 (1).
+    pp. 21-29.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Shalaby, Moustafa E</span> és <span class="person_name">El-Khateeb, Nagwa M</span> és <span class="person_name">Óbert, Mária</span> és <span class="person_name">Posta, Katalin</span>
+  
+
+(2013)
+  
+<a href="https://press.mater.uni-mate.hu/591/"><em>Starch hydrolyses and laccase activity of heat tolerant mushroom isolate.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 11 (2).
+    pp. 253-259.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Simkó, Hella</span> és <span class="person_name">Tavaszi-Sárosi, Szilvia</span> és <span class="person_name">Reményi, M L</span> és <span class="person_name">Pluhár, Zsuzsanna</span>
+  
+
+(2012)
+  
+<a href="https://press.mater.uni-mate.hu/511/"><em>Adatok magyarországi Thymus fajok előfordulásához és morfológiai jellemzéséhez.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (2).
+    pp. 219-230.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Bánfalvi, Zsófia</span> és <span class="person_name">Gócza, Elen</span> és <span class="person_name">Olasz, Ferenc</span> és <span class="person_name">Pál, Magda</span> és <span class="person_name">Posta, Katalin</span> és <span class="person_name">Várallyay, Éva</span> (Szerk.).
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/62/"><em>„FIBOK 2022” : Fiatal Biotechnológusok V. Országos Konferenciája [5th National Conference of Young Biotechnologists] : Program és angol nyelvű összefoglalók [Program and abstracts].</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Genetika és Biotechnológia Intézet, Gödöllő.
+     124 p.
+    
+    ISBN 978-963-269-999-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Posta, Katalin</span> (Szerk.).
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/346/"><em>Heszky László 80 éves : Köszöntések és emlékek Professzor úr &#13;
+80. születésnapja alkalmából.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     95 p.
+    
+    ISBN 978-963-623-111-8 (print) 978-963-623-112-5 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Simon-Gáspár, Brigitta</span> és <span class="person_name">Simon, Szabina</span> (Szerk.).
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/44/"><em>Ifjúság a tudományért.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Georgikon Campus, Keszthely.
+     271 p.
+    
+    ISBN 978-615-6338-06-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Pőr, Csilla</span> és <span class="person_name">Szabó-Soós, Adrienn</span> és <span class="person_name">Szabó, Péter</span> (Szerk.).
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/262/"><em>LXV. Georgikon Napok Tudományos Konferencia [65th Georgikon Days Scientific Conference] Keszthely, 2024. május 17–18. : Kivonatkötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Georgikon Campus, Keszthely.
+     204 p.
+    
+    ISBN 9786156338105
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Fodor, Marietta</span> és <span class="person_name">Bodor-Pesti, Péter</span> és <span class="person_name">Deák, Tamás</span> (Szerk.).
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/52/"><em>A Lippay János – Ormos Imre – Vas Károly (LOV) Tudományos Ülésszak tanulmányai = Proceedings of János Lippay – Imre Ormos – Károly Vas (LOV) Scientific Meeting.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Budai Campus, Budapest.
+     814 p.
+    
+    ISBN 978-963-269-988-2
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Mon Mar  9 13:54:52 2026 CET</strong>.</div></div>

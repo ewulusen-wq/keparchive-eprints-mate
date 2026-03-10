@@ -1,0 +1,85 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form method="get" action="/cgi/exportview" accept-charset="utf-8">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input role="button" type="submit" class="ep_form_action_button" name="_action_export_redir" value="Exportálás" /><input type="hidden" id="view" name="view" value="creators" /><input type="hidden" id="values" name="values" value="Such=3ANikoletta=3A=3A" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Such=3ANikoletta=3A=3A/Atom/Such=3ANikoletta=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Such=3ANikoletta=3A=3A/RSS/Such=3ANikoletta=3A=3A.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Such=3ANikoletta=3A=3A/RSS2/Such=3ANikoletta=3A=3A.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Csoportosítás: <a href="Such=3ANikoletta=3A=3A.html">Tétel típusa</a>['Update/Views:group_separator' not defined]<span class="ep_view_group_by_current">Nincs</span></div><div class="ep_view_blurb">Tételek száma: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Csiszér, Tivadar</span> és <span class="person_name">Such, Nikoletta</span> és <span class="person_name">Kesete Goitom, Tewelde</span> és <span class="person_name">Kiss, Brigitta</span> és <span class="person_name">Pál, László</span> és <span class="person_name">Dublecz, Károly</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/432/"><em>Egy rovarfehérje-koncentrátum (AdalbaPro) etetésének hatása az étkezési tojás minőségére.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> és <span class="person_name">Tóthi, Róbert</span> 
+        
+          (Szerk.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium és Egy Egészség Nap, 	2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 125-132.
+    ISBN 978-963-623-120-0
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bartos, Ádám</span> és <span class="person_name">Such, Nikoletta</span> és <span class="person_name">Gál, Fruzsina Vanda</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/111/"><em>The effect of a fermented herbal feed supplement on the digestion of horses.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> és <span class="person_name">Tóthi, Róbert</span> 
+        
+          (Szerk.)
+          
+      
+      Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     127 p.
+    pp. 83-88.
+    ISBN 978-963-623-031-9
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Wed Mar  4 17:37:51 2026 CET</strong>.</div></div>

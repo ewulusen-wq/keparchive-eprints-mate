@@ -1,0 +1,379 @@
+<div class="no_link_decor"><a href="./" alt="['Update/Views:up_a_level_alt' not defined]"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]">['Update/Views:up_a_level' not defined]</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">['Update/Views:export_section' not defined<dl class="ep_undefined_phrase"><dt>feeds</dt><dd> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Pint=E9r=3AZs=F3fia=3A=3A/Atom/Pint=E9r=3AZs=F3fia=3A=3A.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Pint=E9r=3AZs=F3fia=3A=3A/RSS/Pint=E9r=3AZs=F3fia=3A=3A.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Pint=E9r=3AZs=F3fia=3A=3A/RSS2/Pint=E9r=3AZs=F3fia=3A=3A.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></dd><dt>button</dt><dd><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="['lib/searchexpression:export_button' not defined]" role="button" /><input type="hidden" name="view" value="creators" id="view" /><input type="hidden" name="values" value="Pint=E9r=3AZs=F3fia=3A=3A" id="values" /></dd><dt>tools</dt><dd></dd><dt>menu</dt><dd><select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select></dd></dl>]</form><div class="ep_view_page ep_view_page_view_creators">['Update/Views:group_by' not defined<dl class="ep_undefined_phrase"><dt>groups</dt><dd>['Update/Views:current_group' not defined<dl class="ep_undefined_phrase"><dt>group</dt><dd>['eprint_fieldname_type' not defined]</dd></dl>]['Update/Views:group_separator' not defined]<a href="Pint=E9r=3AZs=F3fia=3A=3A.default.html">['Update/Views:no_grouping' not defined]</a></dd></dl>]<div class="ep_view_jump ep_view_creators_type_jump">['Update/Views:jump_to' not defined<dl class="ep_undefined_phrase"><dt>jumps</dt><dd><a href="#group_book=5Fsection">Könyvrészlet</a>['Update/Views:jump_separator' not defined]<a href="#group_book">Könyv</a></dd></dl>]</div>['bin/generate_views:blurb' not defined<dl class="ep_undefined_phrase"><dt>n</dt><dd>11</dd></dl>]<a name="group_book=5Fsection"></a><h2>Könyvrészlet</h2><p>
+
+
+    <span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/194/"><em>Az élelmiszer-logisztika stratégiai kihívásai.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Siniša</span>['lib/metafield:join_name' not defined]<span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Koponicsné Györke, Diána</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (Szerk.)
+          
+      
+      Élelmiszerláncok menedzsmentje.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 35-54.
+    ISBN 978-963-623-026-5
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Horváthné Kovács, Bernadett</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/206/"><em>Hálózatelemzési megoldások az agri-food szektorban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Siniša</span>['lib/metafield:join_name' not defined]<span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Koponicsné Györke, Diána</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (Szerk.)
+          
+      
+      Élelmiszerláncok menedzsmentje.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 96-112.
+    ISBN 978-963-623-026-5
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóth, Katalin</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/217/"><em>Informacijski sustavi u poljoprivredno-prehrambenim lancima.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Sinisa</span>['lib/metafield:join_name' not defined]<span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Koponicsné Györke, Diána</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (Szerk.)
+          
+      
+      Upravljanje poljoprivredno-prehrambenim lancima.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    
+    ISBN 978-963-623-027-2
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóth, Katalin</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/216/"><em>Information systems in agri-food chains.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Sinisa</span>['lib/metafield:join_name' not defined]<span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Koponicsné Györke, Diána</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónkia Zita</span> 
+        
+          (Szerk.)
+          
+      
+      Management of agri-food chains.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 150-163.
+    ISBN 978-963-623-023-4
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóth, Katalin</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/215/"><em>Információs rendszerek az agrár-élelmiszerláncokban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Sinisa</span>['lib/metafield:join_name' not defined]<span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Koponicsné Györke, Diána</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (Szerk.)
+          
+      
+      Élelmiszerláncok menedzsmentje.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 152-165.
+    ISBN 978-963-623-026-5
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Horváthné Kovács, Bernadett</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/208/"><em>Mrežna analiza rješenja u poljoprivredno-prehrambenom sektoru.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Siniša</span>['lib/metafield:join_name' not defined]<span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Koponicsné Györke, Diána</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (Szerk.)
+          
+      
+      Upravljanje poljoprivredno-prehrambenim lancima.
+     
+    
+     
+    
+    
+    
+    MATE Press.
+     
+    
+    ISBN 978-963-623-027-2
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Horváthné Kovács, Bernadett</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/207/"><em>Network analysis solutions in the agri-food sector.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Siniša</span>['lib/metafield:join_name' not defined]<span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Koponicsné Györke, Diána</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (Szerk.)
+          
+      
+      Management of agri-food chains.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 96-110.
+    ISBN 978-963-623-023-4
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/195/"><em>Strateški izazovi logistike prehrane.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Siniša</span>['lib/metafield:join_name' not defined]<span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Koponicsné Györke, Diána</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (Szerk.)
+          
+      
+      Upravljanje poljoprivredno-prehrambenim lancima.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    
+    ISBN 978-963-623-027-2
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/196/"><em>The strategic challenges of food logistics.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Siniša</span>['lib/metafield:join_name' not defined]<span class="person_name">Csonka, Arnold</span>['lib/metafield:join_name' not defined]<span class="person_name">Koponicsné Györke, Diána</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (Szerk.)
+          
+      
+      Management of agri-food chains.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 35-54.
+    ISBN 978-963-623-023-4
+  
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Szente, Viktória</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Attila</span>['lib/metafield:join_name' not defined]<span class="person_name">Szigeti, Orsolya</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>['lib/metafield:join_name' not defined]<span class="person_name">Szabó-Szentgróti, Eszter</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/120/"><em>„Free from” termékek piaci lehetőségei : Műhelytanulmány.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     42 p.
+    
+    ISBN 978-963-623-037-1
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szente, Viktória</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Attila</span>['lib/metafield:join_name' not defined]<span class="person_name">Szigeti, Orsolya</span>['lib/metafield:join_name' not defined]<span class="person_name">Nagy, Mónika Zita</span>['lib/metafield:join_name' not defined]<span class="person_name">Pintér, Zsófia</span>['lib/metafield:join_name' not defined]<span class="person_name">Szabó-Szentgróti, Eszter</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/121/"><em>Tržišne mogućnosti za proizvode "Free from" : Radionička studija.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     40 p.
+    
+    ISBN 978-963-623-038-8
+  
+  
+
+
+  
+
+
+</p>['bin/generate_views:timestamp' not defined<dl class="ep_undefined_phrase"><dt>time</dt><dd>Sun Mar  8 17:36:44 2026 CET</dd></dl>]</div>

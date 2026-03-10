@@ -1,0 +1,66 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input class="ep_form_action_button" role="button" name="_action_export_redir" value="Export" type="submit" /><input name="view" type="hidden" value="divisions" id="view" /><input name="values" type="hidden" value="fac=5Feng/2015" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2015/Atom/fac=5Feng_2015.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2015/RSS/fac=5Feng_2015.rss"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2015/RSS2/fac=5Feng_2015.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_divisions"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="2015.creators_name.html">Creators</a> | <a href="2015.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_divisions_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_book">Book</a></div></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><a name="group_book"></a><h2>Book</h2><p>
+
+
+    <span class="person_name">Halas, Veronika</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/167/"><em>Teljesítménymodellezés.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+     117Number of Pages.
+    
+   
+  
+
+
+   (Submitted)
+
+
+</p><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/30/"><em>Takarmánykonzerválás.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+     87Number of Pages.
+    
+   
+  
+
+
+   (Unpublished)
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Fri Feb 20 19:19:29 2026 CET</strong>.</div></div>

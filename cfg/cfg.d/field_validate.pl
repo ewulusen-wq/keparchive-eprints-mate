@@ -94,12 +94,12 @@ $c->{validate_field} = sub
 		# Applies to all subclasses of Id: Text, Longtext, Url etc.
 		if( $field->isa( "EPrints::MetaField::Id" ) )
 		{
-			if( length($v) > $field->property( "maxlength" ) )
-			{
-				push @problems,
-					$repository->html_phrase( "validate:truncated",
-						fieldname=>&$f_fieldname );
-			}
+			#if( length($v) > $field->property( "maxlength" ) )
+			#{
+			#	push @problems,
+			#		$repository->html_phrase( "validate:truncated",
+			#			fieldname=>&$f_fieldname );
+			#}
 		}
 	}
 

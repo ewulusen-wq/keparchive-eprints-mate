@@ -1,0 +1,66 @@
+<meta content="332" name="eprints.eprintid" />
+<meta content="9" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="1" name="eprints.userid" />
+<meta content="disk0/00/00/03/32" name="eprints.dir" />
+<meta content="2025-03-03 14:53:32" name="eprints.datestamp" />
+<meta content="2025-03-03 14:53:32" name="eprints.lastmod" />
+<meta content="2025-03-03 14:53:32" name="eprints.status_changed" />
+<meta content="book" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="Szalai, Katalin" name="eprints.creators_name" />
+<meta content="KE PK" name="eprints.corp_creators" />
+<meta content="Módszertani megfontolások a gyógypedagógus-képzéssel kapcsolatban" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="LB2300" name="eprints.subjects" />
+<meta content="LC" name="eprints.subjects" />
+<meta content="fac_med" name="eprints.divisions" />
+<meta content="gyógypedagógia, felsőoktatás, pedagógusképzés, pályaidentifikáció, személyes identitás, gyógypedagógus pálya," name="eprints.keywords" />
+<meta content="2015" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="Kaposvári Egyetem Pedagógiai Kar" name="eprints.publisher" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="Kaposvár" name="eprints.place_of_pub" />
+<meta content="108" name="eprints.pages" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="978-615-5599-03-3" name="eprints.isbn" />
+<meta content="TÁMOP-4.1.2.B.2-13/1-2013-0014" name="eprints.funders" />
+<meta content="A kiadvány a TÁMOP-4.1.2.B.2-13/1-2013-0014 azonosító jelű, a „Pedagógusképzést segítő hálózatok továbbfejlesztése a Dél-Dunántúl régióban” elnevezésű projekt keretében készült" name="eprints.projects" />
+<meta content="  Szalai, Katalin  (2015) Módszertani megfontolások a gyógypedagógus-képzéssel kapcsolatban.     Kaposvári Egyetem Pedagógiai Kar, Kaposvár. 108 p.   ISBN 978-615-5599-03-3      " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/332/1/M%C3%B3dszertani%20megfontol%C3%A1sok%20a%20gy%C3%B3gypedag%C3%B3gus%20k%C3%A9pz%C3%A9ssel%20kapcsolatban.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/332/" name="DC.relation" />
+<meta content="Módszertani megfontolások a gyógypedagógus-képzéssel kapcsolatban" name="DC.title" />
+<meta content="Szalai, Katalin" name="DC.creator" />
+<meta content="Lb2300 Felsőoktatás" name="DC.subject" />
+<meta content="LC Speciális oktatási formák" name="DC.subject" />
+<meta content="Kaposvári Egyetem Pedagógiai Kar" name="DC.publisher" />
+<meta content="2015" name="DC.date" />
+<meta content="Könyv" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/332/1/M%C3%B3dszertani%20megfontol%C3%A1sok%20a%20gy%C3%B3gypedag%C3%B3gus%20k%C3%A9pz%C3%A9ssel%20kapcsolatban.pdf" name="DC.identifier" />
+<meta content="  Szalai, Katalin  (2015) Módszertani megfontolások a gyógypedagógus-képzéssel kapcsolatban.     Kaposvári Egyetem Pedagógiai Kar, Kaposvár. 108 p.   ISBN 978-615-5599-03-3      " name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/332/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/Atom/press-eprint-332.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/MODS/press-eprint-332.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/DC/press-eprint-332.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/COinS/press-eprint-332.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/ContextObject/press-eprint-332.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/METS/press-eprint-332.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/RDFN3/press-eprint-332.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/Refer/press-eprint-332.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/BibTeX/press-eprint-332.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/RIS/press-eprint-332.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/XML/press-eprint-332.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/Text/press-eprint-332.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/RDFXML/press-eprint-332.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/Simple/press-eprint-332.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/DIDL/press-eprint-332.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/JSON/press-eprint-332.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/HTML/press-eprint-332.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/RDFNT/press-eprint-332.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/EndNote/press-eprint-332.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/332/CSV/press-eprint-332.csv" rel="alternate" />

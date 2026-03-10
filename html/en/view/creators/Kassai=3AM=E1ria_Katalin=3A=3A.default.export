@@ -1,0 +1,14 @@
+<form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" value="Export" type="submit" class="ep_form_action_button" role="button" /><input id="view" type="hidden" value="creators" name="view" /><input value="Kassai=3AM=E1ria_Katalin=3A=3A" name="values" id="values" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Kassai=3AM=E1ria_Katalin=3A=3A/Atom/Kassai=3AM=E1ria_Katalin=3A=3A.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Kassai=3AM=E1ria_Katalin=3A=3A/RSS/Kassai=3AM=E1ria_Katalin=3A=3A.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Kassai=3AM=E1ria_Katalin=3A=3A/RSS2/Kassai=3AM=E1ria_Katalin=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form>

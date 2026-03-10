@@ -1,0 +1,305 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" value="Export" role="button" class="ep_form_action_button" name="_action_export_redir" /><input type="hidden" value="subjects" id="view" name="view" /><input type="hidden" value="QP" id="values" name="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QP/Atom/QP.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QP/RSS/QP.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QP/RSS2/QP.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (9)<ul><li><a href="Q.html">Q Science</a> (9)<ul><li><strong>QP Physiology</strong> (9)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="QP.creators_name.html">Creators</a></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a> | <a href="#group_book=5Fsection">Book Section</a> | <a href="#group_book">Book</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>9</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Csötönyi, Orsolya</span> and <span class="person_name">Béres, Gabriella</span> and <span class="person_name">Halas, Veronika</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/412/"><em>Smooth muscle electromyographic measurements with pigs in a stress model.</em></a>
+
+
+    ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 21 (1).
+    pp. 37-43.
+     ISSN 1786-8440
+  
+
+
+  
+
+
+</p><a name="group_book=5Fsection"></a><h2>Book Section</h2><p>
+
+
+    <span class="person_name">Bodrogi, Lilla</span> and <span class="person_name">Aburawash, Raed Ali</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/623/"><em>Rejtett veszélyek a korai fejlődés során : Mikotoxinok hatása a preimplantációs embrió molekuláris integritására.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (ed.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 173-186.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kövesi, Benjámin</span> and <span class="person_name">Kulcsár, Szabina</span> and <span class="person_name">Mézes, Miklós</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/630/"><em>Új irányok a mikotoxin-kutatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (ed.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 289-310.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Lázár, Bence</span> and <span class="person_name">Ecker, András</span> and <span class="person_name">Tóth, Arnold</span> and <span class="person_name">Gócza, Elen</span> and UNSPECIFIED
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/622/"><em>Madárembriológiai, illetve in vitro ősivarsejt-vizsgálatok.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (ed.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 161-171.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, Miklós</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/620/"><em>Mikotoxin-fehérje kölcsönhatások toxikokinetikai vonatkozásai.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (ed.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 113-132.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, Miklós</span> and <span class="person_name">Csenki-Bakos, Zsolt</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/627/"><em>Ciklodextrinek mint potenciális mikotoxinkötők és védőmolekulák a mikotoxin-indukált toxicitással szemben.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (ed.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 245-259.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szabó, András</span> and <span class="person_name">Omeralfaroug, Ali</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/621/"><em>Alacsony dózisú fumonizin B1 mikotoxin máj- és vesekárosító hatása modell- és háziállatokban (szövettan, lipidek összetételében bekövetkező változások, peroxidatív károsodások).</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (ed.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 133-160.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szőke, Zsuzsanna</span> and <span class="person_name">Molnár, Zsófia</span> and <span class="person_name">Plank, Patrik</span> and <span class="person_name">Nagyéri, György</span> and <span class="person_name">Ruff, Eszter</span> and <span class="person_name">Sára, Levente</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/624/"><em>Mikotoxinok hatása a reprodukcióra – állat- és humán egészségügyi kockázatok.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (ed.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 187-202.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Book</h2><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/28/"><em>Animal nutrition.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd..
+     131Number of Pages.
+    
+   
+  
+
+
+   (Unpublished)
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Mar  1 18:37:08 2026 CET</strong>.</div></div>

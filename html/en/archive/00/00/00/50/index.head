@@ -1,0 +1,67 @@
+<meta content="50" name="eprints.eprintid" />
+<meta content="18" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="1" name="eprints.userid" />
+<meta content="disk0/00/00/00/50" name="eprints.dir" />
+<meta content="2022-05-31 07:29:39" name="eprints.datestamp" />
+<meta content="2023-04-03 09:09:53" name="eprints.lastmod" />
+<meta content="2022-05-31 07:29:39" name="eprints.status_changed" />
+<meta content="book" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="Rurality in Europe. 5th International Scientific Conference on Rural Development. Conference Proceedings" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="HB" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="5th International Scientific Conference on Rural Development. 11 November, 2021. Szarvas, Hungary" name="eprints.abstract" />
+<meta content="2022" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="Hungarian University of Agriculture and Life Sciences" name="eprints.publisher" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="Gödöllő" name="eprints.place_of_pub" />
+<meta content="251" name="eprints.pages" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="978-963-269-995-0" name="eprints.isbn" />
+<meta content="Arany, Ferenc" name="eprints.editors_name" />
+<meta content="  Arany, Ferenc (ed.).  (2022) Rurality in Europe. 5th International Scientific Conference on Rural Development. Conference Proceedings.     Hungarian University of Agriculture and Life Sciences, Gödöllő. 251Number of Pages.   ISBN 978-963-269-995-0      " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/50/5/0.jpg" name="eprints.document_url" />
+<meta content="https://press.mater.uni-mate.hu/50/3/Vid%C3%A9kfejleszt%C3%A9si%20konferencia%202022_teljes%20k%C3%B6nyv.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/50/" name="DC.relation" />
+<meta content="Rurality in Europe. 5th International Scientific Conference on Rural Development. Conference Proceedings" name="DC.title" />
+<meta content="HB Economic Theory" name="DC.subject" />
+<meta content="5th International Scientific Conference on Rural Development. 11 November, 2021. Szarvas, Hungary" name="DC.description" />
+<meta content="Hungarian University of Agriculture and Life Sciences" name="DC.publisher" />
+<meta content="Arany, Ferenc" name="DC.contributor" />
+<meta content="2022" name="DC.date" />
+<meta content="Book" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="image" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/50/5/0.jpg" name="DC.identifier" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/50/3/Vid%C3%A9kfejleszt%C3%A9si%20konferencia%202022_teljes%20k%C3%B6nyv.pdf" name="DC.identifier" />
+<meta content="  Arany, Ferenc (ed.).  (2022) Rurality in Europe. 5th International Scientific Conference on Rural Development. Conference Proceedings.     Hungarian University of Agriculture and Life Sciences, Gödöllő. 251Number of Pages.   ISBN 978-963-269-995-0      " name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/50/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/Atom/press-eprint-50.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/MODS/press-eprint-50.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/DC/press-eprint-50.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/COinS/press-eprint-50.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/ContextObject/press-eprint-50.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/METS/press-eprint-50.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/RDFN3/press-eprint-50.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/Refer/press-eprint-50.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/BibTeX/press-eprint-50.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/RIS/press-eprint-50.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/XML/press-eprint-50.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/Text/press-eprint-50.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/RDFXML/press-eprint-50.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/Simple/press-eprint-50.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/DIDL/press-eprint-50.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/JSON/press-eprint-50.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/HTML/press-eprint-50.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/RDFNT/press-eprint-50.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/EndNote/press-eprint-50.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/50/CSV/press-eprint-50.csv" rel="alternate" />

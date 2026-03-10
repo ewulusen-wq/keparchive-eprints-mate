@@ -1,0 +1,90 @@
+<meta content="220" name="eprints.eprintid" />
+<meta content="8" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="1" name="eprints.userid" />
+<meta content="disk0/00/00/02/20" name="eprints.dir" />
+<meta content="2024-04-22 19:14:03" name="eprints.datestamp" />
+<meta content="2024-09-05 13:37:05" name="eprints.lastmod" />
+<meta content="2024-04-22 19:14:03" name="eprints.status_changed" />
+<meta content="book_section" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="Koponicsné Györke, Diána" name="eprints.creators_name" />
+<meta content="Szabó, Kinga" name="eprints.creators_name" />
+<meta content="0000-0003-1367-3741" name="eprints.creators_orcid" />
+<meta content="0000-0002-0691-4730" name="eprints.creators_orcid" />
+<meta content="Hungarian University of Agriculture and Life Sciences" name="eprints.corp_creators" />
+<meta content="Hungarian University of Agriculture and Life Sciences" name="eprints.corp_creators" />
+<meta content="Hungarian University of Agriculture and Life Sciences" name="eprints.corp_creators" />
+<meta content="Zakonodavstvo Europske Unije o hrani" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="S1" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="2022" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="MATE Press" name="eprints.publisher" />
+<meta content="https://doi.org/10.54597/mate.0085" name="eprints.official_url" />
+<meta content="10.54597/mate.0085" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="Gödöllő" name="eprints.place_of_pub" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="978-963-623-027-2" name="eprints.isbn" />
+<meta content="Upravljanje poljoprivredno-prehrambenim lancima" name="eprints.book_title" />
+<meta content="Srečec, Sinisa" name="eprints.editors_name" />
+<meta content="Csonka, Arnold" name="eprints.editors_name" />
+<meta content="Koponicsné Györke, Diána" name="eprints.editors_name" />
+<meta content="Nagy, Mónika Zita" name="eprints.editors_name" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/219" name="eprints.related_url_url" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/218" name="eprints.related_url_url" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/189" name="eprints.related_url_url" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/188" name="eprints.related_url_url" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/177" name="eprints.related_url_url" />
+<meta content="Engleska verzija DOI: https://doi.org/10.54597/mate.0069" name="eprints.related_url_type" />
+<meta content="Mađarska verzija DOI: https://doi.org/10.54597/mate.0037" name="eprints.related_url_type" />
+<meta content="Kompletna knjiga (Hrvatski) DOI: https://doi.org/10.54597/mate.0074" name="eprints.related_url_type" />
+<meta content="Kompletna knjiga (Engleski) DOI: https://doi.org/10.54597/mate.0058" name="eprints.related_url_type" />
+<meta content="Kompletna knjiga (Mađarski ) DOI: https://doi.org/10.54597/mate.0042" name="eprints.related_url_type" />
+<meta content="  Koponicsné Györke, Diána és Szabó, Kinga  (2022) Zakonodavstvo Europske Unije o hrani.   In: Srečec, Sinisa és Csonka, Arnold és Koponicsné Györke, Diána és Nagy, Mónika Zita  (Szerk.)  Upravljanje poljoprivredno-prehrambenim lancima.    MATE Press, Gödöllő.    ISBN 978-963-623-027-2      " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/220/1/EDUAGRI_HR_Chapter11_P164-177.pdf" name="eprints.document_url" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta content="https://press.mater.uni-mate.hu/220/" name="DC.relation" />
+<meta content="Zakonodavstvo Europske Unije o hrani" name="DC.title" />
+<meta content="Koponicsné Györke, Diána" name="DC.creator" />
+<meta content="Szabó, Kinga" name="DC.creator" />
+<meta content="S Mezőgazdaság általában" name="DC.subject" />
+<meta content="MATE Press" name="DC.publisher" />
+<meta content="Srečec, Sinisa" name="DC.contributor" />
+<meta content="Csonka, Arnold" name="DC.contributor" />
+<meta content="Koponicsné Györke, Diána" name="DC.contributor" />
+<meta content="Nagy, Mónika Zita" name="DC.contributor" />
+<meta content="2022" name="DC.date" />
+<meta content="Könyvrészlet" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hr" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/220/1/EDUAGRI_HR_Chapter11_P164-177.pdf" name="DC.identifier" />
+<meta content="  Koponicsné Györke, Diána és Szabó, Kinga  (2022) Zakonodavstvo Europske Unije o hrani.   In: Srečec, Sinisa és Csonka, Arnold és Koponicsné Györke, Diána és Nagy, Mónika Zita  (Szerk.)  Upravljanje poljoprivredno-prehrambenim lancima.    MATE Press, Gödöllő.    ISBN 978-963-623-027-2      " name="DC.identifier" />
+<meta content="https://doi.org/10.54597/mate.0085" name="DC.relation" />
+<meta content="10.54597/mate.0085" name="DC.relation" />
+<meta content="10.54597/mate.0085" name="DC.identifier" />
+<link rel="canonical" href="https://press.mater.uni-mate.hu/220/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/EndNote/press-eprint-220.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/METS/press-eprint-220.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/ContextObject/press-eprint-220.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/RIS/press-eprint-220.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/RDFXML/press-eprint-220.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/JSON/press-eprint-220.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/BibTeX/press-eprint-220.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/XML/press-eprint-220.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/RDFNT/press-eprint-220.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/DC/press-eprint-220.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/RDFN3/press-eprint-220.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/Text/press-eprint-220.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/HTML/press-eprint-220.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/DIDL/press-eprint-220.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/COinS/press-eprint-220.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/MODS/press-eprint-220.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/Refer/press-eprint-220.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/Atom/press-eprint-220.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/CSV/press-eprint-220.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/220/Simple/press-eprint-220.txt" title="Simple Metadata" />

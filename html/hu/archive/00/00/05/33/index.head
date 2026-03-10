@@ -1,0 +1,90 @@
+<meta content="533" name="eprints.eprintid" />
+<meta content="6" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="34" name="eprints.userid" />
+<meta content="disk0/00/00/05/33" name="eprints.dir" />
+<meta content="2025-11-26 10:22:52" name="eprints.datestamp" />
+<meta content="2025-11-26 10:22:52" name="eprints.lastmod" />
+<meta content="2025-11-26 10:22:52" name="eprints.status_changed" />
+<meta content="article" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="34" name="eprints.sword_depositor" />
+<meta content="Skutai, Julianna" name="eprints.creators_name" />
+<meta content="0000-0001-6679-5086" name="eprints.creators_orcid" />
+<meta content="Tájökológiai Lapok szerkesztősége Kiadók / MTA KFB [2014-]" name="eprints.corp_creators" />
+<meta content="Környezet- és Tájgazdálkodási Intézet SZIE / MKK KTGI [2000-2014]" name="eprints.corp_creators" />
+<meta content="Érzékeny Természeti Területek információs és ellenőrzési rendszerének kialakítása" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="Q1" name="eprints.subjects" />
+<meta content="S1" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="térbeli adattárolás; érzékeny természeti terület; területalapú támogatás; agrár-környezetgazdálkodás; web alapú információs rendszer;" name="eprints.keywords" />
+<meta content="2002-től a Nemzeti Agrár-környezetvédelmi Programban (NAKP) meghirdetésre került támogatási rendszerek egy új típusú mezőgazdasági termelés hazai finanszírozási alapjait teremtették meg. Ennek zonális célprogramja az Érzékeny Természeti Területek (ÉTT) Rendszere, amely valamilyen természeti érték védelmét biztosítja gazdálkodási előírásokon keresztül, támogatási csomagok formájában. Ezeknek a területalapú támogatásoknak a megismertetését szolgálja az az információs rendszer, amely a K-36-02-00152H számú KAC pályázat segítségével került megvalósításra. Az alkalmazás kialakításánál a közérdekű tájékoztatás mellett fontos célként szerepelt a Nemzeti Park Igazgatóságok és a Természetvédelmi Hivatal által elérhető, a szerződésekkel kapcsolatos nyilvántartási, ellenőrzési, nem publikus adatok kezelése is.
+Külföldi – elsősorban angol – példákból kiindulva és az IT korszerű alkalmazásának kihívása alapján járható útnak egyértelműen az internetes kapcsolaton alapuló, számtalan kliens számára egy időben elérhető webszerver-kliens alapú megoldás bizonyult. Azért tartjuk optimálisnak ennek a rendszernek a működtetését, mert az adatok összegyűjtése, validitásuk ellenőrzése, rendszerezése és feltöltésük egy központi illetékes helyen történik, a felhasználók pedig bárhonnan, – bizonyos jogosultsági kritériumoknak megfelelően – bármilyen adathoz hozzáférhetnek. Kliens oldalon nincs szükség semmilyen speciális program installálására, mert egy egyszerű web böngésző programon keresztül elérhető a rendszer.
+
+Az általunk elkészített rendszer teljes mértékben kielégíti a kutatás munkatervében megfogalmazott igényeket, amelyek az alábbiak:
+1. Valósuljon meg az ÉTT területi információinak raszteres (topográfiai adatok) és vektoros (tábla adatok) formában egyaránt kezelni képes rendszerének kialakítása.
+2. A rendszer gazdálkodói modulja keretében váljon lehetővé a gazdálkodási események területhez kötött nyilvántartása és nyomon követése.
+3. A rendszer biztosítson lehetőséget az ellenőrzés és a monitoring informatikai feladatainak a megoldására.
+4. A rendszer működtetése révén nyíljon mód a nyilvántartott adatok alapján több szempontú elemzések és összefüggés-vizsgálatok elvégzésére is.
+5. A rendszer adatvédelmi modulja segítségével legyenek biztosíthatóak a publikus és a nem publikus adatok kezelésének adatvédelmi előírásai." name="eprints.abstract" />
+<meta content="2004" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="https://doi.org/10.56617/tl.4582" name="eprints.official_url" />
+<meta content="MTMT:2079202 DOI:10.56617/tl.4582" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY" name="eprints.publication" />
+<meta content="2" name="eprints.volume" />
+<meta content="1" name="eprints.number" />
+<meta content="35-48" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="1589-4673" name="eprints.issn" />
+<meta content="  Skutai, Julianna  (2004) Érzékeny Természeti Területek információs és ellenőrzési rendszerének kialakítása.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 2 (1). pp. 35-48.  ISSN 1589-4673     " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/533/1/05_Skutai.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/533/" name="DC.relation" />
+<meta content="Érzékeny Természeti Területek információs és ellenőrzési rendszerének kialakítása" name="DC.title" />
+<meta content="Skutai, Julianna" name="DC.creator" />
+<meta content="Q Természettudomány általában" name="DC.subject" />
+<meta content="S Mezőgazdaság általában" name="DC.subject" />
+<meta content="2002-től a Nemzeti Agrár-környezetvédelmi Programban (NAKP) meghirdetésre került támogatási rendszerek egy új típusú mezőgazdasági termelés hazai finanszírozási alapjait teremtették meg. Ennek zonális célprogramja az Érzékeny Természeti Területek (ÉTT) Rendszere, amely valamilyen természeti érték védelmét biztosítja gazdálkodási előírásokon keresztül, támogatási csomagok formájában. Ezeknek a területalapú támogatásoknak a megismertetését szolgálja az az információs rendszer, amely a K-36-02-00152H számú KAC pályázat segítségével került megvalósításra. Az alkalmazás kialakításánál a közérdekű tájékoztatás mellett fontos célként szerepelt a Nemzeti Park Igazgatóságok és a Természetvédelmi Hivatal által elérhető, a szerződésekkel kapcsolatos nyilvántartási, ellenőrzési, nem publikus adatok kezelése is.
+Külföldi – elsősorban angol – példákból kiindulva és az IT korszerű alkalmazásának kihívása alapján járható útnak egyértelműen az internetes kapcsolaton alapuló, számtalan kliens számára egy időben elérhető webszerver-kliens alapú megoldás bizonyult. Azért tartjuk optimálisnak ennek a rendszernek a működtetését, mert az adatok összegyűjtése, validitásuk ellenőrzése, rendszerezése és feltöltésük egy központi illetékes helyen történik, a felhasználók pedig bárhonnan, – bizonyos jogosultsági kritériumoknak megfelelően – bármilyen adathoz hozzáférhetnek. Kliens oldalon nincs szükség semmilyen speciális program installálására, mert egy egyszerű web böngésző programon keresztül elérhető a rendszer.
+
+Az általunk elkészített rendszer teljes mértékben kielégíti a kutatás munkatervében megfogalmazott igényeket, amelyek az alábbiak:
+1. Valósuljon meg az ÉTT területi információinak raszteres (topográfiai adatok) és vektoros (tábla adatok) formában egyaránt kezelni képes rendszerének kialakítása.
+2. A rendszer gazdálkodói modulja keretében váljon lehetővé a gazdálkodási események területhez kötött nyilvántartása és nyomon követése.
+3. A rendszer biztosítson lehetőséget az ellenőrzés és a monitoring informatikai feladatainak a megoldására.
+4. A rendszer működtetése révén nyíljon mód a nyilvántartott adatok alapján több szempontú elemzések és összefüggés-vizsgálatok elvégzésére is.
+5. A rendszer adatvédelmi modulja segítségével legyenek biztosíthatóak a publikus és a nem publikus adatok kezelésének adatvédelmi előírásai." name="DC.description" />
+<meta content="2004" name="DC.date" />
+<meta content="Cikk" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/533/1/05_Skutai.pdf" name="DC.identifier" />
+<meta content="  Skutai, Julianna  (2004) Érzékeny Természeti Területek információs és ellenőrzési rendszerének kialakítása.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 2 (1). pp. 35-48.  ISSN 1589-4673     " name="DC.identifier" />
+<meta content="https://doi.org/10.56617/tl.4582" name="DC.relation" />
+<meta content="MTMT:2079202 DOI:10.56617/tl.4582" name="DC.relation" />
+<meta content="MTMT:2079202 DOI:10.56617/tl.4582" name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/533/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/Atom/press-eprint-533.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/MODS/press-eprint-533.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/DC/press-eprint-533.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/COinS/press-eprint-533.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/ContextObject/press-eprint-533.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/METS/press-eprint-533.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/RDFN3/press-eprint-533.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/Refer/press-eprint-533.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/BibTeX/press-eprint-533.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/RIS/press-eprint-533.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/XML/press-eprint-533.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/Text/press-eprint-533.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/RDFXML/press-eprint-533.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/Simple/press-eprint-533.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/DIDL/press-eprint-533.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/JSON/press-eprint-533.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/HTML/press-eprint-533.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/RDFNT/press-eprint-533.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/EndNote/press-eprint-533.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/533/CSV/press-eprint-533.csv" rel="alternate" />

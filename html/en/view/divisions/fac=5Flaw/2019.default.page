@@ -1,0 +1,68 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Export" role="button" /><input type="hidden" name="view" value="divisions" id="view" /><input type="hidden" name="values" value="fac=5Flaw/2019" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Flaw/2019/Atom/fac=5Flaw_2019.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Flaw/2019/RSS/fac=5Flaw_2019.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Flaw/2019/RSS2/fac=5Flaw_2019.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_divisions"><div class="ep_view_group_by">Group by: <a href="2019.html">Item Type</a> | <a href="2019.creators_name.html">Creators</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Koponicsné Györke, Diána</span> and <span class="person_name">Barna, Róbert</span> (eds.).
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/10/"><em>Abstracts of the International Conference on Sustainable Economy and Agriculture. Kaposvár University – Kaposvár – Hungary – 14th November 2019.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     153Number of Pages.
+    
+    ISBN 978-615-5599-72-9
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Barna, Róbert</span> and <span class="person_name">Nagy, Mónika Zita</span> and <span class="person_name">Sántosi, Péter</span> and <span class="person_name">Tóth, Katalin</span> and <span class="person_name">Szabó-Szentgróti, Gábor</span> (eds.).
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/3/"><em>A Kaposvári Egyetem Gazdaságtudományi Kar 2019. őszi Kari Tudományos Diákköri Konferenciájának összefoglalói.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     50Number of Pages.
+    
+    ISBN 978-615-5599-73-6
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Mar  8 00:26:44 2026 CET</strong>.</div></div>

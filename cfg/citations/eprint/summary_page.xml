@@ -7,7 +7,7 @@
 <cite:citation xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control" xmlns:cite="http://eprints.org/ep3/citation" >
 
   <p style="margin-bottom: 1em">
-    <epc:print expr="$item.citation('default_for_summary_page')" />
+    <epc:print expr="$item.citation('default')" />
   </p>
 
   <epc:if test="$flags{has_multiple_versions}">
@@ -30,7 +30,7 @@
       <div>
         <epc:foreach expr="$docs" iterator="doc">
           <div class="ep_summary_page_document">
-            <span><epc:print expr="$doc.icon('HoverPreview','noNewWindow','previewRight')" /></span>
+            <span><epc:print expr="$doc.icon('HoverPreview','noNewWindow','previewRight')}" /></span>
             <span>
               <epc:print expr="$doc.citation('default')" /><br />
               <a href="{$doc.url()}" class="ep_document_link"><epc:phrase ref="summary_page:download"/> (<epc:print expr="$doc.doc_size().human_filesize()" />)</a>
@@ -48,7 +48,7 @@
 			  </epc:choose>
 			  </epc:if>
               <epc:if test="!$doc.is_public() and $item.contact_email().is_set() and eprint_status = 'archive'">
-                | <a href="{$config{perl_url}}/request_doc?docid={$doc{docid}}"><epc:phrase ref="request:button" /></a>
+                | <a href="{$config{perl_url}}/request_doc?docid={$doc{docid}"><epc:phrase ref="request:button" /></a>
               </epc:if>
   
               <ul>

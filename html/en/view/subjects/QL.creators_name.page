@@ -1,0 +1,80 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input role="button" type="submit" name="_action_export_redir" value="Export" class="ep_form_action_button" /><input type="hidden" name="view" value="subjects" id="view" /><input type="hidden" name="values" value="QL" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QL/Atom/QL.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QL/RSS/QL.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QL/RSS2/QL.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (6)<ul><li><a href="Q.html">Q Science</a> (6)<ul><li><strong>QL Zoology</strong> (6)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <a href="QL.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_C">C</a> | <a href="#group_F">F</a> | <a href="#group_T">T</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>3</strong>.</div><a name="group_C"></a><h2>C</h2><p>
+
+
+    <span class="person_name">Csötönyi, Orsolya</span> and <span class="person_name">Béres, Gabriella</span> and <span class="person_name">Halas, Veronika</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/412/"><em>Smooth muscle electromyographic measurements with pigs in a stress model.</em></a>
+
+
+    ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 21 (1).
+    pp. 37-43.
+     ISSN 1786-8440
+  
+
+
+  
+
+
+</p><a name="group_F"></a><h2>F</h2><p>
+
+
+    <span class="person_name">Fűrész, Attila</span> and <span class="person_name">Pápay, Gergely</span> and <span class="person_name">Penksza, Károly</span> and <span class="person_name">Molnár, Zsolt</span> and <span class="person_name">Bakó, Gábor</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/698/"><em>Kaszpi haragossikló (Dolichopis caspius) élőhelyének térképezése Vörös-kővár területén.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (1).
+    pp. 47-57.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_T"></a><h2>T</h2><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/28/"><em>Animal nutrition.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd..
+     131Number of Pages.
+    
+   
+  
+
+
+   (Unpublished)
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Thu Mar  5 18:22:52 2026 CET</strong>.</div></div>

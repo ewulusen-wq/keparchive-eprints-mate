@@ -1,0 +1,34 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" value="Export" role="button" class="ep_form_action_button" /><input id="view" type="hidden" value="subjects" name="view" /><input id="values" type="hidden" value="PN2000" name="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/PN2000/Atom/PN2000.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/PN2000/RSS/PN2000.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/PN2000/RSS2/PN2000.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (1)<ul><li><a href="P.html">P Language and Literature</a> (1)<ul><li><a href="PN.html">PN Literature (General)</a> (1)<ul><li><strong>PN2000 Dramatic representation. The Theater</strong> (1)</li></ul></li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <a href="PN2000.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_N">N</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>1</strong>.</div><a name="group_N"></a><h2>N</h2><p>
+
+
+    <span class="person_name">Nagyné Mandl, Erika</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/276/"><em>Színház a magyar képregényben a két világháború között : A Színházi Életcímű lap képregényeinek formai-tartalmi sajátosságai.</em></a>
+
+
+    ANYANYELVI KULTÚRAKÖZVETÍTÉS, 5 (2).
+    pp. 15-27.
+     ISSN 2063-2991
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Tue Feb 24 10:23:23 2026 CET</strong>.</div></div>

@@ -1,0 +1,33 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input class="ep_form_action_button" value="Exportálás" role="button" name="_action_export_redir" type="submit" /><input value="creators" id="view" name="view" type="hidden" /><input value="Szak=E1cs=3A=C1gnes=3A=3A" id="values" name="values" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szak=E1cs=3A=C1gnes=3A=3A/Atom/Szak=E1cs=3A=C1gnes=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szak=E1cs=3A=C1gnes=3A=3A/RSS/Szak=E1cs=3A=C1gnes=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szak=E1cs=3A=C1gnes=3A=3A/RSS2/Szak=E1cs=3A=C1gnes=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Csoportosítás: <span class="ep_view_group_by_current">Tétel típusa</span>['Update/Views:group_separator' not defined]<a href="Szak=E1cs=3A=C1gnes=3A=3A.default.html">Nincs</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_article">Cikk</a></div></div><div class="ep_view_blurb">Tételek száma: <strong>1</strong>.</div><a name="group_article"></a><h2>Cikk</h2><p>
+
+
+    <span class="person_name">Berecz, Tibor</span> és <span class="person_name">Fehér, Luca</span> és <span class="person_name">Gyovai, Gábor</span> és <span class="person_name">Hága, Krisztián</span> és <span class="person_name">Kazinczy, István Gábor</span> és <span class="person_name">Lipták, Petra</span> és <span class="person_name">Pápay, Gergely</span> és <span class="person_name">Petrovszki, János</span> és <span class="person_name">Prohászka, Viola Judit</span> és <span class="person_name">Ruff, Sarolt</span> és <span class="person_name">Szakács, Ágnes</span> és <span class="person_name">Mészáros, Melinda Márta</span> és <span class="person_name">Kiszel, Kata Zsófia</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/637/"><em>A világ természetvédelmének története 1981 és 1985 között (védett területek alapítása).</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 13 (2).
+    pp. 249-263.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Tue Mar  3 06:07:58 2026 CET</strong>.</div></div>

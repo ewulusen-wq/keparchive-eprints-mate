@@ -1,74 +1,175 @@
-
 =pod
 
+
 # Please see http://wiki.eprints.org/w/User_login.pl
-$c->{check_user_password} = sub {
-	my( $repo, $username, $password ) = @_;
-
-	... check whether $password is ok
-
-	return $ok ? $username : undef;
-};
+#$c->{check_user_password} = sub {
+#
+#        my( $repo, $password, $username ) = @_;
+#	print STDERR "fent bent \n"
+#        return $ok ? $username : undef;
+#};
 
 =cut
 
-# Maximum time (in seconds) before a user must log in again
-# $c->{user_session_timeout} = undef; 
+$c->{check_user_password} = sub {
+   my( $session, $username, $password ) = @_;
+print STDERR "bejött ldap elott\n";
 
-# Time (in seconds) to allow between user actions before logging them out
-# $c->{user_inactivity_timeout} = 86400 * 7;
+   # LDAP authentication for "user", "editor" and "admin" types (roles)
+   use Net::LDAP; # IO::Socket::SSL also required
+   use Time::Piece ();
+   # LDAP tunables
 
-# Set the cookie expiry time
-# $c->{user_cookie_timeout} = undef; # e.g. "+3d" for 3 days
+   my $secusername=$username;
+$username = "uid=".$username.",ou=Employees,ou=People,dc=szie,dc=hu";
+print STDERR $username;
+	
+   
+   my $ldap_host = "ldaps://192.188.242.24";
+   my $base      = "dc=szie,dc=hu";
+   my $groupbase = "ou=Employees,ou=People,dc=szie,dc=hu";
+   my $dn        = "uid=MAT8262,ou=RoleAccounts,ou=People,dc=szie,dc=hu";
+   my $ldappass   = "Asdf1234!";
+     my $ldap      = Net::LDAP->new ( $ldap_host, version => 3,port =>636 );
+   unless( $ldap )
+   {
+        print STDERR Time::Piece::localtime->strftime('[%a %b %d %H:%M:%S %Y]');
+        #print STDERR " LDAP error: $@\n";
+        #print  " LDAP error: $@\n";
+        return 0;
+   }
 
+   # Start secure connection (not needed if using LDAPS)
+ #  my $ssl = $ldap->start_tls();
+  # if( $ssl->code() )
+  # {
+#       print STDERR Time::Piece::localtime->strftime('[%a %b %d %H:%M:%S %Y]');
+#       print STDERR " LDAP SSL error: " . $ssl->error() . "\n";
+#      print " LDAP SSL error: " . $ssl->error() . "\n";
+#       return 0;
+ #  }
+   # Get password for the search-bind-account
+   my $repository = $session->get_repository;
+   my $id         = $repository->get_id;
+    my $mesg="";
+    if( $dn eq "" && $ldappass eq "" )
+{
+       $mesg = $ldap->bind; # anonymous bind
+}
+else
+{
+       $mesg = $ldap->bind( $dn, password => $ldappass );
+}
+  
+   if( $mesg->code() )
+   {
+       print STDERR "LDAP Bind error: " . $mesg->error() ."-->".$mesg->code(). "\n";
+       return 0;
+   }
+#print mesg->code();
+   # Distinguished name (and attribues needed later on) for this user
+   my $result = $ldap->search (
+       base    => "$base",
+       scope   => "sub",
+       filter  => "(&(uid=$secusername))",
+       attrs   =>  ['1.1', 'uid', 'sn','givenName', 'mail'],
+       sizelimit=>1
+   );
+  if ( $result->code() ) {
+  #
+  # if we've got an error... record it
+  #
+  LDAPerror ( "Searching", $result );
+	print $result->error();
+}
+ 
+sub LDAPerror
+{
+  my ($from, $mesg) = @_;
+  print "Return code: ", $mesg->code;
+  print "\tMessage: ", $mesg->error_name;
+  print " :",          $mesg->error_text;
+  print "MessageID: ", $mesg->mesg_id;
+  print "\tDN: ", $mesg->dn;
+ 
+  #---
+  # Programmer note:
+  #
+  #  "$mesg->error" DOESN'T work!!!
+  #
+  #print "\tMessage: ", $mesg->error;
+  #-----
+}
+   my $entr = $result->pop_entry;
+    #print $entr."valami ez is |";
+   unless( defined $entr )
+   {
+	#print STDERR "rossz kód ldaphozadmin".$secusername."\n"; #<---- itt dobja a hibát nem találja meg a usert az ldapba.
+       # Allow local EPrints authentication for admins (accounts not found in LDAP)
+       my $user = EPrints::DataObj::User::user_with_username( $session, $secusername );
+       return 0 unless $user;
 
+       my $user_type = $user->get_type;
+	#print STDERR "rossz kód ldaphoz2\n";
+	#print STDERR $user_type."\n";
+       if( $user_type eq "admin" or $user_type eq "user")
+       {
+           # internal authentication for "admin" type
+           return $session->get_database->valid_login( $secusername, $password );
+       }
+       return 0;
+   }
+   my $ldap_dn = $entr->dn;
+   #filter the user found based on group (make sure the user is in Staff_grp group in OID)
+ my $userGroup = $ldap->search (
+      base    => "$groupbase",
+      scope   => "sub",
+     filter  => "(&(uniquemember=$ldap_dn))",
+      attrs   =>  ['cn'],
+      sizelimit=>1
 
-# Additional restrictions to allow parts of a repository to be limited to logged in users
-# see Rewrite.pm for implementation
+   );
+  # my $entrGroup = $userGroup->pop_entry;
+  # unless( defined $entrGroup )
+ # {
+        # User Not in Staff group - reject login
+    #    print STDERR Time::Piece::localtime->strftime('[%a %b %d %H:%M:%S %Y]');
+     #  print STDERR " NOT AUTHORIZED : User $username is not a staff\n";
+#	print  " NOT AUTHORIZED : User $username is not a staff\n";
+#        return 0;
+ #  }
 
-# restrict access to abstract/summary pages
-# $c->{login_required_for_eprints}->{enable} = 1;
+   # Check password
+   my $mesg2 = $ldap->bind( $ldap_dn, password => $password );
+   if( $mesg2->code() )
+   {
+    #print STDERR "rossz kód ldaphoz";
+       return 0;
+   }
 
-# restrict access to view pages
-# $c->{login_required_for_views}->{enable} = 1;
+   # Does account already exist?
+   my $user = EPrints::DataObj::User::user_with_username( $session, $secusername );
+   if( !defined $user )
+   {
+#print STDERR $secusername;
+#print STDERR "új user name $secusername!";
+       # New account
+       $user = EPrints::DataObj::User::create( $session, "user" );
+       $user->set_value( "username", $secusername );
+   }
 
-# restrict access to cgi pages
-# $c->{login_required_for_cgi}->{enable} = 1;
-# can't restrict access to the login cgi page
-# $c->{login_required_for_cgi}->{exceptions} = [ "users/login", "handle_404" ];
+   # Set metadata
+   my $name = {};
+   $name->{family} = $entr->get_value( "sn" );
+   $name->{given} = $entr->get_value( "givenName" );
+   $user->set_value( "name", $name );
+   $user->set_value( "username", $secusername );
+   $user->set_value( "email", $entr->get_value( "mail" ) );
+   $user->commit();
+   # print STDERR " neved: $name";	
 
-# login page to redirct users to
-# $c->{login_required_url} = "/cgi/users/login";
+   $ldap->unbind if $ldap;
 
+   return 1;
 
-
-=head1 COPYRIGHT
-
-=for COPYRIGHT BEGIN
-
-Copyright 2022 University of Southampton.
-EPrints 3.4 is supplied by EPrints Services.
-
-http://www.eprints.org/eprints-3.4/
-
-=for COPYRIGHT END
-
-=for LICENSE BEGIN
-
-This file is part of EPrints 3.4 L<http://www.eprints.org/>.
-
-EPrints 3.4 and this file are released under the terms of the
-GNU Lesser General Public License version 3 as published by
-the Free Software Foundation unless otherwise stated.
-
-EPrints 3.4 is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the GNU Lesser General Public License for more details.
-
-You should have received a copy of the GNU Lesser General Public
-License along with EPrints 3.4.
-If not, see L<http://www.gnu.org/licenses/>.
-
-=for LICENSE END
-
+}

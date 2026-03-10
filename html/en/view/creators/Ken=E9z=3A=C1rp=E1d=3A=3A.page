@@ -1,0 +1,54 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Export" name="_action_export_redir" class="ep_form_action_button" role="button" type="submit" /><input id="view" type="hidden" name="view" value="creators" /><input value="Ken=E9z=3A=C1rp=E1d=3A=3A" name="values" id="values" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Ken=E9z=3A=C1rp=E1d=3A=3A/Atom/Ken=E9z=3A=C1rp=E1d=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Ken=E9z=3A=C1rp=E1d=3A=3A/RSS/Ken=E9z=3A=C1rp=E1d=3A=3A.rss"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Ken=E9z=3A=C1rp=E1d=3A=3A/RSS2/Ken=E9z=3A=C1rp=E1d=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Ken=E9z=3A=C1rp=E1d=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a></div></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Saláta, Dénes</span> and <span class="person_name">Pető, Ákos</span> and <span class="person_name">Kenéz, Árpád</span> and <span class="person_name">Geiger, Barbara</span> and <span class="person_name">Horváth, S</span> and <span class="person_name">Malatinszky, Ákos</span>
+  
+
+(2013)
+  
+<a href="https://press.mater.uni-mate.hu/519/"><em>Természettudományos módszerek alkalmazása tájtörténeti kutatásokban : Kisgombosi esettanulmány.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 11 (1).
+    pp. 67-88.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóth, Andrea</span> and <span class="person_name">Balogh, Ákos</span> and <span class="person_name">Wichmann, Barnabás</span> and <span class="person_name">Berke, József</span> and <span class="person_name">Gyulai, Ferenc</span> and <span class="person_name">Penksza, Péter</span> and <span class="person_name">Dancza, I</span> and <span class="person_name">Kenéz, Árpád</span> and <span class="person_name">Schellenberger, Judit</span> and <span class="person_name">Penksza, Károly</span>
+  
+
+(2011)
+  
+<a href="https://press.mater.uni-mate.hu/491/"><em>Gyomvizsgálatok Pest megyei homoki mezőgazdasági területeken (lucernaföldek gyomvizsgálatai) I.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 9 (2).
+    pp. 455-467.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Thu Feb 12 13:53:17 2026 CET</strong>.</div></div>

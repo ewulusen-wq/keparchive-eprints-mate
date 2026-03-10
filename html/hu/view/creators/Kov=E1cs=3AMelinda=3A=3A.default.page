@@ -1,0 +1,214 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]">['Update/Views:up_a_level' not defined]</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">['Update/Views:export_section' not defined<dl class="ep_undefined_phrase"><dt>menu</dt><dd><select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select></dd><dt>button</dt><dd><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="['lib/searchexpression:export_button' not defined]" /><input type="hidden" name="view" id="view" value="creators" /><input type="hidden" name="values" id="values" value="Kov=E1cs=3AMelinda=3A=3A" /></dd><dt>tools</dt><dd></dd><dt>feeds</dt><dd> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Kov=E1cs=3AMelinda=3A=3A/Atom/Kov=E1cs=3AMelinda=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Kov=E1cs=3AMelinda=3A=3A/RSS/Kov=E1cs=3AMelinda=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Kov=E1cs=3AMelinda=3A=3A/RSS2/Kov=E1cs=3AMelinda=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></dd></dl>]</form><div class="ep_view_page ep_view_page_view_creators">['Update/Views:group_by' not defined<dl class="ep_undefined_phrase"><dt>groups</dt><dd><a href="Kov=E1cs=3AMelinda=3A=3A.html">['eprint_fieldname_type' not defined]</a>['Update/Views:group_separator' not defined]['Update/Views:current_group' not defined<dl class="ep_undefined_phrase"><dt>group</dt><dd>['Update/Views:no_grouping' not defined]</dd></dl>]</dd></dl>]['bin/generate_views:blurb' not defined<dl class="ep_undefined_phrase"><dt>n</dt><dd>6</dd></dl>]<p>
+
+
+    <span class="person_name">Kovács, Melinda</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/634/"><em>Előszó.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 7-8.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kovács, Melinda</span>['lib/metafield:join_name' not defined]<span class="person_name">Szabó, András</span>['lib/metafield:join_name' not defined]<span class="person_name">Omeralfaroug, Ali</span>['lib/metafield:join_name' not defined]<span class="person_name">Naeem, Sheik Abdul</span>['lib/metafield:join_name' not defined]<span class="person_name">Taskeen, Fathima Docrat</span>['lib/metafield:join_name' not defined]<span class="person_name">Marnewick, Jeanine L</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/628/"><em>Választ jelenthetnek a növényi kivonatok (fitokemikáliák) a mikotoxinok okozta kihívásokra?</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 261-271.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Varga-Szatmári, Viktória</span>['lib/metafield:join_name' not defined]<span class="person_name">Vargáné Visi, Éva</span>['lib/metafield:join_name' not defined]<span class="person_name">Bóta, Brigitta</span>['lib/metafield:join_name' not defined]<span class="person_name">Péterfi-Szabó, Dóra</span>['lib/metafield:join_name' not defined]<span class="person_name">Gömbös, Patrik</span>['lib/metafield:join_name' not defined]<span class="person_name">Kovács, Melinda</span>['lib/metafield:join_name' not defined]<span class="person_name">Halas, Veronika</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/397/"><em>Az emésztésszimulációs vizsgálatok jelentősége a fumonizin mikotoxin biológiai hozzáférhetőségének meghatározásában.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span>['lib/metafield:join_name' not defined]<span class="person_name">Tóthi, Róbert</span> 
+        
+          (Szerk.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium És Egy Egészség Nap, 2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 61-66.
+   
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Ikanya, Lucy</span>['lib/metafield:join_name' not defined]<span class="person_name">Libisch, Balázs</span>['lib/metafield:join_name' not defined]<span class="person_name">Keresztény, Tibor</span>['lib/metafield:join_name' not defined]<span class="person_name">Olasz, Ferenc</span>['lib/metafield:join_name' not defined]<span class="person_name">Corral, Stephanya</span>['lib/metafield:join_name' not defined]<span class="person_name">Kovács, Melinda</span>['lib/metafield:join_name' not defined]<span class="person_name">Halas, Veronika</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/395/"><em>Influence of Levilactobacillus Brevis on Growth Performance of Weaned Piglets Under Fumonisin B1 Challenges.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span>['lib/metafield:join_name' not defined]<span class="person_name">Tóthi, Róbert</span> 
+        
+          (Szerk.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium És Egy Egészség Nap, 2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 49-54.
+   
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Ali, Omeralfaroug</span>['lib/metafield:join_name' not defined]<span class="person_name">Szabó, András</span>['lib/metafield:join_name' not defined]<span class="person_name">Balogh, Krisztián</span>['lib/metafield:join_name' not defined]<span class="person_name">Schieszl, Tamás</span>['lib/metafield:join_name' not defined]<span class="person_name">Bóta, Brigitta</span>['lib/metafield:join_name' not defined]<span class="person_name">Turbók, Janka</span>['lib/metafield:join_name' not defined]<span class="person_name">Agyarko, Edward</span>['lib/metafield:join_name' not defined]<span class="person_name">Marnewick, Jeanine L.</span>['lib/metafield:join_name' not defined]<span class="person_name">Sheik Abdul, Naeem</span>['lib/metafield:join_name' not defined]<span class="person_name">Docrat, Taskeen Fathima</span>['lib/metafield:join_name' not defined]<span class="person_name">Masolo Biketi, Tony</span>['lib/metafield:join_name' not defined]<span class="person_name">Kovács, Melinda</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/398/"><em>Rooiboskivonat védőhatása a fumonizin B1 által kiváltott oxidatív stressz és a membránlipid-összetétel esetében, patkánymájban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span>['lib/metafield:join_name' not defined]<span class="person_name">Tóthi, Róbert</span> 
+        
+          (Szerk.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium És Egy Egészség Nap, 2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 67-77.
+    ISBN 978-963-623-120-0
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Zeebone, Yarsmin Yunus</span>['lib/metafield:join_name' not defined]<span class="person_name">Libisch, Balázs</span>['lib/metafield:join_name' not defined]<span class="person_name">Olasz, Ferenc</span>['lib/metafield:join_name' not defined]<span class="person_name">Bóta, Brigitta</span>['lib/metafield:join_name' not defined]<span class="person_name">Kovács, Melinda</span>['lib/metafield:join_name' not defined]<span class="person_name">Halas, Veronika</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/118/"><em>Potential effect of dietary fumonising on the colonization of &#13;
+lactobacilli in the gut and fecal microbiota of weaned pigs.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span>['lib/metafield:join_name' not defined]<span class="person_name">Tóthi, Róbert</span> 
+        
+          (Szerk.)
+          
+      
+      Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     127 p.
+    pp. 122-127.
+    ISBN 978-963-623-031-9
+  
+  
+
+
+  
+
+
+</p>['bin/generate_views:timestamp' not defined<dl class="ep_undefined_phrase"><dt>time</dt><dd>Mon Mar  9 14:21:53 2026 CET</dd></dl>]</div>

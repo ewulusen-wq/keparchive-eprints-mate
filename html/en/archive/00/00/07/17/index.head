@@ -1,0 +1,78 @@
+<meta name="eprints.eprintid" content="717" />
+<meta name="eprints.rev_number" content="5" />
+<meta name="eprints.eprint_status" content="archive" />
+<meta name="eprints.userid" content="34" />
+<meta name="eprints.dir" content="disk0/00/00/07/17" />
+<meta name="eprints.datestamp" content="2026-03-03 14:02:23" />
+<meta name="eprints.lastmod" content="2026-03-03 14:02:23" />
+<meta name="eprints.status_changed" content="2026-03-03 14:02:23" />
+<meta name="eprints.type" content="article" />
+<meta name="eprints.metadata_visibility" content="show" />
+<meta name="eprints.sword_depositor" content="34" />
+<meta name="eprints.creators_name" content="Járdi, Ildikó" />
+<meta name="eprints.creators_name" content="Falusi, Eszter" />
+<meta name="eprints.creators_name" content="Penksza, Károly" />
+<meta name="eprints.creators_orcid" content="0000-0002-1560-7863" />
+<meta name="eprints.creators_orcid" content="0000-0002-1183-3513" />
+<meta name="eprints.corp_creators" content="Tájökológiai Lapok szerkesztősége Kiadók / MTA KFB [2014-]" />
+<meta name="eprints.corp_creators" content="Növénytani Tanszék MATE / NTTI NT [2021-]" />
+<meta name="eprints.corp_creators" content="Növénytermesztési Tudományok Intézet MATE NTTI [2021-2023]" />
+<meta name="eprints.title" content="Szélsőséges klímaszituáció hatásának vizsgálata Ipoly menti pannon, legeltetett homoki gyepekben" />
+<meta name="eprints.ispublished" content="pub" />
+<meta name="eprints.subjects" content="QE" />
+<meta name="eprints.divisions" content="MagyTE" />
+<meta name="eprints.keywords" content="NDVI; Sentinel-2A; Habitat changes; szélsőséges klímaszituáció; MNDVI; élőhely változás; extremely climate conditions;" />
+<meta name="eprints.abstract" content="A globális éghajlatváltozás Magyarország területén is megfigyelhető szélsőségeket eredményez. Jelen tanulmány ennek példáját elemzi az Ipoly-menti gyepterületeket egy 5 évet felölelő vizsgálata útján – ezen belül főként két szélsőséges klimatikus év tavaszi aspektusát hasonlítjuk össze és ennek hatását a tájhasználati szempontból meghatározó legelők vonatkozásában. A műholdfelvételek térhódítása és gyors fejlődése teszi lehetővé az élőhelyek minél pontosabb elemzését és a változások nyomon követését is, amit ezen tanulmányban is alkalmaztunk – a Sentinel-2A műhold adatainak felhasználásával. A műholdképeknek köszönhetően kvantilis információkat szerezhetünk, amelyek segítenek a vegetációs aktivitás kimutatásában – NDVI (Normalizált Vegetációs Index) –, míg a talajfelszínhez közeli rétegek víztelítettségének kimutatásához az MNDVI (Módosított Normalizált Víz Index) indexeket használtuk. A kutatásban a 2017 és 2022 közötti időszakot vizsgáltuk, melyből kiemelhető a 2020-as és a 2021-es, mint szélsőséges két év, aminek a tavaszi állapotát elemeztük részletesen. A műhold adatokat terepi, klasszikus kvadrát módszer felvételeivel egészítettük ki, illetve eredményeivel vettük össze. A vizsgált periódus alatt a csapadék mennyisége jelentősen eltért: 2021 volt a legszárazabb, míg a 2022-es év volt a legcsapadékosabb. A műholdképek alapján szélsőséges klímahatását detektáltuk az Ipoly-mentén található homoki gyepekben. A különböző, mintázott vegetáció egységekben, a mintapontok NDVI és MNDVI adatai között eltérés tapasztalható a vizsgált években, melyek összefüggést mutatnak a növényzetben megjelenő változásokkal. Az alkalmazott indexek a természetes gyepek, homoki gyepek esetben is jól alkalmazhatóak voltak, továbbá az eltérések is kivehetővé, követhetővé váltak. Ezzel párhuzamosan a cönológai felvételek adatai alapján a vegetációban bekövetkezett változások szintén jól indikálták a környezeti változást, elsősorban a nedvességi viszonyokat." />
+<meta name="eprints.date" content="2022" />
+<meta name="eprints.date_type" content="published" />
+<meta name="eprints.official_url" content="https://doi.org/10.56617/tl.3455" />
+<meta name="eprints.id_number" content="MTMT:33298490 DOI:10.56617/tl.3455" />
+<meta name="eprints.full_text_status" content="public" />
+<meta name="eprints.publication" content="TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY" />
+<meta name="eprints.volume" content="20" />
+<meta name="eprints.number" content="2" />
+<meta name="eprints.pagerange" content="115-129" />
+<meta name="eprints.refereed" content="TRUE" />
+<meta name="eprints.issn" content="1589-4673" />
+<meta name="eprints.citation" content="  Járdi, Ildikó and Falusi, Eszter and Penksza, Károly  (2022) Szélsőséges klímaszituáció hatásának vizsgálata Ipoly menti pannon, legeltetett homoki gyepekben.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 20 (2). pp. 115-129.  ISSN 1589-4673     " />
+<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/717/1/TURCSANYI_JARDI_et_al_HONLAPRA.docx.pdf" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta name="DC.relation" content="https://press.mater.uni-mate.hu/717/" />
+<meta name="DC.title" content="Szélsőséges klímaszituáció hatásának vizsgálata Ipoly menti pannon, legeltetett homoki gyepekben" />
+<meta name="DC.creator" content="Járdi, Ildikó" />
+<meta name="DC.creator" content="Falusi, Eszter" />
+<meta name="DC.creator" content="Penksza, Károly" />
+<meta name="DC.subject" content="QE Geology" />
+<meta name="DC.description" content="A globális éghajlatváltozás Magyarország területén is megfigyelhető szélsőségeket eredményez. Jelen tanulmány ennek példáját elemzi az Ipoly-menti gyepterületeket egy 5 évet felölelő vizsgálata útján – ezen belül főként két szélsőséges klimatikus év tavaszi aspektusát hasonlítjuk össze és ennek hatását a tájhasználati szempontból meghatározó legelők vonatkozásában. A műholdfelvételek térhódítása és gyors fejlődése teszi lehetővé az élőhelyek minél pontosabb elemzését és a változások nyomon követését is, amit ezen tanulmányban is alkalmaztunk – a Sentinel-2A műhold adatainak felhasználásával. A műholdképeknek köszönhetően kvantilis információkat szerezhetünk, amelyek segítenek a vegetációs aktivitás kimutatásában – NDVI (Normalizált Vegetációs Index) –, míg a talajfelszínhez közeli rétegek víztelítettségének kimutatásához az MNDVI (Módosított Normalizált Víz Index) indexeket használtuk. A kutatásban a 2017 és 2022 közötti időszakot vizsgáltuk, melyből kiemelhető a 2020-as és a 2021-es, mint szélsőséges két év, aminek a tavaszi állapotát elemeztük részletesen. A műhold adatokat terepi, klasszikus kvadrát módszer felvételeivel egészítettük ki, illetve eredményeivel vettük össze. A vizsgált periódus alatt a csapadék mennyisége jelentősen eltért: 2021 volt a legszárazabb, míg a 2022-es év volt a legcsapadékosabb. A műholdképek alapján szélsőséges klímahatását detektáltuk az Ipoly-mentén található homoki gyepekben. A különböző, mintázott vegetáció egységekben, a mintapontok NDVI és MNDVI adatai között eltérés tapasztalható a vizsgált években, melyek összefüggést mutatnak a növényzetben megjelenő változásokkal. Az alkalmazott indexek a természetes gyepek, homoki gyepek esetben is jól alkalmazhatóak voltak, továbbá az eltérések is kivehetővé, követhetővé váltak. Ezzel párhuzamosan a cönológai felvételek adatai alapján a vegetációban bekövetkezett változások szintén jól indikálták a környezeti változást, elsősorban a nedvességi viszonyokat." />
+<meta name="DC.date" content="2022" />
+<meta name="DC.type" content="Article" />
+<meta name="DC.type" content="PeerReviewed" />
+<meta name="DC.format" content="text" />
+<meta name="DC.language" content="hu" />
+<meta name="DC.rights" content="cc_by_nc_nd_4" />
+<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/717/1/TURCSANYI_JARDI_et_al_HONLAPRA.docx.pdf" />
+<meta name="DC.identifier" content="  Járdi, Ildikó and Falusi, Eszter and Penksza, Károly  (2022) Szélsőséges klímaszituáció hatásának vizsgálata Ipoly menti pannon, legeltetett homoki gyepekben.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 20 (2). pp. 115-129.  ISSN 1589-4673     " />
+<meta name="DC.relation" content="https://doi.org/10.56617/tl.3455" />
+<meta name="DC.relation" content="MTMT:33298490 DOI:10.56617/tl.3455" />
+<meta name="DC.identifier" content="MTMT:33298490 DOI:10.56617/tl.3455" />
+<link rel="canonical" href="https://press.mater.uni-mate.hu/717/" />
+<link rel="alternate" title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/CSV/press-eprint-717.csv" type="text/csv; charset=utf-8" />
+<link rel="alternate" title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/BibTeX/press-eprint-717.bib" type="text/plain; charset=utf-8" />
+<link rel="alternate" title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/JSON/press-eprint-717.js" type="application/json; charset=utf-8" />
+<link rel="alternate" title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/RDFXML/press-eprint-717.rdf" type="application/rdf+xml" />
+<link rel="alternate" title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/HTML/press-eprint-717.html" type="text/html; charset=utf-8" />
+<link rel="alternate" title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/COinS/press-eprint-717.txt" type="text/plain; charset=utf-8" />
+<link rel="alternate" title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/Simple/press-eprint-717.txt" type="text/plain; charset=utf-8" />
+<link rel="alternate" title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/XML/press-eprint-717.xml" type="application/vnd.eprints.data+xml; charset=utf-8" />
+<link rel="alternate" title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/METS/press-eprint-717.xml" type="text/xml; charset=utf-8" />
+<link rel="alternate" title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/EndNote/press-eprint-717.enw" type="text/plain; charset=utf-8" />
+<link rel="alternate" title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/MODS/press-eprint-717.xml" type="text/xml; charset=utf-8" />
+<link rel="alternate" title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/RIS/press-eprint-717.ris" type="text/plain" />
+<link rel="alternate" title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/RDFNT/press-eprint-717.nt" type="text/plain" />
+<link rel="alternate" title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/Atom/press-eprint-717.xml" type="application/atom+xml;charset=utf-8" />
+<link rel="alternate" title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/RDFN3/press-eprint-717.n3" type="text/n3" />
+<link rel="alternate" title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/Text/press-eprint-717.txt" type="text/plain; charset=utf-8" />
+<link rel="alternate" title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/DIDL/press-eprint-717.xml" type="text/xml; charset=utf-8" />
+<link rel="alternate" title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/DC/press-eprint-717.txt" type="text/plain; charset=utf-8" />
+<link rel="alternate" title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/ContextObject/press-eprint-717.xml" type="text/xml; charset=utf-8" />
+<link rel="alternate" title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/717/Refer/press-eprint-717.refer" type="text/plain" />

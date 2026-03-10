@@ -1,0 +1,156 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" value="Export" class="ep_form_action_button" role="button" /><input name="view" type="hidden" id="view" value="creators" /><input name="values" type="hidden" id="values" value="M=E9zes=3AMikl=F3s=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/M=E9zes=3AMikl=F3s=3A=3A/Atom/M=E9zes=3AMikl=F3s=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/M=E9zes=3AMikl=F3s=3A=3A/RSS/M=E9zes=3AMikl=F3s=3A=3A.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/M=E9zes=3AMikl=F3s=3A=3A/RSS2/M=E9zes=3AMikl=F3s=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="M=E9zes=3AMikl=F3s=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>4</strong>.</div><p>
+
+
+    <span class="person_name">Kövesi, Benjámin</span> and <span class="person_name">Kulcsár, Szabina</span> and <span class="person_name">Mézes, Miklós</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/630/"><em>Új irányok a mikotoxin-kutatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (ed.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 289-310.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóth, Márk</span> and <span class="person_name">Sipiczki, Ilka</span> and <span class="person_name">Ancsin, Zsolt</span> and <span class="person_name">Zándoki, Erika</span> and <span class="person_name">Balogh, Krisztián Milán</span> and <span class="person_name">Kulcsár, Szabina</span> and <span class="person_name">Kövesi, Benjamin</span> and <span class="person_name">Mézes, Miklós</span> and <span class="person_name">Podmaniczky, Béla</span> and <span class="person_name">Balláné Erdélyi, Márta</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/431/"><em>Lisztkukac- (Tenebrio molitor-) liszt hatása brojlercsirke termelési paramétereire.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> and <span class="person_name">Tóthi, Róbert</span> 
+        
+          (eds.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium és Egy Egészség Nap, 	2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 119-1236.
+    ISBN 978-963-623-120-0
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Ancsin, Zsolt</span> and <span class="person_name">Molnárné Donkó, Katalin</span> and <span class="person_name">Zándoki, Erika</span> and <span class="person_name">Balogh, Krisztián Milán</span> and <span class="person_name">Mézes, Miklós</span> and <span class="person_name">Balláné Erdélyi, Márta</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/433/"><em>Nagy csalán (Urtica dioica) és gyermekláncfű (Taraxacum officinale) hatása tojótyúkok tojástermelési és tojásminőségi paramétereire.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> and <span class="person_name">Tóthi, Róbert</span> 
+        
+          (eds.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmá-nyozásában : 21. Nemzetközi Takarmányozási Szimpózium és Egy Egészség Nap, 	2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 133-138.
+    ISBN 978-963-623-120-0
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kulcsár, Szabina</span> and <span class="person_name">Kövesi, Benjámin</span> and <span class="person_name">Balogh, Krisztián Milán</span> and <span class="person_name">Zándoki, Erika</span> and <span class="person_name">Mézes, Miklós</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/394/"><em>Ochratoxinnal szennyezett takarmány etetésének hatása a brojlercsirke glutation redox rendszerére és lipidperoxidációs folyamataira szelénkiegészítés mellett.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> and <span class="person_name">Tóthi, Róbert</span> 
+        
+          (eds.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium És Egy Egészség Nap, 2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 43-48.
+   
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Fri Mar  6 23:17:45 2026 CET</strong>.</div></div>

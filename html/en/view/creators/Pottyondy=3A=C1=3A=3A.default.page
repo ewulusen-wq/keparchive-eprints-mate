@@ -1,0 +1,54 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" value="Export" class="ep_form_action_button" role="button" /><input id="view" name="view" type="hidden" value="creators" /><input id="values" name="values" type="hidden" value="Pottyondy=3A=C1=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Pottyondy=3A=C1=3A=3A/Atom/Pottyondy=3A=C1=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Pottyondy=3A=C1=3A=3A/RSS/Pottyondy=3A=C1=3A=3A.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Pottyondy=3A=C1=3A=3A/RSS2/Pottyondy=3A=C1=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Pottyondy=3A=C1=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Balogh, Ákos</span> and <span class="person_name">Nagy, A</span> and <span class="person_name">Vona, Márton</span> and <span class="person_name">Pottyondy, Á</span> and <span class="person_name">Herczeg, E</span> and <span class="person_name">Malatinszky, Ákos</span> and <span class="person_name">Penksza, Károly</span>
+  
+
+(2006)
+  
+<a href="https://press.mater.uni-mate.hu/543/"><em>Data to the weed composition of the Southern Trans-Tisza area.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 4 (1).
+    pp. 139-148.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Herczeg, E</span> and <span class="person_name">Pottyondy, Á</span> and <span class="person_name">Penksza, Károly</span>
+  
+
+(2005)
+  
+<a href="https://press.mater.uni-mate.hu/535/"><em>Cönológiai vizsgálatok eltérő gazdálkodású dél-tiszántúli löszgyepekben.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 3 (1).
+    pp. 75-82.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Feb 23 20:13:01 2026 CET</strong>.</div></div>

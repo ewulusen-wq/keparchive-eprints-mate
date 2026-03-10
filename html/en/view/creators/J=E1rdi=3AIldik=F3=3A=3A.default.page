@@ -1,0 +1,54 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" role="button" class="ep_form_action_button" name="_action_export_redir" value="Export" /><input type="hidden" id="view" name="view" value="creators" /><input id="values" type="hidden" name="values" value="J=E1rdi=3AIldik=F3=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/J=E1rdi=3AIldik=F3=3A=3A/Atom/J=E1rdi=3AIldik=F3=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/J=E1rdi=3AIldik=F3=3A=3A/RSS/J=E1rdi=3AIldik=F3=3A=3A.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/J=E1rdi=3AIldik=F3=3A=3A/RSS2/J=E1rdi=3AIldik=F3=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="J=E1rdi=3AIldik=F3=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Járdi, Ildikó</span> and <span class="person_name">Balogh, Petra</span> and <span class="person_name">Bajnok, Márta</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/426/"><em>Kecskékkel történő hosszútávú legeltetés hatása a vegetáció természetességi állapotára és gazdasági értékére északi-középhegységi gyepekben.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 22 (2).
+    pp. 101-122.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szentes, Szilárd</span> and <span class="person_name">Szentesné Sutyinszki, Zsuzsanna</span> and <span class="person_name">Zimmermann, Zita</span> and <span class="person_name">Szabó, Gábor</span> and <span class="person_name">Járdi, Ildikó</span> and <span class="person_name">Házi, Judit</span> and <span class="person_name">Penksza, Károly</span> and <span class="person_name">Bartha, Sándor</span>
+  
+
+(2011)
+  
+<a href="https://press.mater.uni-mate.hu/489/"><em>A fenyérfű (Bothriochloa ischaemum (L.) Keng 1936) gyep béta-diverzitására gyakorolt hatásainak vizsgálata és értékelése mikrocönológiai módszerekkel.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 9 (2).
+    pp. 469-481.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Thu Feb 12 13:53:22 2026 CET</strong>.</div></div>

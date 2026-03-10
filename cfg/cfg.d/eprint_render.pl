@@ -1,16 +1,21 @@
-
 $c->{summary_page_metadata} = [qw/
-	commentary
-	note
-	keywords
-	subjects
-	divisions
-	sword_depositor
-	userid
-	datestamp
-	lastmod
+commentary
+note
+keywords
+subjects
+sword_depositor
+userid
+datestamp
+lastmod
+abstract
+id_number
+official_url
+related_url
 /];
-
+#divisions
+#creators
+#corp_creators
+#editors
 # IMPORTANT NOTE ABOUT SUMMARY PAGES
 #
 # While you can completely customise them using the perl subroutine
@@ -146,25 +151,13 @@ if(0){
 	return( $page, $title, $links );
 };
 
-# To only include specific fields in the <meta name="eprints.X" content="..." /> tags, defined a list of fields
-# as follows. Use sub-field names for compound fields.
-#
-#       $c->{export_fieldlists}->{eprint} = [qw/
-#               eprintid
-#               type
-#               title
-#               abstract
-#               creators_name
-#               date
-#               ...
-#       /];
 
 
 =head1 COPYRIGHT
 
 =for COPYRIGHT BEGIN
 
-Copyright 2022 University of Southampton.
+Copyright 2018 University of Southampton.
 EPrints 3.4 is supplied by EPrints Services.
 
 http://www.eprints.org/eprints-3.4/
@@ -189,4 +182,3 @@ License along with EPrints 3.4.
 If not, see L<http://www.gnu.org/licenses/>.
 
 =for LICENSE END
-

@@ -1,14 +1,18 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE page SYSTEM "entities.dtd" >
 <xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
-<xpage:title>About the Repository</xpage:title>
+<xpage:title>Repozitóriumról</xpage:title>
 <xpage:body>
 
-<p>This site is powered by <a href="{$config{rel_path}}/eprints/">EPrints 3</a>, free software developed by the University of Southampton.</p>
+<p>Az Open Access elvein felépülő repozitóriumban a hozzáférés több szinten valósul meg: a közlemények jelentős része bárki számára teljes szöveggel hozzáférhető, míg néhány esetben az elérés engedélyhez kötött. 
+</br>A repozitóriumba a feltöltést az Egyetem kiadási ügyekért felelős adminisztrátora végezheti.
+Ez a repozitórium EPrints 3, egy az University of Southampton által fejlesztett szabad szoftverrel működik. A repozitórium OA-nyilvánossága: 75% feletti, a teljes szöveg aránya 100%. Üzemeltetője a MATE Egyetemi Könyvtár és Levéltár.
+</p>
+<h2>Támogatási kapcsolattartó</h2>
 
-<h2 id="contact-information">Contact Information</h2>
-
-<p>Any correspondence concerning this specific repository should be sent to <a href="mailto:{$config{adminemail}}"><epc:print expr="$config{adminemail}" /></a>.</p>
+<p>Diszterhöft Zoltán</br>
+<b>Telefon</b>+3682505800/1306</br>
+ <a href="mailto:{$config{adminemail}}"><epc:print expr="$config{adminemail}" /></a></p>
 
 
 </xpage:body>

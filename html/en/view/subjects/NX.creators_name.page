@@ -1,0 +1,74 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" value="Export" class="ep_form_action_button" role="button" /><input name="view" type="hidden" id="view" value="subjects" /><input name="values" type="hidden" id="values" value="NX" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/NX/Atom/NX.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/NX/RSS/NX.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/NX/RSS2/NX.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (5)<ul><li><a href="N.html">N Fine Arts</a> (5)<ul><li><strong>NX Arts in general</strong> (5)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <a href="NX.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_P">P</a> | <a href="#group_S">S</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>3</strong>.</div><a name="group_P"></a><h2>P</h2><p>
+
+
+    <span class="person_name">Pál, Gyöngyi</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/405/"><em>Variációk variációi: Erdély Miklóstól a mesterséges intelligenciáig.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, 2 (1).
+    pp. 47-52.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><a name="group_S"></a><h2>S</h2><p>
+
+
+    <span class="person_name">Szabó, Zsófia</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/406/"><em>A gyógyító igazság : William Kentridge és a Handspring Puppet Company Übü és az Igazság Bizottság című előadásáról.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, 3 (1).
+    pp. 47-60.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szlama, Norbert</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/407/"><em>A művészeti magazin mint a kortárs művészet alternatív megjelenítési rítusa.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, 3 (1).
+    pp. 29-46.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Fri Mar  6 18:59:08 2026 CET</strong>.</div></div>

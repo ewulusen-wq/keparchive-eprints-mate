@@ -2,35 +2,40 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Browse Items - Publikációk</title>
+    <title>Browse Items - MATER Press</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <script type="text/javascript">
 // <![CDATA[
-var eprints_http_root = "https://keparchive.fater.uni-mate.hu";
-var eprints_http_cgiroot = "https://keparchive.fater.uni-mate.hu/cgi";
-var eprints_oai_archive_id = "keparchive.fater.uni-mate.hu";
-var eprints_logged_in = true;
-var eprints_logged_in_userid = 1; 
-var eprints_logged_in_username = "admin"; 
-var eprints_logged_in_usertype = "admin"; 
+var eprints_http_root = "https://press.mater.uni-mate.hu";
+var eprints_http_cgiroot = "https://press.mater.uni-mate.hu/cgi";
+var eprints_oai_archive_id = "press.mater.uni-mate.hu";
+var eprints_logged_in = false;
+var eprints_logged_in_userid = 0; 
+var eprints_logged_in_username = ""; 
+var eprints_logged_in_usertype = ""; 
 // ]]></script>
-    <style type="text/css">.ep_not_logged_in { display: none }</style>
+    <style type="text/css">.ep_logged_in { display: none }</style>
     <link type="text/css" href="/style/auto-3.4.5.css" rel="stylesheet" />
-    <script src="/javascript/auto-3.4.5.js" type="text/javascript">
+    <script type="text/javascript" src="/javascript/auto-3.4.5.js">
 //padder
 </script>
     <!--[if lte IE 6]>
         <link rel="stylesheet" type="text/css" href="/style/ie6.css" />
    <![endif]-->
     <meta name="Generator" content="EPrints 3.4.5" />
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-    <meta content="en" http-equiv="Content-Language" />
-    <link href="http://keparchive.fater.uni-mate.hu/" rel="Top" />
-    <link href="http://keparchive.fater.uni-mate.hu/sword-app/servicedocument" rel="Sword" />
-    <link rel="SwordDeposit" href="http://keparchive.fater.uni-mate.hu/id/contents" />
-    <link href="http://keparchive.fater.uni-mate.hu/cgi/search" type="text/html" rel="Search" />
-    <link rel="Search" title="Publikációk" type="application/opensearchdescription+xml" href="http://keparchive.fater.uni-mate.hu/cgi/opensearchdescription" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <script type="text/javascript" src="https://www.google.com/jsapi">
+//padder
+</script><script type="text/javascript">
+// <![CDATA[
+google.load("visualization", "1", {packages:["corechart", "geochart"]});
+// ]]></script><link href="https://press.mater.uni-mate.hu/" rel="Top" />
+    <link href="https://press.mater.uni-mate.hu/sword-app/servicedocument" rel="Sword" />
+    <link href="https://press.mater.uni-mate.hu/id/contents" rel="SwordDeposit" />
+    <link type="text/html" href="https://press.mater.uni-mate.hu/cgi/search" rel="Search" />
+    <link type="application/opensearchdescription+xml" title="MATER Press" href="https://press.mater.uni-mate.hu/cgi/opensearchdescription" rel="Search" />
     
   </head>
   <body>
@@ -45,7 +50,7 @@ var eprints_logged_in_usertype = "admin";
                   Home
                 </a>
               </li>
-            <li><a href="http://keparchive.fater.uni-mate.hu/cgi/set_lang">Language</a></li>    
+            <li><a href="https://press.mater.uni-mate.hu/cgi/set_lang">Language</a></li>    
               <li>
                 <a href="/information.html" title="Get some detailed repository information!" role="menuitem">
                   About
@@ -69,13 +74,10 @@ var eprints_logged_in_usertype = "admin";
         
           <div class="ep_tm_searchbar">
             <div>
-              <ul class="ep_tm_key_tools" id="ep_tm_menu_tools" role="toolbar"><li class="ep_tm_key_tools_item">Logged in as 
-
-  <span class="ep_name_citation"><a href="mailto:diszterhoft.zoltan@uni-mate.hu">diszterhoft.zoltan@uni-mate.hu</a></span>
-</li><li class="ep_tm_key_tools_item"><a class="ep_tm_key_tools_item_link" href="/cgi/users/home?screen=Items">Manage deposits</a></li><li class="ep_tm_key_tools_item"><a class="ep_tm_key_tools_item_link" href="/cgi/users/home?screen=DataSets">Manage records</a></li><li class="ep_tm_key_tools_item"><a href="/cgi/users/home?screen=User%3A%3AView" class="ep_tm_key_tools_item_link">Profile</a></li><li class="ep_tm_key_tools_item"><a href="/cgi/users/home?screen=User%3A%3ASavedSearches" class="ep_tm_key_tools_item_link">Saved searches</a></li><li class="ep_tm_key_tools_item"><a class="ep_tm_key_tools_item_link" href="/cgi/users/home?screen=Review">Review</a></li><li class="ep_tm_key_tools_item"><a href="/cgi/users/home?screen=Admin" class="ep_tm_key_tools_item_link">Admin</a></li><li class="ep_tm_key_tools_item"><a href="/cgi/logout" class="ep_tm_key_tools_item_link">Logout</a></li></ul>
+              <ul class="ep_tm_key_tools" role="toolbar" id="ep_tm_menu_tools"><li class="ep_tm_key_tools_item"><a href="/cgi/users/home" class="ep_tm_key_tools_item_link">Login</a></li></ul>
             </div>
             <div>
-              <div id="ep_tm_languages"><a title="Hungarian" href="/cgi/set_lang?lang=hu&amp;referrer=https%3A%2F%2Fkeparchive.fater.uni-mate.hu%2Fview%2F"><img align="top" alt="Hungarian" border="0" src="/images/flags/hu.png" /></a><a title="Clear Cookie - decide language by browser settings" href="/cgi/set_lang?referrer=https%3A%2F%2Fkeparchive.fater.uni-mate.hu%2Fview%2F"><img src="/images/flags/aero.png" border="0" alt="Clear Cookie - decide language by browser settings" align="top" /></a></div>
+              <div id="ep_tm_languages"><a title="Magyar" href="/cgi/set_lang?lang=hu&amp;referrer=https%3A%2F%2Fpress.mater.uni-mate.hu%2Fview%2F"><img alt="Magyar" border="0" src="/images/flags/hu.png" align="top" /></a><a title="Clear Cookie - decide language by browser settings" href="/cgi/set_lang?referrer=https%3A%2F%2Fpress.mater.uni-mate.hu%2Fview%2F"><img alt="Clear Cookie - decide language by browser settings" border="0" src="/images/flags/aero.png" align="top" /></a></div>
               <form method="get" accept-charset="utf-8" action="/cgi/search" role="search" aria-label="Publication simple search">
                 <input class="ep_tm_searchbarbox" size="20" type="text" name="q" aria-labelledby="searchbutton" />
                 <input class="ep_tm_searchbarbutton" value="Search" type="submit" name="_action_search" id="searchbutton" />
@@ -100,7 +102,10 @@ var eprints_logged_in_usertype = "admin";
 
       <footer>
         <div class="ep_tm_footer ep_noprint">
-          <span>Publikációk is powered by <em><a href="http://eprints.org/software/">EPrints 3.4</a></em> which is developed by the <a href="https://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a> at the University of Southampton. <a href="/eprints/">About EPrints</a> | <a href="/accessibility/">Accessibility</a></span>
+          <div>MATER Press is powered by 
+ <em><a href="http://eprints.org/software/">EPrints 3.4</a></em> which is developed by the
+ <a href="http://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a>,
+ at the University of Southampton. <a href="https://press.mater.uni-mate.hu/eprints/">About Eprints</a>.</div>
           <div class="ep_tm_eprints_logo">
             <a rel="external" href="https://eprints.org/software/">
               <img alt="EPrints Logo" src="/images/eprintslogo.png" /><img alt="EPrints Flavour Logo" src="/images/flavour.png" style="width: 28px" />

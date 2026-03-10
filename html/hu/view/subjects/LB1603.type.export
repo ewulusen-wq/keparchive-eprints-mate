@@ -1,0 +1,13 @@
+<form method="get" accept-charset="utf-8" action="/cgi/exportview">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" role="button" value="Exportálás" class="ep_form_action_button" /><input name="view" id="view" value="subjects" type="hidden" /><input name="values" id="values" value="LB1603" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LB1603/Atom/LB1603.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LB1603/RSS/LB1603.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LB1603/RSS2/LB1603.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form>

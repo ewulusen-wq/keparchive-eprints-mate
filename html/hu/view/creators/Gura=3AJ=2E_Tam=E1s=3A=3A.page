@@ -1,0 +1,37 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]">['Update/Views:up_a_level' not defined]</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">['Update/Views:export_section' not defined<dl class="ep_undefined_phrase"><dt>menu</dt><dd><select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select></dd><dt>feeds</dt><dd> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Gura=3AJ=2E_Tam=E1s=3A=3A/Atom/Gura=3AJ=2E_Tam=E1s=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Gura=3AJ=2E_Tam=E1s=3A=3A/RSS/Gura=3AJ=2E_Tam=E1s=3A=3A.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Gura=3AJ=2E_Tam=E1s=3A=3A/RSS2/Gura=3AJ=2E_Tam=E1s=3A=3A.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></dd><dt>tools</dt><dd></dd><dt>button</dt><dd><input value="['lib/searchexpression:export_button' not defined]" name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" /><input value="creators" id="view" name="view" type="hidden" /><input value="Gura=3AJ=2E_Tam=E1s=3A=3A" id="values" name="values" type="hidden" /></dd></dl>]</form><div class="ep_view_page ep_view_page_view_creators">['Update/Views:group_by' not defined<dl class="ep_undefined_phrase"><dt>groups</dt><dd>['Update/Views:current_group' not defined<dl class="ep_undefined_phrase"><dt>group</dt><dd>['eprint_fieldname_type' not defined]</dd></dl>]['Update/Views:group_separator' not defined]<a href="Gura=3AJ=2E_Tam=E1s=3A=3A.default.html">['Update/Views:no_grouping' not defined]</a></dd></dl>]<div class="ep_view_jump ep_view_creators_type_jump">['Update/Views:jump_to' not defined<dl class="ep_undefined_phrase"><dt>jumps</dt><dd><a href="#group_book=5Fsection">Könyvrészlet</a></dd></dl>]</div>['bin/generate_views:blurb' not defined<dl class="ep_undefined_phrase"><dt>n</dt><dd>1</dd></dl>]<a name="group_book=5Fsection"></a><h2>Könyvrészlet</h2><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>['lib/metafield:join_name' not defined]<span class="person_name">Gura, J. Tamás</span>['lib/metafield:join_name' not defined]<span class="person_name">Szeli, Nóra</span>['lib/metafield:join_name' not defined]<span class="person_name">Hatala, Mihály</span>['lib/metafield:join_name' not defined]<span class="person_name">Héja, Endre</span>['lib/metafield:join_name' not defined]<span class="person_name">Vas, Zoltán</span>['lib/metafield:join_name' not defined]<span class="person_name">Szabó, Lajos</span>['lib/metafield:join_name' not defined]<span class="person_name">Áprily, Szilvia</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/400/"><em>Őszi vetésű gabona- és gabona-pillangós keverékszenázsok táplálóanyag-tartalmának bendőbeli lebonthatósága.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span>['lib/metafield:join_name' not defined]<span class="person_name">Tóthi, Róbert</span> 
+        
+          (Szerk.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium És Egy Egészség Nap, 2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 87-94.
+    ISBN 978-963-623-120-0
+  
+  
+
+
+  
+
+
+</p>['bin/generate_views:timestamp' not defined<dl class="ep_undefined_phrase"><dt>time</dt><dd>Tue Mar 10 08:11:48 2026 CET</dd></dl>]</div>

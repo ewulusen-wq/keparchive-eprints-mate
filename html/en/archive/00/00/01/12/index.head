@@ -1,0 +1,80 @@
+<meta content="112" name="eprints.eprintid" />
+<meta content="8" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="1" name="eprints.userid" />
+<meta content="disk0/00/00/01/12" name="eprints.dir" />
+<meta content="2023-03-31 09:11:32" name="eprints.datestamp" />
+<meta content="2023-03-31 14:25:06" name="eprints.lastmod" />
+<meta content="2023-03-31 09:11:32" name="eprints.status_changed" />
+<meta content="book_section" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="Dina, Zsuzsanna" name="eprints.creators_name" />
+<meta content="Kormos, László" name="eprints.creators_name" />
+<meta content="Fazekas, Natasa" name="eprints.creators_name" />
+<meta content="MATE, Hungarian University of Agriculture and Life Sciences, Institute of Animal Breeding Sciences," name="eprints.corp_creators" />
+<meta content="MATE, Hungarian University of Agriculture and Life Sciences, Institute of Animal Breeding Sciences," name="eprints.corp_creators" />
+<meta content="MATE, Hungarian University of Agriculture and Life Sciences, Institute of Animal Breeding Sciences," name="eprints.corp_creators" />
+<meta content="Nutrition of hungarian police dogs" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="SF" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="2022" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="MATE Press" name="eprints.publisher" />
+<meta content="https://doi.org/10.54597/mate.0050" name="eprints.official_url" />
+<meta content="10.54597/mate.0050" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="Gödöllő" name="eprints.place_of_pub" />
+<meta content="89-93" name="eprints.pagerange" />
+<meta content="127" name="eprints.pages" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="978-963-623-031-9" name="eprints.isbn" />
+<meta content="Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási" name="eprints.book_title" />
+<meta content="Halas, Veronika" name="eprints.editors_name" />
+<meta content="Tóthi, Róbert" name="eprints.editors_name" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/95" name="eprints.related_url_url" />
+<meta content="Teljes könyv" name="eprints.related_url_type" />
+<meta content="  Dina, Zsuzsanna and Kormos, László and Fazekas, Natasa  (2022) Nutrition of hungarian police dogs.   In: Halas, Veronika and Tóthi, Róbert  (eds.)  Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási.    MATE Press, Gödöllő. 127Number of Pages. pp. 89-93.  ISBN 978-963-623-031-9      " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/112/1/89-93.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/112/" name="DC.relation" />
+<meta content="Nutrition of hungarian police dogs" name="DC.title" />
+<meta content="Dina, Zsuzsanna" name="DC.creator" />
+<meta content="Kormos, László" name="DC.creator" />
+<meta content="Fazekas, Natasa" name="DC.creator" />
+<meta content="SF Animal culture" name="DC.subject" />
+<meta content="MATE Press" name="DC.publisher" />
+<meta content="Halas, Veronika" name="DC.contributor" />
+<meta content="Tóthi, Róbert" name="DC.contributor" />
+<meta content="2022" name="DC.date" />
+<meta content="Book Section" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="en" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/112/1/89-93.pdf" name="DC.identifier" />
+<meta content="  Dina, Zsuzsanna and Kormos, László and Fazekas, Natasa  (2022) Nutrition of hungarian police dogs.   In: Halas, Veronika and Tóthi, Róbert  (eds.)  Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási.    MATE Press, Gödöllő. 127Number of Pages. pp. 89-93.  ISBN 978-963-623-031-9      " name="DC.identifier" />
+<meta content="https://doi.org/10.54597/mate.0050" name="DC.relation" />
+<meta content="10.54597/mate.0050" name="DC.relation" />
+<meta content="10.54597/mate.0050" name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/112/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/Atom/press-eprint-112.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/MODS/press-eprint-112.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/DC/press-eprint-112.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/COinS/press-eprint-112.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/ContextObject/press-eprint-112.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/METS/press-eprint-112.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/RDFN3/press-eprint-112.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/Refer/press-eprint-112.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/BibTeX/press-eprint-112.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/RIS/press-eprint-112.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/XML/press-eprint-112.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/Text/press-eprint-112.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/RDFXML/press-eprint-112.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/Simple/press-eprint-112.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/DIDL/press-eprint-112.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/JSON/press-eprint-112.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/HTML/press-eprint-112.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/RDFNT/press-eprint-112.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/EndNote/press-eprint-112.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/112/CSV/press-eprint-112.csv" rel="alternate" />

@@ -1,0 +1,498 @@
+<table><tr><td><a href="./"><img src="/style/images/multi_up.png" border="0" /></a></td><td><a href="./">Egy szinttel feljebb</a></td></tr></table><form method="get" accept-charset="utf-8" action="/cgi/exportview">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" role="button" class="ep_form_action_button" value="Exportálás" name="_action_export_redir" /><input name="view" id="view" value="subjects" type="hidden" /><input name="values" id="values" value="HB" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/HB/Atom/HB.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/HB/RSS/HB.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/HB/RSS2/HB.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (48)<ul><li><a href="H.html">H Társadalomtudományok</a> (25)<ul><li><strong>HB Közgazdaságtudomány</strong> (22)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <a href="HB.html">Létrehozók</a> | <span class="ep_view_group_by_current">Tétel típusa</span></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>22</strong>.</div><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Kőműves, Zsolt</span> és <span class="person_name">Tóth, Katalin</span> és <span class="person_name">Varga, Dániel</span> Szerkesztők.
+  
+
+(2020)
+
+<a href="https://press.mater.uni-mate.hu/21/"><em>Tehetséggondozás felsőfokon : Hallgatói műhelymunkák a Baka József és a Guba Sándor Szakkollégiumokban.</em></a>
+
+
+    
+    
+    
+    Szent István Egyetem Kaposvári Campus, Gazdaságtudományi Kar, Kaposvár.
+     ISBN 978-963-269-932-5
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Berke, Szilárd</span> és <span class="person_name">Szabó, Katalin</span> és <span class="person_name">Pató Gáborné Szücs, Beáta</span> Szerkesztők.
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/54/"><em>Leadership and Management Theory in Practice.</em></a>
+
+
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences Kaposvár Campus, Kaposvár.
+     ISBN 978-615-5599-94-1
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Arany, Ferenc</span> (Szer.).
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/50/"><em>Rurality in Europe. 5th International Scientific Conference on Rural Development. Conference Proceedings.</em></a>
+
+
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     ISBN 978-963-269-995-0
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Barna, Róbert</span> és <span class="person_name">Szabó-Szentgróti, Gábor</span> és <span class="person_name">Tóth, Katalin</span> és <span class="person_name">Varga, József</span> Szerkesztők.
+  
+
+(2021)
+
+<a href="https://press.mater.uni-mate.hu/48/"><em>Esszencia. Közgazdasági tanulmányok.</em></a>
+
+
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Kaposvári Campus, Kaposvár.
+     ISBN 978-615-5599-87-3
+  
+
+
+  
+
+
+</p><p>
+
+
+    - (Szer.).
+  
+
+
+
+<a href="https://press.mater.uni-mate.hu/44/"><em>Ifjúság a tudományért.</em></a>
+
+
+    
+    
+    
+    -.
+    
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, József</span> és <span class="person_name">Dajnoki, Krisztina</span> és <span class="person_name">Szabó, Szilvia</span> és <span class="person_name">Jenei, Szonja</span> Szerkesztők.
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/40/"><em>KILÁBALÁS – ÚJRANYITÁS –  NÖVEKEDÉS. VÁRHATÓ VÁLTOZÁSOK A VÁLLALATI/INTÉZMÉNYI  GAZDÁLKODÁSBAN ÉS MENEDZSMENTBEN  A KORONAVÍRUS ÁRNYÉKÁBAN.</em></a>
+
+
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     ISBN 978-963-269-984-4
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, József</span> és <span class="person_name">Kovács, Ildikó Éva</span> és <span class="person_name">Szeiner, Zsuzsanna</span> és <span class="person_name">Tóth, Arnold</span> és <span class="person_name">Pató Gáborné Szűcs, Beáta</span> és <span class="person_name">Kunos, István</span> és <span class="person_name">Szabó, Katalin</span> és <span class="person_name">Szabó, Szilvia</span> és <span class="person_name">Dajnoki, Krisztina</span> Szerkesztők.
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/39/"><em>KORONAVÍRUS-VÁLSÁG. KIHÍVÁSOK ÉS HR-VÁLASZOK  KÖZÉP- ÉS KELET-EURÓPA  HAT ORSZÁGÁBAN.</em></a>
+
+
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     ISBN 978-963-269-983-7
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Berke, Szilárd</span> és <span class="person_name">Szabó, Katalin</span> és <span class="person_name">Pató Gáborné Szűcs, Beáta</span> Szerkesztők.
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/38/"><em>Organizational Behaviour  and Leadership Theory  in Practice.</em></a>
+
+
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences Kaposvár Campus, Kaposvár.
+     ISBN 978-615-5599-92-7
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, József</span> és <span class="person_name">Balogh, Gábor</span> és <span class="person_name">Dajnoki, Krisztina</span> és <span class="person_name">Karoliny, Mártonné</span> és <span class="person_name">Kőműves, Zsolt</span> és <span class="person_name">Pató Gáborné Szűcs, Beáta</span> és <span class="person_name">Szabó, Szilvia</span> Szerkesztők.
+  
+
+(2021)
+
+<a href="https://press.mater.uni-mate.hu/32/"><em>COVID-19 – KORONAVÍRUS-VÁLSÁG: HARMADIK FÁZIS : KIHÍVÁSOK ÉS HR-VÁLASZOK.</em></a>
+
+
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     ISBN 978-963-269-957-8
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Horváthné Kovács, Bernadett</span> és <span class="person_name">Barna, Róbert</span> Szerkesztők.
+  
+
+(2021)
+
+<a href="https://press.mater.uni-mate.hu/31/"><em>Agrárerdészet a vidékfejlesztés gyakorlatában.</em></a>
+
+
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Kaposvári Campus, Kaposvár.
+     ISBN 978-615-5599-84-2
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, József</span> és <span class="person_name">Dajnoki, Krisztina</span> és <span class="person_name">Pató Gáborné Szűcs, Beáta</span> és <span class="person_name">Szabó, Szilvia</span> Szerkesztők.
+  
+
+(2021)
+
+<a href="https://press.mater.uni-mate.hu/22/"><em>KORONAVÍRUS-VÁLSÁG : KIHÍVÁSOK ÉS HR VÁLASZOK : Első és második fázis összehasonlítása.</em></a>
+
+
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     ISBN 978-963-269-940-0
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Koponicsné Györke, Diána</span> és <span class="person_name">Kürthy, Gábor</span> és <span class="person_name">Parádi-Dolgos, Anett</span> és <span class="person_name">Varga, József</span> Szerkesztők.
+  
+
+(2020)
+
+<a href="https://press.mater.uni-mate.hu/2/"><em>A pénzügyi szektor aktuális kérdései Magyarországon a XXI. század elején.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     ISBN 978-615-5599-79-8
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, József</span> és <span class="person_name">Balogh, Gábor</span> és <span class="person_name">Dajnoki, Krisztina</span> és <span class="person_name">Karoliny, Mártonné</span> és <span class="person_name">Kun, András István</span> és <span class="person_name">Szabó, Szilvia</span> Szerkesztők.
+  
+
+(2020)
+
+<a href="https://press.mater.uni-mate.hu/16/"><em>COVID-19 – Koronavírus-válság : Második fázis : Kihívások és HR válaszok : Magyarország 2020 augusztus–november.</em></a>
+
+
+    
+    
+    
+    Szent István Egyetem Menedzsment és HR Kutató Központ, Budapest.
+     ISBN 978-963-269-936-3
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Barna, Róbert</span> és <span class="person_name">Berke, Szilárd</span> és <span class="person_name">Nagy, Mónika Zita</span> és <span class="person_name">Sántosi, Péter</span> és <span class="person_name">Szabó-Szentgróti, Gábor</span> és <span class="person_name">Rumbus, Anikó</span> és <span class="person_name">Tóth, Katalin</span> és <span class="person_name">Varga, József</span> Szerkesztők.
+  
+
+(2020)
+
+<a href="https://press.mater.uni-mate.hu/13/"><em>Közgazdasági Erőpróba.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     ISBN 978-615-5599-83-5
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Koponicsné Györke, Diána</span> és <span class="person_name">Barna, Róbert</span> Szerkesztők.
+  
+
+(2019)
+
+<a href="https://press.mater.uni-mate.hu/10/"><em>Abstracts of the International Conference on Sustainable Economy and Agriculture. Kaposvár University – Kaposvár – Hungary – 14th November 2019.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     ISBN 978-615-5599-72-9
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Koponicsné Györke, Diána</span> és <span class="person_name">Barna, Róbert</span> Szerkesztők.
+  
+
+(2020)
+
+<a href="https://press.mater.uni-mate.hu/9/"><em>Proceedings of the International Conference on Sustainable Economy and Agriculture : Kaposvár University – Kaposvár – Hungary – 14th November 2019.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     ISBN 978-615-5599-76-7
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Barna, Róbert</span> és <span class="person_name">Berke, Szilárd</span> és <span class="person_name">Nagy, Mónika Zita</span> és <span class="person_name">Sántosi, Péter</span> és <span class="person_name">Szabó-Szentgróti, Gábor</span> és <span class="person_name">Rumbus, Anikó</span> és <span class="person_name">Tóth, Katalin</span> és <span class="person_name">Varga, József</span> Szerkesztők.
+  
+
+(2020)
+
+<a href="https://press.mater.uni-mate.hu/4/"><em>Őszikék : Tanulmányok a gazdaságtudomány tárgyköréből.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     ISBN 978-615-5599-77-4
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Barna, Róbert</span> és <span class="person_name">Nagy, Mónika Zita</span> és <span class="person_name">Sántosi, Péter</span> és <span class="person_name">Tóth, Katalin</span> és <span class="person_name">Szabó-Szentgróti, Gábor</span> Szerkesztők.
+  
+
+(2019)
+
+<a href="https://press.mater.uni-mate.hu/3/"><em>A Kaposvári Egyetem Gazdaságtudományi Kar 2019. őszi Kari Tudományos Diákköri Konferenciájának összefoglalói.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     ISBN 978-615-5599-73-6
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Berke, Szilárd</span>
+  
+
+(2014)
+
+<a href="https://press.mater.uni-mate.hu/19/"><em>Üzleti kommunikáció : Egyetemi jegyzet.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem – Pannon Egyetem – Szegedi Gabonakutató Nonprofit Kft., Kaposvár.
+    
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Berke, Szilárd</span>
+  
+
+(2014)
+
+<a href="https://press.mater.uni-mate.hu/18/"><em>Termékminőség és márkázás élelmiszereknél : „E-tananyag” az 
+Élelmiszermérnök BSc szak hallgatói számára.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem – Pannon Egyetem – Szegedi Gabonakutató Nonprofit Kft., Kaposvár.
+    
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Berke, Szilárd</span>
+  
+
+(2014)
+
+<a href="https://press.mater.uni-mate.hu/17/"><em>Állapotfelmérési és elemzési technikák alkalmazása vállalkozásoknál : E-tananyag” a Mezőgazdasági- és élelmiszeripari gépészmérnök BSc szak hallgatói számára.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem – Pannon Egyetem –  Szegedi Gabonakutató Nonprofit Kft., Kaposvár.
+    
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Varga, József</span>
+  
+
+(2014)
+
+<a href="https://press.mater.uni-mate.hu/20/"><em>A bankrendszer működése : „E-tananyag” az Állattenyésztő mérnök (MA) szak hallgatói számára.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem – Pannon Egyetem – Szegedi Gabonakutató Nonprofit Kft., Kaposvár.
+    
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Thu Sep  8 10:41:32 2022 CEST</strong>.</div></div>

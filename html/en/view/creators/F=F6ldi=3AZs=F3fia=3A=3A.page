@@ -1,0 +1,85 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="Export" /><input type="hidden" name="view" id="view" value="creators" /><input type="hidden" name="values" id="values" value="F=F6ldi=3AZs=F3fia=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/F=F6ldi=3AZs=F3fia=3A=3A/Atom/F=F6ldi=3AZs=F3fia=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/F=F6ldi=3AZs=F3fia=3A=3A/RSS/F=F6ldi=3AZs=F3fia=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/F=F6ldi=3AZs=F3fia=3A=3A/RSS2/F=F6ldi=3AZs=F3fia=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="F=F6ldi=3AZs=F3fia=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_book=5Fsection">Book Section</a></div></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><a name="group_book=5Fsection"></a><h2>Book Section</h2><p>
+
+
+    <span class="person_name">Boromisza, Zsombor</span> and <span class="person_name">Földi, Zsófia</span> and <span class="person_name">Monspart-Molnár, Zsófia</span> and <span class="person_name">Virág, Debóra</span> and <span class="person_name">Erdei, Tímea</span> and <span class="person_name">Valánszki, István</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/355/"><em>Beruházások tájvédelmi hatásterületének lehatárolása: elvi alapok és gyakorlati tapasztalatok.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Centeri, Csaba</span> and <span class="person_name">Grónás, Viktor</span> 
+        
+          (eds.)
+          
+      
+      Az Európai Zöld Megállapodás stratégiai  céljainak megvalósítását szolgáló tájléptékű megoldások.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 27-32.
+    ISBN 978-963-623-117-0 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Valánszki, István</span> and <span class="person_name">Földi, Zsófia</span> and <span class="person_name">Iváncsics, Vera</span> and <span class="person_name">Erdei, Tímea Katalin</span> and <span class="person_name">Borkó, Anna Éva</span> and <span class="person_name">Boromisza, Zsombor</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/378/"><em>Zöldinfrastruktúrához kapcsolódó percepciók és igények vizsgálata agglomerációs térségben.</em></a>
+
+
+    
+      In: 
+       UNSPECIFIED 
+        (ed.)
+          
+      
+      Az Európai Zöld Megállapodás stratégiai  céljainak megvalósítását szolgáló tájléptékű megoldások.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 171-177.
+    ISBN 978-963-623-117-0 (pdf)
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Mar  9 15:57:51 2026 CET</strong>.</div></div>

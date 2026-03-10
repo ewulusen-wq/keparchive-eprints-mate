@@ -1,0 +1,54 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" value="Export" class="ep_form_action_button" role="button" /><input name="view" type="hidden" id="view" value="creators" /><input name="values" type="hidden" id="values" value="Mravcsik=3AZolt=E1n=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Mravcsik=3AZolt=E1n=3A=3A/Atom/Mravcsik=3AZolt=E1n=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Mravcsik=3AZolt=E1n=3A=3A/RSS/Mravcsik=3AZolt=E1n=3A=3A.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Mravcsik=3AZolt=E1n=3A=3A/RSS2/Mravcsik=3AZolt=E1n=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Mravcsik=3AZolt=E1n=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Barczi, Attila</span> and <span class="person_name">Centeri, Csaba</span> and <span class="person_name">Csontos, Péter</span> and <span class="person_name">Mravcsik, Zoltán</span> and <span class="person_name">Pósa, Patrícia</span> and <span class="person_name">Malatinszky, Ákos</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/612/"><em>A Tájökológiai Lapok első 13 éve.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 13 (1).
+    pp. 189-190.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Mravcsik, Zoltán</span> and <span class="person_name">Harmos, K</span> and <span class="person_name">Malatinszky, Ákos</span>
+  
+
+(2009)
+  
+<a href="https://press.mater.uni-mate.hu/470/"><em>Felhagyott szőlők botanikai és tájtörténeti vizsgálatai az Északi-Cserhátban.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 7 (2).
+    pp. 473-484.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Fri Mar  6 16:41:11 2026 CET</strong>.</div></div>

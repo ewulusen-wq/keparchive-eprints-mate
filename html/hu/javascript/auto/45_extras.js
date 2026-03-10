@@ -74,7 +74,7 @@ function human_filesize(size_in_bytes)
 }
 
 /*
- * Get parameters set in the HTTP GET header
+ * Get paramaters set in the HTTP GET header
  */
 function get_header_variable(variable) {
         var query = window.location.search.substring(1);

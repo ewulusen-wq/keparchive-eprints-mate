@@ -1,0 +1,62 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" value="Export" class="ep_form_action_button" role="button" /><input type="hidden" name="view" value="subjects" id="view" /><input type="hidden" name="values" value="T1" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/T1/Atom/T1.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/T1/RSS/T1.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/T1/RSS2/T1.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (6)<ul><li><a href="T.html">T Technology</a> (6)<ul><li><strong>T2 Technology (General)</strong> (6)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <a href="T1.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_B">B</a> | <a href="#group_F">F</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>2</strong>.</div><a name="group_B"></a><h2>B</h2><p>
+
+
+    <span class="person_name">Balázs, Gergely</span> and <span class="person_name">Grónás, Viktor</span> and <span class="person_name">Heltai, Miklós</span> and <span class="person_name">Bleier, Norbert</span>
+  
+
+(2012)
+  
+<a href="https://press.mater.uni-mate.hu/500/"><em>A Flight Safety Index alkalmazhatóságának vizsgálata a Liszt Ferenc Nemzetközi Repülőtér földhasználat tervezésében, tekintettel a repülésbiztonságot veszélyeztető madárfajokra.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (1).
+    pp. 17-24.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_F"></a><h2>F</h2><p>
+
+
+    <span class="person_name">Filepné Kovács, Krisztina</span> and <span class="person_name">Bányai, Zsombor</span> and <span class="person_name">Dancsokné Fóris, Edina</span> and <span class="person_name">Weiperth, András</span> and <span class="person_name">Urbányi, Béla</span> and <span class="person_name">Valánszki, István</span> and <span class="person_name">Kollányi, László</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/93/"><em>Local Cross-Sectoral Operational Plan : Landscape Protection and Development in the Area of the Planned M2 Motorway in&#13;
+Hungary : Part of Output T2.2 “Local Cross-Sectoral Operational Plans”.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     74Number of Pages.
+    
+    ISBN 978-963-623-025-8
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Wed Feb 25 18:51:03 2026 CET</strong>.</div></div>

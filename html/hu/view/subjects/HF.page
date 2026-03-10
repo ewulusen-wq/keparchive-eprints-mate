@@ -1,0 +1,86 @@
+<div class="no_link_decor"><a href="./" alt="['Update/Views:up_a_level_alt' not defined]"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Exportálás" role="button" /><input type="hidden" name="view" value="subjects" id="view" /><input type="hidden" name="values" value="HF" id="values" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/HF/Atom/HF.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/HF/RSS/HF.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/HF/RSS2/HF.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (3)<ul><li><a href="H.html">H Társadalomtudományok</a> (3)<ul><li><strong>HF Kereskedelem</strong> (3)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <span class="ep_view_group_by_current">Tétel típusa</span>['Update/Views:group_separator' not defined]<a href="HF.creators_name.html">Létrehozók</a></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_article">Cikk</a>['Update/Views:jump_separator' not defined]<a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>3</strong>.</div><a name="group_article"></a><h2>Cikk</h2><p>
+
+
+    <span class="person_name">Báló, András</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/345/"><em>Olcsó húsnak híg a leve? : Az Európai Unió és a Dél-amerikai Közös Piac agrár-környezetvédelmi modellje az EU-Mercosur szabadkereskedelmi megállapodás tükrében.</em></a>
+
+
+    Studia Mundi – Economica, 11 (4).
+    pp. 5-18.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Berke, Szilárd</span>
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/18/"><em>Termékminőség és márkázás élelmiszereknél : „E-tananyag” az 
+Élelmiszermérnök BSc szak hallgatói számára.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem – Pannon Egyetem – Szegedi Gabonakutató Nonprofit Kft., Kaposvár.
+     124 p.
+    
+   
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Berke, Szilárd</span>
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/19/"><em>Üzleti kommunikáció : Egyetemi jegyzet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem – Pannon Egyetem – Szegedi Gabonakutató Nonprofit Kft., Kaposvár.
+     134 p.
+    
+   
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Sun Mar  8 23:57:01 2026 CET</strong>.</div></div>

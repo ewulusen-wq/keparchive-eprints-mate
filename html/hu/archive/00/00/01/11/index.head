@@ -1,0 +1,80 @@
+<meta content="111" name="eprints.eprintid" />
+<meta content="8" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="1" name="eprints.userid" />
+<meta content="disk0/00/00/01/11" name="eprints.dir" />
+<meta content="2023-03-31 09:32:36" name="eprints.datestamp" />
+<meta content="2023-03-31 14:23:44" name="eprints.lastmod" />
+<meta content="2023-03-31 09:32:36" name="eprints.status_changed" />
+<meta content="book_section" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="Bartos, Ádám" name="eprints.creators_name" />
+<meta content="Such, Nikoletta" name="eprints.creators_name" />
+<meta content="Gál, Fruzsina Vanda" name="eprints.creators_name" />
+<meta content="Magyar Agrár- és Élettudományi Egyetem Georgikon Campus" name="eprints.corp_creators" />
+<meta content="Magyar Agrár- és Élettudományi Egyetem Georgikon Campus" name="eprints.corp_creators" />
+<meta content="Magyar Agrár- és Élettudományi Egyetem Georgikon Campus" name="eprints.corp_creators" />
+<meta content="The effect of a fermented herbal feed supplement on the digestion of horses" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="SF" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="2022" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="MATE Press" name="eprints.publisher" />
+<meta content="https://doi.org/10.54597/mate.0049" name="eprints.official_url" />
+<meta content="10.54597/mate.0049" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="Gödöllő" name="eprints.place_of_pub" />
+<meta content="83-88" name="eprints.pagerange" />
+<meta content="127" name="eprints.pages" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="978-963-623-031-9" name="eprints.isbn" />
+<meta content="Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási" name="eprints.book_title" />
+<meta content="Halas, Veronika" name="eprints.editors_name" />
+<meta content="Tóthi, Róbert" name="eprints.editors_name" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/95" name="eprints.related_url_url" />
+<meta content="Teljes könyv" name="eprints.related_url_type" />
+<meta content="  Bartos, Ádám és Such, Nikoletta és Gál, Fruzsina Vanda  (2022) The effect of a fermented herbal feed supplement on the digestion of horses.   In: Halas, Veronika és Tóthi, Róbert  (Szerk.)  Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási.    MATE Press, Gödöllő. 127 p. pp. 83-88.  ISBN 978-963-623-031-9      " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/111/1/83-88.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/111/" name="DC.relation" />
+<meta content="The effect of a fermented herbal feed supplement on the digestion of horses" name="DC.title" />
+<meta content="Bartos, Ádám" name="DC.creator" />
+<meta content="Such, Nikoletta" name="DC.creator" />
+<meta content="Gál, Fruzsina Vanda" name="DC.creator" />
+<meta content="SF Állattenyésztés" name="DC.subject" />
+<meta content="MATE Press" name="DC.publisher" />
+<meta content="Halas, Veronika" name="DC.contributor" />
+<meta content="Tóthi, Róbert" name="DC.contributor" />
+<meta content="2022" name="DC.date" />
+<meta content="Könyvrészlet" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="en" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/111/1/83-88.pdf" name="DC.identifier" />
+<meta content="  Bartos, Ádám és Such, Nikoletta és Gál, Fruzsina Vanda  (2022) The effect of a fermented herbal feed supplement on the digestion of horses.   In: Halas, Veronika és Tóthi, Róbert  (Szerk.)  Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási.    MATE Press, Gödöllő. 127 p. pp. 83-88.  ISBN 978-963-623-031-9      " name="DC.identifier" />
+<meta content="https://doi.org/10.54597/mate.0049" name="DC.relation" />
+<meta content="10.54597/mate.0049" name="DC.relation" />
+<meta content="10.54597/mate.0049" name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/111/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/Atom/press-eprint-111.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/MODS/press-eprint-111.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/DC/press-eprint-111.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/COinS/press-eprint-111.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/ContextObject/press-eprint-111.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/METS/press-eprint-111.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/RDFN3/press-eprint-111.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/Refer/press-eprint-111.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/BibTeX/press-eprint-111.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/RIS/press-eprint-111.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/XML/press-eprint-111.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/Text/press-eprint-111.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/RDFXML/press-eprint-111.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/Simple/press-eprint-111.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/DIDL/press-eprint-111.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/JSON/press-eprint-111.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/HTML/press-eprint-111.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/RDFNT/press-eprint-111.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/EndNote/press-eprint-111.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/111/CSV/press-eprint-111.csv" rel="alternate" />

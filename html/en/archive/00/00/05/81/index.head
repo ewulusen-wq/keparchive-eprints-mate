@@ -1,0 +1,82 @@
+<meta content="581" name="eprints.eprintid" />
+<meta content="6" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="34" name="eprints.userid" />
+<meta content="disk0/00/00/05/81" name="eprints.dir" />
+<meta content="2026-01-23 08:57:13" name="eprints.datestamp" />
+<meta content="2026-01-23 08:57:13" name="eprints.lastmod" />
+<meta content="2026-01-23 08:57:13" name="eprints.status_changed" />
+<meta content="article" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="34" name="eprints.sword_depositor" />
+<meta content="Trenyik, Petra" name="eprints.creators_name" />
+<meta content="Borcsa-Bodolay, J" name="eprints.creators_name" />
+<meta content="Molnár, M" name="eprints.creators_name" />
+<meta content="Barczi, Attila" name="eprints.creators_name" />
+<meta content="Czóbel, Szilárd" name="eprints.creators_name" />
+<meta content="0000-0002-2098-0937" name="eprints.creators_orcid" />
+<meta content="Tájökológiai Lapok szerkesztősége Kiadók / MTA KFB [2014-]" name="eprints.corp_creators" />
+<meta content="Környezet- és Tájgazdálkodási Intézet SZIE / MKK KTGI [2000-2014]" name="eprints.corp_creators" />
+<meta content="Különböző korú kocsánytalan tölgyes állományok diverzitásának összehasonlító vizsgálata a Börzsönyben" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="S1" name="eprints.subjects" />
+<meta content="SD" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="Börzsöny-hegység; diverzitás; Erdő; kocsánytalan tölgyes;" name="eprints.keywords" />
+<meta content="A cönológiai felvételeken alapuló diverzitás vizsgálatokat a Börzsönyi-peremhegység kistáj területén kiválasztott, eltérő korú kocsánytalan tölgyes dominálta állományokban végeztük. A Börzsöny az antropogén hatásoktól leginkább megkímélt hegységünk, 1997 óta a Duna-Ipoly Nemzeti Park része, valamint a Natura 2000 hálózatának is tagja, így a régóta jelenlévő erdőgazdálkodás ellenére is fajgazdag, természetközeli állapotú erdők borítják. Az erdészek körében ma az egyik legpreferáltabb, őshonos fafaj a kocsánytalan tölgy, így ezen faj dominálta állományokat választottuk vizsgálatunk alapjául. Az erdőgazdálkodás, biodiverzitásra gyakorolt hatásainak a feltárására első lépésként a mintaterületek vegetációjának cönológiai felmérését végeztük el 6, főbb paramétereiben megegyező, de eltérő korcsoportú erdőrészletben, azzal a céllal, hogy a korcsoportok struktúra és dominancia viszonyait meg tudjuk állapítani. A vizsgált korcsoportok biodiverzitás értékeinek az összehasonlítását a Shannon- és a Simpson-diverzitás indexek segítségével készítettük el. A kocsánytalan tölgyes állományokban összesen 88 edényes növényfajt azonosítottunk, amiből 15 fafaj, 11 cserjefaj, 62 pedig lágyszárú faj volt. Mindössze két inváziós taxon, a Robinia pseudo-acacia és a Solidago canadensis jelent meg alacsony borítással a felvételekben. A lombkoronaszint diverzitása a 19 éves állománynál volt a legmagasabb és a legidősebb 92 éves állománynál a legalacsonyabb. A cserjeszint diverzitása a 61 éves állománynál volt a legmagasabb, míg a 2 évesnél a legalacsonyabb. A gyepszint esetében a diverzitás értékek növekedése figyelhető, majd a 61 évesnél idősebb állományokban csökkenés tapasztalható." name="eprints.abstract" />
+<meta content="2013" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="https://doi.org/10.56617/tl.3763" name="eprints.official_url" />
+<meta content="MTMT:2559793 DOI:10.56617/tl.3763" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY" name="eprints.publication" />
+<meta content="11" name="eprints.volume" />
+<meta content="2" name="eprints.number" />
+<meta content="373-377" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="1589-4673" name="eprints.issn" />
+<meta content="  Trenyik, Petra and Borcsa-Bodolay, J and Molnár, M and Barczi, Attila and Czóbel, Szilárd  (2013) Különböző korú kocsánytalan tölgyes állományok diverzitásának összehasonlító vizsgálata a Börzsönyben.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 11 (2). pp. 373-377.  ISSN 1589-4673     " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/581/1/19_Trenyik.pdf" name="eprints.document_url" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta content="https://press.mater.uni-mate.hu/581/" name="DC.relation" />
+<meta content="Különböző korú kocsánytalan tölgyes állományok diverzitásának összehasonlító vizsgálata a Börzsönyben" name="DC.title" />
+<meta content="Trenyik, Petra" name="DC.creator" />
+<meta content="Borcsa-Bodolay, J" name="DC.creator" />
+<meta content="Molnár, M" name="DC.creator" />
+<meta content="Barczi, Attila" name="DC.creator" />
+<meta content="Czóbel, Szilárd" name="DC.creator" />
+<meta content="S Agriculture (General)" name="DC.subject" />
+<meta content="SD Forestry" name="DC.subject" />
+<meta content="A cönológiai felvételeken alapuló diverzitás vizsgálatokat a Börzsönyi-peremhegység kistáj területén kiválasztott, eltérő korú kocsánytalan tölgyes dominálta állományokban végeztük. A Börzsöny az antropogén hatásoktól leginkább megkímélt hegységünk, 1997 óta a Duna-Ipoly Nemzeti Park része, valamint a Natura 2000 hálózatának is tagja, így a régóta jelenlévő erdőgazdálkodás ellenére is fajgazdag, természetközeli állapotú erdők borítják. Az erdészek körében ma az egyik legpreferáltabb, őshonos fafaj a kocsánytalan tölgy, így ezen faj dominálta állományokat választottuk vizsgálatunk alapjául. Az erdőgazdálkodás, biodiverzitásra gyakorolt hatásainak a feltárására első lépésként a mintaterületek vegetációjának cönológiai felmérését végeztük el 6, főbb paramétereiben megegyező, de eltérő korcsoportú erdőrészletben, azzal a céllal, hogy a korcsoportok struktúra és dominancia viszonyait meg tudjuk állapítani. A vizsgált korcsoportok biodiverzitás értékeinek az összehasonlítását a Shannon- és a Simpson-diverzitás indexek segítségével készítettük el. A kocsánytalan tölgyes állományokban összesen 88 edényes növényfajt azonosítottunk, amiből 15 fafaj, 11 cserjefaj, 62 pedig lágyszárú faj volt. Mindössze két inváziós taxon, a Robinia pseudo-acacia és a Solidago canadensis jelent meg alacsony borítással a felvételekben. A lombkoronaszint diverzitása a 19 éves állománynál volt a legmagasabb és a legidősebb 92 éves állománynál a legalacsonyabb. A cserjeszint diverzitása a 61 éves állománynál volt a legmagasabb, míg a 2 évesnél a legalacsonyabb. A gyepszint esetében a diverzitás értékek növekedése figyelhető, majd a 61 évesnél idősebb állományokban csökkenés tapasztalható." name="DC.description" />
+<meta content="2013" name="DC.date" />
+<meta content="Article" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/581/1/19_Trenyik.pdf" name="DC.identifier" />
+<meta content="  Trenyik, Petra and Borcsa-Bodolay, J and Molnár, M and Barczi, Attila and Czóbel, Szilárd  (2013) Különböző korú kocsánytalan tölgyes állományok diverzitásának összehasonlító vizsgálata a Börzsönyben.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 11 (2). pp. 373-377.  ISSN 1589-4673     " name="DC.identifier" />
+<meta content="https://doi.org/10.56617/tl.3763" name="DC.relation" />
+<meta content="MTMT:2559793 DOI:10.56617/tl.3763" name="DC.relation" />
+<meta content="MTMT:2559793 DOI:10.56617/tl.3763" name="DC.identifier" />
+<link rel="canonical" href="https://press.mater.uni-mate.hu/581/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/EndNote/press-eprint-581.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/METS/press-eprint-581.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/ContextObject/press-eprint-581.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/RIS/press-eprint-581.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/RDFXML/press-eprint-581.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/JSON/press-eprint-581.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/BibTeX/press-eprint-581.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/XML/press-eprint-581.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/RDFNT/press-eprint-581.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/DC/press-eprint-581.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/RDFN3/press-eprint-581.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/Text/press-eprint-581.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/HTML/press-eprint-581.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/DIDL/press-eprint-581.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/COinS/press-eprint-581.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/MODS/press-eprint-581.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/Refer/press-eprint-581.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/Atom/press-eprint-581.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/CSV/press-eprint-581.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/581/Simple/press-eprint-581.txt" title="Simple Metadata" />

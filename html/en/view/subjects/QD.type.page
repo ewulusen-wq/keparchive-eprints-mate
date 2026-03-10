@@ -1,0 +1,80 @@
+<div class="no_link_decor"><a href="./"><img src="/style/images/multi_up.png" alt="[up]" border="0" /> Up a level</a></div><form method="get" accept-charset="utf-8" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" value="Export" /><input name="view" id="view" value="subjects" type="hidden" /><input name="values" id="values" value="QD" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QD/Atom/QD.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QD/RSS/QD.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QD/RSS2/QD.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (48)<ul><li><a href="Q.html">Q Science</a> (8)<ul><li><strong>QD Chemistry</strong> (3)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <a href="QD.html">Creators</a> | <span class="ep_view_group_by_current">Item Type</span></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_book">Book</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>3</strong>.</div><a name="group_book"></a><h2>Book</h2><p>
+
+
+    <span class="person_name">Vargáné Visi, Éva</span> (ed.).
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/56/"><em>Kémia : Szintre hozó oktatási anyag az Agrármérnöki osztatlan képzés, Lótenyésztő, lovassportszervező agrármérnöki BSc, Mezőgazdasági mérnöki BSc, Természetvédelmi mérnöki BSc, Mezőgazdasági FOSZK és a Ménesgazda FOSZK  képzések hallgatói számára.</em></a>
+
+
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     ISBN 978-963-623-008-1
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2014)
+
+<a href="https://press.mater.uni-mate.hu/28/"><em>Animal nutrition.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd..
+    
+  
+
+
+   (Unpublished)
+
+
+</p><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2015)
+
+<a href="https://press.mater.uni-mate.hu/30/"><em>Takarmánykonzerválás.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+    
+  
+
+
+   (Unpublished)
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Thu Sep  8 10:41:29 2022 CEST</strong>.</div></div>

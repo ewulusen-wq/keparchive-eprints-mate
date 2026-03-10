@@ -9,26 +9,6 @@
 ######################################################################
 #
 #
-# Copyright 2000-2008 University of Southampton. All Rights Reserved.
-# 
-#  This file is part of GNU EPrints 3.
-#  
-#  Copyright (c) 2000-2008 University of Southampton, UK. SO17 1BJ.
-#  
-#  EPrints 3 is free software; you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License as published by
-#  the Free Software Foundation; either version 2 of the License, or
-#  (at your option) any later version.
-#  
-#  EPrints 3 is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#  GNU General Public License for more details.
-#  
-#  You should have received a copy of the GNU General Public License
-#  along with EPrints 3; if not, write to the Free Software
-#  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-#
 ######################################################################
 
 use strict;
@@ -116,6 +96,7 @@ if( !defined $verb )
 }
 elsif( !exists $GRAMMAR{$verb} )
 {
+	$verb = "error";
 	unshift @errors,
 		render_oai_error( $repo, "badVerb", "The value of the verb argument is not a legal OAI-PMH verb" ),
 		render_oai_error( $repo, "badArgument", "Bad verb argument" );
@@ -795,8 +776,10 @@ sub _list
 	$filters = [] unless defined $filters;
 
 	push @$filters, {
-		meta_fields => [qw( datestamp )],
-		match => "SET",
+		meta_fields => [qw( eprint_status )],
+		value => "archive deletion",
+		match => "EQ",
+		merge => "ANY",
 	};
 
 	# custom sets
@@ -894,7 +877,6 @@ END
 	}
 	
 	my $list = $searchexp->perform_search();
-
 	my @records = $list->slice( 0, $PAGESIZE );
 
 	if( @records == 0 )

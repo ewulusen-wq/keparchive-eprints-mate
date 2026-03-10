@@ -1,0 +1,294 @@
+<div class="no_link_decor"><a href="./" alt="['Update/Views:up_a_level_alt' not defined]"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Exportálás" role="button" /><input type="hidden" name="view" value="subjects" id="view" /><input type="hidden" name="values" value="QD" id="values" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QD/Atom/QD.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QD/RSS/QD.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QD/RSS2/QD.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (9)<ul><li><a href="Q.html">Q Természettudomány</a> (9)<ul><li><strong>QD Kémia</strong> (9)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <span class="ep_view_group_by_current">Tétel típusa</span>['Update/Views:group_separator' not defined]<a href="QD.creators_name.html">Létrehozók</a></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_book=5Fsection">Könyvrészlet</a>['Update/Views:jump_separator' not defined]<a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>9</strong>.</div><a name="group_book=5Fsection"></a><h2>Könyvrészlet</h2><p>
+
+
+    <span class="person_name">Kovács, Melinda</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/634/"><em>Előszó.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 7-8.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kovács, Melinda</span> és <span class="person_name">Szabó, András</span> és <span class="person_name">Omeralfaroug, Ali</span> és <span class="person_name">Naeem, Sheik Abdul</span> és <span class="person_name">Taskeen, Fathima Docrat</span> és <span class="person_name">Marnewick, Jeanine L</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/628/"><em>Választ jelenthetnek a növényi kivonatok (fitokemikáliák) a mikotoxinok okozta kihívásokra?</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 261-271.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kövesi, Benjámin</span> és <span class="person_name">Kulcsár, Szabina</span> és <span class="person_name">Mézes, Miklós</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/630/"><em>Új irányok a mikotoxin-kutatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 289-310.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Nagyéri, György</span> és <span class="person_name">Molnár, Zsófia</span> és <span class="person_name">Plank, Patrik</span> és <span class="person_name">Szőke, Zsuzsanna</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/629/"><em>IgY-fejlesztések és élelmiszer-biztonsági alkalmazások – innovációk és jövőbeli kilátások.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 273-288.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Poór, Miklós</span> és <span class="person_name">Csenki-Bakos, Zsolt</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/627/"><em>Ciklodextrinek mint potenciális mikotoxinkötők és védőmolekulák a mikotoxin-indukált toxicitással szemben.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 245-259.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Vargáné Visi, Éva</span> (Szerk.).
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/56/"><em>Kémia : Szintre hozó oktatási anyag az Agrármérnöki osztatlan képzés, Lótenyésztő, lovassportszervező agrármérnöki BSc, Mezőgazdasági mérnöki BSc, Természetvédelmi mérnöki BSc, Mezőgazdasági FOSZK és a Ménesgazda FOSZK képzések hallgatói számára.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     91 p.
+    
+    ISBN 978-963-623-008-1
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kovács, Melinda</span> (Szerk.).
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/614/"><em>Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     311 p.
+    
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/28/"><em>Animal nutrition.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd..
+     131 p.
+    
+   
+  
+
+
+   (Nem publikált)
+
+
+</p><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/30/"><em>Takarmánykonzerválás.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+     87 p.
+    
+   
+  
+
+
+   (Nem publikált)
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Sun Mar  8 23:59:23 2026 CET</strong>.</div></div>

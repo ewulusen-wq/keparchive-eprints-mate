@@ -1,0 +1,181 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Export" role="button" /><input type="hidden" name="view" value="creators" id="view" /><input type="hidden" name="values" value="Heltai=3AMikl=F3s=3A=3A" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Heltai=3AMikl=F3s=3A=3A/Atom/Heltai=3AMikl=F3s=3A=3A.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Heltai=3AMikl=F3s=3A=3A/RSS/Heltai=3AMikl=F3s=3A=3A.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Heltai=3AMikl=F3s=3A=3A/RSS2/Heltai=3AMikl=F3s=3A=3A.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Heltai=3AMikl=F3s=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a> | <a href="#group_book">Book</a></div></div><div class="ep_view_blurb">Number of items: <strong>8</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Katona, Krisztián</span> and <span class="person_name">Heltai, Miklós</span>
+  
+
+(2018)
+  
+<a href="https://press.mater.uni-mate.hu/660/"><em>A vaddisznó táplálék-összetételének és táplálkozási sajátságainak szakirodalmi áttekintése.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 16 (1).
+    pp. 65-74.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Márton, Mihály</span> and <span class="person_name">Bőti, Szilvia</span> and <span class="person_name">Heltai, Miklós</span>
+  
+
+(2016)
+  
+<a href="https://press.mater.uni-mate.hu/645/"><em>A sárganyakú erdeiegér júliusi élőhelyhasználata egy jászsági erdőben.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 14 (2).
+    pp. 183-189.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Fehér, Ádám</span> and <span class="person_name">Tóth, Bálint</span> and <span class="person_name">Heltai, Miklós</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/631/"><em>Agrár-környezetgazdálkodási programok és különböző művelésű agrárterületek hatása az énekesmadarak fajdiverzitására.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 13 (1).
+    pp. 19-31.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Patkó, László</span> and <span class="person_name">Ujhegyi, Nikolett</span> and <span class="person_name">Heltai, Miklós</span>
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/593/"><em>A madárfészek-analízis alkalmazásának tesztelése városi élőhelyeken.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 12 (1).
+    pp. 197-205.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bőti, Szilvia</span> and <span class="person_name">Heltai, Miklós</span>
+  
+
+(2013)
+  
+<a href="https://press.mater.uni-mate.hu/518/"><em>Az énekesmadár-fajok előfordulásának, és az előfordulásra ható tényezők vizsgálata lakott környezetben, Jászfényszarun.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 11 (1).
+    pp. 89-103.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Heltai, Miklós</span> and <span class="person_name">Torbó, László Tibor</span> and <span class="person_name">Lanszki, József</span> and <span class="person_name">Szabó, László</span>
+  
+
+(2012)
+  
+<a href="https://press.mater.uni-mate.hu/509/"><em>Az aranysakál (Canis aureus L. 1758) állomány nagyságának vizsgálata közvetlen megfigyelések alapján.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (2).
+    pp. 405-411.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Balázs, Gergely</span> and <span class="person_name">Grónás, Viktor</span> and <span class="person_name">Heltai, Miklós</span> and <span class="person_name">Bleier, Norbert</span>
+  
+
+(2012)
+  
+<a href="https://press.mater.uni-mate.hu/500/"><em>A Flight Safety Index alkalmazhatóságának vizsgálata a Liszt Ferenc Nemzetközi Repülőtér földhasználat tervezésében, tekintettel a repülésbiztonságot veszélyeztető madárfajokra.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (1).
+    pp. 17-24.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Book</h2><p>
+
+
+    <span class="person_name">Heltai, Miklós</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/83/"><em>Városi vadgazdálkodás.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     135Number of Pages.
+    
+    ISBN 978-963-623-020-3
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Mar  8 22:05:47 2026 CET</strong>.</div></div>

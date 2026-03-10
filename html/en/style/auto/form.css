@@ -81,11 +81,14 @@ td.ep_form_input_grid_wide {
 }
 
 .ep_field_legend {
-	font-style: italic;
-	display: none;
-}
-.ep_field_legend:after {
-	content: ":";
+	position: relative;
+	top: 4px;
+	left: -100%;
+	width: 100%;
+	text-align: right;
+	margin-left: -28px;
+	padding-right: 25px;
+	font-weight: bold;
 }
 
 .ep_multi_heading::after {

@@ -2,6 +2,7 @@
 <!DOCTYPE html SYSTEM "entities.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
   <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
     <link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
@@ -14,33 +15,31 @@
     <div class="ep_tm_header ep_noprint">
       <ul class="ep_tm_menu">
         <li>
-          <a href="https://phd.fater.uni-mate.hu/">
+          <a href="https://press.mater.uni-mate.hu/">
             <epc:phrase ref="template/navigation:home"/>
           </a>
         </li>
         <li>
-          <a href="https://phd.fater.uni-mate.hu/information.html">
+          <a href="https://press.mater.uni-mate.hu/information.html">
             <epc:phrase ref="template/navigation:about"/>
           </a>
         </li>
         <li>
-          <a href="https://phd.fater.uni-mate.hu/view/" menu="ep_tm_menu_browse">
+          <a href="https://press.mater.uni-mate.hu/view/" menu="ep_tm_menu_browse">
             <epc:phrase ref="template/navigation:browse"/>
           </a>
           <ul id="ep_tm_menu_browse" style="display:none;">
             <li>
-              <a href="https://phd.fater.uni-mate.hu/view/subjects/">
+              <a href="https://press.mater.uni-mate.hu/view/subjects/">
                 <epc:phrase ref="bin/generate_views:indextitleprefix"/>
                 <epc:phrase ref="viewname_eprint_subjects"/>
               </a>
             </li>
-	    </ul>
-	    </li>
-	    <li>
-              <a href="#">
-            Doi generáló2
-              </a>
+      </ul>
 	  </li>
+	<li>
+	     <a href="https://press.mater.uni-mate.hu/cgi/search/advanced">Összetett Keresés</a>
+	</li>
 	  </ul>
       <table class="ep_tm_searchbar">
         <tr>
@@ -50,10 +49,10 @@
           
           <td align="right" style="white-space: nowrap">
             <epc:pin ref="languages"/>
-            <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" class="d-flex">
-              <input class="form-control me-2" size="20" type="text" name="q" placeholder="Keresés..." />
-              <button class="btn btn-light" type="submit">Keresés</button>
-              <a href="{$config{http_cgiurl}}/search/advanced" class="btn btn-outline-light ms-2">Részletes</a>
+            <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" style="display:inline">
+              <input class="ep_tm_searchbarbox" size="20" type="text" name="q"/>
+              <input class="ep_tm_searchbarbutton" value="{phrase('lib/searchexpression:action_search')}" type="submit" name="_action_search"/>
+              <input type="hidden" name="_action_search" value="Search"/>
               <input type="hidden" name="_order" value="bytitle"/>
               <input type="hidden" name="basic_srchtype" value="ALL"/>
               <input type="hidden" name="_satisfyall" value="ALL"/>
@@ -72,7 +71,7 @@
     </div>
   	<div class="ep_tm_eprints_logo" >
       <a href="http://www.uni-mate.hu/" target="_blank">  
-         <img alt="MATE" width="200px" src="https://phd.fater.uni-mate.hu/images/sitelogo.gif"/>
+         <img alt="MATE" width="200px" src="https://press.mater.uni-mate.hu/images/sitelogo.gif"/>
            </a>
       </div>
     <div class="ep_tm_footer ep_noprint" >
@@ -81,8 +80,8 @@
       <div class="ep_tm_eprints_logo" >
        
         <a href="http://eprints.org/software/">  
-          <img alt="EPrints Logo" src="https://phd.fater.uni-mate.hu/images/eprintslogo.png"/>
-          <img alt="EPrints Logo" src="https://phd.fater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
+          <img alt="EPrints Logo" src="https://press.mater.uni-mate.hu/images/eprintslogo.png"/>
+          <img alt="EPrints Logo" src="https://press.mater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
         </a>
       </div>
       <epc:phrase ref="template:about_eprints"/>

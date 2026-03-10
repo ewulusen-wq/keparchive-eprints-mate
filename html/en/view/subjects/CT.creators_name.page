@@ -1,0 +1,34 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" value="Export" role="button" name="_action_export_redir" class="ep_form_action_button" /><input id="view" type="hidden" value="subjects" name="view" /><input id="values" type="hidden" value="CT" name="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/CT/Atom/CT.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/CT/RSS/CT.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/CT/RSS2/CT.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (4)<ul><li><a href="C.html">C Auxiliary Sciences of History</a> (4)<ul><li><strong>CT Biography</strong> (4)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <a href="CT.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_C">C</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>1</strong>.</div><a name="group_C"></a><h2>C</h2><p>
+
+
+    <span class="person_name">Centeri, Csaba</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/67/"><em>Sörárpától a tájökológiai vizuális planációig – Barczi Attila munkássága.</em></a>
+
+
+    Tájökológiai Lapok, 20 (Spl 1).
+    pp. 9-23.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Mar  2 18:18:52 2026 CET</strong>.</div></div>

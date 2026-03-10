@@ -1,4 +1,3 @@
-
 ######################################################################
 #
 #  Field Property Defaults
@@ -41,7 +40,7 @@ $c->{field_defaults}->{digits} = 20;
 $c->{field_defaults}->{search_cols} = 40;
 
 # Maximum rows to display in a subject or set search
-$c->{field_defaults}->{search_rows} = 12;
+$c->{field_defaults}->{search_rows} = 15;
 
 # You may hide the "lineage" and "honourific"
 # fields in the "name" type field input, if you

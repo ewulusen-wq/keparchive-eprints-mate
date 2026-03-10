@@ -1,5 +1,12 @@
-# types for eprint 
-other
-image
+article
+book_section
+book
+conference_item
+patent
+experiment
+monograph
+teaching_resource
 video
 audio
+dataset
+other

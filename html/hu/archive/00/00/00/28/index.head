@@ -1,0 +1,63 @@
+<meta content="28" name="eprints.eprintid" />
+<meta content="9" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="1" name="eprints.userid" />
+<meta content="disk0/00/00/00/28" name="eprints.dir" />
+<meta content="2021-10-12 07:37:24" name="eprints.datestamp" />
+<meta content="2021-10-12 07:37:24" name="eprints.lastmod" />
+<meta content="2021-10-12 07:37:24" name="eprints.status_changed" />
+<meta content="book" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="Tóthi, Róbert" name="eprints.creators_name" />
+<meta content="Animal nutrition" name="eprints.title" />
+<meta content="unpub" name="eprints.ispublished" />
+<meta content="QD" name="eprints.subjects" />
+<meta content="QL" name="eprints.subjects" />
+<meta content="QP" name="eprints.subjects" />
+<meta content="fac_eng" name="eprints.divisions" />
+<meta content="Lecture notes for students of BSc courses of Agricultural Engenieer and Plant Production Engenieer" name="eprints.abstract" />
+<meta content="2014" name="eprints.date" />
+<meta content="Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd." name="eprints.publisher" />
+<meta content="restricted" name="eprints.full_text_status" />
+<meta content="131" name="eprints.pages" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="&quot;Pannon model&quot; - implementation of   regional, sectoral cooperation in higher   education in the field of food safety and   gastronomy   TÁMOP-4.1.1.C-12/1/KONV-2012-0011" name="eprints.funders" />
+<meta content="  Tóthi, Róbert  (2014) Animal nutrition.     Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd.. 131 p.      (Nem publikált)  " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/28/1/PM_62__Animal%20Nutrition_BSc.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/28/" name="DC.relation" />
+<meta content="Animal nutrition" name="DC.title" />
+<meta content="Tóthi, Róbert" name="DC.creator" />
+<meta content="QD Kémia" name="DC.subject" />
+<meta content="QL Állattan" name="DC.subject" />
+<meta content="QP Élettan" name="DC.subject" />
+<meta content="Lecture notes for students of BSc courses of Agricultural Engenieer and Plant Production Engenieer" name="DC.description" />
+<meta content="Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd." name="DC.publisher" />
+<meta content="2014" name="DC.date" />
+<meta content="Könyv" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="https://press.mater.uni-mate.hu/28/1/PM_62__Animal%20Nutrition_BSc.pdf" name="DC.identifier" />
+<meta content="  Tóthi, Róbert  (2014) Animal nutrition.     Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd.. 131 p.      (Nem publikált)  " name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/28/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/Atom/press-eprint-28.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/MODS/press-eprint-28.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/DC/press-eprint-28.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/COinS/press-eprint-28.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/ContextObject/press-eprint-28.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/METS/press-eprint-28.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/RDFN3/press-eprint-28.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/Refer/press-eprint-28.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/BibTeX/press-eprint-28.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/RIS/press-eprint-28.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/XML/press-eprint-28.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/Text/press-eprint-28.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/RDFXML/press-eprint-28.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/Simple/press-eprint-28.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/DIDL/press-eprint-28.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/JSON/press-eprint-28.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/HTML/press-eprint-28.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/RDFNT/press-eprint-28.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/EndNote/press-eprint-28.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/28/CSV/press-eprint-28.csv" rel="alternate" />

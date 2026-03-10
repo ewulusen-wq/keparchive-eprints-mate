@@ -1,0 +1,48 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Exportálás" name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" /><input value="creators" id="view" name="view" type="hidden" /><input value="Corral=3AStephanya=3A=3A" id="values" name="values" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Corral=3AStephanya=3A=3A/Atom/Corral=3AStephanya=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Corral=3AStephanya=3A=3A/RSS/Corral=3AStephanya=3A=3A.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Corral=3AStephanya=3A=3A/RSS2/Corral=3AStephanya=3A=3A.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Csoportosítás: <a href="Corral=3AStephanya=3A=3A.html">Tétel típusa</a>['Update/Views:group_separator' not defined]<span class="ep_view_group_by_current">Nincs</span></div><div class="ep_view_blurb">Tételek száma: <strong>1</strong>.</div><p>
+
+
+    <span class="person_name">Ikanya, Lucy</span> és <span class="person_name">Libisch, Balázs</span> és <span class="person_name">Keresztény, Tibor</span> és <span class="person_name">Olasz, Ferenc</span> és <span class="person_name">Corral, Stephanya</span> és <span class="person_name">Kovács, Melinda</span> és <span class="person_name">Halas, Veronika</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/395/"><em>Influence of Levilactobacillus Brevis on Growth Performance of Weaned Piglets Under Fumonisin B1 Challenges.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> és <span class="person_name">Tóthi, Róbert</span> 
+        
+          (Szerk.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium És Egy Egészség Nap, 2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 49-54.
+   
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Tue Mar 10 06:01:45 2026 CET</strong>.</div></div>

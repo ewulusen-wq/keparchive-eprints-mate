@@ -1,0 +1,109 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Export" role="button" /><input type="hidden" name="view" value="creators" id="view" /><input type="hidden" name="values" value="Koll=E1nyi=3AL=E1szl=F3=3A=3A" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Koll=E1nyi=3AL=E1szl=F3=3A=3A/Atom/Koll=E1nyi=3AL=E1szl=F3=3A=3A.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Koll=E1nyi=3AL=E1szl=F3=3A=3A/RSS/Koll=E1nyi=3AL=E1szl=F3=3A=3A.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Koll=E1nyi=3AL=E1szl=F3=3A=3A/RSS2/Koll=E1nyi=3AL=E1szl=F3=3A=3A.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Koll=E1nyi=3AL=E1szl=F3=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a> | <a href="#group_book">Book</a></div></div><div class="ep_view_blurb">Number of items: <strong>4</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Prohászka, Viola Judit</span> and <span class="person_name">Kollányi, László</span> and <span class="person_name">Borsos, Béla</span> and <span class="person_name">Fridrich, István</span> and <span class="person_name">Kilián, Imre</span> and <span class="person_name">Máté, László</span> and <span class="person_name">Zaja, Péter</span> and <span class="person_name">Tormáné Kovács, Eszter</span>
+  
+
+(2020)
+  
+<a href="https://press.mater.uni-mate.hu/694/"><em>Az ökoszisztémák és szolgáltatásaik összehasonlítása két ökofaluban: Visnyeszéplakon és Gyűrűfűn.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 18 (2).
+    pp. 147-163.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kollányi, László</span>
+  
+
+(2010)
+  
+<a href="https://press.mater.uni-mate.hu/513/"><em>Minden, ami táj. TÉKA - Táji értékeink számbavétele.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 8 (3).
+    pp. 633-635.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Book</h2><p>
+
+
+    <span class="person_name">Filepné Kovács, Krisztina</span> and <span class="person_name">Bányai, Zsombor</span> and <span class="person_name">Dancsokné Fóris, Edina</span> and <span class="person_name">Weiperth, András</span> and <span class="person_name">Urbányi, Béla</span> and <span class="person_name">Valánszki, István</span> and <span class="person_name">Kollányi, László</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/100/"><em>Helyi Ágazatközi Operatív Terv : Tájvédelem és tájfejlesztés a tervezett M2-es gyorsforgalmi út területén Magyarországon.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     74Number of Pages.
+    
+    ISBN 978-963-623-035-7
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Filepné Kovács, Krisztina</span> and <span class="person_name">Bányai, Zsombor</span> and <span class="person_name">Dancsokné Fóris, Edina</span> and <span class="person_name">Weiperth, András</span> and <span class="person_name">Urbányi, Béla</span> and <span class="person_name">Valánszki, István</span> and <span class="person_name">Kollányi, László</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/93/"><em>Local Cross-Sectoral Operational Plan : Landscape Protection and Development in the Area of the Planned M2 Motorway in&#13;
+Hungary : Part of Output T2.2 “Local Cross-Sectoral Operational Plans”.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     74Number of Pages.
+    
+    ISBN 978-963-623-025-8
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Mar  8 20:53:43 2026 CET</strong>.</div></div>

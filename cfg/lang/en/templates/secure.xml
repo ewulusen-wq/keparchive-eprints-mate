@@ -69,7 +69,13 @@
           <epc:pin ref="page"/>
         </div>
       </div>
+<div class="ep_tm_eprints_logo" style="margin-bottom:10px;">
+<img alt="stamp" src="http://press.mater.uni-mate.hu/images/MTMT_minosito.jpg" width="100px"/>
+      <a href="http://www.uni-mate.hu/" target="_blank">  
+         <img alt="MATE" width="300px" src="http://press.mater.uni-mate.hu/images/sitelogo.gif"/>
+           </a>
 
+      </div>
       <footer>
         <div class="ep_tm_footer ep_noprint">
           <epc:phrase ref="template:about_eprints"/>

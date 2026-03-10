@@ -1,0 +1,102 @@
+<meta name="eprints.eprintid" content="36" />
+<meta name="eprints.rev_number" content="29" />
+<meta name="eprints.eprint_status" content="archive" />
+<meta name="eprints.userid" content="1" />
+<meta name="eprints.dir" content="disk0/00/00/00/36" />
+<meta name="eprints.datestamp" content="2020-08-03 11:15:07" />
+<meta name="eprints.lastmod" content="2024-05-13 11:45:42" />
+<meta name="eprints.status_changed" content="2021-10-12 11:43:03" />
+<meta name="eprints.type" content="experiment" />
+<meta name="eprints.metadata_visibility" content="show" />
+<meta name="eprints.creators_name" content="Curik, Ino" />
+<meta name="eprints.creators_name" content="Kövér, György" />
+<meta name="eprints.creators_name" content="Farkas, János" />
+<meta name="eprints.creators_name" content="Szendrő, Zsolt" />
+<meta name="eprints.creators_name" content="Romvári, Róbert" />
+<meta name="eprints.creators_name" content="Sölkner, Johann" />
+<meta name="eprints.creators_name" content="Nagy, István" />
+<meta name="eprints.corp_creators" content="Department of Animal Science, Faculty of Agriculture, University of Zagreb, Zagreb, Croatia" />
+<meta name="eprints.corp_creators" content="Institute of Methodology, Faculty of Economic Science, Kaposvár University, Kaposvár, Hungary" />
+<meta name="eprints.corp_creators" content="Institute of Methodology, Faculty of Economic Science, Kaposvár University, Kaposvár, Hungary" />
+<meta name="eprints.corp_creators" content="Institute of Animal Science, Faculty of Agricultural and Environmental Sciences, Kaposvár University, Kaposvár, Hungary" />
+<meta name="eprints.corp_creators" content="Institute of Animal Science, Faculty of Agricultural and Environmental Sciences, Kaposvár University, Kaposvár, Hungary" />
+<meta name="eprints.corp_creators" content="Division of Livestock Sciences, University of Natural Resources and Applied Life Sciences, Vienna, Austria" />
+<meta name="eprints.corp_creators" content="Institute of Animal Science, Faculty of Agricultural and Environmental Sciences, Kaposvár University, Kaposvár, Hungary" />
+<meta name="eprints.title" content="Inbreeding depression for kit survival at birth in a rabbit population under long-term selection" />
+<meta name="eprints.ispublished" content="pub" />
+<meta name="eprints.subjects" content="SF" />
+<meta name="eprints.divisions" content="fac_eng" />
+<meta name="eprints.abstract" content="Background:
+Accumulation of detrimental mutations in small populations leads to inbreeding depression of fitness traits and a higher frequency of genetic defects, thus increasing risk of extinction. Our objective was to quantify the magnitude of inbreeding depression for survival at birth, in a closed rabbit population under long-term selection.
+
+Methods:
+We used an information theory-based approach and multi-model inference to estimate inbreeding depression and its purging with respect to the trait ‘kit survival at birth’ over a 25-year period in a closed population of Pannon White rabbits, by analysing 22,718 kindling records. Generalised linear mixed models based on the logit link function were applied, which take polygenic random effects into account.
+
+Results:
+Our results indicated that inbreeding depression occurred during the period 1992–1997, based on significant estimates of the z-standardised classical inbreeding coefficient z.FL (CI95% − 0.12 to − 0.03) and of the new inbreeding coefficient of the litter z.FNEWL (CI95% − 0.13 to − 0.04) as well as a 59.2% reduction in contributing founders. Inbreeding depression disappeared during the periods 1997–2007 and 2007–2017. For the period 1992–1997, the best model resulted in a significantly negative standardised estimate of the new inbreeding coefficient of the litter and a significantly positive standardised estimate of Kalinowski’s ancestral inbreeding coefficient of the litter (CI95% 0.01 to 0.17), which indicated purging of detrimental load. Kindling season and parity had effects on survival at birth that differed across the three periods of 1992–1997, 1997–2007 and 2007–2017.
+
+Conclusions:
+Our results support the existence of inbreeding depression and its purging with respect to kit survival at birth in this Pannon White rabbit population. However, we were unable to exclude possible confounding from the effects of parity and potentially other environmental factors during the study period, thus our results need to be extended and confirmed in other populations." />
+<meta name="eprints.date" content="2020-07-08" />
+<meta name="eprints.date_type" content="published" />
+<meta name="eprints.full_text_status" content="restricted" />
+<meta name="eprints.related_url_url" content="https://gsejournal.biomedcentral.com/articles/10.1186/s12711-020-00557-3" />
+<meta name="eprints.related_url_type" content="Publikáció folyóiratban" />
+<meta name="eprints.projects" content="Financial support of the K 128177 (NKFI-6) project is acknowledged. Participation of IC was supported in part by the Croatian Science Foundation grant No. IP-2018-01-7317." />
+<meta name="eprints.separat_type" content="scientific" />
+<meta name="eprints.citation" content="  Curik, Ino and Kövér, György and Farkas, János and Szendrő, Zsolt and Romvári, Róbert and Sölkner, Johann and Nagy, István  (2020) Inbreeding depression for kit survival at birth in a rabbit population under long-term selection.  [Experiment]     " />
+<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/36/1/cikkRep02.zip" />
+<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/36/2/Enged%C3%A9ly_KE%20Int%C3%A9zm%C3%A9nyi%20Repozit%C3%B3riumban%20elhelyez%C3%A9shez.pdf" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta name="DC.relation" content="https://press.mater.uni-mate.hu/36/" />
+<meta name="DC.title" content="Inbreeding depression for kit survival at birth in a rabbit population under long-term selection" />
+<meta name="DC.creator" content="Curik, Ino" />
+<meta name="DC.creator" content="Kövér, György" />
+<meta name="DC.creator" content="Farkas, János" />
+<meta name="DC.creator" content="Szendrő, Zsolt" />
+<meta name="DC.creator" content="Romvári, Róbert" />
+<meta name="DC.creator" content="Sölkner, Johann" />
+<meta name="DC.creator" content="Nagy, István" />
+<meta name="DC.subject" content="SF Animal culture" />
+<meta name="DC.description" content="Background:
+Accumulation of detrimental mutations in small populations leads to inbreeding depression of fitness traits and a higher frequency of genetic defects, thus increasing risk of extinction. Our objective was to quantify the magnitude of inbreeding depression for survival at birth, in a closed rabbit population under long-term selection.
+
+Methods:
+We used an information theory-based approach and multi-model inference to estimate inbreeding depression and its purging with respect to the trait ‘kit survival at birth’ over a 25-year period in a closed population of Pannon White rabbits, by analysing 22,718 kindling records. Generalised linear mixed models based on the logit link function were applied, which take polygenic random effects into account.
+
+Results:
+Our results indicated that inbreeding depression occurred during the period 1992–1997, based on significant estimates of the z-standardised classical inbreeding coefficient z.FL (CI95% − 0.12 to − 0.03) and of the new inbreeding coefficient of the litter z.FNEWL (CI95% − 0.13 to − 0.04) as well as a 59.2% reduction in contributing founders. Inbreeding depression disappeared during the periods 1997–2007 and 2007–2017. For the period 1992–1997, the best model resulted in a significantly negative standardised estimate of the new inbreeding coefficient of the litter and a significantly positive standardised estimate of Kalinowski’s ancestral inbreeding coefficient of the litter (CI95% 0.01 to 0.17), which indicated purging of detrimental load. Kindling season and parity had effects on survival at birth that differed across the three periods of 1992–1997, 1997–2007 and 2007–2017.
+
+Conclusions:
+Our results support the existence of inbreeding depression and its purging with respect to kit survival at birth in this Pannon White rabbit population. However, we were unable to exclude possible confounding from the effects of parity and potentially other environmental factors during the study period, thus our results need to be extended and confirmed in other populations." />
+<meta name="DC.date" content="2020-07-08" />
+<meta name="DC.type" content="Experiment" />
+<meta name="DC.type" content="NonPeerReviewed" />
+<meta name="DC.format" content="archive" />
+<meta name="DC.language" content="hu" />
+<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/36/1/cikkRep02.zip" />
+<meta name="DC.format" content="text" />
+<meta name="DC.language" content="hu" />
+<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/36/2/Enged%C3%A9ly_KE%20Int%C3%A9zm%C3%A9nyi%20Repozit%C3%B3riumban%20elhelyez%C3%A9shez.pdf" />
+<meta name="DC.identifier" content="  Curik, Ino and Kövér, György and Farkas, János and Szendrő, Zsolt and Romvári, Róbert and Sölkner, Johann and Nagy, István  (2020) Inbreeding depression for kit survival at birth in a rabbit population under long-term selection.  [Experiment]     " />
+<link href="https://press.mater.uni-mate.hu/36/" rel="canonical" />
+<link title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/HTML/press-eprint-36.html" type="text/html; charset=utf-8" rel="alternate" />
+<link title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/Atom/press-eprint-36.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
+<link title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/MODS/press-eprint-36.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/RDFN3/press-eprint-36.n3" type="text/n3" rel="alternate" />
+<link title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/Text/press-eprint-36.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/RIS/press-eprint-36.ris" type="text/plain" rel="alternate" />
+<link title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/BibTeX/press-eprint-36.bib" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/ContextObject/press-eprint-36.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/Refer/press-eprint-36.refer" type="text/plain" rel="alternate" />
+<link title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/METS/press-eprint-36.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/DC/press-eprint-36.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/RDFNT/press-eprint-36.nt" type="text/plain" rel="alternate" />
+<link title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/EndNote/press-eprint-36.enw" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/XML/press-eprint-36.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/COinS/press-eprint-36.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/CSV/press-eprint-36.csv" type="text/csv; charset=utf-8" rel="alternate" />
+<link title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/DIDL/press-eprint-36.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/RDFXML/press-eprint-36.rdf" type="application/rdf+xml" rel="alternate" />
+<link title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/Simple/press-eprint-36.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/36/JSON/press-eprint-36.js" type="application/json; charset=utf-8" rel="alternate" />

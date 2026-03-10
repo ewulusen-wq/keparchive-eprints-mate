@@ -42,44 +42,6 @@ Action buttons (Previous/Save/Next) can be shown "top", "bottom" or "both":
 
     <component><field ref="title" required="yes" input_lookup_url="{$config{rel_cgipath}}/users/lookup/title_duplicates" input_lookup_params="id={eprintid}&amp;dataset=eprint&amp;field=title" /></component>
     <component><field ref="abstract"/></component>
-<!-- PHOTO METADATA -->
-
-<epc:if test="type = 'image'">
-  <component>
-    <field ref="event_name"/>
-  </component>
-
-  <component>
-    <field ref="location"/>
-  </component>
-
-  <component>
-    <field ref="photographer"/>
-  </component>
-
-  <component>
-    <field ref="collection"/>
-  </component>
-</epc:if>
-
-<epc:if test="type = 'other'">
-  <component>
-    <field ref="event_name"/>
-  </component>
-
-  <component>
-    <field ref="location"/>
-  </component>
-
-  <component>
-    <field ref="photographer"/>
-  </component>
-
-  <component>
-    <field ref="collection"/>
-  </component>
-</epc:if>
-
 
     <epc:if test="type = 'monograph'">
       <component><field ref="monograph_type" required="yes" /></component>

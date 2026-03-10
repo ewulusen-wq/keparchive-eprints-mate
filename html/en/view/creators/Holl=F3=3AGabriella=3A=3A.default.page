@@ -1,0 +1,54 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Export" role="button" /><input type="hidden" name="view" value="creators" id="view" /><input type="hidden" name="values" value="Holl=F3=3AGabriella=3A=3A" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Holl=F3=3AGabriella=3A=3A/Atom/Holl=F3=3AGabriella=3A=3A.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Holl=F3=3AGabriella=3A=3A/RSS/Holl=F3=3AGabriella=3A=3A.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Holl=F3=3AGabriella=3A=3A/RSS2/Holl=F3=3AGabriella=3A=3A.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Holl=F3=3AGabriella=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Isztl, Emese</span> and <span class="person_name">Kern, László</span> and <span class="person_name">Balogh, Eszter Erika</span> and <span class="person_name">Póth-Szebenyi, Bettina</span> and <span class="person_name">Holló, Gabriella</span> and <span class="person_name">Balogh, Orsolya Gabriella</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/585/"><em>Húshasznú bikák komplex andrológiai vizsgálata – a Magyarországon jellemzően előforduló fajták fiatal egyedeinek összehasonlítása.</em></a>
+
+
+    ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 21 (2).
+    pp. 118-128.
+     ISSN 1786-8440
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Hlel, Nawel</span> and <span class="person_name">Holló, Gabriella</span> and <span class="person_name">Bus, Bence</span> and <span class="person_name">Süli, Ágnes</span> and <span class="person_name">Nyúl, Zsófia</span> and <span class="person_name">Szabari, Miklós</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/301/"><em>Correlations of production factors in automated milking system in a Hungarian dairy farm.</em></a>
+
+
+    ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 20 (2).
+    pp. 131-145.
+     ISSN 1786-8440
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Mar  8 22:05:55 2026 CET</strong>.</div></div>

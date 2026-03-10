@@ -1,0 +1,79 @@
+<meta content="567" name="eprints.eprintid" />
+<meta content="5" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="34" name="eprints.userid" />
+<meta content="disk0/00/00/05/67" name="eprints.dir" />
+<meta content="2026-01-15 12:48:14" name="eprints.datestamp" />
+<meta content="2026-01-15 12:48:14" name="eprints.lastmod" />
+<meta content="2026-01-15 12:48:14" name="eprints.status_changed" />
+<meta content="article" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="34" name="eprints.sword_depositor" />
+<meta content="Scherman, Jakab Máté" name="eprints.creators_name" />
+<meta content="Horváthné Petróczy, Marietta" name="eprints.creators_name" />
+<meta content="Koósné, Szathmáry Erzsébet" name="eprints.creators_name" />
+<meta content="Markó, Gábor" name="eprints.creators_name" />
+<meta content="0000-0002-6139-8281" name="eprints.creators_orcid" />
+<meta content="0000-0003-1351-4070" name="eprints.creators_orcid" />
+<meta content="Kertészettudományi Doktori Iskola MATE / MATE DI KTDI [2016-]" name="eprints.corp_creators" />
+<meta content="Növénykórtani Tanszék MATE / NVI NKT [2021-]" name="eprints.corp_creators" />
+<meta content="Georgikon for Agriculture szerkesztősége Kiadók / Önkéntes" name="eprints.corp_creators" />
+<meta content="An AI-driven image processing technique to simplify the pollen measurement in common ragweed (Ambrosia artemisiifolia L.)" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="SB" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="Ambrosia artemisiifolia (common ragweed) is an invasive weed species that significantly impacts agriculture and public health. This study aimed to develop an automated AI-based object detection model using our annotated image recognition dataset for accurate pollen size measurement, focusing on repeatability and variability in pollen size among individuals with distinct morphological characteristics. The model can effectively streamline the traditionally labour-intensive process, achieving rapid, accurate data collection. Roboflow-based image analysis takes only milliseconds, which is significantly faster than traditional approaches, and a high repeatability index demonstrates a valid methodology for pollen analysis. The study suggests a relationship between pollen size variability and plant morphology, suggesting possible trade-offs between growth and reproduction or showing habitat-specific adaptations. Results may create valuable opportunities for plant biology or ecology, for instance, further investigation of plant-pathogen interactions and public health research. This innovative method represents a step forward in efficient pollen analysis and its integration into multidisciplinary studies." name="eprints.abstract" />
+<meta content="2025" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="https://doi.org/10.70809/6570" name="eprints.official_url" />
+<meta content="MTMT:35734683 10.70809/6570" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES" name="eprints.publication" />
+<meta content="29" name="eprints.volume" />
+<meta content="Suppl1" name="eprints.number" />
+<meta content="41-48" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="0239-1260" name="eprints.issn" />
+<meta content="  Scherman, Jakab Máté and Horváthné Petróczy, Marietta and Koósné, Szathmáry Erzsébet and Markó, Gábor  (2025) An AI-driven image processing technique to simplify the pollen measurement in common ragweed (Ambrosia artemisiifolia L.).  GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1). pp. 41-48.  ISSN 0239-1260     " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/567/1/05_Schermanetal.pdf" name="eprints.document_url" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta content="https://press.mater.uni-mate.hu/567/" name="DC.relation" />
+<meta content="An AI-driven image processing technique to simplify the pollen measurement in common ragweed (Ambrosia artemisiifolia L.)" name="DC.title" />
+<meta content="Scherman, Jakab Máté" name="DC.creator" />
+<meta content="Horváthné Petróczy, Marietta" name="DC.creator" />
+<meta content="Koósné, Szathmáry Erzsébet" name="DC.creator" />
+<meta content="Markó, Gábor" name="DC.creator" />
+<meta content="SB Plant culture" name="DC.subject" />
+<meta content="Ambrosia artemisiifolia (common ragweed) is an invasive weed species that significantly impacts agriculture and public health. This study aimed to develop an automated AI-based object detection model using our annotated image recognition dataset for accurate pollen size measurement, focusing on repeatability and variability in pollen size among individuals with distinct morphological characteristics. The model can effectively streamline the traditionally labour-intensive process, achieving rapid, accurate data collection. Roboflow-based image analysis takes only milliseconds, which is significantly faster than traditional approaches, and a high repeatability index demonstrates a valid methodology for pollen analysis. The study suggests a relationship between pollen size variability and plant morphology, suggesting possible trade-offs between growth and reproduction or showing habitat-specific adaptations. Results may create valuable opportunities for plant biology or ecology, for instance, further investigation of plant-pathogen interactions and public health research. This innovative method represents a step forward in efficient pollen analysis and its integration into multidisciplinary studies." name="DC.description" />
+<meta content="2025" name="DC.date" />
+<meta content="Article" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="en" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/567/1/05_Schermanetal.pdf" name="DC.identifier" />
+<meta content="  Scherman, Jakab Máté and Horváthné Petróczy, Marietta and Koósné, Szathmáry Erzsébet and Markó, Gábor  (2025) An AI-driven image processing technique to simplify the pollen measurement in common ragweed (Ambrosia artemisiifolia L.).  GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1). pp. 41-48.  ISSN 0239-1260     " name="DC.identifier" />
+<meta content="https://doi.org/10.70809/6570" name="DC.relation" />
+<meta content="MTMT:35734683 10.70809/6570" name="DC.relation" />
+<meta content="MTMT:35734683 10.70809/6570" name="DC.identifier" />
+<link rel="canonical" href="https://press.mater.uni-mate.hu/567/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/EndNote/press-eprint-567.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/METS/press-eprint-567.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/ContextObject/press-eprint-567.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/RIS/press-eprint-567.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/RDFXML/press-eprint-567.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/JSON/press-eprint-567.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/BibTeX/press-eprint-567.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/XML/press-eprint-567.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/RDFNT/press-eprint-567.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/DC/press-eprint-567.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/RDFN3/press-eprint-567.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/Text/press-eprint-567.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/HTML/press-eprint-567.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/DIDL/press-eprint-567.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/COinS/press-eprint-567.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/MODS/press-eprint-567.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/Refer/press-eprint-567.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/Atom/press-eprint-567.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/CSV/press-eprint-567.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/567/Simple/press-eprint-567.txt" title="Simple Metadata" />

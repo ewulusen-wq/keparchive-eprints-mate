@@ -1,0 +1,28 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]">['Update/Views:up_a_level' not defined]</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">['Update/Views:export_section' not defined<dl class="ep_undefined_phrase"><dt>menu</dt><dd><select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select></dd><dt>tools</dt><dd></dd><dt>feeds</dt><dd> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2023/Atom/fac=5Feng_2023.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2023/RSS/fac=5Feng_2023.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2023/RSS2/fac=5Feng_2023.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></dd><dt>button</dt><dd><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="['lib/searchexpression:export_button' not defined]" /><input type="hidden" name="view" id="view" value="divisions" /><input type="hidden" name="values" id="values" value="fac=5Feng/2023" /></dd></dl>]</form><div class="ep_view_page ep_view_page_view_divisions">['Update/Views:group_by' not defined<dl class="ep_undefined_phrase"><dt>groups</dt><dd><a href="2023.html">['eprint_fieldname_type' not defined]</a>['Update/Views:group_separator' not defined]<a href="2023.creators_name.html">['eprint_fieldname_creators_name' not defined]</a>['Update/Views:group_separator' not defined]['Update/Views:current_group' not defined<dl class="ep_undefined_phrase"><dt>group</dt><dd>['Update/Views:no_grouping' not defined]</dd></dl>]</dd></dl>]['bin/generate_views:blurb' not defined<dl class="ep_undefined_phrase"><dt>n</dt><dd>1</dd></dl>]<p>
+
+
+    <span class="person_name">Keszthelyi, Sándor</span>['lib/metafield:join_name' not defined]<span class="person_name">Jócsák, Ildikó</span> (Szerk.).
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/168/"><em>2. Alkalmazott Növénytudományi Konferencia : Roncsolásmentes képalkotó technológiák a növénytermesztésben: legújabb eredmények és alkalmazási lehetőségek, 2023. szeptember 28. Kaposvár : Konferencia-összefoglaló.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Növénytermesztési-tudományok Intézet, Gödöllő.
+     40 p.
+    
+    ISBN 978-963-623-073-9
+  
+  
+
+
+  
+
+
+</p>['bin/generate_views:timestamp' not defined<dl class="ep_undefined_phrase"><dt>time</dt><dd>Mon Mar  9 12:42:40 2026 CET</dd></dl>]</div>

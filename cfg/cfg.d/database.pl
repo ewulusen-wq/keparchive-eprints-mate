@@ -5,3 +5,4 @@ $c->{dbsock} = undef;
 $c->{dbuser} = 'press';
 $c->{dbpass} = 'zhu89';
 $c->{dbengine} = 'InnoDB';
+#$c->{dbdriver} = 'Pg'; 

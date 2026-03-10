@@ -1,0 +1,50 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="Export" /><input type="hidden" name="view" id="view" value="creators" /><input type="hidden" name="values" id="values" value="Wohlfart=3ARich=E1rd=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Wohlfart=3ARich=E1rd=3A=3A/Atom/Wohlfart=3ARich=E1rd=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Wohlfart=3ARich=E1rd=3A=3A/RSS/Wohlfart=3ARich=E1rd=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Wohlfart=3ARich=E1rd=3A=3A/RSS2/Wohlfart=3ARich=E1rd=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Wohlfart=3ARich=E1rd=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_book=5Fsection">Book Section</a></div></div><div class="ep_view_blurb">Number of items: <strong>1</strong>.</div><a name="group_book=5Fsection"></a><h2>Book Section</h2><p>
+
+
+    <span class="person_name">Gubányi, András</span> and <span class="person_name">Gergely, Attila</span> and <span class="person_name">Wohlfart, Richárd</span> and <span class="person_name">Hauberger, Gábor</span> and <span class="person_name">Gombás, Károly</span> and <span class="person_name">Simon, Gabriella</span> and <span class="person_name">Krámer, Tamás</span> and <span class="person_name">Bartal, Gergő</span> and <span class="person_name">Füle, László</span> and <span class="person_name">Vértesy, László</span> and <span class="person_name">Németh, József</span> and <span class="person_name">Láng, István</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/363/"><em>A szigetközi hullámtér szárazföldi élőhelyei hosszútávú változásainak elemzése szimulációs modell segítségével.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Centeri, Csaba</span> and <span class="person_name">Grónás, Viktor</span> 
+        
+          (eds.)
+          
+      
+      Az Európai Zöld Megállapodás stratégiai  céljainak megvalósítását szolgáló tájléptékű megoldások.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 77-82.
+    ISBN 978-963-623-117-0 (pdf)
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Mar  9 15:58:50 2026 CET</strong>.</div></div>

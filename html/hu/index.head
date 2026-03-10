@@ -1,5 +1,20 @@
 
-  <link rel="alternate" type="application/rss+xml" title="Items in MATE Repozitórium" href="http://keparchive.fater.uni-mate.hu/cgi/latest_tool?output=RSS2" />
-  <link rel="alternate" type="application/atom+xml" title="Items in MATE Repozitórium" href="http://keparchive.fater.uni-mate.hu/cgi/latest_tool?output=Atom" />
-  <link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="http://keparchive.fater.uni-mate.hu/cgi/export/repository/RDFXML/devel.rdf" />
-  <link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="http://keparchive.fater.uni-mate.hu/cgi/export/repository/RDFN3/devel.n3" />
+  <link rel="alternate" type="application/rss+xml" title="Items in MATE Repozitórium" href="https://press.mater.uni-mate.hu/cgi/latest_tool?output=RSS2" />
+  <link rel="alternate" type="application/atom+xml" title="Items in MATE Repozitórium" href="https://press.mater.uni-mate.hu/cgi/latest_tool?output=Atom" />
+  <link rel="alternate" type="application/rdf+xml" title="Repository Summary RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/repository/RDFXML/devel.rdf" />
+  <link rel="alternate" type="text/n3" title="Repository Summary RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/repository/RDFN3/devel.n3" />
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.ih.szie.hu/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '9']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->

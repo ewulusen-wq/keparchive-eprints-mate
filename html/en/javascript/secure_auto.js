@@ -1,13 +1,13 @@
-var eprints_http_root = "https://keparchive.fater.uni-mate.hu";
-var eprints_http_cgiroot = "https://keparchive.fater.uni-mate.hu/cgi";
-var eprints_oai_archive_id = "keparchive.fater.uni-mate.hu";
+var eprints_http_root = "https://press.mater.uni-mate.hu";
+var eprints_http_cgiroot = "https://press.mater.uni-mate.hu/cgi";
+var eprints_oai_archive_id = "press.mater.uni-mate.hu";
 
 
 
 
-/* From: /usr/share/eprints/ingredients/prototypejs/static/javascript/auto/20_prototype.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/20_prototype.js */
 
-/*  Prototype JavaScript framework, version 1.7.3
+/*  Prototype JavaScript framework, version 1.7.1
  *  (c) 2005-2010 Sam Stephenson
  *
  *  Prototype is freely distributable under the terms of an MIT-style license.
@@ -17,7 +17,7 @@ var eprints_oai_archive_id = "keparchive.fater.uni-mate.hu";
 
 var Prototype = {
 
-  Version: '1.7.3',
+  Version: '1.7.1',
 
   Browser: (function(){
     var ua = navigator.userAgent;
@@ -408,7 +408,7 @@ Object.extend(Function.prototype, (function() {
     var __method = this, args = slice.call(arguments, 1);
 
     var bound = function() {
-      var a = merge(args, arguments);
+      var a = merge(args, arguments), c = context;
       var c = this instanceof bound ? this : context;
       return __method.apply(c, a);
     };
@@ -573,11 +573,6 @@ Object.extend(String.prototype, (function() {
     return function(match) { return template.evaluate(match) };
   }
 
-  function isNonEmptyRegExp(regexp) {
-    return regexp.source && regexp.source !== '(?:)';
-  }
-
-
   function gsub(pattern, replacement) {
     var result = '', source = this, match;
     replacement = prepareReplacement(replacement);
@@ -585,14 +580,13 @@ Object.extend(String.prototype, (function() {
     if (Object.isString(pattern))
       pattern = RegExp.escape(pattern);
 
-    if (!(pattern.length || isNonEmptyRegExp(pattern))) {
+    if (!(pattern.length || pattern.source)) {
       replacement = replacement('');
       return replacement + source.split('').join(replacement) + replacement;
     }
 
     while (source.length > 0) {
-      match = source.match(pattern)
-      if (match && match[0].length > 0) {
+      if (match = source.match(pattern)) {
         result += source.slice(0, match.index);
         result += String.interpret(replacement(match));
         source  = source.slice(match.index + match[0].length);
@@ -630,7 +624,7 @@ Object.extend(String.prototype, (function() {
   }
 
   function stripTags() {
-    return this.replace(/<\w+(\s+("[^"]*"|'[^']*'|[^>])+)?(\/)?>|<\/\w+>/gi, '');
+    return this.replace(/<\w+(\s+("[^"]*"|'[^']*'|[^>])+)?>|<\/\w+>/gi, '');
   }
 
   function stripScripts() {
@@ -667,10 +661,7 @@ Object.extend(String.prototype, (function() {
         var key = decodeURIComponent(pair.shift()),
             value = pair.length > 1 ? pair.join('=') : pair[0];
 
-        if (value != undefined) {
-          value = value.gsub('+', ' ');
-          value = decodeURIComponent(value);
-        }
+        if (value != undefined) value = decodeURIComponent(value);
 
         if (key in hash) {
           if (!Object.isArray(hash[key])) hash[key] = [hash[key]];
@@ -743,7 +734,7 @@ Object.extend(String.prototype, (function() {
 
   function evalJSON(sanitize) {
     var json = this.unfilterJSON(),
-        cx = /[\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff\u0000]/g;
+        cx = /[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g;
     if (cx.test(json)) {
       json = json.replace(cx, function (a) {
         return '\\u' + ('0000' + a.charCodeAt(0).toString(16)).slice(-4);
@@ -764,17 +755,12 @@ Object.extend(String.prototype, (function() {
     return this.indexOf(pattern) > -1;
   }
 
-  function startsWith(pattern, position) {
-    position = Object.isNumber(position) ? position : 0;
-    return this.lastIndexOf(pattern, position) === position;
+  function startsWith(pattern) {
+    return this.lastIndexOf(pattern, 0) === 0;
   }
 
-  function endsWith(pattern, position) {
-    pattern = String(pattern);
-    position = Object.isNumber(position) ? position : this.length;
-    if (position < 0) position = 0;
-    if (position > this.length) position = this.length;
-    var d = position - pattern.length;
+  function endsWith(pattern) {
+    var d = this.length - pattern.length;
     return d >= 0 && this.indexOf(pattern, d) === d;
   }
 
@@ -816,8 +802,8 @@ Object.extend(String.prototype, (function() {
     isJSON:         isJSON,
     evalJSON:       NATIVE_JSON_PARSE_SUPPORT ? parseJSON : evalJSON,
     include:        include,
-    startsWith:     String.prototype.startsWith || startsWith,
-    endsWith:       String.prototype.endsWith || endsWith,
+    startsWith:     startsWith,
+    endsWith:       endsWith,
     empty:          empty,
     blank:          blank,
     interpolate:    interpolate
@@ -944,8 +930,8 @@ var Enumerable = (function() {
   }
 
   function include(object) {
-    if (Object.isFunction(this.indexOf) && this.indexOf(object) != -1)
-      return true;
+    if (Object.isFunction(this.indexOf))
+      if (this.indexOf(object) != -1) return true;
 
     var found = false;
     this.each(function(value) {
@@ -1341,8 +1327,9 @@ Array.from = $A;
   }
 
   if (arrayProto.some) {
-    some = wrapNative(Array.prototype.some);
+    var some = wrapNative(Array.prototype.some);
   }
+
 
   function every(iterator) {
     if (this == null) throw new TypeError();
@@ -1360,15 +1347,21 @@ Array.from = $A;
   }
 
   if (arrayProto.every) {
-    every = wrapNative(Array.prototype.every);
+    var every = wrapNative(Array.prototype.every);
   }
 
+  var _reduce = arrayProto.reduce;
+  function inject(memo, iterator) {
+    iterator = iterator || Prototype.K;
+    var context = arguments[2];
+    return _reduce.call(this, iterator.bind(context), memo);
+  }
+
+  if (!arrayProto.reduce) {
+    var inject = Enumerable.inject;
+  }
 
   Object.extend(arrayProto, Enumerable);
-
-  if (arrayProto.entries === Enumerable.entries) {
-    delete arrayProto.entries;
-  }
 
   if (!arrayProto._reverse)
     arrayProto._reverse = arrayProto.reverse;
@@ -1385,6 +1378,7 @@ Array.from = $A;
     any:       some,
     every:     every,
     all:       every,
+    inject:    inject,
 
     clear:     clear,
     first:     first,
@@ -1421,13 +1415,11 @@ var Hash = Class.create(Enumerable, (function() {
 
 
   function _each(iterator, context) {
-    var i = 0;
     for (var key in this._object) {
       var value = this._object[key], pair = [key, value];
       pair.key = key;
       pair.value = value;
-      iterator.call(context, pair, i);
-      i++;
+      iterator.call(context, pair);
     }
   }
 
@@ -1481,7 +1473,7 @@ var Hash = Class.create(Enumerable, (function() {
   function toQueryPair(key, value) {
     if (Object.isUndefined(value)) return key;
 
-    value = String.interpret(value);
+    var value = String.interpret(value);
 
     value = value.gsub(/(\r)?\n/, '\r\n');
     value = encodeURIComponent(value);
@@ -1597,9 +1589,9 @@ var ObjectRange = Class.create(Enumerable, (function() {
   }
 
   function _each(iterator, context) {
-    var value = this.start, i;
-    for (i = 0; this.include(value); i++) {
-      iterator.call(context, value, i);
+    var value = this.start;
+    while (this.include(value)) {
+      iterator.call(context, value);
       value = value.succ();
     }
   }
@@ -1794,8 +1786,7 @@ Ajax.Request = Class.create(Ajax.Base, {
     }
 
     for (var name in headers)
-      if (headers[name] != null)
-        this.transport.setRequestHeader(name, headers[name]);
+      this.transport.setRequestHeader(name, headers[name]);
   },
 
   success: function() {
@@ -2147,12 +2138,12 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
 
 
   function visible(element) {
-    return $(element).getStyle('display') !== 'none';
+    return $(element).style.display !== 'none';
   }
 
   function toggle(element, bool) {
     element = $(element);
-    if (typeof bool !== 'boolean')
+    if (Object.isUndefined(bool))
       bool = !Element.visible(element);
     Element[bool ? 'show' : 'hide'](element);
 
@@ -2646,7 +2637,6 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
   }
 
   function down(element, expression, index) {
-    if (arguments.length === 1) return firstDescendant(element);
     element = $(element), expression = expression || 0, index = index || 0;
 
     if (Object.isNumber(expression))
@@ -2684,7 +2674,6 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
 
   function descendantOf_DOM(element, ancestor) {
     element = $(element), ancestor = $(ancestor);
-    if (!element || !ancestor) return false;
     while (element = element.parentNode)
       if (element === ancestor) return true;
     return false;
@@ -2692,14 +2681,12 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
 
   function descendantOf_contains(element, ancestor) {
     element = $(element), ancestor = $(ancestor);
-    if (!element || !ancestor) return false;
     if (!ancestor.contains) return descendantOf_DOM(element, ancestor);
     return ancestor.contains(element) && ancestor !== element;
   }
 
   function descendantOf_compareDocumentPosition(element, ancestor) {
     element = $(element), ancestor = $(ancestor);
-    if (!element || !ancestor) return false;
     return (element.compareDocumentPosition(ancestor) & 8) === 8;
   }
 
@@ -2777,9 +2764,9 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
   }
 
   var PROBLEMATIC_ATTRIBUTE_READING = (function() {
-    DIV.setAttribute('onclick', []);
+    DIV.setAttribute('onclick', Prototype.emptyFunction);
     var value = DIV.getAttribute('onclick');
-    var isFunction = Object.isArray(value);
+    var isFunction = (typeof value === 'function');
     DIV.removeAttribute('onclick');
     return isFunction;
   })();
@@ -2804,10 +2791,8 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
     for (var attr in attributes) {
       name = table.names[attr] || attr;
       value = attributes[attr];
-      if (table.values[attr]) {
-        value = table.values[attr](element, value);
-        if (Object.isUndefined(value)) continue;
-      }
+      if (table.values[attr])
+        name = table.values[attr](element, value);
       if (value === false || value === null)
         element.removeAttribute(name);
       else if (value === true)
@@ -2818,32 +2803,13 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
     return element;
   }
 
-  var PROBLEMATIC_HAS_ATTRIBUTE_WITH_CHECKBOXES = (function () {
-    if (!HAS_EXTENDED_CREATE_ELEMENT_SYNTAX) {
-      return false;
-    }
-    var checkbox = document.createElement('<input type="checkbox">');
-    checkbox.checked = true;
-    var node = checkbox.getAttributeNode('checked');
-    return !node || !node.specified;
-  })();
-
   function hasAttribute(element, attribute) {
     attribute = ATTRIBUTE_TRANSLATIONS.has[attribute] || attribute;
     var node = $(element).getAttributeNode(attribute);
     return !!(node && node.specified);
   }
 
-  function hasAttribute_IE(element, attribute) {
-    if (attribute === 'checked') {
-      return element.checked;
-    }
-    return hasAttribute(element, attribute);
-  }
-
-  GLOBAL.Element.Methods.Simulated.hasAttribute =
-   PROBLEMATIC_HAS_ATTRIBUTE_WITH_CHECKBOXES ?
-   hasAttribute_IE : hasAttribute;
+  GLOBAL.Element.Methods.Simulated.hasAttribute = hasAttribute;
 
   function classNames(element) {
     return new Element.ClassNames(element);
@@ -2985,9 +2951,7 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
 
     values: {
       checked: function(element, value) {
-        value = !!value;
-        element.checked = value;
-        return value ? 'checked' : null;
+        element.checked = !!value;
       },
 
       style: function(element, value) {
@@ -3132,11 +3096,8 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
       value = element.currentStyle[style];
     }
 
-    if (style === 'opacity') {
-      if (!STANDARD_CSS_OPACITY_SUPPORTED)
-        return getOpacity_IE(element);
-      else return value ? parseFloat(value) : 1.0;
-    }
+    if (style === 'opacity' && !STANDARD_CSS_OPACITY_SUPPORTED)
+      return getOpacity_IE(element);
 
     if (value === 'auto') {
       if ((style === 'width' || style === 'height') && Element.visible(element))
@@ -3152,7 +3113,7 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
   }
 
   function hasLayout_IE(element) {
-    if (!element.currentStyle || !element.currentStyle.hasLayout)
+    if (!element.currentStyle.hasLayout)
       element.style.zoom = 1;
     return element;
   }
@@ -3188,7 +3149,7 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
     if (value < 0.00001) value = 0;
 
     style.filter = stripAlphaFromFilter_IE(filter) +
-     ' alpha(opacity=' + (value * 100) + ')';
+     'alpha(opacity=' + (value * 100) + ')';
 
     return element;
   }
@@ -3204,8 +3165,8 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
 
     var filter = Element.getStyle(element, 'filter');
     if (filter.length === 0) return 1.0;
-    var match = (filter || '').match(/alpha\(opacity=(.*)\)/i);
-    if (match && match[1]) return parseFloat(match[1]) / 100;
+    var match = (filter || '').match(/alpha\(opacity=(.*)\)/);
+    if (match[1]) return parseFloat(match[1]) / 100;
     return 1.0;
   }
 
@@ -3298,7 +3259,6 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
 
   function checkElementPrototypeDeficiency(tagName) {
     if (typeof window.Element === 'undefined') return false;
-    if (!HAS_EXTENDED_CREATE_ELEMENT_SYNTAX) return false;
     var proto = window.Element.prototype;
     if (proto) {
       var id = '_' + (Math.random() + '').slice(2),
@@ -3481,14 +3441,6 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
 
   Element.addMethods(methods);
 
-  function destroyCache_IE() {
-    DIV = null;
-    ELEMENT_CACHE = null;
-  }
-
-  if (window.attachEvent)
-    window.attachEvent('onunload', destroyCache_IE);
-
 })(this);
 (function() {
 
@@ -3530,7 +3482,7 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
     return boxWidth - bl - br - pl - pr;
   }
 
-  if (!Object.isUndefined(document.documentElement.currentStyle) && !Prototype.Browser.Opera) {
+  if ('currentStyle' in document.documentElement) {
     getRawStyle = getRawStyle_IE;
   }
 
@@ -4058,19 +4010,15 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
   function getOffsetParent(element) {
     element = $(element);
 
-    function selfOrBody(element) {
-      return isHtml(element) ? $(document.body) : $(element);
-    }
-
     if (isDocument(element) || isDetached(element) || isBody(element) || isHtml(element))
       return $(document.body);
 
     var isInline = (Element.getStyle(element, 'display') === 'inline');
-    if (!isInline && element.offsetParent) return selfOrBody(element.offsetParent);
+    if (!isInline && element.offsetParent) return $(element.offsetParent);
 
     while ((element = element.parentNode) && element !== document.body) {
       if (Element.getStyle(element, 'position') !== 'static') {
-        return selfOrBody(element);
+        return isHtml(element) ? $(document.body) : $(element);
       }
     }
 
@@ -4108,8 +4056,8 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
       }
     } while (element);
 
-    valueL -= layout.get('margin-left');
-    valueT -= layout.get('margin-top');
+    valueL -= layout.get('margin-top');
+    valueT -= layout.get('margin-left');
 
     return new Element.Offset(valueL, valueT);
   }
@@ -4117,16 +4065,9 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
   function cumulativeScrollOffset(element) {
     var valueT = 0, valueL = 0;
     do {
-      if (element === document.body) {
-        var bodyScrollNode = document.documentElement || document.body.parentNode || document.body;
-        valueT += !Object.isUndefined(window.pageYOffset) ? window.pageYOffset : bodyScrollNode.scrollTop || 0;
-        valueL += !Object.isUndefined(window.pageXOffset) ? window.pageXOffset : bodyScrollNode.scrollLeft || 0;
-        break;
-      } else {
-        valueT += element.scrollTop  || 0;
-        valueL += element.scrollLeft || 0;
-        element = element.parentNode;
-      }
+      valueT += element.scrollTop  || 0;
+      valueL += element.scrollLeft || 0;
+      element = element.parentNode;
     } while (element);
     return new Element.Offset(valueL, valueT);
   }
@@ -4134,8 +4075,7 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
   function viewportOffset(forElement) {
     var valueT = 0, valueL = 0, docBody = document.body;
 
-    forElement = $(forElement);
-    var element = forElement;
+    var element = $(forElement);
     do {
       valueT += element.offsetTop  || 0;
       valueL += element.offsetLeft || 0;
@@ -4168,11 +4108,10 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
     var layout = element.getLayout();
 
     element.store('prototype_absolutize_original_styles', {
-      position: element.getStyle('position'),
-      left:     element.getStyle('left'),
-      top:      element.getStyle('top'),
-      width:    element.getStyle('width'),
-      height:   element.getStyle('height')
+      left:   element.getStyle('left'),
+      top:    element.getStyle('top'),
+      width:  element.getStyle('width'),
+      height: element.getStyle('height')
     });
 
     element.setStyle({
@@ -4280,8 +4219,6 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
       offsetLeft: 0
     }, options || {});
 
-    var docEl = document.documentElement;
-
     source  = $(source);
     element = $(element);
     var p, delta, layout, styles = {};
@@ -4295,41 +4232,19 @@ Ajax.PeriodicalUpdater = Class.create(Ajax.Base, {
       }
     }
 
-    function pageScrollXY() {
-      var x = 0, y = 0;
-      if (Object.isNumber(window.pageXOffset)) {
-        x = window.pageXOffset;
-        y = window.pageYOffset;
-      } else if (document.body && (document.body.scrollLeft || document.body.scrollTop)) {
-        x = document.body.scrollLeft;
-        y = document.body.scrollTop;
-      } else if (docEl && (docEl.scrollLeft || docEl.scrollTop)) {
-        x = docEl.scrollLeft;
-        y = docEl.scrollTop;
-      }
-      return { x: x, y: y };
-    }
-
-    var pageXY = pageScrollXY();
-
-
     if (options.setWidth || options.setHeight) {
       layout = Element.getLayout(source);
     }
 
     if (options.setLeft)
-      styles.left = (p[0] + pageXY.x - delta[0] + options.offsetLeft) + 'px';
+      styles.left = (p[0] - delta[0] + options.offsetLeft) + 'px';
     if (options.setTop)
-      styles.top  = (p[1] + pageXY.y - delta[1] + options.offsetTop)  + 'px';
+      styles.top  = (p[1] - delta[1] + options.offsetTop)  + 'px';
 
-    var currentLayout = element.getLayout();
-
-    if (options.setWidth) {
-      styles.width = layout.get('width')  + 'px';
-    }
-    if (options.setHeight) {
-      styles.height = layout.get('height') + 'px';
-    }
+    if (options.setWidth)
+      styles.width  = layout.get('border-box-width')  + 'px';
+    if (options.setHeight)
+      styles.height = layout.get('border-box-height') + 'px';
 
     return Element.setStyle(element, styles);
   }
@@ -4526,1132 +4441,589 @@ Prototype.Selector = (function() {
     extendElement: Element.extend
   };
 })();
-Prototype._original_property = window.Sizzle;
-
-;(function () {
-  function fakeDefine(fn) {
-    Prototype._actual_sizzle = fn();
-  }
-  fakeDefine.amd = true;
-
-  if (typeof define !== 'undefined' && define.amd) {
-    Prototype._original_define = define;
-    Prototype._actual_sizzle = null;
-    window.define = fakeDefine;
-  }
-})();
-
 /*!
- * Sizzle CSS Selector Engine v1.10.18
- * http://sizzlejs.com/
- *
- * Copyright 2013 jQuery Foundation, Inc. and other contributors
- * Released under the MIT license
- * http://jquery.org/license
- *
- * Date: 2014-02-05
+ * Sizzle CSS Selector Engine
+ *  Copyright 2011, The Dojo Foundation
+ *  Released under the MIT, BSD, and GPL Licenses.
+ *  More information: http://sizzlejs.com/
  */
-(function( window ) {
+(function(){
 
-var i,
-	support,
-	Expr,
-	getText,
-	isXML,
-	compile,
-	select,
-	outermostContext,
-	sortInput,
-	hasDuplicate,
-
-	setDocument,
-	document,
-	docElem,
-	documentIsHTML,
-	rbuggyQSA,
-	rbuggyMatches,
-	matches,
-	contains,
-
-	expando = "sizzle" + -(new Date()),
-	preferredDoc = window.document,
-	dirruns = 0,
+var chunker = /((?:\((?:\([^()]+\)|[^()]+)+\)|\[(?:\[[^\[\]]*\]|['"][^'"]*['"]|[^\[\]'"]+)+\]|\\.|[^ >+~,(\[\\]+)+|[>+~])(\s*,\s*)?((?:.|\r|\n)*)/g,
 	done = 0,
-	classCache = createCache(),
-	tokenCache = createCache(),
-	compilerCache = createCache(),
-	sortOrder = function( a, b ) {
-		if ( a === b ) {
-			hasDuplicate = true;
-		}
-		return 0;
-	},
+	toString = Object.prototype.toString,
+	hasDuplicate = false,
+	baseHasDuplicate = true,
+	rBackslash = /\\/g,
+	rNonWord = /\W/;
 
-	strundefined = typeof undefined,
-	MAX_NEGATIVE = 1 << 31,
+[0, 0].sort(function() {
+	baseHasDuplicate = false;
+	return 0;
+});
 
-	hasOwn = ({}).hasOwnProperty,
-	arr = [],
-	pop = arr.pop,
-	push_native = arr.push,
-	push = arr.push,
-	slice = arr.slice,
-	indexOf = arr.indexOf || function( elem ) {
-		var i = 0,
-			len = this.length;
-		for ( ; i < len; i++ ) {
-			if ( this[i] === elem ) {
-				return i;
-			}
-		}
-		return -1;
-	},
-
-	booleans = "checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",
-
-
-	whitespace = "[\\x20\\t\\r\\n\\f]",
-	characterEncoding = "(?:\\\\.|[\\w-]|[^\\x00-\\xa0])+",
-
-	identifier = characterEncoding.replace( "w", "w#" ),
-
-	attributes = "\\[" + whitespace + "*(" + characterEncoding + ")" + whitespace +
-		"*(?:([*^$|!~]?=)" + whitespace + "*(?:(['\"])((?:\\\\.|[^\\\\])*?)\\3|(" + identifier + ")|)|)" + whitespace + "*\\]",
-
-	pseudos = ":(" + characterEncoding + ")(?:\\(((['\"])((?:\\\\.|[^\\\\])*?)\\3|((?:\\\\.|[^\\\\()[\\]]|" + attributes.replace( 3, 8 ) + ")*)|.*)\\)|)",
-
-	rtrim = new RegExp( "^" + whitespace + "+|((?:^|[^\\\\])(?:\\\\.)*)" + whitespace + "+$", "g" ),
-
-	rcomma = new RegExp( "^" + whitespace + "*," + whitespace + "*" ),
-	rcombinators = new RegExp( "^" + whitespace + "*([>+~]|" + whitespace + ")" + whitespace + "*" ),
-
-	rattributeQuotes = new RegExp( "=" + whitespace + "*([^\\]'\"]*?)" + whitespace + "*\\]", "g" ),
-
-	rpseudo = new RegExp( pseudos ),
-	ridentifier = new RegExp( "^" + identifier + "$" ),
-
-	matchExpr = {
-		"ID": new RegExp( "^#(" + characterEncoding + ")" ),
-		"CLASS": new RegExp( "^\\.(" + characterEncoding + ")" ),
-		"TAG": new RegExp( "^(" + characterEncoding.replace( "w", "w*" ) + ")" ),
-		"ATTR": new RegExp( "^" + attributes ),
-		"PSEUDO": new RegExp( "^" + pseudos ),
-		"CHILD": new RegExp( "^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" + whitespace +
-			"*(even|odd|(([+-]|)(\\d*)n|)" + whitespace + "*(?:([+-]|)" + whitespace +
-			"*(\\d+)|))" + whitespace + "*\\)|)", "i" ),
-		"bool": new RegExp( "^(?:" + booleans + ")$", "i" ),
-		"needsContext": new RegExp( "^" + whitespace + "*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\(" +
-			whitespace + "*((?:-\\d)?\\d*)" + whitespace + "*\\)|)(?=[^-]|$)", "i" )
-	},
-
-	rinputs = /^(?:input|select|textarea|button)$/i,
-	rheader = /^h\d$/i,
-
-	rnative = /^[^{]+\{\s*\[native \w/,
-
-	rquickExpr = /^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,
-
-	rsibling = /[+~]/,
-	rescape = /'|\\/g,
-
-	runescape = new RegExp( "\\\\([\\da-f]{1,6}" + whitespace + "?|(" + whitespace + ")|.)", "ig" ),
-	funescape = function( _, escaped, escapedWhitespace ) {
-		var high = "0x" + escaped - 0x10000;
-		return high !== high || escapedWhitespace ?
-			escaped :
-			high < 0 ?
-				String.fromCharCode( high + 0x10000 ) :
-				String.fromCharCode( high >> 10 | 0xD800, high & 0x3FF | 0xDC00 );
-	};
-
-try {
-	push.apply(
-		(arr = slice.call( preferredDoc.childNodes )),
-		preferredDoc.childNodes
-	);
-	arr[ preferredDoc.childNodes.length ].nodeType;
-} catch ( e ) {
-	push = { apply: arr.length ?
-
-		function( target, els ) {
-			push_native.apply( target, slice.call(els) );
-		} :
-
-		function( target, els ) {
-			var j = target.length,
-				i = 0;
-			while ( (target[j++] = els[i++]) ) {}
-			target.length = j - 1;
-		}
-	};
-}
-
-function Sizzle( selector, context, results, seed ) {
-	var match, elem, m, nodeType,
-		i, groups, old, nid, newContext, newSelector;
-
-	if ( ( context ? context.ownerDocument || context : preferredDoc ) !== document ) {
-		setDocument( context );
-	}
-
-	context = context || document;
+var Sizzle = function( selector, context, results, seed ) {
 	results = results || [];
+	context = context || document;
+
+	var origContext = context;
+
+	if ( context.nodeType !== 1 && context.nodeType !== 9 ) {
+		return [];
+	}
 
 	if ( !selector || typeof selector !== "string" ) {
 		return results;
 	}
 
-	if ( (nodeType = context.nodeType) !== 1 && nodeType !== 9 ) {
-		return [];
-	}
+	var m, set, checkSet, extra, ret, cur, pop, i,
+		prune = true,
+		contextXML = Sizzle.isXML( context ),
+		parts = [],
+		soFar = selector;
 
-	if ( documentIsHTML && !seed ) {
+	do {
+		chunker.exec( "" );
+		m = chunker.exec( soFar );
 
-		if ( (match = rquickExpr.exec( selector )) ) {
-			if ( (m = match[1]) ) {
-				if ( nodeType === 9 ) {
-					elem = context.getElementById( m );
-					if ( elem && elem.parentNode ) {
-						if ( elem.id === m ) {
-							results.push( elem );
-							return results;
-						}
-					} else {
-						return results;
-					}
-				} else {
-					if ( context.ownerDocument && (elem = context.ownerDocument.getElementById( m )) &&
-						contains( context, elem ) && elem.id === m ) {
-						results.push( elem );
-						return results;
-					}
+		if ( m ) {
+			soFar = m[3];
+
+			parts.push( m[1] );
+
+			if ( m[2] ) {
+				extra = m[3];
+				break;
+			}
+		}
+	} while ( m );
+
+	if ( parts.length > 1 && origPOS.exec( selector ) ) {
+
+		if ( parts.length === 2 && Expr.relative[ parts[0] ] ) {
+			set = posProcess( parts[0] + parts[1], context );
+
+		} else {
+			set = Expr.relative[ parts[0] ] ?
+				[ context ] :
+				Sizzle( parts.shift(), context );
+
+			while ( parts.length ) {
+				selector = parts.shift();
+
+				if ( Expr.relative[ selector ] ) {
+					selector += parts.shift();
 				}
 
-			} else if ( match[2] ) {
-				push.apply( results, context.getElementsByTagName( selector ) );
-				return results;
-
-			} else if ( (m = match[3]) && support.getElementsByClassName && context.getElementsByClassName ) {
-				push.apply( results, context.getElementsByClassName( m ) );
-				return results;
+				set = posProcess( selector, set );
 			}
 		}
 
-		if ( support.qsa && (!rbuggyQSA || !rbuggyQSA.test( selector )) ) {
-			nid = old = expando;
-			newContext = context;
-			newSelector = nodeType === 9 && selector;
-
-			if ( nodeType === 1 && context.nodeName.toLowerCase() !== "object" ) {
-				groups = tokenize( selector );
-
-				if ( (old = context.getAttribute("id")) ) {
-					nid = old.replace( rescape, "\\$&" );
-				} else {
-					context.setAttribute( "id", nid );
-				}
-				nid = "[id='" + nid + "'] ";
-
-				i = groups.length;
-				while ( i-- ) {
-					groups[i] = nid + toSelector( groups[i] );
-				}
-				newContext = rsibling.test( selector ) && testContext( context.parentNode ) || context;
-				newSelector = groups.join(",");
-			}
-
-			if ( newSelector ) {
-				try {
-					push.apply( results,
-						newContext.querySelectorAll( newSelector )
-					);
-					return results;
-				} catch(qsaError) {
-				} finally {
-					if ( !old ) {
-						context.removeAttribute("id");
-					}
-				}
-			}
-		}
-	}
-
-	return select( selector.replace( rtrim, "$1" ), context, results, seed );
-}
-
-/**
- * Create key-value caches of limited size
- * @returns {Function(string, Object)} Returns the Object data after storing it on itself with
- *	property name the (space-suffixed) string and (if the cache is larger than Expr.cacheLength)
- *	deleting the oldest entry
- */
-function createCache() {
-	var keys = [];
-
-	function cache( key, value ) {
-		if ( keys.push( key + " " ) > Expr.cacheLength ) {
-			delete cache[ keys.shift() ];
-		}
-		return (cache[ key + " " ] = value);
-	}
-	return cache;
-}
-
-/**
- * Mark a function for special use by Sizzle
- * @param {Function} fn The function to mark
- */
-function markFunction( fn ) {
-	fn[ expando ] = true;
-	return fn;
-}
-
-/**
- * Support testing using an element
- * @param {Function} fn Passed the created div and expects a boolean result
- */
-function assert( fn ) {
-	var div = document.createElement("div");
-
-	try {
-		return !!fn( div );
-	} catch (e) {
-		return false;
-	} finally {
-		if ( div.parentNode ) {
-			div.parentNode.removeChild( div );
-		}
-		div = null;
-	}
-}
-
-/**
- * Adds the same handler for all of the specified attrs
- * @param {String} attrs Pipe-separated list of attributes
- * @param {Function} handler The method that will be applied
- */
-function addHandle( attrs, handler ) {
-	var arr = attrs.split("|"),
-		i = attrs.length;
-
-	while ( i-- ) {
-		Expr.attrHandle[ arr[i] ] = handler;
-	}
-}
-
-/**
- * Checks document order of two siblings
- * @param {Element} a
- * @param {Element} b
- * @returns {Number} Returns less than 0 if a precedes b, greater than 0 if a follows b
- */
-function siblingCheck( a, b ) {
-	var cur = b && a,
-		diff = cur && a.nodeType === 1 && b.nodeType === 1 &&
-			( ~b.sourceIndex || MAX_NEGATIVE ) -
-			( ~a.sourceIndex || MAX_NEGATIVE );
-
-	if ( diff ) {
-		return diff;
-	}
-
-	if ( cur ) {
-		while ( (cur = cur.nextSibling) ) {
-			if ( cur === b ) {
-				return -1;
-			}
-		}
-	}
-
-	return a ? 1 : -1;
-}
-
-/**
- * Returns a function to use in pseudos for input types
- * @param {String} type
- */
-function createInputPseudo( type ) {
-	return function( elem ) {
-		var name = elem.nodeName.toLowerCase();
-		return name === "input" && elem.type === type;
-	};
-}
-
-/**
- * Returns a function to use in pseudos for buttons
- * @param {String} type
- */
-function createButtonPseudo( type ) {
-	return function( elem ) {
-		var name = elem.nodeName.toLowerCase();
-		return (name === "input" || name === "button") && elem.type === type;
-	};
-}
-
-/**
- * Returns a function to use in pseudos for positionals
- * @param {Function} fn
- */
-function createPositionalPseudo( fn ) {
-	return markFunction(function( argument ) {
-		argument = +argument;
-		return markFunction(function( seed, matches ) {
-			var j,
-				matchIndexes = fn( [], seed.length, argument ),
-				i = matchIndexes.length;
-
-			while ( i-- ) {
-				if ( seed[ (j = matchIndexes[i]) ] ) {
-					seed[j] = !(matches[j] = seed[j]);
-				}
-			}
-		});
-	});
-}
-
-/**
- * Checks a node for validity as a Sizzle context
- * @param {Element|Object=} context
- * @returns {Element|Object|Boolean} The input node if acceptable, otherwise a falsy value
- */
-function testContext( context ) {
-	return context && typeof context.getElementsByTagName !== strundefined && context;
-}
-
-support = Sizzle.support = {};
-
-/**
- * Detects XML nodes
- * @param {Element|Object} elem An element or a document
- * @returns {Boolean} True iff elem is a non-HTML XML node
- */
-isXML = Sizzle.isXML = function( elem ) {
-	var documentElement = elem && (elem.ownerDocument || elem).documentElement;
-	return documentElement ? documentElement.nodeName !== "HTML" : false;
-};
-
-/**
- * Sets document-related variables once based on the current document
- * @param {Element|Object} [doc] An element or document object to use to set the document
- * @returns {Object} Returns the current document
- */
-setDocument = Sizzle.setDocument = function( node ) {
-	var hasCompare,
-		doc = node ? node.ownerDocument || node : preferredDoc,
-		parent = doc.defaultView;
-
-	if ( doc === document || doc.nodeType !== 9 || !doc.documentElement ) {
-		return document;
-	}
-
-	document = doc;
-	docElem = doc.documentElement;
-
-	documentIsHTML = !isXML( doc );
-
-	if ( parent && parent !== parent.top ) {
-		if ( parent.addEventListener ) {
-			parent.addEventListener( "unload", function() {
-				setDocument();
-			}, false );
-		} else if ( parent.attachEvent ) {
-			parent.attachEvent( "onunload", function() {
-				setDocument();
-			});
-		}
-	}
-
-	/* Attributes
-	---------------------------------------------------------------------- */
-
-	support.attributes = assert(function( div ) {
-		div.className = "i";
-		return !div.getAttribute("className");
-	});
-
-	/* getElement(s)By*
-	---------------------------------------------------------------------- */
-
-	support.getElementsByTagName = assert(function( div ) {
-		div.appendChild( doc.createComment("") );
-		return !div.getElementsByTagName("*").length;
-	});
-
-	support.getElementsByClassName = rnative.test( doc.getElementsByClassName ) && assert(function( div ) {
-		div.innerHTML = "<div class='a'></div><div class='a i'></div>";
-
-		div.firstChild.className = "i";
-		return div.getElementsByClassName("i").length === 2;
-	});
-
-	support.getById = assert(function( div ) {
-		docElem.appendChild( div ).id = expando;
-		return !doc.getElementsByName || !doc.getElementsByName( expando ).length;
-	});
-
-	if ( support.getById ) {
-		Expr.find["ID"] = function( id, context ) {
-			if ( typeof context.getElementById !== strundefined && documentIsHTML ) {
-				var m = context.getElementById( id );
-				return m && m.parentNode ? [m] : [];
-			}
-		};
-		Expr.filter["ID"] = function( id ) {
-			var attrId = id.replace( runescape, funescape );
-			return function( elem ) {
-				return elem.getAttribute("id") === attrId;
-			};
-		};
 	} else {
-		delete Expr.find["ID"];
+		if ( !seed && parts.length > 1 && context.nodeType === 9 && !contextXML &&
+				Expr.match.ID.test(parts[0]) && !Expr.match.ID.test(parts[parts.length - 1]) ) {
 
-		Expr.filter["ID"] =  function( id ) {
-			var attrId = id.replace( runescape, funescape );
-			return function( elem ) {
-				var node = typeof elem.getAttributeNode !== strundefined && elem.getAttributeNode("id");
-				return node && node.value === attrId;
-			};
-		};
-	}
+			ret = Sizzle.find( parts.shift(), context, contextXML );
+			context = ret.expr ?
+				Sizzle.filter( ret.expr, ret.set )[0] :
+				ret.set[0];
+		}
 
-	Expr.find["TAG"] = support.getElementsByTagName ?
-		function( tag, context ) {
-			if ( typeof context.getElementsByTagName !== strundefined ) {
-				return context.getElementsByTagName( tag );
+		if ( context ) {
+			ret = seed ?
+				{ expr: parts.pop(), set: makeArray(seed) } :
+				Sizzle.find( parts.pop(), parts.length === 1 && (parts[0] === "~" || parts[0] === "+") && context.parentNode ? context.parentNode : context, contextXML );
+
+			set = ret.expr ?
+				Sizzle.filter( ret.expr, ret.set ) :
+				ret.set;
+
+			if ( parts.length > 0 ) {
+				checkSet = makeArray( set );
+
+			} else {
+				prune = false;
 			}
-		} :
-		function( tag, context ) {
-			var elem,
-				tmp = [],
-				i = 0,
-				results = context.getElementsByTagName( tag );
 
-			if ( tag === "*" ) {
-				while ( (elem = results[i++]) ) {
-					if ( elem.nodeType === 1 ) {
-						tmp.push( elem );
-					}
+			while ( parts.length ) {
+				cur = parts.pop();
+				pop = cur;
+
+				if ( !Expr.relative[ cur ] ) {
+					cur = "";
+				} else {
+					pop = parts.pop();
 				}
 
-				return tmp;
-			}
-			return results;
-		};
+				if ( pop == null ) {
+					pop = context;
+				}
 
-	Expr.find["CLASS"] = support.getElementsByClassName && function( className, context ) {
-		if ( typeof context.getElementsByClassName !== strundefined && documentIsHTML ) {
-			return context.getElementsByClassName( className );
+				Expr.relative[ cur ]( checkSet, pop, contextXML );
+			}
+
+		} else {
+			checkSet = parts = [];
 		}
-	};
-
-	/* QSA/matchesSelector
-	---------------------------------------------------------------------- */
-
-
-	rbuggyMatches = [];
-
-	rbuggyQSA = [];
-
-	if ( (support.qsa = rnative.test( doc.querySelectorAll )) ) {
-		assert(function( div ) {
-			div.innerHTML = "<select t=''><option selected=''></option></select>";
-
-			if ( div.querySelectorAll("[t^='']").length ) {
-				rbuggyQSA.push( "[*^$]=" + whitespace + "*(?:''|\"\")" );
-			}
-
-			if ( !div.querySelectorAll("[selected]").length ) {
-				rbuggyQSA.push( "\\[" + whitespace + "*(?:value|" + booleans + ")" );
-			}
-
-			if ( !div.querySelectorAll(":checked").length ) {
-				rbuggyQSA.push(":checked");
-			}
-		});
-
-		assert(function( div ) {
-			var input = doc.createElement("input");
-			input.setAttribute( "type", "hidden" );
-			div.appendChild( input ).setAttribute( "name", "D" );
-
-			if ( div.querySelectorAll("[name=d]").length ) {
-				rbuggyQSA.push( "name" + whitespace + "*[*^$|!~]?=" );
-			}
-
-			if ( !div.querySelectorAll(":enabled").length ) {
-				rbuggyQSA.push( ":enabled", ":disabled" );
-			}
-
-			div.querySelectorAll("*,:x");
-			rbuggyQSA.push(",.*:");
-		});
 	}
 
-	if ( (support.matchesSelector = rnative.test( (matches = docElem.webkitMatchesSelector ||
-		docElem.mozMatchesSelector ||
-		docElem.oMatchesSelector ||
-		docElem.msMatchesSelector) )) ) {
-
-		assert(function( div ) {
-			support.disconnectedMatch = matches.call( div, "div" );
-
-			matches.call( div, "[s!='']:x" );
-			rbuggyMatches.push( "!=", pseudos );
-		});
+	if ( !checkSet ) {
+		checkSet = set;
 	}
 
-	rbuggyQSA = rbuggyQSA.length && new RegExp( rbuggyQSA.join("|") );
-	rbuggyMatches = rbuggyMatches.length && new RegExp( rbuggyMatches.join("|") );
+	if ( !checkSet ) {
+		Sizzle.error( cur || selector );
+	}
 
-	/* Contains
-	---------------------------------------------------------------------- */
-	hasCompare = rnative.test( docElem.compareDocumentPosition );
+	if ( toString.call(checkSet) === "[object Array]" ) {
+		if ( !prune ) {
+			results.push.apply( results, checkSet );
 
-	contains = hasCompare || rnative.test( docElem.contains ) ?
-		function( a, b ) {
-			var adown = a.nodeType === 9 ? a.documentElement : a,
-				bup = b && b.parentNode;
-			return a === bup || !!( bup && bup.nodeType === 1 && (
-				adown.contains ?
-					adown.contains( bup ) :
-					a.compareDocumentPosition && a.compareDocumentPosition( bup ) & 16
-			));
-		} :
-		function( a, b ) {
-			if ( b ) {
-				while ( (b = b.parentNode) ) {
-					if ( b === a ) {
-						return true;
-					}
+		} else if ( context && context.nodeType === 1 ) {
+			for ( i = 0; checkSet[i] != null; i++ ) {
+				if ( checkSet[i] && (checkSet[i] === true || checkSet[i].nodeType === 1 && Sizzle.contains(context, checkSet[i])) ) {
+					results.push( set[i] );
 				}
 			}
-			return false;
-		};
 
-	/* Sorting
-	---------------------------------------------------------------------- */
-
-	sortOrder = hasCompare ?
-	function( a, b ) {
-
-		if ( a === b ) {
-			hasDuplicate = true;
-			return 0;
-		}
-
-		var compare = !a.compareDocumentPosition - !b.compareDocumentPosition;
-		if ( compare ) {
-			return compare;
-		}
-
-		compare = ( a.ownerDocument || a ) === ( b.ownerDocument || b ) ?
-			a.compareDocumentPosition( b ) :
-
-			1;
-
-		if ( compare & 1 ||
-			(!support.sortDetached && b.compareDocumentPosition( a ) === compare) ) {
-
-			if ( a === doc || a.ownerDocument === preferredDoc && contains(preferredDoc, a) ) {
-				return -1;
-			}
-			if ( b === doc || b.ownerDocument === preferredDoc && contains(preferredDoc, b) ) {
-				return 1;
-			}
-
-			return sortInput ?
-				( indexOf.call( sortInput, a ) - indexOf.call( sortInput, b ) ) :
-				0;
-		}
-
-		return compare & 4 ? -1 : 1;
-	} :
-	function( a, b ) {
-		if ( a === b ) {
-			hasDuplicate = true;
-			return 0;
-		}
-
-		var cur,
-			i = 0,
-			aup = a.parentNode,
-			bup = b.parentNode,
-			ap = [ a ],
-			bp = [ b ];
-
-		if ( !aup || !bup ) {
-			return a === doc ? -1 :
-				b === doc ? 1 :
-				aup ? -1 :
-				bup ? 1 :
-				sortInput ?
-				( indexOf.call( sortInput, a ) - indexOf.call( sortInput, b ) ) :
-				0;
-
-		} else if ( aup === bup ) {
-			return siblingCheck( a, b );
-		}
-
-		cur = a;
-		while ( (cur = cur.parentNode) ) {
-			ap.unshift( cur );
-		}
-		cur = b;
-		while ( (cur = cur.parentNode) ) {
-			bp.unshift( cur );
-		}
-
-		while ( ap[i] === bp[i] ) {
-			i++;
-		}
-
-		return i ?
-			siblingCheck( ap[i], bp[i] ) :
-
-			ap[i] === preferredDoc ? -1 :
-			bp[i] === preferredDoc ? 1 :
-			0;
-	};
-
-	return doc;
-};
-
-Sizzle.matches = function( expr, elements ) {
-	return Sizzle( expr, null, null, elements );
-};
-
-Sizzle.matchesSelector = function( elem, expr ) {
-	if ( ( elem.ownerDocument || elem ) !== document ) {
-		setDocument( elem );
-	}
-
-	expr = expr.replace( rattributeQuotes, "='$1']" );
-
-	if ( support.matchesSelector && documentIsHTML &&
-		( !rbuggyMatches || !rbuggyMatches.test( expr ) ) &&
-		( !rbuggyQSA     || !rbuggyQSA.test( expr ) ) ) {
-
-		try {
-			var ret = matches.call( elem, expr );
-
-			if ( ret || support.disconnectedMatch ||
-					elem.document && elem.document.nodeType !== 11 ) {
-				return ret;
-			}
-		} catch(e) {}
-	}
-
-	return Sizzle( expr, document, null, [elem] ).length > 0;
-};
-
-Sizzle.contains = function( context, elem ) {
-	if ( ( context.ownerDocument || context ) !== document ) {
-		setDocument( context );
-	}
-	return contains( context, elem );
-};
-
-Sizzle.attr = function( elem, name ) {
-	if ( ( elem.ownerDocument || elem ) !== document ) {
-		setDocument( elem );
-	}
-
-	var fn = Expr.attrHandle[ name.toLowerCase() ],
-		val = fn && hasOwn.call( Expr.attrHandle, name.toLowerCase() ) ?
-			fn( elem, name, !documentIsHTML ) :
-			undefined;
-
-	return val !== undefined ?
-		val :
-		support.attributes || !documentIsHTML ?
-			elem.getAttribute( name ) :
-			(val = elem.getAttributeNode(name)) && val.specified ?
-				val.value :
-				null;
-};
-
-Sizzle.error = function( msg ) {
-	throw new Error( "Syntax error, unrecognized expression: " + msg );
-};
-
-/**
- * Document sorting and removing duplicates
- * @param {ArrayLike} results
- */
-Sizzle.uniqueSort = function( results ) {
-	var elem,
-		duplicates = [],
-		j = 0,
-		i = 0;
-
-	hasDuplicate = !support.detectDuplicates;
-	sortInput = !support.sortStable && results.slice( 0 );
-	results.sort( sortOrder );
-
-	if ( hasDuplicate ) {
-		while ( (elem = results[i++]) ) {
-			if ( elem === results[ i ] ) {
-				j = duplicates.push( i );
+		} else {
+			for ( i = 0; checkSet[i] != null; i++ ) {
+				if ( checkSet[i] && checkSet[i].nodeType === 1 ) {
+					results.push( set[i] );
+				}
 			}
 		}
-		while ( j-- ) {
-			results.splice( duplicates[ j ], 1 );
-		}
+
+	} else {
+		makeArray( checkSet, results );
 	}
 
-	sortInput = null;
+	if ( extra ) {
+		Sizzle( extra, origContext, results, seed );
+		Sizzle.uniqueSort( results );
+	}
 
 	return results;
 };
 
-/**
- * Utility function for retrieving the text value of an array of DOM nodes
- * @param {Array|Element} elem
- */
-getText = Sizzle.getText = function( elem ) {
-	var node,
-		ret = "",
-		i = 0,
-		nodeType = elem.nodeType;
+Sizzle.uniqueSort = function( results ) {
+	if ( sortOrder ) {
+		hasDuplicate = baseHasDuplicate;
+		results.sort( sortOrder );
 
-	if ( !nodeType ) {
-		while ( (node = elem[i++]) ) {
-			ret += getText( node );
-		}
-	} else if ( nodeType === 1 || nodeType === 9 || nodeType === 11 ) {
-		if ( typeof elem.textContent === "string" ) {
-			return elem.textContent;
-		} else {
-			for ( elem = elem.firstChild; elem; elem = elem.nextSibling ) {
-				ret += getText( elem );
+		if ( hasDuplicate ) {
+			for ( var i = 1; i < results.length; i++ ) {
+				if ( results[i] === results[ i - 1 ] ) {
+					results.splice( i--, 1 );
+				}
 			}
 		}
-	} else if ( nodeType === 3 || nodeType === 4 ) {
-		return elem.nodeValue;
 	}
 
-	return ret;
+	return results;
 };
 
-Expr = Sizzle.selectors = {
+Sizzle.matches = function( expr, set ) {
+	return Sizzle( expr, null, null, set );
+};
 
-	cacheLength: 50,
+Sizzle.matchesSelector = function( node, expr ) {
+	return Sizzle( expr, null, null, [node] ).length > 0;
+};
 
-	createPseudo: markFunction,
+Sizzle.find = function( expr, context, isXML ) {
+	var set;
 
-	match: matchExpr,
+	if ( !expr ) {
+		return [];
+	}
 
-	attrHandle: {},
+	for ( var i = 0, l = Expr.order.length; i < l; i++ ) {
+		var match,
+			type = Expr.order[i];
 
-	find: {},
+		if ( (match = Expr.leftMatch[ type ].exec( expr )) ) {
+			var left = match[1];
+			match.splice( 1, 1 );
 
-	relative: {
-		">": { dir: "parentNode", first: true },
-		" ": { dir: "parentNode" },
-		"+": { dir: "previousSibling", first: true },
-		"~": { dir: "previousSibling" }
+			if ( left.substr( left.length - 1 ) !== "\\" ) {
+				match[1] = (match[1] || "").replace( rBackslash, "" );
+				set = Expr.find[ type ]( match, context, isXML );
+
+				if ( set != null ) {
+					expr = expr.replace( Expr.match[ type ], "" );
+					break;
+				}
+			}
+		}
+	}
+
+	if ( !set ) {
+		set = typeof context.getElementsByTagName !== "undefined" ?
+			context.getElementsByTagName( "*" ) :
+			[];
+	}
+
+	return { set: set, expr: expr };
+};
+
+Sizzle.filter = function( expr, set, inplace, not ) {
+	var match, anyFound,
+		old = expr,
+		result = [],
+		curLoop = set,
+		isXMLFilter = set && set[0] && Sizzle.isXML( set[0] );
+
+	while ( expr && set.length ) {
+		for ( var type in Expr.filter ) {
+			if ( (match = Expr.leftMatch[ type ].exec( expr )) != null && match[2] ) {
+				var found, item,
+					filter = Expr.filter[ type ],
+					left = match[1];
+
+				anyFound = false;
+
+				match.splice(1,1);
+
+				if ( left.substr( left.length - 1 ) === "\\" ) {
+					continue;
+				}
+
+				if ( curLoop === result ) {
+					result = [];
+				}
+
+				if ( Expr.preFilter[ type ] ) {
+					match = Expr.preFilter[ type ]( match, curLoop, inplace, result, not, isXMLFilter );
+
+					if ( !match ) {
+						anyFound = found = true;
+
+					} else if ( match === true ) {
+						continue;
+					}
+				}
+
+				if ( match ) {
+					for ( var i = 0; (item = curLoop[i]) != null; i++ ) {
+						if ( item ) {
+							found = filter( item, match, i, curLoop );
+							var pass = not ^ !!found;
+
+							if ( inplace && found != null ) {
+								if ( pass ) {
+									anyFound = true;
+
+								} else {
+									curLoop[i] = false;
+								}
+
+							} else if ( pass ) {
+								result.push( item );
+								anyFound = true;
+							}
+						}
+					}
+				}
+
+				if ( found !== undefined ) {
+					if ( !inplace ) {
+						curLoop = result;
+					}
+
+					expr = expr.replace( Expr.match[ type ], "" );
+
+					if ( !anyFound ) {
+						return [];
+					}
+
+					break;
+				}
+			}
+		}
+
+		if ( expr === old ) {
+			if ( anyFound == null ) {
+				Sizzle.error( expr );
+
+			} else {
+				break;
+			}
+		}
+
+		old = expr;
+	}
+
+	return curLoop;
+};
+
+Sizzle.error = function( msg ) {
+	throw "Syntax error, unrecognized expression: " + msg;
+};
+
+var Expr = Sizzle.selectors = {
+	order: [ "ID", "NAME", "TAG" ],
+
+	match: {
+		ID: /#((?:[\w\u00c0-\uFFFF\-]|\\.)+)/,
+		CLASS: /\.((?:[\w\u00c0-\uFFFF\-]|\\.)+)/,
+		NAME: /\[name=['"]*((?:[\w\u00c0-\uFFFF\-]|\\.)+)['"]*\]/,
+		ATTR: /\[\s*((?:[\w\u00c0-\uFFFF\-]|\\.)+)\s*(?:(\S?=)\s*(?:(['"])(.*?)\3|(#?(?:[\w\u00c0-\uFFFF\-]|\\.)*)|)|)\s*\]/,
+		TAG: /^((?:[\w\u00c0-\uFFFF\*\-]|\\.)+)/,
+		CHILD: /:(only|nth|last|first)-child(?:\(\s*(even|odd|(?:[+\-]?\d+|(?:[+\-]?\d*)?n\s*(?:[+\-]\s*\d+)?))\s*\))?/,
+		POS: /:(nth|eq|gt|lt|first|last|even|odd)(?:\((\d*)\))?(?=[^\-]|$)/,
+		PSEUDO: /:((?:[\w\u00c0-\uFFFF\-]|\\.)+)(?:\((['"]?)((?:\([^\)]+\)|[^\(\)]*)+)\2\))?/
 	},
 
-	preFilter: {
-		"ATTR": function( match ) {
-			match[1] = match[1].replace( runescape, funescape );
+	leftMatch: {},
 
-			match[3] = ( match[4] || match[5] || "" ).replace( runescape, funescape );
+	attrMap: {
+		"class": "className",
+		"for": "htmlFor"
+	},
 
-			if ( match[2] === "~=" ) {
-				match[3] = " " + match[3] + " ";
+	attrHandle: {
+		href: function( elem ) {
+			return elem.getAttribute( "href" );
+		},
+		type: function( elem ) {
+			return elem.getAttribute( "type" );
+		}
+	},
+
+	relative: {
+		"+": function(checkSet, part){
+			var isPartStr = typeof part === "string",
+				isTag = isPartStr && !rNonWord.test( part ),
+				isPartStrNotTag = isPartStr && !isTag;
+
+			if ( isTag ) {
+				part = part.toLowerCase();
 			}
 
-			return match.slice( 0, 4 );
+			for ( var i = 0, l = checkSet.length, elem; i < l; i++ ) {
+				if ( (elem = checkSet[i]) ) {
+					while ( (elem = elem.previousSibling) && elem.nodeType !== 1 ) {}
+
+					checkSet[i] = isPartStrNotTag || elem && elem.nodeName.toLowerCase() === part ?
+						elem || false :
+						elem === part;
+				}
+			}
+
+			if ( isPartStrNotTag ) {
+				Sizzle.filter( part, checkSet, true );
+			}
 		},
 
-		"CHILD": function( match ) {
-			/* matches from matchExpr["CHILD"]
-				1 type (only|nth|...)
-				2 what (child|of-type)
-				3 argument (even|odd|\d*|\d*n([+-]\d+)?|...)
-				4 xn-component of xn+y argument ([+-]?\d*n|)
-				5 sign of xn-component
-				6 x of xn-component
-				7 sign of y-component
-				8 y of y-component
-			*/
-			match[1] = match[1].toLowerCase();
+		">": function( checkSet, part ) {
+			var elem,
+				isPartStr = typeof part === "string",
+				i = 0,
+				l = checkSet.length;
 
-			if ( match[1].slice( 0, 3 ) === "nth" ) {
-				if ( !match[3] ) {
+			if ( isPartStr && !rNonWord.test( part ) ) {
+				part = part.toLowerCase();
+
+				for ( ; i < l; i++ ) {
+					elem = checkSet[i];
+
+					if ( elem ) {
+						var parent = elem.parentNode;
+						checkSet[i] = parent.nodeName.toLowerCase() === part ? parent : false;
+					}
+				}
+
+			} else {
+				for ( ; i < l; i++ ) {
+					elem = checkSet[i];
+
+					if ( elem ) {
+						checkSet[i] = isPartStr ?
+							elem.parentNode :
+							elem.parentNode === part;
+					}
+				}
+
+				if ( isPartStr ) {
+					Sizzle.filter( part, checkSet, true );
+				}
+			}
+		},
+
+		"": function(checkSet, part, isXML){
+			var nodeCheck,
+				doneName = done++,
+				checkFn = dirCheck;
+
+			if ( typeof part === "string" && !rNonWord.test( part ) ) {
+				part = part.toLowerCase();
+				nodeCheck = part;
+				checkFn = dirNodeCheck;
+			}
+
+			checkFn( "parentNode", part, doneName, checkSet, nodeCheck, isXML );
+		},
+
+		"~": function( checkSet, part, isXML ) {
+			var nodeCheck,
+				doneName = done++,
+				checkFn = dirCheck;
+
+			if ( typeof part === "string" && !rNonWord.test( part ) ) {
+				part = part.toLowerCase();
+				nodeCheck = part;
+				checkFn = dirNodeCheck;
+			}
+
+			checkFn( "previousSibling", part, doneName, checkSet, nodeCheck, isXML );
+		}
+	},
+
+	find: {
+		ID: function( match, context, isXML ) {
+			if ( typeof context.getElementById !== "undefined" && !isXML ) {
+				var m = context.getElementById(match[1]);
+				return m && m.parentNode ? [m] : [];
+			}
+		},
+
+		NAME: function( match, context ) {
+			if ( typeof context.getElementsByName !== "undefined" ) {
+				var ret = [],
+					results = context.getElementsByName( match[1] );
+
+				for ( var i = 0, l = results.length; i < l; i++ ) {
+					if ( results[i].getAttribute("name") === match[1] ) {
+						ret.push( results[i] );
+					}
+				}
+
+				return ret.length === 0 ? null : ret;
+			}
+		},
+
+		TAG: function( match, context ) {
+			if ( typeof context.getElementsByTagName !== "undefined" ) {
+				return context.getElementsByTagName( match[1] );
+			}
+		}
+	},
+	preFilter: {
+		CLASS: function( match, curLoop, inplace, result, not, isXML ) {
+			match = " " + match[1].replace( rBackslash, "" ) + " ";
+
+			if ( isXML ) {
+				return match;
+			}
+
+			for ( var i = 0, elem; (elem = curLoop[i]) != null; i++ ) {
+				if ( elem ) {
+					if ( not ^ (elem.className && (" " + elem.className + " ").replace(/[\t\n\r]/g, " ").indexOf(match) >= 0) ) {
+						if ( !inplace ) {
+							result.push( elem );
+						}
+
+					} else if ( inplace ) {
+						curLoop[i] = false;
+					}
+				}
+			}
+
+			return false;
+		},
+
+		ID: function( match ) {
+			return match[1].replace( rBackslash, "" );
+		},
+
+		TAG: function( match, curLoop ) {
+			return match[1].replace( rBackslash, "" ).toLowerCase();
+		},
+
+		CHILD: function( match ) {
+			if ( match[1] === "nth" ) {
+				if ( !match[2] ) {
 					Sizzle.error( match[0] );
 				}
 
-				match[4] = +( match[4] ? match[5] + (match[6] || 1) : 2 * ( match[3] === "even" || match[3] === "odd" ) );
-				match[5] = +( ( match[7] + match[8] ) || match[3] === "odd" );
+				match[2] = match[2].replace(/^\+|\s*/g, '');
 
-			} else if ( match[3] ) {
+				var test = /(-?)(\d*)(?:n([+\-]?\d*))?/.exec(
+					match[2] === "even" && "2n" || match[2] === "odd" && "2n+1" ||
+					!/\D/.test( match[2] ) && "0n+" + match[2] || match[2]);
+
+				match[2] = (test[1] + (test[2] || 1)) - 0;
+				match[3] = test[3] - 0;
+			}
+			else if ( match[2] ) {
 				Sizzle.error( match[0] );
+			}
+
+			match[0] = done++;
+
+			return match;
+		},
+
+		ATTR: function( match, curLoop, inplace, result, not, isXML ) {
+			var name = match[1] = match[1].replace( rBackslash, "" );
+
+			if ( !isXML && Expr.attrMap[name] ) {
+				match[1] = Expr.attrMap[name];
+			}
+
+			match[4] = ( match[4] || match[5] || "" ).replace( rBackslash, "" );
+
+			if ( match[2] === "~=" ) {
+				match[4] = " " + match[4] + " ";
 			}
 
 			return match;
 		},
 
-		"PSEUDO": function( match ) {
-			var excess,
-				unquoted = !match[5] && match[2];
+		PSEUDO: function( match, curLoop, inplace, result, not ) {
+			if ( match[1] === "not" ) {
+				if ( ( chunker.exec(match[3]) || "" ).length > 1 || /^\w/.test(match[3]) ) {
+					match[3] = Sizzle(match[3], null, null, curLoop);
 
-			if ( matchExpr["CHILD"].test( match[0] ) ) {
-				return null;
+				} else {
+					var ret = Sizzle.filter(match[3], curLoop, inplace, true ^ not);
+
+					if ( !inplace ) {
+						result.push.apply( result, ret );
+					}
+
+					return false;
+				}
+
+			} else if ( Expr.match.POS.test( match[0] ) || Expr.match.CHILD.test( match[0] ) ) {
+				return true;
 			}
 
-			if ( match[3] && match[4] !== undefined ) {
-				match[2] = match[4];
+			return match;
+		},
 
-			} else if ( unquoted && rpseudo.test( unquoted ) &&
-				(excess = tokenize( unquoted, true )) &&
-				(excess = unquoted.indexOf( ")", unquoted.length - excess ) - unquoted.length) ) {
+		POS: function( match ) {
+			match.unshift( true );
 
-				match[0] = match[0].slice( 0, excess );
-				match[2] = unquoted.slice( 0, excess );
-			}
-
-			return match.slice( 0, 3 );
+			return match;
 		}
 	},
 
-	filter: {
-
-		"TAG": function( nodeNameSelector ) {
-			var nodeName = nodeNameSelector.replace( runescape, funescape ).toLowerCase();
-			return nodeNameSelector === "*" ?
-				function() { return true; } :
-				function( elem ) {
-					return elem.nodeName && elem.nodeName.toLowerCase() === nodeName;
-				};
+	filters: {
+		enabled: function( elem ) {
+			return elem.disabled === false && elem.type !== "hidden";
 		},
 
-		"CLASS": function( className ) {
-			var pattern = classCache[ className + " " ];
-
-			return pattern ||
-				(pattern = new RegExp( "(^|" + whitespace + ")" + className + "(" + whitespace + "|$)" )) &&
-				classCache( className, function( elem ) {
-					return pattern.test( typeof elem.className === "string" && elem.className || typeof elem.getAttribute !== strundefined && elem.getAttribute("class") || "" );
-				});
-		},
-
-		"ATTR": function( name, operator, check ) {
-			return function( elem ) {
-				var result = Sizzle.attr( elem, name );
-
-				if ( result == null ) {
-					return operator === "!=";
-				}
-				if ( !operator ) {
-					return true;
-				}
-
-				result += "";
-
-				return operator === "=" ? result === check :
-					operator === "!=" ? result !== check :
-					operator === "^=" ? check && result.indexOf( check ) === 0 :
-					operator === "*=" ? check && result.indexOf( check ) > -1 :
-					operator === "$=" ? check && result.slice( -check.length ) === check :
-					operator === "~=" ? ( " " + result + " " ).indexOf( check ) > -1 :
-					operator === "|=" ? result === check || result.slice( 0, check.length + 1 ) === check + "-" :
-					false;
-			};
-		},
-
-		"CHILD": function( type, what, argument, first, last ) {
-			var simple = type.slice( 0, 3 ) !== "nth",
-				forward = type.slice( -4 ) !== "last",
-				ofType = what === "of-type";
-
-			return first === 1 && last === 0 ?
-
-				function( elem ) {
-					return !!elem.parentNode;
-				} :
-
-				function( elem, context, xml ) {
-					var cache, outerCache, node, diff, nodeIndex, start,
-						dir = simple !== forward ? "nextSibling" : "previousSibling",
-						parent = elem.parentNode,
-						name = ofType && elem.nodeName.toLowerCase(),
-						useCache = !xml && !ofType;
-
-					if ( parent ) {
-
-						if ( simple ) {
-							while ( dir ) {
-								node = elem;
-								while ( (node = node[ dir ]) ) {
-									if ( ofType ? node.nodeName.toLowerCase() === name : node.nodeType === 1 ) {
-										return false;
-									}
-								}
-								start = dir = type === "only" && !start && "nextSibling";
-							}
-							return true;
-						}
-
-						start = [ forward ? parent.firstChild : parent.lastChild ];
-
-						if ( forward && useCache ) {
-							outerCache = parent[ expando ] || (parent[ expando ] = {});
-							cache = outerCache[ type ] || [];
-							nodeIndex = cache[0] === dirruns && cache[1];
-							diff = cache[0] === dirruns && cache[2];
-							node = nodeIndex && parent.childNodes[ nodeIndex ];
-
-							while ( (node = ++nodeIndex && node && node[ dir ] ||
-
-								(diff = nodeIndex = 0) || start.pop()) ) {
-
-								if ( node.nodeType === 1 && ++diff && node === elem ) {
-									outerCache[ type ] = [ dirruns, nodeIndex, diff ];
-									break;
-								}
-							}
-
-						} else if ( useCache && (cache = (elem[ expando ] || (elem[ expando ] = {}))[ type ]) && cache[0] === dirruns ) {
-							diff = cache[1];
-
-						} else {
-							while ( (node = ++nodeIndex && node && node[ dir ] ||
-								(diff = nodeIndex = 0) || start.pop()) ) {
-
-								if ( ( ofType ? node.nodeName.toLowerCase() === name : node.nodeType === 1 ) && ++diff ) {
-									if ( useCache ) {
-										(node[ expando ] || (node[ expando ] = {}))[ type ] = [ dirruns, diff ];
-									}
-
-									if ( node === elem ) {
-										break;
-									}
-								}
-							}
-						}
-
-						diff -= last;
-						return diff === first || ( diff % first === 0 && diff / first >= 0 );
-					}
-				};
-		},
-
-		"PSEUDO": function( pseudo, argument ) {
-			var args,
-				fn = Expr.pseudos[ pseudo ] || Expr.setFilters[ pseudo.toLowerCase() ] ||
-					Sizzle.error( "unsupported pseudo: " + pseudo );
-
-			if ( fn[ expando ] ) {
-				return fn( argument );
-			}
-
-			if ( fn.length > 1 ) {
-				args = [ pseudo, pseudo, "", argument ];
-				return Expr.setFilters.hasOwnProperty( pseudo.toLowerCase() ) ?
-					markFunction(function( seed, matches ) {
-						var idx,
-							matched = fn( seed, argument ),
-							i = matched.length;
-						while ( i-- ) {
-							idx = indexOf.call( seed, matched[i] );
-							seed[ idx ] = !( matches[ idx ] = matched[i] );
-						}
-					}) :
-					function( elem ) {
-						return fn( elem, 0, args );
-					};
-			}
-
-			return fn;
-		}
-	},
-
-	pseudos: {
-		"not": markFunction(function( selector ) {
-			var input = [],
-				results = [],
-				matcher = compile( selector.replace( rtrim, "$1" ) );
-
-			return matcher[ expando ] ?
-				markFunction(function( seed, matches, context, xml ) {
-					var elem,
-						unmatched = matcher( seed, null, xml, [] ),
-						i = seed.length;
-
-					while ( i-- ) {
-						if ( (elem = unmatched[i]) ) {
-							seed[i] = !(matches[i] = elem);
-						}
-					}
-				}) :
-				function( elem, context, xml ) {
-					input[0] = elem;
-					matcher( input, null, xml, results );
-					return !results.pop();
-				};
-		}),
-
-		"has": markFunction(function( selector ) {
-			return function( elem ) {
-				return Sizzle( selector, elem ).length > 0;
-			};
-		}),
-
-		"contains": markFunction(function( text ) {
-			return function( elem ) {
-				return ( elem.textContent || elem.innerText || getText( elem ) ).indexOf( text ) > -1;
-			};
-		}),
-
-		"lang": markFunction( function( lang ) {
-			if ( !ridentifier.test(lang || "") ) {
-				Sizzle.error( "unsupported lang: " + lang );
-			}
-			lang = lang.replace( runescape, funescape ).toLowerCase();
-			return function( elem ) {
-				var elemLang;
-				do {
-					if ( (elemLang = documentIsHTML ?
-						elem.lang :
-						elem.getAttribute("xml:lang") || elem.getAttribute("lang")) ) {
-
-						elemLang = elemLang.toLowerCase();
-						return elemLang === lang || elemLang.indexOf( lang + "-" ) === 0;
-					}
-				} while ( (elem = elem.parentNode) && elem.nodeType === 1 );
-				return false;
-			};
-		}),
-
-		"target": function( elem ) {
-			var hash = window.location && window.location.hash;
-			return hash && hash.slice( 1 ) === elem.id;
-		},
-
-		"root": function( elem ) {
-			return elem === docElem;
-		},
-
-		"focus": function( elem ) {
-			return elem === document.activeElement && (!document.hasFocus || document.hasFocus()) && !!(elem.type || elem.href || ~elem.tabIndex);
-		},
-
-		"enabled": function( elem ) {
-			return elem.disabled === false;
-		},
-
-		"disabled": function( elem ) {
+		disabled: function( elem ) {
 			return elem.disabled === true;
 		},
 
-		"checked": function( elem ) {
-			var nodeName = elem.nodeName.toLowerCase();
-			return (nodeName === "input" && !!elem.checked) || (nodeName === "option" && !!elem.selected);
+		checked: function( elem ) {
+			return elem.checked === true;
 		},
 
-		"selected": function( elem ) {
+		selected: function( elem ) {
 			if ( elem.parentNode ) {
 				elem.parentNode.selectedIndex;
 			}
@@ -5659,644 +5031,746 @@ Expr = Sizzle.selectors = {
 			return elem.selected === true;
 		},
 
-		"empty": function( elem ) {
-			for ( elem = elem.firstChild; elem; elem = elem.nextSibling ) {
-				if ( elem.nodeType < 6 ) {
-					return false;
-				}
-			}
-			return true;
+		parent: function( elem ) {
+			return !!elem.firstChild;
 		},
 
-		"parent": function( elem ) {
-			return !Expr.pseudos["empty"]( elem );
+		empty: function( elem ) {
+			return !elem.firstChild;
 		},
 
-		"header": function( elem ) {
-			return rheader.test( elem.nodeName );
+		has: function( elem, i, match ) {
+			return !!Sizzle( match[3], elem ).length;
 		},
 
-		"input": function( elem ) {
-			return rinputs.test( elem.nodeName );
+		header: function( elem ) {
+			return (/h\d/i).test( elem.nodeName );
 		},
 
-		"button": function( elem ) {
+		text: function( elem ) {
+			var attr = elem.getAttribute( "type" ), type = elem.type;
+			return elem.nodeName.toLowerCase() === "input" && "text" === type && ( attr === type || attr === null );
+		},
+
+		radio: function( elem ) {
+			return elem.nodeName.toLowerCase() === "input" && "radio" === elem.type;
+		},
+
+		checkbox: function( elem ) {
+			return elem.nodeName.toLowerCase() === "input" && "checkbox" === elem.type;
+		},
+
+		file: function( elem ) {
+			return elem.nodeName.toLowerCase() === "input" && "file" === elem.type;
+		},
+
+		password: function( elem ) {
+			return elem.nodeName.toLowerCase() === "input" && "password" === elem.type;
+		},
+
+		submit: function( elem ) {
 			var name = elem.nodeName.toLowerCase();
-			return name === "input" && elem.type === "button" || name === "button";
+			return (name === "input" || name === "button") && "submit" === elem.type;
 		},
 
-		"text": function( elem ) {
-			var attr;
-			return elem.nodeName.toLowerCase() === "input" &&
-				elem.type === "text" &&
-
-				( (attr = elem.getAttribute("type")) == null || attr.toLowerCase() === "text" );
+		image: function( elem ) {
+			return elem.nodeName.toLowerCase() === "input" && "image" === elem.type;
 		},
 
-		"first": createPositionalPseudo(function() {
-			return [ 0 ];
-		}),
+		reset: function( elem ) {
+			var name = elem.nodeName.toLowerCase();
+			return (name === "input" || name === "button") && "reset" === elem.type;
+		},
 
-		"last": createPositionalPseudo(function( matchIndexes, length ) {
-			return [ length - 1 ];
-		}),
+		button: function( elem ) {
+			var name = elem.nodeName.toLowerCase();
+			return name === "input" && "button" === elem.type || name === "button";
+		},
 
-		"eq": createPositionalPseudo(function( matchIndexes, length, argument ) {
-			return [ argument < 0 ? argument + length : argument ];
-		}),
+		input: function( elem ) {
+			return (/input|select|textarea|button/i).test( elem.nodeName );
+		},
 
-		"even": createPositionalPseudo(function( matchIndexes, length ) {
-			var i = 0;
-			for ( ; i < length; i += 2 ) {
-				matchIndexes.push( i );
+		focus: function( elem ) {
+			return elem === elem.ownerDocument.activeElement;
+		}
+	},
+	setFilters: {
+		first: function( elem, i ) {
+			return i === 0;
+		},
+
+		last: function( elem, i, match, array ) {
+			return i === array.length - 1;
+		},
+
+		even: function( elem, i ) {
+			return i % 2 === 0;
+		},
+
+		odd: function( elem, i ) {
+			return i % 2 === 1;
+		},
+
+		lt: function( elem, i, match ) {
+			return i < match[3] - 0;
+		},
+
+		gt: function( elem, i, match ) {
+			return i > match[3] - 0;
+		},
+
+		nth: function( elem, i, match ) {
+			return match[3] - 0 === i;
+		},
+
+		eq: function( elem, i, match ) {
+			return match[3] - 0 === i;
+		}
+	},
+	filter: {
+		PSEUDO: function( elem, match, i, array ) {
+			var name = match[1],
+				filter = Expr.filters[ name ];
+
+			if ( filter ) {
+				return filter( elem, i, match, array );
+
+			} else if ( name === "contains" ) {
+				return (elem.textContent || elem.innerText || Sizzle.getText([ elem ]) || "").indexOf(match[3]) >= 0;
+
+			} else if ( name === "not" ) {
+				var not = match[3];
+
+				for ( var j = 0, l = not.length; j < l; j++ ) {
+					if ( not[j] === elem ) {
+						return false;
+					}
+				}
+
+				return true;
+
+			} else {
+				Sizzle.error( name );
 			}
-			return matchIndexes;
-		}),
+		},
 
-		"odd": createPositionalPseudo(function( matchIndexes, length ) {
-			var i = 1;
-			for ( ; i < length; i += 2 ) {
-				matchIndexes.push( i );
-			}
-			return matchIndexes;
-		}),
+		CHILD: function( elem, match ) {
+			var type = match[1],
+				node = elem;
 
-		"lt": createPositionalPseudo(function( matchIndexes, length, argument ) {
-			var i = argument < 0 ? argument + length : argument;
-			for ( ; --i >= 0; ) {
-				matchIndexes.push( i );
-			}
-			return matchIndexes;
-		}),
+			switch ( type ) {
+				case "only":
+				case "first":
+					while ( (node = node.previousSibling) )	 {
+						if ( node.nodeType === 1 ) {
+							return false;
+						}
+					}
 
-		"gt": createPositionalPseudo(function( matchIndexes, length, argument ) {
-			var i = argument < 0 ? argument + length : argument;
-			for ( ; ++i < length; ) {
-				matchIndexes.push( i );
+					if ( type === "first" ) {
+						return true;
+					}
+
+					node = elem;
+
+				case "last":
+					while ( (node = node.nextSibling) )	 {
+						if ( node.nodeType === 1 ) {
+							return false;
+						}
+					}
+
+					return true;
+
+				case "nth":
+					var first = match[2],
+						last = match[3];
+
+					if ( first === 1 && last === 0 ) {
+						return true;
+					}
+
+					var doneName = match[0],
+						parent = elem.parentNode;
+
+					if ( parent && (parent.sizcache !== doneName || !elem.nodeIndex) ) {
+						var count = 0;
+
+						for ( node = parent.firstChild; node; node = node.nextSibling ) {
+							if ( node.nodeType === 1 ) {
+								node.nodeIndex = ++count;
+							}
+						}
+
+						parent.sizcache = doneName;
+					}
+
+					var diff = elem.nodeIndex - last;
+
+					if ( first === 0 ) {
+						return diff === 0;
+
+					} else {
+						return ( diff % first === 0 && diff / first >= 0 );
+					}
 			}
-			return matchIndexes;
-		})
+		},
+
+		ID: function( elem, match ) {
+			return elem.nodeType === 1 && elem.getAttribute("id") === match;
+		},
+
+		TAG: function( elem, match ) {
+			return (match === "*" && elem.nodeType === 1) || elem.nodeName.toLowerCase() === match;
+		},
+
+		CLASS: function( elem, match ) {
+			return (" " + (elem.className || elem.getAttribute("class")) + " ")
+				.indexOf( match ) > -1;
+		},
+
+		ATTR: function( elem, match ) {
+			var name = match[1],
+				result = Expr.attrHandle[ name ] ?
+					Expr.attrHandle[ name ]( elem ) :
+					elem[ name ] != null ?
+						elem[ name ] :
+						elem.getAttribute( name ),
+				value = result + "",
+				type = match[2],
+				check = match[4];
+
+			return result == null ?
+				type === "!=" :
+				type === "=" ?
+				value === check :
+				type === "*=" ?
+				value.indexOf(check) >= 0 :
+				type === "~=" ?
+				(" " + value + " ").indexOf(check) >= 0 :
+				!check ?
+				value && result !== false :
+				type === "!=" ?
+				value !== check :
+				type === "^=" ?
+				value.indexOf(check) === 0 :
+				type === "$=" ?
+				value.substr(value.length - check.length) === check :
+				type === "|=" ?
+				value === check || value.substr(0, check.length + 1) === check + "-" :
+				false;
+		},
+
+		POS: function( elem, match, i, array ) {
+			var name = match[2],
+				filter = Expr.setFilters[ name ];
+
+			if ( filter ) {
+				return filter( elem, i, match, array );
+			}
+		}
 	}
 };
 
-Expr.pseudos["nth"] = Expr.pseudos["eq"];
+var origPOS = Expr.match.POS,
+	fescape = function(all, num){
+		return "\\" + (num - 0 + 1);
+	};
 
-for ( i in { radio: true, checkbox: true, file: true, password: true, image: true } ) {
-	Expr.pseudos[ i ] = createInputPseudo( i );
+for ( var type in Expr.match ) {
+	Expr.match[ type ] = new RegExp( Expr.match[ type ].source + (/(?![^\[]*\])(?![^\(]*\))/.source) );
+	Expr.leftMatch[ type ] = new RegExp( /(^(?:.|\r|\n)*?)/.source + Expr.match[ type ].source.replace(/\\(\d+)/g, fescape) );
 }
-for ( i in { submit: true, reset: true } ) {
-	Expr.pseudos[ i ] = createButtonPseudo( i );
-}
 
-function setFilters() {}
-setFilters.prototype = Expr.filters = Expr.pseudos;
-Expr.setFilters = new setFilters();
+var makeArray = function( array, results ) {
+	array = Array.prototype.slice.call( array, 0 );
 
-function tokenize( selector, parseOnly ) {
-	var matched, match, tokens, type,
-		soFar, groups, preFilters,
-		cached = tokenCache[ selector + " " ];
-
-	if ( cached ) {
-		return parseOnly ? 0 : cached.slice( 0 );
+	if ( results ) {
+		results.push.apply( results, array );
+		return results;
 	}
 
-	soFar = selector;
-	groups = [];
-	preFilters = Expr.preFilter;
+	return array;
+};
 
-	while ( soFar ) {
+try {
+	Array.prototype.slice.call( document.documentElement.childNodes, 0 )[0].nodeType;
 
-		if ( !matched || (match = rcomma.exec( soFar )) ) {
-			if ( match ) {
-				soFar = soFar.slice( match[0].length ) || soFar;
-			}
-			groups.push( (tokens = []) );
-		}
+} catch( e ) {
+	makeArray = function( array, results ) {
+		var i = 0,
+			ret = results || [];
 
-		matched = false;
+		if ( toString.call(array) === "[object Array]" ) {
+			Array.prototype.push.apply( ret, array );
 
-		if ( (match = rcombinators.exec( soFar )) ) {
-			matched = match.shift();
-			tokens.push({
-				value: matched,
-				type: match[0].replace( rtrim, " " )
-			});
-			soFar = soFar.slice( matched.length );
-		}
-
-		for ( type in Expr.filter ) {
-			if ( (match = matchExpr[ type ].exec( soFar )) && (!preFilters[ type ] ||
-				(match = preFilters[ type ]( match ))) ) {
-				matched = match.shift();
-				tokens.push({
-					value: matched,
-					type: type,
-					matches: match
-				});
-				soFar = soFar.slice( matched.length );
-			}
-		}
-
-		if ( !matched ) {
-			break;
-		}
-	}
-
-	return parseOnly ?
-		soFar.length :
-		soFar ?
-			Sizzle.error( selector ) :
-			tokenCache( selector, groups ).slice( 0 );
-}
-
-function toSelector( tokens ) {
-	var i = 0,
-		len = tokens.length,
-		selector = "";
-	for ( ; i < len; i++ ) {
-		selector += tokens[i].value;
-	}
-	return selector;
-}
-
-function addCombinator( matcher, combinator, base ) {
-	var dir = combinator.dir,
-		checkNonElements = base && dir === "parentNode",
-		doneName = done++;
-
-	return combinator.first ?
-		function( elem, context, xml ) {
-			while ( (elem = elem[ dir ]) ) {
-				if ( elem.nodeType === 1 || checkNonElements ) {
-					return matcher( elem, context, xml );
+		} else {
+			if ( typeof array.length === "number" ) {
+				for ( var l = array.length; i < l; i++ ) {
+					ret.push( array[i] );
 				}
-			}
-		} :
 
-		function( elem, context, xml ) {
-			var oldCache, outerCache,
-				newCache = [ dirruns, doneName ];
-
-			if ( xml ) {
-				while ( (elem = elem[ dir ]) ) {
-					if ( elem.nodeType === 1 || checkNonElements ) {
-						if ( matcher( elem, context, xml ) ) {
-							return true;
-						}
-					}
-				}
 			} else {
-				while ( (elem = elem[ dir ]) ) {
-					if ( elem.nodeType === 1 || checkNonElements ) {
-						outerCache = elem[ expando ] || (elem[ expando ] = {});
-						if ( (oldCache = outerCache[ dir ]) &&
-							oldCache[ 0 ] === dirruns && oldCache[ 1 ] === doneName ) {
-
-							return (newCache[ 2 ] = oldCache[ 2 ]);
-						} else {
-							outerCache[ dir ] = newCache;
-
-							if ( (newCache[ 2 ] = matcher( elem, context, xml )) ) {
-								return true;
-							}
-						}
-					}
+				for ( ; array[i]; i++ ) {
+					ret.push( array[i] );
 				}
+			}
+		}
+
+		return ret;
+	};
+}
+
+var sortOrder, siblingCheck;
+
+if ( document.documentElement.compareDocumentPosition ) {
+	sortOrder = function( a, b ) {
+		if ( a === b ) {
+			hasDuplicate = true;
+			return 0;
+		}
+
+		if ( !a.compareDocumentPosition || !b.compareDocumentPosition ) {
+			return a.compareDocumentPosition ? -1 : 1;
+		}
+
+		return a.compareDocumentPosition(b) & 4 ? -1 : 1;
+	};
+
+} else {
+	sortOrder = function( a, b ) {
+		if ( a === b ) {
+			hasDuplicate = true;
+			return 0;
+
+		} else if ( a.sourceIndex && b.sourceIndex ) {
+			return a.sourceIndex - b.sourceIndex;
+		}
+
+		var al, bl,
+			ap = [],
+			bp = [],
+			aup = a.parentNode,
+			bup = b.parentNode,
+			cur = aup;
+
+		if ( aup === bup ) {
+			return siblingCheck( a, b );
+
+		} else if ( !aup ) {
+			return -1;
+
+		} else if ( !bup ) {
+			return 1;
+		}
+
+		while ( cur ) {
+			ap.unshift( cur );
+			cur = cur.parentNode;
+		}
+
+		cur = bup;
+
+		while ( cur ) {
+			bp.unshift( cur );
+			cur = cur.parentNode;
+		}
+
+		al = ap.length;
+		bl = bp.length;
+
+		for ( var i = 0; i < al && i < bl; i++ ) {
+			if ( ap[i] !== bp[i] ) {
+				return siblingCheck( ap[i], bp[i] );
+			}
+		}
+
+		return i === al ?
+			siblingCheck( a, bp[i], -1 ) :
+			siblingCheck( ap[i], b, 1 );
+	};
+
+	siblingCheck = function( a, b, ret ) {
+		if ( a === b ) {
+			return ret;
+		}
+
+		var cur = a.nextSibling;
+
+		while ( cur ) {
+			if ( cur === b ) {
+				return -1;
+			}
+
+			cur = cur.nextSibling;
+		}
+
+		return 1;
+	};
+}
+
+Sizzle.getText = function( elems ) {
+	var ret = "", elem;
+
+	for ( var i = 0; elems[i]; i++ ) {
+		elem = elems[i];
+
+		if ( elem.nodeType === 3 || elem.nodeType === 4 ) {
+			ret += elem.nodeValue;
+
+		} else if ( elem.nodeType !== 8 ) {
+			ret += Sizzle.getText( elem.childNodes );
+		}
+	}
+
+	return ret;
+};
+
+(function(){
+	var form = document.createElement("div"),
+		id = "script" + (new Date()).getTime(),
+		root = document.documentElement;
+
+	form.innerHTML = "<a name='" + id + "'/>";
+
+	root.insertBefore( form, root.firstChild );
+
+	if ( document.getElementById( id ) ) {
+		Expr.find.ID = function( match, context, isXML ) {
+			if ( typeof context.getElementById !== "undefined" && !isXML ) {
+				var m = context.getElementById(match[1]);
+
+				return m ?
+					m.id === match[1] || typeof m.getAttributeNode !== "undefined" && m.getAttributeNode("id").nodeValue === match[1] ?
+						[m] :
+						undefined :
+					[];
 			}
 		};
-}
 
-function elementMatcher( matchers ) {
-	return matchers.length > 1 ?
-		function( elem, context, xml ) {
-			var i = matchers.length;
-			while ( i-- ) {
-				if ( !matchers[i]( elem, context, xml ) ) {
-					return false;
+		Expr.filter.ID = function( elem, match ) {
+			var node = typeof elem.getAttributeNode !== "undefined" && elem.getAttributeNode("id");
+
+			return elem.nodeType === 1 && node && node.nodeValue === match;
+		};
+	}
+
+	root.removeChild( form );
+
+	root = form = null;
+})();
+
+(function(){
+
+	var div = document.createElement("div");
+	div.appendChild( document.createComment("") );
+
+	if ( div.getElementsByTagName("*").length > 0 ) {
+		Expr.find.TAG = function( match, context ) {
+			var results = context.getElementsByTagName( match[1] );
+
+			if ( match[1] === "*" ) {
+				var tmp = [];
+
+				for ( var i = 0; results[i]; i++ ) {
+					if ( results[i].nodeType === 1 ) {
+						tmp.push( results[i] );
+					}
 				}
+
+				results = tmp;
 			}
-			return true;
-		} :
-		matchers[0];
-}
 
-function multipleContexts( selector, contexts, results ) {
-	var i = 0,
-		len = contexts.length;
-	for ( ; i < len; i++ ) {
-		Sizzle( selector, contexts[i], results );
-	}
-	return results;
-}
-
-function condense( unmatched, map, filter, context, xml ) {
-	var elem,
-		newUnmatched = [],
-		i = 0,
-		len = unmatched.length,
-		mapped = map != null;
-
-	for ( ; i < len; i++ ) {
-		if ( (elem = unmatched[i]) ) {
-			if ( !filter || filter( elem, context, xml ) ) {
-				newUnmatched.push( elem );
-				if ( mapped ) {
-					map.push( i );
-				}
-			}
-		}
+			return results;
+		};
 	}
 
-	return newUnmatched;
-}
+	div.innerHTML = "<a href='#'></a>";
 
-function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postSelector ) {
-	if ( postFilter && !postFilter[ expando ] ) {
-		postFilter = setMatcher( postFilter );
+	if ( div.firstChild && typeof div.firstChild.getAttribute !== "undefined" &&
+			div.firstChild.getAttribute("href") !== "#" ) {
+
+		Expr.attrHandle.href = function( elem ) {
+			return elem.getAttribute( "href", 2 );
+		};
 	}
-	if ( postFinder && !postFinder[ expando ] ) {
-		postFinder = setMatcher( postFinder, postSelector );
-	}
-	return markFunction(function( seed, results, context, xml ) {
-		var temp, i, elem,
-			preMap = [],
-			postMap = [],
-			preexisting = results.length,
 
-			elems = seed || multipleContexts( selector || "*", context.nodeType ? [ context ] : context, [] ),
+	div = null;
+})();
 
-			matcherIn = preFilter && ( seed || !selector ) ?
-				condense( elems, preMap, preFilter, context, xml ) :
-				elems,
+if ( document.querySelectorAll ) {
+	(function(){
+		var oldSizzle = Sizzle,
+			div = document.createElement("div"),
+			id = "__sizzle__";
 
-			matcherOut = matcher ?
-				postFinder || ( seed ? preFilter : preexisting || postFilter ) ?
+		div.innerHTML = "<p class='TEST'></p>";
 
-					[] :
-
-					results :
-				matcherIn;
-
-		if ( matcher ) {
-			matcher( matcherIn, matcherOut, context, xml );
+		if ( div.querySelectorAll && div.querySelectorAll(".TEST").length === 0 ) {
+			return;
 		}
 
-		if ( postFilter ) {
-			temp = condense( matcherOut, postMap );
-			postFilter( temp, [], context, xml );
+		Sizzle = function( query, context, extra, seed ) {
+			context = context || document;
 
-			i = temp.length;
-			while ( i-- ) {
-				if ( (elem = temp[i]) ) {
-					matcherOut[ postMap[i] ] = !(matcherIn[ postMap[i] ] = elem);
+			if ( !seed && !Sizzle.isXML(context) ) {
+				var match = /^(\w+$)|^\.([\w\-]+$)|^#([\w\-]+$)/.exec( query );
+
+				if ( match && (context.nodeType === 1 || context.nodeType === 9) ) {
+					if ( match[1] ) {
+						return makeArray( context.getElementsByTagName( query ), extra );
+
+					} else if ( match[2] && Expr.find.CLASS && context.getElementsByClassName ) {
+						return makeArray( context.getElementsByClassName( match[2] ), extra );
+					}
 				}
-			}
-		}
 
-		if ( seed ) {
-			if ( postFinder || preFilter ) {
-				if ( postFinder ) {
-					temp = [];
-					i = matcherOut.length;
-					while ( i-- ) {
-						if ( (elem = matcherOut[i]) ) {
-							temp.push( (matcherIn[i] = elem) );
+				if ( context.nodeType === 9 ) {
+					if ( query === "body" && context.body ) {
+						return makeArray( [ context.body ], extra );
+
+					} else if ( match && match[3] ) {
+						var elem = context.getElementById( match[3] );
+
+						if ( elem && elem.parentNode ) {
+							if ( elem.id === match[3] ) {
+								return makeArray( [ elem ], extra );
+							}
+
+						} else {
+							return makeArray( [], extra );
 						}
 					}
-					postFinder( null, (matcherOut = []), temp, xml );
-				}
 
-				i = matcherOut.length;
-				while ( i-- ) {
-					if ( (elem = matcherOut[i]) &&
-						(temp = postFinder ? indexOf.call( seed, elem ) : preMap[i]) > -1 ) {
+					try {
+						return makeArray( context.querySelectorAll(query), extra );
+					} catch(qsaError) {}
 
-						seed[temp] = !(results[temp] = elem);
+				} else if ( context.nodeType === 1 && context.nodeName.toLowerCase() !== "object" ) {
+					var oldContext = context,
+						old = context.getAttribute( "id" ),
+						nid = old || id,
+						hasParent = context.parentNode,
+						relativeHierarchySelector = /^\s*[+~]/.test( query );
+
+					if ( !old ) {
+						context.setAttribute( "id", nid );
+					} else {
+						nid = nid.replace( /'/g, "\\$&" );
+					}
+					if ( relativeHierarchySelector && hasParent ) {
+						context = context.parentNode;
+					}
+
+					try {
+						if ( !relativeHierarchySelector || hasParent ) {
+							return makeArray( context.querySelectorAll( "[id='" + nid + "'] " + query ), extra );
+						}
+
+					} catch(pseudoError) {
+					} finally {
+						if ( !old ) {
+							oldContext.removeAttribute( "id" );
+						}
 					}
 				}
 			}
 
-		} else {
-			matcherOut = condense(
-				matcherOut === results ?
-					matcherOut.splice( preexisting, matcherOut.length ) :
-					matcherOut
-			);
-			if ( postFinder ) {
-				postFinder( null, results, matcherOut, xml );
-			} else {
-				push.apply( results, matcherOut );
-			}
+			return oldSizzle(query, context, extra, seed);
+		};
+
+		for ( var prop in oldSizzle ) {
+			Sizzle[ prop ] = oldSizzle[ prop ];
 		}
-	});
+
+		div = null;
+	})();
 }
 
-function matcherFromTokens( tokens ) {
-	var checkContext, matcher, j,
-		len = tokens.length,
-		leadingRelative = Expr.relative[ tokens[0].type ],
-		implicitRelative = leadingRelative || Expr.relative[" "],
-		i = leadingRelative ? 1 : 0,
+(function(){
+	var html = document.documentElement,
+		matches = html.matchesSelector || html.mozMatchesSelector || html.webkitMatchesSelector || html.msMatchesSelector;
 
-		matchContext = addCombinator( function( elem ) {
-			return elem === checkContext;
-		}, implicitRelative, true ),
-		matchAnyContext = addCombinator( function( elem ) {
-			return indexOf.call( checkContext, elem ) > -1;
-		}, implicitRelative, true ),
-		matchers = [ function( elem, context, xml ) {
-			return ( !leadingRelative && ( xml || context !== outermostContext ) ) || (
-				(checkContext = context).nodeType ?
-					matchContext( elem, context, xml ) :
-					matchAnyContext( elem, context, xml ) );
-		} ];
+	if ( matches ) {
+		var disconnectedMatch = !matches.call( document.createElement( "div" ), "div" ),
+			pseudoWorks = false;
 
-	for ( ; i < len; i++ ) {
-		if ( (matcher = Expr.relative[ tokens[i].type ]) ) {
-			matchers = [ addCombinator(elementMatcher( matchers ), matcher) ];
-		} else {
-			matcher = Expr.filter[ tokens[i].type ].apply( null, tokens[i].matches );
+		try {
+			matches.call( document.documentElement, "[test!='']:sizzle" );
 
-			if ( matcher[ expando ] ) {
-				j = ++i;
-				for ( ; j < len; j++ ) {
-					if ( Expr.relative[ tokens[j].type ] ) {
+		} catch( pseudoError ) {
+			pseudoWorks = true;
+		}
+
+		Sizzle.matchesSelector = function( node, expr ) {
+			expr = expr.replace(/\=\s*([^'"\]]*)\s*\]/g, "='$1']");
+
+			if ( !Sizzle.isXML( node ) ) {
+				try {
+					if ( pseudoWorks || !Expr.match.PSEUDO.test( expr ) && !/!=/.test( expr ) ) {
+						var ret = matches.call( node, expr );
+
+						if ( ret || !disconnectedMatch ||
+								node.document && node.document.nodeType !== 11 ) {
+							return ret;
+						}
+					}
+				} catch(e) {}
+			}
+
+			return Sizzle(expr, null, null, [node]).length > 0;
+		};
+	}
+})();
+
+(function(){
+	var div = document.createElement("div");
+
+	div.innerHTML = "<div class='test e'></div><div class='test'></div>";
+
+	if ( !div.getElementsByClassName || div.getElementsByClassName("e").length === 0 ) {
+		return;
+	}
+
+	div.lastChild.className = "e";
+
+	if ( div.getElementsByClassName("e").length === 1 ) {
+		return;
+	}
+
+	Expr.order.splice(1, 0, "CLASS");
+	Expr.find.CLASS = function( match, context, isXML ) {
+		if ( typeof context.getElementsByClassName !== "undefined" && !isXML ) {
+			return context.getElementsByClassName(match[1]);
+		}
+	};
+
+	div = null;
+})();
+
+function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML ) {
+	for ( var i = 0, l = checkSet.length; i < l; i++ ) {
+		var elem = checkSet[i];
+
+		if ( elem ) {
+			var match = false;
+
+			elem = elem[dir];
+
+			while ( elem ) {
+				if ( elem.sizcache === doneName ) {
+					match = checkSet[elem.sizset];
+					break;
+				}
+
+				if ( elem.nodeType === 1 && !isXML ){
+					elem.sizcache = doneName;
+					elem.sizset = i;
+				}
+
+				if ( elem.nodeName.toLowerCase() === cur ) {
+					match = elem;
+					break;
+				}
+
+				elem = elem[dir];
+			}
+
+			checkSet[i] = match;
+		}
+	}
+}
+
+function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML ) {
+	for ( var i = 0, l = checkSet.length; i < l; i++ ) {
+		var elem = checkSet[i];
+
+		if ( elem ) {
+			var match = false;
+
+			elem = elem[dir];
+
+			while ( elem ) {
+				if ( elem.sizcache === doneName ) {
+					match = checkSet[elem.sizset];
+					break;
+				}
+
+				if ( elem.nodeType === 1 ) {
+					if ( !isXML ) {
+						elem.sizcache = doneName;
+						elem.sizset = i;
+					}
+
+					if ( typeof cur !== "string" ) {
+						if ( elem === cur ) {
+							match = true;
+							break;
+						}
+
+					} else if ( Sizzle.filter( cur, [elem] ).length > 0 ) {
+						match = elem;
 						break;
 					}
 				}
-				return setMatcher(
-					i > 1 && elementMatcher( matchers ),
-					i > 1 && toSelector(
-						tokens.slice( 0, i - 1 ).concat({ value: tokens[ i - 2 ].type === " " ? "*" : "" })
-					).replace( rtrim, "$1" ),
-					matcher,
-					i < j && matcherFromTokens( tokens.slice( i, j ) ),
-					j < len && matcherFromTokens( (tokens = tokens.slice( j )) ),
-					j < len && toSelector( tokens )
-				);
+
+				elem = elem[dir];
 			}
-			matchers.push( matcher );
+
+			checkSet[i] = match;
 		}
 	}
-
-	return elementMatcher( matchers );
 }
 
-function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
-	var bySet = setMatchers.length > 0,
-		byElement = elementMatchers.length > 0,
-		superMatcher = function( seed, context, xml, results, outermost ) {
-			var elem, j, matcher,
-				matchedCount = 0,
-				i = "0",
-				unmatched = seed && [],
-				setMatched = [],
-				contextBackup = outermostContext,
-				elems = seed || byElement && Expr.find["TAG"]( "*", outermost ),
-				dirrunsUnique = (dirruns += contextBackup == null ? 1 : Math.random() || 0.1),
-				len = elems.length;
+if ( document.documentElement.contains ) {
+	Sizzle.contains = function( a, b ) {
+		return a !== b && (a.contains ? a.contains(b) : true);
+	};
 
-			if ( outermost ) {
-				outermostContext = context !== document && context;
-			}
+} else if ( document.documentElement.compareDocumentPosition ) {
+	Sizzle.contains = function( a, b ) {
+		return !!(a.compareDocumentPosition(b) & 16);
+	};
 
-			for ( ; i !== len && (elem = elems[i]) != null; i++ ) {
-				if ( byElement && elem ) {
-					j = 0;
-					while ( (matcher = elementMatchers[j++]) ) {
-						if ( matcher( elem, context, xml ) ) {
-							results.push( elem );
-							break;
-						}
-					}
-					if ( outermost ) {
-						dirruns = dirrunsUnique;
-					}
-				}
-
-				if ( bySet ) {
-					if ( (elem = !matcher && elem) ) {
-						matchedCount--;
-					}
-
-					if ( seed ) {
-						unmatched.push( elem );
-					}
-				}
-			}
-
-			matchedCount += i;
-			if ( bySet && i !== matchedCount ) {
-				j = 0;
-				while ( (matcher = setMatchers[j++]) ) {
-					matcher( unmatched, setMatched, context, xml );
-				}
-
-				if ( seed ) {
-					if ( matchedCount > 0 ) {
-						while ( i-- ) {
-							if ( !(unmatched[i] || setMatched[i]) ) {
-								setMatched[i] = pop.call( results );
-							}
-						}
-					}
-
-					setMatched = condense( setMatched );
-				}
-
-				push.apply( results, setMatched );
-
-				if ( outermost && !seed && setMatched.length > 0 &&
-					( matchedCount + setMatchers.length ) > 1 ) {
-
-					Sizzle.uniqueSort( results );
-				}
-			}
-
-			if ( outermost ) {
-				dirruns = dirrunsUnique;
-				outermostContext = contextBackup;
-			}
-
-			return unmatched;
-		};
-
-	return bySet ?
-		markFunction( superMatcher ) :
-		superMatcher;
-}
-
-compile = Sizzle.compile = function( selector, match /* Internal Use Only */ ) {
-	var i,
-		setMatchers = [],
-		elementMatchers = [],
-		cached = compilerCache[ selector + " " ];
-
-	if ( !cached ) {
-		if ( !match ) {
-			match = tokenize( selector );
-		}
-		i = match.length;
-		while ( i-- ) {
-			cached = matcherFromTokens( match[i] );
-			if ( cached[ expando ] ) {
-				setMatchers.push( cached );
-			} else {
-				elementMatchers.push( cached );
-			}
-		}
-
-		cached = compilerCache( selector, matcherFromGroupMatchers( elementMatchers, setMatchers ) );
-
-		cached.selector = selector;
-	}
-	return cached;
-};
-
-/**
- * A low-level selection function that works with Sizzle's compiled
- *  selector functions
- * @param {String|Function} selector A selector or a pre-compiled
- *  selector function built with Sizzle.compile
- * @param {Element} context
- * @param {Array} [results]
- * @param {Array} [seed] A set of elements to match against
- */
-select = Sizzle.select = function( selector, context, results, seed ) {
-	var i, tokens, token, type, find,
-		compiled = typeof selector === "function" && selector,
-		match = !seed && tokenize( (selector = compiled.selector || selector) );
-
-	results = results || [];
-
-	if ( match.length === 1 ) {
-
-		tokens = match[0] = match[0].slice( 0 );
-		if ( tokens.length > 2 && (token = tokens[0]).type === "ID" &&
-				support.getById && context.nodeType === 9 && documentIsHTML &&
-				Expr.relative[ tokens[1].type ] ) {
-
-			context = ( Expr.find["ID"]( token.matches[0].replace(runescape, funescape), context ) || [] )[0];
-			if ( !context ) {
-				return results;
-
-			} else if ( compiled ) {
-				context = context.parentNode;
-			}
-
-			selector = selector.slice( tokens.shift().value.length );
-		}
-
-		i = matchExpr["needsContext"].test( selector ) ? 0 : tokens.length;
-		while ( i-- ) {
-			token = tokens[i];
-
-			if ( Expr.relative[ (type = token.type) ] ) {
-				break;
-			}
-			if ( (find = Expr.find[ type ]) ) {
-				if ( (seed = find(
-					token.matches[0].replace( runescape, funescape ),
-					rsibling.test( tokens[0].type ) && testContext( context.parentNode ) || context
-				)) ) {
-
-					tokens.splice( i, 1 );
-					selector = seed.length && toSelector( tokens );
-					if ( !selector ) {
-						push.apply( results, seed );
-						return results;
-					}
-
-					break;
-				}
-			}
-		}
-	}
-
-	( compiled || compile( selector, match ) )(
-		seed,
-		context,
-		!documentIsHTML,
-		results,
-		rsibling.test( selector ) && testContext( context.parentNode ) || context
-	);
-	return results;
-};
-
-
-support.sortStable = expando.split("").sort( sortOrder ).join("") === expando;
-
-support.detectDuplicates = !!hasDuplicate;
-
-setDocument();
-
-support.sortDetached = assert(function( div1 ) {
-	return div1.compareDocumentPosition( document.createElement("div") ) & 1;
-});
-
-if ( !assert(function( div ) {
-	div.innerHTML = "<a href='#'></a>";
-	return div.firstChild.getAttribute("href") === "#" ;
-}) ) {
-	addHandle( "type|href|height|width", function( elem, name, isXML ) {
-		if ( !isXML ) {
-			return elem.getAttribute( name, name.toLowerCase() === "type" ? 1 : 2 );
-		}
-	});
-}
-
-if ( !support.attributes || !assert(function( div ) {
-	div.innerHTML = "<input/>";
-	div.firstChild.setAttribute( "value", "" );
-	return div.firstChild.getAttribute( "value" ) === "";
-}) ) {
-	addHandle( "value", function( elem, name, isXML ) {
-		if ( !isXML && elem.nodeName.toLowerCase() === "input" ) {
-			return elem.defaultValue;
-		}
-	});
-}
-
-if ( !assert(function( div ) {
-	return div.getAttribute("disabled") == null;
-}) ) {
-	addHandle( booleans, function( elem, name, isXML ) {
-		var val;
-		if ( !isXML ) {
-			return elem[ name ] === true ? name.toLowerCase() :
-					(val = elem.getAttributeNode( name )) && val.specified ?
-					val.value :
-				null;
-		}
-	});
-}
-
-if ( typeof define === "function" && define.amd ) {
-	define(function() { return Sizzle; });
-} else if ( typeof module !== "undefined" && module.exports ) {
-	module.exports = Sizzle;
 } else {
-	window.Sizzle = Sizzle;
+	Sizzle.contains = function() {
+		return false;
+	};
 }
 
-})( window );
+Sizzle.isXML = function( elem ) {
+	var documentElement = (elem ? elem.ownerDocument || elem : 0).documentElement;
 
-;(function() {
-  if (typeof Sizzle !== 'undefined') {
-    return;
-  }
+	return documentElement ? documentElement.nodeName !== "HTML" : false;
+};
 
-  if (typeof define !== 'undefined' && define.amd) {
-    window.Sizzle = Prototype._actual_sizzle;
-    window.define = Prototype._original_define;
-    delete Prototype._actual_sizzle;
-    delete Prototype._original_define;
-  } else if (typeof module !== 'undefined' && module.exports) {
-    window.Sizzle = module.exports;
-    module.exports = {};
-  }
+var posProcess = function( selector, context ) {
+	var match,
+		tmpSet = [],
+		later = "",
+		root = context.nodeType ? [context] : context;
+
+	while ( (match = Expr.match.PSEUDO.exec( selector )) ) {
+		later += match[0];
+		selector = selector.replace( Expr.match.PSEUDO, "" );
+	}
+
+	selector = Expr.relative[selector] ? selector + "*" : selector;
+
+	for ( var i = 0, l = root.length; i < l; i++ ) {
+		Sizzle( selector, root[i], tmpSet );
+	}
+
+	return Sizzle.filter( later, tmpSet );
+};
+
+
+window.Sizzle = Sizzle;
+
 })();
+
+Prototype._original_property = window.Sizzle;
 
 ;(function(engine) {
   var extendElements = Prototype.Selector.extendElements;
@@ -6334,23 +5808,18 @@ var Form = {
       accumulator = function(result, key, value) {
         if (key in result) {
           if (!Object.isArray(result[key])) result[key] = [result[key]];
-          result[key] = result[key].concat(value);
+          result[key].push(value);
         } else result[key] = value;
         return result;
       };
     } else {
       initial = '';
-      accumulator = function(result, key, values) {
-        if (!Object.isArray(values)) {values = [values];}
-        if (!values.length) {return result;}
-        var encodedKey = encodeURIComponent(key).gsub(/%20/, '+');
-        return result + (result ? "&" : "") + values.map(function (value) {
-          value = value.gsub(/(\r)?\n/, '\r\n');
-          value = encodeURIComponent(value);
-          value = value.gsub(/%20/, '+');
-          return encodedKey + "=" + value;
-        }).join("&");
-      };
+      accumulator = function(result, key, value) {
+        value = value.gsub(/(\r)?\n/, '\r\n');
+        value = encodeURIComponent(value);
+        value = value.gsub(/%20/, '+');
+        return result + (result ? '&' : '') + encodeURIComponent(key) + '=' + value;
+      }
     }
 
     return elements.inject(initial, function(result, element) {
@@ -6784,14 +6253,17 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
             node = currentTarget;
     }
 
-    return node.nodeType == Node.TEXT_NODE ? node.parentNode : node;
+    if (node.nodeType == Node.TEXT_NODE)
+      node = node.parentNode;
+
+    return Element.extend(node);
   }
 
   function findElement(event, expression) {
-    var element = _element(event), selector = Prototype.Selector;
+    var element = _element(event), match = Prototype.Selector.match;
     if (!expression) return Element.extend(element);
     while (element) {
-      if (Object.isElement(element) && selector.match(element, expression))
+      if (Object.isElement(element) && match(element, expression))
         return Element.extend(element);
       element = element.parentNode;
     }
@@ -6939,7 +6411,7 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
 
   Event._isCustomEvent = isCustomEvent;
 
-  function getOrCreateRegistryFor(element, uid) {
+  function getRegistryForElement(element, uid) {
     var CACHE = GLOBAL.Event.cache;
     if (Object.isUndefined(uid))
       uid = getUniqueElementID(element);
@@ -6955,7 +6427,7 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
 
 
   function register(element, eventName, handler) {
-    var registry = getOrCreateRegistryFor(element);
+    var registry = getRegistryForElement(element);
     if (!registry[eventName]) registry[eventName] = [];
     var entries = registry[eventName];
 
@@ -6975,8 +6447,9 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
   }
 
   function unregister(element, eventName, handler) {
-    var registry = getOrCreateRegistryFor(element);
-    var entries = registry[eventName] || [];
+    var registry = getRegistryForElement(element);
+    var entries = registry[eventName];
+    if (!entries) return;
 
     var i = entries.length, entry;
     while (i--) {
@@ -6986,16 +6459,10 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
       }
     }
 
-    if (entry) {
-      var index = entries.indexOf(entry);
-      entries.splice(index, 1);
-    }
+    if (!entry) return;
 
-    if (entries.length === 0) {
-      delete registry[eventName];
-      if (Object.keys(registry).length === 1 && ('element' in registry))
-        destroyRegistryForElement(element);
-    }
+    var index = entries.indexOf(entry);
+    entries.splice(index, 1);
 
     return entry;
   }
@@ -7077,8 +6544,8 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
 
 
   function stopObservingElement(element) {
-    var uid = getUniqueElementID(element), registry = GLOBAL.Event.cache[uid];
-    if (!registry) return;
+    var uid = getUniqueElementID(element),
+     registry = getRegistryForElement(element, uid);
 
     destroyRegistryForElement(element, uid);
 
@@ -7094,24 +6561,14 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
   }
 
   function stopObservingEventName(element, eventName) {
-    var registry = getOrCreateRegistryFor(element);
+    var registry = getRegistryForElement(element);
     var entries = registry[eventName];
-    if (entries) {
-      delete registry[eventName];
-    }
-
-    entries = entries || [];
+    if (!entries) return;
+    delete registry[eventName];
 
     var i = entries.length;
     while (i--)
       removeEvent(element, eventName, entries[i].responder);
-
-    for (var name in registry) {
-      if (name === 'element') continue;
-      return; // There is another registered event
-    }
-
-    destroyRegistryForElement(element);
   }
 
 
@@ -7268,9 +6725,9 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
       return createMouseEnterLeaveResponder(uid, eventName, handler);
 
     return function(event) {
-      if (!Event.cache) return;
+      var cacheEntry = Event.cache[uid];
+      var element = cacheEntry.element;
 
-      var element = Event.cache[uid].element;
       Event.extend(event, element);
       handler.call(element, event);
     };
@@ -7278,8 +6735,7 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
 
   function createResponderForCustomEvent(uid, eventName, handler) {
     return function(event) {
-      var cache = Event.cache[uid];
-      var element =  cache && cache.element;
+      var cacheEntry = Event.cache[uid], element = cacheEntry.element;
 
       if (Object.isUndefined(event.eventName))
         return false;
@@ -7294,7 +6750,7 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
 
   function createMouseEnterLeaveResponder(uid, eventName, handler) {
     return function(event) {
-      var element = Event.cache[uid].element;
+      var cacheEntry = Event.cache[uid], element = cacheEntry.element;
 
       Event.extend(event, element);
       var parent = event.relatedTarget;
@@ -7344,12 +6800,6 @@ Form.EventObserver = Class.create(Abstract.EventObserver, {
     fireContentLoadedEvent();
   }
 
-
-  if (document.readyState === 'complete') {
-    fireContentLoadedEvent();
-    return;
-  }
-
   if (document.addEventListener) {
     document.addEventListener('DOMContentLoaded', fireContentLoadedEvent, false);
   } else {
@@ -7368,9 +6818,7 @@ Hash.toQueryString = Object.toQueryString;
 
 var Toggle = { display: Element.toggle };
 
-Element.addMethods({
-  childOf: Element.Methods.descendantOf
-});
+Element.Methods.childOf = Element.Methods.descendantOf;
 
 var Insertion = {
   Before: function(element, content) {
@@ -7598,7 +7046,7 @@ Object.extend(Element.ClassNames.prototype, Enumerable);
 
 
 
-/* From: /usr/share/eprints/ingredients/prototypejs/static/javascript/auto/30_scriptaculous_01_builder.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/30_scriptaculous_01_builder.js */
 
 // script.aculo.us builder.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009
 
@@ -7738,7 +7186,7 @@ var Builder = {
 };
 
 
-/* From: /usr/share/eprints/ingredients/prototypejs/static/javascript/auto/30_scriptaculous_02_effects.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/30_scriptaculous_02_effects.js */
 
 // script.aculo.us effects.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009
 
@@ -7752,7 +7200,7 @@ var Builder = {
 // For details, see the script.aculo.us web site: http://script.aculo.us/
 
 // converts rgb() and #xxx to #xxxxxx format,
-// returns self (or first argument) if not convertible
+// returns self (or first argument) if not convertable
 String.prototype.parseColor = function() {
   var color = '#';
   if (this.slice(0,4) == 'rgb(') {
@@ -8865,8 +8313,7 @@ $w('getInlineOpacity forceRerendering setContentZoom collectTextNodes collectTex
 Element.addMethods(Effect.Methods);
 
 
-
-/* From: /usr/share/eprints/ingredients/prototypejs/static/javascript/auto/30_scriptaculous_03_dragdrop.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/30_scriptaculous_03_dragdrop.js */
 
 // script.aculo.us dragdrop.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009
 
@@ -9844,7 +9291,7 @@ Element.offsetSize = function (element, type) {
 };
 
 
-/* From: /usr/share/eprints/ingredients/prototypejs/static/javascript/auto/30_scriptaculous_04_controls.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/30_scriptaculous_04_controls.js */
 
 // script.aculo.us controls.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009
 
@@ -10819,7 +10266,7 @@ Form.Element.DelayedObserver = Class.create({
 
 
 
-/* From: /usr/share/eprints/ingredients/prototypejs/static/javascript/auto/30_scriptaculous_05_slider.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/30_scriptaculous_05_slider.js */
 
 // script.aculo.us slider.js v1.8.3, Thu Oct 08 11:23:33 +0200 2009
 
@@ -11098,7 +10545,7 @@ Control.Slider = Class.create({
 });
 
 
-/* From: /usr/share/eprints/ingredients/prototypejs/static/javascript/auto/35_workarounds.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/35_workarounds.js */
 
 /* Fix file.slice() */
 if (typeof Blob != 'undefined' && !Blob.prototype.slice)
@@ -11192,7 +10639,7 @@ Object.extend(Prototype.Browser, {
 
 
 
-/* From: /usr/share/eprints/ingredients/prototypejs/static/javascript/auto/40_lightbox.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/40_lightbox.js */
 
 // -----------------------------------------------------------------------------------
 //
@@ -11811,7 +11258,7 @@ document.observe('dom:loaded', function () { new Lightbox(); });
 
 
 
-/* From: /usr/share/eprints/ingredients/prototypejs/static/javascript/auto/45_extras.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/45_extras.js */
 
 /* serialise a form excluding all 'submit', 'image' and 'button' values */
 function serialize_form(form) {
@@ -11889,7 +11336,7 @@ function human_filesize(size_in_bytes)
 }
 
 /*
- * Get parameters set in the HTTP GET header
+ * Get paramaters set in the HTTP GET header
  */
 function get_header_variable(variable) {
         var query = window.location.search.substring(1);
@@ -11905,7 +11352,7 @@ function get_header_variable(variable) {
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/50_block_enter.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/50_block_enter.js */
 
 function EPJS_block_enter( event )
 {
@@ -11926,7 +11373,7 @@ function EPJS_block_enter( event )
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/50_blur.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/50_blur.js */
 
 
 function EPJS_blur( event )
@@ -11945,7 +11392,7 @@ function EPJS_blur( event )
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/50_enter_click.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/50_enter_click.js */
 
 function EPJS_enter_click( event, buttonid )
 {
@@ -11971,7 +11418,7 @@ function EPJS_enter_click( event, buttonid )
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/50_preview.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/50_preview.js */
 
 function EPJS_ShowPreview( e, preview_id, position = 'right' ) 
 {
@@ -12003,7 +11450,7 @@ function EPJS_HidePreview( e, preview_id )
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/50_scrollfix.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/50_scrollfix.js */
 
 
 /* sneaky little thing which forces the scroll bar to always appear, solving javascript 
@@ -12014,7 +11461,7 @@ window.document.write( '<style>body { height: '+(window.innerHeight+1)+'px; }</s
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/50_tabs.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/50_tabs.js */
 
 window.ep_showTab = function( baseid, tabid, expensive )
 {
@@ -12062,7 +11509,7 @@ window.ep_showTab = function( baseid, tabid, expensive )
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/50_toggle.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/50_toggle.js */
 
 
 function EPJS_toggleSlide( element_id, start_visible )
@@ -12113,7 +11560,7 @@ function EPJS_toggleSlide_aux( element_id, start_visible, scroll_id )
 		{
 			// w = outer.offsetWidth; // includes padding on some browsers
 			w = outer.getWidth(); // includes padding on all browsers
-			// subtract the padding as getWidth includes it but style.width doesn't
+			// subtract the padding as getWidth includes it but style.width doesnt
 			w -= parseInt( outer.getStyle("padding-left") );
 			w -= parseInt( outer.getStyle("padding-right") );
 			outer.style.width = w+'px';
@@ -12175,7 +11622,7 @@ function EPJS_toggle_type( element_id, start_visible, display_type )
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/55_menu.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/55_menu.js */
 
 // EPJS_Menus - inspired from http://javascript-array.com/scripts/simple_drop_down_menu/
 // 
@@ -12296,7 +11743,7 @@ document.observe("dom:loaded",function(){
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/70_autocomplete.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/70_autocomplete.js */
 
 
 function ep_autocompleter( element, target, url, basenames, width_of_these, fields_to_send, extra_params )
@@ -12391,7 +11838,7 @@ function ep_autocompleter( element, target, url, basenames, width_of_these, fiel
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/70_phraseedit.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/70_phraseedit.js */
 
 
 function ep_decode_html_entities( str )
@@ -12608,7 +12055,7 @@ function ep_phraseedit_edit(div, phrases, csrf_token='')
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/80_metafield.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/80_metafield.js */
 
 var Metafield = Class.create({
 	prefix: null,
@@ -12713,7 +12160,7 @@ var Metafield = Class.create({
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/81_filetree.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/81_filetree.js */
 
 /** ep_js_init_dl_tree
  * Add click-actions to DTs that open/close the related DD.
@@ -12760,7 +12207,7 @@ function ep_js_init_dl_tree(root, className)
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/85_progress.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/85_progress.js */
 
 /*
  *
@@ -12831,7 +12278,7 @@ var EPrintsProgressBar = Class.create({
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/87_component_field.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/87_component_field.js */
 
 var Component_Field = Class.create({
 	prefix: null,
@@ -12899,9 +12346,8 @@ var Component_Field = Class.create({
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/88_uploadmethod_file.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/88_uploadmethod_file.js */
 
-max_size = 1024 * 1024 * 1024 // 1 GiB default for https://httpd.apache.org/docs/2.4/mod/core.html#limitrequestbody
 var Screen_EPrint_UploadMethod_File = Class.create({
 	component: undefined,
 	prefix: undefined,
@@ -12966,31 +12412,13 @@ var Screen_EPrint_UploadMethod_File = Class.create({
 				(function(phrases) {
 					if (confirm(phrases['Plugin/Screen/EPrint/UploadMethod/File:confirm_bulk_upload']))
 						for(var i = 0; i < files.length; ++i)
-							if (this.checkFilesize(files[i]))
-							{
-								this.createFile (files[i]);
-							}
+							this.createFile (files[i]);
 				}).bind (this)
 			);
 		}
 		else
 			for(var i = 0; i < files.length; ++i)
-				if (this.checkFilesize(files[i]))
-				{
-					this.createFile (files[i]);
-				}
-	},
-	/*
-	 * Check file size before uploading.
-	 */
-	checkFilesize: function(file){
-		if (file.size < max_size)
-		{
-			return 1;
-		}
-		var max_size_mib = max_size / 1024 / 1024;
-		eprints.currentRepository().phrase( {'Plugin/Screen/EPrint/UploadMethod/File:filesize_too_big':{} },function(phrase){ alert (file.name+": \n"+ phrase["Plugin/Screen/EPrint/UploadMethod/File:filesize_too_big"] + max_size_mib + " MiB.");  } );
-		return 0;
+				this.createFile (files[i]);
 	},
 	/*
 	 * Create a document/file on EPrints in preparation for upload
@@ -13287,12 +12715,6 @@ function UploadMethod_update_progress_bar(uuid, container, pe)
 				alert('Expected JSON but got: ' + transport.responseText);
 			}
 			var percent = json.received / json.size;
-			if (json.size > max_size) 
-			{
-				var max_size_mib = max_size / 1024 / 1024;
-				UploadMethod_cancel(uuid);
-				eprints.currentRepository().phrase( {'Plugin/Screen/EPrint/UploadMethod/File:filesize_too_big':{} },function(phrase){ alert (phrase["Plugin/Screen/EPrint/UploadMethod/File:filesize_too_big"] + max_size_mib + " MiB." );  } ) ;
-            		}
 			container.progress_bar.update (percent, Math.floor(percent*100) + '%');
 			container.progress_info.update (Math.floor(percent*100) + '%');
 			container.progress_size.update (human_filesize (json.size));
@@ -13330,7 +12752,7 @@ function UploadMethod_cancel(uuid)
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/89_component_documents.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/89_component_documents.js */
 
 var Component_Documents = Class.create(Lightbox, {
 	prefix: null,
@@ -13724,7 +13146,7 @@ Component_Documents.instances = $A(Array());
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/90_history_search.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/90_history_search.js */
 
 function validateHistorySearch()
 {
@@ -13785,7 +13207,2053 @@ function validateHistorySearch()
 
 
 
-/* From: /usr/share/eprints/archives/keparchive/cfg/static/javascript/auto/90_local.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/90_irstats2.js */
+
+
+// AJAX queueing system, max 3 (default) AJAX requests at once
+var EPJS_Stats_running_id = 0;
+var EPJS_Stats_max_running = 6;
+var EPJS_Stats_running_size = 0;
+var EPJS_Stats_running = new Hash();
+var EPJS_Stats_queue = new Hash();
+var EPJS_Stats_queue_size = 0;
+
+/* Abstract class, not to be used directly */
+var EPJS_Stats = Class.create({
+
+	initialize: function(params) {
+
+//		this.queue_lock = false;
+//		this.run_lock = true;
+
+		if( params == null )
+		{
+			alert( 'Missing params in EPJS_Stats' );
+			return 0;
+		}
+	
+		var context = params.context;
+		var options = params.options;
+	
+		if( options.container_id == null )
+		{
+			alert( 'Missing param "container_id" in EPJS_Stats' );
+			return 0;
+		}
+		this.container_id = options.container_id;
+
+		if( options.url != null )
+			this.url = options.url;
+		else
+			this.url = '/cgi/stats/get';
+
+		this.context = new Hash(context);
+		this.options = new Hash(options);
+
+		this.ajax_params = new Hash();
+
+		var my_context = this.get_context_fields();
+
+		// sf2 : note that this will set all values even if they are null. This is because of weird inheritances in Prototype classes if you
+		// have more than one instance of the same super class on the same page: http://www.prototypejs.org/learn/class-inheritance
+		for( var i=0; i < my_context.length; i++ )
+			this.ajax_params.set( my_context[i], this.context.get( my_context[i] ) );
+
+		// also add any options to the ajax_params Hash
+		this.options.each(function(pair) {
+			this.ajax_params.set( pair.key, pair.value );
+		}.bind(this));
+	},
+
+	get_context_fields: function() {
+
+		return [ 'datatype', 'datafilter', 'grouping', 'set_name', 'set_value', 'range', 'to', 'from' ];
+	},
+
+	can_run: function() {
+		return EPJS_Stats_running_size < EPJS_Stats_max_running;
+	},
+
+	run: function(o) {
+		this.running_id = EPJS_Stats_running_id;
+		EPJS_Stats_running.set( EPJS_Stats_running_id++, o );
+		EPJS_Stats_running_size++;
+		o.request();
+	},
+	
+	run_next: function() {
+
+		EPJS_Stats_running.unset( this.running_id );
+		if( --EPJS_Stats_running_size < 0 )
+			EPJS_Stats_running_size = 0;
+		this.running_id = null;
+		var o = null
+		while( EPJS_Stats_queue_size > 0 && o == null )
+		{
+			var o = EPJS_Stats_queue.get( EPJS_Stats_queue_size -1 );
+			EPJS_Stats_queue.unset( EPJS_Stats_queue_size -1 );
+			EPJS_Stats_queue_size--;
+		}
+
+		if( o != null )
+			this.run(o);	
+	},
+
+	queue: function(o) {
+		EPJS_Stats_queue.set( EPJS_Stats_queue_size++, this );
+	},
+
+	draw: function() {
+		this.wait();
+		this.ajax_params.set( 'view', this.view );
+
+		if( this.can_run() )
+			this.run( this );
+		else
+			this.queue(this);
+	},
+
+	request: function() {
+                new Ajax.Request(this.url, {
+	                        method: 'get',
+				parameters: this.ajax_params,
+                	        onSuccess: this.ajax.bind(this),
+				onFailure: this.ajax_failure.bind(this)
+                });
+	},
+
+	ajax_failure: function( response ) {
+
+		if( response != null && response.status == 401 )
+		{
+			if( this.container_id != null )
+			{
+				$( this.container_id ).update( '<p class="irstats2_error_login">You must <a href="/cgi/users/login?target='+document.URL+'">login</a> to access Statistics</p>' );
+				$( this.container_id ).setStyle( { 'height': 'auto', 'width': 'auto' } );
+			}
+		}
+	},
+
+	ajax: function(response) {
+
+		this.run_next();
+
+	},
+
+	// will show the loading ajax spin	
+	wait: function() {
+		$( this.container_id ).insert( new Element( 'img', { 'border': '0', 'class': 'irstats2_spin', 'src': '/style/images/loading.gif' } ) );
+		$( this.container_id ).insert( '<span class="irstats2_loading">Loading...</span>' );
+	}
+
+});
+
+/* Generic View generating HTML */
+
+var EPJS_Stats_View = Class.create(EPJS_Stats, {
+	
+	initialize: function($super,params) {
+
+        	$super( params );
+		this.view = params.options.view;
+		this.draw();
+	},
+
+	ajax: function($super,response) {
+
+		$super(response);
+		var html = response.responseText;
+		$( this.container_id ).update( html );
+		$( this.container_id ).show();
+	}
+});
+
+
+/* Displays a Counter */
+
+var EPJS_Stats_Counter = Class.create(EPJS_Stats, {
+	
+	initialize: function($super,params) {
+
+        	$super( params );
+		this.view = 'Counter';
+		this.draw();
+	},
+
+	ajax: function($super,response) {
+
+		$super(response);
+		var html = response.responseText;
+		$( this.container_id ).update( html );
+	}
+
+
+});
+
+/* Displays an HTML Table */
+
+var EPJS_Stats_Table = Class.create(EPJS_Stats, {
+
+	initialize: function($super,params) {
+
+        	$super( params );
+		this.view = 'Table';
+		this.draw();
+	},
+
+        ajax: function($super,response) {
+
+                $super(response);
+                var html = response.responseText;
+                $( this.container_id ).update( html );
+
+                var pNode = $( this.container_id ).up(2);
+                var limit = this.ajax_params.get( 'limit' );
+                if( pNode != null && limit != null )
+                {
+                        var found_limit = false;
+
+                        var inputs = pNode.select( 'input[type="hidden"]' );
+                        inputs.each( function(el) {
+
+                                if( el.name == 'limit' && el.value != limit )
+                                {
+                                        el.value = limit;
+                                        found_limit = true;
+                                }
+
+                        }.bind(this) );
+
+                        if( !found_limit )
+                        {
+                                var form = pNode.down('form');
+                                if( form != null )
+                                        form.insert( new Element( 'input', { 'type': 'hidden', 'name': 'limit', 'value': limit } ) );
+                        }
+
+                }
+        }
+
+});
+
+
+var EPJS_Stats_GoogleGraph = Class.create(EPJS_Stats, {
+
+	initialize: function($super,params) {
+
+        	$super( params );
+		this.view = 'Google::Graph';
+		this.draw();
+	},
+	
+	ajax: function($super,response) {
+
+		$super();
+
+		var json = response.responseText.evalJSON();
+		
+		var container = $( this.container_id );
+
+		// potential error message (eg. no data points)
+		var msg = json.msg
+	
+		if( msg != null )
+		{
+			// for summary page
+			var elparent = container.up( "div[class=ep_summary_box_body]" );
+
+			if( elparent != null )
+			{
+				elparent.update( "<p>" + msg + "</p>" );
+				return;
+			}
+		}
+
+		var jsdata = json.data;
+
+		var data = new google.visualization.DataTable();
+		data.addColumn('string', 'Year');
+		data.addColumn('number', ' ');
+
+		if( json.show_average )
+			data.addColumn('number', ' ');
+
+		data.addRows( jsdata );
+
+		var w = container.getWidth() - 20;
+		var h = container.getHeight() - 10;
+
+		var type = json.type;
+		var chart;
+
+		if( json.show_average )
+			chart = new google.visualization.ComboChart( container );
+		else
+		{
+			if( type == null || type == 'area' )
+				chart = new google.visualization.AreaChart(container);
+			else
+				chart = new google.visualization.ColumnChart(container);
+		}
+
+		var options = {
+			width: w, 
+			height: h,
+			lineWidth: 3, 
+			hAxis: {
+				slantedText: false,
+				maxAlternation: 1 },
+			legend: 'none', 
+			vAxis: {
+				viewWindowMode: 'explicit', 
+				viewWindow: { min: 0 } }
+		}
+
+		if( json.show_average )
+		{
+			options.seriesType = 'bars';	
+			options.series = { 1: { type: 'line', lineWidth: 1 } };
+		}
+
+		chart.draw( data, options );
+	}
+});
+
+var EPJS_Stats_GoogleSpark = Class.create(EPJS_Stats, {
+
+	initialize: function($super,params) {
+
+        	$super( params );
+		this.view = 'Google::Spark';
+		this.draw();
+	},
+	
+	ajax: function($super,response) {
+
+		$super();
+
+		var json = response.responseText.evalJSON();
+
+		var jsdata = json.data;
+
+		var data = new google.visualization.DataTable();
+		data.addColumn('string', 'Year');
+		data.addColumn('number', ' ');
+		data.addRows( jsdata );
+
+		var container = $( this.container_id );
+		var w = container.getWidth();
+		var h = container.getHeight();
+
+		var chart = new google.visualization.AreaChart(container);
+
+		chart.draw( data, {
+				width: w, 
+				height: h,
+				lineWidth: 1, 
+				enableInteractivity: false,
+				hAxis: {
+					slantedText: false,
+					maxAlternation: 1,
+					textColor: '#ffffff'
+				},
+				legend: 'none', 
+				vAxis: {
+					textColor: '#ffffff',
+					viewWindowMode: 'explicit', 
+					viewWindow: { min: 0 },
+					gridlines: { color: '#ffffff' } 
+				}
+	 	} );
+	}
+});
+
+var EPJS_Stats_GoogleGeoChart = Class.create(EPJS_Stats, {
+
+	initialize: function($super,params) {
+
+        	$super( params );
+		this.view = 'Google::GeoChart';
+		this.draw();
+	},
+	
+	ajax: function($super,response) {
+
+		$super();
+		
+		var json = response.responseText.evalJSON();
+		var jsdata = json.data;
+
+		var data = new google.visualization.DataTable();
+		data.addColumn('string', 'Country');
+		data.addColumn('number', 'Downloads');
+		data.addRows( jsdata );
+
+		var container = $( this.container_id );
+		var w = container.getWidth() - 20;
+		var h = container.getHeight() - 10;
+		
+		var options = {'width':w, 'height':h};
+		var chart = new google.visualization.GeoChart( container );
+		chart.draw(data, options);
+	}
+});
+
+var EPJS_Stats_GooglePieChart = Class.create(EPJS_Stats, {
+
+	initialize: function($super,params) {
+
+        	$super( params );
+		this.view = 'Google::PieChart';
+		this.draw();
+	},
+	
+	ajax: function($super,response) {
+
+		$super();
+		
+		var json = response.responseText.evalJSON();
+		var jsdata = json.data;
+
+		var data = new google.visualization.DataTable();
+		data.addColumn('string', 'Country');
+		data.addColumn('number', 'Downloads');
+		data.addRows( jsdata );
+
+		var container = $( this.container_id );
+		var w = container.getWidth() - 20;
+		var h = container.getHeight() - 10;
+		
+		var options = {'width':w, 'height':h};
+		var chart = new google.visualization.PieChart( container );
+		chart.draw(data, options);
+	}
+});
+
+var EPJS_Stats_Browse = Class.create( {
+
+	initialize: function(params) {
+
+		if( params == null || params.container_id == null )
+		{
+			alert( 'missing params...' );
+			return;
+		}
+               
+		this.container_id = params.container_id;
+ 
+		new Ajax.Updater( this.container_id, '/cgi/stats/browse', {
+                        method: 'get',
+			parameters: { 'container_id': this.container_id },
+			evalScripts: true
+                });
+	},
+
+	ajax: function(transport) {
+		$( this.container_id ).update( transport.responseText );
+	}
+} );
+
+var EPJS_Set_Finder = function( container_id, select_id, input_id, base_url, context ) {
+	
+	var select = $( select_id );
+	if( select == null )
+		return;		
+
+	var selected = select.options[select.selectedIndex];
+
+	// need to escape base_url?
+	var target_url = '/cgi/stats/set_finder?set_name=' + selected.value + '&base_url=' + base_url;
+
+	if( context == null )
+		context = {};
+
+	if( context.from != null )
+		target_url += "&from=" + context.from;
+	if( context.to != null )
+		target_url += "&to=" + context.to;
+
+	if( input_id != null )
+	{
+		// used for searching for a value
+		var input_el = $( input_id );
+		if( input_el != null )
+		{
+			target_url += "&q=" + input_el.value;
+		}
+	}
+
+	if( !$( container_id ).visible() )
+	{
+		$( container_id ).update( new Element( 'img', { 'border':'0', 'src': '/style/images/loading.gif' } ) );	
+		$( container_id ).show();
+	}
+	
+	new Ajax.Updater( container_id, target_url, { 'method': 'GET' } );
+};
+
+var EPJS_Set_Finder_Autocomplete = function( container_id, select_id, input_id, base_url, context ) {
+
+	var placeholder = 'e.g. Smith, John';
+
+	$( input_id ).observe('keyup', function(event){
+
+		var text = $( input_id ).value;
+		if( text != null && text.length > 0 )
+			new EPJS_Set_Finder( container_id, select_id, input_id, base_url, context );
+	} );
+
+	EPJS_Stats_Placeholder( input_id, 'e.g. Smith, John' );
+};
+
+var EPJS_Stats_Placeholder = function( element_id, message ) {
+
+	$( element_id ).observe( 'click', function(event) {
+
+		if( $( element_id ).value == message )
+		{
+			$( element_id ).value = '';
+			$( element_id ).removeClassName( 'irstats2_placeholder' );
+		}
+
+	} );
+
+	$( element_id ).value = message;
+	$( element_id ).addClassName( 'irstats2_placeholder' );
+
+};
+
+var EPJS_Stats_Action_Toggled_Element = {};
+var EPJS_Stats_Action_Toggle = function( input_el, content_el, extra_css ) {
+
+	var input = $( input_el );
+	var content = $( content_el );
+	if( input != null && content != null )
+	{
+		if( !content.visible() )
+		{
+			if( EPJS_Stats_Action_Toggled_Element.input_el != null )
+			{
+				// also need to toggle up the potentially other selected element
+				var selected_element = EPJS_Stats_Action_Toggled_Element;
+				EPJS_Stats_Action_Toggled_Element = {};
+				EPJS_Stats_Action_Toggle( selected_element.input_el, selected_element.content_el, selected_element.extra_css );
+			}
+
+			Effect.SlideDown( content, { duration: 0.5 } );
+			if( extra_css != null )
+				input.addClassName( extra_css );
+			EPJS_Stats_Action_Toggled_Element = { 'input_el': input_el, 'content_el': content_el, 'extra_css': extra_css };
+		}
+		else
+		{
+			content.hide();
+			if( extra_css != null )
+				input.removeClassName( extra_css );
+			EPJS_Stats_Action_Toggled_Element = {};
+		}
+	}
+	return false;
+};
+
+var EPJS_Stats_Export_Toggle = function( el, content_id ) {
+
+	var content = $( content_id );
+	if( el != null && content != null )
+	{
+		if( !content.visible() )
+		{
+			Effect.SlideDown( content, { duration: 0.5 } );
+			el.update( '<img border="0" src="/style/images/multi_up.png"/>' );
+		}
+		else
+		{
+			content.hide();
+			el.update( '<img border="0" src="/style/images/multi_down.png"/>' );
+		}
+	}
+	return false;
+};
+
+
+
+/* From: /usr/share/eprints//lib/static/javascript/auto/90_irstats2_datepicker.js */
+
+/*
+        DatePicker v4.4 by frequency-decoder.com
+
+        Released under a creative commons Attribution-ShareAlike 2.5 license (http://creativecommons.org/licenses/by-sa/2.5/)
+
+        Please credit frequency-decoder in any derivative work - thanks.
+        
+        You are free:
+
+        * to copy, distribute, display, and perform the work
+        * to make derivative works
+        * to make commercial use of the work
+
+        Under the following conditions:
+
+                by Attribution.
+                --------------
+                You must attribute the work in the manner specified by the author or licensor.
+
+                sa
+                --
+                Share Alike. If you alter, transform, or build upon this work, you may distribute the resulting work only under a license identical to this one.
+
+        * For any reuse or distribution, you must make clear to others the license terms of this work.
+        * Any of these conditions can be waived if you get permission from the copyright holder.
+*/
+var datePickerController;
+
+(function() {
+
+// Detect the browser language
+datePicker.languageinfo = navigator.language ? navigator.language : navigator.userLanguage;
+datePicker.languageinfo = datePicker.languageinfo ? datePicker.languageinfo.toLowerCase().replace(/-[a-z]+$/, "") : 'en';
+
+// Defaults should the locale file not load
+datePicker.months       = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+datePicker.fullDay      = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+datePicker.titles       = ["Previous month","Next month","Previous year","Next year", "Today", "Show Calendar"];
+
+datePicker.getDaysPerMonth = function(nMonth, nYear) {
+        nMonth = (nMonth + 12) % 12;
+        return (((0 == (nYear%4)) && ((0 != (nYear%100)) || (0 == (nYear%400)))) && nMonth == 1) ? 29: [31,28,31,30,31,30,31,31,30,31,30,31][nMonth];
+};
+
+function datePicker(options) {
+
+        this.defaults          = {};
+        for(opt in options) { this[opt] = this.defaults[opt] = options[opt]; };
+        
+        this.date              = new Date();
+        this.yearinc           = 1;
+        this.timer             = null;
+        this.pause             = 1000;
+        this.timerSet          = false;
+        this.fadeTimer         = null;
+        this.interval          = new Date();
+        this.firstDayOfWeek    = this.defaults.firstDayOfWeek = this.dayInc = this.monthInc = this.yearInc = this.opacity = this.opacityTo = 0;
+        this.dateSet           = null;
+        this.visible           = false;
+        this.disabledDates     = [];
+        this.enabledDates      = [];
+        this.nbsp              = String.fromCharCode( 160 );
+        var o = this;
+
+        o.events = {
+                onblur:function(e) {
+                        o.removeKeyboardEvents();
+                },
+                onfocus:function(e) {
+                        o.addKeyboardEvents();
+                },
+                onkeydown: function (e) {
+                        o.stopTimer();
+                        if(!o.visible) return false;
+
+                        if(e == null) e = document.parentWindow.event;
+                        var kc = e.keyCode ? e.keyCode : e.charCode;
+
+                        if( kc == 13 ) {
+                                // close (return)
+                                var td = document.getElementById(o.id + "-date-picker-hover");
+                                if(!td || td.className.search(/out-of-range|day-disabled/) != -1) return o.killEvent(e);
+                                o.returnFormattedDate();
+                                o.hide();
+                                return o.killEvent(e);
+                        } else if(kc == 27) {
+                                // close (esc)
+                                o.hide();
+                                return o.killEvent(e);
+                        } else if(kc == 32 || kc == 0) {
+                                // today (space)
+                                o.date =  new Date();
+                                o.updateTable();
+                                return o.killEvent(e);
+                        };
+
+                        // Internet Explorer fires the keydown event faster than the JavaScript engine can
+                        // update the interface. The following attempts to fix this.
+                        /*@cc_on
+                        @if(@_win32)
+                                if(new Date().getTime() - o.interval.getTime() < 100) return o.killEvent(e);
+                                o.interval = new Date();
+                        @end
+                        @*/
+
+                        if ((kc > 49 && kc < 56) || (kc > 97 && kc < 104)) {
+                                if (kc > 96) kc -= (96-48);
+                                kc -= 49;
+                                o.firstDayOfWeek = (o.firstDayOfWeek + kc) % 7;
+                                o.updateTable();
+                                return o.killEvent(e);
+                        };
+
+                        if ( kc < 37 || kc > 40 ) return true;
+
+                        var d = new Date( o.date ).valueOf();
+
+                        if ( kc == 37 ) {
+                                // ctrl + left = previous month
+                                if( e.ctrlKey ) {
+                                        d = new Date( o.date );
+                                        d.setDate( Math.min(d.getDate(), datePicker.getDaysPerMonth(d.getMonth() - 1,d.getFullYear())) );
+                                        d.setMonth( d.getMonth() - 1 );
+                                } else {
+                                        d = new Date( o.date.getFullYear(), o.date.getMonth(), o.date.getDate() - 1 );
+                                };
+                        } else if ( kc == 39 ) {
+                                // ctrl + right = next month
+                                if( e.ctrlKey ) {
+                                        d = new Date( o.date );
+                                        d.setDate( Math.min(d.getDate(), datePicker.getDaysPerMonth(d.getMonth() + 1,d.getFullYear())) );
+                                        d.setMonth( d.getMonth() + 1 );
+                                } else {
+                                        d = new Date( o.date.getFullYear(), o.date.getMonth(), o.date.getDate() + 1 );
+                                };
+                        } else if ( kc == 38 ) {
+                                // ctrl + up = next year
+                                if( e.ctrlKey ) {
+                                        d = new Date( o.date );
+                                        d.setDate( Math.min(d.getDate(), datePicker.getDaysPerMonth(d.getMonth(),d.getFullYear() + 1)) );
+                                        d.setFullYear( d.getFullYear() + 1 );
+                                } else {
+                                        d = new Date( o.date.getFullYear(), o.date.getMonth(), o.date.getDate() - 7 );
+                                };
+                        } else if ( kc == 40 ) {
+                                // ctrl + down = prev year
+                                if( e.ctrlKey ) {
+                                        d = new Date( o.date );
+                                        d.setDate( Math.min(d.getDate(), datePicker.getDaysPerMonth(d.getMonth(),d.getFullYear() - 1)) );
+                                        d.setFullYear( d.getFullYear() - 1 );
+                                } else {
+                                        d = new Date( o.date.getFullYear(), o.date.getMonth(), o.date.getDate() + 7 );
+                                };
+                        };
+
+                        var tmpDate = new Date(d);
+
+                        if(o.outOfRange(tmpDate)) return o.killEvent(e);
+                        
+                        var cacheDate = new Date(o.date);
+                        o.date = tmpDate;
+
+                        if(cacheDate.getFullYear() != o.date.getFullYear() || cacheDate.getMonth() != o.date.getMonth()) o.updateTable();
+                        else {
+                                o.disableTodayButton();
+                                var tds = o.table.getElementsByTagName('td');
+                                var txt;
+                                var start = o.date.getDate() - 6;
+                                if(start < 0) start = 0;
+
+                                for(var i = start, td; td = tds[i]; i++) {
+                                        txt = Number(td.firstChild.nodeValue);
+                                        if(isNaN(txt) || txt != o.date.getDate()) continue;
+                                        o.removeHighlight();
+                                        td.id = o.id + "-date-picker-hover";
+                                        td.className = td.className.replace(/date-picker-hover/g, "") + " date-picker-hover";
+                                };
+                        };
+                        return o.killEvent(e);
+                },
+                gotoToday: function(e) {
+                        o.date = new Date();
+                        o.updateTable();
+                        return o.killEvent(e);
+                },
+                onmousedown: function(e) {
+                        if ( e == null ) e = document.parentWindow.event;
+                        var el = e.target != null ? e.target : e.srcElement;
+
+                        var found = false;
+                        while(el.parentNode) {
+                                if(el.id && (el.id == "fd-"+o.id || el.id == "fd-but-"+o.id)) {
+                                        found = true;
+                                        break;
+                                };
+                                try {
+                                        el = el.parentNode;
+                                } catch(err) {
+                                        break;
+                                };
+                        };
+                        if(found) return true;
+                        o.stopTimer();
+                        datePickerController.hideAll();
+                },
+                onmouseover: function(e) {
+                        o.stopTimer();
+                        var txt = this.firstChild.nodeValue;
+                        if(this.className == "out-of-range" || txt.search(/^[\d]+$/) == -1) return;
+                        
+                        o.removeHighlight();
+                        
+                        this.id = o.id+"-date-picker-hover";
+                        this.className = this.className.replace(/date-picker-hover/g, "") + " date-picker-hover";
+                        
+                        o.date.setDate(this.firstChild.nodeValue);
+                        o.disableTodayButton();
+                },
+                onclick: function(e) {
+                        if(this.className.search(/out-of-range|day-disabled/) != -1) return false;
+                        if ( e == null ) e = document.parentWindow.event;
+                        var el = e.target != null ? e.target : e.srcElement;
+                        while ( el.nodeType != 1 ) el = el.parentNode;
+                        var d = new Date( o.date );
+                        var txt = el.firstChild.data;
+                        if(txt.search(/^[\d]+$/) == -1) return;
+                        var n = Number( txt );
+                        if(isNaN(n)) { return true; };
+                        d.setDate( n );
+                        o.date = d;
+                        o.returnFormattedDate();
+                        if(!o.staticPos) o.hide();
+                        o.stopTimer();
+                        return o.killEvent(e);
+                },
+                incDec: function(e) {
+                        if ( e == null ) e = document.parentWindow.event;
+                        var el = e.target != null ? e.target : e.srcElement;
+
+                        if(el && el.className && el.className.search('fd-disabled') != -1) { return false; }
+                        datePickerController.addEvent(document, "mouseup", o.events.clearTimer);
+                        o.timerInc      = 800;
+                        o.dayInc        = arguments[1];
+                        o.yearInc       = arguments[2];
+                        o.monthInc      = arguments[3];
+                        o.timerSet      = true;
+
+                        o.updateTable();
+                        return true;
+                },
+                clearTimer: function(e) {
+                        o.stopTimer();
+                        o.timerInc      = 1000;
+                        o.yearInc       = 0;
+                        o.monthInc      = 0;
+                        o.dayInc        = 0;
+                        datePickerController.removeEvent(document, "mouseup", o.events.clearTimer);
+                }
+        };
+        o.stopTimer = function() {
+                o.timerSet = false;
+                window.clearTimeout(o.timer);
+        };
+        o.removeHighlight = function() {
+                if(document.getElementById(o.id+"-date-picker-hover")) {
+                        document.getElementById(o.id+"-date-picker-hover").className = document.getElementById(o.id+"-date-picker-hover").className.replace("date-picker-hover", "");
+                        document.getElementById(o.id+"-date-picker-hover").id = "";
+                };
+        };
+        o.reset = function() {
+                for(def in o.defaults) { o[def] = o.defaults[def]; };
+        };
+        o.setOpacity = function(op) {};
+// sf2 - don't want to transparency!
+//                o.div.style.opacity = 1;	//op/100;
+//                o.div.style.filter = 'alpha(opacity=' + op + ')';
+//                o.opacity = op;
+//      };
+        o.fade = function() {
+                window.clearTimeout(o.fadeTimer);
+                o.fadeTimer = null;
+                delete(o.fadeTimer);
+                
+                var diff = Math.round(o.opacity + ((o.opacityTo - o.opacity) / 4));
+
+                o.setOpacity(diff);
+
+                if(Math.abs(o.opacityTo - diff) > 3 && !o.noTransparency) {
+                        o.fadeTimer = window.setTimeout(o.fade, 50);
+                } else {
+                        o.setOpacity(o.opacityTo);
+                        if(o.opacityTo == 0) {
+                                o.div.style.display = "none";
+                                o.visible = false;
+                        } else {
+                                o.visible = true;
+                        };
+                };
+        };
+        o.killEvent = function(e) {
+                e = e || document.parentWindow.event;
+                
+                if(e.stopPropagation) {
+                        e.stopPropagation();
+                        e.preventDefault();
+                };
+                
+                /*@cc_on
+                @if(@_win32)
+                e.cancelBubble = true;
+                e.returnValue = false;
+                @end
+                @*/
+                return false;
+        };
+        o.getElem = function() {
+                return document.getElementById(o.id.replace(/^fd-/, '')) || false;
+        };
+        o.setRangeLow = function(range) {
+                if(String(range).search(/^(\d\d?\d\d)(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])$/) == -1) range = '';
+                o.low = o.defaults.low = range;
+                if(o.staticPos) o.updateTable(true);
+        };
+        o.setRangeHigh = function(range) {
+                if(String(range).search(/^(\d\d?\d\d)(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])$/) == -1) range = '';
+                o.high = o.defaults.high = range;
+                if(o.staticPos) o.updateTable(true);
+        };
+        o.setDisabledDays = function(dayArray) {
+                o.disableDays = o.defaults.disableDays = dayArray;
+                if(o.staticPos) o.updateTable(true);
+        };
+        o.setDisabledDates = function(dateArray) {
+                var fin = [];
+                for(var i = dateArray.length; i-- ;) {
+                        if(dateArray[i].match(/^(\d\d\d\d|\*\*\*\*)(0[1-9]|1[012]|\*\*)(0[1-9]|[12][0-9]|3[01])$/) != -1) fin[fin.length] = dateArray[i];
+                };
+                if(fin.length) {
+                        o.disabledDates = fin;
+                        o.enabledDates = [];
+                        if(o.staticPos) o.updateTable(true);
+                };
+        };
+        o.setEnabledDates = function(dateArray) {
+                var fin = [];
+                for(var i = dateArray.length; i-- ;) {
+                        if(dateArray[i].match(/^(\d\d\d\d|\*\*\*\*)(0[1-9]|1[012]|\*\*)(0[1-9]|[12][0-9]|3[01]|\*\*)$/) != -1 && dateArray[i] != "********") fin[fin.length] = dateArray[i];
+                };
+                if(fin.length) {
+                        o.disabledDates = [];
+                        o.enabledDates = fin;
+                        if(o.staticPos) o.updateTable(true);
+                };
+        };
+        o.getDisabledDates = function(y, m) {
+                if(o.enabledDates.length) return o.getEnabledDates(y, m);
+                var obj = {};
+                var d = datePicker.getDaysPerMonth(m - 1, y);
+                m = m < 10 ? "0" + String(m) : m;
+                for(var i = o.disabledDates.length; i-- ;) {
+                        var tmp = o.disabledDates[i].replace("****", y).replace("**", m);
+                        if(tmp < Number(String(y)+m+"01") || tmp > Number(y+String(m)+d)) continue;
+                        obj[tmp] = 1;
+                };
+                return obj;
+        };
+        o.getEnabledDates = function(y, m) {
+                var obj = {};
+                var d = datePicker.getDaysPerMonth(m - 1, y);
+                m = m < 10 ? "0" + String(m) : m;
+                var day,tmp,de,me,ye,disabled;
+                for(var dd = 1; dd <= d; dd++) {
+                        day = dd < 10 ? "0" + String(dd) : dd;
+                        disabled = true;
+                        for(var i = o.enabledDates.length; i-- ;) {
+                                tmp = o.enabledDates[i];
+                                ye  = String(o.enabledDates[i]).substr(0,4);
+                                me  = String(o.enabledDates[i]).substr(4,2);
+                                de  = String(o.enabledDates[i]).substr(6,2);
+
+                                if(ye == y && me == m && de == day) {
+                                        disabled = false;
+                                        break;
+                                }
+                                
+                                if(ye == "****" || me == "**" || de == "**") {
+                                        if(ye == "****") tmp = tmp.replace(/^\*\*\*\*/, y);
+                                        if(me == "**")   tmp = tmp = tmp.substr(0,4) + String(m) + tmp.substr(6,2);
+                                        if(de == "**")   tmp = tmp.replace(/\*\*/, day);
+
+                                        if(tmp == String(y + String(m) + day)) {
+                                                disabled = false;
+                                                break;
+                                        };
+                                };
+                        };
+                        if(disabled) obj[String(y + String(m) + day)] = 1;
+                };
+                return obj;
+        };
+        o.setFirstDayOfWeek = function(e) {
+                if ( e == null ) e = document.parentWindow.event;
+                var elem = e.target != null ? e.target : e.srcElement;
+                if(elem.tagName.toLowerCase() != "th") {
+                        while(elem.tagName.toLowerCase() != "th") elem = elem.parentNode;
+                };
+                var cnt = 0;
+                while(elem.previousSibling) {
+                        elem = elem.previousSibling;
+                        if(elem.tagName.toLowerCase() == "th") cnt++;
+                };
+                o.firstDayOfWeek = (o.firstDayOfWeek + cnt) % 7;
+                o.updateTableHeaders();
+                return o.killEvent(e);
+        };
+        o.truePosition = function(element) {
+                var pos = o.cumulativeOffset(element);
+                if(window.opera) { return pos; }
+                var iebody      = (document.compatMode && document.compatMode != "BackCompat")? document.documentElement : document.body;
+                var dsocleft    = document.all ? iebody.scrollLeft : window.pageXOffset;
+                var dsoctop     = document.all ? iebody.scrollTop  : window.pageYOffset;
+                var posReal     = o.realOffset(element);
+                return [pos[0] - posReal[0] + dsocleft, pos[1] - posReal[1] + dsoctop];
+        };
+        o.realOffset = function(element) {
+                var t = 0, l = 0;
+                do {
+                        t += element.scrollTop  || 0;
+                        l += element.scrollLeft || 0;
+                        element = element.parentNode;
+                } while (element);
+                return [l, t];
+        };
+        o.cumulativeOffset = function(element) {
+                var t = 0, l = 0;
+                do {
+                        t += element.offsetTop  || 0;
+                        l += element.offsetLeft || 0;
+                        element = element.offsetParent;
+                } while (element);
+                return [l, t];
+        };
+        o.resize = function() {
+                if(!o.created || !o.getElem()) return;
+                
+                o.div.style.visibility = "hidden";
+                if(!o.staticPos) { o.div.style.left = o.div.style.top = "0px"; }
+                o.div.style.display = "block";
+                
+                var osh = o.div.offsetHeight;
+                var osw = o.div.offsetWidth;
+                
+                o.div.style.visibility = "visible";
+                o.div.style.display = "none";
+                
+                if(!o.staticPos) {
+                        var elem          = document.getElementById('fd-but-' + o.id);
+                        var pos           = o.truePosition(elem);
+                        var trueBody      = (document.compatMode && document.compatMode!="BackCompat") ? document.documentElement : document.body;
+                        var scrollTop     = window.devicePixelRatio || window.opera ? 0 : trueBody.scrollTop;
+                        var scrollLeft    = window.devicePixelRatio || window.opera ? 0 : trueBody.scrollLeft;
+
+                        if(parseInt(trueBody.clientWidth+scrollLeft) < parseInt(osw+pos[0])) {
+                                o.div.style.left = Math.abs(parseInt((trueBody.clientWidth+scrollLeft) - osw)) + "px";
+                        } else {
+                                o.div.style.left  = pos[0] + "px";
+                        };
+
+                        if(parseInt(trueBody.clientHeight+scrollTop) < parseInt(osh+pos[1]+elem.offsetHeight+2)) {
+                                o.div.style.top   = Math.abs(parseInt(pos[1] - (osh + 2))) + "px";
+                        } else {
+                                o.div.style.top   = Math.abs(parseInt(pos[1] + elem.offsetHeight + 2)) + "px";
+                        };
+                };
+                /*@cc_on
+                @if(@_jscript_version <= 5.6)
+                if(o.staticPos) return;
+                o.iePopUp.style.top    = o.div.style.top;
+                o.iePopUp.style.left   = o.div.style.left;
+                o.iePopUp.style.width  = osw + "px";
+                o.iePopUp.style.height = (osh - 2) + "px";
+                @end
+                @*/
+        };
+        o.equaliseDates = function() {
+                var clearDayFound = false;
+                var tmpDate;
+                for(var i = o.low; i <= o.high; i++) {
+                        tmpDate = String(i);
+                        if(!o.disableDays[new Date(tmpDate.substr(0,4), tmpDate.substr(6,2), tmpDate.substr(4,2)).getDay() - 1]) {
+                                clearDayFound = true;
+                                break;
+                        };
+                };
+                if(!clearDayFound) o.disableDays = o.defaults.disableDays = [0,0,0,0,0,0,0];
+        };
+        o.outOfRange = function(tmpDate) {
+                if(!o.low && !o.high) return false;
+
+                var level = false;
+                if(!tmpDate) {
+                        level = true;
+                        tmpDate = o.date;
+                };
+                
+                var d  = (tmpDate.getDate() < 10) ? "0" + tmpDate.getDate() : tmpDate.getDate();
+                var m  = ((tmpDate.getMonth() + 1) < 10) ? "0" + (tmpDate.getMonth() + 1) : tmpDate.getMonth() + 1;
+                var y  = tmpDate.getFullYear();
+                var dt = String(y)+String(m)+String(d);
+
+                if(o.low && parseInt(dt) < parseInt(o.low)) {
+                        if(!level) return true;
+                        o.date = new Date(o.low.substr(0,4), o.low.substr(4,2)-1, o.low.substr(6,2), 5, 0, 0);
+                        return false;
+                };
+                if(o.high && parseInt(dt) > parseInt(o.high)) {
+                        if(!level) return true;
+                        o.date = new Date( o.high.substr(0,4), o.high.substr(4,2)-1, o.high.substr(6,2), 5, 0, 0);
+                };
+                return false;
+        };
+        o.createButton = function() {
+                if(o.staticPos) { return; };
+                
+                var but;
+                
+                if(!document.getElementById("fd-but-" + o.id)) {
+                        var inp = o.getElem();
+                        
+                        but = document.createElement('a');
+                        but.href = "#";
+
+                        var span = document.createElement('span');
+                        span.appendChild(document.createTextNode(String.fromCharCode( 160 )));
+
+                        but.className = "date-picker-control";
+                        but.title = (typeof(fdLocale) == "object" && options.locale && fdLocale.titles.length > 5) ? fdLocale.titles[5] : "";
+
+                        but.id = "fd-but-" + o.id;
+                        but.appendChild(span);
+
+                        if(inp.nextSibling) {
+                                inp.parentNode.insertBefore(but, inp.nextSibling);
+                        } else {
+                                inp.parentNode.appendChild(but);
+                        };
+                } else {
+                        but = document.getElementById("fd-but-" + o.id);
+                };
+
+                but.onclick = but.onpress = function(e) {
+                        e = e || window.event;
+                        var inpId = this.id.replace('fd-but-','');
+                        try { var dp = datePickerController.getDatePicker(inpId); } catch(err) { return false; };
+
+                        if(e.type == "press") {
+                                var kc = e.keyCode != null ? e.keyCode : e.charCode;
+                                if(kc != 13) { return true; };
+                                if(dp.visible) {
+                                        hideAll();
+                                        return false;
+                                };
+                        };
+
+                        if(!dp.visible) {
+                                datePickerController.hideAll(inpId);
+                                dp.show();
+                        } else {
+                                datePickerController.hideAll();
+                        };
+                        return false;
+                };
+                but = null;
+        },
+        o.create = function() {
+                
+                function createTH(details) {
+                        var th = document.createElement('th');
+                        if(details.thClassName) th.className = details.thClassName;
+                        if(details.colspan) {
+                                /*@cc_on
+                                /*@if (@_win32)
+                                th.setAttribute('colSpan',details.colspan);
+                                @else @*/
+                                th.setAttribute('colspan',details.colspan);
+                                /*@end
+                                @*/
+                        };
+                        /*@cc_on
+                        /*@if (@_win32)
+                        th.unselectable = "on";
+                        /*@end@*/
+                        return th;
+                };
+                
+                function createThAndButton(tr, obj) {
+                        for(var i = 0, details; details = obj[i]; i++) {
+                                var th = createTH(details);
+                                tr.appendChild(th);
+                                var but = document.createElement('span');
+                                but.className = details.className;
+                                but.id = o.id + details.id;
+                                but.appendChild(document.createTextNode(details.text));
+                                but.title = details.title || "";
+                                if(details.onmousedown) but.onmousedown = details.onmousedown;
+                                if(details.onclick)     but.onclick     = details.onclick;
+                                if(details.onmouseout)  but.onmouseout  = details.onmouseout;
+                                th.appendChild(but);
+                        };
+                };
+                
+                /*@cc_on
+                @if(@_jscript_version <= 5.6)
+                        if(!document.getElementById("iePopUpHack")) {
+                                o.iePopUp = document.createElement('iframe');
+                                o.iePopUp.src = "javascript:'<html></html>';";
+                                o.iePopUp.setAttribute('className','iehack');
+                                o.iePopUp.scrolling="no";
+                                o.iePopUp.frameBorder="0";
+                                o.iePopUp.name = o.iePopUp.id = "iePopUpHack";
+                                document.body.appendChild(o.iePopUp);
+                        } else {
+                                o.iePopUp = document.getElementById("iePopUpHack");
+                        };
+                @end
+                @*/
+                
+                if(typeof(fdLocale) == "object" && o.locale) {
+                        datePicker.titles  = fdLocale.titles;
+                        datePicker.months  = fdLocale.months;
+                        datePicker.fullDay = fdLocale.fullDay;
+                        // Optional parameters
+                        if(fdLocale.dayAbbr) datePicker.dayAbbr = fdLocale.dayAbbr;
+                        if(fdLocale.firstDayOfWeek) o.firstDayOfWeek = o.defaults.firstDayOfWeek = fdLocale.firstDayOfWeek;
+                };
+                
+                o.div = document.createElement('div');
+                o.div.style.zIndex = 9999;
+                o.div.id = "fd-"+o.id;
+                o.div.className = "datePicker";
+                
+                if(!o.staticPos) {
+                        document.getElementsByTagName('body')[0].appendChild(o.div);
+                } else {
+                        elem = o.getElem();
+                        if(!elem) {
+                                o.div = null;
+                                return;
+                        };
+                        o.div.className += " staticDP";
+                        o.div.setAttribute("tabIndex", "0");
+                        o.div.onfocus = o.events.onfocus;
+                        o.div.onblur  = o.events.onblur;
+                        elem.parentNode.insertBefore(o.div, elem.nextSibling);
+                        if(o.hideInput && elem.type && elem.type == "text") elem.setAttribute("type", "hidden");
+                };
+                
+                //var nbsp = String.fromCharCode( 160 );
+                var tr, row, col, tableHead, tableBody;
+
+                o.table = document.createElement('table');
+                o.div.appendChild( o.table );
+                
+                tableHead = document.createElement('thead');
+                o.table.appendChild( tableHead );
+                
+                tr  = document.createElement('tr');
+                tableHead.appendChild(tr);
+
+                // Title Bar
+                o.titleBar = createTH({thClassName:"date-picker-title", colspan:7});
+                tr.appendChild( o.titleBar );
+                tr = null;
+                
+                var span = document.createElement('span');
+                span.className = "month-display";
+                o.titleBar.appendChild(span);
+
+                span = document.createElement('span');
+                span.className = "year-display";
+                o.titleBar.appendChild(span);
+
+                span = null;
+                
+                tr  = document.createElement('tr');
+                tableHead.appendChild(tr);
+
+                createThAndButton(tr, [{className:"prev-but", id:"-prev-year-but", text:"\u00AB", title:datePicker.titles[2], onmousedown:function(e) { o.events.incDec(e,0,-1,0); }, onmouseout:o.events.clearTimer },{className:"prev-but", id:"-prev-month-but", text:"\u2039", title:datePicker.titles[0], onmousedown:function(e) { o.events.incDec(e,0,0,-1); }, onmouseout:o.events.clearTimer },{colspan:3, className:"today-but", id:"-today-but", text:datePicker.titles.length > 4 ? datePicker.titles[4] : "Today", onclick:o.events.gotoToday},{className:"next-but", id:"-next-month-but", text:"\u203A", title:datePicker.titles[1], onmousedown:function(e) { o.events.incDec(e,0,0,1); }, onmouseout:o.events.clearTimer },{className:"next-but", id:"-next-year-but", text:"\u00BB", title:datePicker.titles[3], onmousedown:function(e) { o.events.incDec(e,0,1,0); }, onmouseout:o.events.clearTimer }]);
+
+                tableBody = document.createElement('tbody');
+                o.table.appendChild( tableBody );
+
+                for(var rows = 0; rows < 7; rows++) {
+                        row = document.createElement('tr');
+
+                        if(rows != 0) tableBody.appendChild(row);
+                        else          tableHead.appendChild(row);
+                        
+                        for(var cols = 0; cols < 7; cols++) {
+                                col = (rows == 0) ? document.createElement('th') : document.createElement('td');
+
+                                row.appendChild(col);
+                                if(rows != 0) {
+                                        col.appendChild(document.createTextNode(o.nbsp));
+                                        col.onmouseover = o.events.onmouseover;
+                                        col.onclick = o.events.onclick;
+                                } else {
+                                        col.className = "date-picker-day-header";
+                                        col.scope = "col";
+                                };
+                                col = null;
+                        };
+                        row = null;
+                };
+
+                // Table headers
+                var but;
+                var ths = o.table.getElementsByTagName('thead')[0].getElementsByTagName('tr')[2].getElementsByTagName('th');
+                for ( var y = 0; y < 7; y++ ) {
+                        if(y > 0) {
+                                but = document.createElement("span");
+                                but.className = "fd-day-header";
+                                but.onclick = ths[y].onclick = o.setFirstDayOfWeek;
+                                but.appendChild(document.createTextNode(o.nbsp));
+                                ths[y].appendChild(but);
+                                but = null;
+                        } else {
+                                ths[y].appendChild(document.createTextNode(o.nbsp));
+                        };
+                };
+                
+                o.ths = o.table.getElementsByTagName('thead')[0].getElementsByTagName('tr')[2].getElementsByTagName('th');
+                o.trs = o.table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+                
+                o.updateTableHeaders();
+                
+                tableBody = tableHead = tr = createThAndButton = createTH = null;
+
+                if(o.low && o.high && (o.high - o.low < 7)) { o.equaliseDates(); };
+                
+                o.created = true;
+                
+                if(o.staticPos) {
+                        var yyN = document.getElementById(o.id);
+                        datePickerController.addEvent(yyN, "change", o.changeHandler);
+                        if(o.splitDate) {
+                                var mmN = document.getElementById(o.id+'-mm');
+                                var ddN = document.getElementById(o.id+'-dd');
+                                datePickerController.addEvent(mmN, "change", o.changeHandler);
+                                datePickerController.addEvent(ddN, "change", o.changeHandler);
+                        };
+                        
+                        o.show();
+                } else {
+                        o.createButton();
+                        o.resize();
+                        o.fade();
+                };
+        };
+        o.changeHandler = function() {
+                o.setDateFromInput();
+                o.updateTable();
+        };
+        o.setDateFromInput = function() {
+                function m2c(val) {
+                        return String(val).length < 2 ? "00".substring(0, 2 - String(val).length) + String(val) : val;
+                };
+
+                o.dateSet = null;
+                
+                var elem = o.getElem();
+                if(!elem) return;
+
+                if(!o.splitDate) {
+                        var date = datePickerController.dateFormat(elem.value, o.format.search(/m-d-y/i) != -1);
+                } else {
+                        var mmN = document.getElementById(o.id+'-mm');
+                        var ddN = document.getElementById(o.id+'-dd');
+                        var tm = parseInt(mmN.tagName.toLowerCase() == "input"  ? mmN.value  : mmN.options[mmN.selectedIndex].value, 10);
+                        var td = parseInt(ddN.tagName.toLowerCase() == "input"  ? ddN.value  : ddN.options[ddN.selectedIndex].value, 10);
+                        var ty = parseInt(elem.tagName.toLowerCase() == "input" ? elem.value : elem.options[elem.selectedIndex || 0].value, 10);
+                        var date = datePickerController.dateFormat(tm + "/" + td + "/" + ty, true);
+                };
+
+                var badDate = false;
+                if(!date) {
+                        badDate = true;
+                        date = String(new Date().getFullYear()) + m2c(new Date().getMonth()+1) + m2c(new Date().getDate());
+                };
+
+                var d,m,y;
+                y = Number(date.substr(0, 4));
+                m = Number(date.substr(4, 2)) - 1;
+                d = Number(date.substr(6, 2));
+
+                var dpm = datePicker.getDaysPerMonth(m, y);
+                if(d > dpm) d = dpm;
+
+                if(new Date(y, m, d) == 'Invalid Date' || new Date(y, m, d) == 'NaN') {
+                        badDate = true;
+                        o.date = new Date();
+                        o.date.setHours(5);
+                        return;
+                };
+
+                o.date = new Date(y, m, d);
+                o.date.setHours(5);
+
+                if(!badDate) o.dateSet = new Date(o.date);
+                m2c = null;
+        };
+        o.setSelectIndex = function(elem, indx) {
+                var len = elem.options.length;
+                indx = Number(indx);
+                for(var opt = 0; opt < len; opt++) {
+                        if(elem.options[opt].value == indx) {
+                                elem.selectedIndex = opt;
+                                return;
+                        };
+                };
+        },
+        o.returnFormattedDate = function() {
+
+                var elem = o.getElem();
+                if(!elem) return;
+                
+                var d                   = (o.date.getDate() < 10) ? "0" + o.date.getDate() : o.date.getDate();
+                var m                   = ((o.date.getMonth() + 1) < 10) ? "0" + (o.date.getMonth() + 1) : o.date.getMonth() + 1;
+                var yyyy                = o.date.getFullYear();
+                var disabledDates       = o.getDisabledDates(yyyy, m);
+                var weekDay             = ( o.date.getDay() + 6 ) % 7;
+
+                if(!(o.disableDays[weekDay] || String(yyyy)+m+d in disabledDates)) {
+
+                        if(o.splitDate) {
+                                var ddE = document.getElementById(o.id+"-dd");
+                                var mmE = document.getElementById(o.id+"-mm");
+
+                                if(ddE.tagName.toLowerCase() == "input") { ddE.value = d; }
+                                else { o.setSelectIndex(ddE, d); /*ddE.selectedIndex = d - 1;*/ };
+                                
+                                if(mmE.tagName.toLowerCase() == "input") { mmE.value = m; }
+                                else { o.setSelectIndex(mmE, m); /*mmE.selectedIndex = m - 1;*/ };
+                                
+                                if(elem.tagName.toLowerCase() == "input") elem.value = yyyy;
+                                else {
+                                        o.setSelectIndex(elem, yyyy); /*
+                                        for(var opt = 0; opt < elem.options.length; opt++) {
+                                                if(elem.options[opt].value == yyyy) {
+                                                        elem.selectedIndex = opt;
+                                                        break;
+                                                };
+                                        };
+                                        */
+                                };
+                        } else {
+                                elem.value = o.format.replace('y',yyyy).replace('m',m).replace('d',d).replace(/-/g,o.divider);
+                        };
+                        if(!elem.type || elem.type && elem.type != "hidden"){ elem.focus(); }
+                        if(o.staticPos) {
+                                o.dateSet = new Date( o.date );
+                                o.updateTable();
+                        };
+                        
+                        // Programmatically fire the onchange event
+                        if(document.createEvent) {
+                                var onchangeEvent = document.createEvent('HTMLEvents');
+                                onchangeEvent.initEvent('change', true, false);
+                                elem.dispatchEvent(onchangeEvent);
+                        } else if(document.createEventObject) {
+                                elem.fireEvent('onchange');
+                        };
+                };
+        };
+        o.disableTodayButton = function() {
+                var today = new Date();
+                document.getElementById(o.id + "-today-but").className = document.getElementById(o.id + "-today-but").className.replace("fd-disabled", "");
+                if(o.outOfRange(today) || (o.date.getDate() == today.getDate() && o.date.getMonth() == today.getMonth() && o.date.getFullYear() == today.getFullYear())) {
+                        document.getElementById(o.id + "-today-but").className += " fd-disabled";
+                        document.getElementById(o.id + "-today-but").onclick = null;
+                } else {
+                        document.getElementById(o.id + "-today-but").onclick = o.events.gotoToday;
+                };
+        };
+        o.updateTableHeaders = function() {
+                var d, but;
+                var ths = o.ths;
+                for ( var y = 0; y < 7; y++ ) {
+                        d = (o.firstDayOfWeek + y) % 7;
+                        ths[y].title = datePicker.fullDay[d];
+
+                        if(y > 0) {
+                                but = ths[y].getElementsByTagName("span")[0];
+                                but.removeChild(but.firstChild);
+                                but.appendChild(document.createTextNode(datePicker.dayAbbr ? datePicker.dayAbbr[d] : datePicker.fullDay[d].charAt(0)));
+                                but.title = datePicker.fullDay[d];
+                                but = null;
+                        } else {
+                                ths[y].removeChild(ths[y].firstChild);
+                                ths[y].appendChild(document.createTextNode(datePicker.dayAbbr ? datePicker.dayAbbr[d] : datePicker.fullDay[d].charAt(0)));
+                        };
+                };
+                o.updateTable();
+        };
+
+        o.updateTable = function(noCallback) {
+
+                if(o.timerSet) {
+                        var d = new Date(o.date);
+                        d.setDate( Math.min(d.getDate()+o.dayInc, datePicker.getDaysPerMonth(d.getMonth()+o.monthInc,d.getFullYear()+o.yearInc)) );
+                        d.setMonth( d.getMonth() + o.monthInc );
+                        d.setFullYear( d.getFullYear() + o.yearInc );
+                        o.date = d;
+                };
+                
+                if(!noCallback && "onupdate" in datePickerController && typeof(datePickerController.onupdate) == "function") datePickerController.onupdate(o);
+
+                o.outOfRange();
+                o.disableTodayButton();
+                
+                // Set the tmpDate to the second day of this month (to avoid daylight savings time madness on Windows)
+                var tmpDate = new Date( o.date.getFullYear(), o.date.getMonth(), 2 );
+                tmpDate.setHours(5);
+
+                var tdm = tmpDate.getMonth();
+                var tdy = tmpDate.getFullYear();
+
+                // Do the disableDates for this year and month
+                var disabledDates = o.getDisabledDates(o.date.getFullYear(), o.date.getMonth() + 1);
+
+                var today = new Date();
+
+                // Previous buttons out of range
+                var b = document.getElementById(o.id + "-prev-year-but");
+                b.className = b.className.replace("fd-disabled", "");
+                if(o.outOfRange(new Date((tdy - 1), Number(tdm), datePicker.getDaysPerMonth(Number(tdm), tdy-1)))) {
+                        b.className += " fd-disabled";
+                        if(o.yearInc == -1) o.stopTimer();
+                };
+
+                b = document.getElementById(o.id + "-prev-month-but")
+                b.className = b.className.replace("fd-disabled", "");
+                if(o.outOfRange(new Date(tdy, (Number(tdm) - 1), datePicker.getDaysPerMonth(Number(tdm)-1, tdy)))) {
+                        b.className += " fd-disabled";
+                        if(o.monthInc == -1)  o.stopTimer();
+                };
+
+                // Next buttons out of range
+                b= document.getElementById(o.id + "-next-year-but")
+                b.className = b.className.replace("fd-disabled", "");
+                if(o.outOfRange(new Date((tdy + 1), Number(tdm), 1))) {
+                        b.className += " fd-disabled";
+                        if(o.yearInc == 1)  o.stopTimer();
+                };
+
+                b = document.getElementById(o.id + "-next-month-but")
+                b.className = b.className.replace("fd-disabled", "");
+                if(o.outOfRange(new Date(tdy, Number(tdm) + 1, 1))) {
+                        b.className += " fd-disabled";
+                        if(o.monthInc == 1)  o.stopTimer();
+                };
+
+                b = null;
+                
+                var cd = o.date.getDate();
+                var cm = o.date.getMonth();
+                var cy = o.date.getFullYear();
+                
+                // Title Bar
+                var span = o.titleBar.getElementsByTagName("span");
+                while(span[0].firstChild) span[0].removeChild(span[0].firstChild);
+                while(span[1].firstChild) span[1].removeChild(span[1].firstChild);
+                span[0].appendChild(document.createTextNode(datePicker.months[cm] + o.nbsp));
+                span[1].appendChild(document.createTextNode(cy));
+
+                tmpDate.setDate( 1 );
+                        
+                var dt, cName, td, tds, i;
+                var weekDay = ( tmpDate.getDay() + 6 ) % 7;
+                var firstColIndex = (( (weekDay - o.firstDayOfWeek) + 7 ) % 7) - 1;
+                var dpm = datePicker.getDaysPerMonth(cm, cy);
+
+                var todayD = today.getDate();
+                var todayM = today.getMonth();
+                var todayY = today.getFullYear();
+                
+                var c = "class";
+                /*@cc_on
+                @if(@_win32)
+                c = "className";
+                @end
+                @*/
+
+                var stub = String(tdy) + (String(tdm+1).length < 2 ? "0" + (tdm+1) : tdm+1);
+                
+                for(var row = 0; row < 6; row++) {
+
+                        tds = o.trs[row].getElementsByTagName('td');
+
+                        for(var col = 0; col < 7; col++) {
+                        
+                                td = tds[col];
+                                td.removeChild(td.firstChild);
+
+                                td.setAttribute("id", "");
+                                td.setAttribute("title", "");
+
+                                i = (row * 7) + col;
+                        
+                                if(i > firstColIndex && i <= (firstColIndex + dpm)) {
+                                        dt = i - firstColIndex;
+
+                                        tmpDate.setDate(dt);
+                                        td.appendChild(document.createTextNode(dt));
+                                        
+                                        if(o.outOfRange(tmpDate)) {
+                                                td.setAttribute(c, "out-of-range");
+                                        } else {
+
+                                                cName = [];
+                                                weekDay = ( tmpDate.getDay() + 6 ) % 7;
+
+                                                if(dt == todayD && tdm == todayM && tdy == todayY) {
+                                                        cName.push("date-picker-today");
+                                                };
+
+                                                if(o.dateSet != null && o.dateSet.getDate() == dt && o.dateSet.getMonth() == tdm && o.dateSet.getFullYear() == tdy) {
+                                                        cName.push("date-picker-selected-date");
+                                                };
+                                                
+                                                if(o.disableDays[weekDay] || stub + String(dt < 10 ? "0" + dt : dt) in disabledDates) {
+                                                        cName.push("day-disabled");
+                                                } else if(o.highlightDays[weekDay]) {
+                                                        cName.push("date-picker-highlight");
+                                                };
+                                                
+                                                if(cd == dt) {
+                                                        td.setAttribute("id", o.id + "-date-picker-hover");
+                                                        cName.push("date-picker-hover");
+                                                };
+                                                
+                                                cName.push("dm-" + dt + '-' + (tdm + 1) + " " + " dmy-" + dt + '-' + (tdm + 1) + '-' + tdy);
+                                                td.setAttribute(c, cName.join(' '));
+                                                td.setAttribute("title", datePicker.months[cm] + o.nbsp + dt + "," + o.nbsp + cy);
+                                        };
+                                } else {
+                                        td.appendChild(document.createTextNode(o.nbsp));
+                                        td.setAttribute(c, "date-picker-unused");
+                                };
+                        };
+                };
+
+                if(o.timerSet) {
+                        o.timerInc = 50 + Math.round(((o.timerInc - 50) / 1.8));
+                        o.timer = window.setTimeout(o.updateTable, o.timerInc);
+                };
+        };
+        o.addKeyboardEvents = function() {
+                datePickerController.addEvent(document, "keypress", o.events.onkeydown);
+                /*@cc_on
+                @if(@_win32)
+                datePickerController.removeEvent(document, "keypress", o.events.onkeydown);
+                datePickerController.addEvent(document, "keydown", o.events.onkeydown);
+                @end
+                @*/
+                if(window.devicePixelRatio) {
+                        datePickerController.removeEvent(document, "keypress", o.events.onkeydown);
+                        datePickerController.addEvent(document, "keydown", o.events.onkeydown);
+                };
+        };
+        o.removeKeyboardEvents =function() {
+                datePickerController.removeEvent(document, "keypress", o.events.onkeydown);
+                datePickerController.removeEvent(document, "keydown",  o.events.onkeydown);
+        };
+        o.show = function() {
+                var elem = o.getElem();
+                if(!elem || o.visible || elem.disabled) return;
+
+                o.reset();
+                o.setDateFromInput();
+                o.updateTable();
+                
+                if(!o.staticPos) o.resize();
+                
+                datePickerController.addEvent(o.staticPos ? o.table : document, "mousedown", o.events.onmousedown);
+
+                if(!o.staticPos) { o.addKeyboardEvents(); };
+                
+                o.opacityTo = o.noTransparency ? 99 : 90;
+                o.div.style.display = "block";
+                /*@cc_on
+                @if(@_jscript_version <= 5.6)
+                if(!o.staticPos) o.iePopUp.style.display = "block";
+                @end
+                @*/
+
+                o.fade();
+                o.visible = true;
+        };
+        o.hide = function() {
+                if(!o.visible) return;
+                o.stopTimer();
+                if(o.staticPos) return;
+                
+                datePickerController.removeEvent(document, "mousedown", o.events.onmousedown);
+                datePickerController.removeEvent(document, "mouseup",  o.events.clearTimer);
+                o.removeKeyboardEvents();
+                
+                /*@cc_on
+                @if(@_jscript_version <= 5.6)
+                o.iePopUp.style.display = "none";
+                @end
+                @*/
+                
+                o.opacityTo = 0;
+                o.fade();
+                o.visible = false;
+                var elem = o.getElem();
+                if(!elem.type || elem.type && elem.type != "hidden") { elem.focus(); };
+        };
+        o.destroy = function() {
+                // Cleanup for Internet Explorer
+                datePickerController.removeEvent(o.staticPos ? o.table : document, "mousedown", o.events.onmousedown);
+                datePickerController.removeEvent(document, "mouseup",   o.events.clearTimer);
+                o.removeKeyboardEvents();
+
+                if(o.staticPos) {
+                        var yyN = document.getElementById(o.id);
+                        datePickerController.removeEvent(yyN, "change", o.changeHandler);
+                        if(o.splitDate) {
+                                var mmN = document.getElementById(o.id+'-mm');
+                                var ddN = document.getElementById(o.id+'-dd');
+
+                                datePickerController.removeEvent(mmN, "change", o.changeHandler);
+                                datePickerController.removeEvent(ddN, "change", o.changeHandler);
+                        };
+                        o.div.onfocus = o.div.onblur = null;
+                };
+                
+                var ths = o.table.getElementsByTagName("th");
+                for(var i = 0, th; th = ths[i]; i++) {
+                        th.onmouseover = th.onmouseout = th.onmousedown = th.onclick = null;
+                };
+                
+                var tds = o.table.getElementsByTagName("td");
+                for(var i = 0, td; td = tds[i]; i++) {
+                        td.onmouseover = td.onclick = null;
+                };
+
+                var butts = o.table.getElementsByTagName("span");
+                for(var i = 0, butt; butt = butts[i]; i++) {
+                        butt.onmousedown = butt.onclick = butt.onkeypress = null;
+                };
+                
+                o.ths = o.trs = null;
+                
+                clearTimeout(o.fadeTimer);
+                clearTimeout(o.timer);
+                o.fadeTimer = o.timer = null;
+                
+                /*@cc_on
+                @if(@_jscript_version <= 5.6)
+                o.iePopUp = null;
+                @end
+                @*/
+                
+                if(!o.staticPos && document.getElementById(o.id.replace(/^fd-/, 'fd-but-'))) {
+                        var butt = document.getElementById(o.id.replace(/^fd-/, 'fd-but-'));
+                        butt.onclick = butt.onpress = null;
+                };
+                
+                if(o.div && o.div.parentNode) {
+                        o.div.parentNode.removeChild(o.div);
+                };
+                
+                o.titleBar = o.table = o.div = null;
+                o = null;
+        };
+        o.create();
+};
+
+datePickerController = function() {
+        var datePickers = {};
+        var uniqueId    = 0;
+        
+        var addEvent = function(obj, type, fn) {
+                if( obj.attachEvent ) {
+                        obj["e"+type+fn] = fn;
+                        obj[type+fn] = function(){obj["e"+type+fn]( window.event );};
+                        obj.attachEvent( "on"+type, obj[type+fn] );
+                } else {
+                        obj.addEventListener( type, fn, true );
+                };
+        };
+        var removeEvent = function(obj, type, fn) {
+                try {
+                        if( obj.detachEvent ) {
+                                obj.detachEvent( "on"+type, obj[type+fn] );
+                                obj[type+fn] = null;
+                        } else {
+                                obj.removeEventListener( type, fn, true );
+                        };
+                } catch(err) {};
+        };
+        var hideAll = function(exception) {
+                var dp;
+                for(dp in datePickers) {
+                        if(!datePickers[dp].created || datePickers[dp].staticPos) continue;
+                        if(exception && exception == datePickers[dp].id) { continue; };
+                        if(document.getElementById(datePickers[dp].id))  { datePickers[dp].hide(); };
+                };
+        };
+        var cleanUp = function() {
+                var dp;
+                for(dp in datePickers) {
+                        if(!document.getElementById(datePickers[dp].id)) {
+                                if(!datePickers[dp].created) continue;
+                                datePickers[dp].destroy();
+                                datePickers[dp] = null;
+                                delete datePickers[dp];
+                        };
+                };
+        };
+        var destroy = function() {
+                for(dp in datePickers) {
+                        if(!datePickers[dp].created) continue;
+                        datePickers[dp].destroy();
+                        datePickers[dp] = null;
+                        delete datePickers[dp];
+                };
+                datePickers = null;
+                /*@cc_on
+                @if(@_jscript_version <= 5.6)
+                        if(document.getElementById("iePopUpHack")) {
+                                document.body.removeChild(document.getElementById("iePopUpHack"));
+                        };
+                @end
+                @*/
+                datePicker.script = null;
+                removeEvent(window, 'load', datePickerController.create);
+                removeEvent(window, 'unload', datePickerController.destroy);
+        };
+        var dateFormat = function(dateIn, favourMDY) {
+                var dateTest = [
+                        { regExp:/^(0?[1-9]|[12][0-9]|3[01])([- \/.])(0?[1-9]|1[012])([- \/.])((\d\d)?\d\d)$/, d:1, m:3, y:5 },  // dmy
+                        { regExp:/^(0?[1-9]|1[012])([- \/.])(0?[1-9]|[12][0-9]|3[01])([- \/.])((\d\d)?\d\d)$/, d:3, m:1, y:5 },  // mdy
+                        { regExp:/^(\d\d\d\d)([- \/.])(0?[1-9]|1[012])([- \/.])(0?[1-9]|[12][0-9]|3[01])$/,    d:5, m:3, y:1 }   // ymd
+                        ];
+
+                var start;
+                var cnt = 0;
+                while(cnt < 3) {
+                        start = (cnt + (favourMDY ? 4 : 3)) % 3;
+                        if(dateIn.match(dateTest[start].regExp)) {
+                                res = dateIn.match(dateTest[start].regExp);
+                                y = res[dateTest[start].y];
+                                m = res[dateTest[start].m];
+                                d = res[dateTest[start].d];
+                                if(m.length == 1) m = "0" + m;
+                                if(d.length == 1) d = "0" + d;
+                                if(y.length != 4) y = (parseInt(y) < 50) ? '20' + y : '19' + y;
+                                return String(y)+m+d;
+                        };
+                        cnt++;
+                };
+                return 0;
+        };
+        var joinNodeLists = function() {
+                if(!arguments.length) { return []; }
+                var nodeList = [];
+                for (var i = 0; i < arguments.length; i++) {
+                        for (var j = 0, item; item = arguments[i][j]; j++) {
+                                nodeList[nodeList.length] = item;
+                        };
+                };
+                return nodeList;
+        };
+        var addDatePicker = function(inpId, options) {
+                if(!(inpId in datePickers)) {
+                        datePickers[inpId] = new datePicker(options);
+                };
+        };
+        var getDatePicker = function(inpId) {
+                if(!(inpId in datePickers)) { throw "No datePicker has been created for the form element with an id of '" + inpId.toString() + "'"; };
+                return datePickers[inpId];
+        };
+        var grepRangeLimits = function(sel) {
+                var range = [];
+                for(var i = 0; i < sel.options.length; i++) {
+                        if(sel.options[i].value.search(/^\d\d\d\d$/) == -1) { continue; };
+                        if(!range[0] || Number(sel.options[i].value) < range[0]) { range[0] = Number(sel.options[i].value); };
+                        if(!range[1] || Number(sel.options[i].value) > range[1]) { range[1] = Number(sel.options[i].value); };
+                };
+                return range;
+        };
+        var create = function(inp) {
+                if(!(typeof document.createElement != "undefined" && typeof document.documentElement != "undefined" && typeof document.documentElement.offsetWidth == "number")) return;
+
+                var inputs  = (inp && inp.tagName) ? [inp] : joinNodeLists(document.getElementsByTagName('input'), document.getElementsByTagName('select'));
+                var regExp1 = /disable-days-([1-7]){1,6}/g;             // the days to disable
+                var regExp2 = /no-transparency/g;                       // do not use transparency effects
+                var regExp3 = /highlight-days-([1-7]){1,7}/g;           // the days to highlight in red
+                var regExp4 = /range-low-(\d\d\d\d-\d\d-\d\d)/g;        // the lowest selectable date
+                var regExp5 = /range-high-(\d\d\d\d-\d\d-\d\d)/g;       // the highest selectable date
+                var regExp6 = /format-(d-m-y|m-d-y|y-m-d)/g;            // the input/output date format
+                var regExp7 = /divider-(dot|slash|space|dash)/g;        // the character used to divide the date
+                var regExp8 = /no-locale/g;                             // do not attempt to detect the browser language
+                var regExp9 = /no-fade/g;                               // always show the datepicker
+                var regExp10 = /hide-input/g;                           // hide the input
+                
+                for(var i=0, inp; inp = inputs[i]; i++) {
+                        if(inp.className && (inp.className.search(regExp6) != -1 || inp.className.search(/split-date/) != -1) && ((inp.tagName.toLowerCase() == "input" && (inp.type == "text" || inp.type == "hidden")) || inp.tagName.toLowerCase() == "select")) {
+
+                                if(inp.id && document.getElementById('fd-'+inp.id)) { continue; };
+                                
+                                if(!inp.id) { inp.id = "fdDatePicker-" + uniqueId++; };
+                                
+                                var options = {
+                                        id:inp.id,
+                                        low:"",
+                                        high:"",
+                                        divider:"/",
+                                        format:"d-m-y",
+                                        highlightDays:[0,0,0,0,0,1,1],
+                                        disableDays:[0,0,0,0,0,0,0],
+                                        locale:inp.className.search(regExp8) == -1,
+                                        splitDate:0,
+                                        noTransparency:inp.className.search(regExp2) != -1,
+                                        staticPos:inp.className.search(regExp9) != -1,
+                                        hideInput:inp.className.search(regExp10) != -1
+                                };
+
+                                if(!options.staticPos) {
+                                        options.hideInput = false;
+                                } else {
+                                        options.noTransparency = true;
+                                };
+                                
+                                // Split the date into three parts ?
+                                if(inp.className.search(/split-date/) != -1) {
+                                        if(document.getElementById(inp.id+'-dd') && document.getElementById(inp.id+'-mm') && document.getElementById(inp.id+'-dd').tagName.search(/input|select/i) != -1 && document.getElementById(inp.id+'-mm').tagName.search(/input|select/i) != -1) {
+                                                options.splitDate = 1;
+                                        };
+                                };
+                                
+                                // Date format(variations of d-m-y)
+                                if(inp.className.search(regExp6) != -1) {
+                                        options.format = inp.className.match(regExp6)[0].replace('format-','');
+                                };
+                                
+                                // What divider to use, a "/", "-", "." or " "
+                                if(inp.className.search(regExp7) != -1) {
+                                        var dividers = { dot:".", space:" ", dash:"-", slash:"/" };
+                                        options.divider = (inp.className.search(regExp7) != -1 && inp.className.match(regExp7)[0].replace('divider-','') in dividers) ? dividers[inp.className.match(regExp7)[0].replace('divider-','')] : "/";
+                                };
+
+                                // The days to highlight
+                                if(inp.className.search(regExp3) != -1) {
+                                        var tmp = inp.className.match(regExp3)[0].replace(/highlight-days-/, '');
+                                        options.highlightDays = [0,0,0,0,0,0,0];
+                                        for(var j = 0; j < tmp.length; j++) {
+                                                options.highlightDays[tmp.charAt(j) - 1] = 1;
+                                        };
+                                };
+
+                                // The days to disable
+                                if(inp.className.search(regExp1) != -1) {
+                                        var tmp = inp.className.match(regExp1)[0].replace(/disable-days-/, '');
+                                        options.disableDays = [0,0,0,0,0,0,0];
+                                        for(var j = 0; j < tmp.length; j++) {
+                                                options.disableDays[tmp.charAt(j) - 1] = 1;
+                                        };
+                                };
+
+                                // The lower limit
+                                if(inp.className.search(/range-low-today/i) != -1) {
+                                        options.low = datePickerController.dateFormat((new Date().getMonth() + 1) + "/" + new Date().getDate() + "/" + new Date().getFullYear(), true);
+                                } else if(inp.className.search(regExp4) != -1) {
+                                        options.low = datePickerController.dateFormat(inp.className.match(regExp4)[0].replace(/range-low-/, ''), false);
+                                        if(!options.low) {
+                                                options.low = '';
+                                        };
+                                };
+
+                                // The higher limit
+                                if(inp.className.search(/range-high-today/i) != -1 && inp.className.search(/range-low-today/i) == -1) {
+                                        options.high = datePickerController.dateFormat((new Date().getMonth() + 1) + "/" + new Date().getDate() + "/" + new Date().getFullYear(), true);
+                                } else if(inp.className.search(regExp5) != -1) {
+                                        options.high = datePickerController.dateFormat(inp.className.match(regExp5)[0].replace(/range-high-/, ''), false);
+                                        if(!options.high) {
+                                                options.high = '';
+                                        };
+                                };
+
+                                // Always round lower & higher limits if a selectList involved
+                                if(inp.tagName.search(/select/i) != -1) {
+                                        var range = grepRangeLimits(inp);
+                                        options.low  = options.low  ? range[0] + String(options.low).substr(4,4)  : datePickerController.dateFormat(range[0] + "/01/01");
+                                        options.high = options.high ? range[1] + String(options.low).substr(4,4)  : datePickerController.dateFormat(range[1] + "/12/31");
+                                };
+
+                                addDatePicker(inp.id, options);
+                        };
+                };
+        }
+        
+        return {
+                addEvent:addEvent,
+                removeEvent:removeEvent,
+                create:create,
+                destroy:destroy,
+                cleanUp:cleanUp,
+                addDatePicker:addDatePicker,
+                getDatePicker:getDatePicker,
+                dateFormat:dateFormat,
+                datePickers:datePickers,
+                hideAll:hideAll
+        };
+}();
+
+})();
+
+function initDatePicker()
+{
+//	datePickerController.addEvent(window, 'load', datePickerController.create);
+	datePickerController.addEvent(window, 'unload', datePickerController.destroy);
+
+	datePickerController.create();
+}
+var fdLocale = {
+        months:[
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+                ],
+        fullDay:[
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+                ],
+        /* Only stipulate the dayAbbr should the first letter of the fullDay not suffice
+
+        dayAbbr:[],
+        */
+
+        /* Only stipulate the firstDayOfWeek should the first day not be Monday
+
+        firstDayOfWeek:0,
+        */
+        titles:[
+                "Previous month",
+                "Next month",
+                "Previous year",
+                "Next year",
+                "Today",
+                "Show Calendar"
+                ]
+};
+
+
+
+/* From: /usr/share/eprints//archives/press/cfg/static/javascript/auto/90_local.js */
 
 
 /* 
@@ -13804,7 +15272,93 @@ function validateHistorySearch()
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/91_google_analytics.js */
+/* From: /usr/share/eprints//archives/press/cfg/static/javascript/auto/90_names_disambiguation.js */
+
+function names_show_disambiguation_info( item_id )
+{	
+	// Hide any still showing disambigution boxes
+	if ( $$('div.names_disambiguation') != null ) {
+		$$('div.names_disambiguation').each(function(disambig_node) {
+			disambig_node.hide();
+		});
+	}
+	
+	var affiliations = $(item_id).select( '[name = "names_affiliation"]' );
+	var fois = $(item_id).select( '[name = "names_foi"]' );
+	var publications = $(item_id).select( '[name = "names_publication"]' );
+	
+	var out = "<strong>Names author information</strong><br/><br/>";
+			
+	var affiliation_text = "";
+	affiliations.each( function(li) {
+		var a = li.innerHTML;
+		affiliation_text += a + "<br/>";
+	});	
+	if ( affiliation_text.length < 1) 
+	{
+		affiliation_text = "None listed";
+	}
+	out += "<strong><em>Affiliations:</em></strong><br/>" + affiliation_text;
+			
+	var foi_text = "";
+	fois.each( function(li) {
+		var f = li.innerHTML;
+		foi_text += f + "<br/>";
+	});	
+	if ( foi_text.length < 1) 
+	{
+		foi_text = "None listed";
+	}
+	out += "<br/><strong><em>Fields of Interest:</em></strong><br/>" + foi_text;	
+	
+	var publications_text = "";
+	publications.each( function(li) {
+		var p = li.innerHTML;
+		publications_text += '"' + p + '"' + "<br/><br/>";
+	});	
+	if ( publications_text.length < 1) 
+	{
+		publications_text = "None listed";
+	}
+	out += "<br/><strong><em>Selected publications:</em></strong><br/>" + publications_text;
+	
+	if ( $(item_id + '.foi') == undefined ) 
+	{	
+		var info_div = new Element( 'div', { id: item_id + '.foi', class: 'names_disambiguation' } );
+		document.body.appendChild(info_div);
+		Element.absolutize(info_div);
+		info_div.clonePosition( 
+			$(item_id), { offsetLeft: $(item_id).getWidth(), setHeight: false, setWidth: false} 
+		);
+		info_div.innerHTML = out;
+		info_div.setStyle({
+			borderStyle: 'dotted',
+			borderTopWidth: '1px',
+			borderRightWidth: '1px',
+			borderBottomWidth: '1px',
+			borderLeftWidth: '0px',
+			borderColor: 'grey',
+			backgroundColor: '#E0E0FF',
+			padding: '10px',
+			width: '200px',
+			height: 'auto'
+		});
+	}
+	else 
+	{
+		$(item_id + '.foi').show();
+	}
+}
+
+function names_hide_disambiguation_info( item_id )
+{
+	if ( $(item_id + '.foi') != null )
+		$(item_id + '.foi').hide();
+}
+
+
+
+/* From: /usr/share/eprints//lib/static/javascript/auto/91_google_analytics.js */
 
 
 /* To enable Google analytics tracking of HTML page views and clicks on links 
@@ -13848,7 +15402,7 @@ document.observe("dom:loaded",function(){
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/99_eprints_api.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/99_eprints_api.js */
 
 var EPrints = Class.create({
 	_currentRepository: undefined,
@@ -13898,59 +15452,203 @@ var eprints = new EPrints();
 
 
 
-/* From: /usr/share/eprints/lib/static/javascript/auto/99_limit_names_shown.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/flowplayer-3.2.0.min.js */
 
-function EPJS_limit_names_shown_load( button_id, element_id )
+/* 
+ * flowplayer.js 3.2.6. The Flowplayer API
+ * 
+ * Copyright 2009-2011 Flowplayer Oy
+ * 
+ * This file is part of Flowplayer.
+ * 
+ * Flowplayer is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * Flowplayer is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with Flowplayer.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * Date: 2011-02-04 05:45:28 -0500 (Fri, 04 Feb 2011)
+ * Revision: 614 
+ */
+(function(){function g(o){console.log("$f.fireEvent",[].slice.call(o))}function k(q){if(!q||typeof q!="object"){return q}var o=new q.constructor();for(var p in q){if(q.hasOwnProperty(p)){o[p]=k(q[p])}}return o}function m(t,q){if(!t){return}var o,p=0,r=t.length;if(r===undefined){for(o in t){if(q.call(t[o],o,t[o])===false){break}}}else{for(var s=t[0];p<r&&q.call(s,p,s)!==false;s=t[++p]){}}return t}function c(o){return document.getElementById(o)}function i(q,p,o){if(typeof p!="object"){return q}if(q&&p){m(p,function(r,s){if(!o||typeof s!="function"){q[r]=s}})}return q}function n(s){var q=s.indexOf(".");if(q!=-1){var p=s.slice(0,q)||"*";var o=s.slice(q+1,s.length);var r=[];m(document.getElementsByTagName(p),function(){if(this.className&&this.className.indexOf(o)!=-1){r.push(this)}});return r}}function f(o){o=o||window.event;if(o.preventDefault){o.stopPropagation();o.preventDefault()}else{o.returnValue=false;o.cancelBubble=true}return false}function j(q,o,p){q[o]=q[o]||[];q[o].push(p)}function e(){return"_"+(""+Math.random()).slice(2,10)}var h=function(t,r,s){var q=this,p={},u={};q.index=r;if(typeof t=="string"){t={url:t}}i(this,t,true);m(("Begin*,Start,Pause*,Resume*,Seek*,Stop*,Finish*,LastSecond,Update,BufferFull,BufferEmpty,BufferStop").split(","),function(){var v="on"+this;if(v.indexOf("*")!=-1){v=v.slice(0,v.length-1);var w="onBefore"+v.slice(2);q[w]=function(x){j(u,w,x);return q}}q[v]=function(x){j(u,v,x);return q};if(r==-1){if(q[w]){s[w]=q[w]}if(q[v]){s[v]=q[v]}}});i(this,{onCuepoint:function(x,w){if(arguments.length==1){p.embedded=[null,x];return q}if(typeof x=="number"){x=[x]}var v=e();p[v]=[x,w];if(s.isLoaded()){s._api().fp_addCuepoints(x,r,v)}return q},update:function(w){i(q,w);if(s.isLoaded()){s._api().fp_updateClip(w,r)}var v=s.getConfig();var x=(r==-1)?v.clip:v.playlist[r];i(x,w,true)},_fireEvent:function(v,y,w,A){if(v=="onLoad"){m(p,function(B,C){if(C[0]){s._api().fp_addCuepoints(C[0],r,B)}});return false}A=A||q;if(v=="onCuepoint"){var z=p[y];if(z){return z[1].call(s,A,w)}}if(y&&"onBeforeBegin,onMetaData,onStart,onUpdate,onResume".indexOf(v)!=-1){i(A,y);if(y.metaData){if(!A.duration){A.duration=y.metaData.duration}else{A.fullDuration=y.metaData.duration}}}var x=true;m(u[v],function(){x=this.call(s,A,y,w)});return x}});if(t.onCuepoint){var o=t.onCuepoint;q.onCuepoint.apply(q,typeof o=="function"?[o]:o);delete t.onCuepoint}m(t,function(v,w){if(typeof w=="function"){j(u,v,w);delete t[v]}});if(r==-1){s.onCuepoint=this.onCuepoint}};var l=function(p,r,q,t){var o=this,s={},u=false;if(t){i(s,t)}m(r,function(v,w){if(typeof w=="function"){s[v]=w;delete r[v]}});i(this,{animate:function(y,z,x){if(!y){return o}if(typeof z=="function"){x=z;z=500}if(typeof y=="string"){var w=y;y={};y[w]=z;z=500}if(x){var v=e();s[v]=x}if(z===undefined){z=500}r=q._api().fp_animate(p,y,z,v);return o},css:function(w,x){if(x!==undefined){var v={};v[w]=x;w=v}r=q._api().fp_css(p,w);i(o,r);return o},show:function(){this.display="block";q._api().fp_showPlugin(p);return o},hide:function(){this.display="none";q._api().fp_hidePlugin(p);return o},toggle:function(){this.display=q._api().fp_togglePlugin(p);return o},fadeTo:function(y,x,w){if(typeof x=="function"){w=x;x=500}if(w){var v=e();s[v]=w}this.display=q._api().fp_fadeTo(p,y,x,v);this.opacity=y;return o},fadeIn:function(w,v){return o.fadeTo(1,w,v)},fadeOut:function(w,v){return o.fadeTo(0,w,v)},getName:function(){return p},getPlayer:function(){return q},_fireEvent:function(w,v,x){if(w=="onUpdate"){var z=q._api().fp_getPlugin(p);if(!z){return}i(o,z);delete o.methods;if(!u){m(z.methods,function(){var B=""+this;o[B]=function(){var C=[].slice.call(arguments);var D=q._api().fp_invoke(p,B,C);return D==="undefined"||D===undefined?o:D}});u=true}}var A=s[w];if(A){var y=A.apply(o,v);if(w.slice(0,1)=="_"){delete s[w]}return y}return o}})};function b(q,G,t){var w=this,v=null,D=false,u,s,F=[],y={},x={},E,r,p,C,o,A;i(w,{id:function(){return E},isLoaded:function(){return(v!==null&&v.fp_play!==undefined&&!D)},getParent:function(){return q},hide:function(H){if(H){q.style.height="0px"}if(w.isLoaded()){v.style.height="0px"}return w},show:function(){q.style.height=A+"px";if(w.isLoaded()){v.style.height=o+"px"}return w},isHidden:function(){return w.isLoaded()&&parseInt(v.style.height,10)===0},load:function(J){if(!w.isLoaded()&&w._fireEvent("onBeforeLoad")!==false){var H=function(){u=q.innerHTML;if(u&&!flashembed.isSupported(G.version)){q.innerHTML=""}if(J){J.cached=true;j(x,"onLoad",J)}flashembed(q,G,{config:t})};var I=0;m(a,function(){this.unload(function(K){if(++I==a.length){H()}})})}return w},unload:function(J){if(this.isFullscreen()&&/WebKit/i.test(navigator.userAgent)){if(J){J(false)}return w}if(u.replace(/\s/g,"")!==""){if(w._fireEvent("onBeforeUnload")===false){if(J){J(false)}return w}D=true;try{if(v){v.fp_close();w._fireEvent("onUnload")}}catch(H){}var I=function(){v=null;q.innerHTML=u;D=false;if(J){J(true)}};setTimeout(I,50)}else{if(J){J(false)}}return w},getClip:function(H){if(H===undefined){H=C}return F[H]},getCommonClip:function(){return s},getPlaylist:function(){return F},getPlugin:function(H){var J=y[H];if(!J&&w.isLoaded()){var I=w._api().fp_getPlugin(H);if(I){J=new l(H,I,w);y[H]=J}}return J},getScreen:function(){return w.getPlugin("screen")},getControls:function(){return w.getPlugin("controls")._fireEvent("onUpdate")},getLogo:function(){try{return w.getPlugin("logo")._fireEvent("onUpdate")}catch(H){}},getPlay:function(){return w.getPlugin("play")._fireEvent("onUpdate")},getConfig:function(H){return H?k(t):t},getFlashParams:function(){return G},loadPlugin:function(K,J,M,L){if(typeof M=="function"){L=M;M={}}var I=L?e():"_";w._api().fp_loadPlugin(K,J,M,I);var H={};H[I]=L;var N=new l(K,null,w,H);y[K]=N;return N},getState:function(){return w.isLoaded()?v.fp_getState():-1},play:function(I,H){var J=function(){if(I!==undefined){w._api().fp_play(I,H)}else{w._api().fp_play()}};if(w.isLoaded()){J()}else{if(D){setTimeout(function(){w.play(I,H)},50)}else{w.load(function(){J()})}}return w},getVersion:function(){var I="flowplayer.js 3.2.6";if(w.isLoaded()){var H=v.fp_getVersion();H.push(I);return H}return I},_api:function(){if(!w.isLoaded()){throw"Flowplayer "+w.id()+" not loaded when calling an API method"}return v},setClip:function(H){w.setPlaylist([H]);return w},getIndex:function(){return p},_swfHeight:function(){return v.clientHeight}});m(("Click*,Load*,Unload*,Keypress*,Volume*,Mute*,Unmute*,PlaylistReplace,ClipAdd,Fullscreen*,FullscreenExit,Error,MouseOver,MouseOut").split(","),function(){var H="on"+this;if(H.indexOf("*")!=-1){H=H.slice(0,H.length-1);var I="onBefore"+H.slice(2);w[I]=function(J){j(x,I,J);return w}}w[H]=function(J){j(x,H,J);return w}});m(("pause,resume,mute,unmute,stop,toggle,seek,getStatus,getVolume,setVolume,getTime,isPaused,isPlaying,startBuffering,stopBuffering,isFullscreen,toggleFullscreen,reset,close,setPlaylist,addClip,playFeed,setKeyboardShortcutsEnabled,isKeyboardShortcutsEnabled").split(","),function(){var H=this;w[H]=function(J,I){if(!w.isLoaded()){return w}var K=null;if(J!==undefined&&I!==undefined){K=v["fp_"+H](J,I)}else{K=(J===undefined)?v["fp_"+H]():v["fp_"+H](J)}return K==="undefined"||K===undefined?w:K}});w._fireEvent=function(Q){if(typeof Q=="string"){Q=[Q]}var R=Q[0],O=Q[1],M=Q[2],L=Q[3],K=0;if(t.debug){g(Q)}if(!w.isLoaded()&&R=="onLoad"&&O=="player"){v=v||c(r);o=w._swfHeight();m(F,function(){this._fireEvent("onLoad")});m(y,function(S,T){T._fireEvent("onUpdate")});s._fireEvent("onLoad")}if(R=="onLoad"&&O!="player"){return}if(R=="onError"){if(typeof O=="string"||(typeof O=="number"&&typeof M=="number")){O=M;M=L}}if(R=="onContextMenu"){m(t.contextMenu[O],function(S,T){T.call(w)});return}if(R=="onPluginEvent"||R=="onBeforePluginEvent"){var H=O.name||O;var I=y[H];if(I){I._fireEvent("onUpdate",O);return I._fireEvent(M,Q.slice(3))}return}if(R=="onPlaylistReplace"){F=[];var N=0;m(O,function(){F.push(new h(this,N++,w))})}if(R=="onClipAdd"){if(O.isInStream){return}O=new h(O,M,w);F.splice(M,0,O);for(K=M+1;K<F.length;K++){F[K].index++}}var P=true;if(typeof O=="number"&&O<F.length){C=O;var J=F[O];if(J){P=J._fireEvent(R,M,L)}if(!J||P!==false){P=s._fireEvent(R,M,L,J)}}m(x[R],function(){P=this.call(w,O,M);if(this.cached){x[R].splice(K,1)}if(P===false){return false}K++});return P};function B(){if($f(q)){$f(q).getParent().innerHTML="";p=$f(q).getIndex();a[p]=w}else{a.push(w);p=a.length-1}A=parseInt(q.style.height,10)||q.clientHeight;E=q.id||"fp"+e();r=G.id||E+"_api";G.id=r;t.playerId=E;if(typeof t=="string"){t={clip:{url:t}}}if(typeof t.clip=="string"){t.clip={url:t.clip}}t.clip=t.clip||{};if(q.getAttribute("href",2)&&!t.clip.url){t.clip.url=q.getAttribute("href",2)}s=new h(t.clip,-1,w);t.playlist=t.playlist||[t.clip];var I=0;m(t.playlist,function(){var K=this;if(typeof K=="object"&&K.length){K={url:""+K}}m(t.clip,function(L,M){if(M!==undefined&&K[L]===undefined&&typeof M!="function"){K[L]=M}});t.playlist[I]=K;K=new h(K,I,w);F.push(K);I++});m(t,function(K,L){if(typeof L=="function"){if(s[K]){s[K](L)}else{j(x,K,L)}delete t[K]}});m(t.plugins,function(K,L){if(L){y[K]=new l(K,L,w)}});if(!t.plugins||t.plugins.controls===undefined){y.controls=new l("controls",null,w)}y.canvas=new l("canvas",null,w);u=q.innerHTML;function J(L){var K=w.hasiPadSupport&&w.hasiPadSupport();if(/iPad|iPhone|iPod/i.test(navigator.userAgent)&&!/.flv$/i.test(F[0].url)&&!K){return true}if(!w.isLoaded()&&w._fireEvent("onBeforeClick")!==false){w.load()}return f(L)}function H(){if(u.replace(/\s/g,"")!==""){if(q.addEventListener){q.addEventListener("click",J,false)}else{if(q.attachEvent){q.attachEvent("onclick",J)}}}else{if(q.addEventListener){q.addEventListener("click",f,false)}w.load()}}setTimeout(H,0)}if(typeof q=="string"){var z=c(q);if(!z){throw"Flowplayer cannot access element: "+q}q=z;B()}else{B()}}var a=[];function d(o){this.length=o.length;this.each=function(p){m(o,p)};this.size=function(){return o.length}}window.flowplayer=window.$f=function(){var p=null;var o=arguments[0];if(!arguments.length){m(a,function(){if(this.isLoaded()){p=this;return false}});return p||a[0]}if(arguments.length==1){if(typeof o=="number"){return a[o]}else{if(o=="*"){return new d(a)}m(a,function(){if(this.id()==o.id||this.id()==o||this.getParent()==o){p=this;return false}});return p}}if(arguments.length>1){var t=arguments[1],q=(arguments.length==3)?arguments[2]:{};if(typeof t=="string"){t={src:t}}t=i({bgcolor:"#000000",version:[9,0],expressInstall:"http://static.flowplayer.org/swf/expressinstall.swf",cachebusting:false},t);if(typeof o=="string"){if(o.indexOf(".")!=-1){var s=[];m(n(o),function(){s.push(new b(this,k(t),k(q)))});return new d(s)}else{var r=c(o);return new b(r!==null?r:o,t,q)}}else{if(o){return new b(o,t,q)}}}return null};i(window.$f,{fireEvent:function(){var o=[].slice.call(arguments);var q=$f(o[0]);return q?q._fireEvent(o.slice(1)):null},addPlugin:function(o,p){b.prototype[o]=p;return $f},each:m,extend:i});if(typeof jQuery=="function"){jQuery.fn.flowplayer=function(q,p){if(!arguments.length||typeof arguments[0]=="number"){var o=[];this.each(function(){var r=$f(this);if(r){o.push(r)}});return arguments.length?o[arguments[0]]:new d(o)}return this.each(function(){$f(this,k(q),p?k(p):{})})}}})();(function(){var e=typeof jQuery=="function";var i={width:"100%",height:"100%",allowfullscreen:true,allowscriptaccess:"always",quality:"high",version:null,onFail:null,expressInstall:null,w3c:false,cachebusting:false};if(e){jQuery.tools=jQuery.tools||{};jQuery.tools.flashembed={version:"1.0.4",conf:i}}function j(){if(c.done){return false}var l=document;if(l&&l.getElementsByTagName&&l.getElementById&&l.body){clearInterval(c.timer);c.timer=null;for(var k=0;k<c.ready.length;k++){c.ready[k].call()}c.ready=null;c.done=true}}var c=e?jQuery:function(k){if(c.done){return k()}if(c.timer){c.ready.push(k)}else{c.ready=[k];c.timer=setInterval(j,13)}};function f(l,k){if(k){for(key in k){if(k.hasOwnProperty(key)){l[key]=k[key]}}}return l}function g(k){switch(h(k)){case"string":k=k.replace(new RegExp('(["\\\\])',"g"),"\\$1");k=k.replace(/^\s?(\d+)%/,"$1pct");return'"'+k+'"';case"array":return"["+b(k,function(n){return g(n)}).join(",")+"]";case"function":return'"function()"';case"object":var l=[];for(var m in k){if(k.hasOwnProperty(m)){l.push('"'+m+'":'+g(k[m]))}}return"{"+l.join(",")+"}"}return String(k).replace(/\s/g," ").replace(/\'/g,'"')}function h(l){if(l===null||l===undefined){return false}var k=typeof l;return(k=="object"&&l.push)?"array":k}if(window.attachEvent){window.attachEvent("onbeforeunload",function(){__flash_unloadHandler=function(){};__flash_savedUnloadHandler=function(){}})}function b(k,n){var m=[];for(var l in k){if(k.hasOwnProperty(l)){m[l]=n(k[l])}}return m}function a(r,t){var q=f({},r);var s=document.all;var n='<object width="'+q.width+'" height="'+q.height+'"';if(s&&!q.id){q.id="_"+(""+Math.random()).substring(9)}if(q.id){n+=' id="'+q.id+'"'}if(q.cachebusting){q.src+=((q.src.indexOf("?")!=-1?"&":"?")+Math.random())}if(q.w3c||!s){n+=' data="'+q.src+'" type="application/x-shockwave-flash"'}else{n+=' classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"'}n+=">";if(q.w3c||s){n+='<param name="movie" value="'+q.src+'" />'}q.width=q.height=q.id=q.w3c=q.src=null;for(var l in q){if(q[l]!==null){n+='<param name="'+l+'" value="'+q[l]+'" />'}}var o="";if(t){for(var m in t){if(t[m]!==null){o+=m+"="+(typeof t[m]=="object"?g(t[m]):t[m])+"&"}}o=o.substring(0,o.length-1);n+='<param name="flashvars" value=\''+o+"' />"}n+="</object>";return n}function d(m,p,l){var k=flashembed.getVersion();f(this,{getContainer:function(){return m},getConf:function(){return p},getVersion:function(){return k},getFlashvars:function(){return l},getApi:function(){return m.firstChild},getHTML:function(){return a(p,l)}});var q=p.version;var r=p.expressInstall;var o=!q||flashembed.isSupported(q);if(o){p.onFail=p.version=p.expressInstall=null;m.innerHTML=a(p,l)}else{if(q&&r&&flashembed.isSupported([6,65])){f(p,{src:r});l={MMredirectURL:location.href,MMplayerType:"PlugIn",MMdoctitle:document.title};m.innerHTML=a(p,l)}else{if(m.innerHTML.replace(/\s/g,"")!==""){}else{m.innerHTML="<h2>Flash version "+q+" or greater is required</h2><h3>"+(k[0]>0?"Your version is "+k:"You have no flash plugin installed")+"</h3>"+(m.tagName=="A"?"<p>Click here to download latest version</p>":"<p>Download latest version from <a href='http://www.adobe.com/go/getflashplayer'>here</a></p>");if(m.tagName=="A"){m.onclick=function(){location.href="http://www.adobe.com/go/getflashplayer"}}}}}if(!o&&p.onFail){var n=p.onFail.call(this);if(typeof n=="string"){m.innerHTML=n}}if(document.all){window[p.id]=document.getElementById(p.id)}}window.flashembed=function(l,m,k){if(typeof l=="string"){var n=document.getElementById(l);if(n){l=n}else{c(function(){flashembed(l,m,k)});return}}if(!l){return}if(typeof m=="string"){m={src:m}}var o=f({},i);f(o,m);return new d(l,o,k)};f(window.flashembed,{getVersion:function(){var m=[0,0];if(navigator.plugins&&typeof navigator.plugins["Shockwave Flash"]=="object"){var l=navigator.plugins["Shockwave Flash"].description;if(typeof l!="undefined"){l=l.replace(/^.*\s+(\S+\s+\S+$)/,"$1");var n=parseInt(l.replace(/^(.*)\..*$/,"$1"),10);var r=/r/.test(l)?parseInt(l.replace(/^.*r(.*)$/,"$1"),10):0;m=[n,r]}}else{if(window.ActiveXObject){try{var p=new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7")}catch(q){try{p=new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");m=[6,0];p.AllowScriptAccess="always"}catch(k){if(m[0]==6){return m}}try{p=new ActiveXObject("ShockwaveFlash.ShockwaveFlash")}catch(o){}}if(typeof p=="object"){l=p.GetVariable("$version");if(typeof l!="undefined"){l=l.replace(/^\S+\s+(.*)$/,"$1").split(",");m=[parseInt(l[0],10),parseInt(l[2],10)]}}}}return m},isSupported:function(k){var m=flashembed.getVersion();var l=(m[0]>k[0])||(m[0]==k[0]&&m[1]>=k[1]);return l},domReady:c,asString:g,getHTML:a});if(e){jQuery.fn.flashembed=function(l,k){var m=null;this.each(function(){m=flashembed(this,l,k)});return l.api===false?this:m}}})();
+
+
+/* From: /usr/share/eprints//lib/static/javascript/auto/issues2.js */
+
+function issues2_retire( id1 )
 {
-    button = $(button_id);
-	element = $(element_id);
+  var Popup = {
+    open: function(options)
+    {
+      this.options = {
+        url: '#',
+        width: 800,
+        height: 800
+      }
+      Object.extend(this.options, options || {});
+      window.open(this.options.url, '', 'width='+this.options.width+',height='+this.options.height);
+    }
+  }
+  Popup.open({url:'/cgi/users/home?screen=EPrint::View&eprintid='+id1});
 
-	button.style.display = "inline";
-	button.setAttribute("aria-expanded", "true");
-	element.style.display = "none";
-	element.setAttribute("aria-hidden", "true");
+  return false;
 }
 
-function EPJS_limit_names_shown( button_id, element_id, button_unexpanded_text, button_expanded_text )
-{
-	button = $(button_id);
-    element = $(element_id);
+function extractAttributeFromAncestry(el, attr) {
 
-    if( element.style.display == "inline" )
+  for (var this_el = el; this_el; this_el = this_el.parentElement)
+  {
+    if (this_el && this_el.readAttribute)
     {
-		element.style.display = "none";
-		element.setAttribute("aria-hidden", "true");
-		button.setAttribute("aria-expanded", "false");
-		if ( button_expanded_text != "" )
-		{
-			button.update( button_unexpanded_text );
-		}
+      var value = this_el.readAttribute(attr);
+
+      if (value)
+      {
+        return value;
+      }
     }
-    else
-    {
-		element.style.display = "inline";
-		element.setAttribute("aria-hidden", "false");
-		button.setAttribute("aria-expanded", "true");
-		if ( button_expanded_text == "" )
-		{
-			button.style.display = "none";
-		}
-		else
-		{
-			button.update( button_expanded_text );
-		}
-		
-    }
+  }
 }
 
+function extractEPrintIDfromURL() {
+
+  var id;
+  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&#]*)/gi,
+
+    function (m, key, value)
+    {
+      if (key == "eprintid")
+      {
+        id = value;
+      }
+    });
+
+  return id;
+}
+
+function issues2_compare( el, id2 )
+{
+  var id1 = extractAttributeFromAncestry(el, 'eprintid');
+
+  // If the eprintid wasn't found in the element ancestry, extract it from the
+  // URL instead.
+
+  if (id1 == null)
+  {
+    id1 = extractEPrintIDfromURL();
+  }
+  
+  var win = window.open( '/cgi/users/home?screen=EPrint::Issues2Summary&eprintid='+id1+'&eprintid2='+id2+'&mainonly=yes', 'Compare', 'width=800,height=400' );
+
+  /*
+  var Popup = {
+    open: function(options)
+    {
+      this.options = {
+        url: '#',
+        width: 800,
+        height: 400,
+        scrollbars: 'yes',
+        resizable: 'yes',
+        location: 'no',
+        name: 'Compare',
+      }
+      Object.extend(this.options, options || {});
+      window.open(this.options.url, '', 'width='+this.options.width+',height='+this.options.height);
+    }
+  }
+  Popup.open({url:'/cgi/users/home?screen=EPrint::Issues2Summary&eprintid='+id1+'&eprintid2='+id2+'&mainonly=yes'});
+  */
+
+  return false;
+}
+
+function issues2_ack( el, code )
+{
+  var id1 = extractAttributeFromAncestry(el, 'eprintid');
+  var code = extractAttributeFromAncestry(el, 'ep_issue_list_id');
+
+  // If the eprintid wasn't found in the element ancestry, extract it from the
+  // URL instead.
+
+  if (id1 == null)
+  {
+    id1 = extractEPrintIDfromURL();
+  }
+
+  console.log( "el", el, "id1", id1, "code", code );
+
+  if ( confirm( "Acknowledge and dismiss this problem?" ) == true)
+  {
+    new Ajax.Request( '/cgi/issues2ack?eprintid='+id1+'&code='+code, { method:'get' } );
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}
+
+function issues2_merge(id1, id2)
+{
+  console.log( "issues2_merge" );
+
+  var fields = "";
+  $$('.ep_issues2_merge').each(function(e){
+    if($(e).checked==true) {
+      fields = fields + $(e).name + ",";
+    }
+  });
+
+  console.log(id1 + " " + id2 + " " + fields);
+
+  new Ajax.Request( '/cgi/issues2merge?eprintid1='+id1+'&eprintid2='+id2+"&fields="+fields,
+  { method:'get',
+    onComplete: function() { window.close(); }
+  });
+
+  return;
+}
+
+// run on page load - hide the issues we are not interested in
+document.observe('dom:loaded', function()
+{
+  var types = [];
+  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,    
+    function(m,key,value)
+    {
+      if(key == "item_issues2_type")
+      {
+        types.push( "li.ep_issue_type_" + value );
+      }
+  });
+
+  if( types.length > 0 )
+  {
+    // hide all
+    $$( "li.ep_issue_type" ).each(
+      function (e) { e.setStyle({display:'none'}); } 
+    );
+    // show selected
+    for (i = 0; i < types.length; i++)
+    { 
+      $$( types[i] ).each(
+        function (e) { e.setStyle({display:'list-item'}); } 
+      );
+    }
+  }
+});
 
 
-/* From: /usr/share/eprints/archives/keparchive/cfg/static/javascript/auto/99_uploadmethod_file_max_size.js */
 
-max_size = 1073741824;
-
-
-/* From: /usr/share/eprints/lib/static/javascript/auto/jscss.js */
+/* From: /usr/share/eprints//lib/static/javascript/auto/jscss.js */
 
 /*
  * IE compatibility based on a information given here:
@@ -13993,3 +15691,513 @@ else
 	}
 	styleObj.appendChild(document.createTextNode( css_string ));
 }
+
+
+
+/* From: /usr/share/eprints//lib/static/javascript/auto/reports.js */
+
+var initReportForm = function(){
+
+        //polyfill for IE
+        (function () {
+                if ( typeof window.CustomEvent === "function" ) return false; //If not IE
+                function CustomEvent ( event, params ) {
+                    params = params || { bubbles: false, cancelable: false, detail: undefined };
+                    var evt = document.createEvent( 'CustomEvent' );
+                    evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+                    return evt;
+                }
+
+                CustomEvent.prototype = window.Event.prototype;
+
+                window.CustomEvent = CustomEvent;
+        })();
+
+
+        var select = document.getElementById('select_report');
+        select.addEventListener('change', onFormSelect);
+
+        document.observe("dom:loaded", function() {
+                var changeSelect = new CustomEvent("change");
+                select.dispatchEvent(changeSelect);
+        });
+};
+
+
+var onFormSelect = function(){
+	//get form id
+	var formid = this.options[this.selectedIndex].getAttribute('form');
+	
+	//hide other forms
+	$$('table.ep_search_fields').each(function (elem) 
+	{	
+		//hide the form
+		$(elem).hide();
+		$(elem).removeClassName("selected_form");
+		$(elem).select('input').each(function (input)
+		{
+			$(input).setAttribute("disabled", "disabled");
+		});
+	});
+		
+	//show the form we want
+	$(formid).show();
+	$(formid).addClassName("selected_form");
+
+	//enable this form's input elements
+	$(formid).select('input').each(function (input)
+	{
+		$(input).removeAttribute("disabled");
+	});
+
+};
+
+// Used by the Screen::Report::render method
+
+var EPrints_Screen_Report_Loader = Class.create({
+	has_problems: 0,
+	count: 0,
+	runs: 0,
+	progress: null,
+	ids: Array(),
+	step: 20,
+	prefix: '',
+	onProblems: function() {},
+	onFinish: function() {},
+	url: "",
+	parameters: "",
+	container: null,
+	show_compliance: 1,	
+
+	// to show a pretty progress bar (% compliance):
+	total_dataobjs: 0,
+	total_noncompliant: 0,
+
+
+	initialize: function(opts) {
+		if( opts.ids )
+			this.ids = opts.ids;
+		if( opts.step )
+			this.step = opts.step;
+		if( opts.prefix )
+			this.prefix = opts.prefix;
+		if( opts.onFinish )
+			this.onFinish = opts.onFinish;
+		if( opts.onProblems )
+			this.onProblems = opts.onProblems;
+		if( opts.url )
+		{
+			this.url = opts.url;
+		}
+		if( opts.parameters )
+			this.parameters = opts.parameters;
+		if( opts.container_id )
+			this.container = $( opts.container_id );	// should fail if container doesn't exist...
+		if( opts.hasOwnProperty('show_compliance') )
+		{
+			this.show_compliance = opts.show_compliance;
+		}
+		if( opts.labels )
+		{
+			this.labels = opts.labels;
+		}
+	},
+
+	execute: function() {
+		// progress-bar
+
+		this.container.insert( new Element( 'div', { 'class': 'ep_report_progress_bar', 'id': this.prefix + "_progress_bar" } ) );	
+
+		var current_grouping = null;	// might not be set in the returned value but that's allowed/OK
+
+		var dataobjs = {};
+		var grouped = false;
+		var seen_ids = {};
+		this.no_items = this.ids.length;
+		this.retrieved = [];
+		if( !isInteger(this.ids[0]) ) //ids have been grouped
+		{	
+			grouped = true;
+			this.grouped_ids = this.ids;
+			this.ids = [];
+			for( var i = 0; i < this.grouped_ids.length; i++ )
+			{
+				this.ids = this.ids.concat(this.grouped_ids[i].list);
+			}
+			//the grouping may have created duplicate records (i.e. a record can appear in more than one group) - it's handy to have an array of all the unique records
+			this.unique = this.ids.filter(function(item, i, ar){ return ar.indexOf(item) === i; });
+			this.no_items = this.unique.length;
+		}
+		for(var i = 0; i < this.ids.length; i+=this.step)
+		{
+			// arguments for Ajax query AND creates the HTML placeholders <div>'s (that will receive the content of the Ajax query...)				
+			var args = '&ajax='+this.prefix;
+			for(var j = 0; j < this.step && i+j < this.ids.length; j++)
+			{
+				args += '&' + this.prefix + '=' + this.ids[i+j];
+				var id = this.prefix + '_' + this.ids[i+j];
+				var target_el = $( id );
+				if( target_el != null )
+				{
+					//store a record of this in seen_ids to ensure each placeholder has a unique id
+					if( !(id in seen_ids) )
+					{
+						seen_ids[id] = 1;
+					}
+					else
+					{
+						seen_ids[id] = seen_ids[id] + 1;
+					}
+					id = id + "_" + seen_ids[id];
+				}
+					
+				this.container.insert( new Element( 'div', { 'class': 'ep_report_row', 'id': id, 'position': i+j } ), { 'position': 'after' } );
+			}
+			new Ajax.Request( this.url, {
+				method: 'get',
+				parameters: this.parameters + args,
+				onSuccess: (function(transport) {
+
+					var json = transport.responseText.evalJSON();
+					var data = json.data;
+	
+					if( data == null )
+						data = new Array();
+					for( var i=0; i<data.length; i++ )
+					{
+						var entry = data[i];
+				
+						// entry.dataobjid
+						// entry.summary
+						// entry.grouping
+						// entry.problems
+
+						if( entry == null )
+							continue;
+						
+						var dataobjid = entry.dataobjid;
+						if( dataobjid == null )
+							continue;
+						if( !(dataobjid in dataobjs) )
+						{
+							this.count++;
+							dataobjs[dataobjid] = entry;
+						}
+					}
+			
+					// we've retrieved all the records				
+					if( this.count == this.no_items )
+					{
+						$( this.prefix + '_progress_bar' ).remove();
+						if( this.has_problems )
+							this.onProblems(this);
+						this.onFinish(this);
+							
+						//add the group headings
+						if(grouped)
+						{
+							var position = 0;
+							for( var i = 0; i < this.grouped_ids.length; i++ )
+				                        {	
+								var target_el = document.querySelectorAll('[position="' + position + '"]')[0];
+								position = position + this.grouped_ids[i].list.length;			
+								var grouping_container = new Element( 'div', { 'class': 'ep_report_grouping' } );
+                                                                target_el.insert( { 'before' : grouping_container } );
+                                                                grouping_container.update( this.grouped_ids[i].label );
+				                        }
+						}
+
+						//add the eprint summaries
+						var added_ids = {};
+						for( var c = 0; c < this.ids.length; c++ )
+						{
+							var dataobjid = this.ids[c];
+							var entry = dataobjs[dataobjid];
+
+							//store that we have added this objectid
+							if( !(dataobjid in added_ids) )
+							{
+								added_ids[dataobjid] = 0;
+							}
+							else
+							{
+								added_ids[dataobjid] = added_ids[dataobjid] + 1;
+							}
+							this.total_dataobjs++;
+
+							var summary = entry.summary;
+
+							var target_id = this.prefix + '_' + dataobjid;
+							if( added_ids[dataobjid] > 0 )
+							{
+								target_id = target_id + '_' + added_ids[dataobjid];
+							}
+							var target_el = $( target_id );
+
+							if( target_el != null && summary != null )
+							{
+								var summary_el = target_el.appendChild( new Element( 'div', { 'class': 'ep_report_row_summary' } ) );
+								summary_el.update( summary );
+
+								//total up non compliant records
+								if( entry.is_compliant == null && entry.problems && entry.problems.length )
+								{
+									this.total_noncompliant++;
+								}
+								
+								if( entry.problems && entry.problems.length )
+								{
+									var problems_el = target_el.appendChild( new Element( 'ul', { 'class': 'ep_report_row_problems' } ) );
+
+									for( var p=0; p< entry.problems.length; p++ )
+									{
+										var li = problems_el.appendChild( new Element( 'li' ));
+										li.update( entry.problems[p] );
+									}								
+								}
+								else
+								{
+									//add support for compliant items to include bullet points too
+									if( entry.bullets && entry.bullets.length )
+                                                                        {
+                                                                                var bullets_el = target_el.appendChild( new Element( 'ul', { 'class': 'ep_report_row_bullets' } ) );
+
+                                                                                for( var b=0; b< entry.bullets.length; b++ )
+                                                                                {
+                                                                                        var li = bullets_el.appendChild( new Element( 'li' ));
+                                                                                        li.update( entry.bullets[b] );
+                                                                                }
+                                                                        }
+								}
+
+								//display state
+								var re = new RegExp("^#(?:[0-9a-fA-F]{3}){1,2}$");
+								if( entry.state && re.test(entry.state) )
+								{
+									target_el.style.borderLeftWidth = '7px';
+                                                                        target_el.style.borderLeftStyle = 'solid';
+                                                                        target_el.style.borderLeftColor = entry.state;
+								}
+								else //no state provided, so derive one from existence of problems
+								{
+									if( entry.problems && entry.problems.length )
+									{
+										target_el.addClassName( 'ep_report_row_problems' );
+									}
+									else
+									{
+										target_el.addClassName( 'ep_report_row_ok' );
+									}
+
+									if( !this.show_compliance )
+									{
+										target_el.addClassName( 'ep_report_row_no_compliance' );
+									}
+								}								
+								target_el.show();
+
+								var grouping = entry.grouping;
+								if( grouping != null )
+								{
+									if( current_grouping == null || current_grouping != grouping)
+									{
+										current_grouping = grouping;
+										var grouping_container = new Element( 'div', { 'class': 'ep_report_grouping' } );
+										target_el.insert( { 'before' : grouping_container } );
+										grouping_container.update( current_grouping );
+									}
+								}
+							}
+						}
+
+
+						if( this.total_dataobjs )
+						{
+							
+							this.container.insertBefore( new Element( 'div', { 'class': 'ep_report_compliance_container', 'id': this.prefix + "_compliance_container" } ), this.container.firstChild );
+							//set up text container
+							$( this.prefix + "_compliance_container" ).appendChild( new Element( 'div', { 'class': 'ep_report_compliance_text', 'id': this.prefix + "_compliance_text",  } ));
+
+							//set up outputs label
+							var outputs;
+							if( this.labels )
+							{
+								outputs = this.labels.outputs;
+							}
+							else
+							{
+								outputs = "output";
+								if( this.total_dataobjs > 1 )
+									outputs = outputs + "s";
+							}
+
+							if( this.show_compliance )
+							{
+								var ref_width = 200;
+								var compliance = ( this.total_dataobjs - this.total_noncompliant ) / this.total_dataobjs;
+
+								$( this.prefix + "_compliance_container" ).appendChild( new Element( 'div', { 'class': 'ep_report_compliance_wrapper', 'id': this.prefix + "_compliance", 'style': 'width: '+ref_width + 'px' } ) );
+
+								var compliance_width = Math.floor( 200 * compliance );
+	
+								$( this.prefix + "_compliance" ).appendChild( new Element( 'div', { 'class': 'ep_report_compliance', 'style': 'width:'+compliance_width + 'px' } ) );
+	
+								$( this.prefix + "_compliance_text" ).update( this.total_dataobjs + " " + outputs + " - " + Math.floor( compliance * 100 ) + "% compliance");
+							}
+							else
+							{
+								$( this.prefix + "_compliance_text" ).update( this.total_dataobjs + " " + outputs );
+							}
+						}	
+
+					}
+					else
+					{
+						var width = 200;
+						$( this.prefix + '_progress_bar' ).style.backgroundPosition = Math.round(-width + width * this.count / this.ids.length) + "px 0px";
+					}
+
+					if( this.runs == 0 && this.count == 0 )
+					{
+						var pNode = $( this.prefix + '_progress_bar' ).parentNode;
+						$(this.prefix + '_progress_bar').remove();
+						var span = new Element( 'span', { 'class': 'ep_ref_report_empty' } );
+						span.update( 'Report empty' );
+						pNode.insert( span );
+					}
+					this.runs++;
+
+				}).bind(this)
+			});
+		}
+		if( this.ids == null || this.ids.length == 0 )
+		{
+			var pNode = $(this.prefix + '_progress_bar').parentNode;
+			$(this.prefix + '_progress_bar').hide();
+			var span = new Element( 'span', { 'class': 'ep_ref_report_empty' } );
+			span.update( 'Report empty' );
+			pNode.insert( span );
+		}
+	}
+
+
+});
+
+function group_report(group)
+{
+	document.group_report.group.value = group;
+	document.group_report.submit();
+}
+
+function sort_report(sort)
+{
+	document.sort_report.sort.value = sort;
+	document.sort_report.submit();
+}
+
+function isInteger(num) {
+  return (num ^ 0) === num;
+}
+
+
+
+/* From: /usr/share/eprints//archives/press/cfg/static/javascript/auto/z_cookie.js */
+
+function getCookie(c_name)
+{
+var c_value = document.cookie;
+var c_start = c_value.indexOf(" " + c_name + "=");
+if (c_start == -1)
+  {
+  c_start = c_value.indexOf(c_name + "=");
+  }
+if (c_start == -1)
+  {
+  c_value = null;
+  }
+else
+  {
+  c_start = c_value.indexOf("=", c_start) + 1;
+  var c_end = c_value.indexOf(";", c_start);
+  if (c_end == -1)
+    {
+    c_end = c_value.length;
+    }
+  c_value = unescape(c_value.substring(c_start,c_end));
+  }
+return c_value;
+}
+
+function setCookie(c_name,value,exdays)
+{
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value=escape(value) + ((exdays==null) ? "" : ";expires="+exdate.toUTCString()) +";path=/";
+	document.cookie=c_name + "=" + c_value;
+}
+
+
+if (getCookie("cookiesAccepted") != "true"){
+
+	Event.observe(window, 'load', function() {
+  		var div = new Element ('div', {
+    	 	 id: 'ep_cookies_overlay'
+  		});
+  		var div_content = new Element ('div', {
+		 id: 'ep_cookies_box',
+		 'class': 'border shadow',
+		});
+  		var h3_message = new Element ('h3', {
+    	 	 id: 'ep_cookie_head'
+  		});
+  		var div_message = new Element ('div', {
+    		 id: 'ep_cookies_message',
+		 'class': 'ep_cookies_messages'
+  		});
+
+  		var div_accept = new Element ('div', {
+    	 	 id: 'ep_cookies_accept',
+     	 	 'class': 'cookies_button btn-docklands border'
+  		});
+		var div_post_button = new Element ('div', {
+		 id: 'ep_cookies_post_button',
+		 'class': 'ep_cookies_messages'
+		});
+
+  		div.insert (div_content);
+  		div_content.insert (h3_message);
+  		div_content.insert (div_message);
+  		div_content.insert (div_accept);
+		div_content.insert (div_post_button);
+  
+  		div.hide ();
+  		$(document.body).insert (div);
+
+  		div_accept.observe ('click', function(e) {
+    
+    			setCookie("cookiesAccepted","true",100);
+    			Effect.Fade ('ep_cookies_overlay', {
+    	 	 	 duration: .5
+    			})
+  		});
+
+
+  		eprints.currentRepository().phrase ({'cookies_title': {},'cookies_help': {}, 'cookies_action_accept': {}, 'cookies_post_button_message': {}}, function(phrases) {
+    			h3_message.insert (phrases['cookies_title']);
+    			div_message.insert (phrases['cookies_help']);
+    			div_accept.insert (phrases['cookies_action_accept']);
+			div_post_button.insert (phrases['cookies_post_button_message']);
+
+    			Effect.Appear ('ep_cookies_overlay', {
+      	 	 	 duration: .0
+    			});
+			Effect.Appear ('ep_cookies_box', {
+                         duration: .5
+                        });
+
+  		});
+	});
+
+}
+
+

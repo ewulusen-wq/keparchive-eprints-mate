@@ -1,0 +1,54 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input role="button" name="_action_export_redir" class="ep_form_action_button" value="Export" type="submit" /><input id="view" name="view" type="hidden" value="creators" /><input id="values" name="values" type="hidden" value="Makalima=3AMzuchumile=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Makalima=3AMzuchumile=3A=3A/Atom/Makalima=3AMzuchumile=3A=3A.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Makalima=3AMzuchumile=3A=3A/RSS/Makalima=3AMzuchumile=3A=3A.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Makalima=3AMzuchumile=3A=3A/RSS2/Makalima=3AMzuchumile=3A=3A.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Makalima=3AMzuchumile=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Makalima, Mzuchumile</span> and <span class="person_name">Anathi Mihlali, Sokhetye</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/561/"><em>A Holistic Examination of Social Housing Dynamics in Johannesburg's Informal Settlements.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 12 (3).
+    pp. 5-19.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Makalima, Mzuchumile</span> and <span class="person_name">Rudnák, Ildikó</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/305/"><em>Changing paradigms in Human Resource Management : Harmonizing global trends and local realities in South Africa.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 11 (1).
+    pp. 31-42.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Feb 22 18:19:50 2026 CET</strong>.</div></div>

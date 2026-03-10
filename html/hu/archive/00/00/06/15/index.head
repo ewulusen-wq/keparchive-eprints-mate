@@ -1,0 +1,74 @@
+<meta content="615" name="eprints.eprintid" />
+<meta content="6" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="34" name="eprints.userid" />
+<meta content="disk0/00/00/06/15" name="eprints.dir" />
+<meta content="2026-02-18 13:27:10" name="eprints.datestamp" />
+<meta content="2026-02-18 13:27:10" name="eprints.lastmod" />
+<meta content="2026-02-18 13:27:10" name="eprints.status_changed" />
+<meta content="article" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="34" name="eprints.sword_depositor" />
+<meta content="Bakó, Gábor" name="eprints.creators_name" />
+<meta content="Fülöp, Györk" name="eprints.creators_name" />
+<meta content="Tájökológiai Lapok szerkesztősége Kiadók / MTA KFB [2014-]" name="eprints.corp_creators" />
+<meta content="Fásszárú növekmény detektálása Landsat felvételek elemzésével az invazív fafajok kiszűrésének érdekében" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="Q1" name="eprints.subjects" />
+<meta content="S1" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="távérzékelés; Növényi inváziók; gyom; invazív fás szárúak; biomassza monitoring; műholdfelvételek;" name="eprints.keywords" />
+<meta content="A fás szárú betolakodók kiszűrésére a légi felmérés bizonyult a leggyorsabb és leghatékonyabb megoldásnak, mert a műholdfelvételek felbontása általában, néhány speciális esettől eltekintve nem teszi lehetővé a faji szintű vegetáció-térképezést. Kidolgoztunk egy olyan költséghatékony módszert, amely ingyenesen beszerezhető műholdfelvételek és szoftverkörnyezet segítségével leválogatja a 3600 m2-nél nagyobb területű gyorsan kialakuló fás szárú növekményt. A módszer elsősorban az aktív növényi biomassza termelésre érzékeny, így kevéssé tárja fel a munkaterületen régóta jelenlevő fás növényzetet. Kifejezetten az adott év gyorsnövekedésű és új megjelenésű cserje illetve fa jellegű borítására érzékeny." name="eprints.abstract" />
+<meta content="2015" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="https://doi.org/10.56617/tl.3667" name="eprints.official_url" />
+<meta content="MTMT:3085588 DOI:10.56617/tl.3667" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY" name="eprints.publication" />
+<meta content="13" name="eprints.volume" />
+<meta content="1" name="eprints.number" />
+<meta content="149-162" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="1589-4673" name="eprints.issn" />
+<meta content="  Bakó, Gábor és Fülöp, Györk  (2015) Fásszárú növekmény detektálása Landsat felvételek elemzésével az invazív fafajok kiszűrésének érdekében.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 13 (1). pp. 149-162.  ISSN 1589-4673     " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/615/1/12_Bako_Fulop.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/615/" name="DC.relation" />
+<meta content="Fásszárú növekmény detektálása Landsat felvételek elemzésével az invazív fafajok kiszűrésének érdekében" name="DC.title" />
+<meta content="Bakó, Gábor" name="DC.creator" />
+<meta content="Fülöp, Györk" name="DC.creator" />
+<meta content="Q Természettudomány általában" name="DC.subject" />
+<meta content="S Mezőgazdaság általában" name="DC.subject" />
+<meta content="A fás szárú betolakodók kiszűrésére a légi felmérés bizonyult a leggyorsabb és leghatékonyabb megoldásnak, mert a műholdfelvételek felbontása általában, néhány speciális esettől eltekintve nem teszi lehetővé a faji szintű vegetáció-térképezést. Kidolgoztunk egy olyan költséghatékony módszert, amely ingyenesen beszerezhető műholdfelvételek és szoftverkörnyezet segítségével leválogatja a 3600 m2-nél nagyobb területű gyorsan kialakuló fás szárú növekményt. A módszer elsősorban az aktív növényi biomassza termelésre érzékeny, így kevéssé tárja fel a munkaterületen régóta jelenlevő fás növényzetet. Kifejezetten az adott év gyorsnövekedésű és új megjelenésű cserje illetve fa jellegű borítására érzékeny." name="DC.description" />
+<meta content="2015" name="DC.date" />
+<meta content="Cikk" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/615/1/12_Bako_Fulop.pdf" name="DC.identifier" />
+<meta content="  Bakó, Gábor és Fülöp, Györk  (2015) Fásszárú növekmény detektálása Landsat felvételek elemzésével az invazív fafajok kiszűrésének érdekében.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 13 (1). pp. 149-162.  ISSN 1589-4673     " name="DC.identifier" />
+<meta content="https://doi.org/10.56617/tl.3667" name="DC.relation" />
+<meta content="MTMT:3085588 DOI:10.56617/tl.3667" name="DC.relation" />
+<meta content="MTMT:3085588 DOI:10.56617/tl.3667" name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/615/" rel="canonical" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/EndNote/press-eprint-615.enw" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/DIDL/press-eprint-615.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/JSON/press-eprint-615.js" rel="alternate" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/Atom/press-eprint-615.xml" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/Refer/press-eprint-615.refer" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/Simple/press-eprint-615.txt" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/XML/press-eprint-615.xml" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/BibTeX/press-eprint-615.bib" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/RDFNT/press-eprint-615.nt" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/DC/press-eprint-615.txt" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/CSV/press-eprint-615.csv" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/Text/press-eprint-615.txt" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/HTML/press-eprint-615.html" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/MODS/press-eprint-615.xml" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/ContextObject/press-eprint-615.xml" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/COinS/press-eprint-615.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/RDFXML/press-eprint-615.rdf" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/METS/press-eprint-615.xml" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/RIS/press-eprint-615.ris" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/615/RDFN3/press-eprint-615.n3" rel="alternate" />

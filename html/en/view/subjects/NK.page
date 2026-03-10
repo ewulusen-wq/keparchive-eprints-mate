@@ -1,0 +1,34 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Export" name="_action_export_redir" role="button" class="ep_form_action_button" type="submit" /><input type="hidden" id="view" name="view" value="subjects" /><input id="values" type="hidden" value="NK" name="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/NK/Atom/NK.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/NK/RSS/NK.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/NK/RSS2/NK.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (580)<ul><li><a href="N.html">N Fine Arts</a> (22)<ul><li><strong>NK Decorative arts Applied arts Decoration and ornament</strong> (1)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="NK.creators_name.html">Creators</a></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>1</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Szlama, Norbert</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/449/"><em>A tipográfia a művészet horizontján.</em></a>
+
+
+    ARTCADIA: A KAPOSVÁRI EGYETEM MŰVÉSZETI FŐISKOLAI KAR MŰVÉSZETI ÉS TUDOMÁNYOS KÖZLEMÉNYEI, úf. 2 (2).
+    pp. 50-67.
+     ISSN 2060-3266
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Thu Feb 12 13:53:07 2026 CET</strong>.</div></div>

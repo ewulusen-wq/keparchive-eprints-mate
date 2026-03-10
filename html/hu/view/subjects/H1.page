@@ -1,0 +1,179 @@
+<div class="no_link_decor"><a href="./" alt="['Update/Views:up_a_level_alt' not defined]"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Exportálás" role="button" /><input type="hidden" name="view" value="subjects" id="view" /><input type="hidden" name="values" value="H1" id="values" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/H1/Atom/H1.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/H1/RSS/H1.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/H1/RSS2/H1.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (7)<ul><li><a href="H.html">H Társadalomtudományok</a> (7)<ul><li><strong>H  Társadalomtudomány általában</strong> (7)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <span class="ep_view_group_by_current">Tétel típusa</span>['Update/Views:group_separator' not defined]<a href="H1.creators_name.html">Létrehozók</a></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_article">Cikk</a>['Update/Views:jump_separator' not defined]<a href="#group_book">Könyv</a>['Update/Views:jump_separator' not defined]<a href="#group_dataset">Adatbázis</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>7</strong>.</div><a name="group_article"></a><h2>Cikk</h2><p>
+
+
+    <span class="person_name">Pintér, Ákos</span> és <span class="person_name">Száraz, Tamás</span> és <span class="person_name">Sárközi, István</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/556/"><em>The first period of a successful local sport in the ranks of Georgikon.</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (1).
+    pp. 16-25.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Soria, Johanna</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/708/"><em>Engaging Citizen Science Conference 2022.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 20 (1).
+    pp. 157-159.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Bene, Szabolcs</span> (Szerk.).
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/55/"><em>XXVIII. Ifjúsági Tudományos Fórum : Konferenciakötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Georgikon Campus, Keszthely.
+     253 p.
+    
+    ISBN 978-615-6338-07-5
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Martinkienė, Jurgita</span> és <span class="person_name">Vinogradov, Sergey</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/148/"><em>14th International Scientific-Methodical Practical Conference on Sustainable Regional Development : Economics, Management, Law and Technology Opportunities 2021, Klaipeda, Lithuania, 1-2nd October 2021 : Abstract Book.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     51 p.
+    
+    ISBN 978-963-269-965-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bujdosó, Zoltán</span> (Szerk.).
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/288/"><em>Egységet – Cselekvést – Teljesítést = Unit. Act. Deliver : XIX. Nemzetközi Tudományos Napok = 19th International Scientific Days : Előadások és poszterek összefoglalói = Summaries of presentations and posters.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Károly Róbert Campus, Gyöngyös.
+     105 p.
+    
+    ISBN 978-615-5969-06-5
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Juhász, Tímea</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/437/"><em>A soft és hard skillek a munka világában : Tendenciák és elvárások a készségekkel kapcsolatban a XXI. században.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     130 p.
+    
+    ISBN 978-963-623-127-9
+  
+  
+
+
+  
+
+
+</p><a name="group_dataset"></a><h2>Adatbázis</h2><p>
+
+
+    <span class="person_name">DONG, WEIYE</span>
+  
+
+(2018)
+  
+<a href="https://press.mater.uni-mate.hu/26/"><em>Research on the field of cultivating college students' entrepreneurial ability and the policy of college-graduate village official.</em></a>
+
+
+    [Adatbázis]
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Sun Mar  8 23:56:42 2026 CET</strong>.</div></div>

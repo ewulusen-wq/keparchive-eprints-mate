@@ -1,0 +1,34 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input class="ep_form_action_button" role="button" type="submit" value="Export" name="_action_export_redir" /><input type="hidden" id="view" name="view" value="creators" /><input value="Hern=E1di=3AIldik=F3=3A=3A" name="values" id="values" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Hern=E1di=3AIldik=F3=3A=3A/Atom/Hern=E1di=3AIldik=F3=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Hern=E1di=3AIldik=F3=3A=3A/RSS/Hern=E1di=3AIldik=F3=3A=3A.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Hern=E1di=3AIldik=F3=3A=3A/RSS2/Hern=E1di=3AIldik=F3=3A=3A.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Hern=E1di=3AIldik=F3=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>1</strong>.</div><p>
+
+
+    <span class="person_name">Hernádi, Ildikó</span> and <span class="person_name">Magurno, Franco</span> and <span class="person_name">Lakiné Sasvári, Zita</span> and <span class="person_name">Posta, Katalin</span>
+  
+
+(2012)
+  
+<a href="https://press.mater.uni-mate.hu/504/"><em>Mikorrhiza oltóanyag hatása két fűszerpaprika termesztésére és a helyi arbuszkuláris mikorrhiza gombaközösségre.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 10 (2).
+    pp. 305-313.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Thu Feb 12 13:53:24 2026 CET</strong>.</div></div>

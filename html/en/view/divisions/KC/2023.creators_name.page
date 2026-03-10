@@ -1,0 +1,114 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input role="button" type="submit" class="ep_form_action_button" name="_action_export_redir" value="Export" /><input type="hidden" id="view" name="view" value="divisions" /><input type="hidden" id="values" name="values" value="KC/2023" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/KC/2023/Atom/KC_2023.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/KC/2023/RSS/KC_2023.rss"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/KC/2023/RSS2/KC_2023.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_divisions"><div class="ep_view_group_by">Group by: <a href="2023.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span> | <a href="2023.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_divisions_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_C">C</a> | <a href="#group_F">F</a> | <a href="#group_G">G</a> | <a href="#group_K">K</a></div></div><div class="ep_view_blurb">Number of items: <strong>5</strong>.</div><a name="group_C"></a><h2>C</h2><p>
+
+
+    <span class="person_name">Csizmadia, Gábor</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/272/"><em>Szöveg és kép, író és illusztrátor szimbiózisa angol nyelvű gyermekkönyvekben.</em></a>
+
+
+    ANYANYELVI KULTÚRAKÖZVETÍTÉS, 6 (1).
+    pp. 3-13.
+     ISSN 2063-2991
+  
+
+
+  
+
+
+</p><a name="group_F"></a><h2>F</h2><p>
+
+
+    <span class="person_name">Fajt, Balázs</span> and <span class="person_name">Bánhegyi, Mátyás</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/286/"><em>Nyelvórai és nyelvórán kívüli motivációt meghatározó tényezők a felsőoktatásban.</em></a>
+
+
+    Képzés és Gyakorlat : Neveléstudományi folyóirat, 21 (1).
+    pp. 5-16.
+     ISSN 1589-519X
+  
+
+
+  
+
+
+</p><a name="group_G"></a><h2>G</h2><p>
+
+
+    <span class="person_name">Gombos, Péter</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/270/"><em>Folklorizáció és refolklorizáció Domokos Mariann: Grimm-mesék magyar ponyvákon (1850–1900).</em></a>
+
+
+    ANYANYELVI KULTÚRAKÖZVETÍTÉS, 6 (2).
+    pp. 42-44.
+     ISSN 2063-2991
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Gombos, Péter</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/274/"><em>Olvasó- és identitáskeresés a magyar könyvtárakban.</em></a>
+
+
+    ANYANYELVI KULTÚRAKÖZVETÍTÉS, 6 (1).
+    pp. 55-57.
+     ISSN 2063-2991
+  
+
+
+  
+
+
+</p><a name="group_K"></a><h2>K</h2><p>
+
+
+    <span class="person_name">Kopházi-Molnár, Erzsébet</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/271/"><em>Érzelmi hullámvasúton az olvasóvá válás útján.</em></a>
+
+
+    ANYANYELVI KULTÚRAKÖZVETÍTÉS, 6 (2).
+    pp. 45-46.
+     ISSN 2063-2991
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Fri Feb 20 18:42:51 2026 CET</strong>.</div></div>

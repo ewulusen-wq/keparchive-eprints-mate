@@ -1,0 +1,54 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" value="Export" role="button" /><input type="hidden" id="view" name="view" value="creators" /><input type="hidden" id="values" name="values" value="Cs=E1sz=E1r=3AA=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Cs=E1sz=E1r=3AA=3A=3A/Atom/Cs=E1sz=E1r=3AA=3A=3A.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Cs=E1sz=E1r=3AA=3A=3A/RSS/Cs=E1sz=E1r=3AA=3A=3A.rss"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Cs=E1sz=E1r=3AA=3A=3A/RSS2/Cs=E1sz=E1r=3AA=3A=3A.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Cs=E1sz=E1r=3AA=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a></div></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Centeri, Csaba</span> and <span class="person_name">Császár, A</span>
+  
+
+(2005)
+  
+<a href="https://press.mater.uni-mate.hu/538/"><em>A felszínborítás, a lejtőszakasz és a foszfor kapcsolata.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 3 (1).
+    pp. 119-131.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Centeri, Csaba</span> and <span class="person_name">Császár, A</span>
+  
+
+(2003)
+  
+<a href="https://press.mater.uni-mate.hu/524/"><em>A talajképződés és az erózió által kiváltott talajpusztulás kapcsolata a Tihanyi-félsziget példáján.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 1 (1).
+    pp. 81-85.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Tue Feb 17 20:00:47 2026 CET</strong>.</div></div>

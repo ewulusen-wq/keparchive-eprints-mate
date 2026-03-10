@@ -1,0 +1,73 @@
+<meta content="422" name="eprints.eprintid" />
+<meta content="5" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="34" name="eprints.userid" />
+<meta content="disk0/00/00/04/22" name="eprints.dir" />
+<meta content="2025-07-29 13:24:55" name="eprints.datestamp" />
+<meta content="2025-07-29 13:24:55" name="eprints.lastmod" />
+<meta content="2025-07-29 13:24:55" name="eprints.status_changed" />
+<meta content="article" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="34" name="eprints.sword_depositor" />
+<meta content="Luzon Tandazo, Erika Yessenia" name="eprints.creators_name" />
+<meta content="Ritter, Krisztián" name="eprints.creators_name" />
+<meta content="0009-0006-6655-2547" name="eprints.creators_orcid" />
+<meta content="0000-0003-1206-3159" name="eprints.creators_orcid" />
+<meta content="Vidék- és területfejlesztési Tanszék MATE / VFGI VTFT [2021-]" name="eprints.corp_creators" />
+<meta content="Gazdaság- és Regionális Tudományok Doktori Iskola MATE / MATE DI GRTDI [2023-]" name="eprints.corp_creators" />
+<meta content="Exploring Challenges and Opportunities for Bio-based Business Models to Strengthen Ecuador's Rural Economy" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="HB" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="sustainability; bioeconomy; rural development;" name="eprints.keywords" />
+<meta content="2025" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="https://doi.org/10.18531/sme.vol.12.no.2.pp.35-57" name="eprints.official_url" />
+<meta content="MTMT:36161355 DOI:10.18531/sme.vol.12.no.2.pp.35-57" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="STUDIA MUNDI - ECONOMICA" name="eprints.publication" />
+<meta content="12" name="eprints.volume" />
+<meta content="2" name="eprints.number" />
+<meta content="35-57" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="2415-9395" name="eprints.issn" />
+<meta content="  Luzon Tandazo, Erika Yessenia and Ritter, Krisztián  (2025) Exploring Challenges and Opportunities for Bio-based Business Models to Strengthen Ecuador's Rural Economy.  STUDIA MUNDI - ECONOMICA, 12 (2). pp. 35-57.  ISSN 2415-9395     " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/422/1/003_SME_6996_FINAL.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/422/" name="DC.relation" />
+<meta content="Exploring Challenges and Opportunities for Bio-based Business Models to Strengthen Ecuador's Rural Economy" name="DC.title" />
+<meta content="Luzon Tandazo, Erika Yessenia" name="DC.creator" />
+<meta content="Ritter, Krisztián" name="DC.creator" />
+<meta content="HB Economic Theory" name="DC.subject" />
+<meta content="2025" name="DC.date" />
+<meta content="Article" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="en" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/422/1/003_SME_6996_FINAL.pdf" name="DC.identifier" />
+<meta content="  Luzon Tandazo, Erika Yessenia and Ritter, Krisztián  (2025) Exploring Challenges and Opportunities for Bio-based Business Models to Strengthen Ecuador's Rural Economy.  STUDIA MUNDI - ECONOMICA, 12 (2). pp. 35-57.  ISSN 2415-9395     " name="DC.identifier" />
+<meta content="https://doi.org/10.18531/sme.vol.12.no.2.pp.35-57" name="DC.relation" />
+<meta content="MTMT:36161355 DOI:10.18531/sme.vol.12.no.2.pp.35-57" name="DC.relation" />
+<meta content="MTMT:36161355 DOI:10.18531/sme.vol.12.no.2.pp.35-57" name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/422/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/Atom/press-eprint-422.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/MODS/press-eprint-422.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/DC/press-eprint-422.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/COinS/press-eprint-422.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/ContextObject/press-eprint-422.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/METS/press-eprint-422.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/RDFN3/press-eprint-422.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/Refer/press-eprint-422.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/BibTeX/press-eprint-422.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/RIS/press-eprint-422.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/XML/press-eprint-422.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/Text/press-eprint-422.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/RDFXML/press-eprint-422.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/Simple/press-eprint-422.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/DIDL/press-eprint-422.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/JSON/press-eprint-422.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/HTML/press-eprint-422.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/RDFNT/press-eprint-422.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/EndNote/press-eprint-422.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/422/CSV/press-eprint-422.csv" rel="alternate" />

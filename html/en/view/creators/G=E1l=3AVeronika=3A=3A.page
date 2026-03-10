@@ -1,0 +1,162 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="Export" /><input type="hidden" name="view" id="view" value="creators" /><input type="hidden" name="values" id="values" value="G=E1l=3AVeronika=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/G=E1l=3AVeronika=3A=3A/Atom/G=E1l=3AVeronika=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/G=E1l=3AVeronika=3A=3A/RSS/G=E1l=3AVeronika=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/G=E1l=3AVeronika=3A=3A/RSS2/G=E1l=3AVeronika=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="G=E1l=3AVeronika=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a> | <a href="#group_book=5Fsection">Book Section</a></div></div><div class="ep_view_blurb">Number of items: <strong>5</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Marquering, Arne</span> and <span class="person_name">Gál, Veronika</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/462/"><em>A Diplomatic Incident - The Political Risk of Corporate Diplomacy and the Implementation of Corporate Diplomacy Strategy Concepts within Scrutinized Industries.</em></a>
+
+
+    REGIONAL AND BUSINESS STUDIES, 17 (1).
+    pp. 55-69.
+     ISSN 2061-2311
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Halászné Kakuk, Krisztina</span> and <span class="person_name">Wickert, Irén</span> and <span class="person_name">Gál, Veronika</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/606/"><em>A digitális transzformációhoz való viszonyulás területi különbségei.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 12 (4).
+    pp. 19-33.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><a name="group_book=5Fsection"></a><h2>Book Section</h2><p>
+
+
+    <span class="person_name">Parádi-Dolgos, Anett</span> and <span class="person_name">Bareith, Tibor</span> and <span class="person_name">Sipiczki, Zoltán</span> and <span class="person_name">Koroseczné Pavlin, Rita</span> and <span class="person_name">Gál, Veronika</span> and <span class="person_name">Varga, József</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/222/"><em>Conventional and alternative financial supports.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Sinisa</span> and <span class="person_name">Csonka, Arnold</span> and <span class="person_name">Koponicsné Györke, Diána</span> and <span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (eds.)
+          
+      
+      Management of agri-food chains.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 178-192.
+    ISBN 978-963-623-023-4
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Parádi-Dolgos, Anett</span> and <span class="person_name">Bareith, Tibor</span> and <span class="person_name">Sipiczki, Zoltán</span> and <span class="person_name">Koroseczné Pavlin, Rita</span> and <span class="person_name">Gál, Veronika</span> and <span class="person_name">Varga, József</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/221/"><em>Hagyományos és alternatív pénzügyi támogatások.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Sinisa</span> and <span class="person_name">Csonka, Arnold</span> and <span class="person_name">Koponicsné Györke, Diána</span> and <span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (eds.)
+          
+      
+      Élelmiszerláncok menedzsmentje.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 180-194.
+    ISBN 978-963-623-026-5
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Parádi-Dolgos, Anett</span> and <span class="person_name">Bareith, Tibor</span> and <span class="person_name">Sipiczki, Zoltán</span> and <span class="person_name">Koroseczné Pavlin, Rita</span> and <span class="person_name">Gál, Veronika</span> and <span class="person_name">Varga, József</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/223/"><em>Konvencionalne i alternativne financijske potpore.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Srečec, Sinisa</span> and <span class="person_name">Csonka, Arnold</span> and <span class="person_name">Koponicsné Györke, Diána</span> and <span class="person_name">Nagy, Mónika Zita</span> 
+        
+          (eds.)
+          
+      
+      Upravljanje poljoprivredno-prehrambenim lancima.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    
+    ISBN 978-963-623-027-2
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Mar  9 23:57:58 2026 CET</strong>.</div></div>

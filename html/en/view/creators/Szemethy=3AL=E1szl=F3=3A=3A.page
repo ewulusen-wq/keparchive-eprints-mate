@@ -1,0 +1,54 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Export" type="submit" role="button" name="_action_export_redir" class="ep_form_action_button" /><input type="hidden" value="creators" id="view" name="view" /><input type="hidden" value="Szemethy=3AL=E1szl=F3=3A=3A" id="values" name="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szemethy=3AL=E1szl=F3=3A=3A/Atom/Szemethy=3AL=E1szl=F3=3A=3A.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szemethy=3AL=E1szl=F3=3A=3A/RSS/Szemethy=3AL=E1szl=F3=3A=3A.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szemethy=3AL=E1szl=F3=3A=3A/RSS2/Szemethy=3AL=E1szl=F3=3A=3A.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Szemethy=3AL=E1szl=F3=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a></div></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Szemethy, László</span> and <span class="person_name">Keller, Norbert</span> and <span class="person_name">Ujhegyi, Nikolett</span> and <span class="person_name">Csányi, Sándor</span> and <span class="person_name">Kovács, Imre</span> and <span class="person_name">Patkó, László</span> and <span class="person_name">Schally, Gergely</span> and <span class="person_name">Tóth, Bálint</span> and <span class="person_name">Biró, Zsolt</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/632/"><em>Az apróvad, mint az agrár-környezetgazdálkodási programok hatásindikátora – módszertani áttekintés.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 13 (1).
+    pp. 9-17.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Katona, Krisztián</span> and <span class="person_name">Hajdu, Márk</span> and <span class="person_name">Farkas, Attila</span> and <span class="person_name">Szemethy, László</span>
+  
+
+(2013)
+  
+<a href="https://press.mater.uni-mate.hu/521/"><em>Hazai bükkösök konzervációja: szálaló üzemmód és szelektív vadrágás.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 11 (2).
+    pp. 223-228.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Feb 22 18:26:25 2026 CET</strong>.</div></div>

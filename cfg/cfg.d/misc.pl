@@ -29,6 +29,7 @@ $c->{use_mimetex} = 0;
 # If true then use cookie based authentication.
 # Don't use basic login unless you are coming from EPrints 2.
 $c->{cookie_auth} = 1;
+#$c->{cas_auth} = 1;
 
 # If you are setting up a very simple system or 
 # are starting with lots of data entry you can

@@ -1,0 +1,145 @@
+<table><tr><td><a href="./"><img src="/style/images/multi_up.png" border="0" /></a></td><td><a href="./">Egy szinttel feljebb</a></td></tr></table><form method="get" accept-charset="utf-8" action="/cgi/exportview">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input class="ep_form_action_button" value="Exportálás" role="button" type="submit" name="_action_export_redir" /><input name="view" id="view" value="subjects" type="hidden" /><input name="values" id="values" value="SB" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/SB/Atom/SB.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/SB/RSS/SB.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/SB/RSS2/SB.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (48)<ul><li><a href="S.html">S Mezőgazdaság</a> (13)<ul><li><strong>SB Növénytermesztés</strong> (6)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <a href="SB.html">Létrehozók</a> | <span class="ep_view_group_by_current">Tétel típusa</span></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>6</strong>.</div><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    - (Szer.).
+  
+
+
+
+<a href="https://press.mater.uni-mate.hu/44/"><em>Ifjúság a tudományért.</em></a>
+
+
+    
+    
+    
+    -.
+    
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Fodor, Marietta</span> és <span class="person_name">Bodor-Pesti, Péter</span> és <span class="person_name">Deák, Tamás</span> Szerkesztők.
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/52/"><em>A Lippay János – Ormos Imre – Vas Károly (LOV)  Tudományos Ülésszak tanulmányai = Proceedings of János Lippay – Imre Ormos –  Károly Vas (LOV) Scientific Meeting.</em></a>
+
+
+    
+    
+    
+    MATE Budai Campus, Budapest.
+     ISBN 978-963-269-988-2
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Nyitrainé Sárdy, Diána</span> (Szer.).
+  
+
+(2021)
+
+<a href="https://press.mater.uni-mate.hu/53/"><em>Tanulmányok a Duna-menti borászatok együttműködésének fejlesztésére a szlovák–magyar határmenti régióban.</em></a>
+
+
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     ISBN 978-963-269-980-6
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bene, Szabolcs</span> (Szer.).
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/55/"><em>XXVIII. Ifjúsági Tudományos Fórum : Konferenciakötet.</em></a>
+
+
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Georgikon Campus, Keszthely.
+     ISBN 978-615-6338-07-5
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bánfalvi, Zsófia</span> és <span class="person_name">Gócza, Elen</span> és <span class="person_name">Olasz, Ferenc</span> és <span class="person_name">Pál, Magda</span> és <span class="person_name">Posta, Katalin</span> és <span class="person_name">Várallyay, Éva</span> Szerkesztők.
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/62/"><em>„FIBOK 2022” : Fiatal Biotechnológusok V. Országos Konferenciája [5th National Conference of Young Biotechnologists] : Program és angol nyelvű összefoglalók [Program and abstracts].</em></a>
+
+
+    
+    
+    
+    MATE Genetika és Biotechnológia Intézet, Gödöllő.
+     ISBN 978-963-269-999-8
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2015)
+
+<a href="https://press.mater.uni-mate.hu/30/"><em>Takarmánykonzerválás.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+    
+  
+
+
+   (Nem publikált)
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Thu Sep  8 10:41:33 2022 CEST</strong>.</div></div>

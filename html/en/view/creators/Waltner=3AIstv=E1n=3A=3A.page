@@ -1,0 +1,134 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" name="_action_export_redir" class="ep_form_action_button" role="button" value="Export" /><input type="hidden" name="view" id="view" value="creators" /><input type="hidden" name="values" id="values" value="Waltner=3AIstv=E1n=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Waltner=3AIstv=E1n=3A=3A/Atom/Waltner=3AIstv=E1n=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Waltner=3AIstv=E1n=3A=3A/RSS/Waltner=3AIstv=E1n=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Waltner=3AIstv=E1n=3A=3A/RSS2/Waltner=3AIstv=E1n=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Waltner=3AIstv=E1n=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a></div></div><div class="ep_view_blurb">Number of items: <strong>6</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Rácz, Tibor Ferenc</span> and <span class="person_name">Waltner, István</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/350/"><em>A Review and Categorization of Rain Depth and Rainfall Intensity Measurement Methods.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 21 (2).
+    pp. 116-135.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Prohászka, Viola Judit</span> and <span class="person_name">Tormáné Kovács, Eszter</span> and <span class="person_name">Grósz, János</span> and <span class="person_name">Waltner, István</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/720/"><em>Az ásott kutak vízminősége két ökofaluban: Visnyeszéplakon és Gyűrűfűn.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 20 (2).
+    pp. 41-58.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Schumacher, Fanni</span> and <span class="person_name">Waltner, István</span> and <span class="person_name">Sebők, András</span> and <span class="person_name">Grósz, János</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/718/"><em>Biológiai vízminőségi paraméterek vizsgálata a Naplás-tavon.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 20 (2).
+    pp. 83-94.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Grósz, János</span> and <span class="person_name">Sebők, András</span> and <span class="person_name">Noémi, Nagy</span> and <span class="person_name">Andrea, Kovács</span> and <span class="person_name">Waltner, István</span>
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/687/"><em>Analysis results of in situ water and sediment quality of Újpest backwater.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 17 (2).
+    pp. 179-192.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Saeidi, Sahar</span> and <span class="person_name">Grósz, János</span> and <span class="person_name">Sebők, András</span> and <span class="person_name">Deganutti, De Barros Vinicius</span> and <span class="person_name">Waltner, István</span>
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/683/"><em>Területhasználat-változás a Szilas-patak vízgyűjtő területén 1990-től.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 17 (2).
+    pp. 265-275.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Saeidi, Sahar</span> and <span class="person_name">Grósz, János</span> and <span class="person_name">Sebők, András</span> and <span class="person_name">Deganutti, De Barros Vinicius</span> and <span class="person_name">Waltner, István</span>
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/682/"><em>A területhasználat változása a Rákos-patak vízgyűjtőjén 1990-től.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 17 (2).
+    pp. 287-296.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Mar  9 15:58:46 2026 CET</strong>.</div></div>

@@ -1,0 +1,100 @@
+<meta content="352" name="eprints.eprintid" />
+<meta content="15" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="1" name="eprints.userid" />
+<meta content="disk0/00/00/03/52" name="eprints.dir" />
+<meta content="2025-04-09 08:10:28" name="eprints.datestamp" />
+<meta content="2025-04-10 15:16:37" name="eprints.lastmod" />
+<meta content="2025-04-09 08:10:28" name="eprints.status_changed" />
+<meta content="book_section" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="Bakó, Gábor" name="eprints.creators_name" />
+<meta content="Molnár, Zsolt" name="eprints.creators_name" />
+<meta content="bakogabor@interspect.hu" name="eprints.creators_id" />
+<meta content="0000-0002-3649-6007" name="eprints.creators_orcid" />
+<meta content="Interspect Kft. 2314 Halásztelek II. Rákóczi Ferenc út 42" name="eprints.corp_creators" />
+<meta content="A Nagyfelbontású Repülőgépes Monitoring Hálózat a tájvédelem és a természetmegőrzés szolgálatában" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="GE" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="monitoring, hálózat, légi felmérés, távérzékelés" name="eprints.keywords" />
+<meta content="Magyarországon 1974-óta ál rendelkezésre légi felmérési kapacitás a természet- és környezetvédelem szolgálatában, és 2018-óta zajlik monitoring jellegű légi adatgyűjtés. Szeretnénk rövid, átfogó képet adni a hálózat kiépítésének kezdeti szakaszáról, illetve ismertetjük az elsődleges célokat és összefoglaljuk az ökológiai szemléletű repülőgépes és UAS támogatású monitoring hálózattal szemben kialakult követelményeket." name="eprints.abstract" />
+<meta content="2024" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="MATE Press" name="eprints.publisher" />
+<meta content="https://doi.org/10.54597/mate.0131" name="eprints.official_url" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="Gödöllő" name="eprints.place_of_pub" />
+<meta content="9-13" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="978-963-623-117-0 (pdf)" name="eprints.isbn" />
+<meta content="Az Európai Zöld Megállapodás stratégiai  céljainak megvalósítását szolgáló tájléptékű megoldások" name="eprints.book_title" />
+<meta content="Centeri, Csaba" name="eprints.editors_name" />
+<meta content="Grónás, Viktor" name="eprints.editors_name" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/351" name="eprints.related_url_url" />
+<meta content="Teljes kötet" name="eprints.related_url_type" />
+<meta content="Ábrám Ö., Bakó G., Biró Cs., Morvai E. (2019): Gémtelep felmérés a levegőből, mint fontos indikátor. Két víz köze - Kiskunsági Nemzeti Park Igazgatóság hírlevele. 2019. tavasz, p. 9.
+Agrárminisztérium (2019): Nemzeti Ökoszisztéma-Szolgáltatások Térképezése és Értékelése Projektelem (NÖSZTÉP) Ökoszisztéma alaptérkép és adatmodell (KEHOP-4.3.0-VEKOP-15-2016-00001)
+Bakó G. (2013a): Nagysebességű repülőgépes távérzékelés és hozzá kapcsolódó adatfeldolgozási mód-szerek. In: Lóki J. (szerk.) Az elmélet és a gyakorlat találkozása a térinformatikában IV. - Térinforma-tikai konferencia és szakkiállítás kiadványa, Debrecen. pp. 59–66.
+Bakó G. (2013b): Szuperfelbontású ökológiai vizsgálatok. Természettudományi Közlöny, 144(10): 477–478.
+Bakó G. (2014a): Légi fényképezés a gazdálkodásban és a közszolgáltatásban - Arial Photogrammetry in Economy and Public Services - E-Government Tanulmányok XL. - tankönyv Budapest: Corvinus Egyetem. 126 p.
+Bakó G. (2014b): Geoinformációs rendszerek és a távérzékelés szerepe a döntés előkészítésben In: Jeney L., Hideg É., Tózsa I. (szerk.) Jövőföldrajz. A hazai gazdasági fejlődés területi és települési aspektu-sai a jelenben és a jövőben. Budapest: Budapesti Corvinus Egyetem Gazdaságföldrajz és Jövőkuta-tás Tanszék - Belügyminisztérium Önkormányzati Államtitkárság közös kiadványa. p. 87–98.
+Bakó G. (2015): Az özönnövények feltérképezése a beavatkozás megtervezéséhez és precíziós kivitelezé-séhez In: Csiszár Á., Korda M. (szerk.) Rosalia kézikönyvek 3 Budapest: Duna–Ipoly Nemzeti Park Igazgatóság. p. 17–25.
+Bakó G. (2017): Környezet- és természetvédelmi vonatkozású változások nyomon követése nagyfelbontá-sú légi távérzékeléssel. Doktori (PhD) disszertáció, Szent István Egyetem, Biológia Tudományi Dok-tori Iskola, Gödöllő. p. 176.
+Bakó G. (2018): Önkormányzati technológiák, térinformatika, légi-felvételek, légi-felmérés, (KÖFOP-2.1.2-VEKOP-15-2016-00001 A jó kormányzást megalapozó közszolgálat-fejlesztés” elnevezésű kiemelt projekt keretén belül) Új Magyar Közigazgatás 2018. szeptember
+Bakó G. (2019): Komplex megfigyelési stratégia – Távérzékelés a természetvédelemben. TermészetBúvár, 03: 38–41.
+Bakó G. (2019): Nagy terepi felbontású és frekvenciájú légi felmérésen alapuló monitoring-hálózat kiépí-tési módszertana. Tájökológiai Lapok, 17 (1): 63–78. https://doi.org/10.56617/tl.3465
+Bakó G. (2019): Új eljárás a természetvédelem eszköztárában: Repülőgépes megfigyelőhálózat, Élet és Tudomány, 74(8): 242–244.
+Bakó G., Fehér L. (2019): Nagyfelbontású repülőgépes monitoring hálózat az erdőfelmérések szolgálatá-ban A 30 éves Erdészeti Mérő- és Megfigyelő Rendszer eredményei és gyakorlati hasznosítása, 2019. november 5., Agrárminisztérium, Konferencia poszter.
+Bakó, G., Kovács, G., Molnár, Zs., Kirisics, J., Góber, E., Ambrus, A. (2015): The developement of red mud flood environmental information system and the methodology for the spatial analysis of the degra-ded area. Acta Geographica Debrecina Landscape and Environment, 9(1): 1–11. https://doi.org/10.21120/LE/9/1/1
+Bakó G., Molnár Zs., Stefán F., Fehér L., Takács N., Kiss N., Demény K., Káplár L., Halászi R. (2019): Nagyléptékű ökoszisztéma szolgáltatás térképezés a Hármashatár-hegyen az NRMH alkalmazá-sával IV. Fenntartható fejlődés a Kárpát medencében&quot; konferencia &quot;Gyepek biodiverzitása a Kárpát medencében absztraktkötet, Hódmezővásárhely, 2019. december 4.
+Bakó, G., Stefán, F. (2019): Mapping ecosystem services based on geoinformation data by high-resolution remote-sensing methods. INTERREG – URBforDAN 5th Partnership Meeting - Presentation of diffe-rent approach, Budapest, Grand Hotel, Margaret Island, 7th November, 2019
+Bakó, G., Molnár, Z., Bakk, L., Horváth, F., Fehér, L., Ábrám, Ö., Morvai, E., Biro, C., Pápay, G., Fűrész, A., Penksza, K., Pácsonyi, D., Demény, K., Juhász, E., Dékány, D., Csernyava, L., Illés, G., Molnár, A. (2021): Toward a High Spatial Resolution Aerial Monitoring Network for Nature Conservation—How Can Remote Sensing Help Protect Natural Areas? Sustainability, 13: 8807. https://doi.org/10.3390/su13168807
+Bakó, G., Molnár, Z., Szilágyi, Z., Biró, C., Morvai, E., Ábrám, Ö., Molnár, A. (2020): Accurate Non-Disturbance Population Survey Method of Nesting Colonies in the Reedbed with Georeferenced Ae-rial Imagery. Sensors, 2020, 20(9): 2601. https://doi.org/10.3390/s20092601
+Bakó, G., Tolnai, M., Takács, Á. (2014): Introduction and testing of a monitoring and colony-mapping method for waterbird populations that uses high-speed and ultra-detailed aerial remote sensing. Sensors, 14(7), 12828–12846. https://doi.org/10.3390/s140712828
+http1: https://www.interspect.hu/NRMH.html (utolsó elérés: 2024.06.10.) A monitoring hálózat hivata-los weboldala.
+Interspect HRAMN in 100 magyar találmány és fejlesztés 2020 https://top-100.hu/100-magyar-talalmany-es-fejlesztes-2020
+Molnár Zs., Góber E. (2020): Repülőgépes adatgyűjtés a fenntartható jövőért, Természettudományi köz-löny 2020. február pp. 66–69.
+Tanács E., Belényesi M., Lehoczki R., Pataki R., Petrik O., Standovár T., Pásztor L., Laborczi A., Szatmári G., Molnár Zs., Bede-Fazekas Á., Kisné Fodor L., Varga I., Zsembery Z., Maucha G. (2019): Országos, nagyfelbontású ökoszisztéma- alaptérkép: módszertan, validáció és felhasználási lehetőségek. Ter-mészetvédelmi közlemények. Természetvédelmi Közlemények, 25: 34–58. https://doi.org/10.20332/tvk-jnatconserv.2019.25.34" name="eprints.referencetext" />
+<meta content="  Bakó, Gábor és Molnár, Zsolt  (2024) A Nagyfelbontású Repülőgépes Monitoring Hálózat a tájvédelem és a természetmegőrzés szolgálatában.   In: Centeri, Csaba és Grónás, Viktor  (Szerk.)  Az Európai Zöld Megállapodás stratégiai céljainak megvalósítását szolgáló tájléptékű megoldások.    MATE Press, Gödöllő.  pp. 9-13.  ISBN 978-963-623-117-0 (pdf)      " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/352/2/01_Bako_G%2C%20Molnar_Zs._v2.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/352/" name="DC.relation" />
+<meta content="A Nagyfelbontású Repülőgépes Monitoring Hálózat a tájvédelem és a természetmegőrzés szolgálatában" name="DC.title" />
+<meta content="Bakó, Gábor" name="DC.creator" />
+<meta content="Molnár, Zsolt" name="DC.creator" />
+<meta content="GE Környezettudomány" name="DC.subject" />
+<meta content="Magyarországon 1974-óta ál rendelkezésre légi felmérési kapacitás a természet- és környezetvédelem szolgálatában, és 2018-óta zajlik monitoring jellegű légi adatgyűjtés. Szeretnénk rövid, átfogó képet adni a hálózat kiépítésének kezdeti szakaszáról, illetve ismertetjük az elsődleges célokat és összefoglaljuk az ökológiai szemléletű repülőgépes és UAS támogatású monitoring hálózattal szemben kialakult követelményeket." name="DC.description" />
+<meta content="MATE Press" name="DC.publisher" />
+<meta content="Centeri, Csaba" name="DC.contributor" />
+<meta content="Grónás, Viktor" name="DC.contributor" />
+<meta content="2024" name="DC.date" />
+<meta content="Könyvrészlet" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/352/2/01_Bako_G%2C%20Molnar_Zs._v2.pdf" name="DC.identifier" />
+<meta content="  Bakó, Gábor és Molnár, Zsolt  (2024) A Nagyfelbontású Repülőgépes Monitoring Hálózat a tájvédelem és a természetmegőrzés szolgálatában.   In: Centeri, Csaba és Grónás, Viktor  (Szerk.)  Az Európai Zöld Megállapodás stratégiai céljainak megvalósítását szolgáló tájléptékű megoldások.    MATE Press, Gödöllő.  pp. 9-13.  ISBN 978-963-623-117-0 (pdf)      " name="DC.identifier" />
+<meta content="https://doi.org/10.54597/mate.0131" name="DC.relation" />
+<link href="https://press.mater.uni-mate.hu/352/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/Atom/press-eprint-352.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/MODS/press-eprint-352.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/DC/press-eprint-352.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/COinS/press-eprint-352.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/ContextObject/press-eprint-352.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/METS/press-eprint-352.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/RDFN3/press-eprint-352.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/Refer/press-eprint-352.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/BibTeX/press-eprint-352.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/RIS/press-eprint-352.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/XML/press-eprint-352.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/Text/press-eprint-352.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/RDFXML/press-eprint-352.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/Simple/press-eprint-352.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/DIDL/press-eprint-352.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/JSON/press-eprint-352.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/HTML/press-eprint-352.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/RDFNT/press-eprint-352.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/EndNote/press-eprint-352.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/352/CSV/press-eprint-352.csv" rel="alternate" />

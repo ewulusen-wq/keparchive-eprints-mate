@@ -1,0 +1,54 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form method="get" accept-charset="utf-8" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input role="button" value="Export" type="submit" name="_action_export_redir" class="ep_form_action_button" /><input id="view" value="subjects" type="hidden" name="view" /><input id="values" value="GV" type="hidden" name="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/GV/Atom/GV.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/GV/RSS/GV.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/GV/RSS2/GV.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (2)<ul><li><a href="G.html">G Geography. Anthropology. Recreation</a> (2)<ul><li><strong>GV Recreation Leisure</strong> (2)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <a href="GV.html">Item Type</a> | <span class="ep_view_group_by_current">Creators</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_J">J</a> | <a href="#group_S">S</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>2</strong>.</div><a name="group_J"></a><h2>J</h2><p>
+
+
+    <span class="person_name">Janda, Zoé</span> and <span class="person_name">Bartos, Ádám</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/589/"><em>A magyar lovasturizmus: kulturális örökség és fenntartható vidéki jövő.</em></a>
+
+
+    ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 21 (2).
+    pp. 129-142.
+     ISSN 1786-8440
+  
+
+
+  
+
+
+</p><a name="group_S"></a><h2>S</h2><p>
+
+
+    <span class="person_name">Szőllős-Tóth, Andrea</span> and <span class="person_name">Bujdosó, Zoltán</span> and <span class="person_name">Csapóné Riskó, Tünde</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/389/"><em>Film- és sorozatturisztikai helyszínek összehasonlító vizsgálata európai desztinációk példáján.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 12 (1).
+    pp. 5-21.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Mar  9 13:50:31 2026 CET</strong>.</div></div>

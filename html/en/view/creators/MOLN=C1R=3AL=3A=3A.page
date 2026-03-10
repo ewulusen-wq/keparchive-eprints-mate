@@ -1,0 +1,34 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input role="button" type="submit" name="_action_export_redir" class="ep_form_action_button" value="Export" /><input id="view" type="hidden" name="view" value="creators" /><input id="values" type="hidden" name="values" value="MOLN=C1R=3AL=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/MOLN=C1R=3AL=3A=3A/Atom/MOLN=C1R=3AL=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/MOLN=C1R=3AL=3A=3A/RSS/MOLN=C1R=3AL=3A=3A.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/MOLN=C1R=3AL=3A=3A/RSS2/MOLN=C1R=3AL=3A=3A.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="MOLN=C1R=3AL=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a></div></div><div class="ep_view_blurb">Number of items: <strong>1</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">ALMÁSI, B</span> and <span class="person_name">Csákvári, Edina</span> and <span class="person_name">DEMETER, A</span> and <span class="person_name">MAJOR, B</span> and <span class="person_name">MOLNÁR, L</span> and <span class="person_name">NAGY, E</span> and <span class="person_name">PISZKER, Z</span> and <span class="person_name">POLLER, E</span> and <span class="person_name">SARLÓS, D</span> and <span class="person_name">URSU, D</span> and <span class="person_name">VINCZE, T</span>
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/592/"><em>A világ természetvédelmének története 1976 és 1980 között: védett területek alapítása.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 12 (1).
+    pp. 207-219.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sat Feb 21 06:03:06 2026 CET</strong>.</div></div>

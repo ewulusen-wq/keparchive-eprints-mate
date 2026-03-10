@@ -1,0 +1,34 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Export" name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" /><input value="creators" id="view" name="view" type="hidden" /><input value="Fajt=3ABal=E1zs=3A=3A" id="values" name="values" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Fajt=3ABal=E1zs=3A=3A/Atom/Fajt=3ABal=E1zs=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Fajt=3ABal=E1zs=3A=3A/RSS/Fajt=3ABal=E1zs=3A=3A.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Fajt=3ABal=E1zs=3A=3A/RSS2/Fajt=3ABal=E1zs=3A=3A.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Fajt=3ABal=E1zs=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>1</strong>.</div><p>
+
+
+    <span class="person_name">Fajt, Balázs</span> and <span class="person_name">Bánhegyi, Mátyás</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/286/"><em>Nyelvórai és nyelvórán kívüli motivációt meghatározó tényezők a felsőoktatásban.</em></a>
+
+
+    Képzés és Gyakorlat : Neveléstudományi folyóirat, 21 (1).
+    pp. 5-16.
+     ISSN 1589-519X
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Tue Mar 10 07:10:34 2026 CET</strong>.</div></div>

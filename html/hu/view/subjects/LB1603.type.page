@@ -1,0 +1,35 @@
+<table><tr><td><a href="./"><img src="/style/images/multi_up.png" border="0" /></a></td><td><a href="./">Egy szinttel feljebb</a></td></tr></table><form method="get" accept-charset="utf-8" action="/cgi/exportview">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" role="button" value="Exportálás" class="ep_form_action_button" /><input name="view" id="view" value="subjects" type="hidden" /><input name="values" id="values" value="LB1603" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LB1603/Atom/LB1603.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LB1603/RSS/LB1603.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LB1603/RSS2/LB1603.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (48)<ul><li><a href="L.html">L Oktatás</a> (6)<ul><li><a href="LB.html">LB Oktatás elmélete és gyakorlata</a> (4)<ul><li><strong>LB1603 Középfokú oktatás</strong> (1)</li></ul></li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <a href="LB1603.html">Létrehozók</a> | <span class="ep_view_group_by_current">Tétel típusa</span></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>1</strong>.</div><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Reith, Anita</span> és <span class="person_name">Szilágy-Nagy, Anna</span> és <span class="person_name">de Vries, Jeroen</span> és <span class="person_name">Jákli, Eszter</span> és <span class="person_name">Fekete, Albert</span> és <span class="person_name">Lipparini, Francesco</span> és <span class="person_name">Conti, Andrea</span>
+  
+
+(2022)
+
+<a href="https://press.mater.uni-mate.hu/41/"><em>Partnering for Landscape Democracy An Intensive Study Program in Miskolc to renew the school environment of the Dr. Ámbédkar School, 2021.</em></a>
+
+
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     ISBN 978-963-269-985-1
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Thu Sep  8 10:41:33 2022 CEST</strong>.</div></div>

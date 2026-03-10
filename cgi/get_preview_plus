@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+
+use strict;
+use EPrints;
+
+my $session = EPrints::Session->new();
+
+my $docid = $session->param("docid");
+
+my $document = EPrints::Document->new($session, $docid);
+
+if(!defined $document){
+	print 400;
+	return;
+}
+
+my $preview_type = $session->get_repository()->get_conf("simple_preview");
+
+my $preview = $session->get_repository()->call("render_preview", $session, $document, $preview_type);
+
+print EPrints::XML::to_string($preview);

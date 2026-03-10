@@ -1,0 +1,34 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" value="Export" type="submit" role="button" class="ep_form_action_button" /><input id="view" type="hidden" name="view" value="creators" /><input name="values" value="R=F3zs=E1n=E9_V=E1rszegi=3AZs=F3fia=3A=3A" id="values" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/R=F3zs=E1n=E9_V=E1rszegi=3AZs=F3fia=3A=3A/Atom/R=F3zs=E1n=E9_V=E1rszegi=3AZs=F3fia=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/R=F3zs=E1n=E9_V=E1rszegi=3AZs=F3fia=3A=3A/RSS/R=F3zs=E1n=E9_V=E1rszegi=3AZs=F3fia=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/R=F3zs=E1n=E9_V=E1rszegi=3AZs=F3fia=3A=3A/RSS2/R=F3zs=E1n=E9_V=E1rszegi=3AZs=F3fia=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="R=F3zs=E1n=E9_V=E1rszegi=3AZs=F3fia=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>1</strong>.</div><p>
+
+
+    <span class="person_name">Bácsi, Eszter Ilona</span> and <span class="person_name">Egerszegi, István</span> and <span class="person_name">Rózsáné Várszegi, Zsófia</span> and <span class="person_name">Klein, Renáta</span> and <span class="person_name">Jávor, András</span> and <span class="person_name">Oláh, János</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/408/"><em>A kondíció hatása a juhok vemhesülésére.</em></a>
+
+
+    ANIMAL WELFARE ETOLÓGIA ÉS TARTÁSTECHNOLÓGIA / ANIMAL WELFARE ETHOLOGY AND HOUSING SYSTEMS, 21 (1).
+    pp. 21-28.
+     ISSN 1786-8440
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Thu Feb 12 13:53:20 2026 CET</strong>.</div></div>

@@ -1,0 +1,93 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Exportálás" name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" /><input value="creators" id="view" name="view" type="hidden" /><input value="Vona=3AM=E1rton=3A=3A" id="values" name="values" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Vona=3AM=E1rton=3A=3A/Atom/Vona=3AM=E1rton=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Vona=3AM=E1rton=3A=3A/RSS/Vona=3AM=E1rton=3A=3A.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Vona=3AM=E1rton=3A=3A/RSS2/Vona=3AM=E1rton=3A=3A.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Csoportosítás: <a href="Vona=3AM=E1rton=3A=3A.html">Tétel típusa</a>['Update/Views:group_separator' not defined]<span class="ep_view_group_by_current">Nincs</span></div><div class="ep_view_blurb">Tételek száma: <strong>4</strong>.</div><p>
+
+
+    <span class="person_name">Masoudi, Malihe</span> és <span class="person_name">Vona, Viktória</span> és <span class="person_name">Vona, Márton</span>
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/707/"><em>Assessment of the relationship between soil properties in an old tree line and its relation to tree density and tree trunk circumference.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 19 (2).
+    pp. 81-89.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Keller, Boglárka</span> és <span class="person_name">Vona, Márton</span> és <span class="person_name">Gelencsér, G.</span> és <span class="person_name">Akác, A.</span> és <span class="person_name">Dobó, Zsófia</span>
+  
+
+(2013)
+  
+<a href="https://press.mater.uni-mate.hu/572/"><em>Talaj- és vízvédelmi kutatások a Koppányvölgyi Élőhely-rehabilitációs Kísérleti Területen.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 11 (1).
+    pp. 23-39.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Keller, Boglárka</span> és <span class="person_name">Centeri, Csaba</span> és <span class="person_name">Vona, Márton</span>
+  
+
+(2011)
+  
+<a href="https://press.mater.uni-mate.hu/494/"><em>A Turai Legelő Természetvédelmi Terület és környékének tájváltozás vizsgálata katonai térképek alapján.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 9 (1).
+    pp. 1-11.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Balogh, Ákos</span> és <span class="person_name">Nagy, A</span> és <span class="person_name">Vona, Márton</span> és <span class="person_name">Pottyondy, Á</span> és <span class="person_name">Herczeg, E</span> és <span class="person_name">Malatinszky, Ákos</span> és <span class="person_name">Penksza, Károly</span>
+  
+
+(2006)
+  
+<a href="https://press.mater.uni-mate.hu/543/"><em>Data to the weed composition of the Southern Trans-Tisza area.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 4 (1).
+    pp. 139-148.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Tue Mar 10 03:21:17 2026 CET</strong>.</div></div>

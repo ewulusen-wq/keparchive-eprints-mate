@@ -1,4 +1,3 @@
-
 ######################################################################
 #
 #  Document file upload information
@@ -17,7 +16,7 @@ $c->{diskspace_warn_threshold} = 512*1024;
 # $c->{mimemap}->{html} = "text/html";
 
 # Limit maximum files that can be expanded from an archive (e.g. zip file)
-# $c->{archive_max_files} = 100;
+ $c->{archive_max_files} = 1000;
 
 =head1 COPYRIGHT
 

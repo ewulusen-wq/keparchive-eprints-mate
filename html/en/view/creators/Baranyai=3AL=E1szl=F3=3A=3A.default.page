@@ -1,0 +1,69 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input class="ep_form_action_button" value="Export" role="button" name="_action_export_redir" type="submit" /><input value="creators" id="view" name="view" type="hidden" /><input value="Baranyai=3AL=E1szl=F3=3A=3A" id="values" name="values" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Baranyai=3AL=E1szl=F3=3A=3A/Atom/Baranyai=3AL=E1szl=F3=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Baranyai=3AL=E1szl=F3=3A=3A/RSS/Baranyai=3AL=E1szl=F3=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Baranyai=3AL=E1szl=F3=3A=3A/RSS2/Baranyai=3AL=E1szl=F3=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Baranyai=3AL=E1szl=F3=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Baranyai, László</span> and <span class="person_name">Bodor-Pesti, Péter</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/248/"><em>GRA.LE.D. : GRApevine Leaf Digitalization.</em></a>
+
+
+    Manual.
+    Hungarian University of Agriculture and Life Sciences, Budapest.
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Friedrich, László</span> and <span class="person_name">Baranyai, László</span> and <span class="person_name">Jónás, Gábor</span> and <span class="person_name">Kenesei, György</span> and <span class="person_name">Surányi, József</span> and <span class="person_name">Quang, Nguyen Duc</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/110/"><em>Innovációk az élelmiszer-feldolgozásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> and <span class="person_name">Tóthi, Róbert</span> 
+        
+          (eds.)
+          
+      
+      Innovations in Animal Nutrition and Food Poduction : 20th International Symposium on Animal Nutrition, 29 September, 2022 Kaposvár, Hungary : Proceedings [Innovációk a takarmányozás és az élelmiszer-előállítás gyakorlatában : 20. Nemzetközi Takarmányozási.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     127Number of Pages.
+    pp. 68-79.
+    ISBN 978-963-623-031-9
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Tue Mar  3 19:30:05 2026 CET</strong>.</div></div>

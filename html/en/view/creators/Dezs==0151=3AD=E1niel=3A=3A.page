@@ -1,0 +1,34 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form method="get" accept-charset="utf-8" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Export" name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" /><input value="creators" id="view" name="view" type="hidden" /><input value="Dezs==0151=3AD=E1niel=3A=3A" id="values" name="values" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Dezs==0151=3AD=E1niel=3A=3A/Atom/Dezs==0151=3AD=E1niel=3A=3A.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Dezs==0151=3AD=E1niel=3A=3A/RSS/Dezs==0151=3AD=E1niel=3A=3A.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Dezs==0151=3AD=E1niel=3A=3A/RSS2/Dezs==0151=3AD=E1niel=3A=3A.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Dezs==0151=3AD=E1niel=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a></div></div><div class="ep_view_blurb">Number of items: <strong>1</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Dezső, Dániel</span> and <span class="person_name">Szabó, Rita</span> and <span class="person_name">Pásztor, György</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/564/"><em>Investigation on mulching weed control technologies of sweet potato (Ipomoea batatas).</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 29 (Suppl1).
+    pp. 17-24.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Tue Feb 24 15:22:11 2026 CET</strong>.</div></div>

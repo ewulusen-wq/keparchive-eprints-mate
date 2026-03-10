@@ -1,0 +1,71 @@
+<meta name="eprints.eprintid" content="671" />
+<meta name="eprints.rev_number" content="5" />
+<meta name="eprints.eprint_status" content="archive" />
+<meta name="eprints.userid" content="34" />
+<meta name="eprints.dir" content="disk0/00/00/06/71" />
+<meta name="eprints.datestamp" content="2026-02-24 14:16:58" />
+<meta name="eprints.lastmod" content="2026-02-24 14:16:58" />
+<meta name="eprints.status_changed" content="2026-02-24 14:16:58" />
+<meta name="eprints.type" content="article" />
+<meta name="eprints.metadata_visibility" content="show" />
+<meta name="eprints.sword_depositor" content="34" />
+<meta name="eprints.creators_name" content="Molnár, Dániel" />
+<meta name="eprints.corp_creators" content="Tájökológiai Lapok szerkesztősége Kiadók / MTA KFB [2014-]" />
+<meta name="eprints.corp_creators" content="Természetvédelmi és Tájgazdálkodási Intézet SZIE / MKK TTI [2014-2019]" />
+<meta name="eprints.title" content="Agrármonitoring rendszer geometriai pontosságának tájökológiai szempontú, távérzékeléses ellenőrzési módszerekkel történő vizsgálata" />
+<meta name="eprints.ispublished" content="pub" />
+<meta name="eprints.subjects" content="S1" />
+<meta name="eprints.divisions" content="MagyTE" />
+<meta name="eprints.keywords" content="MONITORING; SENTINEL; CWRs; CAP 2020; technikai tolerancia; LPIS;" />
+<meta name="eprints.abstract" content="Az európai tájképet leginkább meghatározó mezőgazdasági területek jogszerű használói a termesztett növénykultúrák területe alapján vagy művelés hiányában, de az uniós és nemzeti jogszabályok által előírtak szerint támogatható állapotban tartott területeken, illetve egyéb vidékfejlesztési intézkedések keretében területalapú kifizetésekben részesülhetnek. A területalapú támogatások igénylésének jogosságát az Európai Bizottság szabályai alapján a tagállamnak ellenőriznie kell. Az Európai Bizottság Mezőgazdasági és Vidékfejlesztési Főigazgatósága (DG AGRI: Directorate-General for Agriculture and Rural Development) által 1993 óta szorgalmazott és 1998-ban Közös Kutatóközpontjának (JRC: Joint Research Centre) delegált és általa bevezetett távérzékeléses ellenőrzése (CwRS: Control with Remote Sensing) tekinthető az ellenőrzés legrobusztusabb technikájának. A nagyfelbontású (&lt;=1m) ortofotókra alapozott távérzékeléses ellenőrzést 2020tól leváltani hivatott az ESA Sentinel műholdcsaládjának kisfelbontású (=&gt;10m) felvételeire alapozott monitoring rendszer, melynek legfontosabb változását a geometriai felbontás romlását kompenzáló időbeli felbontás jelentős javulása hozza. Korábbi vizsgálatok rámutattak arra, hogy az Integrált Irányítási és Ellenőrzési Rendszer (IACS: Integrated Administration and Control System) CwRS folyamatához használt technikai tolerancia meghatározásához a JRC által kidolgozott módszert milyen szubjektív tényezők befolyásolhatják. Jelen vizsgálat pedig ezen eredmények figyelembevétele mellett tesz kísérletet az új monitoring rendszer jellemzésére a klasszikus CwRS eszközeivel. A jogszabályi környezet megfelelő igazításával, monitoring szinten 10-ről 0,5 méterre újramintavételezett Sentinel kép alapján történő kézi lehatárolás utólagos, a fizikai blokkokkal történő korrigálása után kapott 2,14 méteres technikai tolerancia érték a kifizetések jogosságnak vizsgálatához elfogadható lehet, de a táji sokszínűséget romboló beavatkozások detektálása szempontjából további veszélyt hordozhat." />
+<meta name="eprints.date" content="2019" />
+<meta name="eprints.date_type" content="published" />
+<meta name="eprints.official_url" content="https://doi.org/10.56617/tl.3467" />
+<meta name="eprints.id_number" content="MTMT:30831191 DOI:10.56617/tl.3467" />
+<meta name="eprints.full_text_status" content="public" />
+<meta name="eprints.publication" content="TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY" />
+<meta name="eprints.volume" content="17" />
+<meta name="eprints.number" content="1" />
+<meta name="eprints.pagerange" content="85-91" />
+<meta name="eprints.refereed" content="TRUE" />
+<meta name="eprints.issn" content="1589-4673" />
+<meta name="eprints.citation" content="  Molnár, Dániel  (2019) Agrármonitoring rendszer geometriai pontosságának tájökológiai szempontú, távérzékeléses ellenőrzési módszerekkel történő vizsgálata.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 17 (1). pp. 85-91.  ISSN 1589-4673     " />
+<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/671/1/08_Molnar.pdf" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta name="DC.relation" content="https://press.mater.uni-mate.hu/671/" />
+<meta name="DC.title" content="Agrármonitoring rendszer geometriai pontosságának tájökológiai szempontú, távérzékeléses ellenőrzési módszerekkel történő vizsgálata" />
+<meta name="DC.creator" content="Molnár, Dániel" />
+<meta name="DC.subject" content="S Mezőgazdaság általában" />
+<meta name="DC.description" content="Az európai tájképet leginkább meghatározó mezőgazdasági területek jogszerű használói a termesztett növénykultúrák területe alapján vagy művelés hiányában, de az uniós és nemzeti jogszabályok által előírtak szerint támogatható állapotban tartott területeken, illetve egyéb vidékfejlesztési intézkedések keretében területalapú kifizetésekben részesülhetnek. A területalapú támogatások igénylésének jogosságát az Európai Bizottság szabályai alapján a tagállamnak ellenőriznie kell. Az Európai Bizottság Mezőgazdasági és Vidékfejlesztési Főigazgatósága (DG AGRI: Directorate-General for Agriculture and Rural Development) által 1993 óta szorgalmazott és 1998-ban Közös Kutatóközpontjának (JRC: Joint Research Centre) delegált és általa bevezetett távérzékeléses ellenőrzése (CwRS: Control with Remote Sensing) tekinthető az ellenőrzés legrobusztusabb technikájának. A nagyfelbontású (&lt;=1m) ortofotókra alapozott távérzékeléses ellenőrzést 2020tól leváltani hivatott az ESA Sentinel műholdcsaládjának kisfelbontású (=&gt;10m) felvételeire alapozott monitoring rendszer, melynek legfontosabb változását a geometriai felbontás romlását kompenzáló időbeli felbontás jelentős javulása hozza. Korábbi vizsgálatok rámutattak arra, hogy az Integrált Irányítási és Ellenőrzési Rendszer (IACS: Integrated Administration and Control System) CwRS folyamatához használt technikai tolerancia meghatározásához a JRC által kidolgozott módszert milyen szubjektív tényezők befolyásolhatják. Jelen vizsgálat pedig ezen eredmények figyelembevétele mellett tesz kísérletet az új monitoring rendszer jellemzésére a klasszikus CwRS eszközeivel. A jogszabályi környezet megfelelő igazításával, monitoring szinten 10-ről 0,5 méterre újramintavételezett Sentinel kép alapján történő kézi lehatárolás utólagos, a fizikai blokkokkal történő korrigálása után kapott 2,14 méteres technikai tolerancia érték a kifizetések jogosságnak vizsgálatához elfogadható lehet, de a táji sokszínűséget romboló beavatkozások detektálása szempontjából további veszélyt hordozhat." />
+<meta name="DC.date" content="2019" />
+<meta name="DC.type" content="Cikk" />
+<meta name="DC.type" content="PeerReviewed" />
+<meta name="DC.format" content="text" />
+<meta name="DC.language" content="hu" />
+<meta name="DC.rights" content="cc_by_nc_nd_4" />
+<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/671/1/08_Molnar.pdf" />
+<meta name="DC.identifier" content="  Molnár, Dániel  (2019) Agrármonitoring rendszer geometriai pontosságának tájökológiai szempontú, távérzékeléses ellenőrzési módszerekkel történő vizsgálata.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 17 (1). pp. 85-91.  ISSN 1589-4673     " />
+<meta name="DC.relation" content="https://doi.org/10.56617/tl.3467" />
+<meta name="DC.relation" content="MTMT:30831191 DOI:10.56617/tl.3467" />
+<meta name="DC.identifier" content="MTMT:30831191 DOI:10.56617/tl.3467" />
+<link rel="canonical" href="https://press.mater.uni-mate.hu/671/" />
+<link rel="alternate" type="application/json; charset=utf-8" title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/JSON/press-eprint-671.js" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/DC/press-eprint-671.txt" />
+<link rel="alternate" type="text/xml; charset=utf-8" title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/DIDL/press-eprint-671.xml" />
+<link rel="alternate" type="application/rdf+xml" title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/RDFXML/press-eprint-671.rdf" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/Simple/press-eprint-671.txt" />
+<link rel="alternate" type="application/atom+xml;charset=utf-8" title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/Atom/press-eprint-671.xml" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/BibTeX/press-eprint-671.bib" />
+<link rel="alternate" type="text/html; charset=utf-8" title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/HTML/press-eprint-671.html" />
+<link rel="alternate" type="text/plain" title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/Refer/press-eprint-671.refer" />
+<link rel="alternate" type="text/plain" title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/RIS/press-eprint-671.ris" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/EndNote/press-eprint-671.enw" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/Text/press-eprint-671.txt" />
+<link rel="alternate" type="text/plain" title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/RDFNT/press-eprint-671.nt" />
+<link rel="alternate" type="text/csv; charset=utf-8" title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/CSV/press-eprint-671.csv" />
+<link rel="alternate" type="application/vnd.eprints.data+xml; charset=utf-8" title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/XML/press-eprint-671.xml" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/COinS/press-eprint-671.txt" />
+<link rel="alternate" type="text/xml; charset=utf-8" title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/ContextObject/press-eprint-671.xml" />
+<link rel="alternate" type="text/n3" title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/RDFN3/press-eprint-671.n3" />
+<link rel="alternate" type="text/xml; charset=utf-8" title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/MODS/press-eprint-671.xml" />
+<link rel="alternate" type="text/xml; charset=utf-8" title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/671/METS/press-eprint-671.xml" />

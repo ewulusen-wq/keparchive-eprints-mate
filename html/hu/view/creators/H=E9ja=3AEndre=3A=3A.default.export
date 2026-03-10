@@ -1,0 +1,13 @@
+<form accept-charset="utf-8" action="/cgi/exportview" method="get">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" value="Exportálás" class="ep_form_action_button" role="button" /><input name="view" type="hidden" id="view" value="creators" /><input name="values" type="hidden" id="values" value="H=E9ja=3AEndre=3A=3A" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/creators/H=E9ja=3AEndre=3A=3A/Atom/H=E9ja=3AEndre=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/H=E9ja=3AEndre=3A=3A/RSS/H=E9ja=3AEndre=3A=3A.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/H=E9ja=3AEndre=3A=3A/RSS2/H=E9ja=3AEndre=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form>

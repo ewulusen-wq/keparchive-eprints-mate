@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Browse by Subject - MATE Repozitórium</title>
+    <title>Böngészés, Szakterület - MATER Press repozitórium</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link crossorigin="anonymous" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" /><script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM">// <!-- No script --></script><script type="text/javascript">
+    <script type="text/javascript">
 // <![CDATA[
-var eprints_http_root = "https://keparchive.fater.uni-mate.hu";
-var eprints_http_cgiroot = "https://keparchive.fater.uni-mate.hu/cgi";
-var eprints_oai_archive_id = "keparchive.fater.uni-mate.hu";
-var eprints_logged_in = true;
-var eprints_logged_in_userid = 1; 
-var eprints_logged_in_username = "admin"; 
-var eprints_logged_in_usertype = "admin"; 
+var eprints_http_root = "https://press.mater.uni-mate.hu";
+var eprints_http_cgiroot = "https://press.mater.uni-mate.hu/cgi";
+var eprints_oai_archive_id = "press.mater.uni-mate.hu";
+var eprints_logged_in = false;
+var eprints_logged_in_userid = 0; 
+var eprints_logged_in_username = ""; 
+var eprints_logged_in_usertype = ""; 
 // ]]></script>
-    <style type="text/css">.ep_not_logged_in { display: none }</style>
-    <link rel="stylesheet" href="/style/auto-3.4.5.css" type="text/css" />
+    <style type="text/css">.ep_logged_in { display: none }</style>
+    <link type="text/css" href="/style/auto-3.4.5.css" rel="stylesheet" />
     <script type="text/javascript" src="/javascript/auto-3.4.5.js">
 //padder
 </script>
@@ -24,54 +25,80 @@ var eprints_logged_in_usertype = "admin";
         <link rel="stylesheet" type="text/css" href="/style/ie6.css" />
    <![endif]-->
     <meta name="Generator" content="EPrints 3.4.5" />
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-    <meta content="hu" http-equiv="Content-Language" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="hu" />
+    <script type="text/javascript" src="https://www.google.com/jsapi">
+//padder
+</script><script type="text/javascript">
+// <![CDATA[
+google.load("visualization", "1", {packages:["corechart", "geochart"]});
+// ]]></script><link href="https://press.mater.uni-mate.hu/" rel="Top" />
+    <link href="https://press.mater.uni-mate.hu/sword-app/servicedocument" rel="Sword" />
+    <link href="https://press.mater.uni-mate.hu/id/contents" rel="SwordDeposit" />
+    <link type="text/html" href="https://press.mater.uni-mate.hu/cgi/search" rel="Search" />
+    <link type="application/opensearchdescription+xml" title="MATER Press repozitórium" href="https://press.mater.uni-mate.hu/cgi/opensearchdescription" rel="Search" />
     
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.ih.szie.hu/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '9']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
   </head>
   <body>
     
 <div id="wrapper">
     <div class="ep_tm_header ep_noprint">
+<!--div class="ep_tm_logo"><a href="https://uni.mate.hu" target="blank"><img alt="MATE" src="/images/mate2022.png"></a></div-->
+<div style="color:#097242;font-size:43px;margin:10px;">MATER Press – Egyetemi Kiadványok</div>
       <ul class="ep_tm_menu">
         <li>
-          <a href="http://keparchive.fater.uni-mate.hu/">
-            Home
+          <a href="http://press.mater.uni-mate.hu/">
+            Kezdőlap
           </a>
         </li>
         <li>
-          <a href="http://keparchive.fater.uni-mate.hu/information.html">
+          <a href="http://press.mater.uni-mate.hu/information.html">
             A repozitóriumról
           </a>
         </li>
         <li>
-          <a href="http://keparchive.fater.uni-mate.hu/view/" menu="ep_tm_menu_browse">
-            Browse
+          <a href="http://press.mater.uni-mate.hu/view/" menu="ep_tm_menu_browse">
+            Böngészés
           </a>
           <ul id="ep_tm_menu_browse" style="display:none;">
             <li>
-              <a href="http://keparchive.fater.uni-mate.hu/view/subjects/">
-                Browse by 
-                Subject
+              <a href="http://press.mater.uni-mate.hu/view/subjects/">
+                Böngészés,
+                Szakterület
               </a>
             </li>
+	<li>
+	     <a href="https://press.mater.uni-mate.hu/cgi/search/advanced">Keresés a repozitóriumban</a>
+	</li>
       </ul>
 	  </li>
-	    <li> <a href="#" target="_blank">Doi Generáló1</a></li>
 	  </ul>
       <table class="ep_tm_searchbar">
         <tr>
           <td align="left">
-            <ul id="ep_tm_menu_tools" class="nav py-1" role="toolbar"><li class="nav-item p-0 align-self-center">Logged in as 
-
-  <span class="ep_name_citation"><a href="mailto:diszterhoft.zoltan@uni-mate.hu">diszterhoft.zoltan@uni-mate.hu</a></span>
-</li><li class="nav-item p-0 align-self-center"><a href="/cgi/users/home?screen=Items" class="nav-link p-1 ms-2">Manage deposits</a></li><li class="nav-item p-0 align-self-center"><a href="/cgi/users/home?screen=DataSets" class="nav-link p-1 ms-2">Manage records</a></li><li class="nav-item p-0 align-self-center"><a href="/cgi/users/home?screen=User%3A%3AView" class="nav-link p-1 ms-2">Profile</a></li><li class="nav-item p-0 align-self-center"><a href="/cgi/users/home?screen=User%3A%3ASavedSearches" class="nav-link p-1 ms-2">Saved searches</a></li><li class="nav-item p-0 align-self-center"><a href="/cgi/users/home?screen=Review" class="nav-link p-1 ms-2">Review</a></li><li class="nav-item p-0 align-self-center"><a class="nav-link p-1 ms-2" href="/cgi/users/home?screen=Admin">Admin</a></li><li class="nav-item p-0 align-self-center"><a href="/cgi/logout" class="nav-link p-1 ms-2">Logout</a></li></ul>
+            <ul class="ep_tm_key_tools" role="toolbar" id="ep_tm_menu_tools"><li class="ep_tm_key_tools_item"><a href="/cgi/users/home" class="ep_tm_key_tools_item_link"><a href="/cgi/users/home">Bejelentkezés</a> </a></li></ul>
           </td>
           
           <td align="right" style="white-space: nowrap">
-            <div id="ep_tm_languages"><a href="/cgi/set_lang?lang=en&amp;referrer=https%3A%2F%2Fkeparchive.fater.uni-mate.hu%2Fview%2Fsubjects%2F" title="English"><img alt="English" border="0" align="top" src="/images/flags/en.png" /></a><a href="/cgi/set_lang?referrer=https%3A%2F%2Fkeparchive.fater.uni-mate.hu%2Fview%2Fsubjects%2F" title="Clear Cookie - decide language by browser settings"><img src="/images/flags/aero.png" alt="Clear Cookie - decide language by browser settings" border="0" align="top" /></a></div>
-            <form method="get" accept-charset="utf-8" action="http://keparchive.fater.uni-mate.hu/cgi/search" style="display:inline">
+            <div id="ep_tm_languages"><a title="English" href="/cgi/set_lang?lang=en&amp;referrer=https%3A%2F%2Fpress.mater.uni-mate.hu%2Fview%2Fsubjects%2F"><img alt="English" border="0" src="/images/flags/en.png" align="top" /></a><a title="Nyelv választás a böngésző beállításai alapján" href="/cgi/set_lang?referrer=https%3A%2F%2Fpress.mater.uni-mate.hu%2Fview%2Fsubjects%2F"><img alt="Nyelv választás a böngésző beállításai alapján" border="0" src="/images/flags/aero.png" align="top" /></a></div>
+            <form method="get" accept-charset="utf-8" action="https://press.mater.uni-mate.hu/cgi/search" style="display:inline">
               <input class="ep_tm_searchbarbox" size="20" type="text" name="q" />
-              <input class="ep_tm_searchbarbutton" value="Search" type="submit" name="_action_search" />
+              <input class="ep_tm_searchbarbutton" value="Keresés" type="submit" name="_action_search" />
               <input type="hidden" name="_action_search" value="Search" />
               <input type="hidden" name="_order" value="bytitle" />
               <input type="hidden" name="basic_srchtype" value="ALL" />
@@ -83,16 +110,20 @@ var eprints_logged_in_usertype = "admin";
     </div>
     <div id="main_content">
       <div class="ep_tm_page_content">
-        <h1 class="ep_tm_pagetitle">
-          Browse by Subject
-        </h1>
-        <div class="ep_view_menu"></div>
+        <h2 class="ep_tm_pagetitle" style="text-align: center;">
+          Böngészés, Szakterület
+        </h2>
+	<!--p>A <b>MATER Press</b> a Magyar Agrár- és Élettudományi Egyetem által kiadott dokumentumok digitális tárhelye, feladata a MATE által 
+kiadott dokumentumok teljes szövegű változatainak gyűjtése, archiválása, illetve láthatóvá tétele a teljesség igényével. </p-->
+        <div class="ep_view_menu"><div class="ep_view_intro">Kérjük, válasszon egy böngészési szempontot az alábbi listából.</div><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (699)<ul><li><a href="A.html">A Általános művek</a> (62)<ul><li><a href="AC.html">AC Gyűjteményes munkák, sorozatok</a> (61)</li></ul><ul><li><a href="AS.html">AS Akadémiák, tud. társaságok</a> (1)</li></ul><ul><li><a href="AZ.html">AZ Tudománytörténet, bölcsészet</a> (1)</li></ul></li></ul><ul><li><a href="B.html">B Filozófia, pszichológia, vallás</a> (1)<ul><li><a href="B1.html">B Filozófia általában</a> (1)</li></ul><ul><li><a href="BF.html">BF Lélektan</a> (1)</li></ul></li></ul><ul><li><a href="C.html">C Történeti segédtudományok</a> (5)<ul><li><a href="C1.html">C Történeti segédtudományok általában</a> (1)</li></ul><ul><li><a href="CB.html">CB Művelődéstörténet</a> (2)</li></ul><ul><li><a href="CT.html">CT Életrajz</a> (4)</li></ul></li></ul><ul><li><a href="G.html">G Földrajz, antropológia, kikapcsolódás</a> (57)<ul><li><a href="GA.html">GA Földméréstan, geodézia, térképészet</a> (1)</li></ul><ul><li><a href="GE.html">GE Környezettudomány</a> (48)</li></ul><ul><li><a href="GF.html">GF Gazdasági-társadalmi földrajz</a> (7)</li></ul><ul><li><a href="GR.html">GR Etnológia, folklór, kulturális antropológia</a> (2)</li></ul><ul><li><a href="GV.html">GV Szabadidő, szórakozás</a> (2)</li></ul></li></ul><ul><li><a href="H.html">H Társadalomtudományok</a> (112)<ul><li><a href="H1.html">H  Társadalomtudomány általában</a> (7)</li></ul><ul><li><a href="HB.html">HB Közgazdaságtudomány</a> (89)</li></ul><ul><li><a href="HD.html">HD Ipar, földhasználat, munkaügy</a> (14)<ul><li><a href="HD28.html">HD28 Menedzsment. Ipari menedzsment</a> (8)</li></ul></li></ul><ul><li><a href="HE.html">HE Közlekedés és kommunikáció</a> (4)</li></ul><ul><li><a href="HF.html">HF Kereskedelem</a> (3)</li></ul><ul><li><a href="HG.html">HG Pénzügy</a> (3)</li></ul><ul><li><a href="HM.html">HM Társadalomkutatás</a> (2)</li></ul><ul><li><a href="HS.html">HS Szociális szervezetek, mozgalmak, egyesületek</a> (1)</li></ul></li></ul><ul><li><a href="J.html">J Politológia</a> (1)<ul><li><a href="JF.html">JF Politikai intézmények, államigazgatás általában</a> (1)</li></ul></li></ul><ul><li><a href="L.html">L Oktatás</a> (103)<ul><li><a href="L1.html">L Oktatás általában</a> (30)</li></ul><ul><li><a href="LB.html">LB Oktatás elmélete és gyakorlata</a> (93)<ul><li><a href="LB1501.html">LB1501 Alapfokú oktatás</a> (32)</li></ul><ul><li><a href="LB1603.html">LB1603 Középfokú oktatás</a> (6)</li></ul><ul><li><a href="LB2300.html">Lb2300 Felsőoktatás</a> (48)</li></ul><ul><li><a href="LB2361.html">LB2361 Tanterv, tantervelmélet</a> (1)</li></ul></li></ul><ul><li><a href="LC.html">LC Speciális oktatási formák</a> (27)<ul><li><a href="LC5201.html">LC5201 Felnőttoktatás, folyamatos képzés</a> (10)</li></ul></li></ul><ul><li><a href="LT.html">LT Tankönyvek</a> (1)</li></ul></li></ul><ul><li><a href="M.html">M Zene, szövegkönyvek, kották</a> (1)<ul><li><a href="MT.html">MT Zeneoktatás, zenetanulás</a> (1)</li></ul></li></ul><ul><li><a href="N.html">N Képzőművészet</a> (23)<ul><li><a href="N1.html">N Vizuális művészet általában</a> (16)</li></ul><ul><li><a href="NA.html">NA  Építészet</a> (1)</li></ul><ul><li><a href="ND.html">ND Festészet</a> (2)</li></ul><ul><li><a href="NE.html">NE Grafikai művészetek</a> (1)</li></ul><ul><li><a href="NK.html">NK  Iparművészet, díszítőművészet</a> (1)</li></ul><ul><li><a href="NX.html">NX Művészetek általában</a> (5)</li></ul></li></ul><ul><li><a href="P.html">P Nyelvészet és irodalom</a> (21)<ul><li><a href="PN.html">PN Irodalom általában</a> (19)<ul><li><a href="PN0080.html">PN0080 Irodalomkritika</a> (8)</li></ul><ul><li><a href="PN0441.html">PN0441 Irodalomtörténet</a> (5)</li></ul><ul><li><a href="PN1993.html">PN1993 filmművészet</a> (1)</li></ul><ul><li><a href="PN2000.html">Pn2000 Színházművészet</a> (1)</li></ul></li></ul><ul><li><a href="PR.html">PR Angol irodalom</a> (2)</li></ul><ul><li><a href="PZ.html">PZ Gyermekirodalom</a> (4)</li></ul></li></ul><ul><li><a href="Q.html">Q Természettudomány</a> (153)<ul><li><a href="Q1.html">Q Természettudomány általában</a> (101)</li></ul><ul><li><a href="QA.html">QA Matematika</a> (2)<ul><li><a href="QA75.html">QA75 Számítástechnika, számítógéptudomány</a> (2)</li></ul></li></ul><ul><li><a href="QC.html">QC Fizika</a> (2)</li></ul><ul><li><a href="QD.html">QD Kémia</a> (9)</li></ul><ul><li><a href="QE.html">QE Földtudományok</a> (24)</li></ul><ul><li><a href="QH.html">QH Természetrajz</a> (21)<ul><li><a href="QH301.html">QH301 Biológia</a> (10)</li></ul></li></ul><ul><li><a href="QK.html">QK Növénytan</a> (12)</li></ul><ul><li><a href="QL.html">QL Állattan</a> (6)</li></ul><ul><li><a href="QP.html">QP Élettan</a> (9)</li></ul><ul><li><a href="QR.html">QR Mikrobiológia</a> (10)</li></ul></li></ul><ul><li><a href="R.html">R Orvostudomány</a> (16)<ul><li><a href="RA.html">RA Orvostudomány társadalmi szerepe</a> (10)<ul><li><a href="RA0421.html">RA0421 Közegészségügy, higiénia, betegség-megelőzés</a> (10)</li></ul></li></ul><ul><li><a href="RB.html">RB Patológia, kórtan</a> (3)</li></ul><ul><li><a href="RG.html">RG Nőgyógyászat, szülészet</a> (1)</li></ul><ul><li><a href="RM.html">RM Terápia, gyógyszertan</a> (8)</li></ul><ul><li><a href="RZ.html">RZ Orvostudomány egyéb területei</a> (1)</li></ul></li></ul><ul><li><a href="S.html">S Mezőgazdaság</a> (319)<ul><li><a href="S1.html">S Mezőgazdaság általában</a> (205)</li></ul><ul><li><a href="SB.html">SB Növénytermesztés</a> (39)</li></ul><ul><li><a href="SD.html">SD Erdőgazdaság</a> (15)</li></ul><ul><li><a href="SF.html">SF Állattenyésztés</a> (73)</li></ul><ul><li><a href="SH.html">SH Vizi növény-és állattartás, halászat, sporthorgászat</a> (5)</li></ul><ul><li><a href="SK.html">SK Vadgazdálkodás, vadászat</a> (15)</li></ul></li></ul><ul><li><a href="T.html">T Alkalmazott, műszaki tudományok</a> (14)<ul><li><a href="T1.html">T2 műszaki tudományok általában</a> (7)</li></ul><ul><li><a href="TA.html">TA Általános mérnöki tudományok</a> (1)</li></ul><ul><li><a href="TD.html">TD Környezetvédelem, hulladékkezelés, egészségügyi mérnöki technika (ivóvízellátási és szennyvízkezelési technika)</a> (4)</li></ul><ul><li><a href="TE.html">TE Közlekedésmérnöki, útépítési technika</a> (1)</li></ul><ul><li><a href="TJ.html">TJ Gépészmérnöki tudományok</a> (2)</li></ul><ul><li><a href="TK.html">TK Elektrotechnika, elektronika, atomtechnika</a> (1)</li></ul><ul><li><a href="TL.html">TL  Járműtechnika, repülés, űrhajózás</a> (1)</li></ul><ul><li><a href="TP.html">TP Vegyipar, vegyészeti technológia</a> (1)</li></ul><ul><li><a href="TS.html">TS Különféle iparágak, ipari termékek</a> (2)</li></ul></li></ul><ul><li><a href="U.html">U Hadtudomány</a> (2)<ul><li><a href="U1.html">U Hadtudomány általában</a> (2)</li></ul></li></ul><ul><li><a href="Z.html">Z Könyvtártudomány</a> (2)<ul><li><a href="Z004.html">Z004 Könyvészet, írás, paleográfia</a> (1)</li></ul><ul><li><a href="Z719.html">Z719 Könyvtárak általában</a> (1)</li></ul></li></ul></li></ul></div>
       </div>
     </div>
-  	<div class="ep_tm_eprints_logo">
+  	<div class="ep_tm_eprints_logo" style="margin-bottom:10px;">
+<img alt="stamp" src="http://press.mater.uni-mate.hu/images/MTMT_minosito.jpg" width="100px" />
       <a href="http://www.uni-mate.hu/" target="_blank">  
-         <img alt="MATE" width="200px" src="http://keparchive.fater.uni-mate.hu/images/sitelogo.gif" />
+         <img alt="MATE" width="300px" src="http://press.mater.uni-mate.hu/images/sitelogo.gif" />
            </a>
+
       </div>
     <div class="ep_tm_footer ep_noprint">
        
@@ -100,11 +131,11 @@ var eprints_logged_in_usertype = "admin";
       <div class="ep_tm_eprints_logo">
        
         <a href="http://eprints.org/software/">  
-          <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/eprintslogo.png" />
-          <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/flavour.png" style="width: 28px" /> 
+          <img alt="EPrints Logo" src="http://press.mater.uni-mate.hu/images/eprintslogo.png" />
+          <img alt="EPrints Logo" src="http://press.mater.uni-mate.hu/images/flavour.png" style="width: 28px" /> 
         </a>
       </div>
-      <span>MATE Repozitórium is powered by <em><a href="http://eprints.org/software/">EPrints 3.4</a></em> which is developed by the <a href="https://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a> at the University of Southampton. <a href="/eprints/">About EPrints</a> | <a href="/accessibility/">Accessibility</a></span>
+      <div>A MATER Press repozitóriumban  alkalmazott szoftver: <em><a href="http://eprints.org/software/">EPrints 3</a></em> amit a <a href="http://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a>, University of Southampton fejlesztett. <a href="https://press.mater.uni-mate.hu/eprints/">További információk és fejlesztők</a>.</div>
     </div>
 </div> <!-- wrapper -->
   </body>

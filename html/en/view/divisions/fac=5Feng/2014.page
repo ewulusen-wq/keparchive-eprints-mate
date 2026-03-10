@@ -1,0 +1,66 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" role="button" value="Export" /><input type="hidden" name="view" id="view" value="divisions" /><input type="hidden" name="values" id="values" value="fac=5Feng/2014" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2014/Atom/fac=5Feng_2014.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2014/RSS/fac=5Feng_2014.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2014/RSS2/fac=5Feng_2014.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_divisions"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="2014.creators_name.html">Creators</a> | <a href="2014.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_divisions_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_book">Book</a></div></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><a name="group_book"></a><h2>Book</h2><p>
+
+
+    <span class="person_name">Halas, Veronika</span>
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/166/"><em>A takarmányozás és a termékminőség (tej, tojás, hús) összefüggései.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem – Pannon Egyetem – Szegedi Gabonakutató  Nonprofit Kft, Kaposvár.
+     119Number of Pages.
+    
+   
+  
+
+
+   (Submitted)
+
+
+</p><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/28/"><em>Animal nutrition.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd..
+     131Number of Pages.
+    
+   
+  
+
+
+   (Unpublished)
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sat Mar  7 13:56:42 2026 CET</strong>.</div></div>

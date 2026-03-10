@@ -1,0 +1,76 @@
+<meta content="292" name="eprints.eprintid" />
+<meta content="8" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="34" name="eprints.userid" />
+<meta content="disk0/00/00/02/92" name="eprints.dir" />
+<meta content="2024-12-16 13:31:41" name="eprints.datestamp" />
+<meta content="2024-12-16 13:31:41" name="eprints.lastmod" />
+<meta content="2024-12-16 13:31:41" name="eprints.status_changed" />
+<meta content="article" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="34" name="eprints.sword_depositor" />
+<meta content="Dajka, Máté Ferenc" name="eprints.creators_name" />
+<meta content="0009-0005-3608-5442" name="eprints.creators_orcid" />
+<meta content="Studia Mundi - Economica szerkesztősége Kiadók / Önkéntes" name="eprints.corp_creators" />
+<meta content="Vidék- és területfejlesztési Tanszék MATE / VFGI VTFT [2021-]" name="eprints.corp_creators" />
+<meta content="A farmmenedzserszoftverek meghatározása és alapvető funkcióinak áttekintése" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="HB" name="eprints.subjects" />
+<meta content="S1" name="eprints.subjects" />
+<meta content="TS" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="FMIS, IoT, digitális gazdálkodás, digitális agronómia, Smart-farming, smart megoldások, farmmenedzserszoftver" name="eprints.keywords" />
+<meta content="A digitális agronómiában számos olyan fogalommal lehet találkozni mint a komplex precíziós farmmenedzser­szoftverek, adatalapú gazdálkodás, smart farming. A most következő tanulmányban ezeknek a fogalmaknak a meghatározására vállalkoztam. Különös tekintettel a farmmenedzserszoftverek fogalmára, amelyek olyan multifunkcionális technológiákként határozhatóak meg, amelyek a gazdálkodás során létrejött, valamint a külső forrásokból származó adatok alapján támogatást nyújtanak a gazdaságban zajló, különböző tevékenységek optimalizálására és menedzselésére. Ezek a rendszerek segítenek a gazdálkodóknak a termelési folyamatok jobb megértésében, a hozam maximalizálásában, valamint a költségek csökkentésében, miközben növelik az üzem hatékonyságát és elősegítik a fenntartható mezőgazdasági gyakorlatok alkalmazását. A farmmenedzserszoftverek meghatározása mellett a tanulmány részletesen taglalja ezek funkcióit, illetve azokat a specifikus előnyöket, amelyeket ezek a rendszerek kínálnak a modern agrárgazdaság szereplői számára. Az adatvezérelt döntéshozatal előtérbe helyezésével ezek a szoftverek kulcsfontosságúak lehetnek a mezőgazdasági termelés hatékonyságának javításában." name="eprints.abstract" />
+<meta content="2024" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="https://doi.org/10.18531/sme.vol.11.no.3.pp.5-18" name="eprints.official_url" />
+<meta content="MTMT:35639759 DOI:10.18531/sme.vol.11.no.3.pp.5-18" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="STUDIA MUNDI - ECONOMICA" name="eprints.publication" />
+<meta content="11" name="eprints.volume" />
+<meta content="3" name="eprints.number" />
+<meta content="5-18" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="2415-9395" name="eprints.issn" />
+<meta content="  Dajka, Máté Ferenc  (2024) A farmmenedzserszoftverek meghatározása és alapvető funkcióinak áttekintése.  STUDIA MUNDI - ECONOMICA, 11 (3). pp. 5-18.  ISSN 2415-9395     " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/292/1/SME_5314_jav.pdf" name="eprints.document_url" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta content="https://press.mater.uni-mate.hu/292/" name="DC.relation" />
+<meta content="A farmmenedzserszoftverek meghatározása és alapvető funkcióinak áttekintése" name="DC.title" />
+<meta content="Dajka, Máté Ferenc" name="DC.creator" />
+<meta content="HB Közgazdaságtudomány" name="DC.subject" />
+<meta content="S Mezőgazdaság általában" name="DC.subject" />
+<meta content="TS Különféle iparágak, ipari termékek" name="DC.subject" />
+<meta content="A digitális agronómiában számos olyan fogalommal lehet találkozni mint a komplex precíziós farmmenedzser­szoftverek, adatalapú gazdálkodás, smart farming. A most következő tanulmányban ezeknek a fogalmaknak a meghatározására vállalkoztam. Különös tekintettel a farmmenedzserszoftverek fogalmára, amelyek olyan multifunkcionális technológiákként határozhatóak meg, amelyek a gazdálkodás során létrejött, valamint a külső forrásokból származó adatok alapján támogatást nyújtanak a gazdaságban zajló, különböző tevékenységek optimalizálására és menedzselésére. Ezek a rendszerek segítenek a gazdálkodóknak a termelési folyamatok jobb megértésében, a hozam maximalizálásában, valamint a költségek csökkentésében, miközben növelik az üzem hatékonyságát és elősegítik a fenntartható mezőgazdasági gyakorlatok alkalmazását. A farmmenedzserszoftverek meghatározása mellett a tanulmány részletesen taglalja ezek funkcióit, illetve azokat a specifikus előnyöket, amelyeket ezek a rendszerek kínálnak a modern agrárgazdaság szereplői számára. Az adatvezérelt döntéshozatal előtérbe helyezésével ezek a szoftverek kulcsfontosságúak lehetnek a mezőgazdasági termelés hatékonyságának javításában." name="DC.description" />
+<meta content="2024" name="DC.date" />
+<meta content="Cikk" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/292/1/SME_5314_jav.pdf" name="DC.identifier" />
+<meta content="  Dajka, Máté Ferenc  (2024) A farmmenedzserszoftverek meghatározása és alapvető funkcióinak áttekintése.  STUDIA MUNDI - ECONOMICA, 11 (3). pp. 5-18.  ISSN 2415-9395     " name="DC.identifier" />
+<meta content="https://doi.org/10.18531/sme.vol.11.no.3.pp.5-18" name="DC.relation" />
+<meta content="MTMT:35639759 DOI:10.18531/sme.vol.11.no.3.pp.5-18" name="DC.relation" />
+<meta content="MTMT:35639759 DOI:10.18531/sme.vol.11.no.3.pp.5-18" name="DC.identifier" />
+<link href="https://press.mater.uni-mate.hu/292/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/Atom/press-eprint-292.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/MODS/press-eprint-292.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/DC/press-eprint-292.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/COinS/press-eprint-292.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/ContextObject/press-eprint-292.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/METS/press-eprint-292.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/RDFN3/press-eprint-292.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/Refer/press-eprint-292.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/BibTeX/press-eprint-292.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/RIS/press-eprint-292.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/XML/press-eprint-292.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/Text/press-eprint-292.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/RDFXML/press-eprint-292.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/Simple/press-eprint-292.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/DIDL/press-eprint-292.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/JSON/press-eprint-292.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/HTML/press-eprint-292.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/RDFNT/press-eprint-292.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/EndNote/press-eprint-292.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/292/CSV/press-eprint-292.csv" rel="alternate" />

@@ -1,0 +1,97 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input role="button" class="ep_form_action_button" type="submit" value="Export" name="_action_export_redir" /><input type="hidden" id="view" value="year" name="view" /><input type="hidden" id="values" name="values" value="2019" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/year/2019/Atom/2019.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/year/2019/RSS/2019.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/year/2019/RSS2/2019.xml"><img src="/style/images/feed-icon-14x14.png" border="0" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_year"><div class="ep_view_group_by">Group by: <a href="2019.html">Item Type</a> | <a href="2019.creators_name.html">Creators</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>3</strong>.</div><p>
+
+
+    <span class="person_name">Koponicsné Györke, Diána</span> and <span class="person_name">Barna, Róbert</span> (eds.).
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/10/"><em>Abstracts of the International Conference on Sustainable Economy and Agriculture. Kaposvár University – Kaposvár – Hungary – 14th November 2019.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     153Number of Pages.
+    
+    ISBN 978-615-5599-72-9
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Barna, Róbert</span> and <span class="person_name">Nagy, Mónika Zita</span> and <span class="person_name">Sántosi, Péter</span> and <span class="person_name">Tóth, Katalin</span> and <span class="person_name">Szabó-Szentgróti, Gábor</span> (eds.).
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/3/"><em>A Kaposvári Egyetem Gazdaságtudományi Kar 2019. őszi Kari Tudományos Diákköri Konferenciájának összefoglalói.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár.
+     50Number of Pages.
+    
+    ISBN 978-615-5599-73-6
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kissné Zsámboki, Réka</span> and <span class="person_name">Koloszár, Ibolya</span> and <span class="person_name">Horváth, Csaba</span> (eds.).
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/134/"><em>Nemzetközi neveléstudományi irányvonalak és &#13;
+dimenziók határok nélkül : XII. Képzés és Gyakorlat Nemzetközi Neveléstudományi Konferencia : Absztraktkötet = International Trends and Dimensions in Educational &#13;
+Sciences without Borders : 12th Training and Practice International Conference on Educational Sciences : Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Soproni Egyetem Kiadó, Sopron.
+     179Number of Pages.
+    
+    ISBN 978-963-334-326-5
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Thu Feb 12 13:53:04 2026 CET</strong>.</div></div>

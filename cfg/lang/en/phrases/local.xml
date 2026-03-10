@@ -22,33 +22,9 @@ To completely replace one phrase with another:
 Phrases in this file will be over-ridden by zz_webcfg.xml which is modified via the web-based phrase editor.
 
 -->
-<epp:phrase id="eprint_fieldname_event_name">
-    <epp:phrase-text xml:lang="en">Event name</epp:phrase-text>
-  </epp:phrase>
-
-  <epp:phrase id="eprint_fieldname_location">
-    <epp:phrase-text xml:lang="en">Location</epp:phrase-text>
-  </epp:phrase>
-
-  <epp:phrase id="eprint_fieldname_photographer">
-    <epp:phrase-text xml:lang="en">Photographer</epp:phrase-text>
-  </epp:phrase>
-
-  <epp:phrase id="eprint_fieldname_collection">
-    <epp:phrase-text xml:lang="en">Collection</epp:phrase-text>
-  </epp:phrase>
-
-  <!-- dropdown -->
-  <epp:phrase id="eprint_fieldopt_collection_Rektori fotógyűjtemény">
-    <epp:phrase-text xml:lang="en">Rector's Photo Collection</epp:phrase-text>
-  </epp:phrase>
-
-  <epp:phrase id="eprint_fieldopt_collection_Hallgatói élet">
-    <epp:phrase-text xml:lang="en">Student Life</epp:phrase-text>
-  </epp:phrase>
-
-  <epp:phrase id="eprint_fieldopt_collection_Épületfotók">
-    <epp:phrase-text xml:lang="en">Building Photos</epp:phrase-text>
-  </epp:phrase>
+    <epp:phrase id="template:about_eprints"><div>MATER Press is powered by 
+ <em><a href="http://eprints.org/software/">EPrints 3.4</a></em> which is developed by the
+ <a href="http://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a>,
+ at the University of Southampton. <a href="{$config{http_url}}/eprints/">About Eprints</a>.</div></epp:phrase>
 
 </epp:phrases>

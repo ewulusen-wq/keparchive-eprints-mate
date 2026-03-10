@@ -1,0 +1,94 @@
+<meta content="206" name="eprints.eprintid" />
+<meta content="9" name="eprints.rev_number" />
+<meta content="archive" name="eprints.eprint_status" />
+<meta content="1" name="eprints.userid" />
+<meta content="disk0/00/00/02/06" name="eprints.dir" />
+<meta content="2024-04-22 17:35:15" name="eprints.datestamp" />
+<meta content="2024-04-23 08:40:22" name="eprints.lastmod" />
+<meta content="2024-04-22 17:35:15" name="eprints.status_changed" />
+<meta content="book_section" name="eprints.type" />
+<meta content="show" name="eprints.metadata_visibility" />
+<meta content="Horváthné Kovács, Bernadett" name="eprints.creators_name" />
+<meta content="Pintér, Zsófia" name="eprints.creators_name" />
+<meta content="Nagy, Mónika Zita" name="eprints.creators_name" />
+<meta content="0000-0002-2038-6428" name="eprints.creators_orcid" />
+<meta content="0000-0001-5250-2115" name="eprints.creators_orcid" />
+<meta content="0000-0003-0847-190X" name="eprints.creators_orcid" />
+<meta content="Hungarian University of Agriculture and Life Sciences" name="eprints.corp_creators" />
+<meta content="Hungarian University of Agriculture and Life Sciences" name="eprints.corp_creators" />
+<meta content="Hungarian University of Agriculture and Life Sciences" name="eprints.corp_creators" />
+<meta content="Hálózatelemzési megoldások az agri-food szektorban" name="eprints.title" />
+<meta content="pub" name="eprints.ispublished" />
+<meta content="S1" name="eprints.subjects" />
+<meta content="MagyTE" name="eprints.divisions" />
+<meta content="2022" name="eprints.date" />
+<meta content="published" name="eprints.date_type" />
+<meta content="MATE Press" name="eprints.publisher" />
+<meta content="https://doi.org/10.54597/mate.0033" name="eprints.official_url" />
+<meta content="https://doi.org/10.54597/mate.0033" name="eprints.id_number" />
+<meta content="public" name="eprints.full_text_status" />
+<meta content="Gödöllő" name="eprints.place_of_pub" />
+<meta content="96-112" name="eprints.pagerange" />
+<meta content="TRUE" name="eprints.refereed" />
+<meta content="978-963-623-026-5" name="eprints.isbn" />
+<meta content="Élelmiszerláncok menedzsmentje" name="eprints.book_title" />
+<meta content="Srečec, Siniša" name="eprints.editors_name" />
+<meta content="Csonka, Arnold" name="eprints.editors_name" />
+<meta content="Koponicsné Györke, Diána" name="eprints.editors_name" />
+<meta content="Nagy, Mónika Zita" name="eprints.editors_name" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/207" name="eprints.related_url_url" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/208" name="eprints.related_url_url" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/177" name="eprints.related_url_url" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/188" name="eprints.related_url_url" />
+<meta content="https://press.mater.uni-mate.hu/id/eprint/189" name="eprints.related_url_url" />
+<meta content="Angol nyelvi változat DOI: https://doi.org/10.54597/mate.0065" name="eprints.related_url_type" />
+<meta content="Horvát nyelvi változat DOI: https://doi.org/10.54597/mate.0081" name="eprints.related_url_type" />
+<meta content="Teljes könyv (magyar) DOI: https://doi.org/10.54597/mate.0042" name="eprints.related_url_type" />
+<meta content="Teljes könyv (angol) DOI: https://doi.org/10.54597/mate.0058" name="eprints.related_url_type" />
+<meta content="Teljes könyv (horvát) DOI: https://doi.org/10.54597/mate.0074" name="eprints.related_url_type" />
+<meta content="  Horváthné Kovács, Bernadett és Pintér, Zsófia és Nagy, Mónika Zita  (2022) Hálózatelemzési megoldások az agri-food szektorban.   In: Srečec, Siniša és Csonka, Arnold és Koponicsné Györke, Diána és Nagy, Mónika Zita  (Szerk.)  Élelmiszerláncok menedzsmentje.    MATE Press, Gödöllő.  pp. 96-112.  ISBN 978-963-623-026-5      " name="eprints.citation" />
+<meta content="https://press.mater.uni-mate.hu/206/1/EduAgri_7.f._hu..pdf" name="eprints.document_url" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta content="https://press.mater.uni-mate.hu/206/" name="DC.relation" />
+<meta content="Hálózatelemzési megoldások az agri-food szektorban" name="DC.title" />
+<meta content="Horváthné Kovács, Bernadett" name="DC.creator" />
+<meta content="Pintér, Zsófia" name="DC.creator" />
+<meta content="Nagy, Mónika Zita" name="DC.creator" />
+<meta content="S Mezőgazdaság általában" name="DC.subject" />
+<meta content="MATE Press" name="DC.publisher" />
+<meta content="Srečec, Siniša" name="DC.contributor" />
+<meta content="Csonka, Arnold" name="DC.contributor" />
+<meta content="Koponicsné Györke, Diána" name="DC.contributor" />
+<meta content="Nagy, Mónika Zita" name="DC.contributor" />
+<meta content="2022" name="DC.date" />
+<meta content="Könyvrészlet" name="DC.type" />
+<meta content="PeerReviewed" name="DC.type" />
+<meta content="text" name="DC.format" />
+<meta content="hu" name="DC.language" />
+<meta content="cc_by_nc_nd_4" name="DC.rights" />
+<meta content="https://press.mater.uni-mate.hu/206/1/EduAgri_7.f._hu..pdf" name="DC.identifier" />
+<meta content="  Horváthné Kovács, Bernadett és Pintér, Zsófia és Nagy, Mónika Zita  (2022) Hálózatelemzési megoldások az agri-food szektorban.   In: Srečec, Siniša és Csonka, Arnold és Koponicsné Györke, Diána és Nagy, Mónika Zita  (Szerk.)  Élelmiszerláncok menedzsmentje.    MATE Press, Gödöllő.  pp. 96-112.  ISBN 978-963-623-026-5      " name="DC.identifier" />
+<meta content="https://doi.org/10.54597/mate.0033" name="DC.relation" />
+<meta content="https://doi.org/10.54597/mate.0033" name="DC.relation" />
+<meta content="https://doi.org/10.54597/mate.0033" name="DC.identifier" />
+<link rel="canonical" href="https://press.mater.uni-mate.hu/206/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/EndNote/press-eprint-206.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/METS/press-eprint-206.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/ContextObject/press-eprint-206.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/RIS/press-eprint-206.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/RDFXML/press-eprint-206.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/JSON/press-eprint-206.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/BibTeX/press-eprint-206.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/XML/press-eprint-206.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/RDFNT/press-eprint-206.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/DC/press-eprint-206.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/RDFN3/press-eprint-206.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/Text/press-eprint-206.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/HTML/press-eprint-206.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/DIDL/press-eprint-206.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/COinS/press-eprint-206.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/MODS/press-eprint-206.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/Refer/press-eprint-206.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/Atom/press-eprint-206.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/CSV/press-eprint-206.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/206/Simple/press-eprint-206.txt" title="Simple Metadata" />

@@ -1,0 +1,35 @@
+<table><tr><td><a href="./"><img src="/style/images/multi_up.png" border="0" /></a></td><td><a href="./">Egy szinttel feljebb</a></td></tr></table><form method="get" accept-charset="utf-8" action="/cgi/exportview">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" role="button" value="Exportálás" class="ep_form_action_button" /><input name="view" id="view" value="divisions" type="hidden" /><input name="values" id="values" value="fac=5Feng/2014" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2014/Atom/fac=5Feng_2014.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2014/RSS/fac=5Feng_2014.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/divisions/fac=5Feng/2014/RSS2/fac=5Feng_2014.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_view_page ep_view_page_view_divisions"><div class="ep_view_group_by">Csoportosítás: <a href="2014.html">Létrehozók</a> | <span class="ep_view_group_by_current">Tétel típusa</span> | <a href="2014.default.html">Nincs</a></div><div class="ep_view_jump ep_view_divisions_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">Tételek száma: <strong>1</strong>.</div><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Tóthi, Róbert</span>
+  
+
+(2014)
+
+<a href="https://press.mater.uni-mate.hu/28/"><em>Animal nutrition.</em></a>
+
+
+    
+    
+    
+    Kaposvári Egyetem; University of Pannonia; Ceral-Research Non-Profit Ltd..
+    
+  
+
+
+   (Nem publikált)
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Thu Sep  8 10:41:33 2022 CEST</strong>.</div></div>

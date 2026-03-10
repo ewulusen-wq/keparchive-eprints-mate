@@ -1,0 +1,88 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input type="submit" value="Export" role="button" name="_action_export_redir" class="ep_form_action_button" /><input id="view" type="hidden" value="creators" name="view" /><input id="values" type="hidden" value="Szente=3AVikt=F3ria=3A=3A" name="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szente=3AVikt=F3ria=3A=3A/Atom/Szente=3AVikt=F3ria=3A=3A.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szente=3AVikt=F3ria=3A=3A/RSS/Szente=3AVikt=F3ria=3A=3A.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szente=3AVikt=F3ria=3A=3A/RSS2/Szente=3AVikt=F3ria=3A=3A.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Szente=3AVikt=F3ria=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a> | <a href="#group_book">Book</a></div></div><div class="ep_view_blurb">Number of items: <strong>3</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Raether, Julius</span> and <span class="person_name">Osiako, Peter</span> and <span class="person_name">Szente, Viktória</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/464/"><em>Sustainability Challenges in Omni-channel Retailing: A Systematic Review.</em></a>
+
+
+    REGIONAL AND BUSINESS STUDIES, 17 (1).
+    pp. 89-108.
+     ISSN 2061-2311
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Book</h2><p>
+
+
+    <span class="person_name">Szente, Viktória</span> and <span class="person_name">Pintér, Attila</span> and <span class="person_name">Szigeti, Orsolya</span> and <span class="person_name">Nagy, Mónika Zita</span> and <span class="person_name">Pintér, Zsófia</span> and <span class="person_name">Szabó-Szentgróti, Eszter</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/120/"><em>„Free from” termékek piaci lehetőségei : Műhelytanulmány.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     42Number of Pages.
+    
+    ISBN 978-963-623-037-1
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szente, Viktória</span> and <span class="person_name">Pintér, Attila</span> and <span class="person_name">Szigeti, Orsolya</span> and <span class="person_name">Nagy, Mónika Zita</span> and <span class="person_name">Pintér, Zsófia</span> and <span class="person_name">Szabó-Szentgróti, Eszter</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/121/"><em>Tržišne mogućnosti za proizvode "Free from" : Radionička studija.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     40Number of Pages.
+    
+    ISBN 978-963-623-038-8
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Mar  2 20:02:03 2026 CET</strong>.</div></div>

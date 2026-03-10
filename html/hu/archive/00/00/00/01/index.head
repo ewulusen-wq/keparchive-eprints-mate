@@ -1,0 +1,76 @@
+<meta name="eprints.eprintid" content="1" />
+<meta name="eprints.rev_number" content="27" />
+<meta name="eprints.eprint_status" content="archive" />
+<meta name="eprints.userid" content="1" />
+<meta name="eprints.dir" content="disk0/00/00/00/01" />
+<meta name="eprints.datestamp" content="2020-08-31 13:38:47" />
+<meta name="eprints.lastmod" content="2023-04-26 11:37:23" />
+<meta name="eprints.status_changed" content="2021-10-12 07:34:24" />
+<meta name="eprints.type" content="book" />
+<meta name="eprints.metadata_visibility" content="show" />
+<meta name="eprints.creators_name" content="Barna, Róbert" />
+<meta name="eprints.creators_id" content="barna.robert@ke.hu" />
+<meta name="eprints.corp_creators" content="Kaposvári Egyetem Gazdaságtudományi Kar Módszertani Intézet" />
+<meta name="eprints.title" content="Térinformatika: Általános elméleti alapismeretek" />
+<meta name="eprints.ispublished" content="pub" />
+<meta name="eprints.subjects" content="GA" />
+<meta name="eprints.divisions" content="fac_law" />
+<meta name="eprints.abstract" content="Szinte észrevétlenül épült be a hétköznapokba – köztudatba – a térinformatika. A térképes időjárásjelentés óta egyre bővült az alkalmazási kör, miközben a felhasználók általában nincsenek tudatában annak, hogy a térinformatika eszközrendszerét használják. Gondoljunk csak az 
+autók műholdas navigációs eszközeire vagy akár a nemrégen oly népszerűvé vált Pokémon Go játékra. A térinformatika képes összekapcsolni adatainkat a hellyel, amelyre vonatkoznak, az adatbázisból így „téradatbázishoz” jutunk. Ez lehetővé teszi az adatok térképi megjelenítését, ami 
+már maga is segítheti egy probléma megértését. Ezenkívül elérhetővé válik a folyamatosan bővülő térinformatikai elemzési, modellezési módszerek használata is, amellyel olyan következtetésekre juthatunk, amit a hagyományos statisztikai eljárások nem tesznek lehetővé. A térin-
+formatika a hagyományos térképi ábrázoláson túl rengeteg módot kínál az elemzések eredményeinek szemléletes megjelenítésére. A térinformatikai eszköztár nagy lépésekben fejlődik, ezért a jövő szakembereinek ismerniük kell, hogy a gyakorlatban eredményesen használhassák azt. Ez a könyv olyan általános ismeretanyagot tartalmaz, amely szükséges a térinformatika eszköztárának gyakorlati felhasználásához. Összegyűjti és rendszerezi a térinformatika építőköveit. Alapszinten ismerteti a szükséges, kapcsolódó, speciális szakismereteket (térképészeti, földmérési stb.) is, ezáltal eredményesen használhatják a földrajztudományban járatlan olvasók is." />
+<meta name="eprints.date" content="2020-07-31" />
+<meta name="eprints.date_type" content="published" />
+<meta name="eprints.publisher" content="Kaposvári Egyetem Gazdaságtudományi Kar" />
+<meta name="eprints.full_text_status" content="public" />
+<meta name="eprints.place_of_pub" content="Kaposvár" />
+<meta name="eprints.pages" content="174" />
+<meta name="eprints.refereed" content="TRUE" />
+<meta name="eprints.isbn" content="978-615-5599-82-8" />
+<meta name="eprints.separat_type" content="scientific" />
+<meta name="eprints.citation" content="  Barna, Róbert  (2020) Térinformatika: Általános elméleti alapismeretek.     Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár. 174 p.   ISBN 978-615-5599-82-8      " />
+<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/1/3/0.jpg" />
+<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/1/2/Barna_Robert_Terinformatika_2020.pdf" />
+<link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
+<meta name="DC.relation" content="https://press.mater.uni-mate.hu/1/" />
+<meta name="DC.title" content="Térinformatika: Általános elméleti alapismeretek" />
+<meta name="DC.creator" content="Barna, Róbert" />
+<meta name="DC.subject" content="GA Földméréstan, geodézia, térképészet" />
+<meta name="DC.description" content="Szinte észrevétlenül épült be a hétköznapokba – köztudatba – a térinformatika. A térképes időjárásjelentés óta egyre bővült az alkalmazási kör, miközben a felhasználók általában nincsenek tudatában annak, hogy a térinformatika eszközrendszerét használják. Gondoljunk csak az 
+autók műholdas navigációs eszközeire vagy akár a nemrégen oly népszerűvé vált Pokémon Go játékra. A térinformatika képes összekapcsolni adatainkat a hellyel, amelyre vonatkoznak, az adatbázisból így „téradatbázishoz” jutunk. Ez lehetővé teszi az adatok térképi megjelenítését, ami 
+már maga is segítheti egy probléma megértését. Ezenkívül elérhetővé válik a folyamatosan bővülő térinformatikai elemzési, modellezési módszerek használata is, amellyel olyan következtetésekre juthatunk, amit a hagyományos statisztikai eljárások nem tesznek lehetővé. A térin-
+formatika a hagyományos térképi ábrázoláson túl rengeteg módot kínál az elemzések eredményeinek szemléletes megjelenítésére. A térinformatikai eszköztár nagy lépésekben fejlődik, ezért a jövő szakembereinek ismerniük kell, hogy a gyakorlatban eredményesen használhassák azt. Ez a könyv olyan általános ismeretanyagot tartalmaz, amely szükséges a térinformatika eszköztárának gyakorlati felhasználásához. Összegyűjti és rendszerezi a térinformatika építőköveit. Alapszinten ismerteti a szükséges, kapcsolódó, speciális szakismereteket (térképészeti, földmérési stb.) is, ezáltal eredményesen használhatják a földrajztudományban járatlan olvasók is." />
+<meta name="DC.publisher" content="Kaposvári Egyetem Gazdaságtudományi Kar" />
+<meta name="DC.date" content="2020-07-31" />
+<meta name="DC.type" content="Könyv" />
+<meta name="DC.type" content="PeerReviewed" />
+<meta name="DC.format" content="image" />
+<meta name="DC.language" content="hu" />
+<meta name="DC.rights" content="cc_by_nc_nd_4" />
+<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/1/3/0.jpg" />
+<meta name="DC.format" content="text" />
+<meta name="DC.language" content="hu" />
+<meta name="DC.rights" content="cc_by_nc_nd_4" />
+<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/1/2/Barna_Robert_Terinformatika_2020.pdf" />
+<meta name="DC.identifier" content="  Barna, Róbert  (2020) Térinformatika: Általános elméleti alapismeretek.     Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár. 174 p.   ISBN 978-615-5599-82-8      " />
+<link href="https://press.mater.uni-mate.hu/1/" rel="canonical" />
+<link title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/HTML/press-eprint-1.html" type="text/html; charset=utf-8" rel="alternate" />
+<link title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/Atom/press-eprint-1.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
+<link title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/MODS/press-eprint-1.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/RDFN3/press-eprint-1.n3" type="text/n3" rel="alternate" />
+<link title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/Text/press-eprint-1.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/RIS/press-eprint-1.ris" type="text/plain" rel="alternate" />
+<link title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/BibTeX/press-eprint-1.bib" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/ContextObject/press-eprint-1.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/Refer/press-eprint-1.refer" type="text/plain" rel="alternate" />
+<link title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/METS/press-eprint-1.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/DC/press-eprint-1.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/RDFNT/press-eprint-1.nt" type="text/plain" rel="alternate" />
+<link title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/EndNote/press-eprint-1.enw" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/XML/press-eprint-1.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/COinS/press-eprint-1.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/CSV/press-eprint-1.csv" type="text/csv; charset=utf-8" rel="alternate" />
+<link title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/DIDL/press-eprint-1.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/RDFXML/press-eprint-1.rdf" type="application/rdf+xml" rel="alternate" />
+<link title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/Simple/press-eprint-1.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/1/JSON/press-eprint-1.js" type="application/json; charset=utf-8" rel="alternate" />

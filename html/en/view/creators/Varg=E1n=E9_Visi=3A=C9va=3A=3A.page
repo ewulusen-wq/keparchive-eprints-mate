@@ -1,0 +1,84 @@
+<div class="no_link_decor"><a alt="[up]" href="./"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input class="ep_form_action_button" value="Export" role="button" name="_action_export_redir" type="submit" /><input value="creators" id="view" name="view" type="hidden" /><input value="Varg=E1n=E9_Visi=3A=C9va=3A=3A" id="values" name="values" type="hidden" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Varg=E1n=E9_Visi=3A=C9va=3A=3A/Atom/Varg=E1n=E9_Visi=3A=C9va=3A=3A.xml"><img alt="[Atom feed]" border="0" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Varg=E1n=E9_Visi=3A=C9va=3A=3A/RSS/Varg=E1n=E9_Visi=3A=C9va=3A=3A.rss"><img alt="[RSS feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Varg=E1n=E9_Visi=3A=C9va=3A=3A/RSS2/Varg=E1n=E9_Visi=3A=C9va=3A=3A.xml"><img alt="[RSS2 feed]" border="0" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="Varg=E1n=E9_Visi=3A=C9va=3A=3A.default.html">No Grouping</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_book=5Fsection">Book Section</a></div></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><a name="group_book=5Fsection"></a><h2>Book Section</h2><p>
+
+
+    <span class="person_name">Olasz, Ferenc</span> and <span class="person_name">Libisch, Balázs</span> and <span class="person_name">Keresztény, Tibor</span> and <span class="person_name">Varga-Szatmári, Viktória</span> and <span class="person_name">Vargáné Visi, Éva</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/626/"><em>Probiotikus baktériumok jellemzése és felhasználása a mikotoxinok elleni védekezésben.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (ed.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 223-244.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Varga-Szatmári, Viktória</span> and <span class="person_name">Vargáné Visi, Éva</span> and <span class="person_name">Bóta, Brigitta</span> and <span class="person_name">Péterfi-Szabó, Dóra</span> and <span class="person_name">Gömbös, Patrik</span> and <span class="person_name">Kovács, Melinda</span> and <span class="person_name">Halas, Veronika</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/397/"><em>Az emésztésszimulációs vizsgálatok jelentősége a fumonizin mikotoxin biológiai hozzáférhetőségének meghatározásában.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Halas, Veronika</span> and <span class="person_name">Tóthi, Róbert</span> 
+        
+          (eds.)
+          
+      
+      Application of One Health Concept in Farm Animal Nutrition : 21th International Symposium on Animal Nutrition and One Health Day, 6 November, 2024 Kaposvár, Hungary : Proceedings = Egy Egészség (One Health) koncepció a haszonállatok takarmányozásában : 21. Nemzetközi Takarmányozási Szimpózium És Egy Egészség Nap, 2024. november 6. Kaposvár : Tanulmányok.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 61-66.
+   
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Tue Mar  3 15:30:47 2026 CET</strong>.</div></div>

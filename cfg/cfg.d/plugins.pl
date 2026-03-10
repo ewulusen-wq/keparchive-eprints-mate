@@ -62,7 +62,7 @@ $c->{plugins}->{"Import::DOI"}->{params}->{pid} = "ourl_eprintsorg:eprintsorg";
 $c->{plugins}->{"Import::DOI"}->{params}->{doi_field} = "id_number";
 $c->{plugins}->{"Import::DOI"}->{params}->{use_prefix} = 1;
 $c->{enable_web_imports}=1;
-#$c->{enable_import_fields}=1;
+$c->{enable_import_fields}=1;
 
 
 =head1 COPYRIGHT

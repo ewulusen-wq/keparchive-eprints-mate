@@ -1,0 +1,115 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img alt="[up]" src="/style/images/multi_up.png"> Up a level</img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Export" role="button" /><input type="hidden" name="view" value="subjects" id="view" /><input type="hidden" name="values" value="TD" id="values" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/TD/Atom/TD.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/TD/RSS/TD.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/TD/RSS2/TD.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (4)<ul><li><a href="T.html">T Technology</a> (4)<ul><li><strong>TD Environmental technology. Sanitary engineering</strong> (4)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Group by: <span class="ep_view_group_by_current">Item Type</span> | <a href="TD.creators_name.html">Creators</a></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Jump to: <a href="#group_article">Article</a> | <a href="#group_book">Book</a></div></div><div class="ep_view_blurb">Number of items at this level: <strong>4</strong>.</div><a name="group_article"></a><h2>Article</h2><p>
+
+
+    <span class="person_name">Grósz, János</span> and <span class="person_name">Sebők, András</span> and <span class="person_name">Noémi, Nagy</span> and <span class="person_name">Andrea, Kovács</span> and <span class="person_name">Waltner, István</span>
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/687/"><em>Analysis results of in situ water and sediment quality of Újpest backwater.</em></a>
+
+
+    TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 17 (2).
+    pp. 179-192.
+     ISSN 1589-4673
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Book</h2><p>
+
+
+    <span class="person_name">Farkas, István</span> and <span class="person_name">Víg, Piroska</span> (eds.).
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/172/"><em>29th Workshop on Energy and Environment, December 7–8, 2023, Gödöllő, Hungary : Book of Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     76Number of Pages.
+    
+    ISBN 978-963-623-079-1
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Farkas, István</span> and <span class="person_name">Víg, Piroska</span> (eds.).
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/290/"><em>30th Workshop on Energy and Environment, December 12-13, 2024, Gödöllő, Hungary : Book of Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     80Number of Pages.
+    
+    ISBN 9789636231088
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Filepné Kovács, Krisztina</span> and <span class="person_name">Bányai, Zsombor</span> and <span class="person_name">Dancsokné Fóris, Edina</span> and <span class="person_name">Weiperth, András</span> and <span class="person_name">Urbányi, Béla</span> and <span class="person_name">Valánszki, István</span> and <span class="person_name">Kollányi, László</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/100/"><em>Helyi Ágazatközi Operatív Terv : Tájvédelem és tájfejlesztés a tervezett M2-es gyorsforgalmi út területén Magyarországon.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     74Number of Pages.
+    
+    ISBN 978-963-623-035-7
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Sun Mar  8 02:54:46 2026 CET</strong>.</div></div>

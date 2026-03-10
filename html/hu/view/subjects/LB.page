@@ -1,0 +1,1301 @@
+<div class="no_link_decor"><a href="./" alt="['Update/Views:up_a_level_alt' not defined]"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" accept-charset="utf-8" method="get">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" value="Exportálás" role="button" /><input type="hidden" name="view" value="subjects" id="view" /><input type="hidden" name="values" value="LB" id="values" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LB/Atom/LB.xml"><img border="0" alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LB/RSS/LB.rss"><img border="0" alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/LB/RSS2/LB.xml"><img border="0" alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (93)<ul><li><a href="L.html">L Oktatás</a> (93)<ul><li><strong>LB Oktatás elmélete és gyakorlata</strong> (93)<ul><li><a href="LB1501.html">LB1501 Alapfokú oktatás</a> (32)</li></ul><ul><li><a href="LB1603.html">LB1603 Középfokú oktatás</a> (6)</li></ul><ul><li><a href="LB2300.html">Lb2300 Felsőoktatás</a> (48)</li></ul><ul><li><a href="LB2361.html">LB2361 Tanterv, tantervelmélet</a> (1)</li></ul></li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <span class="ep_view_group_by_current">Tétel típusa</span>['Update/Views:group_separator' not defined]<a href="LB.creators_name.html">Létrehozók</a></div><div class="ep_view_jump ep_view_subjects_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_article">Cikk</a>['Update/Views:jump_separator' not defined]<a href="#group_book=5Fsection">Könyvrészlet</a>['Update/Views:jump_separator' not defined]<a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>41</strong>.</div><a name="group_article"></a><h2>Cikk</h2><p>
+
+
+    <span class="person_name">Balogh, Renáta Tünde</span> és <span class="person_name">Józsa, Krisztián</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/269/"><em>Az olvasás fejlesztése a drámapedagógia módszereivel.</em></a>
+
+
+    ANYANYELVI KULTÚRAKÖZVETÍTÉS, 6 (2).
+    pp. 4-16.
+     ISSN 2063-2991
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Földi, Fanni</span> és <span class="person_name">Szabó, Norbert</span> és <span class="person_name">Józsa, Krisztián</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/285/"><em>Hangszertanulási motivációt támogató stratégiák tanárok és tanárjelöltek szemszögéből.</em></a>
+
+
+    KÉPZÉS ÉS GYAKORLAT: TRAINING AND PRACTICE, 21 (2).
+    pp. 5-18.
+     ISSN 1589-519X
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Parádi-Dolgos, Anett</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/563/"><em>Recenzió : Holczinger Norbert – Sárvári Balázs Fenntartható közgazdaságtan, Oktatói kézikönyv Budapesti Metropolitan Egyetem – Magyar Nemzeti Bank, 2025 című könyvéhez.</em></a>
+
+
+    STUDIA MUNDI - ECONOMICA, 12 (3).
+    pp. 70-74.
+     ISSN 2415-9395
+  
+
+
+  
+
+
+</p><a name="group_book=5Fsection"></a><h2>Könyvrészlet</h2><p>
+
+
+    <span class="person_name">Belovári, Anita</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/242/"><em>A storyline (kerettörténet) módszer az oktatási gyakorlatban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 109-119.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Belovári, Anita</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/141/"><em>A vita mint pedagógiai módszer.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 139-150.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bencéné Fekete, Anikó Andrea</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/235/"><em>Kutatásalapú tanulás.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 9-22.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Borbélyová, Diana</span> és <span class="person_name">Józsa, Krisztián</span> és <span class="person_name">Nagyová, Alexandra</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/250/"><em>Adaptation and Standardization of the Difer Tests in Slovakia.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Józsa, Krisztián</span> és <span class="person_name">Borbélyová, Diana</span> 
+        
+          (Szerk.)
+          
+      
+      Diagnostic Assessment of School Readiness.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 13-30.
+    ISBN 978-963-623-085-2 [PDF] 978-963-623-086-9 [Print]
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Csajka, Edina</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/143/"><em>Tréningmódszer.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 169-191.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Csajka, Edina</span> és <span class="person_name">Bencéné Fekete, Anikó Andrea</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/238/"><em>Élményalapú oktatási módszerek.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 55-71.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Csimáné Pozsegovics, Beáta</span> és <span class="person_name">Schlichter-Takács, Anett</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/142/"><em>A projektmódszer.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 151-168.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Csizmadia, Gábor</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/244/"><em>Olvasás és szövegfeldolgozás a felsőoktatási képzésekben.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 139-156.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Farkas, Beáta</span> és <span class="person_name">Gombos, Péter</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/144/"><em>A drámapedagógia haszna, használhatósága az egyetemi oktatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 193-204.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Farkas, Beáta</span> és <span class="person_name">Nagyházi, Bernadette</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/140/"><em>Kooperatív tanulásszervezés.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 123-138.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Farkas, Beáta</span> és <span class="person_name">Nagyházi, Bernadette</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/243/"><em>Olvasási stratégiák a szövegértés szolgálatában.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 121-137.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Gelencsérné Bakó, Márta</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/241/"><em>Integrációs lehetőségek a felsőoktatásban – a kéttanáros modell.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 101-108.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Gróf, Anita</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/247/"><em>IKT-eszközökkel támogatott értékelés.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 197-213.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Gróf, Anita</span> és <span class="person_name">Rumbus, Anikó</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/147/"><em>Digitális platformok alkalmazása a felsőoktatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 255-276.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kontra, József</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/246/"><em>Fejlesztő értékelés.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 173-196.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kontra, József</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/146/"><em>Interaktív módszerek online környezetben.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 233-254.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kontra, József</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/145/"><em>A hallgatók értékelésének alapelvei, tudásszintmérő tesztek, vizsgák.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 205-231.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Schlichter-Takács, Anett</span> és <span class="person_name">Csimáné Pozsegovics, Beáta</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/237/"><em>Peer learning a felsőoktatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 43-54.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szántóné Tóth, Hajnalka</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/122/"><em>A hallgatói tanulás megértése; a tanulás támogatása.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     278 p.
+    pp. 21-28.
+    ISBN 978-963-623-017-3
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Szántóné Tóth, Hajnalka</span> és <span class="person_name">Üst, Norbert</span>
+  
+
+
+  
+<a href="https://press.mater.uni-mate.hu/245/"><em>A gamifikáció alkalmazása felsőoktatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 157-172.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Tóth-Szerecz, Ágnes</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/240/"><em>Tükrözött osztályterem.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Schlichter-Takács, Anett</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertani eszköztár a felsőoktatásban tanító oktatók számára 2.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 91-100.
+    ISBN 978-963-623-091-3 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Velner, András</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/104/"><em>Tradíció és innováció a technika és tervezés tantárgy új tartalomszabályzóiban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">G. Szabó, Sára</span> és <span class="person_name">Gombos, Péter</span> 
+        
+          (Szerk.)
+          
+      
+      Módszertan és megújulás : Válogatás a MATE Neveléstudományi Intézete  szakmódszertani tanulmányaiból.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     120 p.
+    pp. 77-85.
+    ISBN 978-963-623-022-7
+  
+  
+
+
+  
+
+
+</p><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Belovári, Anita</span> és <span class="person_name">Bencéné Fekete, Andrea</span> és <span class="person_name">Nagyházi, Bernadette</span> (Szerk.).
+  
+
+(2018)
+  
+<a href="https://press.mater.uni-mate.hu/135/"><em>11. Képzés és Gyakorlat Nemzetközi Neveléstudományi Konferencia : A tekintély mámora és a szabadság varázslata. Válaszutak a pedagógiai elméletképzésben és a gyakorlatban : Absztraktkötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Pedagógiai Kar, Kaposvár.
+     61 p.
+    
+    ISBN 978-615-5599-47-7
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Józsa, Krisztián</span> (Szerk.).
+  
+
+(2020)
+  
+<a href="https://press.mater.uni-mate.hu/133/"><em>13. Képzés és Gyakorlat Nemzetközi Neveléstudományi Konferencia, Kaposvár, 2020. október 1–3. : Neveléstudomány – Válaszlehetőségek az új évezred kihívásaira : Program és absztraktok = 13th Training and Practice International Conference on Educational Science, Kaposvár, Hungary, October 1–3, 2020 : Educational Science – Possible Answers for the Challenges of the New Millennium : Program and Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Szent István Egyetem, Gödöllő.
+     230 p.
+    
+    ISBN 978-963-269-924-0
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Podráczky, Judit</span> (Szerk.).
+  
+
+(2021)
+  
+<a href="https://press.mater.uni-mate.hu/46/"><em>14. Képzés és Gyakorlat Nemzetközi Neveléstudományi Konferencia, 2021. szeptember 2–4. : Program és absztraktok = 14th Training and Practice International Conference on Educational Science, September 2–4, 2021 : Program and Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Neveléstudományi Intézet, Kaposvár.
+     169 p.
+    
+    ISBN 978-963-269-962-2
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Petőné Csima, Melinda</span> és <span class="person_name">Zentai, Gabriella</span> (Szerk.).
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/132/"><em>16. Képzés és Gyakorlat Nemzetközi Neveléstudományi Konferencia, 2023. május 18–19. : Program és absztraktok = 16th Training and Practice International Conference on Educational Science, May 18–19, 2023 : Program and Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem Neveléstudományi Intézet, Kaposvár.
+     168 p.
+    
+    ISBN 978-615-6639-00-4
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Józsa, Krisztián</span> és <span class="person_name">Borbélyová, Diana</span> (Szerk.).
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/251/"><em>Diagnostic Assessment of School Readiness.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     140 p.
+    
+    ISBN 978-963-623-085-2 [PDF]  978-963-623-086-9 [Print]
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kissné Zsámboki, Réka</span> és <span class="person_name">Horváth, Csaba</span> (Szerk.).
+  
+
+(2017)
+  
+<a href="https://press.mater.uni-mate.hu/136/"><em>Diverzitás a hazai és nemzetközi neveléstudományi &#13;
+kutatásokban és a pedagógiai gyakorlatban : X. Képzés és Gyakorlat Nemzetközi Neveléstudományi Konferencia : Absztraktkötet = Diversity in National and International Researches in Educational Sciences and Pedagogical Practice : 10th Training and Practice International Conference on Educational Sciences : Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Soproni Egyetem Kiadó, Sopron.
+     171 p.
+    
+    ISBN 978-963-359-072-0
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Belovári, Anita</span> (Szerk.).
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/75/"><em>I. Nemzetközi Kisgyermeknevelési Konferencia : Tanulmánykötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+     274 p.
+    
+    ISBN 978-963-9821-95-8 [CD]
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Bencéné Fekete, Andrea</span> (Szerk.).
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/76/"><em>II. Kárpát-medencei Nemzetközi Módszertani Konferencia és Módszervásár 2014. október 10. : Konferenciakötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Pedagógiai Kar, Kaposvár.
+     280 p.
+    
+    ISBN 978-963-9821-83-5 [CD]
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Nagyházi, Bernadette</span> (Szerk.).
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/137/"><em>IX. Képzés és Gyakorlat Nemzetközi Neveléstudományi &#13;
+Konferencia : Nevelés és tudomány, neveléstudomány a 21. században : Absztraktkötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Pedagógiai Kar, Kaposvár.
+     115 p.
+    
+    ISBN 978-963-9821-82-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Nagyházi, Bernadette</span> (Szerk.).
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/73/"><em>IX. Képzés és Gyakorlat Nemzetközi Neveléstudományi Konferencia : Nevelés és tudomány, Neveléstudomány a 21. században : Tanulmánykötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Pedagógiai Kar, Nyugat-magyarországi Egyetem Benedek Elek Pedagógiai Kar, Kaposvár.
+     456 p.
+    
+    ISBN 978-963-9821-98-9 [CD]
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Nagyházi, Bernadette</span> és <span class="person_name">Vörös, Klára</span> (Szerk.).
+  
+
+(2014)
+  
+<a href="https://press.mater.uni-mate.hu/74/"><em>Innováció a neveléstudomány elméleti és gyakorlati műhelyeiben : Tanulmánykötet.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem, Kaposvár.
+     386 p.
+    
+    ISBN 978-963-9821-77-4 [CD]
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kissné Zsámboki, Réka</span> és <span class="person_name">Koloszár, Ibolya</span> és <span class="person_name">Horváth, Csaba</span> (Szerk.).
+  
+
+(2019)
+  
+<a href="https://press.mater.uni-mate.hu/134/"><em>Nemzetközi neveléstudományi irányvonalak és &#13;
+dimenziók határok nélkül : XII. Képzés és Gyakorlat Nemzetközi Neveléstudományi Konferencia : Absztraktkötet = International Trends and Dimensions in Educational &#13;
+Sciences without Borders : 12th Training and Practice International Conference on Educational Sciences : Abstracts.</em></a>
+
+
+    
+     
+    
+    
+    
+    Soproni Egyetem Kiadó, Sopron.
+     179 p.
+    
+    ISBN 978-963-334-326-5
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Petőné Csima, Melinda</span> (Szerk.).
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/173/"><em>Tehetség – nevelés – tudomány : Válogatás a MATE Csokonai Vitéz Mihály Szakkollégiumának 2023. évi tanulmányaiból.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     144 p.
+    
+    ISBN 978- 963-623-078-4
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Petőné Csima, Melinda</span> (Szerk.).
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/284/"><em>Tehetség – nevelés – tudomány : Válogatás a MATE Csokonai Vitéz Mihály Szakkollégiumának 2024. évi tanulmányaiból.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE, Gödöllő.
+     178 p.
+    
+    ISBN 9789636231040
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Borbélyová, Diana</span>
+  
+
+(2023)
+  
+<a href="https://press.mater.uni-mate.hu/174/"><em>Prechod dieťaťa z materskej školy do základnej školy.</em></a>
+
+
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     143 p.
+    
+    ISBN 978-963-623-081-4 (print)  978-963-623-082-1 (PDF)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Reith, Anita</span> és <span class="person_name">Szilágy-Nagy, Anna</span> és <span class="person_name">de Vries, Jeroen</span> és <span class="person_name">Jákli, Eszter</span> és <span class="person_name">Fekete, Albert</span> és <span class="person_name">Lipparini, Francesco</span> és <span class="person_name">Conti, Andrea</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/41/"><em>Partnering for Landscape Democracy An Intensive Study Program in Miskolc to renew the school environment of the Dr. Ámbédkar School, 2021.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     76 p.
+    
+    ISBN 978-963-269-985-1
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Sun Mar  8 23:57:29 2026 CET</strong>.</div></div>

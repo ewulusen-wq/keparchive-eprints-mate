@@ -1,0 +1,86 @@
+<div class="no_link_decor"><a href="./" alt="[up]"><img src="/style/images/multi_up.png" alt="[up]"> Up a level</img></a></div><form accept-charset="utf-8" method="get" action="/cgi/exportview">
+<div>
+  <div class="ep_export_bar">
+    <div><label for="export-format">Export as</label> <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" type="submit" value="Export" class="ep_form_action_button" role="button" /><input id="view" name="view" type="hidden" value="creators" /><input id="values" name="values" type="hidden" value="Harmat=3A=C1d=E1m=3A=3A" /></div>
+    <div> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Harmat=3A=C1d=E1m=3A=3A/Atom/Harmat=3A=C1d=E1m=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Harmat=3A=C1d=E1m=3A=3A/RSS/Harmat=3A=C1d=E1m=3A=3A.rss"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Harmat=3A=C1d=E1m=3A=3A/RSS2/Harmat=3A=C1d=E1m=3A=3A.xml"><img border="0" src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" /> RSS 2.0</a></span></div>
+  </div>
+  <div>
+    <span>
+      
+    </span>
+  </div>
+</div>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Group by: <a href="Harmat=3A=C1d=E1m=3A=3A.html">Item Type</a> | <span class="ep_view_group_by_current">No Grouping</span></div><div class="ep_view_blurb">Number of items: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Csontos, Csaba Péter</span> and <span class="person_name">Harmat, Ádám</span> and <span class="person_name">Nagy, Bence</span> and <span class="person_name">Campos, José</span> and <span class="person_name">Munkácsy, Béla</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/357/"><em>Közösségi hőenergia-tervezés Bükkszentkereszten – egy kooperatív akciókutatás tapasztalatai.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Centeri, Csaba</span> and <span class="person_name">Grónás, Viktor</span> 
+        
+          (eds.)
+          
+      
+      Az Európai Zöld Megállapodás stratégiai  céljainak megvalósítását szolgáló tájléptékű megoldások.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 39-44.
+    ISBN 978-963-623-117-0 (pdf)
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Munkácsy, Béla</span> and <span class="person_name">Harmat, Ádám</span> and <span class="person_name">Ramocsai, Vera</span> and <span class="person_name">Csontos, Csaba Péter</span>
+  
+
+(2025)
+  
+<a href="https://press.mater.uni-mate.hu/370/"><em>A szélenergia társadalmi megítélése Kisigmánd és Nagyigmánd térségében.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Centeri, Csaba</span> and <span class="person_name">Grónás, Viktor</span> 
+        
+          (eds.)
+          
+      
+      Az Európai Zöld Megállapodás stratégiai  céljainak megvalósítását szolgáló tájléptékű megoldások.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 123-128.
+    ISBN 978-963-623-117-0 (pdf)
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">This list was generated on <strong>Mon Feb 23 00:45:44 2026 CET</strong>.</div></div>

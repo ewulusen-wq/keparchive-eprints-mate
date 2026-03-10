@@ -1,0 +1,40 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Exportálás" name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" /><input value="creators" id="view" name="view" type="hidden" /><input value="Szili=3AKatalin=3A=3A" id="values" name="values" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szili=3AKatalin=3A=3A/Atom/Szili=3AKatalin=3A=3A.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szili=3AKatalin=3A=3A/RSS/Szili=3AKatalin=3A=3A.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/Szili=3AKatalin=3A=3A/RSS2/Szili=3AKatalin=3A=3A.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Csoportosítás: <span class="ep_view_group_by_current">Tétel típusa</span>['Update/Views:group_separator' not defined]<a href="Szili=3AKatalin=3A=3A.default.html">Nincs</a></div><div class="ep_view_jump ep_view_creators_type_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_book">Könyv</a></div></div><div class="ep_view_blurb">Tételek száma: <strong>1</strong>.</div><a name="group_book"></a><h2>Könyv</h2><p>
+
+
+    <span class="person_name">Antalics, Fanni</span> és <span class="person_name">Bosnyák-Varga, Tímea</span> és <span class="person_name">Gelencsérné Bakó, Márta</span> és <span class="person_name">Gugora, Réka</span> és <span class="person_name">Győr-Varga, Nóra</span> és <span class="person_name">Hodosi, Zsófia</span> és <span class="person_name">Horváth, Lilla</span> és <span class="person_name">Kátainé Lusztig, Ilona</span> és <span class="person_name">Kovács, Atila</span> és <span class="person_name">Kovácsné Nagy, Ibolya</span> és <span class="person_name">Kozics, Nikolett</span> és <span class="person_name">Laczkó, Mária</span> és <span class="person_name">Divina, Roa</span> és <span class="person_name">Somogyi, Bianka</span> és <span class="person_name">Szalai, Katalin</span> és <span class="person_name">Szili, Katalin</span> és <span class="person_name">Szűcs, Rebeka</span> és <span class="person_name">Takács, István</span>
+  
+
+(2015)
+  
+<a href="https://press.mater.uni-mate.hu/327/"><em>Gyógypedagógiai Glosszárium.</em></a>
+
+
+    
+     
+    
+    
+    
+    Kaposvári Egyetem Pedagógiai Kar, Kaposvár.
+     134 p.
+    
+    ISBN 978-615-5599-11-8
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Tue Mar 10 07:33:22 2026 CET</strong>.</div></div>

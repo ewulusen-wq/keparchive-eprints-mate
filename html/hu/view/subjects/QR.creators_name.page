@@ -1,0 +1,278 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img alt="['Update/Views:up_a_level_alt' not defined]" src="['Update/Views:up_a_level_src' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form action="/cgi/exportview" method="get" accept-charset="utf-8">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select id="export-format" name="format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input value="Exportálás" name="_action_export_redir" type="submit" role="button" class="ep_form_action_button" /><input value="subjects" id="view" name="view" type="hidden" /><input value="QR" id="values" name="values" type="hidden" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QR/Atom/QR.xml"><img alt="[Atom feed]" src="/style/images/feed-icon-14x14.png" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QR/RSS/QR.rss"><img alt="[RSS feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/subjects/QR/RSS2/QR.xml"><img alt="[RSS2 feed]" src="/style/images/feed-icon-14x14.png" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_toolbox"><div class="ep_toolbox_content"><ul><li><a href="subjects.html">Library of Congress Subject Areas</a> (10)<ul><li><a href="Q.html">Q Természettudomány</a> (10)<ul><li><strong>QR Mikrobiológia</strong> (10)</li></ul></li></ul></li></ul></div></div><div class="ep_view_page ep_view_page_view_subjects"><div class="ep_view_group_by">Csoportosítás: <a href="QR.html">Tétel típusa</a>['Update/Views:group_separator' not defined]<span class="ep_view_group_by_current">Létrehozók</span></div><div class="ep_view_jump ep_view_subjects_creators_name_jump"><div class="ep_view_jump_to">Ugrás ide: <a href="#group_D">D</a>['Update/Views:jump_separator' not defined]<a href="#group_H">H</a>['Update/Views:jump_separator' not defined]<a href="#group_K">K</a>['Update/Views:jump_separator' not defined]<a href="#group_M">M</a>['Update/Views:jump_separator' not defined]<a href="#group_N">N</a>['Update/Views:jump_separator' not defined]<a href="#group_O">O</a></div></div><div class="ep_view_blurb">A tételek száma ezen a szinten: <strong>8</strong>.</div><a name="group_D"></a><h2>D</h2><p>
+
+
+    <span class="person_name">Dayoub, Evan</span> és <span class="person_name">Tóth, Zoltán</span> és <span class="person_name">Anda, Angéla</span>
+  
+
+(2024)
+  
+<a href="https://press.mater.uni-mate.hu/600/"><em>Some Effects of Biochar on Soil Microorganisms.</em></a>
+
+
+    GEORGIKON FOR AGRICULTURE: A MULTIDISCIPLINARY JOURNAL IN AGRICULTURAL SCIENCES, 28 (1).
+    pp. 1-19.
+     ISSN 0239-1260
+  
+
+
+  
+
+
+</p><a name="group_H"></a><h2>H</h2><p>
+
+
+    <span class="person_name">Hamow, Kamirán Áron</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/618/"><em>A mikotoxin-analitikai módszerek fejlődése és alkalmazása – hagyományos és korszerű megközelítések az élelmiszerlánc-biztonság szolgálatában.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 59-111.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><a name="group_K"></a><h2>K</h2><p>
+
+
+    <span class="person_name">Kovács, Melinda</span> és <span class="person_name">Szabó, András</span> és <span class="person_name">Omeralfaroug, Ali</span> és <span class="person_name">Naeem, Sheik Abdul</span> és <span class="person_name">Taskeen, Fathima Docrat</span> és <span class="person_name">Marnewick, Jeanine L</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/628/"><em>Választ jelenthetnek a növényi kivonatok (fitokemikáliák) a mikotoxinok okozta kihívásokra?</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 261-271.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kovács, Szilvia</span> és <span class="person_name">Adácsi, Cintia</span> és <span class="person_name">Szarvas, Pál</span> és <span class="person_name">Király, Szabina</span> és <span class="person_name">Miklós, Ida</span> és <span class="person_name">Nampoothiri, Kesavan Madhavan</span> és <span class="person_name">Pócsi, István</span> és <span class="person_name">Pusztahelyi, Tünde</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/625/"><em>Tejsavbaktériumokkal a fonalas gombák mikotoxinjai ellen.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 203-221.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Kövesi, Benjámin</span> és <span class="person_name">Kulcsár, Szabina</span> és <span class="person_name">Mézes, Miklós</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/630/"><em>Új irányok a mikotoxin-kutatásban.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 289-310.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><a name="group_M"></a><h2>M</h2><p>
+
+
+    <span class="person_name">Mesterházy, Ákos</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/616/"><em>Toxikus gombák a gabonafélékben – holisztikus megközelítés az élelmiszer-biztonság, a termésmennyiség és a jövedelmező termelés egyidejű biztosítására.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 9-57.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><a name="group_N"></a><h2>N</h2><p>
+
+
+    <span class="person_name">Nagyéri, György</span> és <span class="person_name">Molnár, Zsófia</span> és <span class="person_name">Plank, Patrik</span> és <span class="person_name">Szőke, Zsuzsanna</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/629/"><em>IgY-fejlesztések és élelmiszer-biztonsági alkalmazások – innovációk és jövőbeli kilátások.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 273-288.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><a name="group_O"></a><h2>O</h2><p>
+
+
+    <span class="person_name">Olasz, Ferenc</span> és <span class="person_name">Libisch, Balázs</span> és <span class="person_name">Keresztény, Tibor</span> és <span class="person_name">Varga-Szatmári, Viktória</span> és <span class="person_name">Vargáné Visi, Éva</span>
+  
+
+(2026)
+  
+<a href="https://press.mater.uni-mate.hu/626/"><em>Probiotikus baktériumok jellemzése és felhasználása a mikotoxinok elleni védekezésben.</em></a>
+
+
+    
+      In: 
+       <span class="person_name">Kovács, Melinda</span> 
+        (Szerk.)
+          
+      
+      Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért : Tanulmánykötet.
+     
+    
+     
+    
+    
+    
+    MATE Press, Gödöllő.
+     
+    pp. 223-244.
+    ISBN 978-963-623-140-8
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Tue Mar 10 05:06:35 2026 CET</strong>.</div></div>

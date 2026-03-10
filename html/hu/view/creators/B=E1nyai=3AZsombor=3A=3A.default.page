@@ -1,0 +1,68 @@
+<div class="no_link_decor"><a alt="['Update/Views:up_a_level_alt' not defined]" href="./"><img src="['Update/Views:up_a_level_src' not defined]" alt="['Update/Views:up_a_level_alt' not defined]"><table><tr><td>[pin missing: url]</td><td>[pin missing: url]</td></tr></table></img></a></div><form accept-charset="utf-8" action="/cgi/exportview" method="get">
+    <table width="100%"><tr>
+      <td align="left">Exportálás mint <select name="format" id="export-format"><option value="Text">ASCII Citation</option><option value="BibTeX">BibTeX</option><option value="DC">Dublin Core</option><option value="XML">EP3 XML</option><option value="EndNote">EndNote</option><option value="HTML">HTML Citation</option><option value="JSON">JSON</option><option value="METS">METS</option><option value="CSV">Multiline CSV</option><option value="Ids">Object IDs</option><option value="ContextObject">OpenURL ContextObject</option><option value="RDFNT">RDF+N-Triples</option><option value="RDFN3">RDF+N3</option><option value="RDFXML">RDF+XML</option><option value="RSS2FULLEXPORT">RSS 2.0 Expanded</option><option value="Refer">Refer</option><option value="RIS">Reference Manager</option></select><input name="_action_export_redir" class="ep_form_action_button" type="submit" role="button" value="Exportálás" /><input type="hidden" name="view" id="view" value="creators" /><input type="hidden" name="values" id="values" value="B=E1nyai=3AZsombor=3A=3A" /></td>
+      <td align="right"> <span class="ep_search_feed"><a href="/cgi/exportview/creators/B=E1nyai=3AZsombor=3A=3A/Atom/B=E1nyai=3AZsombor=3A=3A.xml"><img src="/style/images/feed-icon-14x14.png" alt="[Atom feed]" border="0" /> Atom</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/B=E1nyai=3AZsombor=3A=3A/RSS/B=E1nyai=3AZsombor=3A=3A.rss"><img src="/style/images/feed-icon-14x14.png" alt="[RSS feed]" border="0" /> RSS 1.0</a></span> <span class="ep_search_feed"><a href="/cgi/exportview/creators/B=E1nyai=3AZsombor=3A=3A/RSS2/B=E1nyai=3AZsombor=3A=3A.xml"><img src="/style/images/feed-icon-14x14.png" alt="[RSS2 feed]" border="0" /> RSS 2.0</a></span></td>
+</tr>
+<tr>
+  <td align="left" colspan="2">
+      
+        </td>
+	</tr>
+	</table>
+
+</form><div class="ep_view_page ep_view_page_view_creators"><div class="ep_view_group_by">Csoportosítás: <a href="B=E1nyai=3AZsombor=3A=3A.html">Tétel típusa</a>['Update/Views:group_separator' not defined]<span class="ep_view_group_by_current">Nincs</span></div><div class="ep_view_blurb">Tételek száma: <strong>2</strong>.</div><p>
+
+
+    <span class="person_name">Filepné Kovács, Krisztina</span> és <span class="person_name">Bányai, Zsombor</span> és <span class="person_name">Dancsokné Fóris, Edina</span> és <span class="person_name">Weiperth, András</span> és <span class="person_name">Urbányi, Béla</span> és <span class="person_name">Valánszki, István</span> és <span class="person_name">Kollányi, László</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/100/"><em>Helyi Ágazatközi Operatív Terv : Tájvédelem és tájfejlesztés a tervezett M2-es gyorsforgalmi út területén Magyarországon.</em></a>
+
+
+    
+     
+    
+    
+    
+    Magyar Agrár- és Élettudományi Egyetem, Gödöllő.
+     74 p.
+    
+    ISBN 978-963-623-035-7
+  
+  
+
+
+  
+
+
+</p><p>
+
+
+    <span class="person_name">Filepné Kovács, Krisztina</span> és <span class="person_name">Bányai, Zsombor</span> és <span class="person_name">Dancsokné Fóris, Edina</span> és <span class="person_name">Weiperth, András</span> és <span class="person_name">Urbányi, Béla</span> és <span class="person_name">Valánszki, István</span> és <span class="person_name">Kollányi, László</span>
+  
+
+(2022)
+  
+<a href="https://press.mater.uni-mate.hu/93/"><em>Local Cross-Sectoral Operational Plan : Landscape Protection and Development in the Area of the Planned M2 Motorway in&#13;
+Hungary : Part of Output T2.2 “Local Cross-Sectoral Operational Plans”.</em></a>
+
+
+    
+     
+    
+    
+    
+    Hungarian University of Agriculture and Life Sciences, Gödöllő.
+     74 p.
+    
+    ISBN 978-963-623-025-8
+  
+  
+
+
+  
+
+
+</p><div class="ep_view_timestamp">A lista elkészültének dátuma: <strong>Sat Mar  7 08:23:50 2026 CET</strong>.</div></div>

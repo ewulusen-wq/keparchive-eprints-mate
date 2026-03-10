@@ -25,7 +25,7 @@ $c->{validate_user} = sub
 	my( $user, $repository, $for_archive ) = @_;
 
 	my @problems = ();
-	print STDERR "user_validateba bejött";
+
 	# CHECKS IN HERE
 
 	return( @problems );
