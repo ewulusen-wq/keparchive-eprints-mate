@@ -33,12 +33,12 @@
 <meta name="eprints.isbn" content="978-963-623-140-8" />
 <meta name="eprints.book_title" content="Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért" />
 <meta name="eprints.editors_name" content="Kovács, Melinda" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/614" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/614" />
 <meta name="eprints.related_url_type" content="Teljes kötet" />
 <meta name="eprints.citation" content="  Poór, Miklós  (2026) Mikotoxin-fehérje kölcsönhatások toxikokinetikai vonatkozásai.   In: Kovács, Melinda (Szerk.)  Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért.    MATE Press, Gödöllő.  pp. 113-132.  ISBN 978-963-623-140-8      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/620/1/004_Po%C3%B3r.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/620/1/004_Po%C3%B3r.pdf" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/620/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/620/" />
 <meta name="DC.title" content="Mikotoxin-fehérje kölcsönhatások toxikokinetikai vonatkozásai" />
 <meta name="DC.creator" content="Poór, Miklós" />
 <meta name="DC.subject" content="QH301 Biológia" />
@@ -54,27 +54,27 @@
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/620/1/004_Po%C3%B3r.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/620/1/004_Po%C3%B3r.pdf" />
 <meta name="DC.identifier" content="  Poór, Miklós  (2026) Mikotoxin-fehérje kölcsönhatások toxikokinetikai vonatkozásai.   In: Kovács, Melinda (Szerk.)  Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért.    MATE Press, Gödöllő.  pp. 113-132.  ISBN 978-963-623-140-8      " />
 <meta name="DC.relation" content="https://doi.org/10.54597/mate.0180" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/620/" />
-<link rel="alternate" type="application/json; charset=utf-8" title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/JSON/press-eprint-620.js" />
-<link rel="alternate" type="text/plain; charset=utf-8" title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/DC/press-eprint-620.txt" />
-<link rel="alternate" type="text/xml; charset=utf-8" title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/DIDL/press-eprint-620.xml" />
-<link rel="alternate" type="application/rdf+xml" title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/RDFXML/press-eprint-620.rdf" />
-<link rel="alternate" type="text/plain; charset=utf-8" title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/Simple/press-eprint-620.txt" />
-<link rel="alternate" type="application/atom+xml;charset=utf-8" title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/Atom/press-eprint-620.xml" />
-<link rel="alternate" type="text/plain; charset=utf-8" title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/BibTeX/press-eprint-620.bib" />
-<link rel="alternate" type="text/html; charset=utf-8" title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/HTML/press-eprint-620.html" />
-<link rel="alternate" type="text/plain" title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/Refer/press-eprint-620.refer" />
-<link rel="alternate" type="text/plain" title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/RIS/press-eprint-620.ris" />
-<link rel="alternate" type="text/plain; charset=utf-8" title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/EndNote/press-eprint-620.enw" />
-<link rel="alternate" type="text/plain; charset=utf-8" title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/Text/press-eprint-620.txt" />
-<link rel="alternate" type="text/plain" title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/RDFNT/press-eprint-620.nt" />
-<link rel="alternate" type="text/csv; charset=utf-8" title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/CSV/press-eprint-620.csv" />
-<link rel="alternate" type="application/vnd.eprints.data+xml; charset=utf-8" title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/XML/press-eprint-620.xml" />
-<link rel="alternate" type="text/plain; charset=utf-8" title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/COinS/press-eprint-620.txt" />
-<link rel="alternate" type="text/xml; charset=utf-8" title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/ContextObject/press-eprint-620.xml" />
-<link rel="alternate" type="text/n3" title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/RDFN3/press-eprint-620.n3" />
-<link rel="alternate" type="text/xml; charset=utf-8" title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/MODS/press-eprint-620.xml" />
-<link rel="alternate" type="text/xml; charset=utf-8" title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/620/METS/press-eprint-620.xml" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/620/" />
+<link rel="alternate" type="application/json; charset=utf-8" title="JSON" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/JSON/press-eprint-620.js" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="Dublin Core" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/DC/press-eprint-620.txt" />
+<link rel="alternate" type="text/xml; charset=utf-8" title="MPEG-21 DIDL" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/DIDL/press-eprint-620.xml" />
+<link rel="alternate" type="application/rdf+xml" title="RDF+XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/RDFXML/press-eprint-620.rdf" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="Simple Metadata" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/Simple/press-eprint-620.txt" />
+<link rel="alternate" type="application/atom+xml;charset=utf-8" title="Atom" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/Atom/press-eprint-620.xml" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="BibTeX" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/BibTeX/press-eprint-620.bib" />
+<link rel="alternate" type="text/html; charset=utf-8" title="HTML Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/HTML/press-eprint-620.html" />
+<link rel="alternate" type="text/plain" title="Refer" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/Refer/press-eprint-620.refer" />
+<link rel="alternate" type="text/plain" title="Reference Manager" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/RIS/press-eprint-620.ris" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="EndNote" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/EndNote/press-eprint-620.enw" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="ASCII Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/Text/press-eprint-620.txt" />
+<link rel="alternate" type="text/plain" title="RDF+N-Triples" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/RDFNT/press-eprint-620.nt" />
+<link rel="alternate" type="text/csv; charset=utf-8" title="Multiline CSV" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/CSV/press-eprint-620.csv" />
+<link rel="alternate" type="application/vnd.eprints.data+xml; charset=utf-8" title="EP3 XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/XML/press-eprint-620.xml" />
+<link rel="alternate" type="text/plain; charset=utf-8" title="OpenURL ContextObject in Span" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/COinS/press-eprint-620.txt" />
+<link rel="alternate" type="text/xml; charset=utf-8" title="OpenURL ContextObject" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/ContextObject/press-eprint-620.xml" />
+<link rel="alternate" type="text/n3" title="RDF+N3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/RDFN3/press-eprint-620.n3" />
+<link rel="alternate" type="text/xml; charset=utf-8" title="MODS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/MODS/press-eprint-620.xml" />
+<link rel="alternate" type="text/xml; charset=utf-8" title="METS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/620/METS/press-eprint-620.xml" />

@@ -29,10 +29,10 @@
 <meta content="Jancsó, Mihály" name="eprints.editors_name" />
 <meta content="Csengeri, Erzsébet" name="eprints.editors_name" />
 <meta content="  Bozán, Csaba és Bodnár, Károly és Jancsó, Mihály és Csengeri, Erzsébet (Szerk.).  (2025) Abstract Book of the 8th International Scientific Conference on Water, 20-21 March 2025 Szarvas, Hungary.     Hungarian University of Agriculture and Life Sciences Institute of Environmental Sciences, Gödöllő.    ISBN 978-963-623-115-6 (pdf) 978-963-623-114-9 (printed)      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/440/3/8thISCW_Abstract%20book_ebook.pdf" name="eprints.document_url" />
-<meta content="https://press.mater.uni-mate.hu/440/1/8th-ISCW-A5-NYOMDA.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/440/3/8thISCW_Abstract%20book_ebook.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/440/1/8th-ISCW-A5-NYOMDA.pdf" name="eprints.document_url" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta content="https://press.mater.uni-mate.hu/440/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/440/" name="DC.relation" />
 <meta content="Abstract Book of the 8th International Scientific Conference on Water, 20-21 March 2025 Szarvas, Hungary" name="DC.title" />
 <meta content="AC Gyűjteményes munkák, sorozatok" name="DC.subject" />
 <meta content="SH Vizi növény-és állattartás, halászat, sporthorgászat" name="DC.subject" />
@@ -47,30 +47,30 @@
 <meta content="text" name="DC.format" />
 <meta content="en" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/440/3/8thISCW_Abstract%20book_ebook.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/440/3/8thISCW_Abstract%20book_ebook.pdf" name="DC.identifier" />
 <meta content="image" name="DC.format" />
 <meta content="en" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/440/1/8th-ISCW-A5-NYOMDA.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/440/1/8th-ISCW-A5-NYOMDA.pdf" name="DC.identifier" />
 <meta content="  Bozán, Csaba és Bodnár, Károly és Jancsó, Mihály és Csengeri, Erzsébet (Szerk.).  (2025) Abstract Book of the 8th International Scientific Conference on Water, 20-21 March 2025 Szarvas, Hungary.     Hungarian University of Agriculture and Life Sciences Institute of Environmental Sciences, Gödöllő.    ISBN 978-963-623-115-6 (pdf) 978-963-623-114-9 (printed)      " name="DC.identifier" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/440/" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/EndNote/press-eprint-440.enw" title="EndNote" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/METS/press-eprint-440.xml" title="METS" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/ContextObject/press-eprint-440.xml" title="OpenURL ContextObject" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/RIS/press-eprint-440.ris" title="Reference Manager" />
-<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/RDFXML/press-eprint-440.rdf" title="RDF+XML" />
-<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/JSON/press-eprint-440.js" title="JSON" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/BibTeX/press-eprint-440.bib" title="BibTeX" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/XML/press-eprint-440.xml" title="EP3 XML" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/RDFNT/press-eprint-440.nt" title="RDF+N-Triples" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/DC/press-eprint-440.txt" title="Dublin Core" />
-<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/RDFN3/press-eprint-440.n3" title="RDF+N3" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/Text/press-eprint-440.txt" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/HTML/press-eprint-440.html" title="HTML Citation" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/DIDL/press-eprint-440.xml" title="MPEG-21 DIDL" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/COinS/press-eprint-440.txt" title="OpenURL ContextObject in Span" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/MODS/press-eprint-440.xml" title="MODS" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/Refer/press-eprint-440.refer" title="Refer" />
-<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/Atom/press-eprint-440.xml" title="Atom" />
-<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/CSV/press-eprint-440.csv" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/440/Simple/press-eprint-440.txt" title="Simple Metadata" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/440/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/EndNote/press-eprint-440.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/METS/press-eprint-440.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/ContextObject/press-eprint-440.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/RIS/press-eprint-440.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/RDFXML/press-eprint-440.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/JSON/press-eprint-440.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/BibTeX/press-eprint-440.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/XML/press-eprint-440.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/RDFNT/press-eprint-440.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/DC/press-eprint-440.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/RDFN3/press-eprint-440.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/Text/press-eprint-440.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/HTML/press-eprint-440.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/DIDL/press-eprint-440.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/COinS/press-eprint-440.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/MODS/press-eprint-440.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/Refer/press-eprint-440.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/Atom/press-eprint-440.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/CSV/press-eprint-440.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/440/Simple/press-eprint-440.txt" title="Simple Metadata" />

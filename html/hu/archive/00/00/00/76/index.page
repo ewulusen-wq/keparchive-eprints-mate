@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_12890', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_12890', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_12890', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_12890', 'right' );" href="https://press.mater.uni-mate.hu/76/2/0.jpg" target="_blank"><img alt="[thumbnail of 0.jpg]" class="ep_doc_icon" border="0" src="https://press.mater.uni-mate.hu/76/2.hassmallThumbnailVersion/0.jpg" /></a><div id="doc_preview_12890" class="ep_preview"><div><div><span><img alt="" id="doc_preview_12890_img" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/76/2.haspreviewThumbnailVersion/0.jpg" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_12890', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_12890', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_12890', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_12890', 'right' );" href="https://press.fater.uni-mate.hu/76/2/0.jpg" target="_blank"><img alt="[thumbnail of 0.jpg]" class="ep_doc_icon" border="0" src="https://press.fater.uni-mate.hu/76/2.hassmallThumbnailVersion/0.jpg" /></a><div id="doc_preview_12890" class="ep_preview"><div><div><span><img alt="" id="doc_preview_12890_img" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/76/2.haspreviewThumbnailVersion/0.jpg" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/76/2/0.jpg" class="ep_document_link">Letöltés (121kB)</a>
+              <a href="https://press.fater.uni-mate.hu/76/2/0.jpg" class="ep_document_link">Letöltés (121kB)</a>
               
 			  
-			  | <a href="https://press.mater.uni-mate.hu/76/2.haslightboxThumbnailVersion/0.jpg" rel="lightbox[docs] nofollow">Előzetes bemutató</a>
+			  | <a href="https://press.fater.uni-mate.hu/76/2.haslightboxThumbnailVersion/0.jpg" rel="lightbox[docs] nofollow">Előzetes bemutató</a>
 			  
 			  
               
@@ -76,7 +76,7 @@
           </div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_1980', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_1980', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_1980', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_1980', 'right' );" href="https://press.mater.uni-mate.hu/76/1/INNOVATIV_modszerek_2015.pdf" target="_blank"><img alt="[thumbnail of Konferenciakötet]" class="ep_doc_icon" border="0" src="https://press.mater.uni-mate.hu/76/1.hassmallThumbnailVersion/INNOVATIV_modszerek_2015.pdf" /></a><div id="doc_preview_1980" class="ep_preview"><div><div><span><img alt="" id="doc_preview_1980_img" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/76/1.haspreviewThumbnailVersion/INNOVATIV_modszerek_2015.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_1980', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_1980', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_1980', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_1980', 'right' );" href="https://press.fater.uni-mate.hu/76/1/INNOVATIV_modszerek_2015.pdf" target="_blank"><img alt="[thumbnail of Konferenciakötet]" class="ep_doc_icon" border="0" src="https://press.fater.uni-mate.hu/76/1.hassmallThumbnailVersion/INNOVATIV_modszerek_2015.pdf" /></a><div id="doc_preview_1980" class="ep_preview"><div><div><span><img alt="" id="doc_preview_1980_img" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/76/1.haspreviewThumbnailVersion/INNOVATIV_modszerek_2015.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -95,10 +95,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/76/1/INNOVATIV_modszerek_2015.pdf" class="ep_document_link">Letöltés (8MB)</a>
+              <a href="https://press.fater.uni-mate.hu/76/1/INNOVATIV_modszerek_2015.pdf" class="ep_document_link">Letöltés (8MB)</a>
               
 			  
-			  | <a href="https://press.mater.uni-mate.hu/76/1.haslightboxThumbnailVersion/INNOVATIV_modszerek_2015.pdf" rel="lightbox[docs] nofollow">Előzetes bemutató</a>
+			  | <a href="https://press.fater.uni-mate.hu/76/1.haslightboxThumbnailVersion/INNOVATIV_modszerek_2015.pdf" rel="lightbox[docs] nofollow">Előzetes bemutató</a>
 			  
 			  
               
@@ -134,7 +134,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/L1.html">L Oktatás általában</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/LB1501.html">LB1501 Alapfokú oktatás</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/L1.html">L Oktatás általában</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/LB1501.html">LB1501 Alapfokú oktatás</a></td>
         </tr>
       
     
@@ -145,7 +145,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -180,7 +180,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/76">https://press.mater.uni-mate.hu/id/eprint/76</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/76">https://press.fater.uni-mate.hu/id/eprint/76</a></td>
     </tr>
   </table>
 

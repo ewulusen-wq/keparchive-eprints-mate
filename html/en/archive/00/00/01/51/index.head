@@ -21,14 +21,14 @@
 <meta name="eprints.refereed" content="TRUE" />
 <meta name="eprints.isbn" content="978-963-269-976-9 (Print) 978-963-269-977-6 (PDF)" />
 <meta name="eprints.editors_name" content="Babos, Tibor" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/152" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/152" />
 <meta name="eprints.related_url_type" content="Magyar nyelvi változat (utánközlés)" />
 <meta name="eprints.citation" content="  Babos, Tibor (ed.).  (2021) Digital Security Policy in the Cyber Space : Collection of Studies.     Hungarian University of Agriculture and Life Sciences, Gödöllő. 158Number of Pages.   ISBN 978-963-269-976-9 (Print) 978-963-269-977-6 (PDF)      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/151/3/0.jpg" />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/151/8/kibereng-final-digit_j%C3%B3%20ISBN-nel.pdf" />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/151/2/kibereng-final-boritoval.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/151/3/0.jpg" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/151/8/kibereng-final-digit_j%C3%B3%20ISBN-nel.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/151/2/kibereng-final-boritoval.pdf" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/151/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/151/" />
 <meta name="DC.title" content="Digital Security Policy in the Cyber Space : Collection of Studies" />
 <meta name="DC.subject" content="U Military Science (General)" />
 <meta name="DC.publisher" content="Hungarian University of Agriculture and Life Sciences" />
@@ -39,33 +39,33 @@
 <meta name="DC.format" content="image" />
 <meta name="DC.language" content="en" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/151/3/0.jpg" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/151/3/0.jpg" />
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="en" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/151/8/kibereng-final-digit_j%C3%B3%20ISBN-nel.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/151/8/kibereng-final-digit_j%C3%B3%20ISBN-nel.pdf" />
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="en" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/151/2/kibereng-final-boritoval.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/151/2/kibereng-final-boritoval.pdf" />
 <meta name="DC.identifier" content="  Babos, Tibor (ed.).  (2021) Digital Security Policy in the Cyber Space : Collection of Studies.     Hungarian University of Agriculture and Life Sciences, Gödöllő. 158Number of Pages.   ISBN 978-963-269-976-9 (Print) 978-963-269-977-6 (PDF)      " />
-<link href="https://press.mater.uni-mate.hu/151/" rel="canonical" />
-<link type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/CSV/press-eprint-151.csv" rel="alternate" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/DC/press-eprint-151.txt" rel="alternate" title="Dublin Core" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/Refer/press-eprint-151.refer" rel="alternate" title="Refer" />
-<link type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/RDFN3/press-eprint-151.n3" rel="alternate" title="RDF+N3" />
-<link type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/JSON/press-eprint-151.js" rel="alternate" title="JSON" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/RDFNT/press-eprint-151.nt" rel="alternate" title="RDF+N-Triples" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/ContextObject/press-eprint-151.xml" rel="alternate" title="OpenURL ContextObject" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/BibTeX/press-eprint-151.bib" rel="alternate" title="BibTeX" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/METS/press-eprint-151.xml" rel="alternate" title="METS" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/DIDL/press-eprint-151.xml" rel="alternate" title="MPEG-21 DIDL" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/RIS/press-eprint-151.ris" rel="alternate" title="Reference Manager" />
-<link type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/Atom/press-eprint-151.xml" rel="alternate" title="Atom" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/Text/press-eprint-151.txt" rel="alternate" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/HTML/press-eprint-151.html" rel="alternate" title="HTML Citation" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/Simple/press-eprint-151.txt" rel="alternate" title="Simple Metadata" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/COinS/press-eprint-151.txt" rel="alternate" title="OpenURL ContextObject in Span" />
-<link type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/RDFXML/press-eprint-151.rdf" rel="alternate" title="RDF+XML" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/EndNote/press-eprint-151.enw" rel="alternate" title="EndNote" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/MODS/press-eprint-151.xml" rel="alternate" title="MODS" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/151/XML/press-eprint-151.xml" rel="alternate" title="EP3 XML" />
+<link href="https://press.fater.uni-mate.hu/151/" rel="canonical" />
+<link type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/CSV/press-eprint-151.csv" rel="alternate" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/DC/press-eprint-151.txt" rel="alternate" title="Dublin Core" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/Refer/press-eprint-151.refer" rel="alternate" title="Refer" />
+<link type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/RDFN3/press-eprint-151.n3" rel="alternate" title="RDF+N3" />
+<link type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/JSON/press-eprint-151.js" rel="alternate" title="JSON" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/RDFNT/press-eprint-151.nt" rel="alternate" title="RDF+N-Triples" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/ContextObject/press-eprint-151.xml" rel="alternate" title="OpenURL ContextObject" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/BibTeX/press-eprint-151.bib" rel="alternate" title="BibTeX" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/METS/press-eprint-151.xml" rel="alternate" title="METS" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/DIDL/press-eprint-151.xml" rel="alternate" title="MPEG-21 DIDL" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/RIS/press-eprint-151.ris" rel="alternate" title="Reference Manager" />
+<link type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/Atom/press-eprint-151.xml" rel="alternate" title="Atom" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/Text/press-eprint-151.txt" rel="alternate" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/HTML/press-eprint-151.html" rel="alternate" title="HTML Citation" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/Simple/press-eprint-151.txt" rel="alternate" title="Simple Metadata" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/COinS/press-eprint-151.txt" rel="alternate" title="OpenURL ContextObject in Span" />
+<link type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/RDFXML/press-eprint-151.rdf" rel="alternate" title="RDF+XML" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/EndNote/press-eprint-151.enw" rel="alternate" title="EndNote" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/MODS/press-eprint-151.xml" rel="alternate" title="MODS" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/151/XML/press-eprint-151.xml" rel="alternate" title="EP3 XML" />

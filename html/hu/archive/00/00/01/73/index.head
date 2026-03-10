@@ -25,10 +25,10 @@
 <meta content="978- 963-623-078-4" name="eprints.isbn" />
 <meta content="Petőné Csima, Melinda" name="eprints.editors_name" />
 <meta content="  Petőné Csima, Melinda (Szerk.).  (2023) Tehetség – nevelés – tudomány : Válogatás a MATE Csokonai Vitéz Mihály Szakkollégiumának 2023. évi tanulmányaiból.     Magyar Agrár- és Élettudományi Egyetem, Gödöllő. 144 p.   ISBN 978- 963-623-078-4      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/173/6/Tehets%C3%A9g-nevel%C3%A9s-tudom%C3%A1ny_teljes_v2.pdf" name="eprints.document_url" />
-<meta content="https://press.mater.uni-mate.hu/173/1/Tehets%C3%A9g-nevel%C3%A9s-tudom%C3%A1ny_teljes.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/173/6/Tehets%C3%A9g-nevel%C3%A9s-tudom%C3%A1ny_teljes_v2.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/173/1/Tehets%C3%A9g-nevel%C3%A9s-tudom%C3%A1ny_teljes.pdf" name="eprints.document_url" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta content="https://press.mater.uni-mate.hu/173/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/173/" name="DC.relation" />
 <meta content="Tehetség – nevelés – tudomány : Válogatás a MATE Csokonai Vitéz Mihály Szakkollégiumának 2023. évi tanulmányaiból" name="DC.title" />
 <meta content="AC Gyűjteményes munkák, sorozatok" name="DC.subject" />
 <meta content="LB Oktatás elmélete és gyakorlata" name="DC.subject" />
@@ -42,29 +42,29 @@
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/173/6/Tehets%C3%A9g-nevel%C3%A9s-tudom%C3%A1ny_teljes_v2.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/173/6/Tehets%C3%A9g-nevel%C3%A9s-tudom%C3%A1ny_teljes_v2.pdf" name="DC.identifier" />
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
-<meta content="https://press.mater.uni-mate.hu/173/1/Tehets%C3%A9g-nevel%C3%A9s-tudom%C3%A1ny_teljes.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/173/1/Tehets%C3%A9g-nevel%C3%A9s-tudom%C3%A1ny_teljes.pdf" name="DC.identifier" />
 <meta content="  Petőné Csima, Melinda (Szerk.).  (2023) Tehetség – nevelés – tudomány : Válogatás a MATE Csokonai Vitéz Mihály Szakkollégiumának 2023. évi tanulmányaiból.     Magyar Agrár- és Élettudományi Egyetem, Gödöllő. 144 p.   ISBN 978- 963-623-078-4      " name="DC.identifier" />
-<link href="https://press.mater.uni-mate.hu/173/" rel="canonical" />
-<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/Atom/press-eprint-173.xml" rel="alternate" />
-<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/MODS/press-eprint-173.xml" rel="alternate" />
-<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/DC/press-eprint-173.txt" rel="alternate" />
-<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/COinS/press-eprint-173.txt" rel="alternate" />
-<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/ContextObject/press-eprint-173.xml" rel="alternate" />
-<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/METS/press-eprint-173.xml" rel="alternate" />
-<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/RDFN3/press-eprint-173.n3" rel="alternate" />
-<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/Refer/press-eprint-173.refer" rel="alternate" />
-<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/BibTeX/press-eprint-173.bib" rel="alternate" />
-<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/RIS/press-eprint-173.ris" rel="alternate" />
-<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/XML/press-eprint-173.xml" rel="alternate" />
-<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/Text/press-eprint-173.txt" rel="alternate" />
-<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/RDFXML/press-eprint-173.rdf" rel="alternate" />
-<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/Simple/press-eprint-173.txt" rel="alternate" />
-<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/DIDL/press-eprint-173.xml" rel="alternate" />
-<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/JSON/press-eprint-173.js" rel="alternate" />
-<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/HTML/press-eprint-173.html" rel="alternate" />
-<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/RDFNT/press-eprint-173.nt" rel="alternate" />
-<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/EndNote/press-eprint-173.enw" rel="alternate" />
-<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/173/CSV/press-eprint-173.csv" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/173/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/Atom/press-eprint-173.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/MODS/press-eprint-173.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/DC/press-eprint-173.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/COinS/press-eprint-173.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/ContextObject/press-eprint-173.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/METS/press-eprint-173.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/RDFN3/press-eprint-173.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/Refer/press-eprint-173.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/BibTeX/press-eprint-173.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/RIS/press-eprint-173.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/XML/press-eprint-173.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/Text/press-eprint-173.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/RDFXML/press-eprint-173.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/Simple/press-eprint-173.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/DIDL/press-eprint-173.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/JSON/press-eprint-173.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/HTML/press-eprint-173.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/RDFNT/press-eprint-173.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/EndNote/press-eprint-173.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/173/CSV/press-eprint-173.csv" rel="alternate" />

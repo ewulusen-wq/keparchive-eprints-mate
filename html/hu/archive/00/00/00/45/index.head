@@ -28,10 +28,10 @@
 <meta name="eprints.editors_name" content="Andor, Anikó" />
 <meta name="eprints.funders" content="Landa Kft." />
 <meta name="eprints.citation" content="  Andor, Anikó (Szerk.).  (2022) Magyar–Angol Angol–Magyar Táj- és Környezettervezési Szakszótár / English–Hungarian Hungarian–English Technical Dictionary of Landscape Architecture.     Magyar Agrár- és Élettudományi Egyetem, Gödöllő.    ISBN 978-963-269-981-3      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/45/1/magyar-angol_angol-magyar_t%C3%A1jsz%C3%B3t%C3%A1r_online.pdf" />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/45/2/Szabad%20felhaszn%C3%A1l%C3%A1si%20nyilatkozat_Landa%20Kft_2022.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/45/1/magyar-angol_angol-magyar_t%C3%A1jsz%C3%B3t%C3%A1r_online.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/45/2/Szabad%20felhaszn%C3%A1l%C3%A1si%20nyilatkozat_Landa%20Kft_2022.pdf" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/45/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/45/" />
 <meta name="DC.title" content="Magyar–Angol Angol–Magyar Táj- és Környezettervezési Szakszótár / English–Hungarian Hungarian–English Technical Dictionary of Landscape Architecture" />
 <meta name="DC.subject" content="GE Környezettudomány" />
 <meta name="DC.subject" content="TA Általános mérnöki tudományok" />
@@ -44,29 +44,29 @@
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/45/1/magyar-angol_angol-magyar_t%C3%A1jsz%C3%B3t%C3%A1r_online.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/45/1/magyar-angol_angol-magyar_t%C3%A1jsz%C3%B3t%C3%A1r_online.pdf" />
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/45/2/Szabad%20felhaszn%C3%A1l%C3%A1si%20nyilatkozat_Landa%20Kft_2022.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/45/2/Szabad%20felhaszn%C3%A1l%C3%A1si%20nyilatkozat_Landa%20Kft_2022.pdf" />
 <meta name="DC.identifier" content="  Andor, Anikó (Szerk.).  (2022) Magyar–Angol Angol–Magyar Táj- és Környezettervezési Szakszótár / English–Hungarian Hungarian–English Technical Dictionary of Landscape Architecture.     Magyar Agrár- és Élettudományi Egyetem, Gödöllő.    ISBN 978-963-269-981-3      " />
-<link href="https://press.mater.uni-mate.hu/45/" rel="canonical" />
-<link type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/CSV/press-eprint-45.csv" rel="alternate" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/DC/press-eprint-45.txt" rel="alternate" title="Dublin Core" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/Refer/press-eprint-45.refer" rel="alternate" title="Refer" />
-<link type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/RDFN3/press-eprint-45.n3" rel="alternate" title="RDF+N3" />
-<link type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/JSON/press-eprint-45.js" rel="alternate" title="JSON" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/RDFNT/press-eprint-45.nt" rel="alternate" title="RDF+N-Triples" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/ContextObject/press-eprint-45.xml" rel="alternate" title="OpenURL ContextObject" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/BibTeX/press-eprint-45.bib" rel="alternate" title="BibTeX" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/METS/press-eprint-45.xml" rel="alternate" title="METS" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/DIDL/press-eprint-45.xml" rel="alternate" title="MPEG-21 DIDL" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/RIS/press-eprint-45.ris" rel="alternate" title="Reference Manager" />
-<link type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/Atom/press-eprint-45.xml" rel="alternate" title="Atom" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/Text/press-eprint-45.txt" rel="alternate" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/HTML/press-eprint-45.html" rel="alternate" title="HTML Citation" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/Simple/press-eprint-45.txt" rel="alternate" title="Simple Metadata" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/COinS/press-eprint-45.txt" rel="alternate" title="OpenURL ContextObject in Span" />
-<link type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/RDFXML/press-eprint-45.rdf" rel="alternate" title="RDF+XML" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/EndNote/press-eprint-45.enw" rel="alternate" title="EndNote" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/MODS/press-eprint-45.xml" rel="alternate" title="MODS" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/45/XML/press-eprint-45.xml" rel="alternate" title="EP3 XML" />
+<link href="https://press.fater.uni-mate.hu/45/" rel="canonical" />
+<link type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/CSV/press-eprint-45.csv" rel="alternate" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/DC/press-eprint-45.txt" rel="alternate" title="Dublin Core" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/Refer/press-eprint-45.refer" rel="alternate" title="Refer" />
+<link type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/RDFN3/press-eprint-45.n3" rel="alternate" title="RDF+N3" />
+<link type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/JSON/press-eprint-45.js" rel="alternate" title="JSON" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/RDFNT/press-eprint-45.nt" rel="alternate" title="RDF+N-Triples" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/ContextObject/press-eprint-45.xml" rel="alternate" title="OpenURL ContextObject" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/BibTeX/press-eprint-45.bib" rel="alternate" title="BibTeX" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/METS/press-eprint-45.xml" rel="alternate" title="METS" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/DIDL/press-eprint-45.xml" rel="alternate" title="MPEG-21 DIDL" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/RIS/press-eprint-45.ris" rel="alternate" title="Reference Manager" />
+<link type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/Atom/press-eprint-45.xml" rel="alternate" title="Atom" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/Text/press-eprint-45.txt" rel="alternate" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/HTML/press-eprint-45.html" rel="alternate" title="HTML Citation" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/Simple/press-eprint-45.txt" rel="alternate" title="Simple Metadata" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/COinS/press-eprint-45.txt" rel="alternate" title="OpenURL ContextObject in Span" />
+<link type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/RDFXML/press-eprint-45.rdf" rel="alternate" title="RDF+XML" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/EndNote/press-eprint-45.enw" rel="alternate" title="EndNote" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/MODS/press-eprint-45.xml" rel="alternate" title="MODS" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/45/XML/press-eprint-45.xml" rel="alternate" title="EP3 XML" />

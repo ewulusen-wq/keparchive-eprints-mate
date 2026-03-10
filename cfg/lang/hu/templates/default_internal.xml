@@ -15,22 +15,22 @@
     <div class="ep_tm_header ep_noprint">
       <ul class="ep_tm_menu">
         <li>
-          <a href="https://press.mater.uni-mate.hu/">
+          <a href="https://press.fater.uni-mate.hu/">
             <epc:phrase ref="template/navigation:home"/>
           </a>
         </li>
         <li>
-          <a href="https://press.mater.uni-mate.hu/information.html">
+          <a href="https://press.fater.uni-mate.hu/information.html">
             <epc:phrase ref="template/navigation:about"/>
           </a>
         </li>
         <li>
-          <a href="https://press.mater.uni-mate.hu/view/" menu="ep_tm_menu_browse">
+          <a href="https://press.fater.uni-mate.hu/view/" menu="ep_tm_menu_browse">
             <epc:phrase ref="template/navigation:browse"/>
           </a>
           <ul id="ep_tm_menu_browse" style="display:none;">
             <li>
-              <a href="https://press.mater.uni-mate.hu/view/subjects/">
+              <a href="https://press.fater.uni-mate.hu/view/subjects/">
                 <epc:phrase ref="bin/generate_views:indextitleprefix"/>
                 <epc:phrase ref="viewname_eprint_subjects"/>
               </a>
@@ -38,7 +38,7 @@
       </ul>
 	  </li>
 	<li>
-	     <a href="https://press.mater.uni-mate.hu/cgi/search/advanced">Összetett Keresés</a>
+	     <a href="https://press.fater.uni-mate.hu/cgi/search/advanced">Összetett Keresés</a>
 	</li>
 	  </ul>
       <table class="ep_tm_searchbar">
@@ -71,7 +71,7 @@
     </div>
   	<div class="ep_tm_eprints_logo" >
       <a href="http://www.uni-mate.hu/" target="_blank">  
-         <img alt="MATE" width="200px" src="https://press.mater.uni-mate.hu/images/sitelogo.gif"/>
+         <img alt="MATE" width="200px" src="https://press.fater.uni-mate.hu/images/sitelogo.gif"/>
            </a>
       </div>
     <div class="ep_tm_footer ep_noprint" >
@@ -80,8 +80,8 @@
       <div class="ep_tm_eprints_logo" >
        
         <a href="http://eprints.org/software/">  
-          <img alt="EPrints Logo" src="https://press.mater.uni-mate.hu/images/eprintslogo.png"/>
-          <img alt="EPrints Logo" src="https://press.mater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
+          <img alt="EPrints Logo" src="https://press.fater.uni-mate.hu/images/eprintslogo.png"/>
+          <img alt="EPrints Logo" src="https://press.fater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
         </a>
       </div>
       <epc:phrase ref="template:about_eprints"/>

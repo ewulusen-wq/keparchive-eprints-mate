@@ -3,7 +3,7 @@
 
 <p>A MATE repozitóriumai:
 <ul>
-<li><a href="https://press.mater.uni-mate.hu/" target="_blank">MATER Press – Egyetemi Kiadványok</a></li>
+<li><a href="https://press.fater.uni-mate.hu/" target="_blank">MATER Press – Egyetemi Kiadványok</a></li>
 <li><a href="https://pub.mater.uni-mate.hu/" target="_blank">MATER Publikációk</a></li>
 <li><a href="https://phd.mater.uni-mate.hu/" target="_blank">MATER PhD – Doktori Értekezések</a></li>
 </ul>
@@ -18,32 +18,32 @@
 
 
 <div class="ep_toolbox"><div class="ep_toolbox_content">
-  <a href="https://press.mater.uni-mate.hu/cgi/latest">Új feltöltések</a><br /><br />
+  <a href="https://press.fater.uni-mate.hu/cgi/latest">Új feltöltések</a><br /><br />
  Az elmúlt héten feltöltött publikációk anyagának megtekintése.
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content">
- <a href="https://press.mater.uni-mate.hu/cgi/search/advanced">Keresés a repozitóriumban</a><br /><br />
+ <a href="https://press.fater.uni-mate.hu/cgi/search/advanced">Keresés a repozitóriumban</a><br /><br />
  Keresés bővített lehetőségekkel. Gyorskereséshez a lap felső részén található mező használható.
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content">
- <a href="https://press.mater.uni-mate.hu/view/subjects/">Böngészés a repozitóriumban</a><br /><br />
+ <a href="https://press.fater.uni-mate.hu/view/subjects/">Böngészés a repozitóriumban</a><br /><br />
  Tárgy szerinti böngészés a repozitórium tartalmában.
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content">
- <a href="https://press.mater.uni-mate.hu/information.html">A repozitóriumról</a><br /><br />
+ <a href="https://press.fater.uni-mate.hu/information.html">A repozitóriumról</a><br /><br />
 Bővebb információ a repozitóriumról.
 </div></div>
 
 <div class="ep_toolbox"><div class="ep_toolbox_content">
- <a href="https://press.mater.uni-mate.hu/policies.html">Adattárolási irányelvek</a><br /><br />
+ <a href="https://press.fater.uni-mate.hu/policies.html">Adattárolási irányelvek</a><br /><br />
  A repozitóriumban lévő anyagok használatára vonatkozó irányelvek.
 </div></div>
 
 <p style="margin-top: 2em; font-size: 90%">
-MATE Repozitórium supports <a href="http://www.openarchives.org"><abbr title="Open Archives Protocol for Metadata Harvesting v2.0">OAI 2.0</abbr></a> with a base URL of <code>https://press.mater.uni-mate.hu/cgi/oai2</code>
+MATE Repozitórium supports <a href="http://www.openarchives.org"><abbr title="Open Archives Protocol for Metadata Harvesting v2.0">OAI 2.0</abbr></a> with a base URL of <code>https://press.fater.uni-mate.hu/cgi/oai2</code>
 </p>
 
 

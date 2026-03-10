@@ -32,28 +32,28 @@
 <div style="color:#097242;font-size:43px;margin:10px;">MATER Press – Egyetemi Kiadványok</div>
       <ul class="ep_tm_menu">
         <li>
-          <a href="http://press.mater.uni-mate.hu/">
+          <a href="http://press.fater.uni-mate.hu/">
             <epc:phrase ref="template/navigation:home"/>
           </a>
         </li>
         <li>
-          <a href="http://press.mater.uni-mate.hu/information.html">
+          <a href="http://press.fater.uni-mate.hu/information.html">
             <epc:phrase ref="template/navigation:about"/>
           </a>
         </li>
         <li>
-          <a href="http://press.mater.uni-mate.hu/view/" menu="ep_tm_menu_browse">
+          <a href="http://press.fater.uni-mate.hu/view/" menu="ep_tm_menu_browse">
             <epc:phrase ref="template/navigation:browse"/>
           </a>
           <ul id="ep_tm_menu_browse" style="display:none;">
             <li>
-              <a href="http://press.mater.uni-mate.hu/view/subjects/">
+              <a href="http://press.fater.uni-mate.hu/view/subjects/">
                 <epc:phrase ref="bin/generate_views:indextitleprefix"/>
                 <epc:phrase ref="viewname_eprint_subjects"/>
               </a>
             </li>
 	<li>
-	     <a href="https://press.mater.uni-mate.hu/cgi/search/advanced">Keresés a repozitóriumban</a>
+	     <a href="https://press.fater.uni-mate.hu/cgi/search/advanced">Keresés a repozitóriumban</a>
 	</li>
       </ul>
 	  </li>
@@ -89,9 +89,9 @@ kiadott dokumentumok teljes szövegű változatainak gyűjtése, archiválása, 
       </div>
     </div>
   	<div class="ep_tm_eprints_logo" style="margin-bottom:10px;">
-<img alt="stamp" src="http://press.mater.uni-mate.hu/images/MTMT_minosito.jpg" width="100px"/>
+<img alt="stamp" src="http://press.fater.uni-mate.hu/images/MTMT_minosito.jpg" width="100px"/>
       <a href="http://www.uni-mate.hu/" target="_blank">  
-         <img alt="MATE" width="300px" src="http://press.mater.uni-mate.hu/images/sitelogo.gif"/>
+         <img alt="MATE" width="300px" src="http://press.fater.uni-mate.hu/images/sitelogo.gif"/>
            </a>
 
       </div>
@@ -101,8 +101,8 @@ kiadott dokumentumok teljes szövegű változatainak gyűjtése, archiválása, 
       <div class="ep_tm_eprints_logo" >
        
         <a href="http://eprints.org/software/">  
-          <img alt="EPrints Logo" src="http://press.mater.uni-mate.hu/images/eprintslogo.png"/>
-          <img alt="EPrints Logo" src="http://press.mater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
+          <img alt="EPrints Logo" src="http://press.fater.uni-mate.hu/images/eprintslogo.png"/>
+          <img alt="EPrints Logo" src="http://press.fater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
         </a>
       </div>
       <epc:phrase ref="template:about_eprints"/>

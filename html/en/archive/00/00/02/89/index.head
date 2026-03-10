@@ -26,10 +26,10 @@
 <meta name="eprints.editors_name" content="Pajor, Ferenc" />
 <meta name="eprints.editors_name" content="Póti, Péter" />
 <meta name="eprints.citation" content="  Bényi, Erzsébet and Bodnár, Ákos and Pajor, Ferenc and Póti, Péter (eds.).  (2024) IX. Gödöllői Állattenyésztési Tudományos Nap : Előadások és poszterek összefoglaló kötete = 9th Scientific Day of Animal Breeding in Gödöllő : Book of Abstracts of Presentations and Posters.     Magyar Agrár- és Élettudományi Egyetem Szent István Campus, Gödöllő. 115Number of Pages.   ISBN 9789636231064      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/289/13/GANT_2024_v4.pdf" />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/289/1/GANT_2024.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/289/13/GANT_2024_v4.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/289/1/GANT_2024.pdf" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/289/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/289/" />
 <meta name="DC.title" content="IX. Gödöllői Állattenyésztési Tudományos Nap : Előadások és poszterek összefoglaló kötete = 9th Scientific Day of Animal Breeding in Gödöllő : Book of Abstracts of Presentations and Posters" />
 <meta name="DC.subject" content="AC Collections. Series. Collected works" />
 <meta name="DC.subject" content="SF Animal culture" />
@@ -44,29 +44,29 @@
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/289/13/GANT_2024_v4.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/289/13/GANT_2024_v4.pdf" />
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/289/1/GANT_2024.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/289/1/GANT_2024.pdf" />
 <meta name="DC.identifier" content="  Bényi, Erzsébet and Bodnár, Ákos and Pajor, Ferenc and Póti, Péter (eds.).  (2024) IX. Gödöllői Állattenyésztési Tudományos Nap : Előadások és poszterek összefoglaló kötete = 9th Scientific Day of Animal Breeding in Gödöllő : Book of Abstracts of Presentations and Posters.     Magyar Agrár- és Élettudományi Egyetem Szent István Campus, Gödöllő. 115Number of Pages.   ISBN 9789636231064      " />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/289/" />
-<link type="text/plain; charset=utf-8" title="Simple Metadata" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/Simple/press-eprint-289.txt" />
-<link type="application/atom+xml;charset=utf-8" title="Atom" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/Atom/press-eprint-289.xml" />
-<link type="text/xml; charset=utf-8" title="MPEG-21 DIDL" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/DIDL/press-eprint-289.xml" />
-<link type="text/plain; charset=utf-8" title="EndNote" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/EndNote/press-eprint-289.enw" />
-<link type="text/plain" title="RDF+N-Triples" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/RDFNT/press-eprint-289.nt" />
-<link type="text/xml; charset=utf-8" title="OpenURL ContextObject" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/ContextObject/press-eprint-289.xml" />
-<link type="text/plain" title="Refer" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/Refer/press-eprint-289.refer" />
-<link type="application/json; charset=utf-8" title="JSON" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/JSON/press-eprint-289.js" />
-<link type="application/rdf+xml" title="RDF+XML" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/RDFXML/press-eprint-289.rdf" />
-<link type="text/csv; charset=utf-8" title="Multiline CSV" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/CSV/press-eprint-289.csv" />
-<link type="text/plain" title="Reference Manager" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/RIS/press-eprint-289.ris" />
-<link type="text/plain; charset=utf-8" title="Dublin Core" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/DC/press-eprint-289.txt" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" title="EP3 XML" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/XML/press-eprint-289.xml" />
-<link type="text/plain; charset=utf-8" title="OpenURL ContextObject in Span" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/COinS/press-eprint-289.txt" />
-<link type="text/plain; charset=utf-8" title="ASCII Citation" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/Text/press-eprint-289.txt" />
-<link type="text/n3" title="RDF+N3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/RDFN3/press-eprint-289.n3" />
-<link type="text/xml; charset=utf-8" title="MODS" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/MODS/press-eprint-289.xml" />
-<link type="text/plain; charset=utf-8" title="BibTeX" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/BibTeX/press-eprint-289.bib" />
-<link type="text/xml; charset=utf-8" title="METS" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/METS/press-eprint-289.xml" />
-<link type="text/html; charset=utf-8" title="HTML Citation" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/289/HTML/press-eprint-289.html" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/289/" />
+<link type="text/plain; charset=utf-8" title="Simple Metadata" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/Simple/press-eprint-289.txt" />
+<link type="application/atom+xml;charset=utf-8" title="Atom" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/Atom/press-eprint-289.xml" />
+<link type="text/xml; charset=utf-8" title="MPEG-21 DIDL" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/DIDL/press-eprint-289.xml" />
+<link type="text/plain; charset=utf-8" title="EndNote" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/EndNote/press-eprint-289.enw" />
+<link type="text/plain" title="RDF+N-Triples" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/RDFNT/press-eprint-289.nt" />
+<link type="text/xml; charset=utf-8" title="OpenURL ContextObject" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/ContextObject/press-eprint-289.xml" />
+<link type="text/plain" title="Refer" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/Refer/press-eprint-289.refer" />
+<link type="application/json; charset=utf-8" title="JSON" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/JSON/press-eprint-289.js" />
+<link type="application/rdf+xml" title="RDF+XML" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/RDFXML/press-eprint-289.rdf" />
+<link type="text/csv; charset=utf-8" title="Multiline CSV" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/CSV/press-eprint-289.csv" />
+<link type="text/plain" title="Reference Manager" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/RIS/press-eprint-289.ris" />
+<link type="text/plain; charset=utf-8" title="Dublin Core" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/DC/press-eprint-289.txt" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" title="EP3 XML" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/XML/press-eprint-289.xml" />
+<link type="text/plain; charset=utf-8" title="OpenURL ContextObject in Span" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/COinS/press-eprint-289.txt" />
+<link type="text/plain; charset=utf-8" title="ASCII Citation" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/Text/press-eprint-289.txt" />
+<link type="text/n3" title="RDF+N3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/RDFN3/press-eprint-289.n3" />
+<link type="text/xml; charset=utf-8" title="MODS" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/MODS/press-eprint-289.xml" />
+<link type="text/plain; charset=utf-8" title="BibTeX" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/BibTeX/press-eprint-289.bib" />
+<link type="text/xml; charset=utf-8" title="METS" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/METS/press-eprint-289.xml" />
+<link type="text/html; charset=utf-8" title="HTML Citation" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/289/HTML/press-eprint-289.html" />

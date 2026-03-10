@@ -15,8 +15,8 @@
 <form method="post" action="https://v2.sherpa.ac.uk/opendoar/policytool/">
   <textarea style="display: none;" name="rName" aria-label="Archive name">Publikációk</textarea>
   <input type="hidden" name="la" value="en" />
-  <input type="hidden" name="rUrl" value="https://press.mater.uni-mate.hu/" />
-  <input type="hidden" name="rOaiBaseUrl" value="https://press.mater.uni-mate.hu/cgi/oai2" />
+  <input type="hidden" name="rUrl" value="https://press.fater.uni-mate.hu/" />
+  <input type="hidden" name="rOaiBaseUrl" value="https://press.fater.uni-mate.hu/cgi/oai2" />
   <input type="submit" value="Start defining policies" class="ep_form_action_button" />
 </form>
 

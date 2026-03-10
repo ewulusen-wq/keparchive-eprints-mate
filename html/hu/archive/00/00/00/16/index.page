@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_23292', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_23292', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_23292', 'right' );" href="https://press.mater.uni-mate.hu/16/2/0.jpg" onfocus="EPJS_ShowPreview( event, 'doc_preview_23292', 'right' );"><img border="0" alt="[thumbnail of 0.jpg]" src="https://press.mater.uni-mate.hu/16/2.hassmallThumbnailVersion/0.jpg" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_23292"><div><div><span><img border="0" alt="" src="https://press.mater.uni-mate.hu/16/2.haspreviewThumbnailVersion/0.jpg" id="doc_preview_23292_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_23292', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_23292', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_23292', 'right' );" href="https://press.fater.uni-mate.hu/16/2/0.jpg" onfocus="EPJS_ShowPreview( event, 'doc_preview_23292', 'right' );"><img border="0" alt="[thumbnail of 0.jpg]" src="https://press.fater.uni-mate.hu/16/2.hassmallThumbnailVersion/0.jpg" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_23292"><div><div><span><img border="0" alt="" src="https://press.fater.uni-mate.hu/16/2.haspreviewThumbnailVersion/0.jpg" id="doc_preview_23292_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/16/2/0.jpg" class="ep_document_link">Letöltés (97kB)</a>
+              <a href="https://press.fater.uni-mate.hu/16/2/0.jpg" class="ep_document_link">Letöltés (97kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/16/2.haslightboxThumbnailVersion/0.jpg">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/16/2.haslightboxThumbnailVersion/0.jpg">Előzetes bemutató</a>
 			  
 			  
               
@@ -76,7 +76,7 @@
           </div>
         
           <div class="ep_summary_page_document">
-            <span><a class="ep_document_link" target="_blank" href="https://press.mater.uni-mate.hu/16/1/KoronaHR_kutata%CC%81si%20jelente%CC%81s%20-%202%20%20fa%CC%81zis_v06_2020.pdf"><img border="0" alt="[thumbnail of KoronaHR_kutatási jelentés - 2  fázis_v06_2020.pdf]" src="https://press.mater.uni-mate.hu/style/images/fileicons/text.png" class="ep_doc_icon" /></a></span>
+            <span><a class="ep_document_link" target="_blank" href="https://press.fater.uni-mate.hu/16/1/KoronaHR_kutata%CC%81si%20jelente%CC%81s%20-%202%20%20fa%CC%81zis_v06_2020.pdf"><img border="0" alt="[thumbnail of KoronaHR_kutatási jelentés - 2  fázis_v06_2020.pdf]" src="https://press.fater.uni-mate.hu/style/images/fileicons/text.png" class="ep_doc_icon" /></a></span>
             <span>
               
 
@@ -94,10 +94,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/16/1/KoronaHR_kutata%CC%81si%20jelente%CC%81s%20-%202%20%20fa%CC%81zis_v06_2020.pdf" class="ep_document_link">Letöltés (2MB)</a>
+              <a href="https://press.fater.uni-mate.hu/16/1/KoronaHR_kutata%CC%81si%20jelente%CC%81s%20-%202%20%20fa%CC%81zis_v06_2020.pdf" class="ep_document_link">Letöltés (2MB)</a>
               
               
-                | <a href="https://press.mater.uni-mate.hu/cgi/request_doc?docid=18">Másolat kérés</a>
+                | <a href="https://press.fater.uni-mate.hu/cgi/request_doc?docid=18">Másolat kérés</a>
               
   
               <ul>
@@ -131,7 +131,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a></td>
         </tr>
       
     
@@ -142,7 +142,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -177,7 +177,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/16">https://press.mater.uni-mate.hu/id/eprint/16</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/16">https://press.fater.uni-mate.hu/id/eprint/16</a></td>
     </tr>
   </table>
 

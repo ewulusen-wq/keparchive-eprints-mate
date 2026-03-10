@@ -34,12 +34,12 @@
 <meta content="Az Európai Zöld Megállapodás stratégiai  céljainak megvalósítását szolgáló tájléptékű megoldások" name="eprints.book_title" />
 <meta content="Centeri, Csaba" name="eprints.editors_name" />
 <meta content="Grónás, Viktor" name="eprints.editors_name" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/351" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/351" name="eprints.related_url_url" />
 <meta content="Teljes kötet" name="eprints.related_url_type" />
 <meta content="  Gergely, Attila and Hahn, István  (2025) Mederszukcessziós vizsgálatok a Szigetközben.   In: Centeri, Csaba and Grónás, Viktor  (eds.)  Az Európai Zöld Megállapodás stratégiai céljainak megvalósítását szolgáló tájléptékű megoldások.    MATE Press, Gödöllő.  pp. 71-76.  ISBN 978-963-623-117-0 (pdf)      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/362/1/11_Gergely_Hahn.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/362/1/11_Gergely_Hahn.pdf" name="eprints.document_url" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta content="https://press.mater.uni-mate.hu/362/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/362/" name="DC.relation" />
 <meta content="Mederszukcessziós vizsgálatok a Szigetközben" name="DC.title" />
 <meta content="Gergely, Attila" name="DC.creator" />
 <meta content="Hahn, István" name="DC.creator" />
@@ -54,27 +54,27 @@
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/362/1/11_Gergely_Hahn.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/362/1/11_Gergely_Hahn.pdf" name="DC.identifier" />
 <meta content="  Gergely, Attila and Hahn, István  (2025) Mederszukcessziós vizsgálatok a Szigetközben.   In: Centeri, Csaba and Grónás, Viktor  (eds.)  Az Európai Zöld Megállapodás stratégiai céljainak megvalósítását szolgáló tájléptékű megoldások.    MATE Press, Gödöllő.  pp. 71-76.  ISBN 978-963-623-117-0 (pdf)      " name="DC.identifier" />
 <meta content="https://doi.org/10.54597/mate.0141" name="DC.relation" />
-<link href="https://press.mater.uni-mate.hu/362/" rel="canonical" />
-<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/COinS/press-eprint-362.txt" rel="alternate" />
-<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/METS/press-eprint-362.xml" rel="alternate" />
-<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/BibTeX/press-eprint-362.bib" rel="alternate" />
-<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/XML/press-eprint-362.xml" rel="alternate" />
-<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/Text/press-eprint-362.txt" rel="alternate" />
-<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/DIDL/press-eprint-362.xml" rel="alternate" />
-<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/JSON/press-eprint-362.js" rel="alternate" />
-<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/HTML/press-eprint-362.html" rel="alternate" />
-<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/EndNote/press-eprint-362.enw" rel="alternate" />
-<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/CSV/press-eprint-362.csv" rel="alternate" />
-<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/Atom/press-eprint-362.xml" rel="alternate" />
-<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/MODS/press-eprint-362.xml" rel="alternate" />
-<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/DC/press-eprint-362.txt" rel="alternate" />
-<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/ContextObject/press-eprint-362.xml" rel="alternate" />
-<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/RDFN3/press-eprint-362.n3" rel="alternate" />
-<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/Refer/press-eprint-362.refer" rel="alternate" />
-<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/RIS/press-eprint-362.ris" rel="alternate" />
-<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/RDFXML/press-eprint-362.rdf" rel="alternate" />
-<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/Simple/press-eprint-362.txt" rel="alternate" />
-<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/362/RDFNT/press-eprint-362.nt" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/362/" rel="canonical" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/COinS/press-eprint-362.txt" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/METS/press-eprint-362.xml" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/BibTeX/press-eprint-362.bib" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/XML/press-eprint-362.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/Text/press-eprint-362.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/DIDL/press-eprint-362.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/JSON/press-eprint-362.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/HTML/press-eprint-362.html" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/EndNote/press-eprint-362.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/CSV/press-eprint-362.csv" rel="alternate" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/Atom/press-eprint-362.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/MODS/press-eprint-362.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/DC/press-eprint-362.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/ContextObject/press-eprint-362.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/RDFN3/press-eprint-362.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/Refer/press-eprint-362.refer" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/RIS/press-eprint-362.ris" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/RDFXML/press-eprint-362.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/Simple/press-eprint-362.txt" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/362/RDFNT/press-eprint-362.nt" rel="alternate" />

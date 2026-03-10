@@ -23,9 +23,9 @@
 <meta content="978-963-623-056-2 (print) 978-963-623-057-9 (pdf)" name="eprints.isbn" />
 <meta content="Szabó, Rubina Tünde" name="eprints.editors_name" />
 <meta content="  Szabó, Rubina Tünde (Szerk.).  (2023) Szaporodásbiológiai és termelési paraméterek javítása különböző állatfajokban : Válogatás a MATE Állattenyésztési Tudományok Intézet hallgatóinak tudományos munkáiból.     Magyar Agrár- és Élettudományi Egyetem, Gödöllő. 45 p.   ISBN 978-963-623-056-2 (print) 978-963-623-057-9 (pdf)      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/155/7/%C3%81TI_teljes_v3.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/155/7/%C3%81TI_teljes_v3.pdf" name="eprints.document_url" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta content="https://press.mater.uni-mate.hu/155/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/155/" name="DC.relation" />
 <meta content="Szaporodásbiológiai és termelési paraméterek javítása különböző állatfajokban : Válogatás a MATE Állattenyésztési Tudományok Intézet hallgatóinak tudományos munkáiból" name="DC.title" />
 <meta content="SF Állattenyésztés" name="DC.subject" />
 <meta content="A Magyar Agrár- és Élettudományi Egyetem Állattenyésztés Tudományos Intézete oktatási, kutatási és innovációs alaptevékenységeket lát el. Mivel azonban Intézetünk mint a mezőgazdasági kultúránk egyik legnagyobb múltú, egyik legerősebb tradícióval bíró ágazatát, az állattenyésztést képviselő intézet, így a tevékenységünk sokkal szerteágazóbb a fentiekben leírtaknál. Nagy hangsúlyt fektetünk többek között a tehetséggondozásra, a gyakorlatiasságra és az állattenyésztési szakma elismertségének növelésére, a közvélemény számára történő bemutatására. A Tudományos Diákköri Konferencia megszervezése mindig nagy ünnep az intézetünk számára, mivel kiemelt figyelem jut a tudományos igényességgel készült munkákra és prezentációkra. Reményünk, hogy minden megválaszolt tudományos kérdés előrébb viszi ágazatunkat, még több információval látja el a tudományos életet és a gyakorlati munkát is. Jelen kötet célja, hogy ezekből a munkákból bemutasson egy válogatást, ezzel elindítva hallgatóinkat a tudományos publikálás útján." name="DC.description" />
@@ -36,26 +36,26 @@
 <meta content="PeerReviewed" name="DC.type" />
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
-<meta content="https://press.mater.uni-mate.hu/155/7/%C3%81TI_teljes_v3.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/155/7/%C3%81TI_teljes_v3.pdf" name="DC.identifier" />
 <meta content="  Szabó, Rubina Tünde (Szerk.).  (2023) Szaporodásbiológiai és termelési paraméterek javítása különböző állatfajokban : Válogatás a MATE Állattenyésztési Tudományok Intézet hallgatóinak tudományos munkáiból.     Magyar Agrár- és Élettudományi Egyetem, Gödöllő. 45 p.   ISBN 978-963-623-056-2 (print) 978-963-623-057-9 (pdf)      " name="DC.identifier" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/155/" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/EndNote/press-eprint-155.enw" title="EndNote" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/METS/press-eprint-155.xml" title="METS" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/ContextObject/press-eprint-155.xml" title="OpenURL ContextObject" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/RIS/press-eprint-155.ris" title="Reference Manager" />
-<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/RDFXML/press-eprint-155.rdf" title="RDF+XML" />
-<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/JSON/press-eprint-155.js" title="JSON" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/BibTeX/press-eprint-155.bib" title="BibTeX" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/XML/press-eprint-155.xml" title="EP3 XML" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/RDFNT/press-eprint-155.nt" title="RDF+N-Triples" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/DC/press-eprint-155.txt" title="Dublin Core" />
-<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/RDFN3/press-eprint-155.n3" title="RDF+N3" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/Text/press-eprint-155.txt" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/HTML/press-eprint-155.html" title="HTML Citation" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/DIDL/press-eprint-155.xml" title="MPEG-21 DIDL" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/COinS/press-eprint-155.txt" title="OpenURL ContextObject in Span" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/MODS/press-eprint-155.xml" title="MODS" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/Refer/press-eprint-155.refer" title="Refer" />
-<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/Atom/press-eprint-155.xml" title="Atom" />
-<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/CSV/press-eprint-155.csv" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/155/Simple/press-eprint-155.txt" title="Simple Metadata" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/155/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/EndNote/press-eprint-155.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/METS/press-eprint-155.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/ContextObject/press-eprint-155.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/RIS/press-eprint-155.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/RDFXML/press-eprint-155.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/JSON/press-eprint-155.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/BibTeX/press-eprint-155.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/XML/press-eprint-155.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/RDFNT/press-eprint-155.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/DC/press-eprint-155.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/RDFN3/press-eprint-155.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/Text/press-eprint-155.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/HTML/press-eprint-155.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/DIDL/press-eprint-155.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/COinS/press-eprint-155.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/MODS/press-eprint-155.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/Refer/press-eprint-155.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/Atom/press-eprint-155.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/CSV/press-eprint-155.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/155/Simple/press-eprint-155.txt" title="Simple Metadata" />

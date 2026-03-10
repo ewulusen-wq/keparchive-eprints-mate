@@ -41,7 +41,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_21', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_21', 'right' );" href="https://press.mater.uni-mate.hu/19/1/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_21', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_21', 'right' );" class="ep_document_link"><img alt="[thumbnail of Lektorált egyetemi jegyzet]" src="https://press.mater.uni-mate.hu/19/1.hassmallThumbnailVersion/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_21" class="ep_preview"><div><div><span><img alt="" id="doc_preview_21_img" src="https://press.mater.uni-mate.hu/19/1.haspreviewThumbnailVersion/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_21', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_21', 'right' );" href="https://press.fater.uni-mate.hu/19/1/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_21', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_21', 'right' );" class="ep_document_link"><img alt="[thumbnail of Lektorált egyetemi jegyzet]" src="https://press.fater.uni-mate.hu/19/1.hassmallThumbnailVersion/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_21" class="ep_preview"><div><div><span><img alt="" id="doc_preview_21_img" src="https://press.fater.uni-mate.hu/19/1.haspreviewThumbnailVersion/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -60,10 +60,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/19/1/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf" class="ep_document_link">Letöltés (2MB)</a>
+              <a href="https://press.fater.uni-mate.hu/19/1/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf" class="ep_document_link">Letöltés (2MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/19/1.haslightboxThumbnailVersion/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/19/1.haslightboxThumbnailVersion/%C3%9Czleti_kommunik%C3%A1ci%C3%B3_Berke-2020.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -99,7 +99,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/HF.html">HF Kereskedelem</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/HF.html">HF Kereskedelem</a></td>
         </tr>
       
     
@@ -110,7 +110,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -145,7 +145,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/19">https://press.mater.uni-mate.hu/id/eprint/19</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/19">https://press.fater.uni-mate.hu/id/eprint/19</a></td>
     </tr>
   </table>
 

@@ -38,7 +38,7 @@
 <meta name="eprints.book_title" content="Az Európai Zöld Megállapodás stratégiai  céljainak megvalósítását szolgáló tájléptékű megoldások" />
 <meta name="eprints.editors_name" content="Centeri, Csaba" />
 <meta name="eprints.editors_name" content="Grónás, Viktor" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/351" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/351" />
 <meta name="eprints.related_url_type" content="Teljes kötet" />
 <meta name="eprints.referencetext" content="Bertók G., Gáti Cs. (2014): Régi idők, új módszerek. Budapest: Archaeolingua, 171 p.
 Czimber, K. (2019): Forest inventory with aerial laser scanning and near photogrammetry – First test results (in Hungarian: Erdőleltározás légi lézeres letapogatással és közel fotogrammetriával – Első tesztek eredményei). In: Molnár Vanda Éva (editor) X: Theory meets practice in GIS, Debrecen, Hun-gary, 2019, pp. 77–81.
@@ -49,9 +49,9 @@ Lovas T., Berényi A., Barsi Á. (2012): Lézerszkennelés. Monográfia. 166 p.
 Tanács E., Barton I., Belényesi M., Burai P., Czimber K., Király G., Kristóf D. (2017): Távérzékelt adattípusok felhasználásának lehetőségei az erdőállapot-értékelésben. In: Standovár T. et al. (szerk.) Erdőál-lapot-értékelés középhegységi erdeinkben. 612 p. Budapest: Duna-Ipoly Nemzeti Park Igazgatóság, pp. 37–107.
 Zlinszky, A., Deák, B., Kania, A., Schroiff, A., Pfeifer, N. (2015): Mapping Natura 2000 Habitat Conservation Status in a Pannonic Salt Steppe with Airborne Laser Scanning. Remote Sensing, 7(3): 2991–3019. https://doi.org/10.3390/rs70302991" />
 <meta name="eprints.citation" content="  Burai, Péter és Lénárt, Csaba és Enyedi, Péter és Tomor, Tamás  (2025) Légi lézerszkennelt adatok alkalmazása a természet- és tájvédelmi kutatásokban.   In: Centeri, Csaba és Grónás, Viktor  (Szerk.)  Az Európai Zöld Megállapodás stratégiai céljainak megvalósítását szolgáló tájléptékű megoldások.    MATE Press, Gödöllő.  pp. 33-38.  ISBN 978-963-623-117-0 (pdf)      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/356/1/05_Burai_et_al.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/356/1/05_Burai_et_al.pdf" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/356/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/356/" />
 <meta name="DC.title" content="Légi lézerszkennelt adatok alkalmazása a természet- és tájvédelmi kutatásokban" />
 <meta name="DC.creator" content="Burai, Péter" />
 <meta name="DC.creator" content="Lénárt, Csaba" />
@@ -68,27 +68,27 @@ Zlinszky, A., Deák, B., Kania, A., Schroiff, A., Pfeifer, N. (2015): Mapping Na
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/356/1/05_Burai_et_al.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/356/1/05_Burai_et_al.pdf" />
 <meta name="DC.identifier" content="  Burai, Péter és Lénárt, Csaba és Enyedi, Péter és Tomor, Tamás  (2025) Légi lézerszkennelt adatok alkalmazása a természet- és tájvédelmi kutatásokban.   In: Centeri, Csaba és Grónás, Viktor  (Szerk.)  Az Európai Zöld Megállapodás stratégiai céljainak megvalósítását szolgáló tájléptékű megoldások.    MATE Press, Gödöllő.  pp. 33-38.  ISBN 978-963-623-117-0 (pdf)      " />
 <meta name="DC.relation" content="https://doi.org/10.54597/mate.0135" />
-<link href="https://press.mater.uni-mate.hu/356/" rel="canonical" />
-<link title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/Atom/press-eprint-356.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
-<link title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/RIS/press-eprint-356.ris" type="text/plain" rel="alternate" />
-<link title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/ContextObject/press-eprint-356.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/METS/press-eprint-356.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/EndNote/press-eprint-356.enw" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/XML/press-eprint-356.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
-<link title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/CSV/press-eprint-356.csv" type="text/csv; charset=utf-8" rel="alternate" />
-<link title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/RDFXML/press-eprint-356.rdf" type="application/rdf+xml" rel="alternate" />
-<link title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/HTML/press-eprint-356.html" type="text/html; charset=utf-8" rel="alternate" />
-<link title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/MODS/press-eprint-356.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/RDFN3/press-eprint-356.n3" type="text/n3" rel="alternate" />
-<link title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/Text/press-eprint-356.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/BibTeX/press-eprint-356.bib" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/Refer/press-eprint-356.refer" type="text/plain" rel="alternate" />
-<link title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/DC/press-eprint-356.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/RDFNT/press-eprint-356.nt" type="text/plain" rel="alternate" />
-<link title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/COinS/press-eprint-356.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/DIDL/press-eprint-356.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/Simple/press-eprint-356.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/356/JSON/press-eprint-356.js" type="application/json; charset=utf-8" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/356/" rel="canonical" />
+<link title="Atom" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/Atom/press-eprint-356.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
+<link title="Reference Manager" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/RIS/press-eprint-356.ris" type="text/plain" rel="alternate" />
+<link title="OpenURL ContextObject" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/ContextObject/press-eprint-356.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="METS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/METS/press-eprint-356.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="EndNote" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/EndNote/press-eprint-356.enw" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="EP3 XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/XML/press-eprint-356.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
+<link title="Multiline CSV" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/CSV/press-eprint-356.csv" type="text/csv; charset=utf-8" rel="alternate" />
+<link title="RDF+XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/RDFXML/press-eprint-356.rdf" type="application/rdf+xml" rel="alternate" />
+<link title="HTML Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/HTML/press-eprint-356.html" type="text/html; charset=utf-8" rel="alternate" />
+<link title="MODS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/MODS/press-eprint-356.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+N3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/RDFN3/press-eprint-356.n3" type="text/n3" rel="alternate" />
+<link title="ASCII Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/Text/press-eprint-356.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="BibTeX" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/BibTeX/press-eprint-356.bib" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Refer" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/Refer/press-eprint-356.refer" type="text/plain" rel="alternate" />
+<link title="Dublin Core" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/DC/press-eprint-356.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="RDF+N-Triples" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/RDFNT/press-eprint-356.nt" type="text/plain" rel="alternate" />
+<link title="OpenURL ContextObject in Span" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/COinS/press-eprint-356.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="MPEG-21 DIDL" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/DIDL/press-eprint-356.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Simple Metadata" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/Simple/press-eprint-356.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="JSON" href="https://press.fater.uni-mate.hu/cgi/export/eprint/356/JSON/press-eprint-356.js" type="application/json; charset=utf-8" rel="alternate" />

@@ -29,12 +29,12 @@
 <meta name="eprints.book_title" content="Az Európai Zöld Megállapodás stratégiái céljainak megvalósítását szolgáló tájlépésű megoldások" />
 <meta name="eprints.editors_name" content="Centeri, Csaba" />
 <meta name="eprints.editors_name" content="Grónás, Viktor" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/351" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/351" />
 <meta name="eprints.related_url_type" content="Teljes kötet" />
 <meta name="eprints.citation" content="  Máté, Klaudia  (2025) A szántóföldek szerepe a zöldinfrastruktúrában.   In: Centeri, Csaba and Grónás, Viktor  (eds.)  Az Európai Zöld Megállapodás stratégiái céljainak megvalósítását szolgáló tájlépésű megoldások.    MATE Press, Gödöllő.  pp. 103-108.  ISBN 978-963-623-117-0 (pdf)      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/367/1/16_M%C3%A1t%C3%A9_K..pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/367/1/16_M%C3%A1t%C3%A9_K..pdf" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/367/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/367/" />
 <meta name="DC.title" content="A szántóföldek szerepe a zöldinfrastruktúrában" />
 <meta name="DC.creator" content="Máté, Klaudia" />
 <meta name="DC.subject" content="GE Environmental Sciences" />
@@ -48,27 +48,27 @@
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/367/1/16_M%C3%A1t%C3%A9_K..pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/367/1/16_M%C3%A1t%C3%A9_K..pdf" />
 <meta name="DC.identifier" content="  Máté, Klaudia  (2025) A szántóföldek szerepe a zöldinfrastruktúrában.   In: Centeri, Csaba and Grónás, Viktor  (eds.)  Az Európai Zöld Megállapodás stratégiái céljainak megvalósítását szolgáló tájlépésű megoldások.    MATE Press, Gödöllő.  pp. 103-108.  ISBN 978-963-623-117-0 (pdf)      " />
 <meta name="DC.relation" content="https://doi.org/10.54597/mate.0146" />
-<link href="https://press.mater.uni-mate.hu/367/" rel="canonical" />
-<link type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/CSV/press-eprint-367.csv" rel="alternate" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/DC/press-eprint-367.txt" rel="alternate" title="Dublin Core" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/Refer/press-eprint-367.refer" rel="alternate" title="Refer" />
-<link type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/RDFN3/press-eprint-367.n3" rel="alternate" title="RDF+N3" />
-<link type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/JSON/press-eprint-367.js" rel="alternate" title="JSON" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/RDFNT/press-eprint-367.nt" rel="alternate" title="RDF+N-Triples" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/ContextObject/press-eprint-367.xml" rel="alternate" title="OpenURL ContextObject" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/BibTeX/press-eprint-367.bib" rel="alternate" title="BibTeX" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/METS/press-eprint-367.xml" rel="alternate" title="METS" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/DIDL/press-eprint-367.xml" rel="alternate" title="MPEG-21 DIDL" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/RIS/press-eprint-367.ris" rel="alternate" title="Reference Manager" />
-<link type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/Atom/press-eprint-367.xml" rel="alternate" title="Atom" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/Text/press-eprint-367.txt" rel="alternate" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/HTML/press-eprint-367.html" rel="alternate" title="HTML Citation" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/Simple/press-eprint-367.txt" rel="alternate" title="Simple Metadata" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/COinS/press-eprint-367.txt" rel="alternate" title="OpenURL ContextObject in Span" />
-<link type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/RDFXML/press-eprint-367.rdf" rel="alternate" title="RDF+XML" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/EndNote/press-eprint-367.enw" rel="alternate" title="EndNote" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/MODS/press-eprint-367.xml" rel="alternate" title="MODS" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/367/XML/press-eprint-367.xml" rel="alternate" title="EP3 XML" />
+<link href="https://press.fater.uni-mate.hu/367/" rel="canonical" />
+<link type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/CSV/press-eprint-367.csv" rel="alternate" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/DC/press-eprint-367.txt" rel="alternate" title="Dublin Core" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/Refer/press-eprint-367.refer" rel="alternate" title="Refer" />
+<link type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/RDFN3/press-eprint-367.n3" rel="alternate" title="RDF+N3" />
+<link type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/JSON/press-eprint-367.js" rel="alternate" title="JSON" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/RDFNT/press-eprint-367.nt" rel="alternate" title="RDF+N-Triples" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/ContextObject/press-eprint-367.xml" rel="alternate" title="OpenURL ContextObject" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/BibTeX/press-eprint-367.bib" rel="alternate" title="BibTeX" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/METS/press-eprint-367.xml" rel="alternate" title="METS" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/DIDL/press-eprint-367.xml" rel="alternate" title="MPEG-21 DIDL" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/RIS/press-eprint-367.ris" rel="alternate" title="Reference Manager" />
+<link type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/Atom/press-eprint-367.xml" rel="alternate" title="Atom" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/Text/press-eprint-367.txt" rel="alternate" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/HTML/press-eprint-367.html" rel="alternate" title="HTML Citation" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/Simple/press-eprint-367.txt" rel="alternate" title="Simple Metadata" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/COinS/press-eprint-367.txt" rel="alternate" title="OpenURL ContextObject in Span" />
+<link type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/RDFXML/press-eprint-367.rdf" rel="alternate" title="RDF+XML" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/EndNote/press-eprint-367.enw" rel="alternate" title="EndNote" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/MODS/press-eprint-367.xml" rel="alternate" title="MODS" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/367/XML/press-eprint-367.xml" rel="alternate" title="EP3 XML" />

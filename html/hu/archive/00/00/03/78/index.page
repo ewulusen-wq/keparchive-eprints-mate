@@ -50,7 +50,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" href="https://press.mater.uni-mate.hu/378/1/27_Val%C3%A1nszki%20et%20al.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_245311', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_245311', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245311', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245311', 'right' );"><img src="https://press.mater.uni-mate.hu/378/1.hassmallThumbnailVersion/27_Val%C3%A1nszki%20et%20al.pdf" border="0" class="ep_doc_icon" alt="[thumbnail of Szaktanulmány]" /></a><div id="doc_preview_245311" class="ep_preview"><div><div><span><img id="doc_preview_245311_img" src="https://press.mater.uni-mate.hu/378/1.haspreviewThumbnailVersion/27_Val%C3%A1nszki%20et%20al.pdf" border="0" class="ep_preview_image" alt="" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a target="_blank" href="https://press.fater.uni-mate.hu/378/1/27_Val%C3%A1nszki%20et%20al.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_245311', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_245311', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245311', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245311', 'right' );"><img src="https://press.fater.uni-mate.hu/378/1.hassmallThumbnailVersion/27_Val%C3%A1nszki%20et%20al.pdf" border="0" class="ep_doc_icon" alt="[thumbnail of Szaktanulmány]" /></a><div id="doc_preview_245311" class="ep_preview"><div><div><span><img id="doc_preview_245311_img" src="https://press.fater.uni-mate.hu/378/1.haspreviewThumbnailVersion/27_Val%C3%A1nszki%20et%20al.pdf" border="0" class="ep_preview_image" alt="" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -69,10 +69,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/378/1/27_Val%C3%A1nszki%20et%20al.pdf" class="ep_document_link">Letöltés (707kB)</a>
+              <a href="https://press.fater.uni-mate.hu/378/1/27_Val%C3%A1nszki%20et%20al.pdf" class="ep_document_link">Letöltés (707kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/378/1.haslightboxThumbnailVersion/27_Val%C3%A1nszki%20et%20al.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/378/1.haslightboxThumbnailVersion/27_Val%C3%A1nszki%20et%20al.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -113,7 +113,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/G.html">G Földrajz, antropológia, kikapcsolódás</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/GE.html">GE Környezettudomány</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/G.html">G Földrajz, antropológia, kikapcsolódás</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/GE.html">GE Környezettudomány</a></td>
         </tr>
       
     
@@ -124,7 +124,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -163,13 +163,13 @@
       
         <tr>
           <th align="right">Kapcsolódó URL:</th>
-          <td valign="top"><ul><li><a href="https://press.mater.uni-mate.hu/id/eprint/351">Teljes kötet</a></li></ul></td>
+          <td valign="top"><ul><li><a href="https://press.fater.uni-mate.hu/id/eprint/351">Teljes kötet</a></li></ul></td>
         </tr>
       
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/378">https://press.mater.uni-mate.hu/id/eprint/378</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/378">https://press.fater.uni-mate.hu/id/eprint/378</a></td>
     </tr>
   </table>
 

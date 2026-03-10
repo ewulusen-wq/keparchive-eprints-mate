@@ -51,7 +51,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_207590', 'right' );" target="_blank" href="https://press.mater.uni-mate.hu/82/1/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" onmouseout="EPJS_HidePreview( event, 'doc_preview_207590', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_207590', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_207590', 'right' );"><img alt="[thumbnail of Szaktanulmány]" class="ep_doc_icon" border="0" src="https://press.mater.uni-mate.hu/82/1.hassmallThumbnailVersion/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" /></a><div class="ep_preview" id="doc_preview_207590"><div><div><span><img alt="" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/82/1.haspreviewThumbnailVersion/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" id="doc_preview_207590_img" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_207590', 'right' );" target="_blank" href="https://press.fater.uni-mate.hu/82/1/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" onmouseout="EPJS_HidePreview( event, 'doc_preview_207590', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_207590', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_207590', 'right' );"><img alt="[thumbnail of Szaktanulmány]" class="ep_doc_icon" border="0" src="https://press.fater.uni-mate.hu/82/1.hassmallThumbnailVersion/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" /></a><div class="ep_preview" id="doc_preview_207590"><div><div><span><img alt="" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/82/1.haspreviewThumbnailVersion/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" id="doc_preview_207590_img" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -70,10 +70,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/82/1/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" class="ep_document_link">Download (3MB)</a>
+              <a href="https://press.fater.uni-mate.hu/82/1/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" class="ep_document_link">Download (3MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/82/1.haslightboxThumbnailVersion/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/82/1.haslightboxThumbnailVersion/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf">Preview</a>
 			  
 			  
               
@@ -109,7 +109,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/L1.html">L Education (General)</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB2300.html">LB2300 Higher Education</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LC5201.html">LC5201 Education extension. Adult education. Continuing education</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/L1.html">L Education (General)</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB2300.html">LB2300 Higher Education</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LC5201.html">LC5201 Education extension. Adult education. Continuing education</a></td>
         </tr>
       
     
@@ -120,7 +120,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -159,13 +159,13 @@
       
         <tr>
           <th align="right">Related URLs:</th>
-          <td valign="top"><ul><li><a href="https://press.mater.uni-mate.hu/id/eprint/81">Teljes könyv</a></li></ul></td>
+          <td valign="top"><ul><li><a href="https://press.fater.uni-mate.hu/id/eprint/81">Teljes könyv</a></li></ul></td>
         </tr>
       
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/82">https://press.mater.uni-mate.hu/id/eprint/82</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/82">https://press.fater.uni-mate.hu/id/eprint/82</a></td>
     </tr>
   </table>
 

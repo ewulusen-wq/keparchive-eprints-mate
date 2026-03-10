@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onfocus="EPJS_ShowPreview( event, 'doc_preview_244983', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244983', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244983', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244983', 'right' );" href="https://press.mater.uni-mate.hu/289/13/GANT_2024_v4.pdf" target="_blank"><img class="ep_doc_icon" border="0" alt="[thumbnail of Konferenciakötet]" src="https://press.mater.uni-mate.hu/289/13.hassmallThumbnailVersion/GANT_2024_v4.pdf" /></a><div class="ep_preview" id="doc_preview_244983"><div><div><span><img class="ep_preview_image" border="0" alt="" id="doc_preview_244983_img" src="https://press.mater.uni-mate.hu/289/13.haspreviewThumbnailVersion/GANT_2024_v4.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onfocus="EPJS_ShowPreview( event, 'doc_preview_244983', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244983', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244983', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244983', 'right' );" href="https://press.fater.uni-mate.hu/289/13/GANT_2024_v4.pdf" target="_blank"><img class="ep_doc_icon" border="0" alt="[thumbnail of Konferenciakötet]" src="https://press.fater.uni-mate.hu/289/13.hassmallThumbnailVersion/GANT_2024_v4.pdf" /></a><div class="ep_preview" id="doc_preview_244983"><div><div><span><img class="ep_preview_image" border="0" alt="" id="doc_preview_244983_img" src="https://press.fater.uni-mate.hu/289/13.haspreviewThumbnailVersion/GANT_2024_v4.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/289/13/GANT_2024_v4.pdf" class="ep_document_link">Letöltés (2MB)</a>
+              <a href="https://press.fater.uni-mate.hu/289/13/GANT_2024_v4.pdf" class="ep_document_link">Letöltés (2MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/289/13.haslightboxThumbnailVersion/GANT_2024_v4.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/289/13.haslightboxThumbnailVersion/GANT_2024_v4.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -76,7 +76,7 @@
           </div>
         
           <div class="ep_summary_page_document">
-            <span><a class="ep_document_link" href="https://press.mater.uni-mate.hu/289/1/GANT_2024.pdf" target="_blank"><img class="ep_doc_icon" border="0" alt="[thumbnail of Konferenciakötet]" src="https://press.mater.uni-mate.hu/style/images/fileicons/text.png" /></a></span>
+            <span><a class="ep_document_link" href="https://press.fater.uni-mate.hu/289/1/GANT_2024.pdf" target="_blank"><img class="ep_doc_icon" border="0" alt="[thumbnail of Konferenciakötet]" src="https://press.fater.uni-mate.hu/style/images/fileicons/text.png" /></a></span>
             <span>
               
 
@@ -94,7 +94,7 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/289/1/GANT_2024.pdf" class="ep_document_link">Letöltés (2MB)</a>
+              <a href="https://press.fater.uni-mate.hu/289/1/GANT_2024.pdf" class="ep_document_link">Letöltés (2MB)</a>
               
               
   
@@ -129,7 +129,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/A.html">A Általános művek</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/AC.html">AC Gyűjteményes munkák, sorozatok</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/SF.html">SF Állattenyésztés</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/A.html">A Általános művek</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/AC.html">AC Gyűjteményes munkák, sorozatok</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/SF.html">SF Állattenyésztés</a></td>
         </tr>
       
     
@@ -140,7 +140,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -170,7 +170,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/289">https://press.mater.uni-mate.hu/id/eprint/289</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/289">https://press.fater.uni-mate.hu/id/eprint/289</a></td>
     </tr>
   </table>
 

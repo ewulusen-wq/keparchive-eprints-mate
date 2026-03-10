@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_215511', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_215511', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_215511', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_215511', 'right' );" href="https://press.mater.uni-mate.hu/174/1/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" target="_blank"><img alt="[thumbnail of Szakkönyv]" class="ep_doc_icon" border="0" src="https://press.mater.uni-mate.hu/174/1.hassmallThumbnailVersion/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" /></a><div id="doc_preview_215511" class="ep_preview"><div><div><span><img alt="" id="doc_preview_215511_img" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/174/1.haspreviewThumbnailVersion/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_215511', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_215511', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_215511', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_215511', 'right' );" href="https://press.fater.uni-mate.hu/174/1/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" target="_blank"><img alt="[thumbnail of Szakkönyv]" class="ep_doc_icon" border="0" src="https://press.fater.uni-mate.hu/174/1.hassmallThumbnailVersion/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" /></a><div id="doc_preview_215511" class="ep_preview"><div><div><span><img alt="" id="doc_preview_215511_img" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/174/1.haspreviewThumbnailVersion/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/174/1/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" class="ep_document_link">Letöltés (1MB)</a>
+              <a href="https://press.fater.uni-mate.hu/174/1/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" class="ep_document_link">Letöltés (1MB)</a>
               
 			  
-			  | <a href="https://press.mater.uni-mate.hu/174/1.haslightboxThumbnailVersion/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" rel="lightbox[docs] nofollow">Előzetes bemutató</a>
+			  | <a href="https://press.fater.uni-mate.hu/174/1.haslightboxThumbnailVersion/E_book_Borb%C3%A9lyov%C3%A1_0202.pdf" rel="lightbox[docs] nofollow">Előzetes bemutató</a>
 			  
 			  
               
@@ -100,7 +100,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/LB1501.html">LB1501 Alapfokú oktatás</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/LB1501.html">LB1501 Alapfokú oktatás</a></td>
         </tr>
       
     
@@ -111,7 +111,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -146,7 +146,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/174">https://press.mater.uni-mate.hu/id/eprint/174</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/174">https://press.fater.uni-mate.hu/id/eprint/174</a></td>
     </tr>
   </table>
 

@@ -33,12 +33,12 @@
 <meta name="eprints.isbn" content="978-963-623-140-8" />
 <meta name="eprints.book_title" content="Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért" />
 <meta name="eprints.editors_name" content="Kovács, Melinda" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/614" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/614" />
 <meta name="eprints.related_url_type" content="Teljes kötet" />
 <meta name="eprints.citation" content="  Szabó, András és Omeralfaroug, Ali  (2026) Alacsony dózisú fumonizin B1 mikotoxin máj- és vesekárosító hatása modell- és háziállatokban (szövettan, lipidek összetételében bekövetkező változások, peroxidatív károsodások).   In: Kovács, Melinda (Szerk.)  Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért.    MATE Press, Gödöllő.  pp. 133-160.  ISBN 978-963-623-140-8      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/621/1/005_Szab%C3%B3%20A.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/621/1/005_Szab%C3%B3%20A.pdf" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/621/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/621/" />
 <meta name="DC.title" content="Alacsony dózisú fumonizin B1 mikotoxin máj- és vesekárosító hatása modell- és háziállatokban (szövettan, lipidek összetételében bekövetkező változások, peroxidatív károsodások)" />
 <meta name="DC.creator" content="Szabó, András" />
 <meta name="DC.creator" content="Omeralfaroug, Ali" />
@@ -55,27 +55,27 @@
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/621/1/005_Szab%C3%B3%20A.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/621/1/005_Szab%C3%B3%20A.pdf" />
 <meta name="DC.identifier" content="  Szabó, András és Omeralfaroug, Ali  (2026) Alacsony dózisú fumonizin B1 mikotoxin máj- és vesekárosító hatása modell- és háziállatokban (szövettan, lipidek összetételében bekövetkező változások, peroxidatív károsodások).   In: Kovács, Melinda (Szerk.)  Mikotoxinok és klímaváltozás : Kockázatok és megoldások a biztonságos élelmiszerért.    MATE Press, Gödöllő.  pp. 133-160.  ISBN 978-963-623-140-8      " />
 <meta name="DC.relation" content="https://doi.org/10.54597/mate.0181" />
-<link href="https://press.mater.uni-mate.hu/621/" rel="canonical" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/RDFNT/press-eprint-621.nt" title="RDF+N-Triples" rel="alternate" />
-<link type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/RDFXML/press-eprint-621.rdf" title="RDF+XML" rel="alternate" />
-<link type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/RDFN3/press-eprint-621.n3" title="RDF+N3" rel="alternate" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/METS/press-eprint-621.xml" title="METS" rel="alternate" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/RIS/press-eprint-621.ris" title="Reference Manager" rel="alternate" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/Simple/press-eprint-621.txt" title="Simple Metadata" rel="alternate" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/EndNote/press-eprint-621.enw" title="EndNote" rel="alternate" />
-<link type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/JSON/press-eprint-621.js" title="JSON" rel="alternate" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/Refer/press-eprint-621.refer" title="Refer" rel="alternate" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/DIDL/press-eprint-621.xml" title="MPEG-21 DIDL" rel="alternate" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/COinS/press-eprint-621.txt" title="OpenURL ContextObject in Span" rel="alternate" />
-<link type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/Atom/press-eprint-621.xml" title="Atom" rel="alternate" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/DC/press-eprint-621.txt" title="Dublin Core" rel="alternate" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/XML/press-eprint-621.xml" title="EP3 XML" rel="alternate" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/ContextObject/press-eprint-621.xml" title="OpenURL ContextObject" rel="alternate" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/BibTeX/press-eprint-621.bib" title="BibTeX" rel="alternate" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/MODS/press-eprint-621.xml" title="MODS" rel="alternate" />
-<link type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/CSV/press-eprint-621.csv" title="Multiline CSV" rel="alternate" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/Text/press-eprint-621.txt" title="ASCII Citation" rel="alternate" />
-<link type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/621/HTML/press-eprint-621.html" title="HTML Citation" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/621/" rel="canonical" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/RDFNT/press-eprint-621.nt" title="RDF+N-Triples" rel="alternate" />
+<link type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/RDFXML/press-eprint-621.rdf" title="RDF+XML" rel="alternate" />
+<link type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/RDFN3/press-eprint-621.n3" title="RDF+N3" rel="alternate" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/METS/press-eprint-621.xml" title="METS" rel="alternate" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/RIS/press-eprint-621.ris" title="Reference Manager" rel="alternate" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/Simple/press-eprint-621.txt" title="Simple Metadata" rel="alternate" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/EndNote/press-eprint-621.enw" title="EndNote" rel="alternate" />
+<link type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/JSON/press-eprint-621.js" title="JSON" rel="alternate" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/Refer/press-eprint-621.refer" title="Refer" rel="alternate" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/DIDL/press-eprint-621.xml" title="MPEG-21 DIDL" rel="alternate" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/COinS/press-eprint-621.txt" title="OpenURL ContextObject in Span" rel="alternate" />
+<link type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/Atom/press-eprint-621.xml" title="Atom" rel="alternate" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/DC/press-eprint-621.txt" title="Dublin Core" rel="alternate" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/XML/press-eprint-621.xml" title="EP3 XML" rel="alternate" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/ContextObject/press-eprint-621.xml" title="OpenURL ContextObject" rel="alternate" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/BibTeX/press-eprint-621.bib" title="BibTeX" rel="alternate" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/MODS/press-eprint-621.xml" title="MODS" rel="alternate" />
+<link type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/CSV/press-eprint-621.csv" title="Multiline CSV" rel="alternate" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/Text/press-eprint-621.txt" title="ASCII Citation" rel="alternate" />
+<link type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/621/HTML/press-eprint-621.html" title="HTML Citation" rel="alternate" />

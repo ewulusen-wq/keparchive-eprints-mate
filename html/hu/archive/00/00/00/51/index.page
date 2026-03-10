@@ -45,7 +45,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_58', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_58', 'right' );" href="https://press.mater.uni-mate.hu/51/1/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_58', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_58', 'right' );" class="ep_document_link"><img alt="[thumbnail of Konferenciakötet]" src="https://press.mater.uni-mate.hu/51/1.hassmallThumbnailVersion/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_58" class="ep_preview"><div><div><span><img alt="" id="doc_preview_58_img" src="https://press.mater.uni-mate.hu/51/1.haspreviewThumbnailVersion/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_58', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_58', 'right' );" href="https://press.fater.uni-mate.hu/51/1/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_58', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_58', 'right' );" class="ep_document_link"><img alt="[thumbnail of Konferenciakötet]" src="https://press.fater.uni-mate.hu/51/1.hassmallThumbnailVersion/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_58" class="ep_preview"><div><div><span><img alt="" id="doc_preview_58_img" src="https://press.fater.uni-mate.hu/51/1.haspreviewThumbnailVersion/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -64,10 +64,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/51/1/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf" class="ep_document_link">Letöltés (3MB)</a>
+              <a href="https://press.fater.uni-mate.hu/51/1/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf" class="ep_document_link">Letöltés (3MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/51/1.haslightboxThumbnailVersion/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/51/1.haslightboxThumbnailVersion/Hal%C3%A1szatfejleszt%C3%A9s_39_2022m%C3%A1jus.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -103,7 +103,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/SH.html">SH Vizi növény-és állattartás, halászat, sporthorgászat</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/SH.html">SH Vizi növény-és állattartás, halászat, sporthorgászat</a></td>
         </tr>
       
     
@@ -114,7 +114,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -144,7 +144,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/51">https://press.mater.uni-mate.hu/id/eprint/51</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/51">https://press.fater.uni-mate.hu/id/eprint/51</a></td>
     </tr>
   </table>
 

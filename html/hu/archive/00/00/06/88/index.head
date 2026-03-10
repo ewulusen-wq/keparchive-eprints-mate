@@ -41,9 +41,9 @@
 <meta content="TRUE" name="eprints.refereed" />
 <meta content="1589-4673" name="eprints.issn" />
 <meta content="  Frolova, Marina és Frantál, Bohumil és Ferrario, Viviana és Centeri, Csaba és Herrero-Luque, Daniel és Grónás, Viktor és Martinát, Stanislav és Puttilli, Matteo és Almeida, Lucas és D'Angelo, Fabrizio  (2019) Diverse energy transition patterns in Central and Southern Europe : A comparative study of institutional landscapes in the Czech Republic, Hungary, Italy, and Spain.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 17 (Specia). pp. 65-89.  ISSN 1589-4673     " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/688/1/05_Diverse.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/688/1/05_Diverse.pdf" name="eprints.document_url" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta content="https://press.mater.uni-mate.hu/688/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/688/" name="DC.relation" />
 <meta content="Diverse energy transition patterns in Central and Southern Europe : A comparative study of institutional landscapes in the Czech Republic, Hungary, Italy, and Spain" name="DC.title" />
 <meta content="Frolova, Marina" name="DC.creator" />
 <meta content="Frantál, Bohumil" name="DC.creator" />
@@ -64,29 +64,29 @@
 <meta content="text" name="DC.format" />
 <meta content="en" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/688/1/05_Diverse.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/688/1/05_Diverse.pdf" name="DC.identifier" />
 <meta content="  Frolova, Marina és Frantál, Bohumil és Ferrario, Viviana és Centeri, Csaba és Herrero-Luque, Daniel és Grónás, Viktor és Martinát, Stanislav és Puttilli, Matteo és Almeida, Lucas és D'Angelo, Fabrizio  (2019) Diverse energy transition patterns in Central and Southern Europe : A comparative study of institutional landscapes in the Czech Republic, Hungary, Italy, and Spain.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 17 (Specia). pp. 65-89.  ISSN 1589-4673     " name="DC.identifier" />
 <meta content="https://doi.org/10.56617/tl.3571" name="DC.relation" />
 <meta content="MTMT:31193987 DOI:10.56617/tl.3571" name="DC.relation" />
 <meta content="MTMT:31193987 DOI:10.56617/tl.3571" name="DC.identifier" />
-<link href="https://press.mater.uni-mate.hu/688/" rel="canonical" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/RDFN3/press-eprint-688.n3" title="RDF+N3" rel="alternate" type="text/n3" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/RIS/press-eprint-688.ris" title="Reference Manager" rel="alternate" type="text/plain" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/EndNote/press-eprint-688.enw" title="EndNote" rel="alternate" type="text/plain; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/Atom/press-eprint-688.xml" title="Atom" rel="alternate" type="application/atom+xml;charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/XML/press-eprint-688.xml" title="EP3 XML" rel="alternate" type="application/vnd.eprints.data+xml; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/ContextObject/press-eprint-688.xml" title="OpenURL ContextObject" rel="alternate" type="text/xml; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/BibTeX/press-eprint-688.bib" title="BibTeX" rel="alternate" type="text/plain; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/CSV/press-eprint-688.csv" title="Multiline CSV" rel="alternate" type="text/csv; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/Text/press-eprint-688.txt" title="ASCII Citation" rel="alternate" type="text/plain; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/HTML/press-eprint-688.html" title="HTML Citation" rel="alternate" type="text/html; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/RDFNT/press-eprint-688.nt" title="RDF+N-Triples" rel="alternate" type="text/plain" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/RDFXML/press-eprint-688.rdf" title="RDF+XML" rel="alternate" type="application/rdf+xml" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/METS/press-eprint-688.xml" title="METS" rel="alternate" type="text/xml; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/Simple/press-eprint-688.txt" title="Simple Metadata" rel="alternate" type="text/plain; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/JSON/press-eprint-688.js" title="JSON" rel="alternate" type="application/json; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/Refer/press-eprint-688.refer" title="Refer" rel="alternate" type="text/plain" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/DIDL/press-eprint-688.xml" title="MPEG-21 DIDL" rel="alternate" type="text/xml; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/COinS/press-eprint-688.txt" title="OpenURL ContextObject in Span" rel="alternate" type="text/plain; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/DC/press-eprint-688.txt" title="Dublin Core" rel="alternate" type="text/plain; charset=utf-8" />
-<link href="https://press.mater.uni-mate.hu/cgi/export/eprint/688/MODS/press-eprint-688.xml" title="MODS" rel="alternate" type="text/xml; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/688/" rel="canonical" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/RDFN3/press-eprint-688.n3" title="RDF+N3" rel="alternate" type="text/n3" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/RIS/press-eprint-688.ris" title="Reference Manager" rel="alternate" type="text/plain" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/EndNote/press-eprint-688.enw" title="EndNote" rel="alternate" type="text/plain; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/Atom/press-eprint-688.xml" title="Atom" rel="alternate" type="application/atom+xml;charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/XML/press-eprint-688.xml" title="EP3 XML" rel="alternate" type="application/vnd.eprints.data+xml; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/ContextObject/press-eprint-688.xml" title="OpenURL ContextObject" rel="alternate" type="text/xml; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/BibTeX/press-eprint-688.bib" title="BibTeX" rel="alternate" type="text/plain; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/CSV/press-eprint-688.csv" title="Multiline CSV" rel="alternate" type="text/csv; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/Text/press-eprint-688.txt" title="ASCII Citation" rel="alternate" type="text/plain; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/HTML/press-eprint-688.html" title="HTML Citation" rel="alternate" type="text/html; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/RDFNT/press-eprint-688.nt" title="RDF+N-Triples" rel="alternate" type="text/plain" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/RDFXML/press-eprint-688.rdf" title="RDF+XML" rel="alternate" type="application/rdf+xml" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/METS/press-eprint-688.xml" title="METS" rel="alternate" type="text/xml; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/Simple/press-eprint-688.txt" title="Simple Metadata" rel="alternate" type="text/plain; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/JSON/press-eprint-688.js" title="JSON" rel="alternate" type="application/json; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/Refer/press-eprint-688.refer" title="Refer" rel="alternate" type="text/plain" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/DIDL/press-eprint-688.xml" title="MPEG-21 DIDL" rel="alternate" type="text/xml; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/COinS/press-eprint-688.txt" title="OpenURL ContextObject in Span" rel="alternate" type="text/plain; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/DC/press-eprint-688.txt" title="Dublin Core" rel="alternate" type="text/plain; charset=utf-8" />
+<link href="https://press.fater.uni-mate.hu/cgi/export/eprint/688/MODS/press-eprint-688.xml" title="MODS" rel="alternate" type="text/xml; charset=utf-8" />

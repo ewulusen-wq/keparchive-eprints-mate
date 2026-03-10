@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_245861', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245861', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_245861', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_245861', 'right' );" href="https://press.mater.uni-mate.hu/441/6/Classical_Scholars_2025.pdf"><img border="0" alt="[thumbnail of Tanulmánykötet]" class="ep_doc_icon" src="https://press.mater.uni-mate.hu/441/6.hassmallThumbnailVersion/Classical_Scholars_2025.pdf" /></a><div id="doc_preview_245861" class="ep_preview"><div><div><span><img id="doc_preview_245861_img" alt="" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/441/6.haspreviewThumbnailVersion/Classical_Scholars_2025.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_245861', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245861', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_245861', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_245861', 'right' );" href="https://press.fater.uni-mate.hu/441/6/Classical_Scholars_2025.pdf"><img border="0" alt="[thumbnail of Tanulmánykötet]" class="ep_doc_icon" src="https://press.fater.uni-mate.hu/441/6.hassmallThumbnailVersion/Classical_Scholars_2025.pdf" /></a><div id="doc_preview_245861" class="ep_preview"><div><div><span><img id="doc_preview_245861_img" alt="" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/441/6.haspreviewThumbnailVersion/Classical_Scholars_2025.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/441/6/Classical_Scholars_2025.pdf" class="ep_document_link">Download (2MB)</a>
+              <a href="https://press.fater.uni-mate.hu/441/6/Classical_Scholars_2025.pdf" class="ep_document_link">Download (2MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/441/6.haslightboxThumbnailVersion/Classical_Scholars_2025.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/441/6.haslightboxThumbnailVersion/Classical_Scholars_2025.pdf">Preview</a>
 			  
 			  
               
@@ -100,7 +100,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/A.html">A General Works</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/AC.html">AC Collections. Series. Collected works</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Economic Theory</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/HD.html">HD Industries. Land use. Labor</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/HD28.html">HD28 Management. Industrial Management</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/A.html">A General Works</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/AC.html">AC Collections. Series. Collected works</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Economic Theory</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/HD.html">HD Industries. Land use. Labor</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/HD28.html">HD28 Management. Industrial Management</a></td>
         </tr>
       
     
@@ -111,7 +111,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -146,7 +146,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/441">https://press.mater.uni-mate.hu/id/eprint/441</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/441">https://press.fater.uni-mate.hu/id/eprint/441</a></td>
     </tr>
   </table>
 

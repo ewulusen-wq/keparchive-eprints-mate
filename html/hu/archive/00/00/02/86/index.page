@@ -35,7 +35,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244950', 'right' );" href="https://press.mater.uni-mate.hu/286/1/1_Fajt-B%C3%A1nhegyi_v3.pdf" onmouseout="EPJS_HidePreview( event, 'doc_preview_244950', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_244950', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244950', 'right' );"><img border="0" alt="[thumbnail of Szakcikk]" class="ep_doc_icon" src="https://press.mater.uni-mate.hu/286/1.hassmallThumbnailVersion/1_Fajt-B%C3%A1nhegyi_v3.pdf" /></a><div class="ep_preview" id="doc_preview_244950"><div><div><span><img border="0" alt="" class="ep_preview_image" src="https://press.mater.uni-mate.hu/286/1.haspreviewThumbnailVersion/1_Fajt-B%C3%A1nhegyi_v3.pdf" id="doc_preview_244950_img" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a target="_blank" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244950', 'right' );" href="https://press.fater.uni-mate.hu/286/1/1_Fajt-B%C3%A1nhegyi_v3.pdf" onmouseout="EPJS_HidePreview( event, 'doc_preview_244950', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_244950', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244950', 'right' );"><img border="0" alt="[thumbnail of Szakcikk]" class="ep_doc_icon" src="https://press.fater.uni-mate.hu/286/1.hassmallThumbnailVersion/1_Fajt-B%C3%A1nhegyi_v3.pdf" /></a><div class="ep_preview" id="doc_preview_244950"><div><div><span><img border="0" alt="" class="ep_preview_image" src="https://press.fater.uni-mate.hu/286/1.haspreviewThumbnailVersion/1_Fajt-B%C3%A1nhegyi_v3.pdf" id="doc_preview_244950_img" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -54,10 +54,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/286/1/1_Fajt-B%C3%A1nhegyi_v3.pdf" class="ep_document_link">Letöltés (279kB)</a>
+              <a href="https://press.fater.uni-mate.hu/286/1/1_Fajt-B%C3%A1nhegyi_v3.pdf" class="ep_document_link">Letöltés (279kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/286/1.haslightboxThumbnailVersion/1_Fajt-B%C3%A1nhegyi_v3.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/286/1.haslightboxThumbnailVersion/1_Fajt-B%C3%A1nhegyi_v3.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -98,7 +98,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/LB2300.html">Lb2300 Felsőoktatás</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Oktatás elmélete és gyakorlata</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/LB2300.html">Lb2300 Felsőoktatás</a></td>
         </tr>
       
     
@@ -109,7 +109,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -154,7 +154,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/286">https://press.mater.uni-mate.hu/id/eprint/286</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/286">https://press.fater.uni-mate.hu/id/eprint/286</a></td>
     </tr>
   </table>
 

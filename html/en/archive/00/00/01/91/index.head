@@ -33,20 +33,20 @@
 <meta content="Csonka, Arnold" name="eprints.editors_name" />
 <meta content="Koponicsné Györke, Diána" name="eprints.editors_name" />
 <meta content="Nagy, Mónika Zita" name="eprints.editors_name" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/178" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/193" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/188" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/177" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/189" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/178" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/193" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/188" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/177" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/189" name="eprints.related_url_url" />
 <meta content="Hungarian language version DOI: https://doi.org/10.54597/mate.0027" name="eprints.related_url_type" />
 <meta content="Croatian language version DOI: https://doi.org/10.54597/mate.0075" name="eprints.related_url_type" />
 <meta content="Complete book DOI: https://doi.org/10.54597/mate.0058" name="eprints.related_url_type" />
 <meta content="Complete book (Hungarian language version) DOI: https://doi.org/10.54597/mate.0042" name="eprints.related_url_type" />
 <meta content="Complete book (Croatian language version) DOI: https://doi.org/10.54597/mate.0074" name="eprints.related_url_type" />
 <meta content="  Srečec, Siniša and Jelen, Tatjana  (2022) Agricultural food chains.   In: Srečec, Siniša and Csonka, Arnold and Koponicsné Györke, Diána and Nagy, Mónika Zita  (eds.)  Management of agri-food chains.    MATE Press, Gödöllő.  pp. 11-21.  ISBN 978-963-623-023-4      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/191/1/Ch1.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/191/1/Ch1.pdf" name="eprints.document_url" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta content="https://press.mater.uni-mate.hu/191/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/191/" name="DC.relation" />
 <meta content="Agricultural food chains" name="DC.title" />
 <meta content="Srečec, Siniša" name="DC.creator" />
 <meta content="Jelen, Tatjana" name="DC.creator" />
@@ -62,29 +62,29 @@
 <meta content="text" name="DC.format" />
 <meta content="en" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/191/1/Ch1.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/191/1/Ch1.pdf" name="DC.identifier" />
 <meta content="  Srečec, Siniša and Jelen, Tatjana  (2022) Agricultural food chains.   In: Srečec, Siniša and Csonka, Arnold and Koponicsné Györke, Diána and Nagy, Mónika Zita  (eds.)  Management of agri-food chains.    MATE Press, Gödöllő.  pp. 11-21.  ISBN 978-963-623-023-4      " name="DC.identifier" />
 <meta content="https://doi.org/10.54597/mate.0059" name="DC.relation" />
 <meta content="10.54597/mate.0059" name="DC.relation" />
 <meta content="10.54597/mate.0059" name="DC.identifier" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/191/" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/EndNote/press-eprint-191.enw" title="EndNote" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/METS/press-eprint-191.xml" title="METS" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/ContextObject/press-eprint-191.xml" title="OpenURL ContextObject" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/RIS/press-eprint-191.ris" title="Reference Manager" />
-<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/RDFXML/press-eprint-191.rdf" title="RDF+XML" />
-<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/JSON/press-eprint-191.js" title="JSON" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/BibTeX/press-eprint-191.bib" title="BibTeX" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/XML/press-eprint-191.xml" title="EP3 XML" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/RDFNT/press-eprint-191.nt" title="RDF+N-Triples" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/DC/press-eprint-191.txt" title="Dublin Core" />
-<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/RDFN3/press-eprint-191.n3" title="RDF+N3" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/Text/press-eprint-191.txt" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/HTML/press-eprint-191.html" title="HTML Citation" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/DIDL/press-eprint-191.xml" title="MPEG-21 DIDL" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/COinS/press-eprint-191.txt" title="OpenURL ContextObject in Span" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/MODS/press-eprint-191.xml" title="MODS" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/Refer/press-eprint-191.refer" title="Refer" />
-<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/Atom/press-eprint-191.xml" title="Atom" />
-<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/CSV/press-eprint-191.csv" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/191/Simple/press-eprint-191.txt" title="Simple Metadata" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/191/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/EndNote/press-eprint-191.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/METS/press-eprint-191.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/ContextObject/press-eprint-191.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/RIS/press-eprint-191.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/RDFXML/press-eprint-191.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/JSON/press-eprint-191.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/BibTeX/press-eprint-191.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/XML/press-eprint-191.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/RDFNT/press-eprint-191.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/DC/press-eprint-191.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/RDFN3/press-eprint-191.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/Text/press-eprint-191.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/HTML/press-eprint-191.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/DIDL/press-eprint-191.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/COinS/press-eprint-191.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/MODS/press-eprint-191.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/Refer/press-eprint-191.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/Atom/press-eprint-191.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/CSV/press-eprint-191.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/191/Simple/press-eprint-191.txt" title="Simple Metadata" />

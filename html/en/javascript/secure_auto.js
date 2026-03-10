@@ -1,6 +1,6 @@
-var eprints_http_root = "https://press.mater.uni-mate.hu";
-var eprints_http_cgiroot = "https://press.mater.uni-mate.hu/cgi";
-var eprints_oai_archive_id = "press.mater.uni-mate.hu";
+var eprints_http_root = "https://press.fater.uni-mate.hu";
+var eprints_http_cgiroot = "https://press.fater.uni-mate.hu/cgi";
+var eprints_oai_archive_id = "press.fater.uni-mate.hu";
 
 
 

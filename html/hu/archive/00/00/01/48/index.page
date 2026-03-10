@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_23262', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_23262', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_23262', 'right' );" href="https://press.mater.uni-mate.hu/148/2/0.jpg" onfocus="EPJS_ShowPreview( event, 'doc_preview_23262', 'right' );"><img border="0" alt="[thumbnail of 0.jpg]" src="https://press.mater.uni-mate.hu/148/2.hassmallThumbnailVersion/0.jpg" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_23262"><div><div><span><img border="0" alt="" src="https://press.mater.uni-mate.hu/148/2.haspreviewThumbnailVersion/0.jpg" id="doc_preview_23262_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_23262', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_23262', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_23262', 'right' );" href="https://press.fater.uni-mate.hu/148/2/0.jpg" onfocus="EPJS_ShowPreview( event, 'doc_preview_23262', 'right' );"><img border="0" alt="[thumbnail of 0.jpg]" src="https://press.fater.uni-mate.hu/148/2.hassmallThumbnailVersion/0.jpg" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_23262"><div><div><span><img border="0" alt="" src="https://press.fater.uni-mate.hu/148/2.haspreviewThumbnailVersion/0.jpg" id="doc_preview_23262_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/148/2/0.jpg" class="ep_document_link">Letöltés (110kB)</a>
+              <a href="https://press.fater.uni-mate.hu/148/2/0.jpg" class="ep_document_link">Letöltés (110kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/148/2.haslightboxThumbnailVersion/0.jpg">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/148/2.haslightboxThumbnailVersion/0.jpg">Előzetes bemutató</a>
 			  
 			  
               
@@ -76,7 +76,7 @@
           </div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_23238', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_23238', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_23238', 'right' );" href="https://press.mater.uni-mate.hu/148/1/14th_International_SMP_Conference.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_23238', 'right' );"><img border="0" alt="[thumbnail of Konferenciakötet]" src="https://press.mater.uni-mate.hu/148/1.hassmallThumbnailVersion/14th_International_SMP_Conference.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_23238"><div><div><span><img border="0" alt="" src="https://press.mater.uni-mate.hu/148/1.haspreviewThumbnailVersion/14th_International_SMP_Conference.pdf" id="doc_preview_23238_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_23238', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_23238', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_23238', 'right' );" href="https://press.fater.uni-mate.hu/148/1/14th_International_SMP_Conference.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_23238', 'right' );"><img border="0" alt="[thumbnail of Konferenciakötet]" src="https://press.fater.uni-mate.hu/148/1.hassmallThumbnailVersion/14th_International_SMP_Conference.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_23238"><div><div><span><img border="0" alt="" src="https://press.fater.uni-mate.hu/148/1.haspreviewThumbnailVersion/14th_International_SMP_Conference.pdf" id="doc_preview_23238_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -95,10 +95,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/148/1/14th_International_SMP_Conference.pdf" class="ep_document_link">Letöltés (943kB)</a>
+              <a href="https://press.fater.uni-mate.hu/148/1/14th_International_SMP_Conference.pdf" class="ep_document_link">Letöltés (943kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/148/1.haslightboxThumbnailVersion/14th_International_SMP_Conference.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/148/1.haslightboxThumbnailVersion/14th_International_SMP_Conference.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -134,7 +134,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/H1.html">H  Társadalomtudomány általában</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/H1.html">H  Társadalomtudomány általában</a></td>
         </tr>
       
     
@@ -145,7 +145,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -175,7 +175,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/148">https://press.mater.uni-mate.hu/id/eprint/148</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/148">https://press.fater.uni-mate.hu/id/eprint/148</a></td>
     </tr>
   </table>
 

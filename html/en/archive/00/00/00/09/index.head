@@ -26,11 +26,11 @@
 <meta name="eprints.editors_name" content="Koponicsné Györke, Diána" />
 <meta name="eprints.editors_name" content="Barna, Róbert" />
 <meta name="eprints.citation" content="  Koponicsné Györke, Diána and Barna, Róbert (eds.).  (2020) Proceedings of the International Conference on Sustainable Economy and Agriculture : Kaposvár University – Kaposvár – Hungary – 14th November 2019.     Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár. 462Number of Pages.   ISBN 978-615-5599-76-7      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/9/3/0.jpg" />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/9/2/Proceedings_ICSEA_2019-NMZ.pdf" />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/9/1/Proceedings_ICSEA_2019_2020.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/9/3/0.jpg" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/9/2/Proceedings_ICSEA_2019-NMZ.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/9/1/Proceedings_ICSEA_2019_2020.pdf" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/9/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/9/" />
 <meta name="DC.title" content="Proceedings of the International Conference on Sustainable Economy and Agriculture : Kaposvár University – Kaposvár – Hungary – 14th November 2019" />
 <meta name="DC.subject" content="HB Economic Theory" />
 <meta name="DC.description" content="Teljes szövegű konferenciaközleményeket tartalmazó konferenciakötet." />
@@ -43,34 +43,34 @@
 <meta name="DC.format" content="image" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/9/3/0.jpg" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/9/3/0.jpg" />
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/9/2/Proceedings_ICSEA_2019-NMZ.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/9/2/Proceedings_ICSEA_2019-NMZ.pdf" />
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="en" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/9/1/Proceedings_ICSEA_2019_2020.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/9/1/Proceedings_ICSEA_2019_2020.pdf" />
 <meta name="DC.identifier" content="  Koponicsné Györke, Diána and Barna, Róbert (eds.).  (2020) Proceedings of the International Conference on Sustainable Economy and Agriculture : Kaposvár University – Kaposvár – Hungary – 14th November 2019.     Kaposvári Egyetem Gazdaságtudományi Kar, Kaposvár. 462Number of Pages.   ISBN 978-615-5599-76-7      " />
-<link href="https://press.mater.uni-mate.hu/9/" rel="canonical" />
-<link title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/HTML/press-eprint-9.html" type="text/html; charset=utf-8" rel="alternate" />
-<link title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/Atom/press-eprint-9.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
-<link title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/MODS/press-eprint-9.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/RDFN3/press-eprint-9.n3" type="text/n3" rel="alternate" />
-<link title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/Text/press-eprint-9.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/RIS/press-eprint-9.ris" type="text/plain" rel="alternate" />
-<link title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/BibTeX/press-eprint-9.bib" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/ContextObject/press-eprint-9.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/Refer/press-eprint-9.refer" type="text/plain" rel="alternate" />
-<link title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/METS/press-eprint-9.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/DC/press-eprint-9.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/RDFNT/press-eprint-9.nt" type="text/plain" rel="alternate" />
-<link title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/EndNote/press-eprint-9.enw" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/XML/press-eprint-9.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
-<link title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/COinS/press-eprint-9.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/CSV/press-eprint-9.csv" type="text/csv; charset=utf-8" rel="alternate" />
-<link title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/DIDL/press-eprint-9.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/RDFXML/press-eprint-9.rdf" type="application/rdf+xml" rel="alternate" />
-<link title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/Simple/press-eprint-9.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/9/JSON/press-eprint-9.js" type="application/json; charset=utf-8" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/9/" rel="canonical" />
+<link title="HTML Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/HTML/press-eprint-9.html" type="text/html; charset=utf-8" rel="alternate" />
+<link title="Atom" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/Atom/press-eprint-9.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
+<link title="MODS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/MODS/press-eprint-9.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+N3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/RDFN3/press-eprint-9.n3" type="text/n3" rel="alternate" />
+<link title="ASCII Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/Text/press-eprint-9.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Reference Manager" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/RIS/press-eprint-9.ris" type="text/plain" rel="alternate" />
+<link title="BibTeX" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/BibTeX/press-eprint-9.bib" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/ContextObject/press-eprint-9.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Refer" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/Refer/press-eprint-9.refer" type="text/plain" rel="alternate" />
+<link title="METS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/METS/press-eprint-9.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Dublin Core" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/DC/press-eprint-9.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="RDF+N-Triples" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/RDFNT/press-eprint-9.nt" type="text/plain" rel="alternate" />
+<link title="EndNote" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/EndNote/press-eprint-9.enw" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="EP3 XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/XML/press-eprint-9.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject in Span" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/COinS/press-eprint-9.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Multiline CSV" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/CSV/press-eprint-9.csv" type="text/csv; charset=utf-8" rel="alternate" />
+<link title="MPEG-21 DIDL" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/DIDL/press-eprint-9.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/RDFXML/press-eprint-9.rdf" type="application/rdf+xml" rel="alternate" />
+<link title="Simple Metadata" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/Simple/press-eprint-9.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="JSON" href="https://press.fater.uni-mate.hu/cgi/export/eprint/9/JSON/press-eprint-9.js" type="application/json; charset=utf-8" rel="alternate" />

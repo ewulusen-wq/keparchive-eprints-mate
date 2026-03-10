@@ -31,12 +31,12 @@
 <meta content="Módszertani eszköztár  a felsőoktatásban tanító oktatók számára" name="eprints.book_title" />
 <meta content="Bencéné Fekete, Andrea" name="eprints.editors_name" />
 <meta content="Schlichter-Takács, Anett" name="eprints.editors_name" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/81" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/81" name="eprints.related_url_url" />
 <meta content="Teljes könyv" name="eprints.related_url_type" />
 <meta content="  Szabó, Norbert  (2022) Az állandósult változás – kihívások és lehetőségek a felsőoktatásban.   In: Bencéné Fekete, Andrea és Schlichter-Takács, Anett  (Szerk.)  Módszertani eszköztár a felsőoktatásban tanító oktatók számára.    MATE Press, Kaposvár. 279 p. pp. 13-20.  ISBN 978-963-623-017-3      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/82/1/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/82/1/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" name="eprints.document_url" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta content="https://press.mater.uni-mate.hu/82/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/82/" name="DC.relation" />
 <meta content="Az állandósult változás – kihívások és lehetőségek a felsőoktatásban" name="DC.title" />
 <meta content="Szabó, Norbert" name="DC.creator" />
 <meta content="L Oktatás általában" name="DC.subject" />
@@ -51,29 +51,29 @@
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/82/1/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/82/1/M%C3%B3dszertani%20eszk%C3%B6zt%C3%A1r_1.tanulm%C3%A1ny.pdf" name="DC.identifier" />
 <meta content="  Szabó, Norbert  (2022) Az állandósult változás – kihívások és lehetőségek a felsőoktatásban.   In: Bencéné Fekete, Andrea és Schlichter-Takács, Anett  (Szerk.)  Módszertani eszköztár a felsőoktatásban tanító oktatók számára.    MATE Press, Kaposvár. 279 p. pp. 13-20.  ISBN 978-963-623-017-3      " name="DC.identifier" />
 <meta content="https://doi.org/10.54597/mate.0001" name="DC.relation" />
 <meta content="DOI:10.54597/mate.0003" name="DC.relation" />
 <meta content="DOI:10.54597/mate.0003" name="DC.identifier" />
-<link href="https://press.mater.uni-mate.hu/82/" rel="canonical" />
-<link type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/RDFXML/press-eprint-82.rdf" rel="alternate" title="RDF+XML" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/Simple/press-eprint-82.txt" rel="alternate" title="Simple Metadata" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/BibTeX/press-eprint-82.bib" rel="alternate" title="BibTeX" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/COinS/press-eprint-82.txt" rel="alternate" title="OpenURL ContextObject in Span" />
-<link type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/RDFN3/press-eprint-82.n3" rel="alternate" title="RDF+N3" />
-<link type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/JSON/press-eprint-82.js" rel="alternate" title="JSON" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/XML/press-eprint-82.xml" rel="alternate" title="EP3 XML" />
-<link type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/CSV/press-eprint-82.csv" rel="alternate" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/DC/press-eprint-82.txt" rel="alternate" title="Dublin Core" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/Text/press-eprint-82.txt" rel="alternate" title="ASCII Citation" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/Refer/press-eprint-82.refer" rel="alternate" title="Refer" />
-<link type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/EndNote/press-eprint-82.enw" rel="alternate" title="EndNote" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/METS/press-eprint-82.xml" rel="alternate" title="METS" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/RIS/press-eprint-82.ris" rel="alternate" title="Reference Manager" />
-<link type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/Atom/press-eprint-82.xml" rel="alternate" title="Atom" />
-<link type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/RDFNT/press-eprint-82.nt" rel="alternate" title="RDF+N-Triples" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/DIDL/press-eprint-82.xml" rel="alternate" title="MPEG-21 DIDL" />
-<link type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/HTML/press-eprint-82.html" rel="alternate" title="HTML Citation" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/ContextObject/press-eprint-82.xml" rel="alternate" title="OpenURL ContextObject" />
-<link type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/82/MODS/press-eprint-82.xml" rel="alternate" title="MODS" />
+<link href="https://press.fater.uni-mate.hu/82/" rel="canonical" />
+<link type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/RDFXML/press-eprint-82.rdf" rel="alternate" title="RDF+XML" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/Simple/press-eprint-82.txt" rel="alternate" title="Simple Metadata" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/BibTeX/press-eprint-82.bib" rel="alternate" title="BibTeX" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/COinS/press-eprint-82.txt" rel="alternate" title="OpenURL ContextObject in Span" />
+<link type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/RDFN3/press-eprint-82.n3" rel="alternate" title="RDF+N3" />
+<link type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/JSON/press-eprint-82.js" rel="alternate" title="JSON" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/XML/press-eprint-82.xml" rel="alternate" title="EP3 XML" />
+<link type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/CSV/press-eprint-82.csv" rel="alternate" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/DC/press-eprint-82.txt" rel="alternate" title="Dublin Core" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/Text/press-eprint-82.txt" rel="alternate" title="ASCII Citation" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/Refer/press-eprint-82.refer" rel="alternate" title="Refer" />
+<link type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/EndNote/press-eprint-82.enw" rel="alternate" title="EndNote" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/METS/press-eprint-82.xml" rel="alternate" title="METS" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/RIS/press-eprint-82.ris" rel="alternate" title="Reference Manager" />
+<link type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/Atom/press-eprint-82.xml" rel="alternate" title="Atom" />
+<link type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/RDFNT/press-eprint-82.nt" rel="alternate" title="RDF+N-Triples" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/DIDL/press-eprint-82.xml" rel="alternate" title="MPEG-21 DIDL" />
+<link type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/HTML/press-eprint-82.html" rel="alternate" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/ContextObject/press-eprint-82.xml" rel="alternate" title="OpenURL ContextObject" />
+<link type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/82/MODS/press-eprint-82.xml" rel="alternate" title="MODS" />

@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_244696', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244696', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_244696', 'right' );" href="https://press.mater.uni-mate.hu/260/1/tdk-2022-kesz1Copy.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_244696', 'right' );"><img border="0" alt="[thumbnail of Absztraktkötet]" src="https://press.mater.uni-mate.hu/260/1.hassmallThumbnailVersion/tdk-2022-kesz1Copy.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_244696"><div><div><span><img border="0" alt="" src="https://press.mater.uni-mate.hu/260/1.haspreviewThumbnailVersion/tdk-2022-kesz1Copy.pdf" id="doc_preview_244696_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_244696', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244696', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_244696', 'right' );" href="https://press.fater.uni-mate.hu/260/1/tdk-2022-kesz1Copy.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_244696', 'right' );"><img border="0" alt="[thumbnail of Absztraktkötet]" src="https://press.fater.uni-mate.hu/260/1.hassmallThumbnailVersion/tdk-2022-kesz1Copy.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_244696"><div><div><span><img border="0" alt="" src="https://press.fater.uni-mate.hu/260/1.haspreviewThumbnailVersion/tdk-2022-kesz1Copy.pdf" id="doc_preview_244696_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/260/1/tdk-2022-kesz1Copy.pdf" class="ep_document_link">Letöltés (13MB)</a>
+              <a href="https://press.fater.uni-mate.hu/260/1/tdk-2022-kesz1Copy.pdf" class="ep_document_link">Letöltés (13MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/260/1.haslightboxThumbnailVersion/tdk-2022-kesz1Copy.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/260/1.haslightboxThumbnailVersion/tdk-2022-kesz1Copy.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -100,7 +100,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/A.html">A Általános művek</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/AC.html">AC Gyűjteményes munkák, sorozatok</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/S1.html">S Mezőgazdaság általában</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/A.html">A Általános művek</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/AC.html">AC Gyűjteményes munkák, sorozatok</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/S1.html">S Mezőgazdaság általában</a></td>
         </tr>
       
     
@@ -109,7 +109,7 @@
           <th align="right">SWORD Depositor:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -120,7 +120,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -155,7 +155,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/260">https://press.mater.uni-mate.hu/id/eprint/260</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/260">https://press.fater.uni-mate.hu/id/eprint/260</a></td>
     </tr>
   </table>
 

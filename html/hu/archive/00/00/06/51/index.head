@@ -35,9 +35,9 @@
 <meta content="TRUE" name="eprints.refereed" />
 <meta content="1589-4673" name="eprints.issn" />
 <meta content="  Sütő, Dávid és Farkas, János és Katona, Krisztián  (2017) Vadfajok hatása egy szálaló üzemmódú száraz tölgyes felújulására.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 15 (1). pp. 31-41.  ISSN 1589-4673     " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/651/1/04_Suto_et_al.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/651/1/04_Suto_et_al.pdf" name="eprints.document_url" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta content="https://press.mater.uni-mate.hu/651/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/651/" name="DC.relation" />
 <meta content="Vadfajok hatása egy szálaló üzemmódú száraz tölgyes felújulására" name="DC.title" />
 <meta content="Sütő, Dávid" name="DC.creator" />
 <meta content="Farkas, János" name="DC.creator" />
@@ -50,29 +50,29 @@
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/651/1/04_Suto_et_al.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/651/1/04_Suto_et_al.pdf" name="DC.identifier" />
 <meta content="  Sütő, Dávid és Farkas, János és Katona, Krisztián  (2017) Vadfajok hatása egy szálaló üzemmódú száraz tölgyes felújulására.  TÁJÖKOLÓGIAI LAPOK / JOURNAL OF LANDSCAPE ECOLOGY, 15 (1). pp. 31-41.  ISSN 1589-4673     " name="DC.identifier" />
 <meta content="https://doi.org/10.56617/tl.3614" name="DC.relation" />
 <meta content="MTMT:3254433 DOI:10.56617/tl.3614" name="DC.relation" />
 <meta content="MTMT:3254433 DOI:10.56617/tl.3614" name="DC.identifier" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/651/" />
-<link title="Reference Manager" rel="alternate" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/RIS/press-eprint-651.ris" />
-<link title="Simple Metadata" rel="alternate" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/Simple/press-eprint-651.txt" />
-<link title="Refer" rel="alternate" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/Refer/press-eprint-651.refer" />
-<link title="Dublin Core" rel="alternate" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/DC/press-eprint-651.txt" />
-<link title="MPEG-21 DIDL" rel="alternate" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/DIDL/press-eprint-651.xml" />
-<link title="BibTeX" rel="alternate" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/BibTeX/press-eprint-651.bib" />
-<link title="Atom" rel="alternate" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/Atom/press-eprint-651.xml" />
-<link title="JSON" rel="alternate" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/JSON/press-eprint-651.js" />
-<link title="EndNote" rel="alternate" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/EndNote/press-eprint-651.enw" />
-<link title="ASCII Citation" rel="alternate" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/Text/press-eprint-651.txt" />
-<link title="OpenURL ContextObject" rel="alternate" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/ContextObject/press-eprint-651.xml" />
-<link title="RDF+N-Triples" rel="alternate" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/RDFNT/press-eprint-651.nt" />
-<link title="Multiline CSV" rel="alternate" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/CSV/press-eprint-651.csv" />
-<link title="RDF+XML" rel="alternate" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/RDFXML/press-eprint-651.rdf" />
-<link title="HTML Citation" rel="alternate" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/HTML/press-eprint-651.html" />
-<link title="METS" rel="alternate" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/METS/press-eprint-651.xml" />
-<link title="MODS" rel="alternate" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/MODS/press-eprint-651.xml" />
-<link title="OpenURL ContextObject in Span" rel="alternate" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/COinS/press-eprint-651.txt" />
-<link title="RDF+N3" rel="alternate" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/RDFN3/press-eprint-651.n3" />
-<link title="EP3 XML" rel="alternate" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/651/XML/press-eprint-651.xml" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/651/" />
+<link title="Reference Manager" rel="alternate" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/RIS/press-eprint-651.ris" />
+<link title="Simple Metadata" rel="alternate" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/Simple/press-eprint-651.txt" />
+<link title="Refer" rel="alternate" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/Refer/press-eprint-651.refer" />
+<link title="Dublin Core" rel="alternate" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/DC/press-eprint-651.txt" />
+<link title="MPEG-21 DIDL" rel="alternate" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/DIDL/press-eprint-651.xml" />
+<link title="BibTeX" rel="alternate" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/BibTeX/press-eprint-651.bib" />
+<link title="Atom" rel="alternate" type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/Atom/press-eprint-651.xml" />
+<link title="JSON" rel="alternate" type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/JSON/press-eprint-651.js" />
+<link title="EndNote" rel="alternate" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/EndNote/press-eprint-651.enw" />
+<link title="ASCII Citation" rel="alternate" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/Text/press-eprint-651.txt" />
+<link title="OpenURL ContextObject" rel="alternate" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/ContextObject/press-eprint-651.xml" />
+<link title="RDF+N-Triples" rel="alternate" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/RDFNT/press-eprint-651.nt" />
+<link title="Multiline CSV" rel="alternate" type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/CSV/press-eprint-651.csv" />
+<link title="RDF+XML" rel="alternate" type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/RDFXML/press-eprint-651.rdf" />
+<link title="HTML Citation" rel="alternate" type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/HTML/press-eprint-651.html" />
+<link title="METS" rel="alternate" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/METS/press-eprint-651.xml" />
+<link title="MODS" rel="alternate" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/MODS/press-eprint-651.xml" />
+<link title="OpenURL ContextObject in Span" rel="alternate" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/COinS/press-eprint-651.txt" />
+<link title="RDF+N3" rel="alternate" type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/RDFN3/press-eprint-651.n3" />
+<link title="EP3 XML" rel="alternate" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/651/XML/press-eprint-651.xml" />

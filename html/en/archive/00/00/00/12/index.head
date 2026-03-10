@@ -29,10 +29,10 @@ kutatók sorában határon túli általános iskolás diákot is, aki helytört�
 <meta content="EFOP 3.6.1-16-2016-00007" name="eprints.funders" />
 <meta content="scientific" name="eprints.separat_type" />
 <meta content="  Bencéné Fekete, Andrea (ed.).  (2020) Dunántúli Mandulafa 2019 : A hobbitól az élményen át a világ felfedezéséig.     Kaposvári Egyetem Pedagógiai Kar, Kaposvár. 195Number of Pages.   ISBN 978-615-5599-81-1 (pdf); 978-615-5599-80-4 (print)      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/12/2/0.jpg" name="eprints.document_url" />
-<meta content="https://press.mater.uni-mate.hu/12/1/Dunanatuli_Mandulafa_2019_KE_2020_Ebook.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/12/2/0.jpg" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/12/1/Dunanatuli_Mandulafa_2019_KE_2020_Ebook.pdf" name="eprints.document_url" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta content="https://press.mater.uni-mate.hu/12/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/12/" name="DC.relation" />
 <meta content="Dunántúli Mandulafa 2019 : A hobbitól az élményen át a világ felfedezéséig" name="DC.title" />
 <meta content="L Education (General)" name="DC.subject" />
 <meta content="A Dunántúli Mandulafa a 10–19 éves ifjú kutatók konferenciája, ahol a diákok bemutatják első prezentációjukat, és elkészítik korosztályuknak megfelelő tudományos igényű publikációjukat. A Kaposvári Egyetem Pedagógiai Kara immár negyedik alkalommal rendezte 
@@ -47,30 +47,30 @@ kutatók sorában határon túli általános iskolás diákot is, aki helytört�
 <meta content="image" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/12/2/0.jpg" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/12/2/0.jpg" name="DC.identifier" />
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/12/1/Dunanatuli_Mandulafa_2019_KE_2020_Ebook.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/12/1/Dunanatuli_Mandulafa_2019_KE_2020_Ebook.pdf" name="DC.identifier" />
 <meta content="  Bencéné Fekete, Andrea (ed.).  (2020) Dunántúli Mandulafa 2019 : A hobbitól az élményen át a világ felfedezéséig.     Kaposvári Egyetem Pedagógiai Kar, Kaposvár. 195Number of Pages.   ISBN 978-615-5599-81-1 (pdf); 978-615-5599-80-4 (print)      " name="DC.identifier" />
-<link href="https://press.mater.uni-mate.hu/12/" rel="canonical" />
-<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/EndNote/press-eprint-12.enw" rel="alternate" />
-<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/DIDL/press-eprint-12.xml" rel="alternate" />
-<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/JSON/press-eprint-12.js" rel="alternate" />
-<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/Atom/press-eprint-12.xml" rel="alternate" />
-<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/Refer/press-eprint-12.refer" rel="alternate" />
-<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/Simple/press-eprint-12.txt" rel="alternate" />
-<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/XML/press-eprint-12.xml" rel="alternate" />
-<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/BibTeX/press-eprint-12.bib" rel="alternate" />
-<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/RDFNT/press-eprint-12.nt" rel="alternate" />
-<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/DC/press-eprint-12.txt" rel="alternate" />
-<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/CSV/press-eprint-12.csv" rel="alternate" />
-<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/Text/press-eprint-12.txt" rel="alternate" />
-<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/HTML/press-eprint-12.html" rel="alternate" />
-<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/MODS/press-eprint-12.xml" rel="alternate" />
-<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/ContextObject/press-eprint-12.xml" rel="alternate" />
-<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/COinS/press-eprint-12.txt" rel="alternate" />
-<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/RDFXML/press-eprint-12.rdf" rel="alternate" />
-<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/METS/press-eprint-12.xml" rel="alternate" />
-<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/RIS/press-eprint-12.ris" rel="alternate" />
-<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/12/RDFN3/press-eprint-12.n3" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/12/" rel="canonical" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/EndNote/press-eprint-12.enw" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/DIDL/press-eprint-12.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/JSON/press-eprint-12.js" rel="alternate" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/Atom/press-eprint-12.xml" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/Refer/press-eprint-12.refer" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/Simple/press-eprint-12.txt" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/XML/press-eprint-12.xml" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/BibTeX/press-eprint-12.bib" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/RDFNT/press-eprint-12.nt" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/DC/press-eprint-12.txt" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/CSV/press-eprint-12.csv" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/Text/press-eprint-12.txt" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/HTML/press-eprint-12.html" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/MODS/press-eprint-12.xml" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/ContextObject/press-eprint-12.xml" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/COinS/press-eprint-12.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/RDFXML/press-eprint-12.rdf" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/METS/press-eprint-12.xml" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/RIS/press-eprint-12.ris" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/12/RDFN3/press-eprint-12.n3" rel="alternate" />

@@ -31,12 +31,12 @@ Science Without Computer, Computer Science Unplugged, digitális kultúra tantá
 <meta name="eprints.book_title" content="Módszertan és megújulás : Válogatás a MATE Neveléstudományi Intézete  szakmódszertani tanulmányaiból" />
 <meta name="eprints.editors_name" content="G. Szabó, Sára" />
 <meta name="eprints.editors_name" content="Gombos, Péter" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/85" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/85" />
 <meta name="eprints.related_url_type" content="Teljes könyv" />
 <meta name="eprints.citation" content="  Rumbus, Anikó  (2022) CS Unplugged módszerek alsó tagozaton.   In: G. Szabó, Sára and Gombos, Péter  (eds.)  Módszertan és megújulás : Válogatás a MATE Neveléstudományi Intézete szakmódszertani tanulmányaiból.    MATE Press, Gödöllő. 120Number of Pages. pp. 67-75.  ISBN 978-963-623-022-7      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/103/1/67-75.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/103/1/67-75.pdf" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/103/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/103/" />
 <meta name="DC.title" content="CS Unplugged módszerek alsó tagozaton" />
 <meta name="DC.creator" content="Rumbus, Anikó" />
 <meta name="DC.description" content="Folyamatosan készen kell állnunk a digitális tanrendre. Ugyanakkor az online térben az oktatási lehetőségeink, módszereink gyakran kiforratlanok még, számos nehézséggel és új dologgal kell megbirkóznunk. Az egyik fő probléma, melyre megoldást kell találnunk, a megfelelő eszközigény biztosítása. Számos esetben tapasztalhattuk, hogy a diákoknak nem álltak otthon rendelkezésre azok az informatikai eszközök, amelyekre szükség lett volna. A Computer Science Without Computer (CS Unplugged) alkalmazása ezt a fajta problémát is megoldhatja. A CS Unplugged (Computer Science Unplugged) lényege, hogy az egyes informatikai jelenségeket, fogalmakat, folyamatokat digitális eszközök nélkül, eljátszva, élményszerűen, játékos feladatokon keresztül tanítjuk meg. Bizonyított, hogy saját tapasztalásokon keresztül könnyebben értjük meg a világ dolgait, és az ily módon megszerzett tudás hosszabb távon is maradandóbb. A tanulmányban bemutatott feladatokat levelezős tanító szakos hallgatóinknak lehetősége volt több tantárgyba integráltan is kipróbálni. Ezután elmondták a véleményüket tapasztalataikról." />
@@ -49,29 +49,29 @@ Science Without Computer, Computer Science Unplugged, digitális kultúra tantá
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/103/1/67-75.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/103/1/67-75.pdf" />
 <meta name="DC.identifier" content="  Rumbus, Anikó  (2022) CS Unplugged módszerek alsó tagozaton.   In: G. Szabó, Sára and Gombos, Péter  (eds.)  Módszertan és megújulás : Válogatás a MATE Neveléstudományi Intézete szakmódszertani tanulmányaiból.    MATE Press, Gödöllő. 120Number of Pages. pp. 67-75.  ISBN 978-963-623-022-7      " />
 <meta name="DC.relation" content="https://doi.org/0.54597/mate.0022" />
 <meta name="DC.relation" content="10.54597/mate.0022" />
 <meta name="DC.identifier" content="10.54597/mate.0022" />
-<link href="https://press.mater.uni-mate.hu/103/" rel="canonical" />
-<link title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/HTML/press-eprint-103.html" type="text/html; charset=utf-8" rel="alternate" />
-<link title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/Atom/press-eprint-103.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
-<link title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/MODS/press-eprint-103.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/RDFN3/press-eprint-103.n3" type="text/n3" rel="alternate" />
-<link title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/Text/press-eprint-103.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/RIS/press-eprint-103.ris" type="text/plain" rel="alternate" />
-<link title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/BibTeX/press-eprint-103.bib" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/ContextObject/press-eprint-103.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/Refer/press-eprint-103.refer" type="text/plain" rel="alternate" />
-<link title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/METS/press-eprint-103.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/DC/press-eprint-103.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/RDFNT/press-eprint-103.nt" type="text/plain" rel="alternate" />
-<link title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/EndNote/press-eprint-103.enw" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/XML/press-eprint-103.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
-<link title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/COinS/press-eprint-103.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/CSV/press-eprint-103.csv" type="text/csv; charset=utf-8" rel="alternate" />
-<link title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/DIDL/press-eprint-103.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/RDFXML/press-eprint-103.rdf" type="application/rdf+xml" rel="alternate" />
-<link title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/Simple/press-eprint-103.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/103/JSON/press-eprint-103.js" type="application/json; charset=utf-8" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/103/" rel="canonical" />
+<link title="HTML Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/HTML/press-eprint-103.html" type="text/html; charset=utf-8" rel="alternate" />
+<link title="Atom" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/Atom/press-eprint-103.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
+<link title="MODS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/MODS/press-eprint-103.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+N3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/RDFN3/press-eprint-103.n3" type="text/n3" rel="alternate" />
+<link title="ASCII Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/Text/press-eprint-103.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Reference Manager" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/RIS/press-eprint-103.ris" type="text/plain" rel="alternate" />
+<link title="BibTeX" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/BibTeX/press-eprint-103.bib" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/ContextObject/press-eprint-103.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Refer" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/Refer/press-eprint-103.refer" type="text/plain" rel="alternate" />
+<link title="METS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/METS/press-eprint-103.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Dublin Core" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/DC/press-eprint-103.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="RDF+N-Triples" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/RDFNT/press-eprint-103.nt" type="text/plain" rel="alternate" />
+<link title="EndNote" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/EndNote/press-eprint-103.enw" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="EP3 XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/XML/press-eprint-103.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject in Span" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/COinS/press-eprint-103.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Multiline CSV" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/CSV/press-eprint-103.csv" type="text/csv; charset=utf-8" rel="alternate" />
+<link title="MPEG-21 DIDL" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/DIDL/press-eprint-103.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/RDFXML/press-eprint-103.rdf" type="application/rdf+xml" rel="alternate" />
+<link title="Simple Metadata" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/Simple/press-eprint-103.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="JSON" href="https://press.fater.uni-mate.hu/cgi/export/eprint/103/JSON/press-eprint-103.js" type="application/json; charset=utf-8" rel="alternate" />

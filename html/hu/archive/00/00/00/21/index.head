@@ -26,10 +26,10 @@
 <meta name="eprints.funders" content="NTP-SZKOLL-19 A hazai és határon túli magyar nyelvű szakkollégiumok  támogatása”" />
 <meta name="eprints.separat_type" content="scientific" />
 <meta name="eprints.citation" content="  Kőműves, Zsolt és Tóth, Katalin és Varga, Dániel (Szerk.).  (2020) Tehetséggondozás felsőfokon : Hallgatói műhelymunkák a Baka József és a Guba Sándor Szakkollégiumokban.     Szent István Egyetem Kaposvári Campus, Gazdaságtudományi Kar, Kaposvár. 229 p.   ISBN 978-963-269-932-5      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/21/2/0.jpg" />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/21/1/Tehets%C3%A9ggondoz%C3%A1s_fels%C5%91fokon_2020.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/21/2/0.jpg" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/21/1/Tehets%C3%A9ggondoz%C3%A1s_fels%C5%91fokon_2020.pdf" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/21/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/21/" />
 <meta name="DC.title" content="Tehetséggondozás felsőfokon : Hallgatói műhelymunkák a Baka József és a Guba Sándor Szakkollégiumokban" />
 <meta name="DC.subject" content="HB Közgazdaságtudomány" />
 <meta name="DC.publisher" content="Szent István Egyetem Kaposvári Campus, Gazdaságtudományi Kar" />
@@ -42,30 +42,30 @@
 <meta name="DC.format" content="image" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/21/2/0.jpg" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/21/2/0.jpg" />
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/21/1/Tehets%C3%A9ggondoz%C3%A1s_fels%C5%91fokon_2020.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/21/1/Tehets%C3%A9ggondoz%C3%A1s_fels%C5%91fokon_2020.pdf" />
 <meta name="DC.identifier" content="  Kőműves, Zsolt és Tóth, Katalin és Varga, Dániel (Szerk.).  (2020) Tehetséggondozás felsőfokon : Hallgatói műhelymunkák a Baka József és a Guba Sándor Szakkollégiumokban.     Szent István Egyetem Kaposvári Campus, Gazdaságtudományi Kar, Kaposvár. 229 p.   ISBN 978-963-269-932-5      " />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/21/" />
-<link title="RDF+N3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/RDFN3/press-eprint-21.n3" type="text/n3" />
-<link title="EP3 XML" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/XML/press-eprint-21.xml" type="application/vnd.eprints.data+xml; charset=utf-8" />
-<link title="Reference Manager" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/RIS/press-eprint-21.ris" type="text/plain" />
-<link title="BibTeX" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/BibTeX/press-eprint-21.bib" type="text/plain; charset=utf-8" />
-<link title="Refer" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/Refer/press-eprint-21.refer" type="text/plain" />
-<link title="RDF+N-Triples" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/RDFNT/press-eprint-21.nt" type="text/plain" />
-<link title="HTML Citation" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/HTML/press-eprint-21.html" type="text/html; charset=utf-8" />
-<link title="JSON" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/JSON/press-eprint-21.js" type="application/json; charset=utf-8" />
-<link title="OpenURL ContextObject in Span" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/COinS/press-eprint-21.txt" type="text/plain; charset=utf-8" />
-<link title="Atom" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/Atom/press-eprint-21.xml" type="application/atom+xml;charset=utf-8" />
-<link title="MPEG-21 DIDL" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/DIDL/press-eprint-21.xml" type="text/xml; charset=utf-8" />
-<link title="EndNote" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/EndNote/press-eprint-21.enw" type="text/plain; charset=utf-8" />
-<link title="Simple Metadata" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/Simple/press-eprint-21.txt" type="text/plain; charset=utf-8" />
-<link title="MODS" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/MODS/press-eprint-21.xml" type="text/xml; charset=utf-8" />
-<link title="METS" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/METS/press-eprint-21.xml" type="text/xml; charset=utf-8" />
-<link title="RDF+XML" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/RDFXML/press-eprint-21.rdf" type="application/rdf+xml" />
-<link title="ASCII Citation" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/Text/press-eprint-21.txt" type="text/plain; charset=utf-8" />
-<link title="Multiline CSV" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/CSV/press-eprint-21.csv" type="text/csv; charset=utf-8" />
-<link title="Dublin Core" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/DC/press-eprint-21.txt" type="text/plain; charset=utf-8" />
-<link title="OpenURL ContextObject" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/21/ContextObject/press-eprint-21.xml" type="text/xml; charset=utf-8" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/21/" />
+<link title="RDF+N3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/RDFN3/press-eprint-21.n3" type="text/n3" />
+<link title="EP3 XML" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/XML/press-eprint-21.xml" type="application/vnd.eprints.data+xml; charset=utf-8" />
+<link title="Reference Manager" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/RIS/press-eprint-21.ris" type="text/plain" />
+<link title="BibTeX" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/BibTeX/press-eprint-21.bib" type="text/plain; charset=utf-8" />
+<link title="Refer" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/Refer/press-eprint-21.refer" type="text/plain" />
+<link title="RDF+N-Triples" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/RDFNT/press-eprint-21.nt" type="text/plain" />
+<link title="HTML Citation" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/HTML/press-eprint-21.html" type="text/html; charset=utf-8" />
+<link title="JSON" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/JSON/press-eprint-21.js" type="application/json; charset=utf-8" />
+<link title="OpenURL ContextObject in Span" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/COinS/press-eprint-21.txt" type="text/plain; charset=utf-8" />
+<link title="Atom" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/Atom/press-eprint-21.xml" type="application/atom+xml;charset=utf-8" />
+<link title="MPEG-21 DIDL" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/DIDL/press-eprint-21.xml" type="text/xml; charset=utf-8" />
+<link title="EndNote" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/EndNote/press-eprint-21.enw" type="text/plain; charset=utf-8" />
+<link title="Simple Metadata" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/Simple/press-eprint-21.txt" type="text/plain; charset=utf-8" />
+<link title="MODS" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/MODS/press-eprint-21.xml" type="text/xml; charset=utf-8" />
+<link title="METS" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/METS/press-eprint-21.xml" type="text/xml; charset=utf-8" />
+<link title="RDF+XML" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/RDFXML/press-eprint-21.rdf" type="application/rdf+xml" />
+<link title="ASCII Citation" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/Text/press-eprint-21.txt" type="text/plain; charset=utf-8" />
+<link title="Multiline CSV" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/CSV/press-eprint-21.csv" type="text/csv; charset=utf-8" />
+<link title="Dublin Core" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/DC/press-eprint-21.txt" type="text/plain; charset=utf-8" />
+<link title="OpenURL ContextObject" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/21/ContextObject/press-eprint-21.xml" type="text/xml; charset=utf-8" />

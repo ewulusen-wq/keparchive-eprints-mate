@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_245155', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_245155', 'right' );" href="https://press.mater.uni-mate.hu/327/1/gyogypedagogiai_glosszarium.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245155', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245155', 'right' );" class="ep_document_link"><img alt="[thumbnail of Szakkönyv]" src="https://press.mater.uni-mate.hu/327/1.hassmallThumbnailVersion/gyogypedagogiai_glosszarium.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_245155" class="ep_preview"><div><div><span><img alt="" id="doc_preview_245155_img" src="https://press.mater.uni-mate.hu/327/1.haspreviewThumbnailVersion/gyogypedagogiai_glosszarium.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_245155', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_245155', 'right' );" href="https://press.fater.uni-mate.hu/327/1/gyogypedagogiai_glosszarium.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245155', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245155', 'right' );" class="ep_document_link"><img alt="[thumbnail of Szakkönyv]" src="https://press.fater.uni-mate.hu/327/1.hassmallThumbnailVersion/gyogypedagogiai_glosszarium.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_245155" class="ep_preview"><div><div><span><img alt="" id="doc_preview_245155_img" src="https://press.fater.uni-mate.hu/327/1.haspreviewThumbnailVersion/gyogypedagogiai_glosszarium.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/327/1/gyogypedagogiai_glosszarium.pdf" class="ep_document_link">Download (1MB)</a>
+              <a href="https://press.fater.uni-mate.hu/327/1/gyogypedagogiai_glosszarium.pdf" class="ep_document_link">Download (1MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/327/1.haslightboxThumbnailVersion/gyogypedagogiai_glosszarium.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/327/1.haslightboxThumbnailVersion/gyogypedagogiai_glosszarium.pdf">Preview</a>
 			  
 			  
               
@@ -105,7 +105,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LC5201.html">LC5201 Education extension. Adult education. Continuing education</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LT.html">LT Textbooks</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LC5201.html">LC5201 Education extension. Adult education. Continuing education</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LT.html">LT Textbooks</a></td>
         </tr>
       
     
@@ -116,7 +116,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -151,7 +151,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/327">https://press.mater.uni-mate.hu/id/eprint/327</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/327">https://press.fater.uni-mate.hu/id/eprint/327</a></td>
     </tr>
   </table>
 

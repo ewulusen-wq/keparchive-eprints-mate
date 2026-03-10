@@ -35,7 +35,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" href="https://press.mater.uni-mate.hu/57/1/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_768', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_768', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_768', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_768', 'right' );"><img src="https://press.mater.uni-mate.hu/57/1.hassmallThumbnailVersion/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf" border="0" class="ep_doc_icon" alt="[thumbnail of Szakcikk]" /></a><div id="doc_preview_768" class="ep_preview"><div><div><span><img id="doc_preview_768_img" src="https://press.mater.uni-mate.hu/57/1.haspreviewThumbnailVersion/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf" border="0" class="ep_preview_image" alt="" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a target="_blank" href="https://press.fater.uni-mate.hu/57/1/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_768', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_768', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_768', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_768', 'right' );"><img src="https://press.fater.uni-mate.hu/57/1.hassmallThumbnailVersion/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf" border="0" class="ep_doc_icon" alt="[thumbnail of Szakcikk]" /></a><div id="doc_preview_768" class="ep_preview"><div><div><span><img id="doc_preview_768_img" src="https://press.fater.uni-mate.hu/57/1.haspreviewThumbnailVersion/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf" border="0" class="ep_preview_image" alt="" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -54,10 +54,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/57/1/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf" class="ep_document_link">Letöltés (361kB)</a>
+              <a href="https://press.fater.uni-mate.hu/57/1/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf" class="ep_document_link">Letöltés (361kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/57/1.haslightboxThumbnailVersion/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/57/1.haslightboxThumbnailVersion/Koph%C3%A1zi20212%2B%282%29%20%281%29.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -93,7 +93,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/P.html">P Nyelvészet és irodalom</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/PR.html">PR Angol irodalom</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/P.html">P Nyelvészet és irodalom</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/PR.html">PR Angol irodalom</a></td>
         </tr>
       
     
@@ -104,7 +104,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -149,7 +149,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/57">https://press.mater.uni-mate.hu/id/eprint/57</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/57">https://press.fater.uni-mate.hu/id/eprint/57</a></td>
     </tr>
   </table>
 

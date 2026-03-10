@@ -35,7 +35,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onblur="EPJS_HidePreview( event, 'doc_preview_246499', 'right' );" href="https://press.mater.uni-mate.hu/604/1/09_Dedak.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_246499', 'right' );" target="_blank" onmouseover="EPJS_ShowPreview( event, 'doc_preview_246499', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_246499', 'right' );" class="ep_document_link"><img border="0" alt="[thumbnail of Szakcikk]" class="ep_doc_icon" src="https://press.mater.uni-mate.hu/604/1.hassmallThumbnailVersion/09_Dedak.pdf" /></a><div id="doc_preview_246499" class="ep_preview"><div><div><span><img border="0" alt="" id="doc_preview_246499_img" class="ep_preview_image" src="https://press.mater.uni-mate.hu/604/1.haspreviewThumbnailVersion/09_Dedak.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a onblur="EPJS_HidePreview( event, 'doc_preview_246499', 'right' );" href="https://press.fater.uni-mate.hu/604/1/09_Dedak.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_246499', 'right' );" target="_blank" onmouseover="EPJS_ShowPreview( event, 'doc_preview_246499', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_246499', 'right' );" class="ep_document_link"><img border="0" alt="[thumbnail of Szakcikk]" class="ep_doc_icon" src="https://press.fater.uni-mate.hu/604/1.hassmallThumbnailVersion/09_Dedak.pdf" /></a><div id="doc_preview_246499" class="ep_preview"><div><div><span><img border="0" alt="" id="doc_preview_246499_img" class="ep_preview_image" src="https://press.fater.uni-mate.hu/604/1.haspreviewThumbnailVersion/09_Dedak.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -54,10 +54,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/604/1/09_Dedak.pdf" class="ep_document_link">Download (2MB)</a>
+              <a href="https://press.fater.uni-mate.hu/604/1/09_Dedak.pdf" class="ep_document_link">Download (2MB)</a>
               
 			  
-			  | <a href="https://press.mater.uni-mate.hu/604/1.haslightboxThumbnailVersion/09_Dedak.pdf" rel="lightbox[docs] nofollow">Preview</a>
+			  | <a href="https://press.fater.uni-mate.hu/604/1.haslightboxThumbnailVersion/09_Dedak.pdf" rel="lightbox[docs] nofollow">Preview</a>
 			  
 			  
               
@@ -98,7 +98,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/Q.html">Q Science</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/Q1.html">Q Science (General)</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/Q.html">Q Science</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/Q1.html">Q Science (General)</a></td>
         </tr>
       
     
@@ -109,7 +109,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=103"><span class="ep_name_citation"><span class="person_name">Erika Orosz-Bodnár</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=103"><span class="ep_name_citation"><span class="person_name">Erika Orosz-Bodnár</span></span></a>
 
 </td>
         </tr>
@@ -154,7 +154,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/604">https://press.mater.uni-mate.hu/id/eprint/604</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/604">https://press.fater.uni-mate.hu/id/eprint/604</a></td>
     </tr>
   </table>
 

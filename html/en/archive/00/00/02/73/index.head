@@ -36,9 +36,9 @@ Az utolsó részben végül a könyv és a képregény filozófiai és ideológi
 <meta content="TRUE" name="eprints.refereed" />
 <meta content="2063-2991" name="eprints.issn" />
 <meta content="  Domokos, Áron and Molnár, Gábor  (2022) Az ügynök: Harari, avagy hogyan (ne) tanítsunk történelmet képregénnyel : Első rész.  ANYANYELVI KULTÚRAKÖZVETÍTÉS, 5 (2). pp. 49-68.  ISSN 2063-2991     " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/273/1/5DomokosMolnar2022IIHarari.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/273/1/5DomokosMolnar2022IIHarari.pdf" name="eprints.document_url" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta content="https://press.mater.uni-mate.hu/273/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/273/" name="DC.relation" />
 <meta content="Az ügynök: Harari, avagy hogyan (ne) tanítsunk történelmet képregénnyel : Első rész" name="DC.title" />
 <meta content="Domokos, Áron" name="DC.creator" />
 <meta content="Molnár, Gábor" name="DC.creator" />
@@ -54,29 +54,29 @@ Az utolsó részben végül a könyv és a képregény filozófiai és ideológi
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/273/1/5DomokosMolnar2022IIHarari.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/273/1/5DomokosMolnar2022IIHarari.pdf" name="DC.identifier" />
 <meta content="  Domokos, Áron and Molnár, Gábor  (2022) Az ügynök: Harari, avagy hogyan (ne) tanítsunk történelmet képregénnyel : Első rész.  ANYANYELVI KULTÚRAKÖZVETÍTÉS, 5 (2). pp. 49-68.  ISSN 2063-2991     " name="DC.identifier" />
 <meta content="https://doi.org/10.33569/akk.3375" name="DC.relation" />
 <meta content="MTMT:33664751 DOI:10.33569/akk.3375" name="DC.relation" />
 <meta content="MTMT:33664751 DOI:10.33569/akk.3375" name="DC.identifier" />
-<link href="https://press.mater.uni-mate.hu/273/" rel="canonical" />
-<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/Atom/press-eprint-273.xml" rel="alternate" />
-<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/MODS/press-eprint-273.xml" rel="alternate" />
-<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/DC/press-eprint-273.txt" rel="alternate" />
-<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/COinS/press-eprint-273.txt" rel="alternate" />
-<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/ContextObject/press-eprint-273.xml" rel="alternate" />
-<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/METS/press-eprint-273.xml" rel="alternate" />
-<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/RDFN3/press-eprint-273.n3" rel="alternate" />
-<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/Refer/press-eprint-273.refer" rel="alternate" />
-<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/BibTeX/press-eprint-273.bib" rel="alternate" />
-<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/RIS/press-eprint-273.ris" rel="alternate" />
-<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/XML/press-eprint-273.xml" rel="alternate" />
-<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/Text/press-eprint-273.txt" rel="alternate" />
-<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/RDFXML/press-eprint-273.rdf" rel="alternate" />
-<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/Simple/press-eprint-273.txt" rel="alternate" />
-<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/DIDL/press-eprint-273.xml" rel="alternate" />
-<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/JSON/press-eprint-273.js" rel="alternate" />
-<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/HTML/press-eprint-273.html" rel="alternate" />
-<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/RDFNT/press-eprint-273.nt" rel="alternate" />
-<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/EndNote/press-eprint-273.enw" rel="alternate" />
-<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/273/CSV/press-eprint-273.csv" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/273/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/Atom/press-eprint-273.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/MODS/press-eprint-273.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/DC/press-eprint-273.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/COinS/press-eprint-273.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/ContextObject/press-eprint-273.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/METS/press-eprint-273.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/RDFN3/press-eprint-273.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/Refer/press-eprint-273.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/BibTeX/press-eprint-273.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/RIS/press-eprint-273.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/XML/press-eprint-273.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/Text/press-eprint-273.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/RDFXML/press-eprint-273.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/Simple/press-eprint-273.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/DIDL/press-eprint-273.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/JSON/press-eprint-273.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/HTML/press-eprint-273.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/RDFNT/press-eprint-273.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/EndNote/press-eprint-273.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/273/CSV/press-eprint-273.csv" rel="alternate" />

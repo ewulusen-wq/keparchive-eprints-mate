@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" href="https://press.mater.uni-mate.hu/326/1/allatasszisztalt_javitott_kicsi.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_245154', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_245154', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245154', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245154', 'right' );"><img src="https://press.mater.uni-mate.hu/326/1.hassmallThumbnailVersion/allatasszisztalt_javitott_kicsi.pdf" border="0" class="ep_doc_icon" alt="[thumbnail of Szakkönyv]" /></a><div id="doc_preview_245154" class="ep_preview"><div><div><span><img id="doc_preview_245154_img" src="https://press.mater.uni-mate.hu/326/1.haspreviewThumbnailVersion/allatasszisztalt_javitott_kicsi.pdf" border="0" class="ep_preview_image" alt="" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a target="_blank" href="https://press.fater.uni-mate.hu/326/1/allatasszisztalt_javitott_kicsi.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_245154', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_245154', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245154', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245154', 'right' );"><img src="https://press.fater.uni-mate.hu/326/1.hassmallThumbnailVersion/allatasszisztalt_javitott_kicsi.pdf" border="0" class="ep_doc_icon" alt="[thumbnail of Szakkönyv]" /></a><div id="doc_preview_245154" class="ep_preview"><div><div><span><img id="doc_preview_245154_img" src="https://press.fater.uni-mate.hu/326/1.haspreviewThumbnailVersion/allatasszisztalt_javitott_kicsi.pdf" border="0" class="ep_preview_image" alt="" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/326/1/allatasszisztalt_javitott_kicsi.pdf" class="ep_document_link">Download (4MB)</a>
+              <a href="https://press.fater.uni-mate.hu/326/1/allatasszisztalt_javitott_kicsi.pdf" class="ep_document_link">Download (4MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/326/1.haslightboxThumbnailVersion/allatasszisztalt_javitott_kicsi.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/326/1.haslightboxThumbnailVersion/allatasszisztalt_javitott_kicsi.pdf">Preview</a>
 			  
 			  
               
@@ -105,7 +105,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LC5201.html">LC5201 Education extension. Adult education. Continuing education</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LC.html">LC Special aspects of education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LC5201.html">LC5201 Education extension. Adult education. Continuing education</a></td>
         </tr>
       
     
@@ -116,7 +116,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -151,7 +151,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/326">https://press.mater.uni-mate.hu/id/eprint/326</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/326">https://press.fater.uni-mate.hu/id/eprint/326</a></td>
     </tr>
   </table>
 

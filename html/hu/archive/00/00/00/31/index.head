@@ -27,10 +27,10 @@
 <meta name="eprints.funders" content="EFOP-3.6.2-16-2017-00018 számú „Termeljünk együtt a természettel – az  agrárerdészet, mint új kitörési lehetőség”" />
 <meta name="eprints.separat_type" content="scientific" />
 <meta name="eprints.citation" content="  Horváthné Kovács, Bernadett és Barna, Róbert (Szerk.).  (2021) Agrárerdészet a vidékfejlesztés gyakorlatában.     Magyar Agrár- és Élettudományi Egyetem Kaposvári Campus, Kaposvár. 146 p.   ISBN 978-615-5599-84-2      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/31/2/0.jpg" />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/31/1/Agr%C3%A1rerd%C3%A9szet_Tanulm%C3%A1nyk%C3%B6tet_2021.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/31/2/0.jpg" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/31/1/Agr%C3%A1rerd%C3%A9szet_Tanulm%C3%A1nyk%C3%B6tet_2021.pdf" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/31/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/31/" />
 <meta name="DC.title" content="Agrárerdészet a vidékfejlesztés gyakorlatában" />
 <meta name="DC.subject" content="HB Közgazdaságtudomány" />
 <meta name="DC.subject" content="SD Erdőgazdaság" />
@@ -43,30 +43,30 @@
 <meta name="DC.format" content="image" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/31/2/0.jpg" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/31/2/0.jpg" />
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/31/1/Agr%C3%A1rerd%C3%A9szet_Tanulm%C3%A1nyk%C3%B6tet_2021.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/31/1/Agr%C3%A1rerd%C3%A9szet_Tanulm%C3%A1nyk%C3%B6tet_2021.pdf" />
 <meta name="DC.identifier" content="  Horváthné Kovács, Bernadett és Barna, Róbert (Szerk.).  (2021) Agrárerdészet a vidékfejlesztés gyakorlatában.     Magyar Agrár- és Élettudományi Egyetem Kaposvári Campus, Kaposvár. 146 p.   ISBN 978-615-5599-84-2      " />
-<link href="https://press.mater.uni-mate.hu/31/" rel="canonical" />
-<link title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/HTML/press-eprint-31.html" type="text/html; charset=utf-8" rel="alternate" />
-<link title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/Atom/press-eprint-31.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
-<link title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/MODS/press-eprint-31.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/RDFN3/press-eprint-31.n3" type="text/n3" rel="alternate" />
-<link title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/Text/press-eprint-31.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/RIS/press-eprint-31.ris" type="text/plain" rel="alternate" />
-<link title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/BibTeX/press-eprint-31.bib" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/ContextObject/press-eprint-31.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/Refer/press-eprint-31.refer" type="text/plain" rel="alternate" />
-<link title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/METS/press-eprint-31.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/DC/press-eprint-31.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/RDFNT/press-eprint-31.nt" type="text/plain" rel="alternate" />
-<link title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/EndNote/press-eprint-31.enw" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/XML/press-eprint-31.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
-<link title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/COinS/press-eprint-31.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/CSV/press-eprint-31.csv" type="text/csv; charset=utf-8" rel="alternate" />
-<link title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/DIDL/press-eprint-31.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/RDFXML/press-eprint-31.rdf" type="application/rdf+xml" rel="alternate" />
-<link title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/Simple/press-eprint-31.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/31/JSON/press-eprint-31.js" type="application/json; charset=utf-8" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/31/" rel="canonical" />
+<link title="HTML Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/HTML/press-eprint-31.html" type="text/html; charset=utf-8" rel="alternate" />
+<link title="Atom" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/Atom/press-eprint-31.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
+<link title="MODS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/MODS/press-eprint-31.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+N3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/RDFN3/press-eprint-31.n3" type="text/n3" rel="alternate" />
+<link title="ASCII Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/Text/press-eprint-31.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Reference Manager" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/RIS/press-eprint-31.ris" type="text/plain" rel="alternate" />
+<link title="BibTeX" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/BibTeX/press-eprint-31.bib" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/ContextObject/press-eprint-31.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Refer" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/Refer/press-eprint-31.refer" type="text/plain" rel="alternate" />
+<link title="METS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/METS/press-eprint-31.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Dublin Core" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/DC/press-eprint-31.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="RDF+N-Triples" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/RDFNT/press-eprint-31.nt" type="text/plain" rel="alternate" />
+<link title="EndNote" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/EndNote/press-eprint-31.enw" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="EP3 XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/XML/press-eprint-31.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject in Span" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/COinS/press-eprint-31.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Multiline CSV" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/CSV/press-eprint-31.csv" type="text/csv; charset=utf-8" rel="alternate" />
+<link title="MPEG-21 DIDL" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/DIDL/press-eprint-31.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/RDFXML/press-eprint-31.rdf" type="application/rdf+xml" rel="alternate" />
+<link title="Simple Metadata" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/Simple/press-eprint-31.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="JSON" href="https://press.fater.uni-mate.hu/cgi/export/eprint/31/JSON/press-eprint-31.js" type="application/json; charset=utf-8" rel="alternate" />

@@ -30,12 +30,12 @@ Első közlés. Horvát nyelvi változata: https://doi.org/10.54597/mate.0093" n
 <meta content="42" name="eprints.pages" />
 <meta content="FALSE" name="eprints.refereed" />
 <meta content="978-963-623-037-1" name="eprints.isbn" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/121" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/121" name="eprints.related_url_url" />
 <meta content="Horvát nyelvi változat" name="eprints.related_url_type" />
 <meta content="  Szente, Viktória and Pintér, Attila and Szigeti, Orsolya and Nagy, Mónika Zita and Pintér, Zsófia and Szabó-Szentgróti, Eszter  (2023) „Free from” termékek piaci lehetőségei : Műhelytanulmány.     MATE Press, Gödöllő. 42Number of Pages.   ISBN 978-963-623-037-1      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/120/1/Gastrotop_HU_v2.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/120/1/Gastrotop_HU_v2.pdf" name="eprints.document_url" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta content="https://press.mater.uni-mate.hu/120/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/120/" name="DC.relation" />
 <meta content="„Free from” termékek piaci lehetőségei : Műhelytanulmány" name="DC.title" />
 <meta content="Szente, Viktória" name="DC.creator" />
 <meta content="Pintér, Attila" name="DC.creator" />
@@ -54,27 +54,27 @@ Első közlés. Horvát nyelvi változata: https://doi.org/10.54597/mate.0093" n
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/120/1/Gastrotop_HU_v2.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/120/1/Gastrotop_HU_v2.pdf" name="DC.identifier" />
 <meta content="  Szente, Viktória and Pintér, Attila and Szigeti, Orsolya and Nagy, Mónika Zita and Pintér, Zsófia and Szabó-Szentgróti, Eszter  (2023) „Free from” termékek piaci lehetőségei : Műhelytanulmány.     MATE Press, Gödöllő. 42Number of Pages.   ISBN 978-963-623-037-1      " name="DC.identifier" />
 <meta content="https://doi.org/10.54597/mate.0093" name="DC.relation" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/120/" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/EndNote/press-eprint-120.enw" title="EndNote" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/METS/press-eprint-120.xml" title="METS" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/ContextObject/press-eprint-120.xml" title="OpenURL ContextObject" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/RIS/press-eprint-120.ris" title="Reference Manager" />
-<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/RDFXML/press-eprint-120.rdf" title="RDF+XML" />
-<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/JSON/press-eprint-120.js" title="JSON" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/BibTeX/press-eprint-120.bib" title="BibTeX" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/XML/press-eprint-120.xml" title="EP3 XML" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/RDFNT/press-eprint-120.nt" title="RDF+N-Triples" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/DC/press-eprint-120.txt" title="Dublin Core" />
-<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/RDFN3/press-eprint-120.n3" title="RDF+N3" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/Text/press-eprint-120.txt" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/HTML/press-eprint-120.html" title="HTML Citation" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/DIDL/press-eprint-120.xml" title="MPEG-21 DIDL" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/COinS/press-eprint-120.txt" title="OpenURL ContextObject in Span" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/MODS/press-eprint-120.xml" title="MODS" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/Refer/press-eprint-120.refer" title="Refer" />
-<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/Atom/press-eprint-120.xml" title="Atom" />
-<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/CSV/press-eprint-120.csv" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/120/Simple/press-eprint-120.txt" title="Simple Metadata" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/120/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/EndNote/press-eprint-120.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/METS/press-eprint-120.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/ContextObject/press-eprint-120.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/RIS/press-eprint-120.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/RDFXML/press-eprint-120.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/JSON/press-eprint-120.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/BibTeX/press-eprint-120.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/XML/press-eprint-120.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/RDFNT/press-eprint-120.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/DC/press-eprint-120.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/RDFN3/press-eprint-120.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/Text/press-eprint-120.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/HTML/press-eprint-120.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/DIDL/press-eprint-120.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/COinS/press-eprint-120.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/MODS/press-eprint-120.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/Refer/press-eprint-120.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/Atom/press-eprint-120.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/CSV/press-eprint-120.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/120/Simple/press-eprint-120.txt" title="Simple Metadata" />

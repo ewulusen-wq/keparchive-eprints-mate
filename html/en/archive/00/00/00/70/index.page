@@ -35,7 +35,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_1878', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_1878', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_1878', 'right' );" href="https://press.mater.uni-mate.hu/70/1/BA20221_v2.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_1878', 'right' );"><img border="0" alt="[thumbnail of Szakcikk]" src="https://press.mater.uni-mate.hu/70/1.hassmallThumbnailVersion/BA20221_v2.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_1878"><div><div><span><img border="0" alt="" src="https://press.mater.uni-mate.hu/70/1.haspreviewThumbnailVersion/BA20221_v2.pdf" id="doc_preview_1878_img" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_1878', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_1878', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_1878', 'right' );" href="https://press.fater.uni-mate.hu/70/1/BA20221_v2.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_1878', 'right' );"><img border="0" alt="[thumbnail of Szakcikk]" src="https://press.fater.uni-mate.hu/70/1.hassmallThumbnailVersion/BA20221_v2.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_1878"><div><div><span><img border="0" alt="" src="https://press.fater.uni-mate.hu/70/1.haspreviewThumbnailVersion/BA20221_v2.pdf" id="doc_preview_1878_img" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -54,10 +54,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/70/1/BA20221_v2.pdf" class="ep_document_link">Download (342kB)</a>
+              <a href="https://press.fater.uni-mate.hu/70/1/BA20221_v2.pdf" class="ep_document_link">Download (342kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/70/1.haslightboxThumbnailVersion/BA20221_v2.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/70/1.haslightboxThumbnailVersion/BA20221_v2.pdf">Preview</a>
 			  
 			  
               
@@ -93,7 +93,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/P.html">P Language and Literature</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/PN.html">PN Literature (General)</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/P.html">P Language and Literature</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/PR.html">PR English literature</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/P.html">P Language and Literature</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/PZ.html">PZ Childrens literature</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/P.html">P Language and Literature</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/PN.html">PN Literature (General)</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/P.html">P Language and Literature</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/PR.html">PR English literature</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/P.html">P Language and Literature</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/PZ.html">PZ Childrens literature</a></td>
         </tr>
       
     
@@ -104,7 +104,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -144,7 +144,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/70">https://press.mater.uni-mate.hu/id/eprint/70</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/70">https://press.fater.uni-mate.hu/id/eprint/70</a></td>
     </tr>
   </table>
 

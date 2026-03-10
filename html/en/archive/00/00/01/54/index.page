@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_23634', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_23634', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_23634', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_23634', 'right' );" href="https://press.mater.uni-mate.hu/154/1/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf"><img alt="[thumbnail of Konferenciakötet]" class="ep_doc_icon" border="0" src="https://press.mater.uni-mate.hu/154/1.hassmallThumbnailVersion/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf" /></a><div id="doc_preview_23634" class="ep_preview"><div><div><span><img id="doc_preview_23634_img" alt="" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/154/1.haspreviewThumbnailVersion/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_23634', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_23634', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_23634', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_23634', 'right' );" href="https://press.fater.uni-mate.hu/154/1/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf"><img alt="[thumbnail of Konferenciakötet]" class="ep_doc_icon" border="0" src="https://press.fater.uni-mate.hu/154/1.hassmallThumbnailVersion/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf" /></a><div id="doc_preview_23634" class="ep_preview"><div><div><span><img id="doc_preview_23634_img" alt="" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/154/1.haspreviewThumbnailVersion/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/154/1/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf" class="ep_document_link">Download (8MB)</a>
+              <a href="https://press.fater.uni-mate.hu/154/1/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf" class="ep_document_link">Download (8MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/154/1.haslightboxThumbnailVersion/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/154/1.haslightboxThumbnailVersion/V_Mandulafa_MATE_2021_E-Book%20%281%29.pdf">Preview</a>
 			  
 			  
               
@@ -100,7 +100,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/A.html">A General Works</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/AC.html">AC Collections. Series. Collected works</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB1501.html">LB1501 Primary Education</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB1603.html">LB1603 Secondary Education. High schools</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB2300.html">LB2300 Higher Education</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/A.html">A General Works</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/AC.html">AC Collections. Series. Collected works</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB1501.html">LB1501 Primary Education</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB1603.html">LB1603 Secondary Education. High schools</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB2300.html">LB2300 Higher Education</a></td>
         </tr>
       
     
@@ -111,7 +111,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -146,7 +146,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/154">https://press.mater.uni-mate.hu/id/eprint/154</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/154">https://press.fater.uni-mate.hu/id/eprint/154</a></td>
     </tr>
   </table>
 

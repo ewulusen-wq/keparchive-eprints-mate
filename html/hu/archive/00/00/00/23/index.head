@@ -27,10 +27,10 @@ magyarországi szervezetek körében az ellátásilánc és logisztikai gyakorla
 <meta name="eprints.funders" content="FÓKUSZ-2 Gazdaságfejlesztési Központ Kft." />
 <meta name="eprints.separat_type" content="scientific" />
 <meta name="eprints.citation" content="  Gyenge, Balázs és Mészáros, Kornélia  (2021) Magyarországi vállalatok és intézmények ellátásilánc- és logisztikai gyakrolata – különös tekintettel a fuvarozási és szállítmányozási igényekre és teljesítményekre.     Szent István Egyetem Tevékenység-menedzsment és Logisztika Tanszék, Gödöllő. 81 p.   ISBN 978-963-269-946-2      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/23/2/0.jpg" />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/23/1/MHR%20Ell%C3%A1t%C3%A1sil%C3%A1nc-kutat%C3%A1si_jelent%C3%A9s_2021.01.20.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/23/2/0.jpg" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/23/1/MHR%20Ell%C3%A1t%C3%A1sil%C3%A1nc-kutat%C3%A1si_jelent%C3%A9s_2021.01.20.pdf" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/23/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/23/" />
 <meta name="DC.title" content="Magyarországi vállalatok és intézmények ellátásilánc- és logisztikai gyakrolata – különös tekintettel a fuvarozási és szállítmányozási igényekre és teljesítményekre" />
 <meta name="DC.creator" content="Gyenge, Balázs" />
 <meta name="DC.creator" content="Mészáros, Kornélia" />
@@ -44,30 +44,30 @@ magyarországi szervezetek körében az ellátásilánc és logisztikai gyakorla
 <meta name="DC.format" content="image" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/23/2/0.jpg" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/23/2/0.jpg" />
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="hu" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/23/1/MHR%20Ell%C3%A1t%C3%A1sil%C3%A1nc-kutat%C3%A1si_jelent%C3%A9s_2021.01.20.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/23/1/MHR%20Ell%C3%A1t%C3%A1sil%C3%A1nc-kutat%C3%A1si_jelent%C3%A9s_2021.01.20.pdf" />
 <meta name="DC.identifier" content="  Gyenge, Balázs és Mészáros, Kornélia  (2021) Magyarországi vállalatok és intézmények ellátásilánc- és logisztikai gyakrolata – különös tekintettel a fuvarozási és szállítmányozási igényekre és teljesítményekre.     Szent István Egyetem Tevékenység-menedzsment és Logisztika Tanszék, Gödöllő. 81 p.   ISBN 978-963-269-946-2      " />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/23/" />
-<link type="text/plain; charset=utf-8" title="Simple Metadata" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/Simple/press-eprint-23.txt" />
-<link type="application/atom+xml;charset=utf-8" title="Atom" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/Atom/press-eprint-23.xml" />
-<link type="text/xml; charset=utf-8" title="MPEG-21 DIDL" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/DIDL/press-eprint-23.xml" />
-<link type="text/plain; charset=utf-8" title="EndNote" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/EndNote/press-eprint-23.enw" />
-<link type="text/plain" title="RDF+N-Triples" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/RDFNT/press-eprint-23.nt" />
-<link type="text/xml; charset=utf-8" title="OpenURL ContextObject" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/ContextObject/press-eprint-23.xml" />
-<link type="text/plain" title="Refer" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/Refer/press-eprint-23.refer" />
-<link type="application/json; charset=utf-8" title="JSON" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/JSON/press-eprint-23.js" />
-<link type="application/rdf+xml" title="RDF+XML" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/RDFXML/press-eprint-23.rdf" />
-<link type="text/csv; charset=utf-8" title="Multiline CSV" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/CSV/press-eprint-23.csv" />
-<link type="text/plain" title="Reference Manager" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/RIS/press-eprint-23.ris" />
-<link type="text/plain; charset=utf-8" title="Dublin Core" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/DC/press-eprint-23.txt" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" title="EP3 XML" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/XML/press-eprint-23.xml" />
-<link type="text/plain; charset=utf-8" title="OpenURL ContextObject in Span" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/COinS/press-eprint-23.txt" />
-<link type="text/plain; charset=utf-8" title="ASCII Citation" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/Text/press-eprint-23.txt" />
-<link type="text/n3" title="RDF+N3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/RDFN3/press-eprint-23.n3" />
-<link type="text/xml; charset=utf-8" title="MODS" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/MODS/press-eprint-23.xml" />
-<link type="text/plain; charset=utf-8" title="BibTeX" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/BibTeX/press-eprint-23.bib" />
-<link type="text/xml; charset=utf-8" title="METS" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/METS/press-eprint-23.xml" />
-<link type="text/html; charset=utf-8" title="HTML Citation" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/23/HTML/press-eprint-23.html" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/23/" />
+<link type="text/plain; charset=utf-8" title="Simple Metadata" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/Simple/press-eprint-23.txt" />
+<link type="application/atom+xml;charset=utf-8" title="Atom" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/Atom/press-eprint-23.xml" />
+<link type="text/xml; charset=utf-8" title="MPEG-21 DIDL" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/DIDL/press-eprint-23.xml" />
+<link type="text/plain; charset=utf-8" title="EndNote" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/EndNote/press-eprint-23.enw" />
+<link type="text/plain" title="RDF+N-Triples" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/RDFNT/press-eprint-23.nt" />
+<link type="text/xml; charset=utf-8" title="OpenURL ContextObject" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/ContextObject/press-eprint-23.xml" />
+<link type="text/plain" title="Refer" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/Refer/press-eprint-23.refer" />
+<link type="application/json; charset=utf-8" title="JSON" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/JSON/press-eprint-23.js" />
+<link type="application/rdf+xml" title="RDF+XML" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/RDFXML/press-eprint-23.rdf" />
+<link type="text/csv; charset=utf-8" title="Multiline CSV" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/CSV/press-eprint-23.csv" />
+<link type="text/plain" title="Reference Manager" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/RIS/press-eprint-23.ris" />
+<link type="text/plain; charset=utf-8" title="Dublin Core" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/DC/press-eprint-23.txt" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" title="EP3 XML" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/XML/press-eprint-23.xml" />
+<link type="text/plain; charset=utf-8" title="OpenURL ContextObject in Span" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/COinS/press-eprint-23.txt" />
+<link type="text/plain; charset=utf-8" title="ASCII Citation" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/Text/press-eprint-23.txt" />
+<link type="text/n3" title="RDF+N3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/RDFN3/press-eprint-23.n3" />
+<link type="text/xml; charset=utf-8" title="MODS" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/MODS/press-eprint-23.xml" />
+<link type="text/plain; charset=utf-8" title="BibTeX" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/BibTeX/press-eprint-23.bib" />
+<link type="text/xml; charset=utf-8" title="METS" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/METS/press-eprint-23.xml" />
+<link type="text/html; charset=utf-8" title="HTML Citation" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/23/HTML/press-eprint-23.html" />

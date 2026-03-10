@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onfocus="EPJS_ShowPreview( event, 'doc_preview_6181', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_6181', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_6181', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_6181', 'right' );" href="https://press.mater.uni-mate.hu/91/1/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf" target="_blank"><img class="ep_doc_icon" border="0" alt="[thumbnail of Tanulmánykötet]" src="https://press.mater.uni-mate.hu/91/1.hassmallThumbnailVersion/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf" /></a><div class="ep_preview" id="doc_preview_6181"><div><div><span><img class="ep_preview_image" border="0" alt="" id="doc_preview_6181_img" src="https://press.mater.uni-mate.hu/91/1.haspreviewThumbnailVersion/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a onfocus="EPJS_ShowPreview( event, 'doc_preview_6181', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_6181', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_6181', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_6181', 'right' );" href="https://press.fater.uni-mate.hu/91/1/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf" target="_blank"><img class="ep_doc_icon" border="0" alt="[thumbnail of Tanulmánykötet]" src="https://press.fater.uni-mate.hu/91/1.hassmallThumbnailVersion/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf" /></a><div class="ep_preview" id="doc_preview_6181"><div><div><span><img class="ep_preview_image" border="0" alt="" id="doc_preview_6181_img" src="https://press.fater.uni-mate.hu/91/1.haspreviewThumbnailVersion/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/91/1/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf" class="ep_document_link">Download (11MB)</a>
+              <a href="https://press.fater.uni-mate.hu/91/1/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf" class="ep_document_link">Download (11MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/91/1.haslightboxThumbnailVersion/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/91/1.haslightboxThumbnailVersion/75%20%C3%A9ves%20a%20Karcagi%20Kutat%C3%B3int%C3%A9zet_%20Tanulm%C3%A1nyk%C3%B6tet.pdf">Preview</a>
 			  
 			  
               
@@ -100,7 +100,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/S.html">S Agriculture</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/SB.html">SB Plant culture</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/S.html">S Agriculture</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/SB.html">SB Plant culture</a></td>
         </tr>
       
     
@@ -111,7 +111,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -141,7 +141,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/91">https://press.mater.uni-mate.hu/id/eprint/91</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/91">https://press.fater.uni-mate.hu/id/eprint/91</a></td>
     </tr>
   </table>
 

@@ -30,20 +30,20 @@
 <meta name="eprints.editors_name" content="Csonka, Arnold" />
 <meta name="eprints.editors_name" content="Koponicsné Györke, Diána" />
 <meta name="eprints.editors_name" content="Nagy, Mónika Zita" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/200" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/202" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/188" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/177" />
-<meta name="eprints.related_url_url" content="https://press.mater.uni-mate.hu/id/eprint/189" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/200" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/202" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/188" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/177" />
+<meta name="eprints.related_url_url" content="https://press.fater.uni-mate.hu/id/eprint/189" />
 <meta name="eprints.related_url_type" content="Hungarian language version DOI: https://doi.org/10.54597/mate.0031" />
 <meta name="eprints.related_url_type" content="Croatian language version DOI: https://doi.org/10.54597/mate.0079" />
 <meta name="eprints.related_url_type" content="Complete book DOI: https://doi.org/10.54597/mate.0058" />
 <meta name="eprints.related_url_type" content="Complete book (Hungarian language version) DOI: https://doi.org/10.54597/mate.0042" />
 <meta name="eprints.related_url_type" content="Complete book (Croatian language version) DOI: https://doi.org/10.54597/mate.0074" />
 <meta name="eprints.citation" content="  Jerčinović, Silvije  (2022) Consumer perception of food quality and safety.   In: Srečec, Siniša and Csonka, Arnold and Koponicsné Györke, Diána and Nagy, Mónika Zita  (eds.)  Management of agri-food chains.    MATE Press, Gödöllő.  pp. 66-79.  ISBN 978-963-623-023-4      " />
-<meta name="eprints.document_url" content="https://press.mater.uni-mate.hu/201/1/ch5.pdf" />
+<meta name="eprints.document_url" content="https://press.fater.uni-mate.hu/201/1/ch5.pdf" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta name="DC.relation" content="https://press.mater.uni-mate.hu/201/" />
+<meta name="DC.relation" content="https://press.fater.uni-mate.hu/201/" />
 <meta name="DC.title" content="Consumer perception of food quality and safety" />
 <meta name="DC.creator" content="Jerčinović, Silvije" />
 <meta name="DC.subject" content="S Agriculture (General)" />
@@ -58,29 +58,29 @@
 <meta name="DC.format" content="text" />
 <meta name="DC.language" content="en" />
 <meta name="DC.rights" content="cc_by_nc_nd_4" />
-<meta name="DC.identifier" content="https://press.mater.uni-mate.hu/201/1/ch5.pdf" />
+<meta name="DC.identifier" content="https://press.fater.uni-mate.hu/201/1/ch5.pdf" />
 <meta name="DC.identifier" content="  Jerčinović, Silvije  (2022) Consumer perception of food quality and safety.   In: Srečec, Siniša and Csonka, Arnold and Koponicsné Györke, Diána and Nagy, Mónika Zita  (eds.)  Management of agri-food chains.    MATE Press, Gödöllő.  pp. 66-79.  ISBN 978-963-623-023-4      " />
 <meta name="DC.relation" content="https://doi.org/10.54597/mate.0063" />
 <meta name="DC.relation" content="10.54597/mate.0063" />
 <meta name="DC.identifier" content="10.54597/mate.0063" />
-<link href="https://press.mater.uni-mate.hu/201/" rel="canonical" />
-<link title="HTML Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/HTML/press-eprint-201.html" type="text/html; charset=utf-8" rel="alternate" />
-<link title="Atom" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/Atom/press-eprint-201.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
-<link title="MODS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/MODS/press-eprint-201.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="RDF+N3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/RDFN3/press-eprint-201.n3" type="text/n3" rel="alternate" />
-<link title="ASCII Citation" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/Text/press-eprint-201.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="Reference Manager" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/RIS/press-eprint-201.ris" type="text/plain" rel="alternate" />
-<link title="BibTeX" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/BibTeX/press-eprint-201.bib" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="OpenURL ContextObject" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/ContextObject/press-eprint-201.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="Refer" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/Refer/press-eprint-201.refer" type="text/plain" rel="alternate" />
-<link title="METS" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/METS/press-eprint-201.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="Dublin Core" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/DC/press-eprint-201.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="RDF+N-Triples" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/RDFNT/press-eprint-201.nt" type="text/plain" rel="alternate" />
-<link title="EndNote" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/EndNote/press-eprint-201.enw" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="EP3 XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/XML/press-eprint-201.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
-<link title="OpenURL ContextObject in Span" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/COinS/press-eprint-201.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="Multiline CSV" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/CSV/press-eprint-201.csv" type="text/csv; charset=utf-8" rel="alternate" />
-<link title="MPEG-21 DIDL" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/DIDL/press-eprint-201.xml" type="text/xml; charset=utf-8" rel="alternate" />
-<link title="RDF+XML" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/RDFXML/press-eprint-201.rdf" type="application/rdf+xml" rel="alternate" />
-<link title="Simple Metadata" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/Simple/press-eprint-201.txt" type="text/plain; charset=utf-8" rel="alternate" />
-<link title="JSON" href="https://press.mater.uni-mate.hu/cgi/export/eprint/201/JSON/press-eprint-201.js" type="application/json; charset=utf-8" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/201/" rel="canonical" />
+<link title="HTML Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/HTML/press-eprint-201.html" type="text/html; charset=utf-8" rel="alternate" />
+<link title="Atom" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/Atom/press-eprint-201.xml" type="application/atom+xml;charset=utf-8" rel="alternate" />
+<link title="MODS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/MODS/press-eprint-201.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+N3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/RDFN3/press-eprint-201.n3" type="text/n3" rel="alternate" />
+<link title="ASCII Citation" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/Text/press-eprint-201.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Reference Manager" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/RIS/press-eprint-201.ris" type="text/plain" rel="alternate" />
+<link title="BibTeX" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/BibTeX/press-eprint-201.bib" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/ContextObject/press-eprint-201.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Refer" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/Refer/press-eprint-201.refer" type="text/plain" rel="alternate" />
+<link title="METS" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/METS/press-eprint-201.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="Dublin Core" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/DC/press-eprint-201.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="RDF+N-Triples" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/RDFNT/press-eprint-201.nt" type="text/plain" rel="alternate" />
+<link title="EndNote" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/EndNote/press-eprint-201.enw" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="EP3 XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/XML/press-eprint-201.xml" type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" />
+<link title="OpenURL ContextObject in Span" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/COinS/press-eprint-201.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="Multiline CSV" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/CSV/press-eprint-201.csv" type="text/csv; charset=utf-8" rel="alternate" />
+<link title="MPEG-21 DIDL" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/DIDL/press-eprint-201.xml" type="text/xml; charset=utf-8" rel="alternate" />
+<link title="RDF+XML" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/RDFXML/press-eprint-201.rdf" type="application/rdf+xml" rel="alternate" />
+<link title="Simple Metadata" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/Simple/press-eprint-201.txt" type="text/plain; charset=utf-8" rel="alternate" />
+<link title="JSON" href="https://press.fater.uni-mate.hu/cgi/export/eprint/201/JSON/press-eprint-201.js" type="application/json; charset=utf-8" rel="alternate" />

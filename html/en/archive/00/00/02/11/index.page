@@ -51,7 +51,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_244767', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244767', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_244767', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_244767', 'right' );" href="https://press.mater.uni-mate.hu/211/1/EDUAGRI_HR_Chapter08_P111-136.pdf"><img border="0" alt="[thumbnail of Poglavlje 8]" class="ep_doc_icon" src="https://press.mater.uni-mate.hu/211/1.hassmallThumbnailVersion/EDUAGRI_HR_Chapter08_P111-136.pdf" /></a><div id="doc_preview_244767" class="ep_preview"><div><div><span><img id="doc_preview_244767_img" alt="" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/211/1.haspreviewThumbnailVersion/EDUAGRI_HR_Chapter08_P111-136.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_244767', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244767', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_244767', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_244767', 'right' );" href="https://press.fater.uni-mate.hu/211/1/EDUAGRI_HR_Chapter08_P111-136.pdf"><img border="0" alt="[thumbnail of Poglavlje 8]" class="ep_doc_icon" src="https://press.fater.uni-mate.hu/211/1.hassmallThumbnailVersion/EDUAGRI_HR_Chapter08_P111-136.pdf" /></a><div id="doc_preview_244767" class="ep_preview"><div><div><span><img id="doc_preview_244767_img" alt="" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/211/1.haspreviewThumbnailVersion/EDUAGRI_HR_Chapter08_P111-136.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -70,10 +70,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/211/1/EDUAGRI_HR_Chapter08_P111-136.pdf" class="ep_document_link">Download (1MB)</a>
+              <a href="https://press.fater.uni-mate.hu/211/1/EDUAGRI_HR_Chapter08_P111-136.pdf" class="ep_document_link">Download (1MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/211/1.haslightboxThumbnailVersion/EDUAGRI_HR_Chapter08_P111-136.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/211/1.haslightboxThumbnailVersion/EDUAGRI_HR_Chapter08_P111-136.pdf">Preview</a>
 			  
 			  
               
@@ -109,7 +109,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/S.html">S Agriculture</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/S1.html">S Agriculture (General)</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/S.html">S Agriculture</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/S1.html">S Agriculture (General)</a></td>
         </tr>
       
     
@@ -120,7 +120,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -159,13 +159,13 @@
       
         <tr>
           <th align="right">Related URLs:</th>
-          <td valign="top"><ul><li><a href="https://press.mater.uni-mate.hu/id/eprint/210">Engleska verzija DOI: https://doi.org/10.54597/mate.0066</a></li><li><a href="https://press.mater.uni-mate.hu/id/eprint/209">Mađarska verzija DOI: https://doi.org/10.54597/mate.0034</a></li><li><a href="https://press.mater.uni-mate.hu/id/eprint/189">Kompletna knjiga (Hrvatski) DOI: https://doi.org/10.54597/mate.0074</a></li><li><a href="https://press.mater.uni-mate.hu/id/eprint/188">Kompletna knjiga (Engleski) DOI: https://doi.org/10.54597/mate.0058</a></li><li><a href="https://press.mater.uni-mate.hu/id/eprint/177">Kompletna knjiga (Mađarski ) DOI: https://doi.org/10.54597/mate.0042</a></li></ul></td>
+          <td valign="top"><ul><li><a href="https://press.fater.uni-mate.hu/id/eprint/210">Engleska verzija DOI: https://doi.org/10.54597/mate.0066</a></li><li><a href="https://press.fater.uni-mate.hu/id/eprint/209">Mađarska verzija DOI: https://doi.org/10.54597/mate.0034</a></li><li><a href="https://press.fater.uni-mate.hu/id/eprint/189">Kompletna knjiga (Hrvatski) DOI: https://doi.org/10.54597/mate.0074</a></li><li><a href="https://press.fater.uni-mate.hu/id/eprint/188">Kompletna knjiga (Engleski) DOI: https://doi.org/10.54597/mate.0058</a></li><li><a href="https://press.fater.uni-mate.hu/id/eprint/177">Kompletna knjiga (Mađarski ) DOI: https://doi.org/10.54597/mate.0042</a></li></ul></td>
         </tr>
       
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/211">https://press.mater.uni-mate.hu/id/eprint/211</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/211">https://press.fater.uni-mate.hu/id/eprint/211</a></td>
     </tr>
   </table>
 

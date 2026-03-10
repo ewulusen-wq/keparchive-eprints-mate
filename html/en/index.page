@@ -37,6 +37,6 @@
 </dl>
 
 <p style="margin-top: 2em; font-size: 90%">
-Publikációk supports <a href="https://www.openarchives.org"><abbr title="Open Archives Protocol for Metadata Harvesting v2.0">OAI 2.0</abbr></a> with a base URL of <code>https://press.mater.uni-mate.hu/cgi/oai2</code>
+Publikációk supports <a href="https://www.openarchives.org"><abbr title="Open Archives Protocol for Metadata Harvesting v2.0">OAI 2.0</abbr></a> with a base URL of <code>https://press.fater.uni-mate.hu/cgi/oai2</code>
 </p>
 

@@ -35,7 +35,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_245525', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245525', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_245525', 'right' );" href="https://press.mater.uni-mate.hu/424/1/005_SME_7139_FINAL.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_245525', 'right' );"><img border="0" alt="[thumbnail of Szakcikk]" src="https://press.mater.uni-mate.hu/424/1.hassmallThumbnailVersion/005_SME_7139_FINAL.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_245525"><div><div><span><img border="0" alt="" src="https://press.mater.uni-mate.hu/424/1.haspreviewThumbnailVersion/005_SME_7139_FINAL.pdf" id="doc_preview_245525_img" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_245525', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245525', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_245525', 'right' );" href="https://press.fater.uni-mate.hu/424/1/005_SME_7139_FINAL.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_245525', 'right' );"><img border="0" alt="[thumbnail of Szakcikk]" src="https://press.fater.uni-mate.hu/424/1.hassmallThumbnailVersion/005_SME_7139_FINAL.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_245525"><div><div><span><img border="0" alt="" src="https://press.fater.uni-mate.hu/424/1.haspreviewThumbnailVersion/005_SME_7139_FINAL.pdf" id="doc_preview_245525_img" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -54,10 +54,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/424/1/005_SME_7139_FINAL.pdf" class="ep_document_link">Download (954kB)</a>
+              <a href="https://press.fater.uni-mate.hu/424/1/005_SME_7139_FINAL.pdf" class="ep_document_link">Download (954kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/424/1.haslightboxThumbnailVersion/005_SME_7139_FINAL.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/424/1.haslightboxThumbnailVersion/005_SME_7139_FINAL.pdf">Preview</a>
 			  
 			  
               
@@ -98,7 +98,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/HE.html">HE Transportation and Communications</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/HE.html">HE Transportation and Communications</a></td>
         </tr>
       
     
@@ -107,7 +107,7 @@
           <th align="right">SWORD Depositor:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -118,7 +118,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -163,7 +163,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/424">https://press.mater.uni-mate.hu/id/eprint/424</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/424">https://press.fater.uni-mate.hu/id/eprint/424</a></td>
     </tr>
   </table>
 

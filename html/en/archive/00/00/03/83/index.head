@@ -31,12 +31,12 @@
 <meta content="Mészáros, Kornélia" name="eprints.editors_name" />
 <meta content="Szerb, Boglárka" name="eprints.editors_name" />
 <meta content="Lehota, Zsuzsanna" name="eprints.editors_name" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/323" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/323" name="eprints.related_url_url" />
 <meta content="Teljes kötet" name="eprints.related_url_type" />
 <meta content="  Szabó, Eszter  (2024) Hatékonyságnövelés egy vállalat projekt beszerzésében egy új alkatrész bevezetése esetén.   In: Mészáros, Kornélia and Szerb, Boglárka and Lehota, Zsuzsanna  (eds.)  Fenntarthatóság és hatékonyság a logisztikában : Logisztika napja a Magyar Agrár- és Élettudományi Egyetemen, Gödöllő, 2023. április 20. és 2024. április 23. = Sustainability and efficiency in logistics : Day of Logistics at Hungarian University of Agricu.    MATE Press, Gödöllő.  pp. 55-67.  ISBN 978-963-623-110-1 (pdf)      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/383/1/05_Szab%C3%B3_E.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/383/1/05_Szab%C3%B3_E.pdf" name="eprints.document_url" />
 <link href="http://purl.org/DC/elements/1.0/" rel="schema.DC" />
-<meta content="https://press.mater.uni-mate.hu/383/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/383/" name="DC.relation" />
 <meta content="Hatékonyságnövelés egy vállalat projekt beszerzésében egy új alkatrész bevezetése esetén" name="DC.title" />
 <meta content="Szabó, Eszter" name="DC.creator" />
 <meta content="HB Economic Theory" name="DC.subject" />
@@ -51,27 +51,27 @@
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/383/1/05_Szab%C3%B3_E.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/383/1/05_Szab%C3%B3_E.pdf" name="DC.identifier" />
 <meta content="  Szabó, Eszter  (2024) Hatékonyságnövelés egy vállalat projekt beszerzésében egy új alkatrész bevezetése esetén.   In: Mészáros, Kornélia and Szerb, Boglárka and Lehota, Zsuzsanna  (eds.)  Fenntarthatóság és hatékonyság a logisztikában : Logisztika napja a Magyar Agrár- és Élettudományi Egyetemen, Gödöllő, 2023. április 20. és 2024. április 23. = Sustainability and efficiency in logistics : Day of Logistics at Hungarian University of Agricu.    MATE Press, Gödöllő.  pp. 55-67.  ISBN 978-963-623-110-1 (pdf)      " name="DC.identifier" />
 <meta content="https://doi.org/10.54597/mate.0127" name="DC.relation" />
-<link href="https://press.mater.uni-mate.hu/383/" rel="canonical" />
-<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/Atom/press-eprint-383.xml" rel="alternate" />
-<link title="MODS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/MODS/press-eprint-383.xml" rel="alternate" />
-<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/DC/press-eprint-383.txt" rel="alternate" />
-<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/COinS/press-eprint-383.txt" rel="alternate" />
-<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/ContextObject/press-eprint-383.xml" rel="alternate" />
-<link title="METS" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/METS/press-eprint-383.xml" rel="alternate" />
-<link title="RDF+N3" type="text/n3" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/RDFN3/press-eprint-383.n3" rel="alternate" />
-<link title="Refer" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/Refer/press-eprint-383.refer" rel="alternate" />
-<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/BibTeX/press-eprint-383.bib" rel="alternate" />
-<link title="Reference Manager" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/RIS/press-eprint-383.ris" rel="alternate" />
-<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/XML/press-eprint-383.xml" rel="alternate" />
-<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/Text/press-eprint-383.txt" rel="alternate" />
-<link title="RDF+XML" type="application/rdf+xml" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/RDFXML/press-eprint-383.rdf" rel="alternate" />
-<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/Simple/press-eprint-383.txt" rel="alternate" />
-<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/DIDL/press-eprint-383.xml" rel="alternate" />
-<link title="JSON" type="application/json; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/JSON/press-eprint-383.js" rel="alternate" />
-<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/HTML/press-eprint-383.html" rel="alternate" />
-<link title="RDF+N-Triples" type="text/plain" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/RDFNT/press-eprint-383.nt" rel="alternate" />
-<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/EndNote/press-eprint-383.enw" rel="alternate" />
-<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.mater.uni-mate.hu/cgi/export/eprint/383/CSV/press-eprint-383.csv" rel="alternate" />
+<link href="https://press.fater.uni-mate.hu/383/" rel="canonical" />
+<link title="Atom" type="application/atom+xml;charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/Atom/press-eprint-383.xml" rel="alternate" />
+<link title="MODS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/MODS/press-eprint-383.xml" rel="alternate" />
+<link title="Dublin Core" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/DC/press-eprint-383.txt" rel="alternate" />
+<link title="OpenURL ContextObject in Span" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/COinS/press-eprint-383.txt" rel="alternate" />
+<link title="OpenURL ContextObject" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/ContextObject/press-eprint-383.xml" rel="alternate" />
+<link title="METS" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/METS/press-eprint-383.xml" rel="alternate" />
+<link title="RDF+N3" type="text/n3" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/RDFN3/press-eprint-383.n3" rel="alternate" />
+<link title="Refer" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/Refer/press-eprint-383.refer" rel="alternate" />
+<link title="BibTeX" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/BibTeX/press-eprint-383.bib" rel="alternate" />
+<link title="Reference Manager" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/RIS/press-eprint-383.ris" rel="alternate" />
+<link title="EP3 XML" type="application/vnd.eprints.data+xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/XML/press-eprint-383.xml" rel="alternate" />
+<link title="ASCII Citation" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/Text/press-eprint-383.txt" rel="alternate" />
+<link title="RDF+XML" type="application/rdf+xml" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/RDFXML/press-eprint-383.rdf" rel="alternate" />
+<link title="Simple Metadata" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/Simple/press-eprint-383.txt" rel="alternate" />
+<link title="MPEG-21 DIDL" type="text/xml; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/DIDL/press-eprint-383.xml" rel="alternate" />
+<link title="JSON" type="application/json; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/JSON/press-eprint-383.js" rel="alternate" />
+<link title="HTML Citation" type="text/html; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/HTML/press-eprint-383.html" rel="alternate" />
+<link title="RDF+N-Triples" type="text/plain" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/RDFNT/press-eprint-383.nt" rel="alternate" />
+<link title="EndNote" type="text/plain; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/EndNote/press-eprint-383.enw" rel="alternate" />
+<link title="Multiline CSV" type="text/csv; charset=utf-8" href="https://press.fater.uni-mate.hu/cgi/export/eprint/383/CSV/press-eprint-383.csv" rel="alternate" />

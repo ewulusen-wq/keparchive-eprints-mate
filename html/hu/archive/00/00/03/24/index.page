@@ -51,7 +51,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" href="https://press.mater.uni-mate.hu/324/1/01_P%C3%B3ka_V.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_245383', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_245383', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245383', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245383', 'right' );"><img src="https://press.mater.uni-mate.hu/324/1.hassmallThumbnailVersion/01_P%C3%B3ka_V.pdf" border="0" class="ep_doc_icon" alt="[thumbnail of Konferenciaközlemény]" /></a><div id="doc_preview_245383" class="ep_preview"><div><div><span><img id="doc_preview_245383_img" src="https://press.mater.uni-mate.hu/324/1.haspreviewThumbnailVersion/01_P%C3%B3ka_V.pdf" border="0" class="ep_preview_image" alt="" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a target="_blank" href="https://press.fater.uni-mate.hu/324/1/01_P%C3%B3ka_V.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_245383', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_245383', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245383', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245383', 'right' );"><img src="https://press.fater.uni-mate.hu/324/1.hassmallThumbnailVersion/01_P%C3%B3ka_V.pdf" border="0" class="ep_doc_icon" alt="[thumbnail of Konferenciaközlemény]" /></a><div id="doc_preview_245383" class="ep_preview"><div><div><span><img id="doc_preview_245383_img" src="https://press.fater.uni-mate.hu/324/1.haspreviewThumbnailVersion/01_P%C3%B3ka_V.pdf" border="0" class="ep_preview_image" alt="" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -68,10 +68,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/324/1/01_P%C3%B3ka_V.pdf" class="ep_document_link">Letöltés (399kB)</a>
+              <a href="https://press.fater.uni-mate.hu/324/1/01_P%C3%B3ka_V.pdf" class="ep_document_link">Letöltés (399kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/324/1.haslightboxThumbnailVersion/01_P%C3%B3ka_V.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/324/1.haslightboxThumbnailVersion/01_P%C3%B3ka_V.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -112,7 +112,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a></td>
         </tr>
       
     
@@ -123,7 +123,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -162,13 +162,13 @@
       
         <tr>
           <th align="right">Kapcsolódó URL:</th>
-          <td valign="top"><ul><li><a href="https://press.mater.uni-mate.hu/id/eprint/323">Teljes kötet</a></li></ul></td>
+          <td valign="top"><ul><li><a href="https://press.fater.uni-mate.hu/id/eprint/323">Teljes kötet</a></li></ul></td>
         </tr>
       
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/324">https://press.mater.uni-mate.hu/id/eprint/324</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/324">https://press.fater.uni-mate.hu/id/eprint/324</a></td>
     </tr>
   </table>
 

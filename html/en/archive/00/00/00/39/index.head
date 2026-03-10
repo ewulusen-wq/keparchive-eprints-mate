@@ -31,9 +31,9 @@
 <meta content="Dajnoki, Krisztina" name="eprints.editors_name" />
 <meta content="Egis Gyógyszeripari Zrt." name="eprints.funders" />
 <meta content="  Poór, József and Kovács, Ildikó Éva and Szeiner, Zsuzsanna and Tóth, Arnold and Pató Gáborné Szűcs, Beáta and Kunos, István and Szabó, Katalin and Szabó, Szilvia and Dajnoki, Krisztina (eds.).  (2022) Koronavírus-válság : Kihívások és HR-válaszok Közép- és Kelet-Európa hat országában.     Magyar Agrár- és Élettudományi Egyetem, Gödöllő. 101Number of Pages.   ISBN 978-963-269-983-7      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/39/1/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/39/1/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" name="eprints.document_url" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta content="https://press.mater.uni-mate.hu/39/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/39/" name="DC.relation" />
 <meta content="Koronavírus-válság : Kihívások és HR-válaszok Közép- és Kelet-Európa hat országában" name="DC.title" />
 <meta content="HB Economic Theory" name="DC.subject" />
 <meta content="Magyar Agrár- és Élettudományi Egyetem" name="DC.publisher" />
@@ -52,26 +52,26 @@
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/39/1/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/39/1/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" name="DC.identifier" />
 <meta content="  Poór, József and Kovács, Ildikó Éva and Szeiner, Zsuzsanna and Tóth, Arnold and Pató Gáborné Szűcs, Beáta and Kunos, István and Szabó, Katalin and Szabó, Szilvia and Dajnoki, Krisztina (eds.).  (2022) Koronavírus-válság : Kihívások és HR-válaszok Közép- és Kelet-Európa hat országában.     Magyar Agrár- és Élettudományi Egyetem, Gödöllő. 101Number of Pages.   ISBN 978-963-269-983-7      " name="DC.identifier" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/39/" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/EndNote/press-eprint-39.enw" title="EndNote" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/METS/press-eprint-39.xml" title="METS" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/ContextObject/press-eprint-39.xml" title="OpenURL ContextObject" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/RIS/press-eprint-39.ris" title="Reference Manager" />
-<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/RDFXML/press-eprint-39.rdf" title="RDF+XML" />
-<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/JSON/press-eprint-39.js" title="JSON" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/BibTeX/press-eprint-39.bib" title="BibTeX" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/XML/press-eprint-39.xml" title="EP3 XML" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/RDFNT/press-eprint-39.nt" title="RDF+N-Triples" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/DC/press-eprint-39.txt" title="Dublin Core" />
-<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/RDFN3/press-eprint-39.n3" title="RDF+N3" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/Text/press-eprint-39.txt" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/HTML/press-eprint-39.html" title="HTML Citation" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/DIDL/press-eprint-39.xml" title="MPEG-21 DIDL" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/COinS/press-eprint-39.txt" title="OpenURL ContextObject in Span" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/MODS/press-eprint-39.xml" title="MODS" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/Refer/press-eprint-39.refer" title="Refer" />
-<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/Atom/press-eprint-39.xml" title="Atom" />
-<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/CSV/press-eprint-39.csv" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/39/Simple/press-eprint-39.txt" title="Simple Metadata" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/39/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/EndNote/press-eprint-39.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/METS/press-eprint-39.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/ContextObject/press-eprint-39.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/RIS/press-eprint-39.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/RDFXML/press-eprint-39.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/JSON/press-eprint-39.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/BibTeX/press-eprint-39.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/XML/press-eprint-39.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/RDFNT/press-eprint-39.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/DC/press-eprint-39.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/RDFN3/press-eprint-39.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/Text/press-eprint-39.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/HTML/press-eprint-39.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/DIDL/press-eprint-39.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/COinS/press-eprint-39.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/MODS/press-eprint-39.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/Refer/press-eprint-39.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/Atom/press-eprint-39.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/CSV/press-eprint-39.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/39/Simple/press-eprint-39.txt" title="Simple Metadata" />

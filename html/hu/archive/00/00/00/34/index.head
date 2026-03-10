@@ -29,10 +29,10 @@
 <meta content="National Research, Development and Innovation Office  (Hungary)" name="eprints.funders" />
 <meta content="OTKA FK_19 131895" name="eprints.projects" />
 <meta content="  Géczi, Gábor és Kicsiny, Richárd és Székely, László (Szerk.).  (2021) Efficiency, solar and thermal energy for the human comfort : Book of Abstracts.     Hungarian University of Agriculture and Life Science, Gödöllő. 47 p.   ISBN 978-963-269-958-5      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/34/2/101.jpg" name="eprints.document_url" />
-<meta content="https://press.mater.uni-mate.hu/34/1/ESTEHC_Abstractbook_2021_final_test.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/34/2/101.jpg" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/34/1/ESTEHC_Abstractbook_2021_final_test.pdf" name="eprints.document_url" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta content="https://press.mater.uni-mate.hu/34/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/34/" name="DC.relation" />
 <meta content="Efficiency, solar and thermal energy for the human comfort : Book of Abstracts" name="DC.title" />
 <meta content="S Mezőgazdaság általában" name="DC.subject" />
 <meta content="International Conference on Efficiency, Solar and Thermal Energy for the Human Comfort 9 July 2021, Gödöllő, Hungary" name="DC.description" />
@@ -46,30 +46,30 @@
 <meta content="image" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/34/2/101.jpg" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/34/2/101.jpg" name="DC.identifier" />
 <meta content="text" name="DC.format" />
 <meta content="hu" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/34/1/ESTEHC_Abstractbook_2021_final_test.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/34/1/ESTEHC_Abstractbook_2021_final_test.pdf" name="DC.identifier" />
 <meta content="  Géczi, Gábor és Kicsiny, Richárd és Székely, László (Szerk.).  (2021) Efficiency, solar and thermal energy for the human comfort : Book of Abstracts.     Hungarian University of Agriculture and Life Science, Gödöllő. 47 p.   ISBN 978-963-269-958-5      " name="DC.identifier" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/34/" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/EndNote/press-eprint-34.enw" title="EndNote" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/METS/press-eprint-34.xml" title="METS" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/ContextObject/press-eprint-34.xml" title="OpenURL ContextObject" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/RIS/press-eprint-34.ris" title="Reference Manager" />
-<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/RDFXML/press-eprint-34.rdf" title="RDF+XML" />
-<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/JSON/press-eprint-34.js" title="JSON" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/BibTeX/press-eprint-34.bib" title="BibTeX" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/XML/press-eprint-34.xml" title="EP3 XML" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/RDFNT/press-eprint-34.nt" title="RDF+N-Triples" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/DC/press-eprint-34.txt" title="Dublin Core" />
-<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/RDFN3/press-eprint-34.n3" title="RDF+N3" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/Text/press-eprint-34.txt" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/HTML/press-eprint-34.html" title="HTML Citation" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/DIDL/press-eprint-34.xml" title="MPEG-21 DIDL" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/COinS/press-eprint-34.txt" title="OpenURL ContextObject in Span" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/MODS/press-eprint-34.xml" title="MODS" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/Refer/press-eprint-34.refer" title="Refer" />
-<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/Atom/press-eprint-34.xml" title="Atom" />
-<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/CSV/press-eprint-34.csv" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/34/Simple/press-eprint-34.txt" title="Simple Metadata" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/34/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/EndNote/press-eprint-34.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/METS/press-eprint-34.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/ContextObject/press-eprint-34.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/RIS/press-eprint-34.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/RDFXML/press-eprint-34.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/JSON/press-eprint-34.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/BibTeX/press-eprint-34.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/XML/press-eprint-34.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/RDFNT/press-eprint-34.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/DC/press-eprint-34.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/RDFN3/press-eprint-34.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/Text/press-eprint-34.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/HTML/press-eprint-34.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/DIDL/press-eprint-34.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/COinS/press-eprint-34.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/MODS/press-eprint-34.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/Refer/press-eprint-34.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/Atom/press-eprint-34.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/CSV/press-eprint-34.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/34/Simple/press-eprint-34.txt" title="Simple Metadata" />

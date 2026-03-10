@@ -35,7 +35,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_244990', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244990', 'right' );" href="https://press.mater.uni-mate.hu/296/1/SME_5947_jav_v2.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244990', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244990', 'right' );" class="ep_document_link"><img alt="[thumbnail of Szakcikk]" src="https://press.mater.uni-mate.hu/296/1.hassmallThumbnailVersion/SME_5947_jav_v2.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_244990" class="ep_preview"><div><div><span><img alt="" id="doc_preview_244990_img" src="https://press.mater.uni-mate.hu/296/1.haspreviewThumbnailVersion/SME_5947_jav_v2.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_244990', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244990', 'right' );" href="https://press.fater.uni-mate.hu/296/1/SME_5947_jav_v2.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244990', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244990', 'right' );" class="ep_document_link"><img alt="[thumbnail of Szakcikk]" src="https://press.fater.uni-mate.hu/296/1.hassmallThumbnailVersion/SME_5947_jav_v2.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_244990" class="ep_preview"><div><div><span><img alt="" id="doc_preview_244990_img" src="https://press.fater.uni-mate.hu/296/1.haspreviewThumbnailVersion/SME_5947_jav_v2.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -54,10 +54,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/296/1/SME_5947_jav_v2.pdf" class="ep_document_link">Download (459kB)</a>
+              <a href="https://press.fater.uni-mate.hu/296/1/SME_5947_jav_v2.pdf" class="ep_document_link">Download (459kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/296/1.haslightboxThumbnailVersion/SME_5947_jav_v2.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/296/1.haslightboxThumbnailVersion/SME_5947_jav_v2.pdf">Preview</a>
 			  
 			  
               
@@ -99,7 +99,7 @@ innovation, knowledge, education, innovation performance</td>
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Economic Theory</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/L1.html">L Education (General)</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Economic Theory</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/L1.html">L Education (General)</a></td>
         </tr>
       
     
@@ -108,7 +108,7 @@ innovation, knowledge, education, innovation performance</td>
           <th align="right">SWORD Depositor:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -119,7 +119,7 @@ innovation, knowledge, education, innovation performance</td>
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -164,7 +164,7 @@ innovation, knowledge, education, innovation performance</td>
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/296">https://press.mater.uni-mate.hu/id/eprint/296</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/296">https://press.fater.uni-mate.hu/id/eprint/296</a></td>
     </tr>
   </table>
 

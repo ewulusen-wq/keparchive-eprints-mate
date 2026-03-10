@@ -51,7 +51,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_217298', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_217298', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_217298', 'right' );" href="https://press.mater.uni-mate.hu/178/1/1.fejezet.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_217298', 'right' );"><img border="0" alt="[thumbnail of 1. fejezet]" src="https://press.mater.uni-mate.hu/178/1.hassmallThumbnailVersion/1.fejezet.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_217298"><div><div><span><img border="0" alt="" src="https://press.mater.uni-mate.hu/178/1.haspreviewThumbnailVersion/1.fejezet.pdf" id="doc_preview_217298_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_217298', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_217298', 'right' );" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_217298', 'right' );" href="https://press.fater.uni-mate.hu/178/1/1.fejezet.pdf" onfocus="EPJS_ShowPreview( event, 'doc_preview_217298', 'right' );"><img border="0" alt="[thumbnail of 1. fejezet]" src="https://press.fater.uni-mate.hu/178/1.hassmallThumbnailVersion/1.fejezet.pdf" class="ep_doc_icon" /></a><div class="ep_preview" id="doc_preview_217298"><div><div><span><img border="0" alt="" src="https://press.fater.uni-mate.hu/178/1.haspreviewThumbnailVersion/1.fejezet.pdf" id="doc_preview_217298_img" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -70,10 +70,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/178/1/1.fejezet.pdf" class="ep_document_link">Letöltés (781kB)</a>
+              <a href="https://press.fater.uni-mate.hu/178/1/1.fejezet.pdf" class="ep_document_link">Letöltés (781kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/178/1.haslightboxThumbnailVersion/1.fejezet.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/178/1.haslightboxThumbnailVersion/1.fejezet.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -109,7 +109,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/S1.html">S Mezőgazdaság általában</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/S1.html">S Mezőgazdaság általában</a></td>
         </tr>
       
     
@@ -120,7 +120,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -159,13 +159,13 @@
       
         <tr>
           <th align="right">Kapcsolódó URL:</th>
-          <td valign="top"><ul><li><a href="https://press.mater.uni-mate.hu/id/eprint/191">Angol nyelvi változat DOI: https://doi.org/10.54597/mate.0059</a></li><li><a href="https://press.mater.uni-mate.hu/id/eprint/193">Horvát nyelvi változat DOI: https://doi.org/10.54597/mate.0075</a></li><li><a href="https://press.mater.uni-mate.hu/id/eprint/177">Teljes könyv (magyar) DOI: https://doi.org/10.54597/mate.0042</a></li><li><a href="https://press.mater.uni-mate.hu/id/eprint/188">Teljes könyv (angol) DOI: https://doi.org/10.54597/mate.0058</a></li><li><a href="https://press.mater.uni-mate.hu/id/eprint/189">Teljes könyv (horvát) DOI: https://doi.org/10.54597/mate.0074</a></li></ul></td>
+          <td valign="top"><ul><li><a href="https://press.fater.uni-mate.hu/id/eprint/191">Angol nyelvi változat DOI: https://doi.org/10.54597/mate.0059</a></li><li><a href="https://press.fater.uni-mate.hu/id/eprint/193">Horvát nyelvi változat DOI: https://doi.org/10.54597/mate.0075</a></li><li><a href="https://press.fater.uni-mate.hu/id/eprint/177">Teljes könyv (magyar) DOI: https://doi.org/10.54597/mate.0042</a></li><li><a href="https://press.fater.uni-mate.hu/id/eprint/188">Teljes könyv (angol) DOI: https://doi.org/10.54597/mate.0058</a></li><li><a href="https://press.fater.uni-mate.hu/id/eprint/189">Teljes könyv (horvát) DOI: https://doi.org/10.54597/mate.0074</a></li></ul></td>
         </tr>
       
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/178">https://press.mater.uni-mate.hu/id/eprint/178</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/178">https://press.fater.uni-mate.hu/id/eprint/178</a></td>
     </tr>
   </table>
 

@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_245156', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_245156', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245156', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_245156', 'right' );" href="https://press.mater.uni-mate.hu/328/1/Gyogypedagogus_tortenetek_TK_2016.pdf" target="_blank"><img alt="[thumbnail of Interjúkötet]" class="ep_doc_icon" border="0" src="https://press.mater.uni-mate.hu/328/1.hassmallThumbnailVersion/Gyogypedagogus_tortenetek_TK_2016.pdf" /></a><div id="doc_preview_245156" class="ep_preview"><div><div><span><img alt="" id="doc_preview_245156_img" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/328/1.haspreviewThumbnailVersion/Gyogypedagogus_tortenetek_TK_2016.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onmouseout="EPJS_HidePreview( event, 'doc_preview_245156', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_245156', 'right' );" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245156', 'right' );" class="ep_document_link" onblur="EPJS_HidePreview( event, 'doc_preview_245156', 'right' );" href="https://press.fater.uni-mate.hu/328/1/Gyogypedagogus_tortenetek_TK_2016.pdf" target="_blank"><img alt="[thumbnail of Interjúkötet]" class="ep_doc_icon" border="0" src="https://press.fater.uni-mate.hu/328/1.hassmallThumbnailVersion/Gyogypedagogus_tortenetek_TK_2016.pdf" /></a><div id="doc_preview_245156" class="ep_preview"><div><div><span><img alt="" id="doc_preview_245156_img" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/328/1.haspreviewThumbnailVersion/Gyogypedagogus_tortenetek_TK_2016.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/328/1/Gyogypedagogus_tortenetek_TK_2016.pdf" class="ep_document_link">Letöltés (2MB)</a>
+              <a href="https://press.fater.uni-mate.hu/328/1/Gyogypedagogus_tortenetek_TK_2016.pdf" class="ep_document_link">Letöltés (2MB)</a>
               
 			  
-			  | <a href="https://press.mater.uni-mate.hu/328/1.haslightboxThumbnailVersion/Gyogypedagogus_tortenetek_TK_2016.pdf" rel="lightbox[docs] nofollow">Előzetes bemutató</a>
+			  | <a href="https://press.fater.uni-mate.hu/328/1.haslightboxThumbnailVersion/Gyogypedagogus_tortenetek_TK_2016.pdf" rel="lightbox[docs] nofollow">Előzetes bemutató</a>
 			  
 			  
               
@@ -105,7 +105,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/C.html">C Történeti segédtudományok</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/CT.html">CT Életrajz</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/LC.html">LC Speciális oktatási formák</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/C.html">C Történeti segédtudományok</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/CT.html">CT Életrajz</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Oktatás</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/LC.html">LC Speciális oktatási formák</a></td>
         </tr>
       
     
@@ -116,7 +116,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -151,7 +151,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/328">https://press.mater.uni-mate.hu/id/eprint/328</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/328">https://press.fater.uni-mate.hu/id/eprint/328</a></td>
     </tr>
   </table>
 

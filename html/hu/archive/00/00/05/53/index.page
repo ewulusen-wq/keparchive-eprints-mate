@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_246367', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_246367', 'right' );" href="https://press.mater.uni-mate.hu/553/1/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_246367', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_246367', 'right' );" class="ep_document_link"><img alt="[thumbnail of Mikroökonomia alapjai_Villányi-Vértesy_2025.pdf]" src="https://press.mater.uni-mate.hu/553/1.hassmallThumbnailVersion/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_246367" class="ep_preview"><div><div><span><img alt="" id="doc_preview_246367_img" src="https://press.mater.uni-mate.hu/553/1.haspreviewThumbnailVersion/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_246367', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_246367', 'right' );" href="https://press.fater.uni-mate.hu/553/1/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_246367', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_246367', 'right' );" class="ep_document_link"><img alt="[thumbnail of Mikroökonomia alapjai_Villányi-Vértesy_2025.pdf]" src="https://press.fater.uni-mate.hu/553/1.hassmallThumbnailVersion/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_246367" class="ep_preview"><div><div><span><img alt="" id="doc_preview_246367_img" src="https://press.fater.uni-mate.hu/553/1.haspreviewThumbnailVersion/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -59,10 +59,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/553/1/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf" class="ep_document_link">Letöltés (3MB)</a>
+              <a href="https://press.fater.uni-mate.hu/553/1/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf" class="ep_document_link">Letöltés (3MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/553/1.haslightboxThumbnailVersion/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/553/1.haslightboxThumbnailVersion/Mikro%C3%B6konomia%20alapjai_Vill%C3%A1nyi-V%C3%A9rtesy_2025.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -108,7 +108,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a></td>
         </tr>
       
     
@@ -119,7 +119,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -154,7 +154,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/553">https://press.mater.uni-mate.hu/id/eprint/553</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/553">https://press.fater.uni-mate.hu/id/eprint/553</a></td>
     </tr>
   </table>
 

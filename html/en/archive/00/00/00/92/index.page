@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_6187', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_6187', 'right' );" href="https://press.mater.uni-mate.hu/92/1/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_6187', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_6187', 'right' );" class="ep_document_link"><img alt="[thumbnail of Konferenciakötet]" src="https://press.mater.uni-mate.hu/92/1.hassmallThumbnailVersion/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_6187" class="ep_preview"><div><div><span><img alt="" id="doc_preview_6187_img" src="https://press.mater.uni-mate.hu/92/1.haspreviewThumbnailVersion/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_6187', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_6187', 'right' );" href="https://press.fater.uni-mate.hu/92/1/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_6187', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_6187', 'right' );" class="ep_document_link"><img alt="[thumbnail of Konferenciakötet]" src="https://press.fater.uni-mate.hu/92/1.hassmallThumbnailVersion/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_6187" class="ep_preview"><div><div><span><img alt="" id="doc_preview_6187_img" src="https://press.fater.uni-mate.hu/92/1.haspreviewThumbnailVersion/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/92/1/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf" class="ep_document_link">Download (1MB)</a>
+              <a href="https://press.fater.uni-mate.hu/92/1/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf" class="ep_document_link">Download (1MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/92/1.haslightboxThumbnailVersion/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/92/1.haslightboxThumbnailVersion/Ezerartc%C3%BA%20tudom%C3%A1ny_Absztraktk%C3%B6tet_2022.pdf">Preview</a>
 			  
 			  
               
@@ -100,7 +100,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Economic Theory</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Economic Theory</a></td>
         </tr>
       
     
@@ -111,7 +111,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -146,7 +146,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/92">https://press.mater.uni-mate.hu/id/eprint/92</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/92">https://press.fater.uni-mate.hu/id/eprint/92</a></td>
     </tr>
   </table>
 

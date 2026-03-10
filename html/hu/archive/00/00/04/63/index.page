@@ -35,7 +35,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_245904', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_245904', 'right' );" href="https://press.mater.uni-mate.hu/463/1/5_rbs.6683_Hebeny_Fuchs.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245904', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245904', 'right' );" class="ep_document_link"><img alt="[thumbnail of 5_rbs.6683_Hebeny_Fuchs.pdf]" src="https://press.mater.uni-mate.hu/463/1.hassmallThumbnailVersion/5_rbs.6683_Hebeny_Fuchs.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_245904" class="ep_preview"><div><div><span><img alt="" id="doc_preview_245904_img" src="https://press.mater.uni-mate.hu/463/1.haspreviewThumbnailVersion/5_rbs.6683_Hebeny_Fuchs.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_245904', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_245904', 'right' );" href="https://press.fater.uni-mate.hu/463/1/5_rbs.6683_Hebeny_Fuchs.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_245904', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_245904', 'right' );" class="ep_document_link"><img alt="[thumbnail of 5_rbs.6683_Hebeny_Fuchs.pdf]" src="https://press.fater.uni-mate.hu/463/1.hassmallThumbnailVersion/5_rbs.6683_Hebeny_Fuchs.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_245904" class="ep_preview"><div><div><span><img alt="" id="doc_preview_245904_img" src="https://press.fater.uni-mate.hu/463/1.haspreviewThumbnailVersion/5_rbs.6683_Hebeny_Fuchs.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -52,10 +52,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/463/1/5_rbs.6683_Hebeny_Fuchs.pdf" class="ep_document_link">Letöltés (286kB)</a>
+              <a href="https://press.fater.uni-mate.hu/463/1/5_rbs.6683_Hebeny_Fuchs.pdf" class="ep_document_link">Letöltés (286kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/463/1.haslightboxThumbnailVersion/5_rbs.6683_Hebeny_Fuchs.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/463/1.haslightboxThumbnailVersion/5_rbs.6683_Hebeny_Fuchs.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -96,7 +96,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Társadalomtudományok</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Közgazdaságtudomány</a></td>
         </tr>
       
     
@@ -105,7 +105,7 @@
           <th align="right">SWORD Depositor:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -116,7 +116,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -161,7 +161,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/463">https://press.mater.uni-mate.hu/id/eprint/463</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/463">https://press.fater.uni-mate.hu/id/eprint/463</a></td>
     </tr>
   </table>
 

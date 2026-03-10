@@ -29,20 +29,20 @@
 <meta content="Csonka, Arnold" name="eprints.editors_name" />
 <meta content="Koponicsné Györke, Diána" name="eprints.editors_name" />
 <meta content="Nagy, Mónika Zita" name="eprints.editors_name" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/228" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/227" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/189" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/188" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/177" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/228" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/227" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/189" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/188" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/177" name="eprints.related_url_url" />
 <meta content="Engleska verzija DOI: https://doi.org/10.54597/mate.0072" name="eprints.related_url_type" />
 <meta content="Mađarska verzija DOI: https://doi.org/10.54597/mate.0040" name="eprints.related_url_type" />
 <meta content="Kompletna knjiga (Hrvatski) DOI: https://doi.org/10.54597/mate.0074" name="eprints.related_url_type" />
 <meta content="Kompletna knjiga (Engleski) DOI: https://doi.org/10.54597/mate.0058" name="eprints.related_url_type" />
 <meta content="Kompletna knjiga (Mađarski ) DOI: https://doi.org/10.54597/mate.0042" name="eprints.related_url_type" />
 <meta content="  Gajdić, Dušanka  (2022) Održivost poljoprivredno-prehrambenih lanaca opskrbe.   In: Srečec, Sinisa és Csonka, Arnold és Koponicsné Györke, Diána és Nagy, Mónika Zita  (Szerk.)  Upravljanje poljoprivredno-prehrambenim lancima.    MATE Press, Gödöllő.    ISBN 978-963-623-027-2      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/229/1/EDUAGRI_HR_Chapter14_P203-212.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/229/1/EDUAGRI_HR_Chapter14_P203-212.pdf" name="eprints.document_url" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta content="https://press.mater.uni-mate.hu/229/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/229/" name="DC.relation" />
 <meta content="Održivost poljoprivredno-prehrambenih lanaca opskrbe" name="DC.title" />
 <meta content="Gajdić, Dušanka" name="DC.creator" />
 <meta content="S Mezőgazdaság általában" name="DC.subject" />
@@ -57,29 +57,29 @@
 <meta content="text" name="DC.format" />
 <meta content="hr" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/229/1/EDUAGRI_HR_Chapter14_P203-212.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/229/1/EDUAGRI_HR_Chapter14_P203-212.pdf" name="DC.identifier" />
 <meta content="  Gajdić, Dušanka  (2022) Održivost poljoprivredno-prehrambenih lanaca opskrbe.   In: Srečec, Sinisa és Csonka, Arnold és Koponicsné Györke, Diána és Nagy, Mónika Zita  (Szerk.)  Upravljanje poljoprivredno-prehrambenim lancima.    MATE Press, Gödöllő.    ISBN 978-963-623-027-2      " name="DC.identifier" />
 <meta content="https://doi.org/10.54597/mate.0088" name="DC.relation" />
 <meta content="10.54597/mate.0088" name="DC.relation" />
 <meta content="10.54597/mate.0088" name="DC.identifier" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/229/" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/EndNote/press-eprint-229.enw" title="EndNote" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/METS/press-eprint-229.xml" title="METS" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/ContextObject/press-eprint-229.xml" title="OpenURL ContextObject" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/RIS/press-eprint-229.ris" title="Reference Manager" />
-<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/RDFXML/press-eprint-229.rdf" title="RDF+XML" />
-<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/JSON/press-eprint-229.js" title="JSON" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/BibTeX/press-eprint-229.bib" title="BibTeX" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/XML/press-eprint-229.xml" title="EP3 XML" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/RDFNT/press-eprint-229.nt" title="RDF+N-Triples" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/DC/press-eprint-229.txt" title="Dublin Core" />
-<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/RDFN3/press-eprint-229.n3" title="RDF+N3" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/Text/press-eprint-229.txt" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/HTML/press-eprint-229.html" title="HTML Citation" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/DIDL/press-eprint-229.xml" title="MPEG-21 DIDL" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/COinS/press-eprint-229.txt" title="OpenURL ContextObject in Span" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/MODS/press-eprint-229.xml" title="MODS" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/Refer/press-eprint-229.refer" title="Refer" />
-<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/Atom/press-eprint-229.xml" title="Atom" />
-<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/CSV/press-eprint-229.csv" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/229/Simple/press-eprint-229.txt" title="Simple Metadata" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/229/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/EndNote/press-eprint-229.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/METS/press-eprint-229.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/ContextObject/press-eprint-229.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/RIS/press-eprint-229.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/RDFXML/press-eprint-229.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/JSON/press-eprint-229.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/BibTeX/press-eprint-229.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/XML/press-eprint-229.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/RDFNT/press-eprint-229.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/DC/press-eprint-229.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/RDFN3/press-eprint-229.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/Text/press-eprint-229.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/HTML/press-eprint-229.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/DIDL/press-eprint-229.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/COinS/press-eprint-229.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/MODS/press-eprint-229.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/Refer/press-eprint-229.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/Atom/press-eprint-229.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/CSV/press-eprint-229.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/229/Simple/press-eprint-229.txt" title="Simple Metadata" />

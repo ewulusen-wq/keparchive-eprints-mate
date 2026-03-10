@@ -31,20 +31,20 @@
 <meta content="Koponicsné Györke, Diána" name="eprints.editors_name" />
 <meta content="Nagy, Mónika Zita" name="eprints.editors_name" />
 <meta content="0000-0002-9009-4375" name="eprints.editors_orcid" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/203" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/205" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/188" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/177" name="eprints.related_url_url" />
-<meta content="https://press.mater.uni-mate.hu/id/eprint/189" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/203" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/205" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/188" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/177" name="eprints.related_url_url" />
+<meta content="https://press.fater.uni-mate.hu/id/eprint/189" name="eprints.related_url_url" />
 <meta content="Hungarian language version DOI: https://doi.org/10.54597/mate.0032" name="eprints.related_url_type" />
 <meta content="Croatian language version DOI: https://doi.org/10.54597/mate.0080" name="eprints.related_url_type" />
 <meta content="Complete book DOI: https://doi.org/10.54597/mate.0058" name="eprints.related_url_type" />
 <meta content="Complete book (Hungarian language version) DOI: https://doi.org/10.54597/mate.0042" name="eprints.related_url_type" />
 <meta content="Complete book (Croatian language version) DOI: https://doi.org/10.54597/mate.0074" name="eprints.related_url_type" />
 <meta content="  Srečec, Siniša  (2022) Quality assurance in agri-food chains.   In: Srečec, Siniša and Csonka, Arnold and Koponicsné Györke, Diána and Nagy, Mónika Zita  (eds.)  Management of agri-food chains.    MATE Press, Gödöllő.  pp. 80-95.  ISBN 978-963-623-023-4      " name="eprints.citation" />
-<meta content="https://press.mater.uni-mate.hu/204/1/ch6.pdf" name="eprints.document_url" />
+<meta content="https://press.fater.uni-mate.hu/204/1/ch6.pdf" name="eprints.document_url" />
 <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
-<meta content="https://press.mater.uni-mate.hu/204/" name="DC.relation" />
+<meta content="https://press.fater.uni-mate.hu/204/" name="DC.relation" />
 <meta content="Quality assurance in agri-food chains" name="DC.title" />
 <meta content="Srečec, Siniša" name="DC.creator" />
 <meta content="S Agriculture (General)" name="DC.subject" />
@@ -59,29 +59,29 @@
 <meta content="text" name="DC.format" />
 <meta content="en" name="DC.language" />
 <meta content="cc_by_nc_nd_4" name="DC.rights" />
-<meta content="https://press.mater.uni-mate.hu/204/1/ch6.pdf" name="DC.identifier" />
+<meta content="https://press.fater.uni-mate.hu/204/1/ch6.pdf" name="DC.identifier" />
 <meta content="  Srečec, Siniša  (2022) Quality assurance in agri-food chains.   In: Srečec, Siniša and Csonka, Arnold and Koponicsné Györke, Diána and Nagy, Mónika Zita  (eds.)  Management of agri-food chains.    MATE Press, Gödöllő.  pp. 80-95.  ISBN 978-963-623-023-4      " name="DC.identifier" />
 <meta content="https://doi.org/10.54597/mate.0064" name="DC.relation" />
 <meta content="10.54597/mate.0064" name="DC.relation" />
 <meta content="10.54597/mate.0064" name="DC.identifier" />
-<link rel="canonical" href="https://press.mater.uni-mate.hu/204/" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/EndNote/press-eprint-204.enw" title="EndNote" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/METS/press-eprint-204.xml" title="METS" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/ContextObject/press-eprint-204.xml" title="OpenURL ContextObject" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/RIS/press-eprint-204.ris" title="Reference Manager" />
-<link type="application/rdf+xml" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/RDFXML/press-eprint-204.rdf" title="RDF+XML" />
-<link type="application/json; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/JSON/press-eprint-204.js" title="JSON" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/BibTeX/press-eprint-204.bib" title="BibTeX" />
-<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/XML/press-eprint-204.xml" title="EP3 XML" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/RDFNT/press-eprint-204.nt" title="RDF+N-Triples" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/DC/press-eprint-204.txt" title="Dublin Core" />
-<link type="text/n3" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/RDFN3/press-eprint-204.n3" title="RDF+N3" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/Text/press-eprint-204.txt" title="ASCII Citation" />
-<link type="text/html; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/HTML/press-eprint-204.html" title="HTML Citation" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/DIDL/press-eprint-204.xml" title="MPEG-21 DIDL" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/COinS/press-eprint-204.txt" title="OpenURL ContextObject in Span" />
-<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/MODS/press-eprint-204.xml" title="MODS" />
-<link type="text/plain" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/Refer/press-eprint-204.refer" title="Refer" />
-<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/Atom/press-eprint-204.xml" title="Atom" />
-<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/CSV/press-eprint-204.csv" title="Multiline CSV" />
-<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.mater.uni-mate.hu/cgi/export/eprint/204/Simple/press-eprint-204.txt" title="Simple Metadata" />
+<link rel="canonical" href="https://press.fater.uni-mate.hu/204/" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/EndNote/press-eprint-204.enw" title="EndNote" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/METS/press-eprint-204.xml" title="METS" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/ContextObject/press-eprint-204.xml" title="OpenURL ContextObject" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/RIS/press-eprint-204.ris" title="Reference Manager" />
+<link type="application/rdf+xml" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/RDFXML/press-eprint-204.rdf" title="RDF+XML" />
+<link type="application/json; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/JSON/press-eprint-204.js" title="JSON" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/BibTeX/press-eprint-204.bib" title="BibTeX" />
+<link type="application/vnd.eprints.data+xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/XML/press-eprint-204.xml" title="EP3 XML" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/RDFNT/press-eprint-204.nt" title="RDF+N-Triples" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/DC/press-eprint-204.txt" title="Dublin Core" />
+<link type="text/n3" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/RDFN3/press-eprint-204.n3" title="RDF+N3" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/Text/press-eprint-204.txt" title="ASCII Citation" />
+<link type="text/html; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/HTML/press-eprint-204.html" title="HTML Citation" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/DIDL/press-eprint-204.xml" title="MPEG-21 DIDL" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/COinS/press-eprint-204.txt" title="OpenURL ContextObject in Span" />
+<link type="text/xml; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/MODS/press-eprint-204.xml" title="MODS" />
+<link type="text/plain" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/Refer/press-eprint-204.refer" title="Refer" />
+<link type="application/atom+xml;charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/Atom/press-eprint-204.xml" title="Atom" />
+<link type="text/csv; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/CSV/press-eprint-204.csv" title="Multiline CSV" />
+<link type="text/plain; charset=utf-8" rel="alternate" href="https://press.fater.uni-mate.hu/cgi/export/eprint/204/Simple/press-eprint-204.txt" title="Simple Metadata" />

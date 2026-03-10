@@ -43,7 +43,7 @@ Tudományos Ülésszak összefoglalói = Abstracts of János Lippay – Imre Orm
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_244335', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244335', 'right' );" href="https://press.mater.uni-mate.hu/183/1/LOV2023_abstracts_2024.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244335', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244335', 'right' );" class="ep_document_link"><img alt="[thumbnail of Konferenciakötet]" src="https://press.mater.uni-mate.hu/183/1.hassmallThumbnailVersion/LOV2023_abstracts_2024.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_244335" class="ep_preview"><div><div><span><img alt="" id="doc_preview_244335_img" src="https://press.mater.uni-mate.hu/183/1.haspreviewThumbnailVersion/LOV2023_abstracts_2024.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_244335', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244335', 'right' );" href="https://press.fater.uni-mate.hu/183/1/LOV2023_abstracts_2024.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244335', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244335', 'right' );" class="ep_document_link"><img alt="[thumbnail of Konferenciakötet]" src="https://press.fater.uni-mate.hu/183/1.hassmallThumbnailVersion/LOV2023_abstracts_2024.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_244335" class="ep_preview"><div><div><span><img alt="" id="doc_preview_244335_img" src="https://press.fater.uni-mate.hu/183/1.haspreviewThumbnailVersion/LOV2023_abstracts_2024.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -62,10 +62,10 @@ Tudományos Ülésszak összefoglalói = Abstracts of János Lippay – Imre Orm
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/183/1/LOV2023_abstracts_2024.pdf" class="ep_document_link">Letöltés (1MB)</a>
+              <a href="https://press.fater.uni-mate.hu/183/1/LOV2023_abstracts_2024.pdf" class="ep_document_link">Letöltés (1MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/183/1.haslightboxThumbnailVersion/LOV2023_abstracts_2024.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/183/1.haslightboxThumbnailVersion/LOV2023_abstracts_2024.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -101,7 +101,7 @@ Tudományos Ülésszak összefoglalói = Abstracts of János Lippay – Imre Orm
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/A.html">A Általános művek</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/AC.html">AC Gyűjteményes munkák, sorozatok</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/SB.html">SB Növénytermesztés</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/A.html">A Általános művek</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/AC.html">AC Gyűjteményes munkák, sorozatok</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/S.html">S Mezőgazdaság</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/SB.html">SB Növénytermesztés</a></td>
         </tr>
       
     
@@ -112,7 +112,7 @@ Tudományos Ülésszak összefoglalói = Abstracts of János Lippay – Imre Orm
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -147,7 +147,7 @@ Tudományos Ülésszak összefoglalói = Abstracts of János Lippay – Imre Orm
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/183">https://press.mater.uni-mate.hu/id/eprint/183</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/183">https://press.fater.uni-mate.hu/id/eprint/183</a></td>
     </tr>
   </table>
 

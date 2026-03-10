@@ -35,7 +35,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onfocus="EPJS_ShowPreview( event, 'doc_preview_244751', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244751', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244751', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244751', 'right' );" href="https://press.mater.uni-mate.hu/275/1/1ZKZ20222.pdf" target="_blank"><img class="ep_doc_icon" border="0" alt="[thumbnail of Szakcikk]" src="https://press.mater.uni-mate.hu/275/1.hassmallThumbnailVersion/1ZKZ20222.pdf" /></a><div class="ep_preview" id="doc_preview_244751"><div><div><span><img class="ep_preview_image" border="0" alt="" id="doc_preview_244751_img" src="https://press.mater.uni-mate.hu/275/1.haspreviewThumbnailVersion/1ZKZ20222.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
+            <span><a onfocus="EPJS_ShowPreview( event, 'doc_preview_244751', 'right' );" class="ep_document_link" onmouseover="EPJS_ShowPreview( event, 'doc_preview_244751', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_244751', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_244751', 'right' );" href="https://press.fater.uni-mate.hu/275/1/1ZKZ20222.pdf" target="_blank"><img class="ep_doc_icon" border="0" alt="[thumbnail of Szakcikk]" src="https://press.fater.uni-mate.hu/275/1.hassmallThumbnailVersion/1ZKZ20222.pdf" /></a><div class="ep_preview" id="doc_preview_244751"><div><div><span><img class="ep_preview_image" border="0" alt="" id="doc_preview_244751_img" src="https://press.fater.uni-mate.hu/275/1.haspreviewThumbnailVersion/1ZKZ20222.pdf" /><div class="ep_preview_title">Előzetes bemutató</div></span></div></div></div></span>
             <span>
               
 
@@ -54,10 +54,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/275/1/1ZKZ20222.pdf" class="ep_document_link">Letöltés (405kB)</a>
+              <a href="https://press.fater.uni-mate.hu/275/1/1ZKZ20222.pdf" class="ep_document_link">Letöltés (405kB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/275/1.haslightboxThumbnailVersion/1ZKZ20222.pdf">Előzetes bemutató</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/275/1.haslightboxThumbnailVersion/1ZKZ20222.pdf">Előzetes bemutató</a>
 			  
 			  
               
@@ -98,7 +98,7 @@
       
         <tr>
           <th align="right">Szakterület(ek):</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/P.html">P Nyelvészet és irodalom</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/PN.html">PN Irodalom általában</a>  <a href="https://press.mater.uni-mate.hu/view/subjects/PN0441.html">PN0441 Irodalomtörténet</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/P.html">P Nyelvészet és irodalom</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/PN.html">PN Irodalom általában</a>  <a href="https://press.fater.uni-mate.hu/view/subjects/PN0441.html">PN0441 Irodalomtörténet</a></td>
         </tr>
       
     
@@ -107,7 +107,7 @@
           <th align="right">SWORD Depositor:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -118,7 +118,7 @@
           <th align="right">Feltöltő:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=34"><span class="ep_name_citation"><span class="person_name">Sword Press</span></span></a>
 
 </td>
         </tr>
@@ -163,7 +163,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/275">https://press.mater.uni-mate.hu/id/eprint/275</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/275">https://press.fater.uni-mate.hu/id/eprint/275</a></td>
     </tr>
   </table>
 

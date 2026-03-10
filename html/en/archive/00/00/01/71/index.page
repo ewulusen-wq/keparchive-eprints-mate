@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_112293', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_112293', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_112293', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_112293', 'right' );" href="https://press.mater.uni-mate.hu/171/1/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf"><img border="0" alt="[thumbnail of Műhelytanulmány]" class="ep_doc_icon" src="https://press.mater.uni-mate.hu/171/1.hassmallThumbnailVersion/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf" /></a><div id="doc_preview_112293" class="ep_preview"><div><div><span><img id="doc_preview_112293_img" alt="" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/171/1.haspreviewThumbnailVersion/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_112293', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_112293', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_112293', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_112293', 'right' );" href="https://press.fater.uni-mate.hu/171/1/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf"><img border="0" alt="[thumbnail of Műhelytanulmány]" class="ep_doc_icon" src="https://press.fater.uni-mate.hu/171/1.hassmallThumbnailVersion/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf" /></a><div id="doc_preview_112293" class="ep_preview"><div><div><span><img id="doc_preview_112293_img" alt="" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/171/1.haspreviewThumbnailVersion/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/171/1/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf" class="ep_document_link">Download (2MB)</a>
+              <a href="https://press.fater.uni-mate.hu/171/1/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf" class="ep_document_link">Download (2MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/171/1.haslightboxThumbnailVersion/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/171/1.haslightboxThumbnailVersion/KEHOP-Eredm%C3%A9nykommunik%C3%A1ci%C3%B3s%20kiadv%C3%A1ny_teljes.pdf">Preview</a>
 			  
 			  
               
@@ -105,7 +105,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/S.html">S Agriculture</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/S1.html">S Agriculture (General)</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/S.html">S Agriculture</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/S1.html">S Agriculture (General)</a></td>
         </tr>
       
     
@@ -116,7 +116,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -151,7 +151,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/171">https://press.mater.uni-mate.hu/id/eprint/171</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/171">https://press.fater.uni-mate.hu/id/eprint/171</a></td>
     </tr>
   </table>
 

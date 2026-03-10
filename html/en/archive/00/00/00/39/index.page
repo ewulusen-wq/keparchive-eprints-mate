@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_41', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_41', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_41', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_41', 'right' );" href="https://press.mater.uni-mate.hu/39/1/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf"><img border="0" alt="[thumbnail of Műhelytanulmány, kutatási jelentés]" class="ep_doc_icon" src="https://press.mater.uni-mate.hu/39/1.hassmallThumbnailVersion/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" /></a><div id="doc_preview_41" class="ep_preview"><div><div><span><img id="doc_preview_41_img" alt="" class="ep_preview_image" border="0" src="https://press.mater.uni-mate.hu/39/1.haspreviewThumbnailVersion/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a onmouseover="EPJS_ShowPreview( event, 'doc_preview_41', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_41', 'right' );" onfocus="EPJS_ShowPreview( event, 'doc_preview_41', 'right' );" class="ep_document_link" target="_blank" onblur="EPJS_HidePreview( event, 'doc_preview_41', 'right' );" href="https://press.fater.uni-mate.hu/39/1/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf"><img border="0" alt="[thumbnail of Műhelytanulmány, kutatási jelentés]" class="ep_doc_icon" src="https://press.fater.uni-mate.hu/39/1.hassmallThumbnailVersion/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" /></a><div id="doc_preview_41" class="ep_preview"><div><div><span><img id="doc_preview_41_img" alt="" class="ep_preview_image" border="0" src="https://press.fater.uni-mate.hu/39/1.haspreviewThumbnailVersion/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/39/1/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" class="ep_document_link">Download (6MB)</a>
+              <a href="https://press.fater.uni-mate.hu/39/1/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf" class="ep_document_link">Download (6MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/39/1.haslightboxThumbnailVersion/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/39/1.haslightboxThumbnailVersion/Korona-HR_K%C3%B6z%C3%A9p-%20%C3%A9s%20Kelet-Eur%C3%B3pa%20hat%20orsz%C3%A1g%C3%A1ban_2022.pdf">Preview</a>
 			  
 			  
               
@@ -100,7 +100,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/HB.html">HB Economic Theory</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/H.html">H Social Sciences</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/HB.html">HB Economic Theory</a></td>
         </tr>
       
     
@@ -111,7 +111,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -141,7 +141,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/39">https://press.mater.uni-mate.hu/id/eprint/39</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/39">https://press.fater.uni-mate.hu/id/eprint/39</a></td>
     </tr>
   </table>
 

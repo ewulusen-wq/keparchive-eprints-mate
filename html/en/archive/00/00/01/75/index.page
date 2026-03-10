@@ -42,7 +42,7 @@
       <div>
         
           <div class="ep_summary_page_document">
-            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_216400', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_216400', 'right' );" href="https://press.mater.uni-mate.hu/175/1/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_216400', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_216400', 'right' );" class="ep_document_link"><img alt="[thumbnail of Konferenciakötet]" src="https://press.mater.uni-mate.hu/175/1.hassmallThumbnailVersion/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_216400" class="ep_preview"><div><div><span><img alt="" id="doc_preview_216400_img" src="https://press.mater.uni-mate.hu/175/1.haspreviewThumbnailVersion/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
+            <span><a target="_blank" onfocus="EPJS_ShowPreview( event, 'doc_preview_216400', 'right' );" onblur="EPJS_HidePreview( event, 'doc_preview_216400', 'right' );" href="https://press.fater.uni-mate.hu/175/1/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf" onmouseover="EPJS_ShowPreview( event, 'doc_preview_216400', 'right' );" onmouseout="EPJS_HidePreview( event, 'doc_preview_216400', 'right' );" class="ep_document_link"><img alt="[thumbnail of Konferenciakötet]" src="https://press.fater.uni-mate.hu/175/1.hassmallThumbnailVersion/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf" border="0" class="ep_doc_icon" /></a><div id="doc_preview_216400" class="ep_preview"><div><div><span><img alt="" id="doc_preview_216400_img" src="https://press.fater.uni-mate.hu/175/1.haspreviewThumbnailVersion/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf" border="0" class="ep_preview_image" /><div class="ep_preview_title">Preview</div></span></div></div></div></span>
             <span>
               
 
@@ -61,10 +61,10 @@
 </span>
 
 <br />
-              <a href="https://press.mater.uni-mate.hu/175/1/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf" class="ep_document_link">Download (3MB)</a>
+              <a href="https://press.fater.uni-mate.hu/175/1/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf" class="ep_document_link">Download (3MB)</a>
               
 			  
-			  | <a rel="lightbox[docs] nofollow" href="https://press.mater.uni-mate.hu/175/1.haslightboxThumbnailVersion/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf">Preview</a>
+			  | <a rel="lightbox[docs] nofollow" href="https://press.fater.uni-mate.hu/175/1.haslightboxThumbnailVersion/SZIERSZ_Absztrakt_Emlekkonferencia_2021_E-Book.pdf">Preview</a>
 			  
 			  
               
@@ -100,7 +100,7 @@
       
         <tr>
           <th align="right">Subjects:</th>
-          <td valign="top"><a href="https://press.mater.uni-mate.hu/view/subjects/A.html">A General Works</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/AC.html">AC Collections. Series. Collected works</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/G.html">G Geography. Anthropology. Recreation</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/GR.html">GR Folklore</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/L1.html">L Education (General)</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/LB2300.html">LB2300 Higher Education</a><br /><a href="https://press.mater.uni-mate.hu/view/subjects/N.html">N Fine Arts</a> &gt; <a href="https://press.mater.uni-mate.hu/view/subjects/ND.html">ND Painting</a></td>
+          <td valign="top"><a href="https://press.fater.uni-mate.hu/view/subjects/A.html">A General Works</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/AC.html">AC Collections. Series. Collected works</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/G.html">G Geography. Anthropology. Recreation</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/GR.html">GR Folklore</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/L1.html">L Education (General)</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/L.html">L Education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB.html">LB Theory and practice of education</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/LB2300.html">LB2300 Higher Education</a><br /><a href="https://press.fater.uni-mate.hu/view/subjects/N.html">N Fine Arts</a> &gt; <a href="https://press.fater.uni-mate.hu/view/subjects/ND.html">ND Painting</a></td>
         </tr>
       
     
@@ -111,7 +111,7 @@
           <th align="right">Depositing User:</th>
           <td valign="top">
 
-<a href="https://press.mater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
+<a href="https://press.fater.uni-mate.hu/cgi/users/home?screen=User::View&amp;userid=1"><span class="ep_name_citation"><span class="person_name">Sára G. Szabó</span></span></a>
 
 </td>
         </tr>
@@ -146,7 +146,7 @@
     
     <tr>
       <th align="right">URI:</th>
-      <td valign="top"><a href="https://press.mater.uni-mate.hu/id/eprint/175">https://press.mater.uni-mate.hu/id/eprint/175</a></td>
+      <td valign="top"><a href="https://press.fater.uni-mate.hu/id/eprint/175">https://press.fater.uni-mate.hu/id/eprint/175</a></td>
     </tr>
   </table>
 
