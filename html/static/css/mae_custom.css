@@ -47,6 +47,14 @@ footer{background:#f8f9fa}
     transition: background .2s;
 }
 .ep_search_result > div:hover { background: #f8f9fa; }
+.ep_search_result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: .25rem;
+    margin-bottom: .5rem;
+    transition: transform .2s;
+}
+.ep_search_result img:hover { transform: scale(1.02); }
 .ep_search_result_title a,
 .ep_search_result_title a:visited {
     font-size: 1.25rem;
