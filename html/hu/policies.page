@@ -1,54 +1,24 @@
 
-<ul>
-<li><strong>Metaadat-irányelvek</strong> (a repozitóriumban található elemeket leíró információkról):
-<ul>
-<li>A metaadatokhoz bárki ingyenesen hozzáférhet.</li>
-<li>A metaadatokat előzetes hivatalos engedélykérés nélkül kereskedelmi célokra felhasználni nem szabad.</li>
-</ul>
-</li>
-<li><strong>Adatkezelési szabályok</strong> (full text és egyéb teljes szövegű elemekhez):
-<ul>
-<li>A repozitóriumban található teljes szövegű tartalmakhoz bárki ingyenesen hozzáférhet.</li>
-<li>A teljes szövegű tartalmakról másolat készíthető, és bármilyen formátumban megjeleníthető saját kutatáshoz és tanulmányokhoz, vagy nem kereskedelmi célokra előzetes engedélykérés vagy díjfizetés nélkül.</li>
-<li>Teljes szöveget semmilyen formában vagy médiában kereskedelmi forgalomba nem szabad helyezni a szerzői jogok tulajdonosainak hivatalos engedélye nélkül.</li>
-</ul>
-</li>
-<li><strong>Tartalmi irányelvek</strong> (dokumentumtípusokhoz és adatkészletekhez):
-<ul>
-<li>A MATER Press egy intézményi repozitórium</li>
-<li>Minden elemet az elfogadási/megjelenési státusznak megfelelően jelöl a rendszer.</li>
-</ul>
-</li>
-<li><strong>Feltöltési/elhelyezési szabályok</strong> (a feltöltővel, a minőséggel és a szerzői jogokkal kapcsolatban):
-<ul>
-<li>Elemek elhelyezése csak a szervezet akkreditált tagjainak vagy az általuk megbízott személyek számára lehetséges.</li>
-<li>A szerzők csak saját közleményeiket helyezhetik el a repozitóriumba.</li>
-<li>A feltöltött elemek érvényessége és hitelessége a feltöltő kizárólagos felelőssége.</li>
-<li>Embaro esetén a közlemények elhelyezése a kiadói vagy támogatói embargo lejáratát követően történik.</li>
-<li>Bármilyen szerzői jogi jogsértés teljes mértékben a szerző/elhelyező felelőssége.</li>
-<li>Ha a repozitóriumba feltöltött elemről bebizonyosodik, a szerzői jogi jogsértés, az elem azonnali hatállyal eltávolításra kerül.</li>
-</ul>
-</li>
-<li><strong>Megőrzésre vonatkozó szabályok</strong>
-<ul>
-<li>Az elemek határozatlan ideig kerülnek tárolásra.</li>
-<li>A repozitórium a folyamatos olvashatóság és elérhetőség biztosítására törekszik.</li>
-<li>A repozitórium folyamatosan végez biztonsági mentéseket az aktuális legjobb gyakorlatok szerint.</li>
-<li>Az elemek általában nem távolíthatók el a repozitóriumból.</li>
-<li>Elfogadható okok a közlemények visszavonására:
-<ul>
-<li>Bizonyított szerzői jogi jogsértés vagy plágium.</li>
-<li>Jogi követelmények és bizonyított jogsértés.</li>
-<li>Nemzetbiztonság.</li>
-<li>Hamisított kutatás.</li>
-</ul>
-</li>
-<li>A visszavont elemek önmagukban nem kerülnek törlésre, de a nyilvánosság elől visszavonásra kerülnek.</li>
-<li>A visszavont elemek azonosítói/URL címei határozatlan ideig őrződnek.</li>
-<li>Az URL-ek folyamatosan a hivatkozható pontra mutatnak, a hibás linkek és a történetek megőrzése érdekében.</li>
-<li>A repozitóriumban elhelyezett elemek utólagos módosítása nem engedélyezett.</li>
-<li>Amennyiben szükség van rá, frissített verzió elhelyezésére lehetőség van.</li>
-<li>Amennyiben a repozitórium leállításra kerül, az adatbázis egy másik megfelelő archívumba fog átkerülni.</li>
-</ul>
-</li>
-</ul>
+
+
+
+
+<div class="ep_msg_warning"><div class="ep_msg_warning_content"><table><tbody><tr><td>
+<img alt="Warning" src="/style/images/warning.png" /></td><td>
+<p>No policies have been defined for this repository. </p>
+<p>You can use the <a href="http://www.opendoar.org/tools/en/policies.php">OpenDOAR Policies Tool</a> to produce a standard policy page. Use the button below to define your policies.</p>
+</td></tr></tbody></table></div></div>
+
+<form method="post" action="http://www.opendoar.org/tools/policytool.php">
+<textarea style="display: none" name="rName">MATER Press repozitórium</textarea>
+<input type="hidden" name="la" value="en" />
+<input type="hidden" name="rUrl" value="https://press.fater.uni-mate.hu/" />
+<input type="hidden" name="rOaiBaseUrl" value="https://press.fater.uni-mate.hu/cgi/oai2" />
+<input type="submit" value="Start defining policies" class="ep_form_action_button" />
+</form>
+
+<p>Add your policies to: <code>/usr/share/eprints/archives/press/cfg/lang/en/static/policies.xpage</code></p>
+
+
+
+

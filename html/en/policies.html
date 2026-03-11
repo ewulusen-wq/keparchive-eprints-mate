@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Repository Policies - Publikációk</title>
+    <title>Repository Policies - MATER Press</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <script type="text/javascript">
@@ -16,8 +16,8 @@ var eprints_logged_in_username = "";
 var eprints_logged_in_usertype = ""; 
 // ]]></script>
     <style type="text/css">.ep_logged_in { display: none }</style>
-    <link href="/style/auto-3.4.5.css" rel="stylesheet" type="text/css" />
-    <script src="/javascript/auto-3.4.5.js" type="text/javascript">
+    <link rel="stylesheet" type="text/css" href="/style/auto-3.4.5.css" />
+    <script type="text/javascript" src="/javascript/auto-3.4.5.js">
 //padder
 </script>
     <!--[if lte IE 6]>
@@ -25,17 +25,17 @@ var eprints_logged_in_usertype = "";
    <![endif]-->
     <meta name="Generator" content="EPrints 3.4.5" />
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
-    <meta content="en" http-equiv="Content-Language" />
-    <script src="https://www.google.com/jsapi" type="text/javascript">
+    <meta http-equiv="Content-Language" content="en" />
+    <script type="text/javascript" src="http://www.google.com/jsapi">
 //padder
 </script><script type="text/javascript">
 // <![CDATA[
 google.load("visualization", "1", {packages:["corechart", "geochart"]});
 // ]]></script><link href="https://press.fater.uni-mate.hu/" rel="Top" />
-    <link href="https://press.fater.uni-mate.hu/sword-app/servicedocument" rel="Sword" />
-    <link href="https://press.fater.uni-mate.hu/id/contents" rel="SwordDeposit" />
-    <link href="https://press.fater.uni-mate.hu/cgi/search" rel="Search" type="text/html" />
-    <link title="Publikációk" href="https://press.fater.uni-mate.hu/cgi/opensearchdescription" rel="Search" type="application/opensearchdescription+xml" />
+    <link rel="Sword" href="https://press.fater.uni-mate.hu/sword-app/servicedocument" />
+    <link rel="SwordDeposit" href="https://press.fater.uni-mate.hu/id/contents" />
+    <link rel="Search" type="text/html" href="https://press.fater.uni-mate.hu/cgi/search" />
+    <link type="application/opensearchdescription+xml" rel="Search" href="https://press.fater.uni-mate.hu/cgi/opensearchdescription" title="MATER Press" />
     
   </head>
   <body>
@@ -74,10 +74,10 @@ google.load("visualization", "1", {packages:["corechart", "geochart"]});
         
           <div class="ep_tm_searchbar">
             <div>
-              <ul role="toolbar" class="ep_tm_key_tools" id="ep_tm_menu_tools"><li class="ep_tm_key_tools_item"><a href="/cgi/users/home" class="ep_tm_key_tools_item_link">Login</a></li></ul>
+              <ul id="ep_tm_menu_tools" role="toolbar" class="ep_tm_key_tools"><li class="ep_tm_key_tools_item"><a href="/cgi/users/home" class="ep_tm_key_tools_item_link">Login</a></li></ul>
             </div>
             <div>
-              <div id="ep_tm_languages"><a title="Magyar" href="/cgi/set_lang?lang=hu&amp;referrer=https%3A%2F%2Fpress.fater.uni-mate.hu%2Fpolicies.html"><img align="top" alt="Magyar" border="0" src="/images/flags/hu.png" /></a><a title="Clear Cookie - decide language by browser settings" href="/cgi/set_lang?referrer=https%3A%2F%2Fpress.fater.uni-mate.hu%2Fpolicies.html"><img align="top" alt="Clear Cookie - decide language by browser settings" border="0" src="/images/flags/aero.png" /></a></div>
+              <div id="ep_tm_languages"><a title="Magyar" href="/cgi/set_lang?lang=hu&amp;referrer="><img border="0" alt="Magyar" src="/images/flags/hu.png" align="top" /></a><a href="/cgi/set_lang?referrer=" title="Clear Cookie - decide language by browser settings"><img src="/images/flags/aero.png" align="top" border="0" alt="Clear Cookie - decide language by browser settings" /></a></div>
               <form method="get" accept-charset="utf-8" action="/cgi/search" role="search" aria-label="Publication simple search">
                 <input class="ep_tm_searchbarbox" size="20" type="text" name="q" aria-labelledby="searchbutton" />
                 <input class="ep_tm_searchbarbutton" value="Search" type="submit" name="_action_search" id="searchbutton" />
@@ -99,7 +99,7 @@ google.load("visualization", "1", {packages:["corechart", "geochart"]});
           
 
 <div class="ep_msg_warning">
-  <div class="ep_msg_warning_content">
+  <div class="alert alert-warning">
     <div class="ep_msg_warning_icon">
       <img alt="Warning" src="/style/images/warning.png" />
     </div>
@@ -111,11 +111,11 @@ google.load("visualization", "1", {packages:["corechart", "geochart"]});
 </div>
 
 <form method="post" action="https://v2.sherpa.ac.uk/opendoar/policytool/">
-  <textarea style="display: none;" name="rName" aria-label="Archive name">Publikációk</textarea>
+  <textarea style="display: none;" name="rName" aria-label="Archive name">MATER Press</textarea>
   <input type="hidden" name="la" value="en" />
   <input type="hidden" name="rUrl" value="https://press.fater.uni-mate.hu/" />
   <input type="hidden" name="rOaiBaseUrl" value="https://press.fater.uni-mate.hu/cgi/oai2" />
-  <input type="submit" value="Start defining policies" class="ep_form_action_button" />
+  <input type="submit" value="Start defining policies" class="btn btn-primary mx-2 m-1" />
 </form>
 
 <p>Add your policies to: <code>/usr/share/eprints/archives/press/cfg/lang/en/static/policies.xpage</code></p>
@@ -126,10 +126,7 @@ google.load("visualization", "1", {packages:["corechart", "geochart"]});
 
       <footer>
         <div class="ep_tm_footer ep_noprint">
-          <div>MATER Press is powered by 
- <em><a href="http://eprints.org/software/">EPrints 3.4</a></em> which is developed by the
- <a href="http://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a>,
- at the University of Southampton. <a href="https://press.fater.uni-mate.hu/eprints/">About Eprints</a>.</div>
+          <span>MATER Press is powered by <em><a href="http://eprints.org/software/">EPrints 3.4</a></em> which is developed by the <a href="https://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a> at the University of Southampton. <a href="/eprints/">About EPrints</a> | <a href="/accessibility/">Accessibility</a></span>
           <div class="ep_tm_eprints_logo">
             <a rel="external" href="https://eprints.org/software/">
               <img alt="EPrints Logo" src="/images/eprintslogo.png" /><img alt="EPrints Flavour Logo" src="/images/flavour.png" style="width: 28px" />

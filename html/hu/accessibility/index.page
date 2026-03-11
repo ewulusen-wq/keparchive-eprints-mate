@@ -11,15 +11,15 @@
 
 <h2>Table of Contents</h2>
 <ul>
-  <li><a href="#accessibility-statement-for-website-name">Accessibility statement for MATE Repozitórium</a>
+  <li><a href="#accessibility-statement-for-website-name">Accessibility statement for MATER Press repozitórium</a>
     <ul>
-      <li><a href="#how-accessible-website-is">How accessible MATE Repozitórium is</a></li>
-      <li><a href="#what-to-do-if-you-cannot-access-parts-of-this-website">What to do if you cannot access parts of MATE Repozitórium</a></li>
-      <li><a href="#reporting-accessibility-problems-with-this-website">Reporting accessibility problems with MATE Repozitórium</a></li>
+      <li><a href="#how-accessible-website-is">How accessible MATER Press repozitórium is</a></li>
+      <li><a href="#what-to-do-if-you-cannot-access-parts-of-this-website">What to do if you cannot access parts of MATER Press repozitórium</a></li>
+      <li><a href="#reporting-accessibility-problems-with-this-website">Reporting accessibility problems with MATER Press repozitórium</a></li>
       <li><a href="#enforcement-procedure">Enforcement procedure</a></li>
     </ul>
   </li>
-  <li><a href="#technical-information-about-this-websites-accessibility">Technical information about MATE Repozitórium's accessibility</a></li>
+  <li><a href="#technical-information-about-this-websites-accessibility">Technical information about MATER Press repozitórium's accessibility</a></li>
   <li><a href="#non-accessible-content">Non accessible content</a>
     <ul>
       <li><a href="#non-compliance-with-the-accessibility-regulations">Non compliance with the accessibility regulations</a></li>
@@ -27,12 +27,12 @@
       <li><a href="#content-that-is-not-within-the-scope-of-the-accessibility-regulations">Content that is not within the scope of the accessibility regulations</a></li>
     </ul>
   </li>
-  <li><a href="#how-we-tested-this-website">How we tested MATE Repozitórium</a></li> 
+  <li><a href="#how-we-tested-this-website">How we tested MATER Press repozitórium</a></li> 
   <li><a href="what-were-doing-to-improve-accessibility">What we’re doing to improve accessibility</a></li>
 </ul>
 
-<h2 id="accessibility-statement-for-website-name">Accessibility statement for MATE Repozitórium</h2>
-<p>MATE Repozitórium is run by MATE. We want as many people as possible to be able to use MATE Repozitórium. For example, that means you should be able to:</p>
+<h2 id="accessibility-statement-for-website-name">Accessibility statement for MATER Press repozitórium</h2>
+<p>MATER Press repozitórium is run by MATE. We want as many people as possible to be able to use MATER Press repozitórium. For example, that means you should be able to:</p>
 <ul>
   <li>change colours, contrast levels and fonts</li>
   <li>zoom in up to 300% without the text spilling off the screen</li>
@@ -45,8 +45,8 @@
 
 <p><a rel="external" href="https://mcmw.abilitynet.org.uk/">AbilityNet</a> has advice on making your device easier to use if you have a disability.</p>
 
-<h3 id="how-accessible-website-is">How accessible MATE Repozitórium is</h3>
-<p>We know some parts of MATE Repozitórium are not fully accessible:</p>
+<h3 id="how-accessible-website-is">How accessible MATER Press repozitórium is</h3>
+<p>We know some parts of MATER Press repozitórium are not fully accessible:</p>
 <ul>
   <li>most older PDF documents are not fully accessible to screen reader software</li>
 <!-- Examples:
@@ -62,26 +62,26 @@
   <li>empty listing of items displays "No Items" in the middle of the table that WAVE thinks should be a table caption.  This is not appropriate and displaying a row with the text "No Otems" makes it clear there are no items whereas no rows at all might make it look as though something has broken.</li>
 </ul>
 
-<h3 id="what-to-do-if-you-cannot-access-parts-of-this-website">What to do if you cannot access parts of MATE Repozitórium</h3>
-<p>If you need information on MATE Repozitórium in a different formats please contact our <a href="mailto:diszterhoft.zoltan@uni-mate.hu">repository administrators</a>. We will consider your request and will aim to get back to you within 7 working days.</p>
+<h3 id="what-to-do-if-you-cannot-access-parts-of-this-website">What to do if you cannot access parts of MATER Press repozitórium</h3>
+<p>If you need information on MATER Press repozitórium in a different formats please contact our <a href="mailto:diszterhoft.zoltan@uni-mate.hu">repository administrators</a>. We will consider your request and will aim to get back to you within 7 working days.</p>
 
-<h3 id="reporting-accessibility-problems-with-this-website">Reporting accessibility problems with  MATE Repozitórium</h3>
-<p>We are always looking to improve the accessibility of MATE Repozitórium. If you find any problems not listed on this page or think we are not meeting accessibility requirements, please <a href="/contact.html">contact us</a>.</p>
+<h3 id="reporting-accessibility-problems-with-this-website">Reporting accessibility problems with  MATER Press repozitórium</h3>
+<p>We are always looking to improve the accessibility of MATER Press repozitórium. If you find any problems not listed on this page or think we are not meeting accessibility requirements, please <a href="/contact.html">contact us</a>.</p>
 
 <h3 id="enforcement-procedure">Enforcement procedure</h3>
 <p>The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the 'accessibility regulations'). If you’re not happy with how we respond to your complaint, <a rel="external" href="https://www.equalityadvisoryservice.com/">contact the Equality Advisory and Support Service (EASS)</a>.</p>
 
-<h2 id="technical-information-about-this-websites-accessibility">Technical information about  MATE Repozitórium's accessibility</h2>
+<h2 id="technical-information-about-this-websites-accessibility">Technical information about  MATER Press repozitórium's accessibility</h2>
 <p>MATE is committed to making its website accessible, in accordance with the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018.</p>
 <!-- <p>This website is partially compliant with the <a rel="external" href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines version 2.1</a> AA standard, due to the non-compliances listed below.</p> -->
-<p>MATE Repozitórium is not compliant with the <a rel="external" href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines version 2.1</a> AA standard. The non-accessible sections are listed below.</p>
+<p>MATER Press repozitórium is not compliant with the <a rel="external" href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines version 2.1</a> AA standard. The non-accessible sections are listed below.</p>
 
 <h2 id="non-accessible-content">Non accessible content</h2>
 <p>The content listed below is non-accessible for the following reasons.</p>
-<p>We are always looking to improve the accessibility of MATE Repozitórium. If you find any problems not listed on this page or think we are not meeting accessibility requirements, contact by email: <a href="mailto:diszterhoft.zoltan@uni-mate.hu">diszterhoft.zoltan@uni-mate.hu</a>.</p>
+<p>We are always looking to improve the accessibility of MATER Press repozitórium. If you find any problems not listed on this page or think we are not meeting accessibility requirements, contact by email: <a href="mailto:diszterhoft.zoltan@uni-mate.hu">diszterhoft.zoltan@uni-mate.hu</a>.</p>
 
 <h3 id="non-compliance-with-the-accessibility-regulations">Non compliance with the accessibility regulations</h3>
-<p>We are yet to compile a list of where and how  MATE Repozitórium is non-compliant with accessibility regulations.</p>
+<p>We are yet to compile a list of where and how  MATER Press repozitórium is non-compliant with accessibility regulations.</p>
 <!-- 
 [Note: In this subsection, list:
 
@@ -135,7 +135,7 @@ We have assessed the cost of fixing the issues with navigation and accessing inf
 -->
 
 <h4 id="pdfs-and-other-documents">PDFs and other documents</h4>
-<p>As MATE Repozitórium is an open access research repository, the principal content made available to users are research outputs such as articles, papers, posters and reports, many of which are PDF documents. Many PDF documents, especially older ones, are not fully accessible to screen reader software and do not contain other common accessibility features. In particular:</p>
+<p>As MATER Press repozitórium is an open access research repository, the principal content made available to users are research outputs such as articles, papers, posters and reports, many of which are PDF documents. Many PDF documents, especially older ones, are not fully accessible to screen reader software and do not contain other common accessibility features. In particular:</p>
 <ul>
   <li>many documents, especially older ones, do not conform to the PDF/A archiving format.</li>
   <li>many lack bookmarks or document titles, therefore failing to meet WCAG 2.1 success criteria 2.4.5 and 2.4.2.</li>
@@ -143,15 +143,15 @@ We have assessed the cost of fixing the issues with navigation and accessing inf
   <li>there may be some documents that fail to specify their human language, thereby failing WCAG 2.1 success criterion 3.1.1.</li>
   <li>many documents may not reflow satisfactorily. This fails WCAG 2.1 success criterion 1.4.10.</li>
 </ul>
-<p>The accessibility regulations <a rel="external" href="http://www.legislation.gov.uk/uksi/2018/952/regulation/4/made">do not require us to fix PDFs or other documents placed in MATE Repozitórium's archive before 23 September 2019</a> as these items are considered "archives".</p>
-<p>PDFs and other documents added after 23 September 2019 may be user provided and therefore not fully accessible. MATE Repozitórium has a review process that should identify these before they are made available for download.  If this is not the case please contact by email: <a href="mailto:diszterhoft.zoltan@uni-mate.hu">diszterhoft.zoltan@uni-mate.hu</a>.</p>
+<p>The accessibility regulations <a rel="external" href="http://www.legislation.gov.uk/uksi/2018/952/regulation/4/made">do not require us to fix PDFs or other documents placed in MATER Press repozitórium's archive before 23 September 2019</a> as these items are considered "archives".</p>
+<p>PDFs and other documents added after 23 September 2019 may be user provided and therefore not fully accessible. MATER Press repozitórium has a review process that should identify these before they are made available for download.  If this is not the case please contact by email: <a href="mailto:diszterhoft.zoltan@uni-mate.hu">diszterhoft.zoltan@uni-mate.hu</a>.</p>
 
 <h4 id="general-issues">General issues</h4>
-<p>Areas of MATE Repozitórium which are not document-based demonstrate good levels of accessibility. However, the following issues have been identified and are in the process of being addressed:</p>
+<p>Areas of MATER Press repozitórium which are not document-based demonstrate good levels of accessibility. However, the following issues have been identified and are in the process of being addressed:</p>
 <ul>
 <li>Headings on some of our pages do not appear in a logical order. This does not meet WCAG 2.1 success criterion 2.4.10.</li>
-<li>Some of the forms and interactive search pages on MATE Repozitórium are not appropriately labelled or do not have labels. This does not meet WCAG 2.1 success criterion 3.3.2.</li>
-<li>Interactive elements of MATE Repozitórium (such as search) do not utilise status messages to update screen readers of a change in state. This does not meet WCAG 2.1 success criterion 3.2.2.</li>
+<li>Some of the forms and interactive search pages on MATER Press repozitórium are not appropriately labelled or do not have labels. This does not meet WCAG 2.1 success criterion 3.3.2.</li>
+<li>Interactive elements of MATER Press repozitórium (such as search) do not utilise status messages to update screen readers of a change in state. This does not meet WCAG 2.1 success criterion 3.2.2.</li>
 </ul>
 
 <!--
@@ -160,8 +160,8 @@ Other Example:
 <p>Most audio and video files do not have captions. This fails WCAG 2.1 success criterion 1.2.2 (captions - prerecorded).</p>
 -->
 
-<h2 id="how-we-tested-this-website">How we tested MATE Repozitórium</h2>
-<p>MATE Repozitórium was last comprehensively tested on <b>18 April 2021</b>.  You can read the <a href="report.html">comprehensive report</a>.</p>
+<h2 id="how-we-tested-this-website">How we tested MATER Press repozitórium</h2>
+<p>MATER Press repozitórium was last comprehensively tested on <b>19 May 2023</b>.  You can read the <a href="report.html">comprehensive report</a>.</p>
 
 <p>Based on testing a default publication flavour installation of EPrints using standard test data, all tested public-facing and back-end administration pages currently report no errors or contrast errors. These pages may have one or more alerts. If so, these alerts are considered acceptable and/or essential for the functioning of EPrints as an Open Access repository and will fall into one of the following categories:</p>
 <ol>
@@ -178,7 +178,7 @@ Other Example:
 [Note: publishing an accessibility roadmap is optional. It’s a good idea to publish one if you want to be specific about the order you’re planning to tackle accessibility issues, and there’s no space to do so in the accessibility statement itself.] 
 -->
 <h2 id="what-were-doing-to-improve-accessibility">What we’re doing to improve accessibility</h2>
-<p>Our <a href="roadmap.html">accessibility roadmap</a> shows how and when we plan to improve accessibility on MATE Repozitórium.</p>    
+<p>Our <a href="roadmap.html">accessibility roadmap</a> shows how and when we plan to improve accessibility on MATER Press repozitórium.</p>    
 
 <p><em>This statement was first prepared on <b>2 December 2019</b>. It was last updated on <b>7 August 2020</b>.</em></p>
 

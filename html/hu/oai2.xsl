@@ -565,6 +565,7 @@ p.intro {
     </table>
   </div>
 </xsl:template>
+
 <xsl:template match="dc:title" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <tr><td class="key">Title</td><td class="value"><xsl:value-of select="."/></td></tr></xsl:template>
 
@@ -600,12 +601,6 @@ p.intro {
 
 <xsl:template match="dc:language" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <tr><td class="key">Language</td><td class="value"><xsl:value-of select="."/></td></tr></xsl:template>
-
-<xsl:template match="dc:keywords" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<tr><td class="key">Kulcsszavak</td><td class="value"><xsl:value-of select="."/></td></tr></xsl:template>
-
-<xsl:template match="dc:contributor" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<tr><td class="key">Konzulens</td><td class="value"><xsl:value-of select="."/></td></tr></xsl:template>
 
 <xsl:template match="dc:relation" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <tr><td class="key">Relation</td><td class="value">

@@ -1,92 +1,212 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE html SYSTEM "entities.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
-    <link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
-    <epc:pin ref="head"/>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;family=Open+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-  </head>
-  <body>
-    <epc:pin ref="pagetop"/>
-<div id="wrapper">
-    <header>
-    <div class="ep_tm_header ep_noprint">
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#007548;" aria-label="Main Navigation">
-        <div class="container-fluid">
-          <a class="navbar-brand d-flex align-items-center text-white" href="{$config{rel_path}}/">
-            <img src="https://uni-mate.hu/image/layout_set_logo?img_id=11624394&t=1771872753003" alt="MATE" height="44" class="me-2" />
-            <span class="fw-semibold">Magyar Agrár- és Élettudományi Egyetem<br/><small class="fw-normal">Média Archívuma</small></span>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarHtmlHu" aria-controls="mainNavbarHtmlHu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mainNavbarHtmlHu">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link text-white" href="{$config{rel_path}}/" title="{phrase('template/navigation:home:title')}"><epc:phrase ref="template/navigation:home"/></a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="{$config{rel_path}}/information.html" title="{phrase('template/navigation:about:title')}"><epc:phrase ref="template/navigation:about"/></a></li>
-            </ul>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="browseDropdownHtmlHu" role="button" data-bs-toggle="dropdown" aria-expanded="false"><epc:phrase ref="template/navigation:browse"/></a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="browseDropdownHtmlHu">
-                  <li><a class="dropdown-item" href="{$config{rel_path}}/view/subjects/"><epc:phrase ref="bin/generate_views:indextitleprefix"/> <epc:phrase ref="viewname_eprint_subjects"/></a></li>
-                </ul>
-              </li>
-            </ul>
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:epc="http://eprints.org/ep3/control">
+    <head>
+        <meta charset="utf-8" />
+        <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="icon" href="/img/basic/favicon.ico" type="image/x-icon" />
+        <style>
+          .loader {
+              position: fixed;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              background-color: #F5F8FA;
+              z-index: 9998;
+              text-align: center;
+          }
+          .plane-container {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+          }
+        </style>
+        <epc:pin ref="head"/>
+        <link rel="stylesheet" type="text/css" href="{$config{rel_path}}/style/app.css" />
+        <script src="{$config{rel_path}}/js/app.js">// <!-- No script --></script>
+    </head>
+    <body class="loaded">
+      <div id="loader" class="loader loader-fade" role="region" aria-label="Page loading">
+          <div class="plane-container">
+              <div class="l-s-2 blink">LOADING</div>
           </div>
+      </div>
+      <div id="app" class="paper-loading">
+        <div class="invisible-links" role="navigation">
+            <a href="#main_content">Skip to main content</a>
         </div>
-      </nav>
-      <div class="ep_tm_searchbar py-2 container-fluid">
-        <div class="d-flex justify-content-between align-items-center">
-          <div><epc:pin ref="login_status"/></div>
-          <div class="d-flex align-items-center gap-2">
-            <epc:pin ref="languages"/>
-            <form method="get" accept-charset="utf-8" action="{$config{http_cgiurl}}/search" class="d-flex">
-              <input class="form-control me-2" size="20" type="text" name="q" />
-              <button class="btn btn-light" type="submit">Keresés</button>
-              <input type="hidden" name="_order" value="bytitle"/>
-              <input type="hidden" name="basic_srchtype" value="ALL"/>
-              <input type="hidden" name="_satisfyall" value="ALL"/>
-            </form>
-          </div>
-        </div>
+        <nav class="mainnav navbar navbar-default justify-content-between">
+            <div class="container relative">
+                <a class="offcanvas dl-trigger paper-nav-toggle" data-toggle="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
+                    <i></i>
+                </a>
+                <a class="navbar-brand" href="https://www.uni-mate.hu">
+                    <div class="logo"><div class="logo-wrapper">
+                        <img class="d-inline-block align-top" style="height: 60px;" alt="MATE homepage" src="https://www.uni-mate.hu/themes/custom/snowfox/logo.svg"/>
+                    </div></div>
+                </a>
+                <div class="paper_menu">
+                    <div id="dl-menu" class="responsive-menu dl-menuwrapper">
+                        <ul class="dl-menu align-items-center">
+                            <li><a href="{$config{rel_path}}/">Home</a></li>
+                            <li class="parent"><a href="#">Browse</a>
+                                <ul class="lg-submenu dl-submenu"><li class="dl-back"><a href="#">back</a></li>
+                                    <li><a href="{$config{rel_path}}/view/year/">By Year</a></li>
+                                    <li><a href="{$config{rel_path}}/view/subjects/">By Subject</a></li>
+                                    <li><a href="{$config{rel_path}}/view/divisions/">By Department</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="{$config{rel_cgipath}}/search/advanced">Search</a></li>
+                            <li><a href="{$config{rel_path}}/help.html">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main id="main_content">
+            <!-- This part is only displayed on the front page -->
+            <epc:if test="processor.is_a( 'EPrints::Plugin::Screen::FrontPage' )">
+              <!-- Search Section -->
+              <section class="search-section home-search" role="search">
+                <div class="masthead text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-md-auto">
+                                <h1><epc:phrase ref="archive_name" /></h1>
+                                <p class="lead text-muted">Capturing and preserving the intellectual output of MATE University, making it available on the Web.</p>
+                                <form method="get" accept-charset="utf-8" action="{$config{rel_cgipath}}/search">
+                                    <input type="text" class="search-field" placeholder="Search our outputs ... " name="q" aria-label="Search terms" />
+                                    <input type="hidden" name="_action_search" value="Search" />
+                                    <input type="hidden" name="_order" value="bytitle" />
+                                    <input type="hidden" name="basic_srchtype" value="ALL" />
+                                    <input type="hidden" name="_satisfyall" value="ALL" />
+                                    <button type="submit" aria-label="Perform search"><span class="icon icon-search"></span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+              <section id="genre" class="genre" role="navigation">
+                <div class="container">
+                    <header class="text-center">
+                        <h2 class="section-title">Browse Our Outputs</h2>
+                        <div class="section-subtitle">You can explore MATE University outputs in many ways</div>
+                    </header>
+                    <div class="row p-t-b-80">
+                        <div class="text-center col-xl-4">
+                            <div class="media-body">
+                                <a href="{$config{rel_path}}/view/year/">
+                                    <span class="icon icon-calendar" style="font-size: 64px; color: #ccd4dc;"></span>
+                                    <h3 class="p-t-b-20">By Year</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-4">
+                            <div class="media-body">
+                                <a href="{$config{rel_path}}/view/subjects/">
+                                    <span class="icon icon-library_books" style="font-size: 64px; color: #ccd4dc;"></span>
+                                    <h3 class="p-t-b-20">By Subject</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="text-center col-xl-4">
+                            <div class="media-body">
+                                <a href="{$config{rel_path}}/view/divisions/">
+                                    <span class="icon icon-bank" style="font-size: 64px; color: #ccd4dc;"></span>
+                                    <h3 class="p-t-b-20">By Department</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+              <section>
+                <div class="container" id="latest-additions">
+                    <header class="text-center">
+                        <h2 class="section-title">Latest Additions</h2>
+                        <div class="section-subtitle">New outputs added to the repository</div>
+                    </header>
+                    <script>
+                        // <![CDATA[
+                        var latest_additions;
+                        // use jquery to wait for document ready
+                        jQuery(document).ready(function() {
+                            latest_additions = jQuery("#latest-additions");
+                            jQuery.get('{$config{rel_cgipath}}/latest_tool', {n: 8, output: "RSS"}, function(data) {
+                                jQuery(data).find("item").each(function() {
+                                    var $this = jQuery(this);
+                                    var description = $this.find("description").text();
+                                    var link = $this.find("link").text();
+                                    var linkParts = link.split("/");
+                                    var id = linkParts[linkParts.length - 2] || "";
+                                    var labelledBy = "";
+                                    if ( id ) {
+                                        id = "id=\"" + id + "\"";
+                                        labelledBy = "aria-labelledby=\"" + id + "\"";
+                                    }
+                                    latest_additions.append(
+                                    '<div class="row call-to-action  paper-block">' +
+                                        '<div class="col-xl-1"><span class="icon icon-file-text-o" style="font-size: 64px; color: #ccd4dc;"></span>' +
+                                        "</div>" +
+                                        '<div class="col-xl-9">' +
+                                            "<div " + id + ">" + description + "</div>" +
+                                        "</div>" +
+                                        "<div class=\"col-xl-2\"><a href=\"" + link + "\" class=\"btn btn-primary btn-action mt-3\" " + labelledBy + "> Read More</a>" +
+                                        "</div>" +
+                                    "</div>"
+                                    );
+                                });
+                            });
+                        });
+                        // ]]>
+                    </script>
+                </div>
+              </section>
+            </epc:if>
+            <!-- This part is displayed on all other pages -->
+            <epc:unless test="processor.is_a( 'EPrints::Plugin::Screen::FrontPage' )">
+                <div class="container" style="padding-top: 2em; padding-bottom: 2em;">
+                    <epc:pin ref="page"/>
+                </div>
+            </epc:unless>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="row" style="justify-content: space-between;">
+                    <div class=" col-lg-4 col-xl-6 col-12 responsive-phone footer-library"><a href="https://www.uni-mate.hu" class="">
+                        <div class="logo"><div class="logo-wrapper">
+                            <img src="https://www.uni-mate.hu/themes/custom/snowfox/logo.svg" style="height: 60px" alt="MATE homepage"/>
+                            <span class="circle"></span>
+                        </div></div>
+                    </a>
+                    </div>
+                    <div class="col-xl-3 responsive-phone">
+                        <div class="h6">Links</div>
+                        <ul class="footer-links">
+                            <li><a href="https://www.eprints.org/uk/index.php/eprints-software/">EPrints</a></li>
+                            <li><a href="{$config{rel_path}}/help.html">FAQ</a></li>
+                            <li><a href="https://www.uni-mate.hu/privacy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-12 col-12 col-xl-3 responsive-phone">
+                        <div class="h6">Connect via Social Media</div>
+                        <ul class="social">
+                            <li class="facebook"><a href="https://en-gb.facebook.com/unimate/" aria-label="Facebook"><span class="icon icon-facebook"></span></a>
+                            </li>
+                            <li class="twitter"><a href="https://twitter.com/unimate" aria-label="Twitter"><span class="icon icon-twitter"></span></a>
+                            </li>
+                        </ul>
+                        <div class="copyrights">
+                            <p>© 2024 MATE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
       </div>
-    </div>
-  </header>
-    <div id="main_content">
-      <div class="ep_tm_page_content">
-        <h1 class="ep_tm_pagetitle">
-          <epc:pin ref="title"/>
-        </h1>
-        <epc:pin ref="page"/>
-      </div>
-    </div>
-  	<div class="ep_tm_eprints_logo" >
-      <a href="http://www.uni-mate.hu/" target="_blank">  
-         <img alt="MATE" width="200px" src="http://keparchive.fater.uni-mate.hu/images/sitelogo.gif"/>
-           </a>
-      </div>
-    <div class="ep_tm_footer ep_noprint" >
-       
-      
-      <div class="ep_tm_eprints_logo" >
-       
-        <a href="http://eprints.org/software/">  
-          <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/eprintslogo.png"/>
-          <img alt="EPrints Logo" src="http://keparchive.fater.uni-mate.hu/images/flavour.png" style="width: 28px"/> 
-        </a>
-      </div>
-      <epc:phrase ref="template:about_eprints"/>
-    </div>
-</div> <!-- wrapper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    </body>
 </html>

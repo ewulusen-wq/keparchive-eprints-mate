@@ -26,16 +26,16 @@ var eprints_logged_in_usertype = "";
     <meta content="EPrints 3.4.5" name="Generator" />
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <meta content="en" http-equiv="Content-Language" />
-    <script type="text/javascript" src="https://www.google.com/jsapi">
+    <script type="text/javascript" src="http://www.google.com/jsapi">
 //padder
 </script><script type="text/javascript">
 // <![CDATA[
 google.load("visualization", "1", {packages:["corechart", "geochart"]});
 // ]]></script><link rel="Top" href="https://press.fater.uni-mate.hu/" />
     <link rel="Sword" href="https://press.fater.uni-mate.hu/sword-app/servicedocument" />
-    <link rel="SwordDeposit" href="https://press.fater.uni-mate.hu/id/contents" />
-    <link rel="Search" type="text/html" href="https://press.fater.uni-mate.hu/cgi/search" />
-    <link title="MATER Press" rel="Search" type="application/opensearchdescription+xml" href="https://press.fater.uni-mate.hu/cgi/opensearchdescription" />
+    <link href="https://press.fater.uni-mate.hu/id/contents" rel="SwordDeposit" />
+    <link type="text/html" rel="Search" href="https://press.fater.uni-mate.hu/cgi/search" />
+    <link rel="Search" type="application/opensearchdescription+xml" href="https://press.fater.uni-mate.hu/cgi/opensearchdescription" title="MATER Press" />
     
   </head>
   <body>
@@ -74,10 +74,10 @@ google.load("visualization", "1", {packages:["corechart", "geochart"]});
         
           <div class="ep_tm_searchbar">
             <div>
-              <ul role="toolbar" id="ep_tm_menu_tools" class="ep_tm_key_tools"><li class="ep_tm_key_tools_item"><a href="/cgi/users/home" class="ep_tm_key_tools_item_link">Login</a></li></ul>
+              <ul id="ep_tm_menu_tools" role="toolbar" class="ep_tm_key_tools"><li class="ep_tm_key_tools_item"><a class="ep_tm_key_tools_item_link" href="/cgi/users/home">Login</a></li></ul>
             </div>
             <div>
-              <div id="ep_tm_languages"><a title="Magyar" href="/cgi/set_lang?lang=hu&amp;referrer=https%3A%2F%2Fpress.fater.uni-mate.hu%2Fcontact.html"><img align="top" border="0" alt="Magyar" src="/images/flags/hu.png" /></a><a title="Clear Cookie - decide language by browser settings" href="/cgi/set_lang?referrer=https%3A%2F%2Fpress.fater.uni-mate.hu%2Fcontact.html"><img align="top" border="0" alt="Clear Cookie - decide language by browser settings" src="/images/flags/aero.png" /></a></div>
+              <div id="ep_tm_languages"><a title="Magyar" href="/cgi/set_lang?lang=hu&amp;referrer="><img src="/images/flags/hu.png" align="top" border="0" alt="Magyar" /></a><a title="Clear Cookie - decide language by browser settings" href="/cgi/set_lang?referrer="><img align="top" src="/images/flags/aero.png" alt="Clear Cookie - decide language by browser settings" border="0" /></a></div>
               <form method="get" accept-charset="utf-8" action="/cgi/search" role="search" aria-label="Publication simple search">
                 <input class="ep_tm_searchbarbox" size="20" type="text" name="q" aria-labelledby="searchbutton" />
                 <input class="ep_tm_searchbarbutton" value="Search" type="submit" name="_action_search" id="searchbutton" />
@@ -106,10 +106,7 @@ google.load("visualization", "1", {packages:["corechart", "geochart"]});
 
       <footer>
         <div class="ep_tm_footer ep_noprint">
-          <div>MATER Press is powered by 
- <em><a href="http://eprints.org/software/">EPrints 3.4</a></em> which is developed by the
- <a href="http://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a>,
- at the University of Southampton. <a href="https://press.fater.uni-mate.hu/eprints/">About Eprints</a>.</div>
+          <span>MATER Press is powered by <em><a href="http://eprints.org/software/">EPrints 3.4</a></em> which is developed by the <a href="https://www.ecs.soton.ac.uk/">School of Electronics and Computer Science</a> at the University of Southampton. <a href="/eprints/">About EPrints</a> | <a href="/accessibility/">Accessibility</a></span>
           <div class="ep_tm_eprints_logo">
             <a rel="external" href="https://eprints.org/software/">
               <img alt="EPrints Logo" src="/images/eprintslogo.png" /><img alt="EPrints Flavour Logo" src="/images/flavour.png" style="width: 28px" />

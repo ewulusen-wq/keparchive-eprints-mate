@@ -1,0 +1,39 @@
+/* This is for overwriting eprints css declarations which work against the bootstrap styling */
+
+#wrapper {
+    background-color: #fff;
+    box-shadow: none;
+    padding: 0;
+    max-width: unset;
+    margin: unset;
+}
+
+.ep_tm_menu {
+    border-bottom: unset;
+}
+
+.ep_tm_menu li:hover {
+    background-color: unset;
+}
+
+.ep_tm_menu a, .ep_tm_menu a:visited {
+    font-weight: unset;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ep_tab_bar li a {
+    background-color: unset;
+    background-image: unset;
+    background-repeat: unset;
+}
+
+.ep_form_action_button, .ep_form_internal_button, .ep_tm_searchbarbutton, .ep_blister_node_selected {
+    border-color: unset;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 5px;
+}

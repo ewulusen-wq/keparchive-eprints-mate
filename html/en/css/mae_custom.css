@@ -1,0 +1,68 @@
+/* Custom styles for MATE Media Archive */
+:root{--brand-green:#007548;}
+body{font-family: 'Open Sans', 'Poppins', sans-serif;}
+.navbar{background-color:var(--brand-green)!important}
+.navbar .nav-link, .navbar .navbar-brand, .navbar .navbar-brand span{color:#fff}
+.navbar .nav-link:hover{color:#e6f0ea}
+.navbar-brand img{height:44px}
+.ep_tm_searchbar{background:transparent}
+.dropdown-menu{min-width:12rem}
+.dropdown-menu-end{right:0;left:auto}
+@media (max-width:767px){
+  .navbar-brand span{font-size:14px}
+}
+
+/* Page title spacing */
+.ep_tm_pagetitle{margin-top:1rem;margin-bottom:1rem}
+
+/* Footer tweaks */
+footer{background:#f8f9fa}
+
+/* General eprints menu adjustments */
+.ep_tm_menu{list-style:none;margin:0;padding:0;display:flex;gap:1rem;}
+.ep_tm_menu > li{display:inline;}
+.ep_tm_menu a{color:#fff;text-decoration:none;}
+.ep_tm_menu a:hover{text-decoration:underline;}
+
+/* Searchbar inputs consistent width */
+.ep_tm_searchbarbox{width:12rem;}
+.ep_tm_searchbarbutton{padding:.375rem .75rem;}
+
+/* Homepage menu styling */
+#ep-homepage-menu dt{font-weight:600;margin-top:1rem;}
+#ep-homepage-menu dd{margin-bottom:1rem;margin-left:0;}
+#ep-homepage-menu a{color:var(--brand-green);text-decoration:none;}
+#ep-homepage-menu a:hover{text-decoration:underline;}
+
+/* Search results redesign */
+.ep_search_results { margin: 1em auto; display: flex; flex-direction: column; gap: 1rem; }
+.ep_search_result { display: block; }
+.ep_search_result > div {
+    padding: 1rem;
+    border: none;
+    display: block;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    transition: background .2s;
+}
+.ep_search_result > div:hover { background: #f8f9fa; }
+.ep_search_result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: .25rem;
+    margin-bottom: .5rem;
+    transition: transform .2s;
+}
+.ep_search_result img:hover { transform: scale(1.02); }
+.ep_search_result_title a,
+.ep_search_result_title a:visited {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--brand-green);
+    text-decoration: none;
+}
+.ep_search_result_title a:hover { text-decoration: underline; }
+.ep_search_result_desc { margin-top: .5rem; color: #555; }
+.ep_search_result_meta { font-size: .875rem; color: #777; margin-top: .25rem; }
+
