@@ -7,9 +7,11 @@
     <link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
     <epc:pin ref="head"/>
- <link type="text/css" href="/css/mae_custom.css" rel="stylesheet" />
+  <link type="text/css" href="/css/mae_custom.css" rel="stylesheet" />
   <link type="text/css" href="/css/app.css" rel="stylesheet" />
-<script src="/js/app.js" type="text/javascript">
+<script src="/js/app.js" type="text/javascript"></script>
+<script src="/js/app2.js" type="text/javascript"></script>
+<script src="/js/jquery.js" type="text/javascript"></script>
 //padder
 </script>
   </head>
